@@ -34,7 +34,7 @@
 
 /* === CATEGORY CARDS === */
 .category-card {
-  @apply bg-white border border-border rounded-md transition-all duration-250 cursor-pointer relative overflow-hidden;
+  @apply bg-white border border-border rounded-md transition-all duration-200 cursor-pointer relative overflow-hidden;
   padding: 28px 24px;
 }
 .category-card:hover {
@@ -56,7 +56,7 @@
 
 /* === INTEL CARDS === */
 .intel-card {
-  @apply bg-white border border-border rounded-md transition-all duration-250 cursor-pointer flex gap-4 items-start;
+  @apply bg-white border border-border rounded-md transition-all duration-200 cursor-pointer flex gap-4 items-start;
   padding: 22px 24px;
 }
 .intel-card:hover {
