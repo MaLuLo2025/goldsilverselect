@@ -31,6 +31,35 @@ export const cities: City[] = [
   { name: "Chicago", slug: "chicago", state: "Illinois", stateSlug: "illinois" },
   { name: "Morton Grove", slug: "morton-grove", state: "Illinois", stateSlug: "illinois" },
   { name: "Skokie", slug: "skokie", state: "Illinois", stateSlug: "illinois" },
+  // Maryland (DC metro)
+  { name: "Rockville", slug: "rockville", state: "Maryland", stateSlug: "maryland" },
+  { name: "Frederick", slug: "frederick", state: "Maryland", stateSlug: "maryland" },
+  { name: "Gaithersburg", slug: "gaithersburg", state: "Maryland", stateSlug: "maryland" },
+  { name: "Silver Spring", slug: "silver-spring", state: "Maryland", stateSlug: "maryland" },
+  // Washington DC
+  { name: "Washington", slug: "washington", state: "District of Columbia", stateSlug: "district-of-columbia" },
+  // Pennsylvania
+  { name: "Philadelphia", slug: "philadelphia", state: "Pennsylvania", stateSlug: "pennsylvania" },
+  { name: "Broomall", slug: "broomall", state: "Pennsylvania", stateSlug: "pennsylvania" },
+  { name: "Wayne", slug: "wayne", state: "Pennsylvania", stateSlug: "pennsylvania" },
+  { name: "Ardmore", slug: "ardmore", state: "Pennsylvania", stateSlug: "pennsylvania" },
+  // Georgia
+  { name: "Atlanta", slug: "atlanta", state: "Georgia", stateSlug: "georgia" },
+  { name: "Johns Creek", slug: "johns-creek", state: "Georgia", stateSlug: "georgia" },
+  // Florida
+  { name: "Miami", slug: "miami", state: "Florida", stateSlug: "florida" },
+  { name: "Aventura", slug: "aventura", state: "Florida", stateSlug: "florida" },
+  { name: "Miami Beach", slug: "miami-beach", state: "Florida", stateSlug: "florida" },
+  { name: "Pinecrest", slug: "pinecrest", state: "Florida", stateSlug: "florida" },
+  { name: "Coral Gables", slug: "coral-gables", state: "Florida", stateSlug: "florida" },
+  // Arizona
+  { name: "Phoenix", slug: "phoenix", state: "Arizona", stateSlug: "arizona" },
+  { name: "Scottsdale", slug: "scottsdale", state: "Arizona", stateSlug: "arizona" },
+  // Massachusetts
+  { name: "Boston", slug: "boston", state: "Massachusetts", stateSlug: "massachusetts" },
+  { name: "Burlington", slug: "burlington", state: "Massachusetts", stateSlug: "massachusetts" },
+  { name: "Wakefield", slug: "wakefield", state: "Massachusetts", stateSlug: "massachusetts" },
+  { name: "Concord", slug: "concord", state: "Massachusetts", stateSlug: "massachusetts" },
 ];
 
 export function getCitiesByState(stateSlug: string): City[] {

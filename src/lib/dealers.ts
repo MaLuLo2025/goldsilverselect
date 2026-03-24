@@ -688,6 +688,419 @@ export const dealers: Dealer[] = [
   },
 
   // ============================================================
+  // WASHINGTON DC METRO — LOCAL DEALERS
+  // ============================================================
+  {
+    slug: "coins-of-the-realm",
+    name: "Coins of the Realm",
+    vertical: "local-coin-bullion",
+    description:
+      "Rockville, MD coin dealer established in 1974 serving the Washington DC metro area. PCGS and NGC authorized dealer. Buys and sells U.S. and foreign coins, precious metals bullion, stamps, and jewelry. Live spot price checked for every transaction. Carries gold, silver, and platinum coins along with 40% and 90% silver bags and silver bars.",
+    address: "1331 Rockville Pike, Ste F, Rockville, MD 20852",
+    city: "Rockville",
+    citySlug: "rockville",
+    state: "Maryland",
+    stateSlug: "maryland",
+    phone: "(301) 340-1640",
+    website: "https://coinrealm.com/",
+    isVerified: false,
+    googleRating: 4.3,
+  },
+  {
+    slug: "frederick-coin-exchange",
+    name: "Frederick Coin Exchange",
+    vertical: "local-coin-bullion",
+    description:
+      "Frederick, MD coin dealer serving the DC metro area. PCGS and NGC authorized dealer. Member of the American Numismatic Association. Carries an extensive range of gold, silver, and platinum bullion with buy/sell premiums posted on website. Offers bulk pricing on quantities over 500 ounces of silver or 20 ounces of gold. Free verbal appraisals and grading submission services.",
+    city: "Frederick",
+    citySlug: "frederick",
+    state: "Maryland",
+    stateSlug: "maryland",
+    isVerified: false,
+  },
+  {
+    slug: "capitol-coin-stamp",
+    name: "Capitol Coin & Stamp",
+    vertical: "local-coin-bullion",
+    description:
+      "Washington DC coin dealer with over 20 years in the business. NGC and U.S. Mint authorized dealer. Large inventory of historic and rare foreign and U.S. coins, ancient coins, stamps, tokens, and political memorabilia. Located in downtown DC. Focus is on rare collectibles rather than bullion.",
+    address: "1100 17th Street NW, Suite B7, Washington, DC 20036",
+    city: "Washington",
+    citySlug: "washington",
+    state: "District of Columbia",
+    stateSlug: "district-of-columbia",
+    phone: "(202) 296-0400",
+    isVerified: false,
+  },
+  {
+    slug: "gaithersburg-coin-exchange",
+    name: "Gaithersburg Coin Exchange",
+    vertical: "local-coin-bullion",
+    description:
+      "Gaithersburg, MD coin dealer serving DC area collectors for nearly four decades. NGC authorized dealer specializing in silver and certified U.S. coins.",
+    city: "Gaithersburg",
+    citySlug: "gaithersburg",
+    state: "Maryland",
+    stateSlug: "maryland",
+    isVerified: false,
+  },
+  {
+    slug: "bonanza-coins",
+    name: "Bonanza Coins (Julian Coin)",
+    vertical: "local-coin-bullion",
+    description:
+      "Silver Spring, MD coin dealer with over 50 years of numismatic experience. Specializes in old and rare U.S. coins along with medals, tokens, currency, and collectible coins. Licensed gold buyer purchasing gold, silver, and platinum jewelry. Offers advice for collectors, dealers, and investors.",
+    address: "940 Wayne Avenue, Silver Spring, MD 20910",
+    city: "Silver Spring",
+    citySlug: "silver-spring",
+    state: "Maryland",
+    stateSlug: "maryland",
+    phone: "(301) 585-8467",
+    isVerified: false,
+  },
+
+  // ============================================================
+  // PHILADELPHIA — LOCAL DEALERS
+  // ============================================================
+  {
+    slug: "stacks-bowers-philadelphia",
+    name: "Stack\u2019s Bowers Galleries (Philadelphia)",
+    vertical: "local-coin-bullion",
+    description:
+      "Philadelphia location of Stack\u2019s Bowers Galleries, America\u2019s oldest rare coin auctioneer founded in 1933. Located at 18th and JFK near City Hall. Buys and sells rare coins, paper money, and gold, silver, platinum, and palladium bullion. Offers free verbal appraisals and paid IRS tax, estate, and insurance appraisals. Gallery open for browsing.",
+    address: "1735 Market Street, Philadelphia, PA 19103",
+    city: "Philadelphia",
+    citySlug: "philadelphia",
+    state: "Pennsylvania",
+    stateSlug: "pennsylvania",
+    phone: "(267) 609-1804",
+    website: "https://stacksbowers.com/",
+    isVerified: false,
+    bbbRating: "A+",
+    googleRating: 4.4,
+  },
+  {
+    slug: "delaware-valley-rare-coins",
+    name: "Delaware Valley Rare Coins",
+    vertical: "local-coin-bullion",
+    description:
+      "Broomall, PA coin dealer established in 1969, serving the Philadelphia metro area. Staffed by knowledgeable numismatic professionals. Specializes in historic U.S. coinage. Offers appraisals, wish list fulfillment, and layaway plans. Welcomes new and experienced collectors.",
+    address: "2835 West Chester Pike, Broomall, PA 19008",
+    city: "Broomall",
+    citySlug: "broomall",
+    state: "Pennsylvania",
+    stateSlug: "pennsylvania",
+    phone: "(610) 325-0468",
+    isVerified: false,
+  },
+  {
+    slug: "sansom-coin-exchange",
+    name: "Sansom Coin Exchange",
+    vertical: "local-coin-bullion",
+    description:
+      "Center City Philadelphia coin and bullion dealer founded in 1979, located on historic Jeweler\u2019s Row two blocks from Independence Hall. Specializes in bullion, carrying all popular bullion coins and bars in gold, silver, platinum, and palladium. Also carries U.S. and foreign coins from common to high-grade rare. Publishes buy/sell prices online.",
+    address: "721 Sansom Street, Philadelphia, PA 19106",
+    city: "Philadelphia",
+    citySlug: "philadelphia",
+    state: "Pennsylvania",
+    stateSlug: "pennsylvania",
+    phone: "(215) 629-8898",
+    isVerified: false,
+  },
+  {
+    slug: "coins-currency-wayne",
+    name: "Coins & Currency of Wayne",
+    vertical: "local-coin-bullion",
+    description:
+      "Wayne, PA coin dealer founded in 2002, serving the Philadelphia suburbs. NGC and PCGS authorized dealer. U.S. Mint authorized. Founder Frank Hendrickson has over 40 years of numismatic experience. Offers collectible U.S. and foreign coins along with gold and silver bullion. Free verbal appraisals; estate appraisals available for a fee.",
+    address: "231 E Lancaster Ave, Wayne, PA 19087",
+    city: "Wayne",
+    citySlug: "wayne",
+    state: "Pennsylvania",
+    stateSlug: "pennsylvania",
+    phone: "(610) 688-6655",
+    isVerified: false,
+  },
+  {
+    slug: "capos-coins",
+    name: "Capo\u2019s Coins & Collectibles",
+    vertical: "local-coin-bullion",
+    description:
+      "One of Philadelphia\u2019s oldest coin shops, established in 1966 on Passyunk Avenue. Buys and sells U.S. coins, gold, silver, and collectibles including sports cards and autographs. Carries rare and historic coins along with common bullion coins like American Eagles. Offers appraisals, grading submission services, and coin collecting supplies.",
+    address: "1620 E Passyunk Ave, Philadelphia, PA 19148",
+    city: "Philadelphia",
+    citySlug: "philadelphia",
+    state: "Pennsylvania",
+    stateSlug: "pennsylvania",
+    phone: "(215) 468-4500",
+    isVerified: false,
+  },
+  {
+    slug: "main-line-coin-stamp",
+    name: "Main Line Coin & Stamp",
+    vertical: "local-coin-bullion",
+    description:
+      "Ardmore, PA coin and stamp dealer founded in 1978. Carries U.S. and foreign coins, gold, silver, copper, and collectible stamps. Buys individual coins and full collections including bullion, paper currency, proof and mint sets, and gold coins. Publishes buy sheet on website. Free verbal appraisals.",
+    address: "16 E Lancaster Ave, Ardmore, PA 19003",
+    city: "Ardmore",
+    citySlug: "ardmore",
+    state: "Pennsylvania",
+    stateSlug: "pennsylvania",
+    phone: "(610) 649-7900",
+    website: "https://mainlinecoin.com/",
+    isVerified: false,
+  },
+
+  // ============================================================
+  // ATLANTA — LOCAL DEALERS
+  // ============================================================
+  {
+    slug: "atlanta-gold-coin-buyers",
+    name: "Atlanta Gold & Coin Buyers",
+    vertical: "local-coin-bullion",
+    description:
+      "Family-owned Atlanta metro precious metals dealer. BBB A+ rated, accredited since 2010. Buys and sells gold, silver, platinum, and palladium bullion along with rare and numismatic coins. Appointment-only model for personalized service. Publishes buy prices on website. Carries American Eagles, foreign government coins, PAMP Suisse bars, and silver bars. 24-hour price lock guarantee.",
+    address: "11555 Medlock Bridge Rd, Ste 100, Johns Creek, GA 30097",
+    city: "Johns Creek",
+    citySlug: "johns-creek",
+    state: "Georgia",
+    stateSlug: "georgia",
+    phone: "(404) 236-9744",
+    website: "https://atlantagoldandcoin.com/",
+    isVerified: false,
+    bbbRating: "A+",
+  },
+  {
+    slug: "larry-jackson-numismatics",
+    name: "Larry Jackson Numismatics",
+    vertical: "local-coin-bullion",
+    description:
+      "Family-owned Atlanta coin dealer with over 35 years in business. PCGS and NGC authorized dealer. Lifetime member of the American Numismatic Association. Buys and sells rare coins, gold and silver bullion, and luxury Swiss watches including Rolex, Patek Philippe, Breitling, and Cartier.",
+    city: "Atlanta",
+    citySlug: "atlanta",
+    state: "Georgia",
+    stateSlug: "georgia",
+    phone: "(404) 256-3667",
+    website: "https://goldatlanta.com/",
+    isVerified: false,
+  },
+  {
+    slug: "robinsons-coins",
+    name: "Robinson\u2019s Coins",
+    vertical: "local-coin-bullion",
+    description:
+      "Atlanta coin shop founded in 1963, located at the same storefront since 1972. Family-owned. Focuses on U.S. coinage with selection ranging from state quarters and Lincoln cents to Silver American Eagles. Welcomes beginning and experienced collectors.",
+    city: "Atlanta",
+    citySlug: "atlanta",
+    state: "Georgia",
+    stateSlug: "georgia",
+    isVerified: false,
+  },
+  {
+    slug: "hancock-harwell",
+    name: "Hancock & Harwell",
+    vertical: "local-coin-bullion",
+    description:
+      "Atlanta-based rare coin dealer specializing in high-quality U.S. gold, silver, and copper type coins, with particular expertise in coins minted at the Dahlonega, Georgia and Charlotte, North Carolina mints. Also buys and sells gold, silver, and platinum bullion coins and bars.",
+    city: "Atlanta",
+    citySlug: "atlanta",
+    state: "Georgia",
+    stateSlug: "georgia",
+    website: "https://raregold.com/",
+    isVerified: false,
+  },
+
+  // ============================================================
+  // MIAMI — LOCAL DEALERS
+  // ============================================================
+  {
+    slug: "aventura-jewelry-coin",
+    name: "Aventura Jewelry & Coin",
+    vertical: "local-coin-bullion",
+    description:
+      "Aventura, FL precious metals and jewelry dealer. Owner Michael Freiman has over 30 years of numismatic experience. PCGS and NGC authorized dealer. ANA member. GIA certified gemologist. Located in the International Jewelers Exchange building. Carries American Gold Eagles, silver bars, and rare gold coins.",
+    address: "19275 Biscayne Blvd, #22, Aventura, FL 33180",
+    city: "Aventura",
+    citySlug: "aventura",
+    state: "Florida",
+    stateSlug: "florida",
+    phone: "(305) 933-2646",
+    isVerified: false,
+  },
+  {
+    slug: "miami-gold-coins",
+    name: "Miami Gold Coins",
+    vertical: "local-coin-bullion",
+    description:
+      "Miami precious metals dealer with over 30 years buying, selling, and trading collectible coins. Handles all major precious metals including gold, silver, platinum, palladium, and rhodium in bullion and coin form. Carries NGC, PCGS, and ANACS graded coins. Also deals in currency, stamps, and collecting supplies. Free verbal appraisals.",
+    address: "13789 S Dixie Hwy, Miami, FL 33176",
+    city: "Miami",
+    citySlug: "miami",
+    state: "Florida",
+    stateSlug: "florida",
+    phone: "(786) 242-3700",
+    isVerified: false,
+  },
+  {
+    slug: "park-avenue-numismatics",
+    name: "Park Avenue Numismatics",
+    vertical: "local-coin-bullion",
+    description:
+      "Miami Beach rare coin dealer founded in 1988. Staff regularly attends coin auctions and shows worldwide. Online inventory of over 3,000 certified coins plus gold bullion. Five-day money-back return policy and layaway program. Orders placed by phone.",
+    city: "Miami Beach",
+    citySlug: "miami-beach",
+    state: "Florida",
+    stateSlug: "florida",
+    isVerified: false,
+  },
+  {
+    slug: "miami-mint-gold-coins",
+    name: "Miami Mint Gold and Coins",
+    vertical: "local-coin-bullion",
+    description:
+      "Pinecrest, FL precious metals dealer. Buys and sells gold and silver bullion bars and coins along with numismatic collectibles in U.S. and foreign coinage. Also buys and sells jewelry, flatware, and scrap gold.",
+    address: "8275 SW 124th St, Pinecrest, FL 33156",
+    city: "Pinecrest",
+    citySlug: "pinecrest",
+    state: "Florida",
+    stateSlug: "florida",
+    phone: "(305) 255-4240",
+    isVerified: false,
+  },
+  {
+    slug: "gables-coin-stamp",
+    name: "Gables Coin & Stamp",
+    vertical: "local-coin-bullion",
+    description:
+      "Coral Gables, FL coin and stamp shop founded in 1966 on Miracle Mile. Buys and sells American, world, and ancient coins along with gold and silver coins, and stamps. Long-established neighborhood dealer.",
+    address: "82 Miracle Mile, Coral Gables, FL 33134",
+    city: "Coral Gables",
+    citySlug: "coral-gables",
+    state: "Florida",
+    stateSlug: "florida",
+    phone: "(305) 446-0032",
+    isVerified: false,
+  },
+
+  // ============================================================
+  // PHOENIX — LOCAL DEALERS
+  // ============================================================
+  {
+    slug: "southwest-coin-bullion",
+    name: "Southwest Coin & Bullion",
+    vertical: "local-coin-bullion",
+    description:
+      "Phoenix-area coin shop and precious metals dealer. Buys and sells rare coins, currency, gold and silver bullion. Offers estate liquidation services. Personalized, hands-on approach with secure storefront in the Phoenix Valley area.",
+    city: "Phoenix",
+    citySlug: "phoenix",
+    state: "Arizona",
+    stateSlug: "arizona",
+    website: "https://swcoinbullion.com/",
+    isVerified: false,
+  },
+  {
+    slug: "first-national-bullion-phoenix",
+    name: "First National Bullion",
+    vertical: "local-coin-bullion",
+    description:
+      "Boutique precious metals firm with multiple locations in Arizona and California. Specializes in gold, silver, platinum, and palladium bullion and coin sales. Carries modern bullion coins and bars alongside circulated vintage American gold and silver coins from the mid-1800s to early 1900s. Staff averages 10+ years experience.",
+    city: "Phoenix",
+    citySlug: "phoenix",
+    state: "Arizona",
+    stateSlug: "arizona",
+    website: "https://firstnationalbullion.com/",
+    isVerified: false,
+  },
+  {
+    slug: "scottsdale-bullion-coin",
+    name: "Scottsdale Bullion and Coin",
+    vertical: "local-coin-bullion",
+    description:
+      "Scottsdale, AZ precious metals dealer. BBB A+ accredited since 2012. Buys, sells, and trades gold, silver, platinum, and palladium bullion products along with rare coins. Offers Gold and Silver IRA diversification services. Provides free appraisals and cash payment for old gold and silver. Multiple payment methods including credit card, PayPal, and wire transfer.",
+    address: "14500 N Northsight Blvd, Scottsdale, AZ 85260",
+    city: "Scottsdale",
+    citySlug: "scottsdale",
+    state: "Arizona",
+    stateSlug: "arizona",
+    website: "https://www.sbcgold.com/",
+    isVerified: false,
+    bbbRating: "A+",
+    googleRating: 4.8,
+  },
+
+  // ============================================================
+  // BOSTON — LOCAL DEALERS
+  // ============================================================
+  {
+    slug: "boston-bullion",
+    name: "Boston Bullion",
+    vertical: "local-coin-bullion",
+    description:
+      "Burlington, MA precious metals dealer serving the Boston metro area. Deals exclusively in precious metal bars, rounds, and coins. Carries silver bars from 1 oz to 100 oz, American Eagles in gold/silver/platinum, popular gold coins, and PAMP Suisse gold bars. Buy/sell prices posted on website with bulk discounts. Appointment only.",
+    address: "127 Cambridge St, #1A, Burlington, MA 01803",
+    city: "Burlington",
+    citySlug: "burlington",
+    state: "Massachusetts",
+    stateSlug: "massachusetts",
+    phone: "(781) 710-8419",
+    website: "https://bostonbullion.com/",
+    isVerified: false,
+  },
+  {
+    slug: "jj-teaparty",
+    name: "JJ Teaparty",
+    vertical: "local-coin-bullion",
+    description:
+      "One of Boston\u2019s oldest coin dealers, founded in 1957. Specializes in early U.S. coins. Regularly attends coin shows across the country. Inventory includes high-grade Morgan silver dollars, PCGS and NGC graded coins, pre-1933 U.S. gold, gold and silver bullion, and paper currency. Offers appraisals and in-home visits for collection sales.",
+    city: "Boston",
+    citySlug: "boston",
+    state: "Massachusetts",
+    stateSlug: "massachusetts",
+    isVerified: false,
+  },
+  {
+    slug: "northshore-numismatics",
+    name: "Northshore Numismatics",
+    vertical: "local-coin-bullion",
+    description:
+      "Wakefield, MA full-service coin dealer serving the Boston area. PCGS and NGC authorized dealer. Longstanding ANA member. Buys and sells rare coins and bullion. Carries pre-1933 U.S. gold coins, certified coins, proof/mint sets, and pre-1964 silver coinage. Also stocks American Eagles, Maple Leafs, Krugerrands, and gold/silver bars.",
+    address: "358 Main Street, Wakefield, MA 01880",
+    city: "Wakefield",
+    citySlug: "wakefield",
+    state: "Massachusetts",
+    stateSlug: "massachusetts",
+    phone: "(781) 246-4500",
+    isVerified: false,
+  },
+  {
+    slug: "northeast-numismatics",
+    name: "Northeast Numismatics",
+    vertical: "local-coin-bullion",
+    description:
+      "Concord, MA coin dealer founded over 50 years ago. Deals in every type of collectible coin including gold, silver, and copper. Sells through website and by appointment. One of the longest-established coin dealers in the Boston metro area.",
+    address: "100 Main St, #330, Concord, MA 01742",
+    city: "Concord",
+    citySlug: "concord",
+    state: "Massachusetts",
+    stateSlug: "massachusetts",
+    phone: "(800) 449-2646",
+    isVerified: false,
+  },
+  {
+    slug: "collvest-coins",
+    name: "Collvest Coins",
+    vertical: "local-coin-bullion",
+    description:
+      "Boston-area coin dealer founded in 2011 by a collector active in numismatics since the 1980s. NGC authorized dealer and ANA member. Specializes in certified and non-certified U.S. coins. Also offers Silver Eagles and select bullion products. Want list service available.",
+    city: "Boston",
+    citySlug: "boston",
+    state: "Massachusetts",
+    stateSlug: "massachusetts",
+    website: "https://collvestcoins.com/",
+    isVerified: false,
+  },
+
+  // ============================================================
   // ONLINE DEALERS — FEATURED (BBB A+ and Google 4.5+)
   // ============================================================
   // McAlvany: Featured status manually approved pending Google rating verification.
