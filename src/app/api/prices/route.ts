@@ -24,7 +24,7 @@ interface CachedCurrent {
 
 interface CachedOpen {
   prices: MetalPrices;
-  date: string; // YYYY-MM-DD
+  date: string;
   timestamp: number;
 }
 
@@ -32,15 +32,11 @@ let currentCache: CachedCurrent | null = null;
 let openCache: CachedOpen | null = null;
 
 const CURRENT_TTL = 60_000; // 60 seconds
-const OPEN_TTL = 24 * 60 * 60_000; // 24 hours
+const OPEN_TTL = 12 * 60 * 60_000; // 12 hours (refresh twice daily for safety)
 
-function getTodayUTC(): string {
-  return new Date().toISOString().slice(0, 10);
-}
-
-function getYesterdayUTC(): string {
+function getDateUTC(daysAgo: number): string {
   const d = new Date();
-  d.setUTCDate(d.getUTCDate() - 1);
+  d.setUTCDate(d.getUTCDate() - daysAgo);
   return d.toISOString().slice(0, 10);
 }
 
@@ -66,7 +62,10 @@ export async function GET() {
         `https://api.metals.dev/v1/latest?api_key=${apiKey}&currency=USD&unit=toz`,
         { cache: "no-store" }
       );
-      if (!res.ok) throw new Error(`Latest API returned ${res.status}`);
+      if (!res.ok) {
+        const body = await res.text();
+        throw new Error(`Latest API ${res.status}: ${body.slice(0, 200)}`);
+      }
       const data: MetalsDevLatest = await res.json();
 
       current = {
@@ -82,36 +81,52 @@ export async function GET() {
     }
   }
 
-  // --- Fetch opening prices (24h cache, refreshes daily) ---
-  const today = getTodayUTC();
+  // --- Fetch opening prices (12h cache) ---
+  const today = getDateUTC(0);
   let open: MetalPrices | null = null;
 
-  if (openCache && openCache.date === today && now - openCache.timestamp < OPEN_TTL) {
+  // Use cached open if still fresh (same day or within TTL)
+  if (openCache && now - openCache.timestamp < OPEN_TTL) {
     open = openCache.prices;
   } else {
-    try {
-      // Fetch yesterday's closing price as today's open reference
-      const yesterday = getYesterdayUTC();
-      const res = await fetch(
-        `https://api.metals.dev/v1/timeseries?api_key=${apiKey}&start_date=${yesterday}&end_date=${yesterday}&currency=USD&unit=toz`,
-        { cache: "no-store" }
-      );
-      if (!res.ok) throw new Error(`Timeseries API returned ${res.status}`);
-      const data: MetalsDevTimeseries = await res.json();
+    // Try yesterday first, then 2 days ago (covers weekends/holidays)
+    for (const daysAgo of [1, 2, 3]) {
+      try {
+        const date = getDateUTC(daysAgo);
+        console.log(`Fetching timeseries for ${date}...`);
+        const res = await fetch(
+          `https://api.metals.dev/v1/timeseries?api_key=${apiKey}&start_date=${date}&end_date=${date}&currency=USD&unit=toz`,
+          { cache: "no-store" }
+        );
+        if (!res.ok) {
+          const body = await res.text();
+          console.error(`Timeseries API ${res.status} for ${date}: ${body.slice(0, 200)}`);
+          continue;
+        }
+        const data: MetalsDevTimeseries = await res.json();
+        console.log(`Timeseries response dates: ${Object.keys(data.rates || {}).join(", ")}`);
 
-      const dayData = data.rates[yesterday];
-      if (dayData) {
-        open = {
-          gold: dayData.metals.gold,
-          silver: dayData.metals.silver,
-          platinum: dayData.metals.platinum,
-          palladium: dayData.metals.palladium,
-        };
-        openCache = { prices: open, date: today, timestamp: now };
+        const dayData = data.rates[date];
+        if (dayData && dayData.metals) {
+          open = {
+            gold: dayData.metals.gold,
+            silver: dayData.metals.silver,
+            platinum: dayData.metals.platinum,
+            palladium: dayData.metals.palladium,
+          };
+          openCache = { prices: open, date: today, timestamp: now };
+          console.log(`Open prices set from ${date}: gold=${open.gold}, silver=${open.silver}`);
+          break;
+        }
+      } catch (err) {
+        console.error(`Timeseries error for ${daysAgo} days ago:`, err);
       }
-    } catch (err) {
-      console.error("Metals API timeseries error:", err);
-      if (openCache) open = openCache.prices;
+    }
+
+    // Fall back to stale cache if all attempts failed
+    if (!open && openCache) {
+      console.log("Using stale open cache from", openCache.date);
+      open = openCache.prices;
     }
   }
 

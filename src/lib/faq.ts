@@ -1,8 +1,14 @@
+export interface FAQLink {
+  label: string;
+  href: string;
+}
+
 export interface FAQItem {
   question: string;
   answer: string;
   learnMoreLabel?: string;
   learnMoreHref?: string;
+  links?: FAQLink[];
 }
 
 export interface FAQCategory {
@@ -186,13 +192,16 @@ export const faqCategories: FAQCategory[] = [
     items: [
       {
         question: "How do I spot a gold or silver scam?",
-        answer: "The most common red flags: unsolicited phone calls pushing precious metals, extreme urgency or \u201Climited time\u201D pricing, steering from the bullion you asked about into high-premium numismatic coins, promises of guaranteed returns, refusal to post prices publicly (everything is \u201Ccall for a quote\u201D), and businesses with no verifiable physical address. Legitimate precious metals transactions are not high-pressure events. If something feels like a hard sell, it probably is. Trust that instinct.",
-        learnMoreLabel: "What Should I Truly Pay for Gold and Silver?",
-        learnMoreHref: "/blog/what-should-i-truly-pay-for-gold-and-silver",
+        answer: "The most common red flags: unsolicited phone calls pushing precious metals, extreme urgency or \u201Climited time\u201D pricing, steering from the bullion you asked about into high-premium numismatic coins, promises of guaranteed returns, refusal to post prices publicly (everything is \u201Ccall for a quote\u201D), and businesses with no verifiable physical address. Legitimate precious metals transactions are not high-pressure events. If something feels like a hard sell, it probably is. Trust that instinct. The FTC\u2019s consumer guidance on investment scams (consumer.ftc.gov) and the CFTC\u2019s precious metals advisory (cftc.gov) are both worth reading before making any purchase.",
+        links: [
+          { label: "FTC: Investment Scams", href: "https://consumer.ftc.gov/articles/investment-scams" },
+          { label: "CFTC: Gold Is No Safe Investment", href: "https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/gold_is_no_safe_investment.htm" },
+          { label: "What Should I Truly Pay for Gold and Silver?", href: "/blog/what-should-i-truly-pay-for-gold-and-silver" },
+        ],
       },
       {
         question: "Are gold IRA companies legitimate?",
-        answer: "Some are. Many operate in a gray area where aggressive marketing and high fees border on predatory, even if they\u2019re technically legal. The gold IRA space has attracted companies that spend enormous sums on advertising \u2014 television commercials, celebrity spokespeople, \u201Cfree gold\u201D promotions \u2014 which should raise the question of where that marketing budget comes from. Watch for opaque or layered fee structures, pressure to roll over retirement accounts quickly, and claims about gold being \u201Cconfiscation-proof\u201D or \u201CIRA-approved\u201D that are either misleading or meaningless. Research independently, and consult a fee-only financial advisor.",
+        answer: "Some are. Many operate in a gray area where aggressive marketing and high fees border on predatory, even if they\u2019re technically legal. The gold IRA space has attracted companies that spend enormous sums on advertising \u2014 television commercials, celebrity spokespeople, \u201Cfree gold\u201D promotions \u2014 which should raise the question of where that marketing budget comes from. Watch for opaque or layered fee structures, pressure to roll over retirement accounts quickly, and claims about gold being \u201Cconfiscation-proof\u201D or \u201CIRA-approved\u201D that are either misleading or meaningless. Research independently, and consult a fee-only financial advisor. The CFTC warns that gold is not a guaranteed safe investment at cftc.gov/LearnAndProtect.",
         learnMoreLabel: "Gold IRA Scams \u2014 What You Need to Know",
         learnMoreHref: "/blog/gold-ira-scams",
       },

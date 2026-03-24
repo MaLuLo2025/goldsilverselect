@@ -176,14 +176,30 @@ export default function FAQContent() {
                       }}
                     >
                       <p>{item.answer}</p>
-                      {item.learnMoreHref && (
+                      {item.links && item.links.length > 0 ? (
+                        <div className="flex flex-col gap-1.5 mt-3">
+                          {item.links.map((link, li) => (
+                            <Link
+                              key={li}
+                              href={link.href}
+                              target={link.href.startsWith("http") ? "_blank" : undefined}
+                              rel={link.href.startsWith("http") ? "noopener noreferrer" : undefined}
+                              className="font-sans text-[13px] font-semibold text-gold no-underline hover:underline"
+                            >
+                              {link.label} &rarr;
+                            </Link>
+                          ))}
+                        </div>
+                      ) : item.learnMoreHref ? (
                         <Link
                           href={item.learnMoreHref}
+                          target={item.learnMoreHref.startsWith("http") ? "_blank" : undefined}
+                          rel={item.learnMoreHref.startsWith("http") ? "noopener noreferrer" : undefined}
                           className="font-sans text-[13px] font-semibold text-gold no-underline hover:underline inline-block mt-3"
                         >
                           Learn more: {item.learnMoreLabel} &rarr;
                         </Link>
-                      )}
+                      ) : null}
                     </div>
                   </div>
                 </div>
