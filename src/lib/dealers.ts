@@ -2,24 +2,8 @@ import { Dealer } from "./types";
 
 export const dealers: Dealer[] = [
   // ============================================================
-  // AUSTIN, TEXAS — FEATURED LOCAL DEALERS
+  // AUSTIN, TEXAS — FEATURED LOCAL DEALERS (BBB A+ and Google 4.5+)
   // ============================================================
-  {
-    slug: "austin-rare-coins-bullion",
-    name: "Austin Rare Coins & Bullion",
-    vertical: "local-coin-bullion",
-    description:
-      "Austin-based precious metals dealer operating since 1989. Buys and sells gold, silver, platinum, and palladium bullion along with rare and ancient coins. PCGS and NGC authorized dealer. Located on Research Blvd in north Austin. Offers numismatic advisory services and IRA-eligible products.",
-    address: "13809 Research Blvd, Ste 405, Austin, TX 78750",
-    city: "Austin",
-    citySlug: "austin",
-    state: "Texas",
-    stateSlug: "texas",
-    phone: "(512) 231-1601",
-    website: "https://www.austincoins.com/",
-    isVerified: false,
-    bbbRating: "A+",
-  },
   {
     slug: "capital-coin-bullion",
     name: "Capital Coin & Bullion",
@@ -41,6 +25,22 @@ export const dealers: Dealer[] = [
   // ============================================================
   // AUSTIN, TEXAS — STANDARD LOCAL DEALERS
   // ============================================================
+  {
+    slug: "austin-rare-coins-bullion",
+    name: "Austin Rare Coins & Bullion",
+    vertical: "local-coin-bullion",
+    description:
+      "Austin-based precious metals dealer operating since 1989. Buys and sells gold, silver, platinum, and palladium bullion along with rare and ancient coins. PCGS and NGC authorized dealer. Located on Research Blvd in north Austin. Offers numismatic advisory services and IRA-eligible products.",
+    address: "13809 Research Blvd, Ste 405, Austin, TX 78750",
+    city: "Austin",
+    citySlug: "austin",
+    state: "Texas",
+    stateSlug: "texas",
+    phone: "(512) 231-1601",
+    website: "https://www.austincoins.com/",
+    isVerified: false,
+    bbbRating: "A+",
+  },
   {
     slug: "south-austin-coin-exchange",
     name: "South Austin Coin Exchange",
@@ -333,7 +333,8 @@ export const dealers: Dealer[] = [
   },
 
   // ============================================================
-  // NEW YORK CITY — FEATURED LOCAL DEALERS
+  // NEW YORK CITY — LOCAL DEALERS
+  // (No NYC dealers currently qualify for Featured — need both BBB + Google 4.5+)
   // ============================================================
   {
     slug: "stacks-bowers-galleries",
@@ -380,9 +381,7 @@ export const dealers: Dealer[] = [
     isVerified: false,
   },
 
-  // ============================================================
-  // NEW YORK CITY — STANDARD LOCAL DEALERS
-  // ============================================================
+  // NYC continued
   {
     slug: "manhattan-coin-shop",
     name: "Manhattan Coin Shop",
@@ -440,7 +439,12 @@ export const dealers: Dealer[] = [
   },
 
   // ============================================================
-  // LOS ANGELES — FEATURED LOCAL DEALERS
+  // LOS ANGELES — FEATURED LOCAL DEALERS (BBB A+ and Google 4.5+)
+  // Note: No LA local dealers currently qualify for Featured (need both BBB + Google)
+  // ============================================================
+
+  // ============================================================
+  // LOS ANGELES — STANDARD LOCAL DEALERS
   // ============================================================
   {
     slug: "golddealer-com-cni",
@@ -485,9 +489,6 @@ export const dealers: Dealer[] = [
     isVerified: false,
   },
 
-  // ============================================================
-  // LOS ANGELES — STANDARD LOCAL DEALERS
-  // ============================================================
   {
     slug: "a-coin-exchange",
     name: "A Coin Exchange",
@@ -557,7 +558,8 @@ export const dealers: Dealer[] = [
   },
 
   // ============================================================
-  // CHICAGO — FEATURED LOCAL DEALERS
+  // CHICAGO — LOCAL DEALERS
+  // (No Chicago dealers currently qualify for Featured — need both BBB + Google 4.5+)
   // ============================================================
   {
     slug: "chicago-coin-company",
@@ -603,9 +605,7 @@ export const dealers: Dealer[] = [
     isVerified: false,
   },
 
-  // ============================================================
-  // CHICAGO — STANDARD LOCAL DEALERS
-  // ============================================================
+  // Chicago continued
   {
     slug: "a1-jewelry-coin",
     name: "A-1 Jewelry & Coin",
