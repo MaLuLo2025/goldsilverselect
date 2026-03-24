@@ -19,8 +19,8 @@ export const blogPosts: BlogPost[] = [
     tag: "Don\u2019t Get Ripped Off",
     tagColor: "gold",
     excerpt:
-      "High-pressure phone sales, misleading fee structures, and celebrity endorsements for garbage products. Here\u2019s what to watch for.",
-    date: "2026-03-23",
+      "High-pressure phone sales, misleading fee structures, and celebrity endorsements for garbage products. The gold IRA industry has more than its share of predators. Here\u2019s what to watch for before you sign anything.",
+    date: "2026-03-24",
   },
   {
     slug: "gold-silver-ratio-explained",
@@ -28,8 +28,29 @@ export const blogPosts: BlogPost[] = [
     tag: "Education",
     tagColor: "forest",
     excerpt:
-      "The ratio tells you how many ounces of silver it takes to buy one ounce of gold. Ratio traders use it to time swaps between the two metals.",
-    date: "2026-03-23",
+      "The ratio tells you how many ounces of silver it takes to buy one ounce of gold. Ratio traders use it to time swaps between the two metals \u2014 compounding total ounces without adding new dollars.",
+    date: "2026-03-24",
+  },
+  {
+    slug: "cash-for-gold-ripoff",
+    title:
+      "Cash for Gold: Why Most Buyers Pay You Half What Your Jewelry Is Worth",
+    tag: "Don\u2019t Get Ripped Off",
+    tagColor: "gold",
+    excerpt:
+      "That \u201CWe Buy Gold\u201D sign in the strip mall? They\u2019re paying 30\u201350% of melt value. Here\u2019s how to know what your gold is actually worth before you walk in the door.",
+    date: "2026-03-24",
+  },
+  {
+    slug: "gold-coin-premiums-compared",
+    title:
+      "Gold Coin Premiums: Eagles, Maples, Krugerrands, and Buffaloes Compared",
+    tag: "Premiums & Pricing",
+    tagColor: "forest",
+    excerpt:
+      "Not all one-ounce gold coins cost the same. The difference is the premium \u2014 and understanding why certain coins carry higher premiums can save you hundreds of dollars per ounce.",
+    date: "2026-03-24",
+    series: "Spot Price vs. What You Pay",
   },
   {
     slug: "what-is-junk-silver",

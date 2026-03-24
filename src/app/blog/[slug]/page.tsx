@@ -152,6 +152,460 @@ const blogContent: Record<string, React.ReactNode> = {
       </p>
     </>
   ),
+
+  "gold-ira-scams": (
+    <>
+      <p>
+        A gold IRA — technically a self-directed individual retirement account that holds physical precious metals — is a legitimate investment vehicle. The IRS permits it. Reputable custodians administer them. Thousands of Americans hold them responsibly.
+      </p>
+      <p>
+        But the gold IRA industry is one of the most predatory corners of the financial world. The gap between the legitimate product and the way it&apos;s sold is enormous. Here&apos;s how the scams work, how to identify them, and how to protect yourself.
+      </p>
+
+      <h2>How the Sales Machine Works</h2>
+      <p>
+        Most gold IRA companies are not custodians. They&apos;re marketing firms. They spend heavily on television advertising, celebrity endorsements, and direct mail to generate phone leads. When you call the 800 number or fill out the web form, you&apos;re connected to a salesperson — not a financial advisor, not a fiduciary, not someone regulated by the SEC or FINRA.
+      </p>
+      <p>
+        That salesperson earns a commission on what you buy. The higher the markup on the product they sell you, the more they make. This creates a structural incentive to steer you toward the highest-margin products — which are almost never the best products for your portfolio.
+      </p>
+
+      <h2>Red Flag #1: The Numismatic Coin Upsell</h2>
+      <p>
+        This is the single most common gold IRA scam. Here&apos;s how it works:
+      </p>
+      <p>
+        You call to roll over $50,000 from your 401(k) into a gold IRA. The salesperson tells you that instead of buying standard bullion (American Gold Eagles, Canadian Maples, or gold bars), you should buy &ldquo;rare&rdquo; or &ldquo;collectible&rdquo; or &ldquo;graded&rdquo; coins because they offer &ldquo;better protection&rdquo; or &ldquo;higher upside.&rdquo;
+      </p>
+      <p>
+        What they don&apos;t tell you is that these numismatic coins carry markups of 30% to 200% over their melt value. A one-ounce gold coin worth $5,100 in metal content might be sold to you for $7,500 or more because of its &ldquo;rarity&rdquo; or its MS-70 grading.
+      </p>
+      <p>
+        The moment you buy it, you&apos;ve lost 30–50% of your investment to markup. The coin would need to appreciate dramatically just for you to break even — and most &ldquo;rare&rdquo; coins sold through IRA companies are not actually rare. They&apos;re common-date coins that have been slabbed and graded to justify a premium.
+      </p>
+      <p>
+        Standard bullion — American Eagles, Canadian Maples, Austrian Philharmonics, and bars from approved refiners — is what the IRS intended for precious metals IRAs. The markup on bullion is typically 3–8% over spot. That&apos;s the product you want.
+      </p>
+
+      <h2>Red Flag #2: Undisclosed or Obscured Fees</h2>
+      <p>
+        A legitimate gold IRA has fees. That&apos;s normal. But you should know exactly what they are before you sign anything:
+      </p>
+      <p>
+        <strong>Setup fee:</strong> Typically $50–$100 for opening the account.
+      </p>
+      <p>
+        <strong>Annual custodian fee:</strong> $75–$300 per year for the custodian who administers the IRA.
+      </p>
+      <p>
+        <strong>Storage fee:</strong> $100–$300 per year for the depository that physically holds your metal. This is usually scaled to the value of your holdings.
+      </p>
+      <p>
+        <strong>Transaction fees:</strong> A per-trade fee when you buy or sell metal inside the IRA.
+      </p>
+      <p>
+        The scam isn&apos;t that these fees exist — it&apos;s that many companies don&apos;t disclose them clearly upfront, or they bundle them into the price of the metal so you can&apos;t see how much you&apos;re actually paying. If a company can&apos;t or won&apos;t give you a clear, written fee schedule before you fund the account, walk away.
+      </p>
+      <p>
+        The CFTC has published guidance on precious metals fraud at{" "}
+        <a href="https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/fraudadv_preciousmetals.html" target="_blank" rel="noopener noreferrer">
+          cftc.gov
+        </a>{" "}
+        — it&apos;s worth reading before you talk to any IRA company.
+      </p>
+
+      <h2>Red Flag #3: Celebrity Endorsements</h2>
+      <p>
+        Multiple gold IRA companies pay celebrities, talk radio hosts, and television personalities to endorse their products. The celebrity reads a script. They have no expertise in precious metals, no fiduciary duty to you, and no liability if you lose money.
+      </p>
+      <p>
+        A celebrity endorsement tells you nothing about the quality of the company, the fairness of their pricing, or the suitability of the product for your retirement. Treat it as what it is: paid advertising.
+      </p>
+
+      <h2>Red Flag #4: Urgency and Fear Tactics</h2>
+      <p>
+        &ldquo;Gold is about to spike — you need to act now.&rdquo;
+      </p>
+      <p>
+        &ldquo;The dollar is going to collapse — protect your retirement today.&rdquo;
+      </p>
+      <p>
+        &ldquo;This special pricing expires at the end of the week.&rdquo;
+      </p>
+      <p>
+        These are sales tactics, not market analysis. Gold has been around for 5,000 years. It will be available for purchase next week, next month, and next year. Any company that pressures you to make a retirement decision on the phone in a single call does not have your best interests in mind.
+      </p>
+
+      <h2>Red Flag #5: &ldquo;Free Silver&rdquo; or &ldquo;Free Gold&rdquo; Promotions</h2>
+      <p>
+        Several companies advertise that they&apos;ll give you free silver or match a percentage of your investment with bonus metal. Nothing is free. The cost of that &ldquo;free&rdquo; metal is built into the markup on what you buy. If they&apos;re giving you $5,000 in &ldquo;free&rdquo; silver, they&apos;ve added at least $5,000 (and probably more) to the price of the gold you purchased.
+      </p>
+
+      <h2>What a Legitimate Gold IRA Looks Like</h2>
+      <p>A legitimate precious metals IRA company will:</p>
+      <p>Give you a clear, written fee schedule before you fund the account.</p>
+      <p>Sell you standard IRA-eligible bullion (not numismatic coins) unless you specifically request otherwise.</p>
+      <p>Explain the difference between bullion and numismatic coins and why bullion is typically more appropriate.</p>
+      <p>Not pressure you to act immediately.</p>
+      <p>Provide the name of the IRS-approved custodian and depository they use.</p>
+      <p>Be willing to let you think about it, compare prices, and call back.</p>
+      <p>
+        The SEC has published an investor alert specifically about self-directed IRAs at{" "}
+        <a href="https://www.sec.gov/investor/alerts/sdira.html" target="_blank" rel="noopener noreferrer">
+          sec.gov
+        </a>{" "}
+        — read it before opening any account.
+      </p>
+      <p>
+        The IRS publishes the rules for what metals qualify for an IRA at{" "}
+        <a href="https://www.irs.gov/retirement-plans/investments-in-collectibles-in-individually-directed-qualified-plan-accounts" target="_blank" rel="noopener noreferrer">
+          irs.gov
+        </a>{" "}
+        — any company that tries to put non-qualifying metals into your IRA is breaking the law.
+      </p>
+
+      <h2>The Bottom Line</h2>
+      <p>
+        A gold IRA can be a reasonable part of a diversified retirement portfolio. But the industry that sells them is riddled with conflicts of interest. The product is fine. The sales machine is the problem.
+      </p>
+      <p>
+        Before you talk to any gold IRA company, know the current spot price of gold (check our ticker at the top of this page), understand that bullion markups should be in the single digits, get the fee schedule in writing, and never buy on the first call.
+      </p>
+      <p>
+        Our{" "}
+        <Link href="/gold-silver-iras" className="text-gold font-semibold">
+          Gold &amp; Silver IRA directory
+        </Link>{" "}
+        links directly to provider websites with factual descriptions only — no paid placements, no endorsed providers.
+      </p>
+    </>
+  ),
+
+  "gold-silver-ratio-explained": (
+    <>
+      <p>
+        If you&apos;ve spent any time around precious metals, you&apos;ve heard someone mention &ldquo;the ratio.&rdquo; They&apos;re talking about the gold-to-silver ratio — one of the oldest and most widely watched metrics in the metals market. Here&apos;s what it is, how it works, and how traders use it to grow their holdings without spending additional money.
+      </p>
+
+      <h2>What the Ratio Is</h2>
+      <p>
+        The gold-to-silver ratio is simply the price of gold divided by the price of silver. If gold is $5,100 per ounce and silver is $60 per ounce, the ratio is 85:1 — meaning it takes 85 ounces of silver to buy one ounce of gold.
+      </p>
+      <p>
+        That&apos;s it. One number. But that number moves constantly, and the movement tells you something about the relative value of the two metals.
+      </p>
+
+      <h2>Historical Context</h2>
+      <p>
+        The ratio has varied enormously over time. A few reference points:
+      </p>
+      <p>
+        The U.S. government fixed the ratio at 15:1 in 1792 under the Coinage Act. For most of recorded history before the 20th century, the ratio fluctuated between 10:1 and 20:1, reflecting the relative abundance of the two metals in the earth&apos;s crust (roughly 17:1 by geological occurrence).
+      </p>
+      <p>
+        In modern markets, the ratio has ranged from a low of about 15:1 (in January 1980, when the Hunt brothers cornered the silver market) to a high of over 120:1 (in March 2020, during the COVID-19 panic). The long-term average since 1970 is approximately 60:1 to 65:1.
+      </p>
+      <p>
+        As of this writing, you can see the current ratio displayed in the ticker at the top of this page.
+      </p>
+
+      <h2>Why the Ratio Moves</h2>
+      <p>
+        The ratio expands (gets larger) when gold outperforms silver, which typically happens during periods of financial fear and flight to safety. Gold is the primary monetary metal — central banks hold gold, not silver. When investors panic, they buy gold first.
+      </p>
+      <p>
+        The ratio contracts (gets smaller) when silver outperforms gold, which typically happens during periods of industrial expansion, inflation, or speculative enthusiasm. Silver has significant industrial demand (electronics, solar panels, medical devices) that gold does not, so silver tends to outperform when the economy is running hot.
+      </p>
+
+      <h2>How Ratio Trading Works</h2>
+      <p>
+        Ratio trading is the practice of swapping between gold and silver based on where the ratio sits relative to its historical range. The goal is to compound total ounces owned — not to time short-term price movements in either metal.
+      </p>
+      <p>Here&apos;s the basic framework:</p>
+      <p>
+        <strong>When the ratio is high (above 80:1):</strong> Silver is cheap relative to gold. Ratio traders swap some of their gold into silver. They&apos;re getting more ounces of silver for each ounce of gold they trade.
+      </p>
+      <p>
+        <strong>When the ratio is low (below 50:1):</strong> Silver is expensive relative to gold. Ratio traders swap some of their silver into gold. They&apos;re locking in gains from silver&apos;s outperformance and moving into the more stable asset.
+      </p>
+      <p>
+        The key insight: you never go to cash. You stay in precious metals the entire time. You&apos;re simply moving between the two based on relative value. Over a full cycle — ratio expands, then contracts — a ratio trader ends up with more total ounces than they started with, without investing a single additional dollar.
+      </p>
+
+      <h2>A Worked Example</h2>
+      <p>
+        Say you start with 100 ounces of silver when the ratio is 80:1. You swap all your silver for gold. You now own 1.25 ounces of gold (100 / 80).
+      </p>
+      <p>
+        Over the next two years, the ratio contracts to 50:1. You swap your gold back into silver. Your 1.25 ounces of gold now buys you 62.5 ounces of silver (1.25 x 50). Wait — that&apos;s only 62.5 ounces, less than you started with.
+      </p>
+      <p>
+        This is where people get confused. The swap works when you go from silver to gold at a LOW ratio, then back to silver at a HIGH ratio. Let&apos;s reverse it:
+      </p>
+      <p>
+        You start with 1 ounce of gold when the ratio is 80:1. You swap into silver. You now own 80 ounces of silver. The ratio contracts to 50:1. You swap back to gold. Your 80 ounces of silver buys you 1.6 ounces of gold (80 / 50). You went from 1 ounce to 1.6 ounces — a 60% increase in gold ounces, without spending a dime.
+      </p>
+      <p>
+        The direction matters: you want to be in silver when the ratio is high and contracting, and in gold when the ratio is low and expanding.
+      </p>
+
+      <h2>Practical Considerations</h2>
+      <p>
+        Ratio trading sounds clean in theory. In practice, there are several things to consider:
+      </p>
+      <p>
+        <strong>You don&apos;t swap 100% of your holdings.</strong> Most practitioners trade 10–25% of their position at a time. This reduces the risk of being wrong on timing.
+      </p>
+      <p>
+        <strong>Transaction costs matter.</strong> Every swap has a bid-ask spread and potentially a dealer premium. If you&apos;re swapping small amounts frequently, the costs eat into your gains. The ratio needs to move significantly (20+ points) for a swap to be clearly worthwhile.
+      </p>
+      <p>
+        <strong>Tax implications.</strong> In a taxable account, each swap is a taxable event. The IRS treats precious metals as collectibles, subject to a maximum 28% long-term capital gains rate. Inside an IRA, swaps are not taxable events — which is one reason precious metals IRAs are popular with ratio traders.
+      </p>
+      <p>
+        <strong>Patience is required.</strong> The ratio can stay elevated or compressed for years. This is not a day-trading strategy. It&apos;s a multi-year approach to accumulating ounces.
+      </p>
+
+      <h2>Where to Watch the Ratio</h2>
+      <p>
+        Our ticker at the top of every GoldSilverSelect page displays the current Au:Ag ratio in real time. You can also track it historically at the{" "}
+        <a href="https://www.lbma.org.uk/" target="_blank" rel="noopener noreferrer">
+          LBMA
+        </a>{" "}
+        and on the{" "}
+        <a href="https://www.cmegroup.com/markets/metals/precious/gold.html" target="_blank" rel="noopener noreferrer">
+          CME Group&apos;s COMEX data
+        </a>
+        .
+      </p>
+      <p>
+        The McAlvany Weekly Commentary — available in our{" "}
+        <Link href="/intelligence" className="text-gold font-semibold">
+          Market Intelligence
+        </Link>{" "}
+        section — covers ratio trading regularly. David McAlvany&apos;s framework for when to swap and in what quantities is one of the most detailed publicly available approaches to the strategy.
+      </p>
+
+      <h2>The Bottom Line</h2>
+      <p>
+        The gold-to-silver ratio is not a crystal ball. It doesn&apos;t tell you what gold or silver will do tomorrow. What it tells you is how the two metals are priced relative to each other, and whether one is historically cheap or expensive compared to the other.
+      </p>
+      <p>
+        For buy-and-hold precious metals investors, watching the ratio can help you decide whether to add gold or silver on your next purchase. For active ratio traders, it&apos;s the core mechanism for growing ounces over time.
+      </p>
+      <p>
+        Either way, understanding the ratio makes you a more informed buyer — and that&apos;s the point.
+      </p>
+    </>
+  ),
+
+  "cash-for-gold-ripoff": (
+    <>
+      <p>
+        If you&apos;ve ever inherited jewelry, gone through a divorce, or just cleaned out a drawer and found old gold chains and rings, you&apos;ve probably thought about selling them. And if you&apos;ve looked around, you&apos;ve seen the &ldquo;We Buy Gold&rdquo; signs everywhere — mall kiosks, pawn shops, strip mall storefronts, even &ldquo;gold parties&rdquo; hosted in someone&apos;s living room.
+      </p>
+      <p>
+        Most of these buyers pay 30–50% of what your gold is actually worth. Some pay even less. Here&apos;s how to avoid getting ripped off.
+      </p>
+
+      <h2>What Your Gold Is Actually Worth</h2>
+      <p>
+        The value of scrap gold is determined by three things: weight, purity, and the current spot price.
+      </p>
+      <p>
+        <strong>Weight</strong> is measured in troy ounces (31.1 grams) or pennyweights (1.555 grams, abbreviated &ldquo;dwt&rdquo;). Be careful here — some buyers weigh in pennyweights and quote you a per-pennyweight price that sounds reasonable but is actually well below melt value.
+      </p>
+      <p>
+        <strong>Purity</strong> is expressed in karats. Pure gold is 24 karat (24K). Common jewelry purities include 10K (41.7% gold), 14K (58.3% gold), and 18K (75% gold). Your gold should be stamped with its karat rating, usually on the inside of a ring band or on the clasp of a chain.
+      </p>
+      <p>
+        <strong>Spot price</strong> is the current market price for one troy ounce of pure gold. You can see it in our ticker at the top of this page, or check the COMEX price at{" "}
+        <a href="https://www.cmegroup.com/markets/metals/precious/gold.html" target="_blank" rel="noopener noreferrer">
+          CME Group
+        </a>
+        .
+      </p>
+      <p>
+        The <strong>melt value</strong> of your gold is: (weight in troy ounces) × (purity percentage) × (spot price). For example, if you have 10 grams of 14K gold and spot is $5,100:
+      </p>
+      <p>
+        10 grams = 0.3215 troy ounces<br />
+        14K = 58.3% pure<br />
+        0.3215 × 0.583 × $5,100 = <strong>$956</strong>
+      </p>
+      <p>
+        That&apos;s the melt value — what your gold is worth as raw material. A fair buyer should pay you somewhere between 70% and 90% of melt value. The difference is their margin for assaying, refining, and running their business.
+      </p>
+      <p>
+        If someone offers you $400 for that same gold, they&apos;re paying you 42% of melt value. That&apos;s a ripoff.
+      </p>
+
+      <h2>Why Most Buyers Underpay</h2>
+      <p>
+        The business model of most &ldquo;cash for gold&rdquo; operations depends on seller ignorance. They&apos;re betting that you don&apos;t know the weight, purity, or spot price of what you&apos;re selling. If you walk in without that information, you have no way to evaluate their offer.
+      </p>
+      <p>
+        Several specific tactics to watch for:
+      </p>
+      <p>
+        <strong>Weighing in pennyweights without telling you.</strong> A pennyweight is about 1/20th of a troy ounce. If a buyer tells you &ldquo;your gold weighs 6&rdquo; without specifying the unit, and then offers you $180 per pennyweight, that sounds like a lot. But 6 pennyweights of 14K gold at $5,100 spot is worth about $287 at melt. If they&apos;re paying $180 for 6 pennyweights — that&apos;s $1,080 total, which is actually decent. But if they say &ldquo;6 grams&rdquo; and offer $180 total, you&apos;re being robbed.
+      </p>
+      <p>
+        <strong>Lowballing the karat.</strong> Some buyers will claim your 14K gold is actually 10K, reducing the purity they use in their calculation. A legitimate buyer will test your gold in front of you using an acid test, electronic tester, or XRF analyzer.
+      </p>
+      <p>
+        <strong>&ldquo;We only pay for the gold, not the stones.&rdquo;</strong> This is sometimes true — diamonds and gemstones in estate jewelry may or may not have value, and a gold recycler isn&apos;t necessarily equipped to evaluate them. But it can also be a tactic to lowball the total offer. If your jewelry has significant stones, get them appraised separately by a GIA-certified gemologist before selling.
+      </p>
+
+      <h2>How to Sell Smart</h2>
+      <p>Before you sell anything:</p>
+      <p>
+        <strong>Know the spot price.</strong> Check our ticker or any financial site before you leave the house.
+      </p>
+      <p>
+        <strong>Know the weight and purity.</strong> Weigh your gold on a kitchen scale (in grams is fine — you can convert). Check the karat stamps on every piece.
+      </p>
+      <p>
+        <strong>Calculate the melt value yourself.</strong> Use the formula above or any online melt value calculator. Write down the number before you walk into any buyer&apos;s shop.
+      </p>
+      <p>
+        <strong>Get at least three quotes.</strong> Visit three different buyers and compare offers. Don&apos;t tell any of them what the others offered — just listen.
+      </p>
+      <p>
+        <strong>Consider selling to a refiner, not a retail buyer.</strong> Refiners (the companies that actually melt and recycle gold) typically pay 85–95% of melt value. Retail &ldquo;We Buy Gold&rdquo; shops pay less because they&apos;re a middleman — they buy from you and sell to the refiner. Our{" "}
+        <Link href="/recycling" className="text-gold font-semibold">
+          recycling directory
+        </Link>{" "}
+        links directly to refiners and recyclers in your area.
+      </p>
+      <p>
+        <strong>Never sell at a &ldquo;gold party.&rdquo;</strong> These events — where a buyer comes to someone&apos;s home and purchases gold from guests — consistently pay the lowest prices in the industry. The social pressure to sell, combined with the host earning a commission on your transaction, creates the worst possible conditions for the seller.
+      </p>
+
+      <h2>Authority Resources</h2>
+      <p>
+        The FTC has published consumer guidance on selling gold at{" "}
+        <a href="https://consumer.ftc.gov/articles/bullion-and-bullion-coins" target="_blank" rel="noopener noreferrer">
+          consumer.ftc.gov
+        </a>{" "}
+        — read it before selling anything.
+      </p>
+      <p>
+        If you believe you&apos;ve been defrauded by a gold buyer, you can file a complaint with your state attorney general&apos;s consumer protection division or with the FTC at{" "}
+        <a href="https://reportfraud.ftc.gov/" target="_blank" rel="noopener noreferrer">
+          reportfraud.ftc.gov
+        </a>
+        .
+      </p>
+
+      <h2>The Bottom Line</h2>
+      <p>
+        Selling gold isn&apos;t complicated. But it requires that you know three numbers before you walk in the door: the weight, the purity, and the spot price. If you know those, you know what your gold is worth, and no one can underpay you without you noticing.
+      </p>
+      <p>
+        Take 10 minutes to do the math. It could save you hundreds or thousands of dollars.
+      </p>
+    </>
+  ),
+
+  "gold-coin-premiums-compared": (
+    <>
+      <p>
+        Every one-ounce gold coin contains one troy ounce of gold. But the price you pay varies significantly depending on which coin you buy. An American Gold Eagle might cost $200 more per ounce than a South African Krugerrand, even though both contain the same amount of gold.
+      </p>
+      <p>
+        The difference is the premium — the amount you pay above the spot price of gold. This article breaks down the premiums on the four most popular one-ounce gold coins and explains when the extra cost is worth it and when it isn&apos;t.
+      </p>
+
+      <h2>The Four Major One-Ounce Gold Coins</h2>
+      <p>
+        <strong>American Gold Eagle.</strong> Minted by the{" "}
+        <a href="https://www.usmint.gov/" target="_blank" rel="noopener noreferrer">
+          U.S. Mint
+        </a>
+        . Contains one troy ounce of gold alloyed with small amounts of silver and copper for durability, making the coin slightly heavier than one troy ounce total (1.0909 oz total weight). The gold content is exactly one troy ounce. Typically carries the highest premium of the four major coins — often 5–8% over spot.
+      </p>
+      <p>
+        <strong>Canadian Gold Maple Leaf.</strong> Minted by the{" "}
+        <a href="https://www.mint.ca/" target="_blank" rel="noopener noreferrer">
+          Royal Canadian Mint
+        </a>
+        . Contains one troy ounce of .9999 fine gold (99.99% purity — the purest of the four). Premium is typically 3–6% over spot. The Maple Leaf&apos;s micro-engraved security features make it one of the hardest coins to counterfeit.
+      </p>
+      <p>
+        <strong>South African Krugerrand.</strong> Minted by the South African Mint. The original modern bullion coin, introduced in 1967. Contains one troy ounce of gold alloyed with copper, giving it a distinctive orange hue. Total weight is 1.0909 oz. Premium is typically 3–5% over spot — usually the lowest of the four.
+      </p>
+      <p>
+        <strong>American Gold Buffalo.</strong> Minted by the U.S. Mint. Contains one troy ounce of .9999 fine gold (same purity as the Maple Leaf). Introduced in 2006 as the first .9999 fine gold coin produced by the U.S. Mint. Premium is typically 5–8% over spot, similar to the Eagle.
+      </p>
+
+      <h2>Why Premiums Differ</h2>
+      <p>Several factors drive the spread in premiums:</p>
+      <p>
+        <strong>Mint production costs.</strong> The U.S. Mint sells Gold Eagles and Buffaloes to a network of authorized purchasers at a fixed markup above spot. That markup is higher than what the Royal Canadian Mint or South African Mint charges. The authorized purchasers then add their own margin before selling to dealers, who add another margin before selling to you. Each layer adds cost.
+      </p>
+      <p>
+        <strong>Legal tender and IRA eligibility.</strong> All four coins are legal tender in their country of origin and are IRA-eligible under IRS rules. However, American-minted coins (Eagles and Buffaloes) are the most commonly held in U.S. precious metals IRAs, which creates additional demand and supports higher premiums.
+      </p>
+      <p>
+        <strong>Liquidity and recognition.</strong> American Eagles are the most widely recognized and traded gold coin in the U.S. market. Dealers will buy them back at tighter spreads (the difference between their buy and sell price). This liquidity premium is real — when you sell, an Eagle is easier to sell at a fair price than a less common coin.
+      </p>
+      <p>
+        <strong>Purity.</strong> The Maple Leaf and Buffalo are .9999 fine; the Eagle and Krugerrand are .9167 fine (22 karat). Both contain one troy ounce of actual gold — the difference is that the Eagle and Krugerrand have additional base metal to make the coin harder and more scratch-resistant. Some buyers prefer .9999 purity for its simplicity; others prefer 22K for its durability. This is a preference, not an investment difference.
+      </p>
+      <p>
+        <strong>Supply constraints.</strong> When the U.S. Mint rations Silver Eagle production (which happens periodically), premiums on available coins spike. The same can happen with Gold Eagles during periods of extreme demand. The Krugerrand and Maple Leaf are generally more consistently available.
+      </p>
+
+      <h2>When the Premium Is Worth It</h2>
+      <p>
+        <strong>You&apos;re buying for an IRA.</strong> If you&apos;re holding coins inside a precious metals IRA, the liquidity premium on American Eagles matters because you&apos;ll eventually need to sell or take a distribution. The tighter buyback spread on Eagles can save you money on the exit.
+      </p>
+      <p>
+        <strong>You&apos;re buying for maximum resale ease in the U.S.</strong> If you&apos;re buying physical gold that you&apos;ll eventually sell at a local coin shop or to an online dealer, Eagles command the tightest bid-ask spreads in the American market. The extra 1–2% in premium is offset by the better price you&apos;ll get when you sell.
+      </p>
+      <p>
+        <strong>You value the security features.</strong> The Canadian Maple Leaf&apos;s micro-engraved laser mark (a small maple leaf visible under magnification, with the last two digits of the year) is the most advanced anti-counterfeiting feature on any bullion coin.
+      </p>
+
+      <h2>When the Premium Is Not Worth It</h2>
+      <p>
+        <strong>You&apos;re buying purely for metal content.</strong> If you&apos;re accumulating gold by the ounce and don&apos;t care about the design on the coin, a Krugerrand gives you one troy ounce of gold at the lowest premium of the four. Over 10 ounces, that 2–3% premium difference represents $1,000 or more in savings at current gold prices.
+      </p>
+      <p>
+        <strong>You&apos;re buying in quantity.</strong> The premium difference compounds on larger purchases. If you&apos;re buying 10–50 ounces, the savings from choosing lower-premium coins are significant. Consider mixing — Eagles for the core position (liquidity), Krugerrands or Maples for additional accumulation (lower cost).
+      </p>
+      <p>
+        <strong>You&apos;re buying gold bars instead.</strong> One-ounce gold bars from LBMA-approved refiners (PAMP Suisse, Valcambi, Perth Mint, Royal Canadian Mint) typically carry premiums of 2–4% over spot — lower than any of the coins. The tradeoff is that bars are slightly less liquid than sovereign coins and may not be recognized as quickly by less experienced buyers.
+      </p>
+
+      <h2>The Buyback Spread Matters More Than the Premium</h2>
+      <p>
+        This is the part most dealers don&apos;t emphasize. The premium you pay to buy is only half the equation. The other half is what you get when you sell.
+      </p>
+      <p>
+        If you pay 7% over spot for an Eagle and the dealer buys it back at 2% over spot, your round-trip cost is 5%. If you pay 4% over spot for a Krugerrand and the dealer buys it back at 1% below spot, your round-trip cost is also 5%. The initial premium didn&apos;t matter — the spread did.
+      </p>
+      <p>
+        Before buying any coin, ask the dealer what their buyback price is for that specific product. The tighter the spread between their sell price and buy price, the better the deal for you.
+      </p>
+
+      <h2>The Bottom Line</h2>
+      <p>
+        All four coins contain one troy ounce of gold. The premiums reflect minting costs, market recognition, and supply-demand dynamics — not any difference in the underlying metal. The &ldquo;best&rdquo; coin depends on your priorities: maximum liquidity (Eagle), lowest cost per ounce (Krugerrand), highest purity (Maple Leaf or Buffalo), or American origin with .9999 purity (Buffalo).
+      </p>
+      <p>
+        For most buyers accumulating gold over time, a mix of coins and bars — prioritizing the lowest total cost including the buyback spread — is the most efficient approach.
+      </p>
+      <p>
+        Our{" "}
+        <Link href="/online-dealers" className="text-gold font-semibold">
+          online dealer directory
+        </Link>{" "}
+        links directly to dealer websites where you can compare pricing on all four coins. Check three dealers before buying. The price difference on the same coin from different dealers can be $30–$80 per ounce.
+      </p>
+    </>
+  ),
 };
 
 export default function BlogPostPage({
@@ -177,11 +631,11 @@ export default function BlogPostPage({
           </Link>
           {post.series && (
             <>
-              <span className="mx-1.5">›</span>
+              <span className="mx-1.5">&rsaquo;</span>
               <span style={{ color: "#999" }}>{post.series}</span>
             </>
           )}
-          <span className="mx-1.5">›</span>
+          <span className="mx-1.5">&rsaquo;</span>
           <span style={{ color: "#555" }}>Article</span>
         </nav>
       </div>
