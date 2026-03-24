@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import CookieConsent from "@/components/CookieConsent";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -43,6 +44,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-cream font-sans text-gray-900 antialiased">
+        <GoogleAnalytics />
         {children}
         <CookieConsent />
       </body>
