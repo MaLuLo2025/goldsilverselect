@@ -1,44 +1,35 @@
 import { NextResponse } from "next/server";
 
-interface MetalPrices {
-  gold: number;
-  silver: number;
-  platinum: number;
-  palladium: number;
-}
-
-interface MetalsDevLatest {
+interface SpotResponse {
   status: string;
-  metals: MetalPrices & { [key: string]: number };
+  metal: string;
+  currency: string;
+  rate: {
+    price: number;
+    ask: number;
+    bid: number;
+    high: number;
+    low: number;
+    change: number;
+    change_percent: number;
+  };
 }
 
-interface MetalsDevTimeseries {
-  status: string;
-  rates: Record<string, { metals: MetalPrices & { [key: string]: number } }>;
+interface MetalData {
+  price: number;
+  change: number;
+  pct: number;
 }
 
-interface CachedCurrent {
-  prices: MetalPrices;
+interface CachedData {
+  metals: Record<string, MetalData>;
   timestamp: number;
 }
 
-interface CachedOpen {
-  prices: MetalPrices;
-  date: string;
-  timestamp: number;
-}
+let cache: CachedData | null = null;
+const CACHE_TTL = 60_000; // 60 seconds
 
-let currentCache: CachedCurrent | null = null;
-let openCache: CachedOpen | null = null;
-
-const CURRENT_TTL = 60_000; // 60 seconds
-const OPEN_TTL = 12 * 60 * 60_000; // 12 hours (refresh twice daily for safety)
-
-function getDateUTC(daysAgo: number): string {
-  const d = new Date();
-  d.setUTCDate(d.getUTCDate() - daysAgo);
-  return d.toISOString().slice(0, 10);
-}
+const METAL_KEYS = ["gold", "silver", "platinum", "palladium"] as const;
 
 export async function GET() {
   const now = Date.now();
@@ -51,107 +42,57 @@ export async function GET() {
     );
   }
 
-  // --- Fetch current prices (60s cache) ---
-  let current: MetalPrices | null = null;
+  // Return cached data if fresh
+  if (cache && now - cache.timestamp < CACHE_TTL) {
+    return NextResponse.json(cache.metals);
+  }
 
-  if (currentCache && now - currentCache.timestamp < CURRENT_TTL) {
-    current = currentCache.prices;
-  } else {
+  const maskedKey = apiKey.slice(0, 4) + "..." + apiKey.slice(-4);
+  const metals: Record<string, MetalData> = {};
+
+  // Fetch each metal's spot data (includes change vs previous day)
+  for (const metal of METAL_KEYS) {
     try {
-      const res = await fetch(
-        `https://api.metals.dev/v1/latest?api_key=${apiKey}&currency=USD&unit=toz`,
-        { cache: "no-store" }
-      );
+      const url = `https://api.metals.dev/v1/metal/spot?api_key=${apiKey}&metal=${metal}&currency=USD`;
+      console.log(`Fetching spot for ${metal}: /v1/metal/spot?api_key=${maskedKey}&metal=${metal}&currency=USD`);
+
+      const res = await fetch(url, { cache: "no-store" });
+
       if (!res.ok) {
         const body = await res.text();
-        throw new Error(`Latest API ${res.status}: ${body.slice(0, 200)}`);
+        console.error(`Spot API ${res.status} for ${metal}: ${body.slice(0, 300)}`);
+        // Use stale cache for this metal if available
+        if (cache?.metals[metal]) {
+          metals[metal] = cache.metals[metal];
+        } else {
+          metals[metal] = { price: 0, change: 0, pct: 0 };
+        }
+        continue;
       }
-      const data: MetalsDevLatest = await res.json();
 
-      current = {
-        gold: data.metals.gold,
-        silver: data.metals.silver,
-        platinum: data.metals.platinum,
-        palladium: data.metals.palladium,
+      const data: SpotResponse = await res.json();
+      console.log(`Spot ${metal}: price=${data.rate.price}, change=${data.rate.change}, pct=${data.rate.change_percent}`);
+
+      metals[metal] = {
+        price: data.rate.price,
+        change: data.rate.change,
+        pct: data.rate.change_percent,
       };
-      currentCache = { prices: current, timestamp: now };
     } catch (err) {
-      console.error("Metals API latest error:", err);
-      if (currentCache) current = currentCache.prices;
-    }
-  }
-
-  // --- Fetch opening prices (12h cache) ---
-  const today = getDateUTC(0);
-  let open: MetalPrices | null = null;
-
-  // Use cached open if still fresh (same day or within TTL)
-  if (openCache && now - openCache.timestamp < OPEN_TTL) {
-    open = openCache.prices;
-  } else {
-    // Try yesterday first, then 2 days ago (covers weekends/holidays)
-    for (const daysAgo of [1, 2, 3]) {
-      try {
-        const date = getDateUTC(daysAgo);
-        console.log(`Fetching timeseries for ${date}...`);
-        const res = await fetch(
-          `https://api.metals.dev/v1/timeseries?api_key=${apiKey}&start_date=${date}&end_date=${date}&currency=USD&unit=toz`,
-          { cache: "no-store" }
-        );
-        if (!res.ok) {
-          const body = await res.text();
-          console.error(`Timeseries API ${res.status} for ${date}: ${body.slice(0, 200)}`);
-          continue;
-        }
-        const data: MetalsDevTimeseries = await res.json();
-        console.log(`Timeseries response dates: ${Object.keys(data.rates || {}).join(", ")}`);
-
-        const dayData = data.rates[date];
-        if (dayData && dayData.metals) {
-          open = {
-            gold: dayData.metals.gold,
-            silver: dayData.metals.silver,
-            platinum: dayData.metals.platinum,
-            palladium: dayData.metals.palladium,
-          };
-          openCache = { prices: open, date: today, timestamp: now };
-          console.log(`Open prices set from ${date}: gold=${open.gold}, silver=${open.silver}`);
-          break;
-        }
-      } catch (err) {
-        console.error(`Timeseries error for ${daysAgo} days ago:`, err);
+      console.error(`Spot fetch error for ${metal}:`, err);
+      if (cache?.metals[metal]) {
+        metals[metal] = cache.metals[metal];
+      } else {
+        metals[metal] = { price: 0, change: 0, pct: 0 };
       }
     }
-
-    // Fall back to stale cache if all attempts failed
-    if (!open && openCache) {
-      console.log("Using stale open cache from", openCache.date);
-      open = openCache.prices;
-    }
   }
 
-  if (!current) {
-    return NextResponse.json(
-      { error: "Failed to fetch prices" },
-      { status: 502 }
-    );
+  // Only cache if we got at least one real price
+  const hasRealData = Object.values(metals).some((m) => m.price > 0);
+  if (hasRealData) {
+    cache = { metals, timestamp: now };
   }
 
-  // Build response with change data
-  const response: Record<string, { price: number; change?: number; pct?: number }> = {};
-  const metals: (keyof MetalPrices)[] = ["gold", "silver", "platinum", "palladium"];
-
-  for (const metal of metals) {
-    const price = current[metal];
-    if (open) {
-      const openPrice = open[metal];
-      const change = price - openPrice;
-      const pct = (change / openPrice) * 100;
-      response[metal] = { price, change, pct };
-    } else {
-      response[metal] = { price };
-    }
-  }
-
-  return NextResponse.json(response);
+  return NextResponse.json(metals);
 }
