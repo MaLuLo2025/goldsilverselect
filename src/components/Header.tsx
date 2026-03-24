@@ -9,6 +9,7 @@ const navItems = [
   { label: "Jewelry", href: "/jewelry" },
   { label: "Intelligence", href: "/intelligence", highlight: true },
   { label: "Blog", href: "/blog" },
+  { label: "FAQ", href: "/faq" },
 ];
 
 export default function Header() {
