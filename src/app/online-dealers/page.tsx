@@ -3,6 +3,7 @@ import TickerBanner from "@/components/TickerBanner";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { getOnlineDealers } from "@/lib/dealers";
+import DealerRatings from "@/components/DealerRatings";
 
 export const metadata: Metadata = {
   title: "Online Coin & Bullion Dealers",
@@ -44,9 +45,10 @@ export default function OnlineDealersPage() {
                 <h3 className="font-serif text-[20px] font-semibold text-gray-900 mb-1">
                   {dealer.name}
                 </h3>
-                <p className="font-sans text-[13.5px] leading-relaxed mb-3" style={{ color: "#777" }}>
+                <p className="font-sans text-[13.5px] leading-relaxed mb-1" style={{ color: "#777" }}>
                   {dealer.description}
                 </p>
+                <DealerRatings dealer={dealer} />
                 {dealer.website && (
                   <a
                     href={dealer.website}

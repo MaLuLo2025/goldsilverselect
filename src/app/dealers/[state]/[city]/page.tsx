@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import { states } from "@/lib/states";
 import { getCityBySlug } from "@/lib/cities";
 import { getDealersByCity } from "@/lib/dealers";
+import DealerRatings from "@/components/DealerRatings";
 
 export function generateMetadata({
   params,
@@ -123,6 +124,7 @@ export default function CityDealersPage({
                     >
                       {dealer.description}
                     </p>
+                    <DealerRatings dealer={dealer} />
                     <div className="flex gap-4 flex-wrap">
                       {dealer.address && (
                         <span

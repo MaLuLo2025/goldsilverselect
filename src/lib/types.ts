@@ -36,6 +36,9 @@ export interface Dealer {
   phone?: string;
   website?: string;
   isVerified: boolean;
+  bbbRating?: string;
+  googleRating?: number;
+  trustpilotRating?: number;
 }
 
 export interface City {

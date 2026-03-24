@@ -4,6 +4,7 @@ import TickerBanner from "@/components/TickerBanner";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { getDealersByVertical } from "@/lib/dealers";
+import DealerRatings from "@/components/DealerRatings";
 
 export const metadata: Metadata = {
   title: "Jewelry Stores & Custom Jewelers",
@@ -48,6 +49,7 @@ export default function JewelryPage() {
                 <p className="font-sans text-[13.5px] leading-relaxed mb-2" style={{ color: "#777" }}>
                   {dealer.description}
                 </p>
+                <DealerRatings dealer={dealer} />
                 <div className="flex gap-4 flex-wrap">
                   {dealer.address && (
                     <span className="font-sans text-[12px]" style={{ color: "#aaa" }}>

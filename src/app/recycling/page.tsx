@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { getDealersByVertical } from "@/lib/dealers";
 import { states } from "@/lib/states";
+import DealerRatings from "@/components/DealerRatings";
 
 export const metadata: Metadata = {
   title: "Precious Metals Recycling — Sell Gold, Silver & Scrap",
@@ -65,6 +66,7 @@ export default function RecyclingPage() {
                 <p className="font-sans text-[13.5px] leading-relaxed mb-2" style={{ color: "#777" }}>
                   {dealer.description}
                 </p>
+                <DealerRatings dealer={dealer} />
                 <span className="font-sans text-[12px]" style={{ color: "#aaa" }}>
                   {dealer.city}, {dealer.state}
                 </span>

@@ -105,6 +105,22 @@ export const dealers: Dealer[] = [
   },
   // === ONLINE DEALERS ===
   {
+    slug: "mcalvany-precious-metals",
+    name: "McAlvany Precious Metals",
+    vertical: "online-coin-bullion",
+    description:
+      "Family-owned precious metals dealer since 1972. Offers gold, silver, and platinum coins and bars with personalized portfolio guidance. Known for the McAlvany Weekly Commentary on global markets. IRA-eligible products available.",
+    city: "Durango",
+    citySlug: "durango",
+    state: "Colorado",
+    stateSlug: "colorado",
+    website: "https://www.mcalvany.com",
+    isVerified: false,
+    bbbRating: "A+",
+    googleRating: 4.9,
+    trustpilotRating: 4.8,
+  },
+  {
     slug: "jm-bullion",
     name: "JM Bullion",
     vertical: "online-coin-bullion",
@@ -116,6 +132,9 @@ export const dealers: Dealer[] = [
     stateSlug: "texas",
     website: "https://www.jmbullion.com",
     isVerified: false,
+    bbbRating: "A+",
+    googleRating: 4.6,
+    trustpilotRating: 4.5,
   },
   {
     slug: "money-metals-exchange",
@@ -129,6 +148,9 @@ export const dealers: Dealer[] = [
     stateSlug: "idaho",
     website: "https://www.moneymetals.com",
     isVerified: false,
+    bbbRating: "A+",
+    googleRating: 4.7,
+    trustpilotRating: 4.6,
   },
   {
     slug: "apmex",
@@ -142,6 +164,9 @@ export const dealers: Dealer[] = [
     stateSlug: "oklahoma",
     website: "https://www.apmex.com",
     isVerified: false,
+    bbbRating: "A+",
+    googleRating: 4.5,
+    trustpilotRating: 4.3,
   },
   {
     slug: "sd-bullion",
@@ -155,6 +180,9 @@ export const dealers: Dealer[] = [
     stateSlug: "north-dakota",
     website: "https://www.sdbullion.com",
     isVerified: false,
+    bbbRating: "A+",
+    googleRating: 4.7,
+    trustpilotRating: 4.6,
   },
   // === GOLD & SILVER IRAs ===
   {
@@ -168,6 +196,9 @@ export const dealers: Dealer[] = [
     state: "California",
     stateSlug: "california",
     isVerified: false,
+    bbbRating: "A+",
+    googleRating: 4.8,
+    trustpilotRating: 4.7,
   },
   {
     slug: "augusta-precious-metals",
@@ -180,6 +211,9 @@ export const dealers: Dealer[] = [
     state: "Wyoming",
     stateSlug: "wyoming",
     isVerified: false,
+    bbbRating: "A+",
+    googleRating: 4.9,
+    trustpilotRating: 4.8,
   },
   {
     slug: "birch-gold-group",
@@ -192,6 +226,9 @@ export const dealers: Dealer[] = [
     state: "California",
     stateSlug: "california",
     isVerified: false,
+    bbbRating: "A+",
+    googleRating: 4.6,
+    trustpilotRating: 4.3,
   },
   // === SAN ANTONIO LOCAL DEALERS ===
   {

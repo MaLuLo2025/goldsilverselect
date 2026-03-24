@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import { states } from "@/lib/states";
 import { getCityBySlug } from "@/lib/cities";
 import { getDealerBySlug } from "@/lib/dealers";
+import DealerRatings from "@/components/DealerRatings";
 
 export function generateMetadata({
   params,
@@ -120,13 +121,14 @@ export default function DealerDetailPage({
           }}
         >
           <p
-            className="font-sans text-[15px] leading-relaxed mb-6"
+            className="font-sans text-[15px] leading-relaxed mb-4"
             style={{ color: "#555" }}
           >
             {dealer.description}
           </p>
+          <DealerRatings dealer={dealer} />
 
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-2 gap-4 mt-6">
             {dealer.address && (
               <div>
                 <h4

@@ -4,6 +4,7 @@ import TickerBanner from "@/components/TickerBanner";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { getIRAProviders } from "@/lib/dealers";
+import DealerRatings from "@/components/DealerRatings";
 
 export const metadata: Metadata = {
   title: "Gold & Silver IRA Providers",
@@ -78,6 +79,7 @@ export default function IRAPage() {
                 <p className="font-sans text-[13.5px] leading-relaxed" style={{ color: "#777" }}>
                   {dealer.description}
                 </p>
+                <DealerRatings dealer={dealer} />
               </div>
               <div className="flex-shrink-0 self-center text-lg" style={{ color: "#ccc" }}>→</div>
             </div>
@@ -94,7 +96,7 @@ export default function IRAPage() {
               { label: "IRS: Retirement Topics — IRA Contribution Limits", url: "https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-ira-contribution-limits" },
               { label: "SEC: Investor Alert — Self-Directed IRAs", url: "https://www.sec.gov/investor/alerts/sdira.html" },
               { label: "CFTC: Precious Metals Fraud Advisory", url: "https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/fraudadv_preciousmetals.html" },
-              { label: "FTC: Investing in Bullion and Bullion Coins", url: "https://consumer.ftc.gov/articles/investing-bullion-and-bullion-coins" },
+              { label: "FTC: Bullion and Bullion Coins", url: "https://consumer.ftc.gov/articles/bullion-and-bullion-coins" },
             ].map((link) => (
               <a
                 key={link.url}
