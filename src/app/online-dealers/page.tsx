@@ -45,8 +45,8 @@ export default function OnlineDealersPage() {
                 <h3 className="font-serif text-[20px] font-semibold text-gray-900 mb-1">
                   {dealer.name}
                 </h3>
-                <p className="font-sans text-[13.5px] leading-relaxed mb-1" style={{ color: "#777" }}>
-                  {dealer.description}
+                <p className="font-sans text-[13px] leading-relaxed mb-1.5" style={{ color: "#777" }}>
+                  {dealer.description.slice(0, 120)}{dealer.description.length > 120 ? "..." : ""}
                 </p>
                 <DealerRatings dealer={dealer} />
                 {dealer.website && (
@@ -54,7 +54,7 @@ export default function OnlineDealersPage() {
                     href={dealer.website}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="font-sans text-[13px] text-gold font-semibold no-underline hover:underline"
+                    className="font-sans text-[13px] text-gold font-semibold no-underline hover:underline mt-2 inline-block"
                   >
                     Visit Website →
                   </a>

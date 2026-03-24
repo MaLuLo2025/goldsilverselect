@@ -107,9 +107,44 @@ export default function DealerDetailPage({
         <h1 className="font-serif text-[36px] font-bold text-gray-900 mb-2">
           {dealer.name}
         </h1>
-        <p className="font-sans text-[15px] mb-6" style={{ color: "#888" }}>
+        <p className="font-sans text-[15px] mb-3" style={{ color: "#888" }}>
           {dealer.city}, {dealer.state}
         </p>
+
+        {/* Ratings */}
+        {(dealer.bbbRating || dealer.googleRating || dealer.trustpilotRating) && (
+          <div className="flex gap-4 flex-wrap mb-6">
+            {dealer.bbbRating && (
+              <span className="font-sans text-[13px] font-semibold inline-flex items-center gap-1.5">
+                <span
+                  style={{
+                    background: "#1B3D2F",
+                    color: "#fff",
+                    padding: "2px 7px",
+                    borderRadius: 3,
+                    fontSize: 11,
+                    fontWeight: 700,
+                  }}
+                >
+                  BBB
+                </span>
+                <span style={{ color: "#555" }}>{dealer.bbbRating}</span>
+              </span>
+            )}
+            {dealer.googleRating && (
+              <span className="font-sans text-[13px] font-semibold inline-flex items-center gap-1" style={{ color: "#555" }}>
+                <span style={{ color: "#C5A44E", fontSize: 14 }}>★</span>
+                {dealer.googleRating} Google
+              </span>
+            )}
+            {dealer.trustpilotRating && (
+              <span className="font-sans text-[13px] font-semibold inline-flex items-center gap-1" style={{ color: "#555" }}>
+                <span style={{ color: "#C5A44E", fontSize: 14 }}>★</span>
+                {dealer.trustpilotRating} Trustpilot
+              </span>
+            )}
+          </div>
+        )}
 
         {/* Info card */}
         <div
@@ -126,9 +161,8 @@ export default function DealerDetailPage({
           >
             {dealer.description}
           </p>
-          <DealerRatings dealer={dealer} />
 
-          <div className="grid grid-cols-2 gap-4 mt-6">
+          <div className="grid grid-cols-2 gap-4">
             {dealer.address && (
               <div>
                 <h4

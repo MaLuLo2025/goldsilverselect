@@ -119,30 +119,12 @@ export default function CityDealersPage({
                       {dealer.name}
                     </h3>
                     <p
-                      className="font-sans text-[13.5px] leading-relaxed mb-2"
+                      className="font-sans text-[13px] leading-relaxed mb-1.5"
                       style={{ color: "#777" }}
                     >
-                      {dealer.description}
+                      {dealer.description.slice(0, 120)}{dealer.description.length > 120 ? "..." : ""}
                     </p>
                     <DealerRatings dealer={dealer} />
-                    <div className="flex gap-4 flex-wrap">
-                      {dealer.address && (
-                        <span
-                          className="font-sans text-[12px]"
-                          style={{ color: "#aaa" }}
-                        >
-                          📍 {dealer.address}
-                        </span>
-                      )}
-                      {dealer.phone && (
-                        <span
-                          className="font-sans text-[12px]"
-                          style={{ color: "#aaa" }}
-                        >
-                          📞 {dealer.phone}
-                        </span>
-                      )}
-                    </div>
                   </div>
                   <div
                     className="flex-shrink-0 self-center text-lg"

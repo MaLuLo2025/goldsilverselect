@@ -46,19 +46,14 @@ export default function JewelryPage() {
                 <h3 className="font-serif text-[19px] font-semibold text-gray-900 mb-1">
                   {dealer.name}
                 </h3>
-                <p className="font-sans text-[13.5px] leading-relaxed mb-2" style={{ color: "#777" }}>
-                  {dealer.description}
+                <p className="font-sans text-[13px] leading-relaxed mb-1.5" style={{ color: "#777" }}>
+                  {dealer.description.slice(0, 120)}{dealer.description.length > 120 ? "..." : ""}
                 </p>
                 <DealerRatings dealer={dealer} />
-                <div className="flex gap-4 flex-wrap">
+                <div className="flex gap-4 flex-wrap mt-1">
                   {dealer.address && (
                     <span className="font-sans text-[12px]" style={{ color: "#aaa" }}>
-                      📍 {dealer.address}
-                    </span>
-                  )}
-                  {dealer.phone && (
-                    <span className="font-sans text-[12px]" style={{ color: "#aaa" }}>
-                      📞 {dealer.phone}
+                      {dealer.city}, {dealer.state}
                     </span>
                   )}
                 </div>

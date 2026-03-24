@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import { states } from "@/lib/states";
 import { getCitiesByState } from "@/lib/cities";
 import { getDealersByState } from "@/lib/dealers";
+import DealerRatings from "@/components/DealerRatings";
 
 export function generateStaticParams() {
   return states.map((s) => ({ state: s.slug }));
@@ -141,6 +142,7 @@ export default function StateDealersPage({
                             {dealer.description.slice(0, 120)}
                             {dealer.description.length > 120 ? "..." : ""}
                           </p>
+                          <DealerRatings dealer={dealer} />
                         </Link>
                       ))}
                     </div>
