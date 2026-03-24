@@ -2,14 +2,26 @@
 
 import { useState, useEffect, useCallback } from "react";
 import { metalPrices as fallbackPrices, markets } from "@/lib/markets";
-import { MetalPrice } from "@/lib/types";
+import { Metal } from "@/lib/types";
+
+interface TickerPrice {
+  metal: Metal;
+  label: string;
+  price: number;
+}
+
+const fallback: TickerPrice[] = fallbackPrices.map((m) => ({
+  metal: m.metal,
+  label: m.label,
+  price: m.price,
+}));
 
 export default function TickerBanner() {
   const [showMarkets, setShowMarkets] = useState(false);
-  const [prices, setPrices] = useState<MetalPrice[]>(fallbackPrices);
+  const [prices, setPrices] = useState<TickerPrice[]>(fallback);
   const [ratio, setRatio] = useState(() => {
-    const g = fallbackPrices.find((m) => m.metal === "gold");
-    const s = fallbackPrices.find((m) => m.metal === "silver");
+    const g = fallback.find((m) => m.metal === "gold");
+    const s = fallback.find((m) => m.metal === "silver");
     return g && s ? (g.price / s.price).toFixed(1) : "\u2014";
   });
 
@@ -22,38 +34,12 @@ export default function TickerBanner() {
       const data = await res.json();
       if (data.error) return;
 
-      const newPrices: MetalPrice[] = [
-        {
-          metal: "gold",
-          label: "GOLD",
-          price: data.gold,
-          change: data.gold - fallbackPrices[0].price,
-          pct: ((data.gold - fallbackPrices[0].price) / fallbackPrices[0].price) * 100,
-        },
-        {
-          metal: "silver",
-          label: "SILVER",
-          price: data.silver,
-          change: data.silver - fallbackPrices[1].price,
-          pct: ((data.silver - fallbackPrices[1].price) / fallbackPrices[1].price) * 100,
-        },
-        {
-          metal: "platinum",
-          label: "PLATINUM",
-          price: data.platinum,
-          change: data.platinum - fallbackPrices[2].price,
-          pct: ((data.platinum - fallbackPrices[2].price) / fallbackPrices[2].price) * 100,
-        },
-        {
-          metal: "palladium",
-          label: "PALLADIUM",
-          price: data.palladium,
-          change: data.palladium - fallbackPrices[3].price,
-          pct: ((data.palladium - fallbackPrices[3].price) / fallbackPrices[3].price) * 100,
-        },
-      ];
-
-      setPrices(newPrices);
+      setPrices([
+        { metal: "gold", label: "GOLD", price: data.gold },
+        { metal: "silver", label: "SILVER", price: data.silver },
+        { metal: "platinum", label: "PLATINUM", price: data.platinum },
+        { metal: "palladium", label: "PALLADIUM", price: data.palladium },
+      ]);
       setRatio((data.gold / data.silver).toFixed(1));
     } catch {
       // Keep existing prices on failure
@@ -131,25 +117,12 @@ export default function TickerBanner() {
                       style={{
                         color: "#FAFAF5",
                         fontSize: 14,
-                        marginRight: 6,
                       }}
                     >
                       $
                       {m.price.toLocaleString("en-US", {
                         minimumFractionDigits: 2,
                       })}
-                    </span>
-                    <span
-                      className="font-medium"
-                      style={{
-                        color: m.change >= 0 ? "#4CAF50" : "#EF5350",
-                        fontSize: 10.5,
-                      }}
-                    >
-                      {m.change >= 0 ? "\u25B2" : "\u25BC"}{" "}
-                      {Math.abs(m.change).toFixed(2)} (
-                      {m.change >= 0 ? "+" : ""}
-                      {m.pct.toFixed(2)}%)
                     </span>
                     {i < prices.length - 1 && (
                       <span
@@ -159,7 +132,7 @@ export default function TickerBanner() {
                           fontSize: 10,
                         }}
                       >
-                        \u2502
+                        |
                       </span>
                     )}
                   </div>
@@ -167,7 +140,7 @@ export default function TickerBanner() {
                 <span
                   style={{ color: "#2a2a2a", margin: "0 16px", fontSize: 10 }}
                 >
-                  \u2502
+                  |
                 </span>
               </div>
             ))}
@@ -242,7 +215,7 @@ export default function TickerBanner() {
                 {m.name}
               </span>
               <span style={{ color: "#444", fontSize: 10 }}>
-                {m.opens}\u2013{m.closes}
+                {m.opens}–{m.closes}
               </span>
             </div>
           ))}
