@@ -65,6 +65,7 @@ export async function GET() {
 
     return NextResponse.json(prices);
   } catch (err) {
+    console.error('Metals API error:', err);
     // Return stale cache if available
     if (cache) {
       return NextResponse.json(cache.prices);
