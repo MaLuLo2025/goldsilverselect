@@ -333,6 +333,348 @@ export const dealers: Dealer[] = [
   },
 
   // ============================================================
+  // NEW YORK CITY — FEATURED LOCAL DEALERS
+  // ============================================================
+  {
+    slug: "stacks-bowers-galleries",
+    name: "Stack\u2019s Bowers Galleries",
+    vertical: "local-coin-bullion",
+    description:
+      "America\u2019s oldest rare coin auctioneer and dealership, founded in 1933 in New York City. Located on Park Avenue in Midtown Manhattan. Specializes in U.S., world, and ancient coins, tokens, medals, and currency. Also buys and sells gold, silver, platinum, and palladium bullion. Offers free verbal appraisals and paid IRS tax, estate, and insurance appraisals. Features a \u201CGold to Go\u201D vending machine for small gold and silver bullion purchases.",
+    address: "470 Park Avenue, New York, NY 10022",
+    city: "New York",
+    citySlug: "new-york",
+    state: "New York",
+    stateSlug: "new-york",
+    phone: "(212) 582-2580",
+    website: "https://stacksbowers.com/",
+    isVerified: false,
+  },
+  {
+    slug: "bullion-trading-llc",
+    name: "Bullion Trading LLC",
+    vertical: "local-coin-bullion",
+    description:
+      "New York City precious metals dealer located in the Diamond District. Focuses on bullion for investment purposes rather than collectible coins. Buy and sell prices clearly posted on their website. Operates a Manhattan showroom and also sells online and by mail.",
+    address: "20 West 47th Street, Ste 24, New York, NY 10036",
+    city: "New York",
+    citySlug: "new-york",
+    state: "New York",
+    stateSlug: "new-york",
+    phone: "(212) 997-2520",
+    website: "https://bulliontradingllc.com/",
+    isVerified: false,
+  },
+  {
+    slug: "brigandi-coin-company",
+    name: "Brigandi Coin Company",
+    vertical: "local-coin-bullion",
+    description:
+      "Manhattan-based coin dealer with over 50 years in business on West 44th Street. Carries rare and collectible coins at all price ranges, from beginning collectors to serious investors. Also buys and sells gold and silver bullion including American Eagles, Canadian Maple Leafs, PAMP Suisse bars, and platinum coins. Offers authentication, grading, and appraisal services.",
+    address: "60 West 44th Street, New York, NY 10036",
+    city: "New York",
+    citySlug: "new-york",
+    state: "New York",
+    stateSlug: "new-york",
+    phone: "(212) 869-5350",
+    isVerified: false,
+  },
+
+  // ============================================================
+  // NEW YORK CITY — STANDARD LOCAL DEALERS
+  // ============================================================
+  {
+    slug: "manhattan-coin-shop",
+    name: "Manhattan Coin Shop",
+    vertical: "local-coin-bullion",
+    description:
+      "High-volume Manhattan coin dealer in the Diamond District specializing in investment-grade bullion coins. Carries American Eagles, Canadian Maple Leafs, Krugerrands, Austrian Philharmonics, and other popular bullion coins, plus large bars. Publishes stock lists online with buy and sell prices. Offers a coin search service for specific products.",
+    address: "30 West 47th St, Ste 846, New York, NY 10036",
+    city: "New York",
+    citySlug: "new-york",
+    state: "New York",
+    stateSlug: "new-york",
+    phone: "(212) 944-1025",
+    isVerified: false,
+  },
+  {
+    slug: "global-gold-silver",
+    name: "Global Gold and Silver",
+    vertical: "local-coin-bullion",
+    description:
+      "Diamond District precious metals dealer with multiple locations across the Tri-State area. Buys and sells gold, silver, diamonds, and fine jewelry. Caters to both collectors and sellers. Appointments preferred for significant transactions but not required.",
+    address: "7 W 45th St, Ste 1200, New York, NY 10036",
+    city: "New York",
+    citySlug: "new-york",
+    state: "New York",
+    stateSlug: "new-york",
+    phone: "(212) 302-4653",
+    isVerified: false,
+  },
+  {
+    slug: "big-apple-coins",
+    name: "Big Apple Coins",
+    vertical: "local-coin-bullion",
+    description:
+      "Manhattan coin dealer located in the Diamond District. Buys and sells silver dollars, gold and silver coins, bullion, paper currency, and numismatic items. Offers appraisals with transparent pricing and no obligation.",
+    city: "New York",
+    citySlug: "new-york",
+    state: "New York",
+    stateSlug: "new-york",
+    website: "https://bigapplecoins.com/",
+    isVerified: false,
+  },
+  {
+    slug: "vieira-coins-collectibles",
+    name: "Vieira Coins & Collectibles",
+    vertical: "local-coin-bullion",
+    description:
+      "Queens-based coin dealer in Elmhurst specializing in certified gold coins, particularly pre-1933 U.S. gold. Also carries domestic and foreign coins with collectible value, plus bullion products including bars, rounds, Eagles, and Buffalos.",
+    address: "86-55 Broadway, Store A9, Elmhurst, NY 11373",
+    city: "Elmhurst",
+    citySlug: "elmhurst",
+    state: "New York",
+    stateSlug: "new-york",
+    phone: "(718) 255-1866",
+    isVerified: false,
+  },
+
+  // ============================================================
+  // LOS ANGELES — FEATURED LOCAL DEALERS
+  // ============================================================
+  {
+    slug: "golddealer-com-cni",
+    name: "GoldDealer.com (California Numismatic Investments)",
+    vertical: "local-coin-bullion",
+    description:
+      "Los Angeles precious metals dealer operating from a building that has served as a precious metals exchange since 1956. Buys and sells gold, silver, platinum, and palladium bullion products. Live buy and sell prices posted on website, refreshing every 30 seconds. No-commission sales staff. Free insured shipping. Features six live trading boards on the first floor for walk-in customers. Member of the Professional Numismatists Guild.",
+    city: "Los Angeles",
+    citySlug: "los-angeles",
+    state: "California",
+    stateSlug: "california",
+    website: "https://golddealer.com/",
+    isVerified: false,
+    bbbRating: "A+",
+  },
+  {
+    slug: "alhambra-coin-center",
+    name: "Alhambra Coin Center",
+    vertical: "local-coin-bullion",
+    description:
+      "Los Angeles-area coin dealer serving collectors and investors for over four decades. Offers rare coins and precious metal bullion. Provides appraisals, PCGS and NGC grading submission services, and precious metal IRA setup. Also operates as a wholesaler to other coin dealers across the country. Located in Alhambra.",
+    address: "254 East Main Street, Alhambra, CA 91801",
+    city: "Alhambra",
+    citySlug: "alhambra",
+    state: "California",
+    stateSlug: "california",
+    phone: "(626) 282-1151",
+    isVerified: false,
+  },
+  {
+    slug: "meridian-coin",
+    name: "Meridian Coin",
+    vertical: "local-coin-bullion",
+    description:
+      "Torrance-based coin and precious metals dealer opened in 2012, with owners formerly in wholesale dealing. Buys and sells gold, silver, platinum, and palladium bullion products along with rare coins including shipwreck coins, graded coins, world currency, and 90% silver coinage. PCGS and NGC certified. Offers free evaluations and verbal appraisals, with paid written appraisals available.",
+    address: "22330 Hawthorne Blvd, Ste C, Torrance, CA 90505",
+    city: "Torrance",
+    citySlug: "torrance",
+    state: "California",
+    stateSlug: "california",
+    phone: "(310) 375-4000",
+    isVerified: false,
+  },
+
+  // ============================================================
+  // LOS ANGELES — STANDARD LOCAL DEALERS
+  // ============================================================
+  {
+    slug: "a-coin-exchange",
+    name: "A Coin Exchange",
+    vertical: "local-coin-bullion",
+    description:
+      "Tarzana-based coin dealer with over 40 years of experience. Buys and sells coins, gold, silver, and jewelry. PCGS and NGC authorized dealer. Will travel to banks, homes, or offices to purchase coins and precious metals. Offers free appraisals.",
+    address: "18631 Ventura Blvd, Tarzana, CA 91356",
+    city: "Tarzana",
+    citySlug: "tarzana",
+    state: "California",
+    stateSlug: "california",
+    phone: "(818) 344-9555",
+    isVerified: false,
+  },
+  {
+    slug: "wilshire-coins",
+    name: "Wilshire Coins",
+    vertical: "local-coin-bullion",
+    description:
+      "Santa Monica-based coin dealer buying, selling, and trading precious metals and rare coins. Specialties include pre-1933 U.S. gold coins, Morgan and Peace silver dollars, and 90% and 40% silver coinage. Offers XRF Metal Assaying for precise metal content analysis. eBay store and website live chat available.",
+    city: "Santa Monica",
+    citySlug: "santa-monica",
+    state: "California",
+    stateSlug: "california",
+    isVerified: false,
+  },
+  {
+    slug: "pacific-coast-coin-currency",
+    name: "Pacific Coast Coin & Currency",
+    vertical: "local-coin-bullion",
+    description:
+      "Studio City coin dealer specializing in rare foreign and U.S. coins. Also carries gold and silver bullion products including bars, rounds, American Eagles, Canadian Maple Leafs, and Krugerrands.",
+    address: "11696 Ventura Boulevard, Studio City, CA 91604",
+    city: "Studio City",
+    citySlug: "studio-city",
+    state: "California",
+    stateSlug: "california",
+    isVerified: false,
+  },
+  {
+    slug: "collectors-internet",
+    name: "Collectors Internet (Hobby Investments)",
+    vertical: "local-coin-bullion",
+    description:
+      "Los Angeles coin dealer founded in 1979 as Hobby Investments. One of few coin shops in the heart of Los Angeles proper. Carries coins from under a dollar for new collectors to large-scale bullion bars. Specializes in historic U.S. coins and gold and silver bullion. Sells individual pieces and wholesale boxes.",
+    address: "7190 Sunset Blvd, #183, Los Angeles, CA 90046",
+    city: "Los Angeles",
+    citySlug: "los-angeles",
+    state: "California",
+    stateSlug: "california",
+    phone: "(323) 786-2646",
+    isVerified: false,
+  },
+  {
+    slug: "southern-california-coin-stamps",
+    name: "Southern California Coin & Stamps",
+    vertical: "local-coin-bullion",
+    description:
+      "Downey-based family-friendly coin and stamp dealer founded in 1974. Specializes in U.S. coinage with an ever-changing selection. Also offers mint and proof sets, paper currency, and gold and silver bullion coins. Price quotes available by phone or email.",
+    address: "7635 Firestone Blvd, Downey, CA 90241",
+    city: "Downey",
+    citySlug: "downey",
+    state: "California",
+    stateSlug: "california",
+    phone: "(562) 927-4014",
+    isVerified: false,
+  },
+
+  // ============================================================
+  // CHICAGO — FEATURED LOCAL DEALERS
+  // ============================================================
+  {
+    slug: "chicago-coin-company",
+    name: "Chicago Coin Company",
+    vertical: "local-coin-bullion",
+    description:
+      "One of Chicago\u2019s oldest coin dealers, founded in 1955. PCGS and NGC authorized dealer. Member of the Professional Numismatists Guild and Accredited Precious Metals Dealers. Buys and sells coins, currency, gold and silver bullion, 90% junk silver, and US Mint products. Operates as both retail and wholesale dealer. Provides free verbal appraisals.",
+    address: "6455 W. Archer Ave, Chicago, IL 60638",
+    city: "Chicago",
+    citySlug: "chicago",
+    state: "Illinois",
+    stateSlug: "illinois",
+    phone: "(773) 586-7666",
+    website: "http://chicagocoin.com/",
+    isVerified: false,
+  },
+  {
+    slug: "archies-coins-collectibles",
+    name: "Archie\u2019s Coins and Collectibles",
+    vertical: "local-coin-bullion",
+    description:
+      "One of Chicago\u2019s oldest coin shops, established in 1955. Staff has over 135 years of combined numismatic experience. NGC and PCGS authorized dealer. Carries a wide selection of U.S. coins. Also buys and sells gold, silver, and platinum bullion, jewelry, and precious metal scrap.",
+    address: "5516 W Devon Ave, Chicago, IL 60646",
+    city: "Chicago",
+    citySlug: "chicago",
+    state: "Illinois",
+    stateSlug: "illinois",
+    phone: "(773) 774-1433",
+    isVerified: false,
+  },
+  {
+    slug: "morton-grove-coins-collectibles",
+    name: "Morton Grove Coins & Collectibles",
+    vertical: "local-coin-bullion",
+    description:
+      "Family-owned Morton Grove coin dealer founded in 2008. Carries the latest U.S. Mint releases alongside a selection of modern and historic coins and currency. Buys and sells gold, silver, platinum, and palladium. NGC and PCGS authorized dealer. Member of the American Numismatic Association and the Illinois Numismatics Association.",
+    address: "9241 Waukegan Rd, Morton Grove, IL 60053",
+    city: "Morton Grove",
+    citySlug: "morton-grove",
+    state: "Illinois",
+    stateSlug: "illinois",
+    phone: "(847) 967-9200",
+    isVerified: false,
+  },
+
+  // ============================================================
+  // CHICAGO — STANDARD LOCAL DEALERS
+  // ============================================================
+  {
+    slug: "a1-jewelry-coin",
+    name: "A-1 Jewelry & Coin",
+    vertical: "local-coin-bullion",
+    description:
+      "Family-run Chicago coin shop established in 1984. NGC and PCGS approved dealer. Specializes in currency, rare coins, and bullion. Also deals in jewelry, diamonds, flatware, and other collectibles and precious metal items. Offers appraisals.",
+    address: "1827 W. Irving Park Road, Chicago, IL 60613",
+    city: "Chicago",
+    citySlug: "chicago",
+    state: "Illinois",
+    stateSlug: "illinois",
+    phone: "(773) 868-0300",
+    isVerified: false,
+  },
+  {
+    slug: "chicago-precious-metals-exchange",
+    name: "Chicago Precious Metals Exchange",
+    vertical: "local-coin-bullion",
+    description:
+      "Downtown Chicago precious metals dealer specializing in physical gold, silver, platinum, and palladium bullion. Works primarily with precious metal investors rather than numismatic collectors. Also assists with precious metal IRA setup and management. Website posts up-to-the-minute sell prices. Most services available by appointment.",
+    address: "141 W Jackson Blvd, Ste 1204, Chicago, IL 60606",
+    city: "Chicago",
+    citySlug: "chicago",
+    state: "Illinois",
+    stateSlug: "illinois",
+    phone: "(312) 854-7084",
+    isVerified: false,
+  },
+  {
+    slug: "kedzie-koins",
+    name: "Kedzie Koins",
+    vertical: "local-coin-bullion",
+    description:
+      "Longstanding Chicago coin shop at the same Kedzie Avenue location for over three decades. Family-owned. Specializes in historic U.S. coins and rare coinage. Also carries platinum, gold, and silver bullion and coins.",
+    address: "5909 South Kedzie Ave, Chicago, IL 60629",
+    city: "Chicago",
+    citySlug: "chicago",
+    state: "Illinois",
+    stateSlug: "illinois",
+    phone: "(773) 436-0777",
+    isVerified: false,
+  },
+  {
+    slug: "oakton-coins-collectibles",
+    name: "Oakton Coins & Collectibles",
+    vertical: "local-coin-bullion",
+    description:
+      "Skokie-based coin and precious metals dealer. Buys and sells gold, silver, coins, bullion, and jewelry. Staff includes experienced numismatic professionals. Offers free verbal appraisals with no pressure to sell. Evaluates both collector value and melt value for coins and precious metals.",
+    city: "Skokie",
+    citySlug: "skokie",
+    state: "Illinois",
+    stateSlug: "illinois",
+    website: "https://oaktoncoins.com/",
+    isVerified: false,
+  },
+  {
+    slug: "fox-valley-coins",
+    name: "Fox Valley Coins",
+    vertical: "local-coin-bullion",
+    description:
+      "One of the largest Illinois coin dealers with three locations. Buys and sells nearly every type of coin and bullion. Inventory ranges from under a dollar to tens of thousands. Also offers regular live auctions of collectible coins. Posts daily inventory updates via Facebook.",
+    city: "Chicago",
+    citySlug: "chicago",
+    state: "Illinois",
+    stateSlug: "illinois",
+    isVerified: false,
+  },
+
+  // ============================================================
   // ONLINE DEALERS — FEATURED (BBB A+ and Google 4.5+)
   // ============================================================
   {

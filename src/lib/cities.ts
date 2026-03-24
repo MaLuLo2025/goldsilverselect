@@ -16,6 +16,21 @@ export const cities: City[] = [
   { name: "Aurora", slug: "aurora", state: "Colorado", stateSlug: "colorado" },
   { name: "Boulder", slug: "boulder", state: "Colorado", stateSlug: "colorado" },
   { name: "Centennial", slug: "centennial", state: "Colorado", stateSlug: "colorado" },
+  // New York
+  { name: "New York", slug: "new-york", state: "New York", stateSlug: "new-york" },
+  { name: "Elmhurst", slug: "elmhurst", state: "New York", stateSlug: "new-york" },
+  // California
+  { name: "Los Angeles", slug: "los-angeles", state: "California", stateSlug: "california" },
+  { name: "Alhambra", slug: "alhambra", state: "California", stateSlug: "california" },
+  { name: "Torrance", slug: "torrance", state: "California", stateSlug: "california" },
+  { name: "Tarzana", slug: "tarzana", state: "California", stateSlug: "california" },
+  { name: "Santa Monica", slug: "santa-monica", state: "California", stateSlug: "california" },
+  { name: "Studio City", slug: "studio-city", state: "California", stateSlug: "california" },
+  { name: "Downey", slug: "downey", state: "California", stateSlug: "california" },
+  // Illinois
+  { name: "Chicago", slug: "chicago", state: "Illinois", stateSlug: "illinois" },
+  { name: "Morton Grove", slug: "morton-grove", state: "Illinois", stateSlug: "illinois" },
+  { name: "Skokie", slug: "skokie", state: "Illinois", stateSlug: "illinois" },
 ];
 
 export function getCitiesByState(stateSlug: string): City[] {
