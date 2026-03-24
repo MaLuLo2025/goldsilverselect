@@ -606,6 +606,210 @@ const blogContent: Record<string, React.ReactNode> = {
       </p>
     </>
   ),
+
+  "what-should-i-truly-pay-for-gold-and-silver": (
+    <>
+      <p>
+        <em>It&apos;s more complicated than you think. Here&apos;s a step-by-step framework for making smart buying decisions.</em>
+      </p>
+      <p>
+        You checked the spot price. You found a dealer. You&apos;re ready to buy. But the number on the invoice doesn&apos;t match the number on the ticker — and you&apos;re not sure if that&apos;s normal or if you&apos;re being overcharged.
+      </p>
+      <p>
+        Welcome to the most common frustration in precious metals buying. The answer to &ldquo;what should I pay?&rdquo; is more complicated than a single number, but it&apos;s not mysterious. It follows a logic that, once you understand it, makes every future purchase feel transparent.
+      </p>
+      <p>Here&apos;s the framework.</p>
+
+      <h2>Spot Price Is the Starting Line, Not the Finish Line</h2>
+      <p>
+        The spot price is the wholesale benchmark for raw metal traded on global commodity exchanges. It fluctuates throughout the trading day based on futures contracts, currency movements, and global supply and demand.
+      </p>
+      <p>
+        Here&apos;s what the spot price is not: the price you will pay. Nobody — online or local, large or small — sells gold or silver at spot. The real question isn&apos;t &ldquo;what&apos;s the spot price?&rdquo; It&apos;s &ldquo;how much above spot is fair for what I&apos;m buying?&rdquo; That gap between spot and what you actually pay is called the <strong>premium</strong>, and it varies enormously depending on what you buy, where you buy it, and when.
+      </p>
+      <p>
+        Understanding premiums is the single most important skill a precious metals buyer can develop. Everything that follows is built on that foundation. For a deeper dive, see our article on{" "}
+        <Link href="/blog/spot-price-vs-what-you-pay" className="text-gold font-semibold">
+          Spot Price vs. What You Pay
+        </Link>
+        .
+      </p>
+
+      <h2>Step 1: Know What You&apos;re Buying</h2>
+      <p>
+        This is where most new buyers make their first mistake. They shop price before they decide product. But the premium you&apos;ll pay depends entirely on what you&apos;re buying — and not all gold and silver products are priced the same way.
+      </p>
+
+      <h2>Bullion Bars and Rounds</h2>
+      <p>
+        If your goal is to own metal by weight at the lowest possible cost, bullion bars and generic rounds are where you start. These products are valued almost entirely on their metal content, with relatively thin premiums layered on top.
+      </p>
+      <p>
+        Generic rounds and bars — produced by private mints rather than government mints — typically carry the lowest premiums. For gold, expect somewhere in the range of 3–6% over spot in normal market conditions. Silver premiums tend to run higher as a percentage because the per-ounce price is lower and fixed costs like minting and shipping make up a larger share of the total.
+      </p>
+      <p>
+        One important pattern: larger bars carry lower per-ounce premiums than smaller ones. A 10 oz gold bar will have a lower percentage premium than a 1 oz round, and a 100 oz silver bar will be cheaper per ounce than a 1 oz silver round. If you&apos;re buying in quantity and storage isn&apos;t a concern, scaling up the bar size is one of the simplest ways to reduce your cost basis.
+      </p>
+
+      <h2>Government-Minted Bullion Coins</h2>
+      <p>
+        American Gold Eagles, Silver Eagles, Canadian Maple Leafs, South African Krugerrands, Austrian Philharmonics — these are government-minted coins produced by sovereign mints with legal tender status. They carry higher premiums than generic bullion, and there&apos;s a reason for that.
+      </p>
+      <p>
+        You&apos;re paying for sovereign mint backing, universal recognizability, and guaranteed purity. An American Gold Eagle is accepted by every dealer in the world without question. That recognition has value — particularly when it comes time to sell. Government-minted coins generally command higher buyback prices than generic products, which partially offsets the higher purchase premium.
+      </p>
+      <p>
+        In normal markets, expect premiums of roughly 5–8% over spot for gold coins like Eagles and Maple Leafs, sometimes higher for Silver Eagles due to periodic supply constraints from the U.S. Mint. For a detailed comparison, see{" "}
+        <Link href="/blog/gold-coin-premiums-compared" className="text-gold font-semibold">
+          Gold Coin Premiums: Eagles, Maples, Krugerrands, and Buffaloes Compared
+        </Link>
+        .
+      </p>
+
+      <h2>Numismatic and Collectible Coins</h2>
+      <p>
+        Here&apos;s where premiums get genuinely complicated — and where uninformed buyers are most likely to overpay.
+      </p>
+      <p>
+        Numismatic coins are valued for their rarity, historical significance, condition, and collector demand, often well above their metal content. A proof American Gold Eagle from a limited mintage year can trade at two or three times its melt value. A rare date Morgan Silver Dollar in exceptional condition might sell for hundreds of times the value of its silver content.
+      </p>
+      <p>
+        Those premiums aren&apos;t necessarily a rip-off. They reflect real scarcity and real collector demand. But you need to understand what you&apos;re buying. If your goal is to accumulate metal, a numismatic premium is money you&apos;re spending on something other than metal. If you&apos;re a collector who understands grading, mintage numbers, and the secondary market for rare coins, those premiums are the point.
+      </p>
+      <p>
+        The critical distinction: are you buying the metal, or are you buying the coin? If you don&apos;t have a clear answer to that question, you&apos;re not ready to buy numismatic coins. Stick with bullion until you are. For more on how numismatic upsells work in IRA contexts, see{" "}
+        <Link href="/blog/gold-ira-scams" className="text-gold font-semibold">
+          Gold IRA Scams: How to Spot Them
+        </Link>
+        .
+      </p>
+
+      <h2>Junk Silver</h2>
+      <p>
+        &ldquo;Junk silver&rdquo; refers to pre-1965 U.S. coins — dimes, quarters, and half dollars — that contain 90% silver. The term &ldquo;junk&rdquo; means they have no significant numismatic or collectible value. They&apos;re bought and sold purely for their silver content.
+      </p>
+      <p>
+        Junk silver is priced differently from other products. It&apos;s usually quoted either as a multiple of face value or as a premium per ounce of actual silver content. A $1 face value bag of pre-1965 quarters contains approximately 0.715 troy ounces of pure silver.
+      </p>
+      <p>
+        Premiums on junk silver fluctuate more than most products. In calm markets, junk silver trades near generic silver premiums. In high-demand periods, premiums spike — sometimes dramatically — because supply is fixed. Nobody is making more 1964 Washington quarters. For more on junk silver, see our article{" "}
+        <Link href="/blog/what-is-junk-silver" className="text-gold font-semibold">
+          What Is Junk Silver?
+        </Link>
+      </p>
+
+      <h2>Step 2: Pick the Right Dealer</h2>
+      <p>
+        The product you buy determines the premium range. The dealer you buy from determines where you fall within that range — or whether you get pushed outside it entirely. This is perhaps the most important step in the process.
+      </p>
+      <p>
+        The precious metals industry is filled with reputable dealers who have served customers honestly for decades. It is also home to high-pressure operations, bait-and-switch tactics, and outright scams. The difference between a good dealer and a bad one can easily be 10–20% on the same product. On a $3,000 gold coin, that&apos;s $300 to $600 you didn&apos;t need to spend.
+      </p>
+
+      <h2>What to Look For</h2>
+      <p>
+        <strong>Transparent, posted premiums.</strong> A reputable dealer will tell you what their premiums are — often posted right on their website. If everything is &ldquo;call for pricing,&rdquo; that&apos;s a negotiation tactic.
+      </p>
+      <p>
+        <strong>Clear buyback policies.</strong> Before you buy, you should be able to find out what the dealer will pay when you want to sell. A willingness to publish buyback prices is one of the strongest signals of a dealer operating in good faith.
+      </p>
+      <p>
+        <strong>Verifiable track record.</strong> Look for a real physical address, not a P.O. box. Check their Better Business Bureau rating. Read their Google reviews — not just the star rating, but the actual content. How long have they been in business?
+      </p>
+      <p>
+        <strong>Patience.</strong> A good dealer answers your questions without pressure. They explain products, premiums, and tradeoffs. They don&apos;t mind if you need time to think.
+      </p>
+      <p>
+        Browse our{" "}
+        <Link href="/dealers" className="text-gold font-semibold">
+          dealer directory
+        </Link>{" "}
+        to find local coin shops and bullion dealers, or compare{" "}
+        <Link href="/online-dealers" className="text-gold font-semibold">
+          online dealers
+        </Link>{" "}
+        side by side.
+      </p>
+
+      <h2>Red Flags</h2>
+      <p>
+        <strong>&ldquo;This coin is about to skyrocket.&rdquo;</strong> No one knows that. Anyone who claims to know the future price of a specific coin is either lying or delusional.
+      </p>
+      <p>
+        <strong>Unsolicited phone calls.</strong> Legitimate dealers don&apos;t cold-call strangers to sell gold. If someone calls you out of the blue to pitch precious metals, hang up.
+      </p>
+      <p>
+        <strong>Steering.</strong> You call about bullion and the person on the phone starts redirecting you toward &ldquo;rare&rdquo; or &ldquo;collectible&rdquo; coins with much higher premiums. They may tell you that numismatic coins are &ldquo;exempt from government confiscation&rdquo; or have &ldquo;better upside potential.&rdquo; These claims range from misleading to outright false. What&apos;s really happening is you&apos;re being moved from a low-margin product to a high-margin product.
+      </p>
+      <p>
+        <strong>Extreme urgency.</strong> Spot price is global and public. It doesn&apos;t change because a dealer says they have a &ldquo;limited time offer&rdquo; expiring at midnight. Urgency in precious metals sales is almost always manufactured.
+      </p>
+
+      <h2>Step 3: Compare Before You Commit</h2>
+      <p>
+        You know what product you want. You&apos;ve identified dealers that look reputable. The final step before buying is straightforward price comparison — and it&apos;s the step most people skip.
+      </p>
+      <p>
+        <strong>Compare premium over spot, not sticker price.</strong> If you check Dealer A at 10 a.m. and Dealer B at 2 p.m., the spot price may have moved between those checks. The sticker prices change, but the premiums are what reveal who&apos;s actually cheaper.
+      </p>
+      <p>
+        <strong>Compare the same product, same quantity, same payment method.</strong> An American Gold Eagle versus a generic gold round is not a comparison. A credit card price versus a wire transfer price is not a comparison. Match every variable.
+      </p>
+      <p>
+        <strong>Factor in total cost.</strong> Premium plus shipping plus insurance plus any credit card surcharge equals your real cost. Some dealers advertise low premiums but charge $15–30 for shipping. Others show a slightly higher premium but include free shipping above a certain threshold.
+      </p>
+      <p>
+        <strong>Get at least three quotes.</strong> Two is not enough. Three gives you a range. If all three are similar, you can be reasonably confident you&apos;re seeing the real market. If one is dramatically cheaper or more expensive, investigate why.
+      </p>
+
+      <h2>Step 4: Understand the Full Round-Trip Cost</h2>
+      <p>
+        This is the step almost nobody thinks about until they&apos;re ready to sell — and by then, it&apos;s too late to change the math.
+      </p>
+      <p>
+        Every dealer buys at a discount to spot and sells at a premium to spot. The gap between what you paid going in and what you&apos;ll receive going out is the real cost of the transaction.
+      </p>
+      <p>
+        Here&apos;s a simplified example. You buy a 1 oz American Gold Eagle at 5% over spot. Two years later, you sell it back to a dealer who buys at 1% below spot. Your round-trip cost was approximately 6%. That means gold needed to appreciate at least 6% during the time you held it for you to break even.
+      </p>
+      <p>
+        Product choice affects the round trip. Generic rounds may have lower purchase premiums, but they also tend to command lower buyback premiums. Government-minted coins like Eagles and Maple Leafs generally carry better buyback prices because of their universal recognition.
+      </p>
+
+      <h2>Timing Matters</h2>
+      <p>
+        Premiums are not static. During market panics, geopolitical crises, or sudden surges in retail demand, premiums spike — sometimes dramatically. Buying during a premium spike means you&apos;re paying more going in, and that premium may compress back to normal levels when you eventually sell.
+      </p>
+      <p>
+        The inverse is also true. Buying when premiums are historically low locks in a favorable cost basis. Premiums tend to be lowest during periods of low public interest in precious metals — exactly when buying feels least urgent.
+      </p>
+
+      <h2>Step 5: Set Your Own Rules and Stick to Them</h2>
+      <p>
+        Once you&apos;ve done the work above — understood your product category, identified reputable dealers, learned to compare properly, and internalized the round-trip cost — the final step is to codify what you&apos;ve learned into personal buying rules.
+      </p>
+      <p>Examples of effective personal buying rules:</p>
+      <p>&bull; &ldquo;I don&apos;t pay more than X% over spot for generic silver rounds.&rdquo;</p>
+      <p>&bull; &ldquo;I only buy American Gold Eagles when the premium is under a specific dollar amount.&rdquo;</p>
+      <p>&bull; &ldquo;I compare at least three dealers on every purchase over a certain dollar threshold.&rdquo;</p>
+      <p>&bull; &ldquo;I never buy on the phone from someone who called me.&rdquo;</p>
+      <p>&bull; &ldquo;I check the spot price within 30 minutes of every transaction.&rdquo;</p>
+      <p>
+        The value of rules like these isn&apos;t that they&apos;re perfect. It&apos;s that they create friction between you and an impulsive decision. The informed buyer who follows a repeatable process pays a fair price. The emotional buyer — the one responding to urgency, fear, or a compelling sales pitch — is the one who overpays.
+      </p>
+
+      <h2>The Bottom Line</h2>
+      <p>
+        &ldquo;What should I pay for gold and silver?&rdquo; doesn&apos;t have a single number answer. It has a framework: know your product, pick your dealer carefully, compare before committing, understand the round-trip cost, and set rules you follow every time.
+      </p>
+      <p>
+        Do that, and you&apos;ll pay a fair price — regardless of where the spot price goes.
+      </p>
+      <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
+        GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver, and we do not receive compensation from any dealer listed on this site.
+      </p>
+    </>
+  ),
 };
 
 export default function BlogPostPage({
@@ -618,10 +822,38 @@ export default function BlogPostPage({
 
   const content = blogContent[params.slug];
 
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: post.title,
+    description: post.excerpt,
+    datePublished: post.date,
+    dateModified: post.date,
+    author: {
+      "@type": "Organization",
+      name: "GoldSilverSelect",
+      url: "https://goldsilverselect.com",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "GoldSilverSelect",
+      url: "https://goldsilverselect.com",
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `https://goldsilverselect.com/blog/${params.slug}`,
+    },
+  };
+
   return (
     <>
       <TickerBanner />
       <Header />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
 
       {/* Breadcrumb */}
       <div className="max-w-[760px] mx-auto" style={{ padding: "16px 24px 0" }}>

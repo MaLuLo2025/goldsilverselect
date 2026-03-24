@@ -53,6 +53,17 @@ export const blogPosts: BlogPost[] = [
     series: "Spot Price vs. What You Pay",
   },
   {
+    slug: "what-should-i-truly-pay-for-gold-and-silver",
+    title:
+      "What Should I Truly Pay for Gold and Silver?",
+    tag: "Premiums & Pricing",
+    tagColor: "forest",
+    excerpt:
+      "A step-by-step framework for understanding premiums, picking the right dealer, and making sure you pay a fair price for gold and silver.",
+    date: "2026-03-24",
+    series: "Spot Price vs. What You Pay",
+  },
+  {
     slug: "what-is-junk-silver",
     title:
       "What Is Junk Silver and Why Do People Pay Over Spot for Worn-Out Coins?",
