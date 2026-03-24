@@ -1,98 +1,85 @@
 import { NextResponse } from "next/server";
 
-interface MetalsDevLatest {
-  status: string;
-  metals: {
-    gold: number;
-    silver: number;
-    platinum: number;
-    palladium: number;
-    [key: string]: number;
-  };
+interface MetalResult {
+  price: number;
+  change: number;
+  pct: number;
 }
 
-interface CachedData {
-  gold: number;
-  silver: number;
-  platinum: number;
-  palladium: number;
+interface CachedResponse {
+  data: Record<string, MetalResult>;
   timestamp: number;
 }
 
-// Hardcoded fallback when API is unavailable
-const FALLBACK = {
-  gold: 3025.0,
-  silver: 33.5,
-  platinum: 985.0,
-  palladium: 960.0,
-};
+let cache: CachedResponse | null = null;
+const CACHE_TTL = 60_000; // 60 seconds
 
-let cache: CachedData | null = null;
-const CACHE_TTL = 20 * 60_000; // 20 minutes
+const METALS = ["gold", "silver", "platinum", "palladium"] as const;
+
+const FALLBACK: Record<string, MetalResult> = {
+  gold: { price: 3025.0, change: 0, pct: 0 },
+  silver: { price: 33.5, change: 0, pct: 0 },
+  platinum: { price: 985.0, change: 0, pct: 0 },
+  palladium: { price: 960.0, change: 0, pct: 0 },
+};
 
 export async function GET() {
   const now = Date.now();
   const apiKey = process.env.METALS_API_KEY;
 
   if (!apiKey) {
-    return NextResponse.json(
-      { error: "API key not configured" },
-      { status: 500 }
-    );
+    console.error("[prices] METALS_API_KEY not set");
+    return NextResponse.json(FALLBACK);
   }
 
   // Return cached data if fresh
   if (cache && now - cache.timestamp < CACHE_TTL) {
-    return NextResponse.json({
-      gold: { price: cache.gold },
-      silver: { price: cache.silver },
-      platinum: { price: cache.platinum },
-      palladium: { price: cache.palladium },
-    });
+    return NextResponse.json(cache.data);
   }
 
-  try {
-    const url = `https://api.metals.dev/v1/latest?api_key=${apiKey}&currency=USD&unit=toz`;
-    const res = await fetch(url, { cache: "no-store" });
-    const rawBody = await res.text();
+  const maskedKey = apiKey.slice(0, 4) + "..." + apiKey.slice(-4);
+  const results: Record<string, MetalResult> = {};
 
-    const maskedKey = apiKey.slice(0, 4) + "..." + apiKey.slice(-4);
-    console.log(`[prices] /v1/latest key=${maskedKey} status=${res.status} body=${rawBody.slice(0, 300)}`);
+  // Fetch each metal independently via /v1/metal/spot
+  for (const metal of METALS) {
+    try {
+      const url = `https://api.metals.dev/v1/metal/spot?api_key=${apiKey}&metal=${metal}&currency=USD`;
+      console.log(`[prices] GET /v1/metal/spot?api_key=${maskedKey}&metal=${metal}&currency=USD`);
 
-    if (!res.ok) {
-      throw new Error(`API returned ${res.status}`);
+      const res = await fetch(url, { cache: "no-store" });
+      const body = await res.text();
+
+      console.log(`[prices] ${metal} status=${res.status} body=${body.slice(0, 400)}`);
+
+      if (!res.ok) {
+        console.error(`[prices] ${metal} failed: ${res.status}`);
+        results[metal] = cache?.data[metal] || FALLBACK[metal];
+        continue;
+      }
+
+      const parsed = JSON.parse(body);
+
+      if (parsed.status !== "success" || !parsed.rate) {
+        console.error(`[prices] ${metal} bad response: ${body.slice(0, 200)}`);
+        results[metal] = cache?.data[metal] || FALLBACK[metal];
+        continue;
+      }
+
+      results[metal] = {
+        price: parsed.rate.price,
+        change: parsed.rate.change ?? 0,
+        pct: parsed.rate.change_percent ?? 0,
+      };
+    } catch (err) {
+      console.error(`[prices] ${metal} exception:`, err);
+      results[metal] = cache?.data[metal] || FALLBACK[metal];
     }
-
-    const data: MetalsDevLatest = JSON.parse(rawBody);
-
-    if (data.status !== "success" || !data.metals) {
-      throw new Error(`Unexpected response: ${rawBody.slice(0, 200)}`);
-    }
-
-    cache = {
-      gold: data.metals.gold,
-      silver: data.metals.silver,
-      platinum: data.metals.platinum,
-      palladium: data.metals.palladium,
-      timestamp: now,
-    };
-
-    return NextResponse.json({
-      gold: { price: cache.gold },
-      silver: { price: cache.silver },
-      platinum: { price: cache.platinum },
-      palladium: { price: cache.palladium },
-    });
-  } catch (err) {
-    console.error("[prices] Fetch error:", err);
-
-    // Return stale cache or fallback
-    const src = cache || { ...FALLBACK, timestamp: 0 };
-    return NextResponse.json({
-      gold: { price: src.gold },
-      silver: { price: src.silver },
-      platinum: { price: src.platinum },
-      palladium: { price: src.palladium },
-    });
   }
+
+  // Cache if we got at least one real price
+  if (Object.values(results).some((r) => r.price > 0)) {
+    cache = { data: results, timestamp: now };
+  }
+
+  return NextResponse.json(results);
 }

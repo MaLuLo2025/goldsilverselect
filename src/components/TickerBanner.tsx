@@ -8,6 +8,7 @@ interface TickerPrice {
   metal: Metal;
   label: string;
   price: number;
+  pct?: number;
 }
 
 const FALLBACK: TickerPrice[] = [
@@ -46,6 +47,7 @@ export default function TickerBanner() {
         metal: key,
         label,
         price: data[key]?.price || 0,
+        pct: data[key]?.pct,
       }));
 
       // Only update if we got real data
@@ -131,6 +133,7 @@ export default function TickerBanner() {
                       style={{
                         color: "#FAFAF5",
                         fontSize: 14,
+                        marginRight: m.pct != null && m.pct !== 0 ? 6 : 0,
                       }}
                     >
                       $
@@ -138,6 +141,19 @@ export default function TickerBanner() {
                         minimumFractionDigits: 2,
                       })}
                     </span>
+                    {m.pct != null && m.pct !== 0 && (
+                      <span
+                        className="font-medium"
+                        style={{
+                          color: m.pct >= 0 ? "#4CAF50" : "#EF5350",
+                          fontSize: 10.5,
+                        }}
+                      >
+                        {m.pct >= 0 ? "\u25B2" : "\u25BC"}{" "}
+                        {m.pct >= 0 ? "+" : ""}
+                        {m.pct.toFixed(2)}%
+                      </span>
+                    )}
                     {i < prices.length - 1 && (
                       <span
                         style={{
