@@ -4,7 +4,7 @@ import TickerBanner from "@/components/TickerBanner";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { getIRAProviders } from "@/lib/dealers";
-import DealerRatings from "@/components/DealerRatings";
+import DealerList from "@/components/DealerList";
 
 export const metadata: Metadata = {
   title: "Gold & Silver IRA Providers",
@@ -69,22 +69,7 @@ export default function IRAPage() {
         <h2 className="font-serif text-[24px] font-bold text-gray-900 mb-4">
           IRA Providers Directory
         </h2>
-        <div className="grid gap-4">
-          {providers.map((dealer) => (
-            <div key={dealer.slug} className="intel-card">
-              <div className="flex-1 min-w-0">
-                <h3 className="font-serif text-[19px] font-semibold text-gray-900 mb-1">
-                  {dealer.name}
-                </h3>
-                <p className="font-sans text-[13px] leading-relaxed mb-1.5" style={{ color: "#777" }}>
-                  {dealer.description.slice(0, 120)}{dealer.description.length > 120 ? "..." : ""}
-                </p>
-                <DealerRatings dealer={dealer} />
-              </div>
-              <div className="flex-shrink-0 self-center text-lg" style={{ color: "#ccc" }}>→</div>
-            </div>
-          ))}
-        </div>
+        <DealerList dealers={providers} showLink={false} />
 
         {/* Authority links */}
         <div className="mt-10">

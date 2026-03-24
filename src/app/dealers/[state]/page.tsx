@@ -8,6 +8,7 @@ import { states } from "@/lib/states";
 import { getCitiesByState } from "@/lib/cities";
 import { getDealersByState } from "@/lib/dealers";
 import DealerRatings from "@/components/DealerRatings";
+import { isFeatured } from "@/components/DealerCard";
 
 export function generateStaticParams() {
   return states.map((s) => ({ state: s.slug }));
@@ -108,43 +109,63 @@ export default function StateDealersPage({
                   </div>
                   {cityDealers.length > 0 ? (
                     <div className="grid grid-cols-2 gap-4">
-                      {cityDealers.slice(0, 4).map((dealer) => (
-                        <Link
-                          key={dealer.slug}
-                          href={`/dealers/${params.state}/${city.slug}/${dealer.slug}`}
-                          className="blog-card no-underline block"
-                        >
-                          <span
-                            className="font-sans text-[10px] font-bold uppercase mb-1.5 inline-block"
-                            style={{
-                              letterSpacing: "0.08em",
-                              color: "#1B3D2F",
-                              background: "rgba(27,61,47,0.08)",
-                              padding: "2px 8px",
-                              borderRadius: 3,
-                            }}
+                      {cityDealers.slice(0, 4).map((dealer) => {
+                        const feat = isFeatured(dealer);
+                        return (
+                          <Link
+                            key={dealer.slug}
+                            href={`/dealers/${params.state}/${city.slug}/${dealer.slug}`}
+                            className="blog-card no-underline block"
+                            style={feat ? { borderLeft: "3px solid #C5A44E" } : undefined}
                           >
-                            {dealer.vertical === "local-coin-bullion"
-                              ? "Coins & Bullion"
-                              : dealer.vertical === "jewelry"
-                              ? "Jewelry"
-                              : dealer.vertical === "recycling"
-                              ? "Recycling"
-                              : dealer.vertical}
-                          </span>
-                          <h4 className="font-serif text-[17px] font-semibold text-gray-900 leading-snug mb-1">
-                            {dealer.name}
-                          </h4>
-                          <p
-                            className="font-sans text-[12.5px] leading-relaxed"
-                            style={{ color: "#888" }}
-                          >
-                            {dealer.description.slice(0, 120)}
-                            {dealer.description.length > 120 ? "..." : ""}
-                          </p>
-                          <DealerRatings dealer={dealer} />
-                        </Link>
-                      ))}
+                            <div className="flex items-center gap-2 mb-1">
+                              <span
+                                className="font-sans text-[10px] font-bold uppercase inline-block"
+                                style={{
+                                  letterSpacing: "0.08em",
+                                  color: "#1B3D2F",
+                                  background: "rgba(27,61,47,0.08)",
+                                  padding: "2px 8px",
+                                  borderRadius: 3,
+                                }}
+                              >
+                                {dealer.vertical === "local-coin-bullion"
+                                  ? "Coins & Bullion"
+                                  : dealer.vertical === "jewelry"
+                                  ? "Jewelry"
+                                  : dealer.vertical === "recycling"
+                                  ? "Recycling"
+                                  : dealer.vertical}
+                              </span>
+                              {feat && (
+                                <span
+                                  className="font-sans text-[9px] font-bold uppercase"
+                                  style={{
+                                    color: "#C5A44E",
+                                    background: "rgba(197,164,78,0.1)",
+                                    padding: "2px 7px",
+                                    borderRadius: 3,
+                                    letterSpacing: "0.06em",
+                                  }}
+                                >
+                                  Featured
+                                </span>
+                              )}
+                            </div>
+                            <h4 className="font-serif text-[17px] font-semibold text-gray-900 leading-snug mb-1">
+                              {dealer.name}
+                            </h4>
+                            <p
+                              className="font-sans text-[12.5px] leading-relaxed"
+                              style={{ color: "#888" }}
+                            >
+                              {dealer.description.slice(0, 200)}
+                              {dealer.description.length > 200 ? "..." : ""}
+                            </p>
+                            <DealerRatings dealer={dealer} />
+                          </Link>
+                        );
+                      })}
                     </div>
                   ) : (
                     <p className="font-sans text-[14px]" style={{ color: "#aaa" }}>

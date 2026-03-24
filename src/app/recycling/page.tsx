@@ -5,7 +5,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { getDealersByVertical } from "@/lib/dealers";
 import { states } from "@/lib/states";
-import DealerRatings from "@/components/DealerRatings";
+import DealerList from "@/components/DealerList";
 
 export const metadata: Metadata = {
   title: "Precious Metals Recycling — Sell Gold, Silver & Scrap",
@@ -56,24 +56,7 @@ export default function RecyclingPage() {
         <h2 className="font-serif text-[24px] font-bold text-gray-900 mb-4">
           Recyclers &amp; Refiners
         </h2>
-        <div className="grid gap-4">
-          {recyclers.map((dealer) => (
-            <div key={dealer.slug} className="intel-card">
-              <div className="flex-1 min-w-0">
-                <h3 className="font-serif text-[19px] font-semibold text-gray-900 mb-1">
-                  {dealer.name}
-                </h3>
-                <p className="font-sans text-[13px] leading-relaxed mb-1.5" style={{ color: "#777" }}>
-                  {dealer.description.slice(0, 120)}{dealer.description.length > 120 ? "..." : ""}
-                </p>
-                <DealerRatings dealer={dealer} />
-                <span className="font-sans text-[12px] mt-1 inline-block" style={{ color: "#aaa" }}>
-                  {dealer.city}, {dealer.state}
-                </span>
-              </div>
-            </div>
-          ))}
-        </div>
+        <DealerList dealers={recyclers} showLink={false} />
 
         {/* Browsing by state */}
         <div className="mt-10">

@@ -4,7 +4,7 @@ import TickerBanner from "@/components/TickerBanner";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { getDealersByVertical } from "@/lib/dealers";
-import DealerRatings from "@/components/DealerRatings";
+import DealerList from "@/components/DealerList";
 
 export const metadata: Metadata = {
   title: "Jewelry Stores & Custom Jewelers",
@@ -39,28 +39,7 @@ export default function JewelryPage() {
       </section>
 
       <section className="max-w-[900px] mx-auto" style={{ padding: "40px 24px 64px" }}>
-        <div className="grid gap-4">
-          {jewelers.map((dealer) => (
-            <div key={dealer.slug} className="intel-card">
-              <div className="flex-1 min-w-0">
-                <h3 className="font-serif text-[19px] font-semibold text-gray-900 mb-1">
-                  {dealer.name}
-                </h3>
-                <p className="font-sans text-[13px] leading-relaxed mb-1.5" style={{ color: "#777" }}>
-                  {dealer.description.slice(0, 120)}{dealer.description.length > 120 ? "..." : ""}
-                </p>
-                <DealerRatings dealer={dealer} />
-                <div className="flex gap-4 flex-wrap mt-1">
-                  {dealer.address && (
-                    <span className="font-sans text-[12px]" style={{ color: "#aaa" }}>
-                      {dealer.city}, {dealer.state}
-                    </span>
-                  )}
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
+        <DealerList dealers={jewelers} showLink={false} />
 
         <div className="mt-10">
           <h3 className="font-serif text-[18px] font-bold text-gray-900 mb-3">

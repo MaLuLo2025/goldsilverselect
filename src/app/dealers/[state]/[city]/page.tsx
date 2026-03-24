@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 import { states } from "@/lib/states";
 import { getCityBySlug } from "@/lib/cities";
 import { getDealersByCity } from "@/lib/dealers";
-import DealerRatings from "@/components/DealerRatings";
+import DealerList from "@/components/DealerList";
 
 export function generateMetadata({
   params,
@@ -107,34 +107,10 @@ export default function CityDealersPage({
             <h2 className="font-serif text-[22px] font-bold text-gold mb-4">
               {verticalLabels[vertical] || vertical}
             </h2>
-            <div className="grid gap-4">
-              {vDealers.map((dealer) => (
-                <Link
-                  key={dealer.slug}
-                  href={`/dealers/${params.state}/${params.city}/${dealer.slug}`}
-                  className="intel-card no-underline"
-                >
-                  <div className="flex-1 min-w-0">
-                    <h3 className="font-serif text-[19px] font-semibold text-gray-900 mb-1">
-                      {dealer.name}
-                    </h3>
-                    <p
-                      className="font-sans text-[13px] leading-relaxed mb-1.5"
-                      style={{ color: "#777" }}
-                    >
-                      {dealer.description.slice(0, 120)}{dealer.description.length > 120 ? "..." : ""}
-                    </p>
-                    <DealerRatings dealer={dealer} />
-                  </div>
-                  <div
-                    className="flex-shrink-0 self-center text-lg"
-                    style={{ color: "#ccc" }}
-                  >
-                    →
-                  </div>
-                </Link>
-              ))}
-            </div>
+            <DealerList
+              dealers={vDealers}
+              linkPrefix={`/dealers/${params.state}/${params.city}`}
+            />
           </div>
         ))}
       </section>
