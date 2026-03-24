@@ -1,27 +1,30 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
-import { metalPrices as fallbackPrices, markets } from "@/lib/markets";
+import { markets } from "@/lib/markets";
 import { Metal } from "@/lib/types";
 
 interface TickerPrice {
   metal: Metal;
   label: string;
   price: number;
+  change?: number;
+  pct?: number;
 }
 
-const fallback: TickerPrice[] = fallbackPrices.map((m) => ({
-  metal: m.metal,
-  label: m.label,
-  price: m.price,
-}));
+const FALLBACK: TickerPrice[] = [
+  { metal: "gold", label: "GOLD", price: 3025.0 },
+  { metal: "silver", label: "SILVER", price: 33.5 },
+  { metal: "platinum", label: "PLATINUM", price: 985.0 },
+  { metal: "palladium", label: "PALLADIUM", price: 960.0 },
+];
 
 export default function TickerBanner() {
   const [showMarkets, setShowMarkets] = useState(false);
-  const [prices, setPrices] = useState<TickerPrice[]>(fallback);
+  const [prices, setPrices] = useState<TickerPrice[]>(FALLBACK);
   const [ratio, setRatio] = useState(() => {
-    const g = fallback.find((m) => m.metal === "gold");
-    const s = fallback.find((m) => m.metal === "silver");
+    const g = FALLBACK.find((m) => m.metal === "gold");
+    const s = FALLBACK.find((m) => m.metal === "silver");
     return g && s ? (g.price / s.price).toFixed(1) : "\u2014";
   });
 
@@ -34,13 +37,23 @@ export default function TickerBanner() {
       const data = await res.json();
       if (data.error) return;
 
-      setPrices([
-        { metal: "gold", label: "GOLD", price: data.gold },
-        { metal: "silver", label: "SILVER", price: data.silver },
-        { metal: "platinum", label: "PLATINUM", price: data.platinum },
-        { metal: "palladium", label: "PALLADIUM", price: data.palladium },
-      ]);
-      setRatio((data.gold / data.silver).toFixed(1));
+      const metals: { key: Metal; label: string }[] = [
+        { key: "gold", label: "GOLD" },
+        { key: "silver", label: "SILVER" },
+        { key: "platinum", label: "PLATINUM" },
+        { key: "palladium", label: "PALLADIUM" },
+      ];
+
+      const newPrices: TickerPrice[] = metals.map(({ key, label }) => ({
+        metal: key,
+        label,
+        price: data[key].price,
+        change: data[key].change,
+        pct: data[key].pct,
+      }));
+
+      setPrices(newPrices);
+      setRatio((data.gold.price / data.silver.price).toFixed(1));
     } catch {
       // Keep existing prices on failure
     }
@@ -117,6 +130,7 @@ export default function TickerBanner() {
                       style={{
                         color: "#FAFAF5",
                         fontSize: 14,
+                        marginRight: m.pct !== undefined ? 6 : 0,
                       }}
                     >
                       $
@@ -124,6 +138,19 @@ export default function TickerBanner() {
                         minimumFractionDigits: 2,
                       })}
                     </span>
+                    {m.pct !== undefined && (
+                      <span
+                        className="font-medium"
+                        style={{
+                          color: m.pct >= 0 ? "#4CAF50" : "#EF5350",
+                          fontSize: 10.5,
+                        }}
+                      >
+                        {m.pct >= 0 ? "\u25B2" : "\u25BC"}{" "}
+                        {m.pct >= 0 ? "+" : ""}
+                        {m.pct.toFixed(2)}%
+                      </span>
+                    )}
                     {i < prices.length - 1 && (
                       <span
                         style={{
