@@ -8,6 +8,14 @@ export const cities: City[] = [
   { name: "Dallas", slug: "dallas", state: "Texas", stateSlug: "texas" },
   { name: "Fort Worth", slug: "fort-worth", state: "Texas", stateSlug: "texas" },
   { name: "El Paso", slug: "el-paso", state: "Texas", stateSlug: "texas" },
+  { name: "Round Rock", slug: "round-rock", state: "Texas", stateSlug: "texas" },
+  { name: "Pflugerville", slug: "pflugerville", state: "Texas", stateSlug: "texas" },
+  // Colorado
+  { name: "Denver", slug: "denver", state: "Colorado", stateSlug: "colorado" },
+  { name: "Greenwood Village", slug: "greenwood-village", state: "Colorado", stateSlug: "colorado" },
+  { name: "Aurora", slug: "aurora", state: "Colorado", stateSlug: "colorado" },
+  { name: "Boulder", slug: "boulder", state: "Colorado", stateSlug: "colorado" },
+  { name: "Centennial", slug: "centennial", state: "Colorado", stateSlug: "colorado" },
 ];
 
 export function getCitiesByState(stateSlug: string): City[] {
