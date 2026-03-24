@@ -2,8 +2,9 @@ import Link from "next/link";
 import { Dealer } from "@/lib/types";
 import DealerRatings from "./DealerRatings";
 
-/** Featured requires BOTH a BBB rating AND Google 4.5+ */
+/** Featured requires BOTH a BBB rating AND Google 4.5+, or manual approval */
 export function isFeatured(dealer: Dealer): boolean {
+  if (dealer.manualFeatured) return true;
   return !!(dealer.bbbRating && dealer.googleRating && dealer.googleRating >= 4.5);
 }
 

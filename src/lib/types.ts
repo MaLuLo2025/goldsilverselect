@@ -39,6 +39,8 @@ export interface Dealer {
   bbbRating?: string;
   googleRating?: number;
   trustpilotRating?: number;
+  /** Manually approved for Featured tier — overrides the BBB+Google requirement */
+  manualFeatured?: boolean;
 }
 
 export interface City {

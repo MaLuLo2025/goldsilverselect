@@ -677,6 +677,8 @@ export const dealers: Dealer[] = [
   // ============================================================
   // ONLINE DEALERS — FEATURED (BBB A+ and Google 4.5+)
   // ============================================================
+  // McAlvany: Featured status manually approved pending Google rating verification.
+  // BBB A+, 50+ years in business, owner confirmed Google review info forthcoming.
   {
     slug: "mcalvany-precious-metals",
     name: "McAlvany Precious Metals",
@@ -690,6 +692,22 @@ export const dealers: Dealer[] = [
     website: "https://mcalvany.com/metals/",
     isVerified: false,
     bbbRating: "A+",
+    manualFeatured: true,
+  },
+  {
+    slug: "vaulted",
+    name: "Vaulted",
+    vertical: "online-coin-bullion",
+    description:
+      "Digital precious metals platform operated by McAlvany Financial Group, a Durango, CO-based precious metals firm established in 1972. Allows users to buy and sell physical gold and silver through a mobile app or website with fractional purchasing starting at $10. Gold is stored at the Royal Canadian Mint; silver at HSBC Bank, London. Transaction fee of 1.8% on gold, 3.0% on silver. Annual storage fee of 0.4% for gold, 0.6% for silver. Physical delivery available for quantities of one ounce or more. Also offers VaultPlan for automated recurring purchases.",
+    city: "Durango",
+    citySlug: "durango",
+    state: "Colorado",
+    stateSlug: "colorado",
+    website: "https://vaulted.com/",
+    isVerified: false,
+    bbbRating: "A+",
+    manualFeatured: true,
   },
   {
     slug: "jm-bullion",
