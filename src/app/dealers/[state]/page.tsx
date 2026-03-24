@@ -8,7 +8,7 @@ import { states } from "@/lib/states";
 import { getCitiesByState } from "@/lib/cities";
 import { getDealersByState } from "@/lib/dealers";
 import DealerRatings from "@/components/DealerRatings";
-import { isFeatured } from "@/components/DealerCard";
+import { isFeatured, truncateAtSentence } from "@/components/DealerCard";
 
 export function generateStaticParams() {
   return states.map((s) => ({ state: s.slug }));
@@ -159,8 +159,7 @@ export default function StateDealersPage({
                               className="font-sans text-[12.5px] leading-relaxed"
                               style={{ color: "#888" }}
                             >
-                              {dealer.description.slice(0, 200)}
-                              {dealer.description.length > 200 ? "..." : ""}
+                              {truncateAtSentence(dealer.description, 300)}
                             </p>
                             <DealerRatings dealer={dealer} />
                           </Link>

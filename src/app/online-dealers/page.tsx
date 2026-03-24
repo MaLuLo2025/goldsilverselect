@@ -4,7 +4,8 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { getOnlineDealers } from "@/lib/dealers";
 import DealerRatings from "@/components/DealerRatings";
-import { isFeatured } from "@/components/DealerCard";
+import { isFeatured, truncateAtSentence } from "@/components/DealerCard";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Online Coin & Bullion Dealers",
@@ -45,18 +46,18 @@ export default function OnlineDealersPage() {
           )}
         </div>
         <p className="font-sans text-[13px] leading-relaxed mb-1.5" style={{ color: "#777" }}>
-          {dealer.description.slice(0, 200)}{dealer.description.length > 200 ? "..." : ""}
+          {truncateAtSentence(dealer.description, 300)}
         </p>
         <DealerRatings dealer={dealer} />
         {dealer.website && (
-          <a
+          <Link
             href={dealer.website}
             target="_blank"
             rel="noopener noreferrer"
-            className="font-sans text-[13px] text-gold font-semibold no-underline hover:underline mt-2 inline-block"
+            className="font-sans text-[12px] text-gold font-semibold no-underline hover:underline mt-1.5 inline-block"
           >
-            Visit Website &rarr;
-          </a>
+            {dealer.website.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "")} &rarr;
+          </Link>
         )}
       </div>
     </div>

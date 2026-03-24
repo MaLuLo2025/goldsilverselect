@@ -107,9 +107,32 @@ export default function DealerDetailPage({
         <h1 className="font-serif text-[36px] font-bold text-gray-900 mb-2">
           {dealer.name}
         </h1>
-        <p className="font-sans text-[15px] mb-3" style={{ color: "#888" }}>
+        <p className="font-sans text-[15px] mb-2" style={{ color: "#888" }}>
           {dealer.city}, {dealer.state}
         </p>
+
+        {/* Website & Phone — prominent */}
+        <div className="flex gap-5 flex-wrap mb-4">
+          {dealer.website && (
+            <a
+              href={dealer.website}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-sans text-[14px] font-semibold text-gold no-underline hover:underline inline-flex items-center gap-1"
+            >
+              {dealer.website.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "")} &rarr;
+            </a>
+          )}
+          {dealer.phone && (
+            <a
+              href={`tel:${dealer.phone}`}
+              className="font-sans text-[14px] font-semibold no-underline hover:underline inline-flex items-center gap-1"
+              style={{ color: "#555" }}
+            >
+              {dealer.phone}
+            </a>
+          )}
+        </div>
 
         {/* Ratings */}
         {(dealer.bbbRating || dealer.googleRating || dealer.trustpilotRating) && (
