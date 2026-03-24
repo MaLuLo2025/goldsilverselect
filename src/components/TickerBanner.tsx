@@ -8,8 +8,6 @@ interface TickerPrice {
   metal: Metal;
   label: string;
   price: number;
-  change?: number;
-  pct?: number;
 }
 
 const FALLBACK: TickerPrice[] = [
@@ -47,13 +45,16 @@ export default function TickerBanner() {
       const newPrices: TickerPrice[] = metals.map(({ key, label }) => ({
         metal: key,
         label,
-        price: data[key].price,
-        change: data[key].change,
-        pct: data[key].pct,
+        price: data[key]?.price || 0,
       }));
 
-      setPrices(newPrices);
-      setRatio((data.gold.price / data.silver.price).toFixed(1));
+      // Only update if we got real data
+      if (newPrices.some((p) => p.price > 0)) {
+        setPrices(newPrices);
+        const g = data.gold?.price;
+        const s = data.silver?.price;
+        if (g && s) setRatio((g / s).toFixed(1));
+      }
     } catch {
       // Keep existing prices on failure
     }
@@ -130,7 +131,6 @@ export default function TickerBanner() {
                       style={{
                         color: "#FAFAF5",
                         fontSize: 14,
-                        marginRight: m.pct !== undefined ? 6 : 0,
                       }}
                     >
                       $
@@ -138,19 +138,6 @@ export default function TickerBanner() {
                         minimumFractionDigits: 2,
                       })}
                     </span>
-                    {m.pct !== undefined && (
-                      <span
-                        className="font-medium"
-                        style={{
-                          color: m.pct >= 0 ? "#4CAF50" : "#EF5350",
-                          fontSize: 10.5,
-                        }}
-                      >
-                        {m.pct >= 0 ? "\u25B2" : "\u25BC"}{" "}
-                        {m.pct >= 0 ? "+" : ""}
-                        {m.pct.toFixed(2)}%
-                      </span>
-                    )}
                     {i < prices.length - 1 && (
                       <span
                         style={{
@@ -174,9 +161,9 @@ export default function TickerBanner() {
           </div>
         </div>
 
-        {/* Fixed right: Au:Ag ratio */}
+        {/* Fixed right: Au:Ag ratio + delay note */}
         <div
-          className="flex items-center gap-1.5 flex-shrink-0 z-10"
+          className="flex items-center gap-3 flex-shrink-0 z-10"
           style={{
             background: "#0a0a0a",
             borderLeft: "1px solid #222",
@@ -184,17 +171,22 @@ export default function TickerBanner() {
             height: "100%",
           }}
         >
-          <span
-            className="font-bold"
-            style={{ color: "#666", fontSize: 9, letterSpacing: "0.06em" }}
-          >
-            Au:Ag
-          </span>
-          <span
-            className="font-serif font-semibold"
-            style={{ color: "#C5A44E", fontSize: 13 }}
-          >
-            {ratio}
+          <div className="flex items-center gap-1.5">
+            <span
+              className="font-bold"
+              style={{ color: "#666", fontSize: 9, letterSpacing: "0.06em" }}
+            >
+              Au:Ag
+            </span>
+            <span
+              className="font-serif font-semibold"
+              style={{ color: "#C5A44E", fontSize: 13 }}
+            >
+              {ratio}
+            </span>
+          </div>
+          <span style={{ color: "#444", fontSize: 8 }}>
+            Delayed 20 min
           </span>
         </div>
       </div>
