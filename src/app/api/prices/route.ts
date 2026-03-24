@@ -31,6 +31,14 @@ const CACHE_TTL = 60_000; // 60 seconds
 
 const METAL_KEYS = ["gold", "silver", "platinum", "palladium"] as const;
 
+// Hardcoded fallback prices when API is unavailable
+const FALLBACK: Record<string, MetalData> = {
+  gold: { price: 3025.0, change: 0, pct: 0 },
+  silver: { price: 33.5, change: 0, pct: 0 },
+  platinum: { price: 985.0, change: 0, pct: 0 },
+  palladium: { price: 960.0, change: 0, pct: 0 },
+};
+
 export async function GET() {
   const now = Date.now();
   const apiKey = process.env.METALS_API_KEY;
@@ -57,20 +65,25 @@ export async function GET() {
       console.log(`Fetching spot for ${metal}: /v1/metal/spot?api_key=${maskedKey}&metal=${metal}&currency=USD`);
 
       const res = await fetch(url, { cache: "no-store" });
+      const rawBody = await res.text();
+
+      // Debug: log raw response for troubleshooting
+      console.log(`[DEBUG] Spot ${metal} — status=${res.status}, body=${rawBody.slice(0, 500)}`);
 
       if (!res.ok) {
-        const body = await res.text();
-        console.error(`Spot API ${res.status} for ${metal}: ${body.slice(0, 300)}`);
-        // Use stale cache for this metal if available
-        if (cache?.metals[metal]) {
-          metals[metal] = cache.metals[metal];
-        } else {
-          metals[metal] = { price: 0, change: 0, pct: 0 };
-        }
+        console.error(`Spot API ${res.status} for ${metal}: ${rawBody.slice(0, 300)}`);
+        metals[metal] = cache?.metals[metal] || FALLBACK[metal];
         continue;
       }
 
-      const data: SpotResponse = await res.json();
+      const data: SpotResponse = JSON.parse(rawBody);
+
+      if (data.status !== "success" || !data.rate) {
+        console.error(`Spot API unexpected response for ${metal}:`, rawBody.slice(0, 300));
+        metals[metal] = cache?.metals[metal] || FALLBACK[metal];
+        continue;
+      }
+
       console.log(`Spot ${metal}: price=${data.rate.price}, change=${data.rate.change}, pct=${data.rate.change_percent}`);
 
       metals[metal] = {
@@ -80,11 +93,7 @@ export async function GET() {
       };
     } catch (err) {
       console.error(`Spot fetch error for ${metal}:`, err);
-      if (cache?.metals[metal]) {
-        metals[metal] = cache.metals[metal];
-      } else {
-        metals[metal] = { price: 0, change: 0, pct: 0 };
-      }
+      metals[metal] = cache?.metals[metal] || FALLBACK[metal];
     }
   }
 
