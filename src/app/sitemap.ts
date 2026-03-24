@@ -3,6 +3,7 @@ import { states } from "@/lib/states";
 import { cities } from "@/lib/cities";
 import { dealers } from "@/lib/dealers";
 import { blogPosts } from "@/lib/blog";
+import { intelligenceItems } from "@/lib/intelligence";
 
 const BASE = "https://goldsilverselect.com";
 
@@ -63,5 +64,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  return [...staticPages, ...statePages, ...cityPages, ...dealerPages, ...blogPages];
+  // Intelligence detail pages
+  const intelligencePages = intelligenceItems.map((item) => ({
+    url: `${BASE}/intelligence/${item.slug}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
+  return [...staticPages, ...statePages, ...cityPages, ...dealerPages, ...blogPages, ...intelligencePages];
 }

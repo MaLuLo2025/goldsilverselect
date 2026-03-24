@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { intelligenceItems } from "@/lib/intelligence";
 import { PlayIcon, DocIcon } from "./Icons";
 
@@ -59,10 +60,14 @@ export default function IntelligenceSection() {
 
         {/* Cards */}
         <div className="grid gap-3">
-          {filtered.map((item, i) => {
+          {filtered.map((item) => {
             const colors = tagColors[item.tag] || tagColors.Macro;
             return (
-              <div key={i} className="intel-card">
+              <Link
+                key={item.slug}
+                href={`/intelligence/${item.slug}`}
+                className="intel-card no-underline"
+              >
                 {/* Icon */}
                 <div
                   className="w-11 h-11 rounded-full flex-shrink-0 flex items-center justify-center"
@@ -96,7 +101,7 @@ export default function IntelligenceSection() {
                     <span className="font-sans text-[11px]" style={{ color: "#aaa" }}>
                       {item.date}
                     </span>
-                    <span style={{ color: "#ccc" }}>·</span>
+                    <span style={{ color: "#ccc" }}>&middot;</span>
                     <span className="font-sans text-[11px]" style={{ color: "#aaa" }}>
                       {item.source}
                     </span>
@@ -120,16 +125,18 @@ export default function IntelligenceSection() {
                   className="flex-shrink-0 self-center text-lg"
                   style={{ color: "#ccc" }}
                 >
-                  →
+                  &rarr;
                 </div>
-              </div>
+              </Link>
             );
           })}
         </div>
 
         {/* View Full Library */}
         <div className="text-center mt-7">
-          <button className="btn-outline">View Full Library</button>
+          <Link href="/intelligence" className="btn-outline no-underline inline-block">
+            View Full Library
+          </Link>
         </div>
 
         {/* Editorial voice nudge */}
@@ -143,12 +150,12 @@ export default function IntelligenceSection() {
         >
           <p className="font-sans text-[13.5px] leading-relaxed" style={{ color: "#888" }}>
             We summarize and synthesize so you don&apos;t have to watch a
-            90‑minute interview for 4 minutes of insight. Bullet points, key
+            90&#8209;minute interview for 4 minutes of insight. Bullet points, key
             takeaways, and a direct link.{" "}
             <span className="text-gold font-semibold">
               We never advocate, never opine
             </span>{" "}
-            — just the substance, clearly presented. Sign up below to get
+            &mdash; just the substance, clearly presented. Sign up below to get
             notified.
           </p>
         </div>

@@ -57,6 +57,7 @@ export interface Category {
 }
 
 export interface IntelligenceItem {
+  slug: string;
   type: "video" | "research";
   speaker: string;
   title: string;
@@ -65,6 +66,7 @@ export interface IntelligenceItem {
   tag: "Macro" | "Institutional" | "Specialist";
   description: string;
   url?: string;
+  youtubeUrl?: string;
   timestamp?: string;
 }
 
