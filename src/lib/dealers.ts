@@ -2,55 +2,57 @@ import { Dealer } from "./types";
 
 export const dealers: Dealer[] = [
   // ============================================================
-  // AUSTIN, TEXAS — LOCAL COIN & BULLION
+  // AUSTIN, TEXAS — FEATURED LOCAL DEALERS
   // ============================================================
   {
     slug: "austin-rare-coins-bullion",
     name: "Austin Rare Coins & Bullion",
     vertical: "local-coin-bullion",
     description:
-      "Precious metals dealer in business since 1989. Buys and sells gold, silver, platinum, and palladium bullion, rare coins, and ancient coins. Offers precious metals IRA assistance. Carries American Eagles, Buffaloes, Philharmonics, Maple Leafs, and gold bars from major mints.",
-    address: "13809 Research Blvd #405, Austin, TX 78750",
+      "Austin-based precious metals dealer operating since 1989. Buys and sells gold, silver, platinum, and palladium bullion along with rare and ancient coins. PCGS and NGC authorized dealer. Located on Research Blvd in north Austin. Offers numismatic advisory services and IRA-eligible products.",
+    address: "13809 Research Blvd, Ste 405, Austin, TX 78750",
     city: "Austin",
     citySlug: "austin",
     state: "Texas",
     stateSlug: "texas",
-    phone: "(800) 928-6468",
+    phone: "(512) 231-1601",
     website: "https://www.austincoins.com/",
     isVerified: false,
     bbbRating: "A+",
-    googleRating: 4.9,
   },
   {
     slug: "capital-coin-bullion",
     name: "Capital Coin & Bullion",
     vertical: "local-coin-bullion",
     description:
-      "Locally owned coin and bullion dealer established in 2009 by Chad and Becky Tyson. Buys and sells gold, silver, and platinum coins, bars, and rounds. Offers competitive pricing on bullion and numismatic coins. Morgan Silver Dollar specialists.",
-    address: "2005 Guadalupe St, Austin, TX 78705",
+      "Family-owned Austin coin and bullion dealer founded in 2009 by Chad and Becky Tyson. Buys and sells gold, silver, platinum, and palladium coins, bars, and rounds. Carries American Eagles, Canadian Maple Leafs, Krugerrands, PAMP Suisse bars, and pre-1964 junk silver coinage. Located on Burnet Road.",
+    address: "7304 Burnet Rd, Ste A, Austin, TX 78757",
     city: "Austin",
     citySlug: "austin",
     state: "Texas",
     stateSlug: "texas",
-    phone: "(512) 692-8082",
+    phone: "(512) 371-5884",
     website: "https://capitalcoinandbullion.com/",
     isVerified: false,
     bbbRating: "A+",
     googleRating: 4.9,
   },
+
+  // ============================================================
+  // AUSTIN, TEXAS — STANDARD LOCAL DEALERS
+  // ============================================================
   {
-    slug: "kriss-coins",
-    name: "Kris\u2019s Coins LLC",
+    slug: "south-austin-coin-exchange",
+    name: "South Austin Coin Exchange",
     vertical: "local-coin-bullion",
     description:
-      "Third-generation coin dealer with over 60 years of combined family experience. Carries gold, silver, platinum, and palladium in coins, bars, and rounds. Buys scrap gold, sterling silver, platinum, and palladium. Offers estate appraisals. Walk-ins welcome.",
-    address: "3100 W Slaughter Lane, Suite A-104, Austin, TX 78748",
+      "South Austin coin dealer offering gold, silver, platinum, and palladium coins, bars, and rounds. Also buys scrap gold, sterling silver, and coin collections. Wholesale pricing available for large quantity purchases. Located on West Slaughter Lane.",
+    address: "3100 W Slaughter Ln, Ste A104, Austin, TX 78748",
     city: "Austin",
     citySlug: "austin",
     state: "Texas",
     stateSlug: "texas",
-    phone: "(512) 695-2669",
-    website: "https://kriscoins.com/",
+    phone: "(512) 233-4653",
     isVerified: false,
   },
   {
@@ -58,14 +60,35 @@ export const dealers: Dealer[] = [
     name: "Village Coin Shop",
     vertical: "local-coin-bullion",
     description:
-      "Austin coin shop offering U.S. and international coins, Morgan and Peace Silver Dollars, 90% junk silver, graded coins, proof sets, and gold and silver bullion. Buys and sells gold, silver, platinum, broken or unwanted jewelry, and sterling silver flatware.",
-    address: "2915 San Gabriel St, Austin, TX 78705",
+      "Austin coin dealer specializing in U.S. and international coins and currency. Carries bullion products alongside numismatic inventory. Buys and sells gold, silver, and platinum.",
     city: "Austin",
     citySlug: "austin",
     state: "Texas",
     stateSlug: "texas",
-    phone: "(512) 472-8330",
-    website: "https://thevillagecoinshop.com/",
+    isVerified: false,
+  },
+  {
+    slug: "kriss-coins",
+    name: "Kris\u2019s Coins LLC",
+    vertical: "local-coin-bullion",
+    description:
+      "Third-generation coin dealer with over 60 years of combined family experience in the business. Buys and sells gold, silver, and platinum coins, bullion, jewelry, and scrap. Offers no-obligation appraisals.",
+    city: "Austin",
+    citySlug: "austin",
+    state: "Texas",
+    stateSlug: "texas",
+    isVerified: false,
+  },
+  {
+    slug: "mcbrides-coin-room",
+    name: "McBride\u2019s Guns / Coin Room",
+    vertical: "local-coin-bullion",
+    description:
+      "Coin dealer operating inside McBride\u2019s gun shop in Austin. Carries an array of key date U.S. coins. Also purchases and appraises coins. Buys and sells bullion.",
+    city: "Austin",
+    citySlug: "austin",
+    state: "Texas",
+    stateSlug: "texas",
     isVerified: false,
   },
   {
@@ -73,41 +96,13 @@ export const dealers: Dealer[] = [
     name: "Regal Coin and Jewelry",
     vertical: "local-coin-bullion",
     description:
-      "Buys and sells gold and silver coins, bullion, and jewelry. Multiple Texas locations plus eBay store. Carries American Eagles, Australian Kangaroos, Austrian Philharmonics, Chinese Pandas, Canadian Maple Leafs, British Sovereigns, Swiss Francs, and Mexican Pesos. Also carries Morgan and Peace Silver Dollars and pre-1964 silver coinage.",
-    address: "7304 Burnet Rd, Ste A, Austin, TX 78757",
+      "Precious metals dealer with five locations throughout Texas and an eBay store. Buys and sells gold and silver bullion coins and jewelry. Carries American Eagles, Australian Gold Kangaroos, Austrian Philharmonics, Chinese Pandas, Canadian Maple Leafs, British Sovereigns, and Morgan and Peace silver dollars. Austin-area location in Pflugerville.",
+    address: "2110 W Pecan St, Ste 102, Pflugerville, TX 78660",
     city: "Austin",
     citySlug: "austin",
     state: "Texas",
     stateSlug: "texas",
-    phone: "(512) 371-5884",
-    isVerified: false,
-  },
-  {
-    slug: "pine-box-rare-coins",
-    name: "Pine Box Rare Coins & Bullion",
-    vertical: "local-coin-bullion",
-    description:
-      "Austin coin dealer and collector. Buys, sells, and trades gold and silver in all forms including coins, bullion bars, and vintage paper money. Over five years in business with nearly 50 years of combined collecting experience.",
-    city: "Austin",
-    citySlug: "austin",
-    state: "Texas",
-    stateSlug: "texas",
-    phone: "(512) 988-0890",
-    website: "https://pineboxcoins.com/",
-    isVerified: false,
-  },
-  {
-    slug: "austins-best-coin-gold",
-    name: "Austin\u2019s Best Coin and Gold Exchange",
-    vertical: "local-coin-bullion",
-    description:
-      "Coin and gold dealer since 2009 serving Austin and Round Rock. Buys and sells rare coins, U.S. type coins, 90% junk silver, gold and platinum bars, silver bars and rounds, U.S. and foreign currency. Over 20 years of buying and selling experience. Appointments and walk-ins available.",
-    city: "Round Rock",
-    citySlug: "round-rock",
-    state: "Texas",
-    stateSlug: "texas",
-    phone: "(512) 585-7067",
-    website: "https://austinsbestcoinandgold.com/",
+    phone: "(512) 670-3232",
     isVerified: false,
   },
 
@@ -129,14 +124,14 @@ export const dealers: Dealer[] = [
   },
 
   // ============================================================
-  // SAN ANTONIO, TEXAS — LOCAL COIN & BULLION
+  // SAN ANTONIO, TEXAS — FEATURED LOCAL DEALERS
   // ============================================================
   {
     slug: "lone-star-coins-sa",
     name: "Lone Star Coins",
     vertical: "local-coin-bullion",
     description:
-      "San Antonio\u2019s largest bullion and coin dealer. Second-generation, family-owned and operated since the early 1980s. PCGS and NGC authorized dealer, Sigma Metalytics verified, BBB accredited with A+ rating. Carries American Eagles, Maple Leafs, Krugerrands, PAMP Suisse bars, and graded numismatics. Over 20,000 transactions completed in 2025.",
+      "San Antonio coin and bullion dealer, family-owned and operated since the early 1980s. Now in second-generation family ownership. PCGS and NGC authorized dealer. Sigma Metalytics verified. Buys and sells gold, silver, platinum, palladium, rare coins, fine jewelry, and Rolex watches. Shows live spot prices during transactions. Open Monday through Saturday. Member of the National Coin & Bullion Association.",
     address: "2622 NW Loop 410, San Antonio, TX 78230",
     city: "San Antonio",
     citySlug: "san-antonio",
@@ -153,7 +148,7 @@ export const dealers: Dealer[] = [
     name: "Royalty Coins",
     vertical: "local-coin-bullion",
     description:
-      "Coin dealer serving San Antonio since 1977, located on the Riverwalk. Specializes in collectible U.S. coins, both graded and raw. Travels to coin shows nationwide to acquire inventory. Services want lists for collectors seeking specific coins.",
+      "San Antonio coin dealer established in 1977, located on the Riverwalk near the Alamo. Specializes in collectible U.S. coins, both raw and graded. Travels to coin shows across the country for rare inventory. Services want lists for collectors seeking specific dates or varieties. Same location for over 21 years.",
     address: "431 E Commerce St, San Antonio, TX 78205",
     city: "San Antonio",
     citySlug: "san-antonio",
@@ -162,18 +157,34 @@ export const dealers: Dealer[] = [
     phone: "(210) 225-7431",
     isVerified: false,
   },
+
+  // ============================================================
+  // SAN ANTONIO, TEXAS — STANDARD LOCAL DEALERS
+  // ============================================================
+  {
+    slug: "harrys-coins-jewelry",
+    name: "Harry\u2019s Coins and Jewelry",
+    vertical: "local-coin-bullion",
+    description:
+      "San Antonio coin and jewelry dealer operating since 1980. Buys and sells U.S. coins, pre-1957 paper currency, and select foreign coins. Carries PCGS, NGC, ANACS, and ICG graded coins. Also offers gold and silver bullion, jewelry, and other precious metal items. Will travel within the San Antonio area to purchase collections.",
+    address: "6336 Bandera Rd, San Antonio, TX 78238",
+    city: "San Antonio",
+    citySlug: "san-antonio",
+    state: "Texas",
+    stateSlug: "texas",
+    phone: "(210) 684-0094",
+    isVerified: false,
+  },
   {
     slug: "alamo-heights-coin-shop",
     name: "Alamo Heights Coin Shop",
     vertical: "local-coin-bullion",
     description:
-      "Coin shop founded in 1977. Lifetime member of the American Numismatic Association. Deals in U.S., foreign, and ancient coins, paper currency, tokens, medals, and collectibles. Also buys and sells gold, silver, and platinum coins, bars, and scrap. Free verbal appraisals available.",
-    address: "7223 Broadway St, Alamo Heights, TX 78209",
+      "San Antonio coin shop established in 1977. Lifetime member of the American Numismatic Association. Specializes in numismatic collectibles with an ever-changing inventory of U.S., foreign, and ancient coins, paper currency, tokens, and medals.",
     city: "San Antonio",
     citySlug: "san-antonio",
     state: "Texas",
     stateSlug: "texas",
-    phone: "(210) 826-6082",
     isVerified: false,
   },
   {
@@ -181,7 +192,7 @@ export const dealers: Dealer[] = [
     name: "Texas Coins",
     vertical: "local-coin-bullion",
     description:
-      "NGC, PCGS, and ANACS authorized dealer specializing in U.S. coins. Owner has been a coin collector since 1957. Buys and sells gold bullion, silver coins, and paper currency. Purchases all pre-1964 silver coinage. Also trades at customers\u2019 homes or banks and attends coin shows.",
+      "San Antonio coin dealer with NGC, PCGS, and ANACS authorization. Specializes in U.S. coins, gold bullion, silver coins, and paper currency. Buys all pre-1964 silver coinage. Also trades at customer homes, banks, and coin shows throughout Texas. Limited foreign coin selection.",
     address: "6866 Bandera Rd, San Antonio, TX 78238",
     city: "San Antonio",
     citySlug: "san-antonio",
@@ -191,45 +202,15 @@ export const dealers: Dealer[] = [
     isVerified: false,
   },
   {
-    slug: "san-antonio-coin-company",
-    name: "San Antonio Coin Company",
+    slug: "jcs-coins-collectibles",
+    name: "JC\u2019s Coins & Collectibles",
     vertical: "local-coin-bullion",
     description:
-      "Run by numismatist Steve Petrik. Operates via online auctions \u2014 lower overhead means higher offers for sellers. Roundtable Authorized Dealer. Member of ANA, Texas Numismatic Association, PCGS, NGC, and Liberty Coin Club of San Antonio. All meetings by appointment.",
+      "San Antonio precious metals and coin dealer founded in 2001. Carries a selection of collectible U.S. coins including type coins, silver dollars, rolls, and pre-1964 junk silver. Gold inventory includes American Eagles, South African Krugerrands, Canadian Maple Leafs, and Chinese Pandas.",
     city: "San Antonio",
     citySlug: "san-antonio",
     state: "Texas",
     stateSlug: "texas",
-    phone: "(210) 838-4764",
-    website: "https://sanantoniocoincompany.com/",
-    isVerified: false,
-  },
-  {
-    slug: "medlars-jewel-masters",
-    name: "Medlars Jewel Masters",
-    vertical: "local-coin-bullion",
-    description:
-      "Custom jeweler and active gold and silver trader. Listed in the U.S. Mint Coin Dealer Database. Carries 40% and 90% silver coinage, 10oz silver bars, Morgan and Peace Silver Dollars, American Silver and Gold Eagles, Gold Buffaloes, and Chinese Pandas. Bid and ask prices posted on website. 30-day refund guarantee.",
-    address: "7115 Blanco Road, Suite 101, San Antonio, TX 78216",
-    city: "San Antonio",
-    citySlug: "san-antonio",
-    state: "Texas",
-    stateSlug: "texas",
-    phone: "1-855-MEDLARS",
-    isVerified: false,
-  },
-  {
-    slug: "harrys-coins-jewelry",
-    name: "Harry\u2019s Coins & Jewelry",
-    vertical: "local-coin-bullion",
-    description:
-      "Established in 1980. Buys and sells U.S. coins, pre-1957 paper currency, and foreign coins. Specializes in coins graded by NGC, PCGS, ICG, and ANACS. Gold and silver bullion, jewelry, and precious metal items available in showroom. Prices based on daily spot prices. Will travel to buy collections.",
-    address: "6336 Bandera Rd, San Antonio, TX 78238",
-    city: "San Antonio",
-    citySlug: "san-antonio",
-    state: "Texas",
-    stateSlug: "texas",
-    phone: "(210) 684-0094",
     isVerified: false,
   },
 
