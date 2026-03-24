@@ -83,13 +83,32 @@ export default function Footer() {
         ))}
       </div>
 
+      {/* Financial Disclaimer */}
+      <div
+        className="max-w-[1100px] mx-auto"
+        style={{ marginTop: 32, paddingTop: 24, borderTop: "1px solid #333" }}
+      >
+        <p
+          className="font-sans text-[11px] leading-relaxed"
+          style={{ color: "#555" }}
+        >
+          <strong style={{ color: "#777" }}>Financial Disclaimer:</strong>{" "}
+          GoldSilverSelect does not provide financial, investment, or tax advice.
+          Precious metals investing involves risk, including possible loss of principal.
+          Past performance does not guarantee future results. Always consult a qualified
+          financial advisor before making investment decisions. Nothing on this site
+          constitutes a recommendation to buy, sell, or hold any precious metal,
+          security, or investment product.
+        </p>
+      </div>
+
       {/* Bottom bar */}
       <div
         className="max-w-[1100px] mx-auto flex justify-between items-center"
         style={{
-          marginTop: 32,
-          paddingTop: 24,
-          borderTop: "1px solid #333",
+          marginTop: 20,
+          paddingTop: 20,
+          borderTop: "1px solid #2a2a2a",
         }}
       >
         <span className="font-sans text-[11px]" style={{ color: "#555" }}>
