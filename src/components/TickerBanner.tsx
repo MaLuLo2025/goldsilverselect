@@ -118,7 +118,7 @@ export default function TickerBanner() {
                     <span
                       className="font-bold"
                       style={{
-                        color: "#C5A44E",
+                        color: m.metal === "gold" ? "#C5A44E" : "#C0C0C0",
                         fontSize: 10,
                         letterSpacing: "0.1em",
                         marginRight: 8,
