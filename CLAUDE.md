@@ -70,8 +70,9 @@ Independent directory of precious metals dealers, Gold & Silver IRA custodians, 
 - **Implementation deliberately conservative: designed to run on Copper (2,000 calls/month)**
 - Current implementation: 4 calls to `/v1/metal/spot` (one per metal) every 20 minutes = ~8,640 calls/month
 - Returns price + daily change_percent for each metal
-- Do NOT reduce cache TTL below 20 minutes — owner may downgrade to Copper
-- **If downgrading to Copper:** switch back to 1× `/v1/latest` every 20 min (prices only, no % change)
+- Do NOT reduce cache TTL below 20 minutes
+- **Daily % change is a REQUIREMENT — never deploy prices-only.** The ticker must always show price + daily change. Without % change it's useless wallpaper.
+- **Minimum plan: Silver ($9.99/month, 10,000 calls).** Do not downgrade to Copper — it cannot support the /v1/metal/spot endpoint needed for % change.
 - `/v1/latest` returns all 4 metals in a single call but does NOT return daily change/percent
 - `/v1/metal/spot` returns change_percent but requires 1 call PER METAL (4x the cost)
 
