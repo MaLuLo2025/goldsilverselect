@@ -102,17 +102,41 @@ export default function CityDealersPage({
 
       {/* Dealers by vertical */}
       <section className="max-w-[1100px] mx-auto" style={{ padding: "40px 24px 64px" }}>
-        {Object.entries(byVertical).map(([vertical, vDealers]) => (
-          <div key={vertical} className="mb-10">
-            <h2 className="font-serif text-[22px] font-bold text-gold mb-4">
-              {verticalLabels[vertical] || vertical}
-            </h2>
-            <DealerList
-              dealers={vDealers}
-              linkPrefix={`/dealers/${params.state}/${params.city}`}
-            />
+        {Object.keys(byVertical).length > 0 ? (
+          Object.entries(byVertical).map(([vertical, vDealers]) => (
+            <div key={vertical} className="mb-10">
+              <h2 className="font-serif text-[22px] font-bold text-gold mb-4">
+                {verticalLabels[vertical] || vertical}
+              </h2>
+              <DealerList
+                dealers={vDealers}
+                linkPrefix={`/dealers/${params.state}/${params.city}`}
+              />
+            </div>
+          ))
+        ) : (
+          <div className="text-center py-12">
+            <p className="font-sans text-[16px] mb-4" style={{ color: "#999" }}>
+              No dealer listings in {city.name} yet.
+            </p>
+            <p className="font-sans text-[14px] mb-6" style={{ color: "#aaa" }}>
+              Browse our online dealers or check nearby cities in{" "}
+              <Link
+                href={`/dealers/${params.state}`}
+                className="text-gold font-semibold no-underline hover:underline"
+              >
+                {state.name}
+              </Link>
+              .
+            </p>
+            <Link
+              href="/online-dealers"
+              className="btn-gold inline-block no-underline"
+            >
+              Browse Online Dealers
+            </Link>
           </div>
-        ))}
+        )}
       </section>
 
       <Footer />

@@ -177,10 +177,20 @@ export default function StateDealersPage({
           </div>
         ) : (
           <div className="text-center py-12">
-            <p className="font-sans text-[16px]" style={{ color: "#999" }}>
-              We&apos;re building out dealer listings for {state.name}. Check
-              back soon.
+            <p className="font-sans text-[16px] mb-4" style={{ color: "#999" }}>
+              We&apos;re expanding our directory in {state.name}. No local
+              dealers listed yet.
             </p>
+            <p className="font-sans text-[14px] mb-6" style={{ color: "#aaa" }}>
+              Browse our well-reviewed online dealers &mdash; they ship to
+              every state with insured delivery.
+            </p>
+            <Link
+              href="/online-dealers"
+              className="btn-gold inline-block no-underline"
+            >
+              Browse Online Dealers
+            </Link>
           </div>
         )}
       </section>

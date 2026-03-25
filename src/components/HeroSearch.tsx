@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
+import Link from "next/link";
 import { states } from "@/lib/states";
 import { getCitiesByState } from "@/lib/cities";
 import { categories } from "@/lib/categories";
@@ -21,7 +22,7 @@ function getCategoryUrl(
   if (vertical === "gold-silver-ira") return "/gold-silver-iras";
   if (vertical === "recycling") {
     return citySlug
-      ? `/dealers/${stateSlug}/${citySlug}` // city page groups by vertical
+      ? `/dealers/${stateSlug}/${citySlug}`
       : stateSlug
       ? `/dealers/${stateSlug}`
       : "/recycling";
@@ -43,7 +44,6 @@ export default function HeroSearch() {
   const router = useRouter();
   const searchParams = useSearchParams();
 
-  // Restore state from URL params
   const [selectedState, setSelectedState] = useState(
     searchParams.get("state") || ""
   );
@@ -52,6 +52,7 @@ export default function HeroSearch() {
   );
 
   const citiesForState = selectedState ? getCitiesByState(selectedState) : [];
+  const stateHasNoCities = selectedState && citiesForState.length === 0;
 
   // Update URL params when selection changes (preserves back button)
   useEffect(() => {
@@ -66,7 +67,6 @@ export default function HeroSearch() {
   function handleCategoryClick(cat: (typeof categories)[number]) {
     const needsLocation = !LOCATION_INDEPENDENT.has(cat.vertical);
     if (needsLocation && !selectedState) {
-      // Flash the state dropdown to prompt selection
       const sel = document.getElementById("hero-state-select");
       if (sel) {
         sel.focus();
@@ -84,10 +84,49 @@ export default function HeroSearch() {
     router.push(url);
   }
 
+  function renderCategoryCard(
+    cat: (typeof categories)[number],
+    forceClickable?: boolean
+  ) {
+    const Icon = iconMap[cat.icon];
+    const isLocationIndependent = LOCATION_INDEPENDENT.has(cat.vertical);
+    const hasLocation = !!selectedState;
+    const clickable = forceClickable || isLocationIndependent || hasLocation;
+    // Highlight online dealers when state has no local dealers
+    const highlight = stateHasNoCities && isLocationIndependent;
+
+    return (
+      <button
+        key={cat.slug}
+        onClick={() => handleCategoryClick(cat)}
+        className="category-card text-left"
+        style={{
+          opacity: clickable ? 1 : 0.6,
+          cursor: clickable ? "pointer" : "default",
+          borderColor: highlight ? "#C5A44E" : undefined,
+          boxShadow: highlight
+            ? "0 0 0 1px #C5A44E, 0 4px 16px rgba(197,164,78,0.15)"
+            : undefined,
+        }}
+      >
+        <div className="mb-3">{Icon && <Icon />}</div>
+        <h3 className="font-serif text-[17px] font-semibold text-gold mb-1.5">
+          {cat.title}
+        </h3>
+        <p
+          className="font-sans text-[12.5px] leading-relaxed"
+          style={{ color: "#777" }}
+        >
+          {cat.description}
+        </p>
+      </button>
+    );
+  }
+
   return (
     <div>
       {/* Dropdowns */}
-      <div className="flex gap-3 justify-center flex-wrap mb-8">
+      <div className="flex gap-3 justify-center flex-wrap mb-4">
         <select
           id="hero-state-select"
           className="gs-select"
@@ -108,10 +147,12 @@ export default function HeroSearch() {
           className="gs-select"
           value={selectedCity}
           onChange={(e) => setSelectedCity(e.target.value)}
-          disabled={!selectedState}
-          style={{ opacity: selectedState ? 1 : 0.5 }}
+          disabled={!selectedState || !!stateHasNoCities}
+          style={{ opacity: selectedState && !stateHasNoCities ? 1 : 0.5 }}
         >
-          <option value="">Select City</option>
+          <option value="">
+            {stateHasNoCities ? "No cities yet" : "Select City"}
+          </option>
           {citiesForState.map((c) => (
             <option key={c.slug} value={c.slug}>
               {c.name}
@@ -120,66 +161,33 @@ export default function HeroSearch() {
         </select>
       </div>
 
+      {/* Empty state message */}
+      {stateHasNoCities && (
+        <p
+          className="font-sans text-[13.5px] text-center leading-relaxed mb-6 max-w-[520px] mx-auto"
+          style={{ color: "#888" }}
+        >
+          We&apos;re expanding our directory &mdash; if you don&apos;t see your
+          city yet, check out our well-reviewed{" "}
+          <Link
+            href="/online-dealers"
+            className="text-gold font-semibold no-underline hover:underline"
+          >
+            online dealers
+          </Link>{" "}
+          below.
+        </p>
+      )}
+
+      {/* Spacer when no empty state message */}
+      {!stateHasNoCities && <div className="mb-4" />}
+
       {/* Category cards */}
       <div className="grid grid-cols-3 gap-4 max-w-[820px] mx-auto">
-        {categories.slice(0, 3).map((cat) => {
-          const Icon = iconMap[cat.icon];
-          const isLocationIndependent = LOCATION_INDEPENDENT.has(cat.vertical);
-          const hasLocation = !!selectedState;
-          const clickable = isLocationIndependent || hasLocation;
-
-          return (
-            <button
-              key={cat.slug}
-              onClick={() => handleCategoryClick(cat)}
-              className="category-card text-left"
-              style={{
-                opacity: clickable ? 1 : 0.6,
-                cursor: clickable ? "pointer" : "default",
-              }}
-            >
-              <div className="mb-3">{Icon && <Icon />}</div>
-              <h3 className="font-serif text-[17px] font-semibold text-gold mb-1.5">
-                {cat.title}
-              </h3>
-              <p
-                className="font-sans text-[12.5px] leading-relaxed"
-                style={{ color: "#777" }}
-              >
-                {cat.description}
-              </p>
-            </button>
-          );
-        })}
+        {categories.slice(0, 3).map((cat) => renderCategoryCard(cat))}
       </div>
       <div className="grid grid-cols-2 gap-4 mt-4 max-w-[540px] mx-auto">
-        {categories.slice(3).map((cat) => {
-          const Icon = iconMap[cat.icon];
-          const hasLocation = !!selectedState;
-
-          return (
-            <button
-              key={cat.slug}
-              onClick={() => handleCategoryClick(cat)}
-              className="category-card text-left"
-              style={{
-                opacity: hasLocation ? 1 : 0.6,
-                cursor: hasLocation ? "pointer" : "default",
-              }}
-            >
-              <div className="mb-3">{Icon && <Icon />}</div>
-              <h3 className="font-serif text-[17px] font-semibold text-gold mb-1.5">
-                {cat.title}
-              </h3>
-              <p
-                className="font-sans text-[12.5px] leading-relaxed"
-                style={{ color: "#777" }}
-              >
-                {cat.description}
-              </p>
-            </button>
-          );
-        })}
+        {categories.slice(3).map((cat) => renderCategoryCard(cat))}
       </div>
     </div>
   );
