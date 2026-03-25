@@ -64,6 +64,37 @@ Independent directory of precious metals dealers, Gold & Silver IRA custodians, 
 - Modifying existing files: produce full replacement download, not sed scripts
 - Always verify Vercel status after push
 
+## External API Budget Rules (CRITICAL — read before touching /api/prices)
+
+### Current Plan: Metals.dev Copper ($1.79/month, 2,000 calls/month)
+- **Budget: ~66 calls/day, ~2.7 calls/hour**
+- Current implementation: 1 call to `/v1/latest` every 20 minutes = ~2,160 calls/month (tight fit)
+- `/v1/latest` returns all 4 metals in a single call but does NOT return daily change/percent
+- `/v1/metal/spot` returns change_percent but requires 1 call PER METAL (4x the cost)
+
+### NEVER do the following without explicit owner approval:
+- Switch from `/v1/latest` to `/v1/metal/spot` (4x cost multiplier)
+- Reduce cache TTL below 20 minutes
+- Add any new API endpoint calls
+- Change the number of metals fetched
+
+### Before making ANY change to /api/prices:
+1. Calculate the monthly call count: (calls per request) × (requests per hour based on cache TTL) × 24 × 30
+2. Verify the result fits within the current plan limit (2,000/month for Copper)
+3. If it doesn't fit, STOP and tell the owner. Do not deploy.
+4. Document the calculation in the commit message
+
+### What happened (March 2026 — do not repeat):
+Switched from 1× `/v1/latest` (2,160/month) to 4× `/v1/metal/spot` with 60-second cache (172,800/month). Burned through the entire monthly quota in ~8 hours. Ticker showed fallback prices for the rest of the month. This happened TWICE because the root cause wasn't documented.
+
+### To upgrade and get daily % change back:
+- Silver plan ($9.99/month, 10,000 calls) would allow `/v1/metal/spot` with a 5-minute cache
+- Calculation: 4 calls × 12/hour × 24 × 30 = 34,560 — still over. Would need 10-min cache minimum.
+- 4 calls × 6/hour × 24 × 30 = 17,280 — still over for Silver.
+- Correct approach on Silver: 1× `/v1/latest` every 5 min (8,640/month) for prices, NO spot endpoint
+- To use `/v1/metal/spot`: need Platinum plan ($19.99/month, 50,000 calls) with 5-min cache (34,560/month)
+- **Do not change the plan or endpoint without owner approval**
+
 ## Vendor Data Standards
 
 ### Required Fields (every vendor, no exceptions)
