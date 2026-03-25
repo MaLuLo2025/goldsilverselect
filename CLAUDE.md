@@ -68,8 +68,10 @@ Independent directory of precious metals dealers, Gold & Silver IRA custodians, 
 
 ### Current Plan: Metals.dev Silver ($9.99/month, 10,000 calls/month) — may downgrade to Copper
 - **Implementation deliberately conservative: designed to run on Copper (2,000 calls/month)**
-- Current implementation: 1 call to `/v1/latest` every 20 minutes = ~2,160 calls/month
-- Do NOT increase call frequency just because Silver has headroom — owner may downgrade
+- Current implementation: 4 calls to `/v1/metal/spot` (one per metal) every 20 minutes = ~8,640 calls/month
+- Returns price + daily change_percent for each metal
+- Do NOT reduce cache TTL below 20 minutes — owner may downgrade to Copper
+- **If downgrading to Copper:** switch back to 1× `/v1/latest` every 20 min (prices only, no % change)
 - `/v1/latest` returns all 4 metals in a single call but does NOT return daily change/percent
 - `/v1/metal/spot` returns change_percent but requires 1 call PER METAL (4x the cost)
 
