@@ -107,7 +107,7 @@ export const dealers: Dealer[] = [
     state: "Texas",
     stateSlug: "texas",
     phone: "(512) 670-3232",
-    isVerified: false,
+    website: "https://regalcoins.com/", isVerified: false,
   },
 
   // ============================================================
@@ -294,7 +294,7 @@ export const dealers: Dealer[] = [
     state: "Colorado",
     stateSlug: "colorado",
     phone: "(877) 230-7258",
-    isVerified: false,
+    website: "https://tebocoin.com/", address: "2863 28th St, Boulder, CO 80301", isVerified: false,
   },
   {
     slug: "a-world-of-coins",
@@ -388,7 +388,7 @@ export const dealers: Dealer[] = [
     state: "New York",
     stateSlug: "new-york",
     phone: "(212) 869-5350",
-    isVerified: false,
+    website: "https://brigandicoin.com/", isVerified: false,
   },
 
   // NYC continued
@@ -404,7 +404,7 @@ export const dealers: Dealer[] = [
     state: "New York",
     stateSlug: "new-york",
     phone: "(212) 944-1025",
-    isVerified: false,
+    website: "https://manhattancoinshop.com/", isVerified: false,
   },
   {
     slug: "global-gold-silver",
@@ -418,7 +418,7 @@ export const dealers: Dealer[] = [
     state: "New York",
     stateSlug: "new-york",
     phone: "(212) 302-4653",
-    isVerified: false,
+    website: "https://globalgoldandsilver.com/", isVerified: false,
   },
   {
     slug: "big-apple-coins",
@@ -484,7 +484,7 @@ export const dealers: Dealer[] = [
     state: "California",
     stateSlug: "california",
     phone: "(626) 282-1151",
-    isVerified: false,
+    website: "https://alhambracoin.com/", isVerified: false,
   },
   {
     slug: "meridian-coin",
@@ -498,7 +498,7 @@ export const dealers: Dealer[] = [
     state: "California",
     stateSlug: "california",
     phone: "(310) 375-4000",
-    isVerified: false,
+    website: "https://meridiancoin.com/", isVerified: false,
   },
 
   {
@@ -513,7 +513,7 @@ export const dealers: Dealer[] = [
     state: "California",
     stateSlug: "california",
     phone: "(818) 344-9555",
-    isVerified: false,
+    website: "https://acoinexchange.com/", isVerified: false,
   },
   {
     slug: "wilshire-coins",
@@ -566,7 +566,7 @@ export const dealers: Dealer[] = [
     state: "California",
     stateSlug: "california",
     phone: "(562) 927-4014",
-    isVerified: false,
+    website: "https://socalcoins.com/", isVerified: false,
   },
 
   // ============================================================
@@ -601,7 +601,7 @@ export const dealers: Dealer[] = [
     state: "Illinois",
     stateSlug: "illinois",
     phone: "(773) 774-1433",
-    isVerified: false,
+    website: "https://sellyourgoldchicago.com/", isVerified: false,
   },
   {
     slug: "morton-grove-coins-collectibles",
@@ -615,7 +615,7 @@ export const dealers: Dealer[] = [
     state: "Illinois",
     stateSlug: "illinois",
     phone: "(847) 967-9200",
-    isVerified: false,
+    website: "https://mortongrovecoins.com/", isVerified: false,
   },
 
   // Chicago continued
@@ -631,7 +631,7 @@ export const dealers: Dealer[] = [
     state: "Illinois",
     stateSlug: "illinois",
     phone: "(773) 868-0300",
-    isVerified: false,
+    website: "https://a1jewelryandcoin.com/", isVerified: false,
   },
   {
     slug: "chicago-precious-metals-exchange",
@@ -645,7 +645,7 @@ export const dealers: Dealer[] = [
     state: "Illinois",
     stateSlug: "illinois",
     phone: "(312) 854-7084",
-    isVerified: false,
+    website: "https://chicagopreciousmetals.com/", isVerified: false,
   },
   {
     slug: "kedzie-koins",
@@ -659,7 +659,7 @@ export const dealers: Dealer[] = [
     state: "Illinois",
     stateSlug: "illinois",
     phone: "(773) 436-0777",
-    isVerified: false,
+    website: "https://kedziekoins.com/", isVerified: false,
   },
   {
     slug: "oakton-coins-collectibles",
@@ -716,7 +716,7 @@ export const dealers: Dealer[] = [
     citySlug: "frederick",
     state: "Maryland",
     stateSlug: "maryland",
-    isVerified: false,
+    website: "https://frederickcoinexchange.com/", isVerified: false,
   },
   {
     slug: "capitol-coin-stamp",
@@ -730,7 +730,7 @@ export const dealers: Dealer[] = [
     state: "District of Columbia",
     stateSlug: "district-of-columbia",
     phone: "(202) 296-0400",
-    isVerified: false,
+    website: "https://capitolcoinandstamp.com/", isVerified: false,
   },
   {
     slug: "gaithersburg-coin-exchange",
@@ -756,7 +756,7 @@ export const dealers: Dealer[] = [
     state: "Maryland",
     stateSlug: "maryland",
     phone: "(301) 585-8467",
-    isVerified: false,
+    website: "https://bonanzacoins.com/", isVerified: false,
   },
 
   // ============================================================
@@ -791,7 +791,7 @@ export const dealers: Dealer[] = [
     state: "Pennsylvania",
     stateSlug: "pennsylvania",
     phone: "(610) 325-0468",
-    isVerified: false,
+    website: "https://dvrc.com/", isVerified: false,
   },
   {
     slug: "sansom-coin-exchange",
@@ -805,7 +805,7 @@ export const dealers: Dealer[] = [
     state: "Pennsylvania",
     stateSlug: "pennsylvania",
     phone: "(215) 629-8898",
-    isVerified: false,
+    website: "http://sansomcoinexchange.com/", isVerified: false,
   },
   {
     slug: "coins-currency-wayne",
@@ -819,7 +819,7 @@ export const dealers: Dealer[] = [
     state: "Pennsylvania",
     stateSlug: "pennsylvania",
     phone: "(610) 688-6655",
-    isVerified: false,
+    website: "https://coinsandcurrencyofwayne.com/", isVerified: false,
   },
   {
     slug: "capos-coins",
@@ -833,7 +833,7 @@ export const dealers: Dealer[] = [
     state: "Pennsylvania",
     stateSlug: "pennsylvania",
     phone: "(215) 468-4500",
-    isVerified: false,
+    website: "https://caposcoins.com/", isVerified: false,
   },
   {
     slug: "main-line-coin-stamp",
@@ -925,7 +925,7 @@ export const dealers: Dealer[] = [
     state: "Florida",
     stateSlug: "florida",
     phone: "(305) 933-2646",
-    isVerified: false,
+    website: "https://aventurajewelryandcoin.com/", isVerified: false,
   },
   {
     slug: "miami-gold-coins",
@@ -939,7 +939,7 @@ export const dealers: Dealer[] = [
     state: "Florida",
     stateSlug: "florida",
     phone: "(786) 242-3700",
-    isVerified: false,
+    website: "https://miamigoldcoins.com/", isVerified: false,
   },
   {
     slug: "park-avenue-numismatics",
@@ -951,7 +951,7 @@ export const dealers: Dealer[] = [
     citySlug: "miami-beach",
     state: "Florida",
     stateSlug: "florida",
-    isVerified: false,
+    website: "https://parkavenuenumismatics.com/", isVerified: false,
   },
   {
     slug: "miami-mint-gold-coins",
@@ -965,7 +965,7 @@ export const dealers: Dealer[] = [
     state: "Florida",
     stateSlug: "florida",
     phone: "(305) 255-4240",
-    isVerified: false,
+    website: "https://miamimintgoldandcoins.com/", isVerified: false,
   },
   {
     slug: "gables-coin-stamp",
@@ -979,7 +979,7 @@ export const dealers: Dealer[] = [
     state: "Florida",
     stateSlug: "florida",
     phone: "(305) 446-0032",
-    isVerified: false,
+    website: "https://gablescoin.com/", isVerified: false,
   },
 
   // ============================================================
@@ -1070,7 +1070,7 @@ export const dealers: Dealer[] = [
     state: "Massachusetts",
     stateSlug: "massachusetts",
     phone: "(781) 246-4500",
-    isVerified: false,
+    website: "https://northshorenumismatics.com/", isVerified: false,
   },
   {
     slug: "northeast-numismatics",
@@ -1084,7 +1084,7 @@ export const dealers: Dealer[] = [
     state: "Massachusetts",
     stateSlug: "massachusetts",
     phone: "(800) 449-2646",
-    isVerified: false,
+    website: "https://northeastnumismatics.com/", isVerified: false,
   },
   {
     slug: "collvest-coins",
@@ -1156,7 +1156,7 @@ export const dealers: Dealer[] = [
     state: "Washington",
     stateSlug: "washington",
     phone: "(425) 823-2646",
-    isVerified: false,
+    website: "https://redmondrarecoins.com/", isVerified: false,
   },
   {
     slug: "the-coin-market",
@@ -1169,7 +1169,7 @@ export const dealers: Dealer[] = [
     state: "Washington",
     stateSlug: "washington",
     phone: "(425) 745-1659",
-    isVerified: false,
+    website: "https://thecoinmarketinc.com/", isVerified: false,
   },
 
   // ============================================================
@@ -1213,7 +1213,7 @@ export const dealers: Dealer[] = [
     state: "Minnesota",
     stateSlug: "minnesota",
     phone: "(763) 535-1599",
-    isVerified: false,
+    website: "https://crystalcoinandcollectibles.com/", isVerified: false,
   },
   {
     slug: "great-lakes-coins",
@@ -1244,7 +1244,7 @@ export const dealers: Dealer[] = [
     state: "Florida",
     stateSlug: "florida",
     phone: "(813) 962-3880",
-    isVerified: false,
+    website: "https://avillagestampandcoin.com/", isVerified: false,
   },
   {
     slug: "tampa-coin-exchange",
@@ -1257,7 +1257,7 @@ export const dealers: Dealer[] = [
     state: "Florida",
     stateSlug: "florida",
     phone: "(813) 374-2050",
-    isVerified: false,
+    website: "https://tampacoinexchange.com/", isVerified: false,
   },
   {
     slug: "quality-coin-gold",
@@ -1330,7 +1330,7 @@ export const dealers: Dealer[] = [
     state: "Florida",
     stateSlug: "florida",
     phone: "(407) 893-7355",
-    isVerified: false,
+    website: "https://orlandocoinexchange.com/", isVerified: false,
   },
   {
     slug: "coins-realm-winter-garden",
@@ -1343,7 +1343,7 @@ export const dealers: Dealer[] = [
     state: "Florida",
     stateSlug: "florida",
     phone: "(407) 656-6637",
-    isVerified: false,
+    website: "https://cointherealm.com/", isVerified: false,
   },
 
   // ============================================================
@@ -1358,7 +1358,7 @@ export const dealers: Dealer[] = [
     citySlug: "st-louis",
     state: "Missouri",
     stateSlug: "missouri",
-    isVerified: false,
+    website: "https://midwestmoneycompany.com/", phone: "(314) 892-2929", isVerified: false,
   },
   {
     slug: "scotsman-auctions",
@@ -1369,7 +1369,7 @@ export const dealers: Dealer[] = [
     citySlug: "st-louis",
     state: "Missouri",
     stateSlug: "missouri",
-    isVerified: false,
+    website: "https://scoins.com/", phone: "(314) 692-2646", address: "11005 Olive Blvd, St. Louis, MO 63141", isVerified: false,
   },
   {
     slug: "south-county-coin-jewelry",
@@ -1382,7 +1382,7 @@ export const dealers: Dealer[] = [
     state: "Missouri",
     stateSlug: "missouri",
     phone: "(314) 892-3678",
-    isVerified: false,
+    website: "https://southcountycoinandjewelry.com/", isVerified: false,
   },
 
   // ============================================================
@@ -1399,7 +1399,7 @@ export const dealers: Dealer[] = [
     state: "Maryland",
     stateSlug: "maryland",
     phone: "(800) 638-8869",
-    isVerified: false,
+    website: "https://coastcoin.com/", isVerified: false,
   },
   {
     slug: "annapolis-coin-exchange",
@@ -1412,7 +1412,7 @@ export const dealers: Dealer[] = [
     state: "Maryland",
     stateSlug: "maryland",
     phone: "(410) 266-2530",
-    isVerified: false,
+    website: "https://annapoliscoinexchange.com/", isVerified: false,
   },
   {
     slug: "perry-hall-coins",
@@ -1425,7 +1425,7 @@ export const dealers: Dealer[] = [
     state: "Maryland",
     stateSlug: "maryland",
     phone: "(410) 882-4801",
-    isVerified: false,
+    website: "https://perryhallcoins.com/", isVerified: false,
   },
 
   // ============================================================
@@ -1442,7 +1442,7 @@ export const dealers: Dealer[] = [
     state: "North Carolina",
     stateSlug: "north-carolina",
     phone: "(704) 543-4653",
-    isVerified: false,
+    website: "https://atlanticmetalsx.com/", isVerified: false,
   },
   {
     slug: "hollyday-coins",
@@ -1504,7 +1504,7 @@ export const dealers: Dealer[] = [
     state: "Michigan",
     stateSlug: "michigan",
     phone: "(248) 471-9020",
-    isVerified: false,
+    website: "https://uscoingallery.com/", isVerified: false,
   },
   {
     slug: "chelsea-rare-coins",
@@ -1517,7 +1517,7 @@ export const dealers: Dealer[] = [
     state: "Michigan",
     stateSlug: "michigan",
     phone: "(734) 604-5300",
-    isVerified: false,
+    website: "https://chelseararecoins.com/", isVerified: false,
   },
   {
     slug: "rare-coins-michigan",
@@ -1530,7 +1530,7 @@ export const dealers: Dealer[] = [
     state: "Michigan",
     stateSlug: "michigan",
     phone: "(586) 751-8887",
-    isVerified: false,
+    website: "https://rarecoinsofmichigan.com/", isVerified: false,
   },
 
   // ============================================================
@@ -1561,7 +1561,7 @@ export const dealers: Dealer[] = [
     state: "California",
     stateSlug: "california",
     phone: "(909) 823-9617",
-    isVerified: false,
+    website: "https://fontanacoinshop.com/", isVerified: false,
   },
   {
     slug: "sun-city-coin",
@@ -1981,7 +1981,7 @@ export const dealers: Dealer[] = [
 
   // JEWELRY — NEW YORK
   // Jean's Silversmiths REMOVED — permanently closed per BBB (March 2026)
-  { slug: "orfebre-goldsmith", name: "Orfebre Goldsmith", vertical: "jewelry", description: "Manhattan goldsmith studio operated by Maximo Valdes, a master gold craftsman with over 35 years of experience. Creates custom artisan jewelry in gold. Also carries consignment pieces from other designers including Peruvian and Mexican artisans. \u201COrfebre\u201D translates to \u201Cgoldsmith\u201D in Spanish.", city: "New York", citySlug: "new-york", state: "New York", stateSlug: "new-york", phone: "(212) 477-4700", isVerified: false },
+  { slug: "orfebre-goldsmith", name: "Orfebre Goldsmith", vertical: "jewelry", description: "Manhattan goldsmith studio operated by Maximo Valdes, a master gold craftsman with over 35 years of experience. Creates custom artisan jewelry in gold. Also carries consignment pieces from other designers including Peruvian and Mexican artisans. \u201COrfebre\u201D translates to \u201Cgoldsmith\u201D in Spanish.", city: "New York", citySlug: "new-york", state: "New York", stateSlug: "new-york", phone: "(212) 477-4700", website: "https://orfebregoldsmith.com/", isVerified: false },
   { slug: "global-gold-silver-jewelry", name: "Global Gold & Silver", vertical: "jewelry", description: "New York City and New Jersey precious metals and jewelry buyer. BBB A+ rated. Certified GIA Graduate Gemologists on staff. Buys and sells gold, silver, diamonds, luxury watches, and designer jewelry. Also purchases sterling silver, antique and estate jewelry. Multiple locations in NYC and NJ.", city: "New York", citySlug: "new-york", state: "New York", stateSlug: "new-york", phone: "(212) 302-4653", website: "https://globalgoldandsilver.com/", address: "7 W 45th St, Ste 1200, New York, NY 10036", isVerified: false, bbbRating: "A+" },
   { slug: "ny-gold-silver-refiners", name: "New York Gold & Silver Refiners", vertical: "jewelry", description: "New York City gold and silver refiner buying gold, silver, and platinum jewelry. Offers acid testing, x-ray analysis, fire assays, and smelting services. Serves individual sellers as well as jewelers, dentists, and pawnbrokers. Same-day cash, check, or bank transfer payment.", city: "New York", citySlug: "new-york", state: "New York", stateSlug: "new-york", website: "https://nygsr.com/", phone: "(212) 398-1454", isVerified: false },
 
@@ -2047,7 +2047,7 @@ export const dealers: Dealer[] = [
   { slug: "rf-moeller-jewelers", name: "R.F. Moeller Jewelers", vertical: "jewelry", description: "Twin Cities jeweler with expert goldsmiths, watchmakers, and appraisers on staff. Carries fine jewelry, natural diamonds, and Swiss watches. In-house goldsmith services for custom design and repair.", city: "Minneapolis", citySlug: "minneapolis", state: "Minnesota", stateSlug: "minnesota", website: "https://rfmoeller.com/", isVerified: false },
   { slug: "wixon-jewelers", name: "Wixon Jewelers", vertical: "jewelry", description: "Minneapolis jeweler with over 30 years buying jewelry and watches. GIA gemologists and estate buyers on staff. Buys gold, silver, and estate jewelry. Values aesthetics and workmanship, not just melt value.", city: "Minneapolis", citySlug: "minneapolis", state: "Minnesota", stateSlug: "minnesota", website: "https://wixonjewelers.com/", isVerified: false },
   { slug: "slp-gold-silver", name: "SLP Gold and Silver", vertical: "jewelry", description: "St. Louis Park, MN precious metals dealer. PCGS accredited. Buys and sells gold and silver bullion, bars, coins, jewelry, collectibles, and estate jewelry.", city: "St. Louis Park", citySlug: "st-louis-park", state: "Minnesota", stateSlug: "minnesota", website: "https://slpgoldandsilver.com/", isVerified: false },
-  { slug: "tc-gold-silver-jewelry", name: "Twin Cities Gold and Silver Exchange", vertical: "jewelry", description: "Minneapolis precious metals dealer with over 40 years in business. ANA member since 1976. Buys and sells estate jewelry, gold, silver, rare coins, and precious metals. Also in coin vertical.", city: "Minneapolis", citySlug: "minneapolis", state: "Minnesota", stateSlug: "minnesota", phone: "(952) 926-5175", isVerified: false },
+  { slug: "tc-gold-silver-jewelry", name: "Twin Cities Gold and Silver Exchange", vertical: "jewelry", description: "Minneapolis precious metals dealer with over 40 years in business. ANA member since 1976. Buys and sells estate jewelry, gold, silver, rare coins, and precious metals. Also in coin vertical.", city: "Minneapolis", citySlug: "minneapolis", state: "Minnesota", stateSlug: "minnesota", phone: "(952) 926-5175", website: "https://tcgoldsilver.com/", isVerified: false },
 
   // JEWELRY — TAMPA (Batch 4)
   { slug: "arthur-yates-jewelers", name: "Arthur Yates and Son Jewelers", vertical: "jewelry", description: "Tampa jeweler established in 1947. Buys and sells gold, silver, coins, and estate jewelry. Custom jewelry design from photos. Jewelry repair services. Walk-ins welcome, no appointment needed.", address: "1708 S Dale Mabry Hwy, Tampa, FL 33629", city: "Tampa", citySlug: "tampa", state: "Florida", stateSlug: "florida", phone: "(813) 253-2164", website: "https://arthuryatesjewelers.com/", isVerified: false },
@@ -2056,7 +2056,7 @@ export const dealers: Dealer[] = [
 
   // JEWELRY — ST. LOUIS (Batch 4)
   { slug: "stl-gold-buyers-jewelry", name: "St. Louis Gold Buyers and Jewelry Center", vertical: "jewelry", description: "St. Louis gold buyer and jewelry center. Owner is a GIA-Certified Gemologist. Buys and sells gold, silver, and diamond jewelry. Carries designer pieces from estate sales including Tiffany, Pandora, and David Yurman. Jewelry repair and watch repair services.", city: "St. Louis", citySlug: "st-louis", state: "Missouri", stateSlug: "missouri", website: "https://stlouisgoldbuyers.net/", phone: "(314) 762-3926", isVerified: false },
-  { slug: "south-county-coin-jewelry-j", name: "South County Coin and Jewelry", vertical: "jewelry", description: "Family-owned St. Louis coin and jewelry shop serving collectors since 1976. Buys and sells gold and silver jewelry along with coins. Offers jewelry and watch repair, engraving, and appraisal services. Also in coin vertical.", address: "3325 Lemay Ferry Rd, St. Louis, MO 63125", city: "St. Louis", citySlug: "st-louis", state: "Missouri", stateSlug: "missouri", phone: "(314) 892-3678", isVerified: false },
+  { slug: "south-county-coin-jewelry-j", name: "South County Coin and Jewelry", vertical: "jewelry", description: "Family-owned St. Louis coin and jewelry shop serving collectors since 1976. Buys and sells gold and silver jewelry along with coins. Offers jewelry and watch repair, engraving, and appraisal services. Also in coin vertical.", address: "3325 Lemay Ferry Rd, St. Louis, MO 63125", city: "St. Louis", citySlug: "st-louis", state: "Missouri", stateSlug: "missouri", phone: "(314) 892-3678", website: "https://southcountycoinandjewelry.com/", isVerified: false },
 
   // JEWELRY — BALTIMORE (Batch 4)
   { slug: "nelson-coleman-jewelers", name: "Nelson Coleman Jewelers", vertical: "jewelry", description: "Towson, MD jeweler established in 1856, with additional locations in Frederick, Easton, and Inwood, WV. Over 160 years in business. AGS certified. Buys gold, silver, diamonds, designer jewelry, watches, and coins. Sells directly to private clients. Free Jewelry Box Consultation. Also offers consignment. Strictly confidential.", city: "Parkville", citySlug: "parkville", state: "Maryland", stateSlug: "maryland", website: "https://nelsoncoleman.com/", address: "307 E Joppa Rd, Towson, MD 21286", phone: "(410) 494-0080", isVerified: false },
