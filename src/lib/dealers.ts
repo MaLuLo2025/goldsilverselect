@@ -59,18 +59,6 @@ export const dealers: Dealer[] = [
     googleRating: 4.2,
   },
   {
-    slug: "village-coin-shop",
-    name: "Village Coin Shop",
-    vertical: "local-coin-bullion",
-    description:
-      "Austin coin dealer specializing in U.S. and international coins and currency. Carries bullion products alongside numismatic inventory. Buys and sells gold, silver, and platinum.",
-    city: "Austin",
-    citySlug: "austin",
-    state: "Texas",
-    stateSlug: "texas",
-    isVerified: false,
-  },
-  {
     slug: "kriss-coins",
     name: "Kris\u2019s Coins LLC",
     vertical: "local-coin-bullion",
@@ -81,18 +69,6 @@ export const dealers: Dealer[] = [
     state: "Texas",
     stateSlug: "texas",
     website: "https://kriscoins.com/",
-    isVerified: false,
-  },
-  {
-    slug: "mcbrides-coin-room",
-    name: "McBride\u2019s Guns / Coin Room",
-    vertical: "local-coin-bullion",
-    description:
-      "Coin dealer operating inside McBride\u2019s gun shop in Austin. Carries an array of key date U.S. coins. Also purchases and appraises coins. Buys and sells bullion.",
-    city: "Austin",
-    citySlug: "austin",
-    state: "Texas",
-    stateSlug: "texas",
     isVerified: false,
   },
   {
@@ -147,80 +123,6 @@ export const dealers: Dealer[] = [
     bbbRating: "A+",
     googleRating: 4.7,
   },
-  {
-    slug: "royalty-coins",
-    name: "Royalty Coins",
-    vertical: "local-coin-bullion",
-    description:
-      "San Antonio coin dealer established in 1977, located on the Riverwalk near the Alamo. Specializes in collectible U.S. coins, both raw and graded. Travels to coin shows across the country for rare inventory. Services want lists for collectors seeking specific dates or varieties. Same location for over 21 years.",
-    address: "431 E Commerce St, San Antonio, TX 78205",
-    city: "San Antonio",
-    citySlug: "san-antonio",
-    state: "Texas",
-    stateSlug: "texas",
-    phone: "(210) 225-7431",
-    isVerified: false,
-  },
-
-  // ============================================================
-  // SAN ANTONIO, TEXAS — STANDARD LOCAL DEALERS
-  // ============================================================
-  {
-    slug: "harrys-coins-jewelry",
-    name: "Harry\u2019s Coins and Jewelry",
-    vertical: "local-coin-bullion",
-    description:
-      "San Antonio coin and jewelry dealer operating since 1980. Buys and sells U.S. coins, pre-1957 paper currency, and select foreign coins. Carries PCGS, NGC, ANACS, and ICG graded coins. Also offers gold and silver bullion, jewelry, and other precious metal items. Will travel within the San Antonio area to purchase collections.",
-    address: "6336 Bandera Rd, San Antonio, TX 78238",
-    city: "San Antonio",
-    citySlug: "san-antonio",
-    state: "Texas",
-    stateSlug: "texas",
-    phone: "(210) 684-0094",
-    isVerified: false,
-  },
-  {
-    slug: "alamo-heights-coin-shop",
-    name: "Alamo Heights Coin Shop",
-    vertical: "local-coin-bullion",
-    description:
-      "San Antonio coin shop established in 1977. Lifetime member of the American Numismatic Association. Specializes in numismatic collectibles with an ever-changing inventory of U.S., foreign, and ancient coins, paper currency, tokens, and medals.",
-    city: "San Antonio",
-    citySlug: "san-antonio",
-    state: "Texas",
-    stateSlug: "texas",
-    isVerified: false,
-  },
-  {
-    slug: "texas-coins-sa",
-    name: "Texas Coins",
-    vertical: "local-coin-bullion",
-    description:
-      "San Antonio coin dealer with NGC, PCGS, and ANACS authorization. Specializes in U.S. coins, gold bullion, silver coins, and paper currency. Buys all pre-1964 silver coinage. Also trades at customer homes, banks, and coin shows throughout Texas. Limited foreign coin selection.",
-    address: "6866 Bandera Rd, San Antonio, TX 78238",
-    city: "San Antonio",
-    citySlug: "san-antonio",
-    state: "Texas",
-    stateSlug: "texas",
-    phone: "(210) 256-2646",
-    isVerified: false,
-  },
-  {
-    slug: "jcs-coins-collectibles",
-    name: "JC\u2019s Coins & Collectibles",
-    vertical: "local-coin-bullion",
-    description:
-      "San Antonio precious metals and coin dealer founded in 2001. Carries a selection of collectible U.S. coins including type coins, silver dollars, rolls, and pre-1964 junk silver. Gold inventory includes American Eagles, South African Krugerrands, Canadian Maple Leafs, and Chinese Pandas.",
-    city: "San Antonio",
-    citySlug: "san-antonio",
-    state: "Texas",
-    stateSlug: "texas",
-    isVerified: false,
-  },
-
-  // ============================================================
-  // SAN ANTONIO, TEXAS — RECYCLING
-  // ============================================================
   {
     slug: "texas-gold-silver-buyers-sa",
     name: "Texas Gold and Silver Buyers",
@@ -324,25 +226,6 @@ export const dealers: Dealer[] = [
     isVerified: false,
   },
   {
-    slug: "daves-gold-silver",
-    name: "Dave\u2019s Gold and Silver Exchange",
-    vertical: "local-coin-bullion",
-    description:
-      "PCGS authorized dealer serving the Denver area for nearly three decades. Known for competitive buy prices based on up-to-date spot prices. Purchases all forms of gold, silver, and rare coins. Carries numismatic collectibles, American Eagle bullion coins, and pre-1933 gold coins. Also buys gold jewelry, scrap, and other precious metal items.",
-    address: "548 South Broadway, Denver, CO 80209",
-    city: "Denver",
-    citySlug: "denver",
-    state: "Colorado",
-    stateSlug: "colorado",
-    phone: "(303) 778-6076",
-    isVerified: false,
-  },
-
-  // ============================================================
-  // NEW YORK CITY — LOCAL DEALERS
-  // (No NYC dealers currently qualify for Featured — need both BBB + Google 4.5+)
-  // ============================================================
-  {
     slug: "stacks-bowers-galleries",
     name: "Stack\u2019s Bowers Galleries",
     vertical: "local-coin-bullion",
@@ -434,29 +317,6 @@ export const dealers: Dealer[] = [
     isVerified: false,
   },
   {
-    slug: "vieira-coins-collectibles",
-    name: "Vieira Coins & Collectibles",
-    vertical: "local-coin-bullion",
-    description:
-      "Queens-based coin dealer in Elmhurst specializing in certified gold coins, particularly pre-1933 U.S. gold. Also carries domestic and foreign coins with collectible value, plus bullion products including bars, rounds, Eagles, and Buffalos.",
-    address: "86-55 Broadway, Store A9, Elmhurst, NY 11373",
-    city: "Elmhurst",
-    citySlug: "elmhurst",
-    state: "New York",
-    stateSlug: "new-york",
-    phone: "(718) 255-1866",
-    isVerified: false,
-  },
-
-  // ============================================================
-  // LOS ANGELES — FEATURED LOCAL DEALERS (BBB A+ and Google 4.5+)
-  // Note: No LA local dealers currently qualify for Featured (need both BBB + Google)
-  // ============================================================
-
-  // ============================================================
-  // LOS ANGELES — STANDARD LOCAL DEALERS
-  // ============================================================
-  {
     slug: "golddealer-com-cni",
     name: "GoldDealer.com (California Numismatic Investments)",
     vertical: "local-coin-bullion",
@@ -514,45 +374,6 @@ export const dealers: Dealer[] = [
     stateSlug: "california",
     phone: "(818) 344-9555",
     website: "https://acoinexchange.com/", isVerified: false,
-  },
-  {
-    slug: "wilshire-coins",
-    name: "Wilshire Coins",
-    vertical: "local-coin-bullion",
-    description:
-      "Santa Monica-based coin dealer buying, selling, and trading precious metals and rare coins. Specialties include pre-1933 U.S. gold coins, Morgan and Peace silver dollars, and 90% and 40% silver coinage. Offers XRF Metal Assaying for precise metal content analysis. eBay store and website live chat available.",
-    city: "Santa Monica",
-    citySlug: "santa-monica",
-    state: "California",
-    stateSlug: "california",
-    isVerified: false,
-  },
-  {
-    slug: "pacific-coast-coin-currency",
-    name: "Pacific Coast Coin & Currency",
-    vertical: "local-coin-bullion",
-    description:
-      "Studio City coin dealer specializing in rare foreign and U.S. coins. Also carries gold and silver bullion products including bars, rounds, American Eagles, Canadian Maple Leafs, and Krugerrands.",
-    address: "11696 Ventura Boulevard, Studio City, CA 91604",
-    city: "Studio City",
-    citySlug: "studio-city",
-    state: "California",
-    stateSlug: "california",
-    isVerified: false,
-  },
-  {
-    slug: "collectors-internet",
-    name: "Collectors Internet (Hobby Investments)",
-    vertical: "local-coin-bullion",
-    description:
-      "Los Angeles coin dealer founded in 1979 as Hobby Investments. One of few coin shops in the heart of Los Angeles proper. Carries coins from under a dollar for new collectors to large-scale bullion bars. Specializes in historic U.S. coins and gold and silver bullion. Sells individual pieces and wholesale boxes.",
-    address: "7190 Sunset Blvd, #183, Los Angeles, CA 90046",
-    city: "Los Angeles",
-    citySlug: "los-angeles",
-    state: "California",
-    stateSlug: "california",
-    phone: "(323) 786-2646",
-    isVerified: false,
   },
   {
     slug: "southern-california-coin-stamps",
@@ -675,22 +496,6 @@ export const dealers: Dealer[] = [
     isVerified: false,
   },
   {
-    slug: "fox-valley-coins",
-    name: "Fox Valley Coins",
-    vertical: "local-coin-bullion",
-    description:
-      "One of the largest Illinois coin dealers with three locations. Buys and sells nearly every type of coin and bullion. Inventory ranges from under a dollar to tens of thousands. Also offers regular live auctions of collectible coins. Posts daily inventory updates via Facebook.",
-    city: "Chicago",
-    citySlug: "chicago",
-    state: "Illinois",
-    stateSlug: "illinois",
-    isVerified: false,
-  },
-
-  // ============================================================
-  // WASHINGTON DC METRO — LOCAL DEALERS
-  // ============================================================
-  {
     slug: "coins-of-the-realm",
     name: "Coins of the Realm",
     vertical: "local-coin-bullion",
@@ -731,18 +536,6 @@ export const dealers: Dealer[] = [
     stateSlug: "district-of-columbia",
     phone: "(202) 296-0400",
     website: "https://capitolcoinandstamp.com/", isVerified: false,
-  },
-  {
-    slug: "gaithersburg-coin-exchange",
-    name: "Gaithersburg Coin Exchange",
-    vertical: "local-coin-bullion",
-    description:
-      "Gaithersburg, MD coin dealer serving DC area collectors for nearly four decades. NGC authorized dealer specializing in silver and certified U.S. coins.",
-    city: "Gaithersburg",
-    citySlug: "gaithersburg",
-    state: "Maryland",
-    stateSlug: "maryland",
-    isVerified: false,
   },
   {
     slug: "bonanza-coins",
@@ -882,18 +675,6 @@ export const dealers: Dealer[] = [
     stateSlug: "georgia",
     phone: "(404) 256-3667",
     website: "https://goldatlanta.com/",
-    isVerified: false,
-  },
-  {
-    slug: "robinsons-coins",
-    name: "Robinson\u2019s Coins",
-    vertical: "local-coin-bullion",
-    description:
-      "Atlanta coin shop founded in 1963, located at the same storefront since 1972. Family-owned. Focuses on U.S. coinage with selection ranging from state quarters and Lincoln cents to Silver American Eagles. Welcomes beginning and experienced collectors.",
-    city: "Atlanta",
-    citySlug: "atlanta",
-    state: "Georgia",
-    stateSlug: "georgia",
     isVerified: false,
   },
   {
@@ -1047,18 +828,6 @@ export const dealers: Dealer[] = [
     isVerified: false,
   },
   {
-    slug: "jj-teaparty",
-    name: "JJ Teaparty",
-    vertical: "local-coin-bullion",
-    description:
-      "One of Boston\u2019s oldest coin dealers, founded in 1957. Specializes in early U.S. coins. Regularly attends coin shows across the country. Inventory includes high-grade Morgan silver dollars, PCGS and NGC graded coins, pre-1933 U.S. gold, gold and silver bullion, and paper currency. Offers appraisals and in-home visits for collection sales.",
-    city: "Boston",
-    citySlug: "boston",
-    state: "Massachusetts",
-    stateSlug: "massachusetts",
-    isVerified: false,
-  },
-  {
     slug: "northshore-numismatics",
     name: "Northshore Numismatics",
     vertical: "local-coin-bullion",
@@ -1175,19 +944,6 @@ export const dealers: Dealer[] = [
   // ============================================================
   // MINNEAPOLIS — LOCAL DEALERS
   // ============================================================
-  {
-    slug: "twin-cities-gold-silver",
-    name: "Twin Cities Gold and Silver Exchange",
-    vertical: "local-coin-bullion",
-    description: "Minneapolis precious metals dealer with over 40 years in business. ANA member since 1976. NGC and PCGS authorized dealer. Authorized retailer of U.S. Mint, Royal Canadian Mint, and Austrian Mint products. Buys and sells gold and silver coins, bullion, rare U.S. coins, jewelry, flatware, and scrap.",
-    address: "4813 Excelsior Blvd, Minneapolis, MN 55416",
-    city: "Minneapolis",
-    citySlug: "minneapolis",
-    state: "Minnesota",
-    stateSlug: "minnesota",
-    phone: "(952) 926-5175",
-    isVerified: false,
-  },
   {
     slug: "midwest-coin",
     name: "Midwest Coin",
@@ -1444,21 +1200,6 @@ export const dealers: Dealer[] = [
     phone: "(704) 543-4653",
     website: "https://atlanticmetalsx.com/", isVerified: false,
   },
-  {
-    slug: "hollyday-coins",
-    name: "HollyDay Coins",
-    vertical: "local-coin-bullion",
-    description: "Charlotte-area coin dealer. ANA member. Specializes in U.S. coinage including pre-1933 gold coins, Morgan silver dollars, and graded coins. Carries PCGS, NGC, and ANACS certified coins along with American Gold Eagles and generic bullion.",
-    city: "Charlotte",
-    citySlug: "charlotte",
-    state: "North Carolina",
-    stateSlug: "north-carolina",
-    isVerified: false,
-  },
-
-  // ============================================================
-  // SAN FRANCISCO — LOCAL DEALERS (researched by Claude Code)
-  // ============================================================
   {
     slug: "witter-coin",
     name: "Witter Coin",
@@ -2006,7 +1747,6 @@ export const dealers: Dealer[] = [
   // JEWELRY — DENVER
   { slug: "gold-rush-denver", name: "Gold Rush Denver", vertical: "jewelry", description: "Denver precious metals buyer with multiple Colorado locations. Buys gold, silver, and platinum jewelry, diamonds, dental gold, bullion, coins, and sterling silver items. Uses XRF x-ray technology. Free no-obligation evaluations.", city: "Denver", citySlug: "denver", state: "Colorado", stateSlug: "colorado", website: "https://goldrushdenver.com/", phone: "(720) 536-2889", isVerified: false },
   { slug: "david-ellis-cherry-creek", name: "David Ellis Cherry Creek", vertical: "jewelry", description: "Denver jewelry dealer in Cherry Creek. Buys and sells gold, silver, watches, jewelry, and antiques. Offers free evaluations, instant cash payment, appraisal services, and jewelry repair.", city: "Denver", citySlug: "denver", state: "Colorado", stateSlug: "colorado", website: "https://davidellisjewelry.com/", address: "2640 E 3rd Ave, Denver, CO 80206", phone: "(303) 322-8779", isVerified: false },
-  { slug: "daves-gold-silver-jewelry", name: "Dave\u2019s Gold & Silver Exchange", vertical: "jewelry", description: "Family-run Denver gold and silver exchange established in 1988. Buys and sells contemporary and estate jewelry, rare coins, precious metals, vintage watches, sterling silver, bullion, and diamonds. Handles estates of all sizes.", city: "Denver", citySlug: "denver", state: "Colorado", stateSlug: "colorado", isVerified: false },
   { slug: "denver-gold-silver-buyers", name: "Denver Gold & Silver Buyers (The Antique Trader)", vertical: "jewelry", description: "Denver precious metals buyer. Purchases gold and silver coins, bars, jewelry, and scrap. Sells investment-grade gold and silver. Free evaluations and estate liquidation assistance. Transparent pricing based on market values.", city: "Denver", citySlug: "denver", state: "Colorado", stateSlug: "colorado", website: "https://antiquetraderappraisals.com/", phone: "(303) 919-6242", isVerified: false },
 
   // JEWELRY — HOUSTON
@@ -2015,10 +1755,6 @@ export const dealers: Dealer[] = [
   { slug: "houston-gold-silver-jewelry", name: "Houston Gold & Silver", vertical: "jewelry", description: "Houston precious metals dealer buying and selling gold, silver, rare coins, bullion, estate jewelry, and antiques. Also purchases fine watches, large diamonds, historical art, and collectibles. Accepts broken gold jewelry.", city: "Houston", citySlug: "houston", state: "Texas", stateSlug: "texas", website: "https://houstongoldandsilver.com/", phone: "(713) 838-2468", isVerified: false },
 
   // JEWELRY — SAN ANTONIO
-  { slug: "nacogdoches-gold-silver", name: "Nacogdoches Gold and Silver Exchange", vertical: "jewelry", description: "Family-owned San Antonio gold and silver exchange. Buys and sells gold, silver, coins, antiques, and paper money. Offers jewelry and watch repair services.", city: "San Antonio", citySlug: "san-antonio", state: "Texas", stateSlug: "texas", phone: "(210) 559-1888", isVerified: false },
-  { slug: "golden-cash-exchange", name: "Golden Cash Exchange", vertical: "jewelry", description: "San Antonio precious metals buyer. Sells and purchases gold, silver, and platinum metals with cash paid on the spot. Free estimates.", city: "San Antonio", citySlug: "san-antonio", state: "Texas", stateSlug: "texas", phone: "(210) 223-4653", isVerified: false },
-
-  // JEWELRY — PHOENIX
   { slug: "pmr-phoenix", name: "Precious Metals Refinery (PMR Phoenix)", vertical: "jewelry", description: "Arizona precious metals refinery with locations in Phoenix and Tucson. GIA certified gemologists, numismatic experts, and luxury watch specialists. Buys gold, silver, platinum, coins, bullion, fine jewelry, and luxury watches. Refines in-house. Same-day payment. Private in-person evaluations.", city: "Phoenix", citySlug: "phoenix", state: "Arizona", stateSlug: "arizona", phone: "(480) 400-9999", website: "https://preciousmetalsrefinery.com/", isVerified: false },
 
   // JEWELRY — PHILADELPHIA
