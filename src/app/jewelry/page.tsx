@@ -33,7 +33,7 @@ export default function JewelryPage() {
             Specialized Jewelry Stores &amp; Custom Jewelers
           </h1>
           <p className="font-sans text-[16px] leading-relaxed max-w-[560px] mx-auto" style={{ color: "#666" }}>
-            Local jewelers, estate jewelry specialists, and custom designers working in gold, silver, and platinum. From engagement rings to heirloom restoration.
+            Independent shops in your area that buy, sell, and craft gold and silver jewelry. These are local goldsmiths, silversmiths, estate jewelers, and precious metals specialists &mdash; not chain stores or pawn shops. Whether you&apos;re looking to sell inherited jewelry, commission a custom piece, or find estate gold and silver at fair prices, these shops work directly with precious metals every day.
           </p>
         </div>
       </section>
