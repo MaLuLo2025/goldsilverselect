@@ -6,7 +6,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { states } from "@/lib/states";
 import { getCityBySlug } from "@/lib/cities";
-import { getDealersByCity, getOnlineDealers, getIRAProviders } from "@/lib/dealers";
+import { getDealersByCity, getOnlineDealers, getIRAProviders, getDealersByVertical } from "@/lib/dealers";
 import DealerList from "@/components/DealerList";
 
 export function generateMetadata({
@@ -137,50 +137,76 @@ export default function CityDealersPage({
         ) : (
           <div className="text-center py-8">
             <p className="font-serif text-[22px] font-semibold mb-3" style={{ color: "#333" }}>
-              No local dealer listings in {city.name} yet.
+              {filterLabel
+                ? `We don\u2019t have local ${filterLabel.toLowerCase()} in ${city.name} yet.`
+                : `No local dealer listings in ${city.name} yet.`}
             </p>
             <p className="font-sans text-[16px] mb-0" style={{ color: "#555" }}>
-              Browse the online dealers below or check nearby cities in{" "}
-              <Link
-                href={`/dealers/${params.state}`}
-                className="text-gold font-semibold no-underline hover:underline"
-              >
-                {state.name}
-              </Link>
-              .
+              {verticalFilter
+                ? "Browse the online options below, or check back as we expand our directory."
+                : <>Browse the online dealers below or check nearby cities in{" "}
+                    <Link href={`/dealers/${params.state}`} className="text-gold font-semibold no-underline hover:underline">
+                      {state.name}
+                    </Link>.</>}
             </p>
           </div>
         )}
 
-        {/* Online Dealers section */}
-        {onlineDealers.length > 0 && (
-          <div className="mb-10">
-            <div
-              style={{ borderTop: "1px solid #e8e5dd", paddingTop: 32, marginTop: Object.keys(byVertical).length > 0 ? 16 : 0 }}
-            >
-              <h2 className="font-serif text-[22px] font-bold text-gold mb-2">
-                Online Coin &amp; Bullion Dealers
-              </h2>
-              <p className="font-sans text-[13px] mb-4" style={{ color: "#888" }}>
-                Ship to {city.name} and everywhere in {state.name} with insured delivery.
-              </p>
-              <DealerList dealers={onlineDealers} showLink={false} />
-            </div>
-          </div>
-        )}
+        {/* Online sections — filtered to match the active vertical */}
+        {(() => {
+          // When a vertical filter is active, only show online vendors in THAT vertical
+          if (verticalFilter) {
+            const onlineInVertical = getDealersByVertical(verticalFilter).filter(
+              (d) => !d.address && (!d.citySlug || d.citySlug !== params.city)
+            );
+            if (onlineInVertical.length > 0) {
+              return (
+                <div className="mb-10">
+                  <div style={{ borderTop: "1px solid #e8e5dd", paddingTop: 32, marginTop: Object.keys(byVertical).length > 0 ? 16 : 0 }}>
+                    <h2 className="font-serif text-[22px] font-bold text-gold mb-2">
+                      Online {filterLabel}
+                    </h2>
+                    <p className="font-sans text-[13px] mb-4" style={{ color: "#888" }}>
+                      National services available in {state.name}.
+                    </p>
+                    <DealerList dealers={onlineInVertical} showLink={false} />
+                  </div>
+                </div>
+              );
+            }
+            return null;
+          }
 
-        {/* IRA Providers section */}
-        {iraProviders.length > 0 && (
-          <div className="mb-10">
-            <h2 className="font-serif text-[22px] font-bold text-gold mb-2">
-              Gold &amp; Silver IRA Providers
-            </h2>
-            <p className="font-sans text-[13px] mb-4" style={{ color: "#888" }}>
-              National providers serving all states.
-            </p>
-            <DealerList dealers={iraProviders} showLink={false} />
-          </div>
-        )}
+          // No filter: show all online sections
+          return (
+            <>
+              {onlineDealers.length > 0 && (
+                <div className="mb-10">
+                  <div style={{ borderTop: "1px solid #e8e5dd", paddingTop: 32, marginTop: Object.keys(byVertical).length > 0 ? 16 : 0 }}>
+                    <h2 className="font-serif text-[22px] font-bold text-gold mb-2">
+                      Online Coin &amp; Bullion Dealers
+                    </h2>
+                    <p className="font-sans text-[13px] mb-4" style={{ color: "#888" }}>
+                      Ship to {city.name} and everywhere in {state.name} with insured delivery.
+                    </p>
+                    <DealerList dealers={onlineDealers} showLink={false} />
+                  </div>
+                </div>
+              )}
+              {iraProviders.length > 0 && (
+                <div className="mb-10">
+                  <h2 className="font-serif text-[22px] font-bold text-gold mb-2">
+                    Gold &amp; Silver IRA Providers
+                  </h2>
+                  <p className="font-sans text-[13px] mb-4" style={{ color: "#888" }}>
+                    National providers serving all states.
+                  </p>
+                  <DealerList dealers={iraProviders} showLink={false} />
+                </div>
+              )}
+            </>
+          );
+        })()}
       </section>
 
       <Footer />
