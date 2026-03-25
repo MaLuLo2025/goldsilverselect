@@ -114,5 +114,9 @@ Independent directory of precious metals dealers, Gold & Silver IRA custodians, 
 - Phone as clickable tel: link
 - Detail pages: website and phone prominently visible near top
 
+## Search Console
+- When submitting sitemaps to Google Search Console, the full URL is required (e.g., https://goldsilverselect.com/sitemap.xml), not just the filename.
+- Every site must have a dynamic sitemap.xml generated at build time that includes all pages — homepage, dealer/vendor pages, city pages, state pages, blog articles, FAQ, and legal pages.
+
 ## Git Permissions
 - Allowed: git add/commit without asking in this project
