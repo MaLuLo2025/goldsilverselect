@@ -201,7 +201,7 @@ export default function TickerBanner() {
               {ratio}
             </span>
           </div>
-          <span style={{ color: "#444", fontSize: 8 }}>
+          <span style={{ color: "#999", fontSize: 9, letterSpacing: "0.03em" }}>
             Delayed 20 min
           </span>
         </div>
