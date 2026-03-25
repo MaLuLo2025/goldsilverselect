@@ -120,6 +120,22 @@ export default function CityDealersPage({
         </div>
       </section>
 
+      {/* Vertical description — shown when a vertical filter is active */}
+      {verticalFilter && (
+        <section className="max-w-[1100px] mx-auto" style={{ padding: "0 24px" }}>
+          <div
+            className="rounded-md"
+            style={{ background: "rgba(197,164,78,0.06)", border: "1px solid rgba(197,164,78,0.15)", padding: "20px 24px" }}
+          >
+            <p className="font-sans text-[14px] leading-relaxed" style={{ color: "#666" }}>
+              {verticalFilter === "jewelry" && "Independent shops in your area that buy, sell, and craft gold and silver jewelry. These are local goldsmiths, silversmiths, estate jewelers, and precious metals specialists \u2014 not chain stores or pawn shops. Whether you\u2019re looking to sell inherited jewelry, commission a custom piece, or find estate gold and silver at fair prices, these shops work directly with precious metals every day."}
+              {verticalFilter === "local-coin-bullion" && "Brick-and-mortar coin shops and bullion dealers you can walk into, inspect inventory, and transact in person. Every shop in our directory is an established, independent dealer \u2014 not a franchise, not a cash-for-gold kiosk. We verify addresses, check BBB profiles, and write every description ourselves."}
+              {verticalFilter === "recycling" && "Vetted recyclers, refiners, and precious metals buyers who pay based on current spot prices \u2014 not the 30 cents on the dollar you\u2019ll get at a mall kiosk. These are established operations with transparent testing, published buy rates, and a track record of fair dealing."}
+            </p>
+          </div>
+        </section>
+      )}
+
       {/* Dealers by vertical */}
       <section className="max-w-[1100px] mx-auto" style={{ padding: "40px 24px 64px" }}>
         {Object.keys(byVertical).length > 0 ? (
