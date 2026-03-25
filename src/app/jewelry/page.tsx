@@ -30,7 +30,7 @@ export default function JewelryPage() {
         <div className="max-w-[720px] mx-auto">
           <div className="gs-divider" />
           <h1 className="font-serif text-[38px] font-bold text-gray-900 mb-3">
-            Jewelry Stores &amp; Custom Jewelers
+            Specialized Jewelry Stores &amp; Custom Jewelers
           </h1>
           <p className="font-sans text-[16px] leading-relaxed max-w-[560px] mx-auto" style={{ color: "#666" }}>
             Local jewelers, estate jewelry specialists, and custom designers working in gold, silver, and platinum. From engagement rings to heirloom restoration.

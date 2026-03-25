@@ -34,7 +34,7 @@ export const categories: Category[] = [
     icon: "recycle",
   },
   {
-    title: "Jewelry Stores & Custom Jewelers",
+    title: "Specialized Jewelry Stores & Custom Jewelers",
     slug: "jewelry",
     vertical: "jewelry",
     description:
