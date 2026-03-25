@@ -118,10 +118,10 @@ export default function CityDealersPage({
           ))
         ) : (
           <div className="text-center py-8">
-            <p className="font-sans text-[15px] mb-2" style={{ color: "#999" }}>
+            <p className="font-serif text-[22px] font-semibold mb-3" style={{ color: "#333" }}>
               No local dealer listings in {city.name} yet.
             </p>
-            <p className="font-sans text-[13px] mb-0" style={{ color: "#aaa" }}>
+            <p className="font-sans text-[16px] mb-0" style={{ color: "#555" }}>
               Browse the online dealers below or check nearby cities in{" "}
               <Link
                 href={`/dealers/${params.state}`}

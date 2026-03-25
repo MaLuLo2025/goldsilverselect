@@ -169,8 +169,8 @@ export default function HeroSearch() {
       {/* Empty state message */}
       {stateHasNoCities && (
         <p
-          className="font-sans text-[13.5px] text-center leading-relaxed mb-6 max-w-[520px] mx-auto"
-          style={{ color: "#888" }}
+          className="font-sans text-[16px] text-center leading-relaxed mb-6 max-w-[560px] mx-auto"
+          style={{ color: "#555" }}
         >
           We&apos;re expanding our directory &mdash; if you don&apos;t see your
           city yet, check out our well-reviewed{" "}

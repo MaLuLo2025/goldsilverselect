@@ -178,10 +178,10 @@ export default function StateDealersPage({
           </div>
         ) : (
           <div className="text-center py-8">
-            <p className="font-sans text-[15px] mb-2" style={{ color: "#999" }}>
+            <p className="font-serif text-[22px] font-semibold mb-3" style={{ color: "#333" }}>
               We&apos;re expanding our local directory in {state.name}.
             </p>
-            <p className="font-sans text-[13px]" style={{ color: "#aaa" }}>
+            <p className="font-sans text-[16px]" style={{ color: "#555" }}>
               Browse the online dealers below &mdash; they ship to {state.name} with insured delivery.
             </p>
           </div>
