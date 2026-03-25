@@ -60,6 +60,38 @@ export const cities: City[] = [
   { name: "Burlington", slug: "burlington", state: "Massachusetts", stateSlug: "massachusetts" },
   { name: "Wakefield", slug: "wakefield", state: "Massachusetts", stateSlug: "massachusetts" },
   { name: "Concord", slug: "concord", state: "Massachusetts", stateSlug: "massachusetts" },
+  // Washington
+  { name: "Seattle", slug: "seattle", state: "Washington", stateSlug: "washington" },
+  { name: "Kirkland", slug: "kirkland", state: "Washington", stateSlug: "washington" },
+  { name: "Lynnwood", slug: "lynnwood", state: "Washington", stateSlug: "washington" },
+  // Minnesota
+  { name: "Minneapolis", slug: "minneapolis", state: "Minnesota", stateSlug: "minnesota" },
+  { name: "St. Louis Park", slug: "st-louis-park", state: "Minnesota", stateSlug: "minnesota" },
+  { name: "Burnsville", slug: "burnsville", state: "Minnesota", stateSlug: "minnesota" },
+  // Florida (Tampa/Orlando additions)
+  { name: "Tampa", slug: "tampa", state: "Florida", stateSlug: "florida" },
+  { name: "Largo", slug: "largo", state: "Florida", stateSlug: "florida" },
+  { name: "Palm Harbor", slug: "palm-harbor", state: "Florida", stateSlug: "florida" },
+  { name: "Orlando", slug: "orlando", state: "Florida", stateSlug: "florida" },
+  { name: "Winter Garden", slug: "winter-garden", state: "Florida", stateSlug: "florida" },
+  // California (San Diego, San Francisco, Riverside additions)
+  { name: "San Diego", slug: "san-diego", state: "California", stateSlug: "california" },
+  { name: "San Francisco", slug: "san-francisco", state: "California", stateSlug: "california" },
+  { name: "Redlands", slug: "redlands", state: "California", stateSlug: "california" },
+  { name: "Fontana", slug: "fontana", state: "California", stateSlug: "california" },
+  { name: "Menifee", slug: "menifee", state: "California", stateSlug: "california" },
+  // Missouri
+  { name: "St. Louis", slug: "st-louis", state: "Missouri", stateSlug: "missouri" },
+  // Maryland (Baltimore additions)
+  { name: "Columbia", slug: "columbia", state: "Maryland", stateSlug: "maryland" },
+  { name: "Annapolis", slug: "annapolis", state: "Maryland", stateSlug: "maryland" },
+  { name: "Parkville", slug: "parkville", state: "Maryland", stateSlug: "maryland" },
+  // North Carolina
+  { name: "Charlotte", slug: "charlotte", state: "North Carolina", stateSlug: "north-carolina" },
+  // Michigan
+  { name: "Farmington Hills", slug: "farmington-hills", state: "Michigan", stateSlug: "michigan" },
+  { name: "Chelsea", slug: "chelsea", state: "Michigan", stateSlug: "michigan" },
+  { name: "Warren", slug: "warren", state: "Michigan", stateSlug: "michigan" },
 ];
 
 export function getCitiesByState(stateSlug: string): City[] {
