@@ -18,7 +18,7 @@ export const categories: Category[] = [
     icon: "globe",
   },
   {
-    title: "Gold & Silver IRAs",
+    title: "Online Gold & Silver IRAs",
     slug: "gold-silver-iras",
     vertical: "gold-silver-ira",
     description:
