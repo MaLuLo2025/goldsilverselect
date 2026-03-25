@@ -64,6 +64,17 @@ export const blogPosts: BlogPost[] = [
     series: "Spot Price vs. What You Pay",
   },
   {
+    slug: "spot-price-vs-what-you-actually-pay",
+    title:
+      "Spot Price vs. What You Actually Pay at the Counter",
+    tag: "Premiums & Pricing",
+    tagColor: "forest",
+    excerpt:
+      "Gold is trading at $3,200 but the coin costs $3,360. Here\u2019s where the difference comes from and what\u2019s a reasonable premium.",
+    date: "2026-03-25",
+    series: "Spot Price vs. What You Pay",
+  },
+  {
     slug: "online-vs-local-coin-dealer",
     title:
       "Online vs. Local Coin Dealer: Does It Actually Matter?",

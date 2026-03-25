@@ -811,6 +811,130 @@ const blogContent: Record<string, React.ReactNode> = {
     </>
   ),
 
+  "spot-price-vs-what-you-actually-pay": (
+    <>
+      <p>
+        <em>The number on the ticker isn&apos;t the number on the receipt. Here&apos;s where the difference comes from — and what&apos;s reasonable.</em>
+      </p>
+      <p>
+        Gold is trading at $3,200 an ounce. You walk into a coin shop, point at a 1 oz American Gold Eagle, and the tag says $3,360. That $160 gap is not a mistake, a scam, or a sign that you&apos;re in the wrong shop. It&apos;s the premium — and understanding it is the single most important thing a precious metals buyer can learn.
+      </p>
+
+      <h2>What the Spot Price Actually Is</h2>
+      <p>
+        The spot price is the current market price for one troy ounce of pure gold or silver on the commodities exchange. It updates throughout the trading day based on futures contracts traded on exchanges like{" "}
+        <a href="https://www.cmegroup.com/markets/metals/precious/gold.html" target="_blank" rel="noopener noreferrer">COMEX</a> in New York and the{" "}
+        <a href="https://www.lbma.org.uk/" target="_blank" rel="noopener noreferrer">LBMA</a> in London.
+      </p>
+      <p>
+        Think of spot price like the wholesale price of gasoline before it gets to the pump. Nobody pays that price at the station. The station has rent, employees, electricity, delivery trucks, and a margin to keep the lights on. The number on the sign out front is always higher than the wholesale price — and everyone understands why.
+      </p>
+      <p>
+        Precious metals work the same way. Spot is the raw commodity price. By the time that metal gets shaped into a coin, stamped by a mint, shipped to a distributor, inventoried by a dealer, and sold across a counter to you, costs have accumulated at every step. Those costs show up as the premium.
+      </p>
+
+      <h2>Where the Premium Comes From</h2>
+      <p>
+        The premium over spot is not a single markup. It&apos;s a stack of costs layered on top of each other, and each layer exists for a specific reason.
+      </p>
+      <p>
+        <strong>The mint charges the first premium.</strong> When the{" "}
+        <a href="https://www.usmint.gov/" target="_blank" rel="noopener noreferrer">U.S. Mint</a>{" "}
+        produces an American Gold Eagle, it doesn&apos;t sell that coin at spot price. It charges authorized distributors a fixed markup over the gold content value. This covers the cost of sourcing the gold, refining it to the required purity, striking the coin, quality control, packaging, and shipping.
+      </p>
+      <p>
+        <strong>Distributors add their margin next.</strong> Large wholesale distributors buy from the mint and sell to dealers. Their markup covers warehousing, insurance, security, transportation, and a profit margin. This layer is typically thin — wholesale precious metals distribution is a competitive, volume-driven business — but it&apos;s real.
+      </p>
+      <p>
+        <strong>The dealer adds the final layer.</strong> Whether it&apos;s an online dealer or a local coin shop, the retailer has their own cost structure. Rent, insurance, security systems, employee salaries, website maintenance, credit card processing fees, and a profit margin all get folded into the retail price.
+      </p>
+      <p>
+        <strong>Payment method can add another layer.</strong> Most dealers charge more for credit card purchases than for wire transfers, checks, or cash. This reflects the 2–4% processing fee that credit card companies charge the merchant.
+      </p>
+
+      <h2>What a Reasonable Premium Looks Like</h2>
+      <p>
+        Premiums vary by product, market conditions, and dealer — but there are normal ranges that an informed buyer can use as reference points.
+      </p>
+      <p>
+        For <strong>gold bullion coins</strong> like the American Gold Eagle, the premium typically runs 3–7% over spot in normal market conditions. Government-minted coins from the U.S., Canada, Austria, and South Africa carry slightly higher premiums than generic rounds or bars because they&apos;re recognized worldwide, guaranteed by a sovereign government, and carry legal tender status. For a detailed breakdown, see{" "}
+        <Link href="/blog/gold-coin-premiums-compared" className="text-gold font-semibold">Gold Coin Premiums Compared</Link>.
+      </p>
+      <p>
+        <strong>Generic gold rounds and bars</strong> typically carry lower premiums — often 2–4% over spot — because they don&apos;t carry the mintage costs or brand recognition of sovereign coins.
+      </p>
+      <p>
+        <strong>Silver premiums</strong> run higher as a percentage than gold premiums, and this surprises many new buyers. A 1 oz American Silver Eagle might carry a premium of $3–6 over a spot price of $30 — that&apos;s 10–20% over spot. The reason: it costs roughly the same amount to mint, ship, and handle a 1 oz silver coin as a 1 oz gold coin, but the silver coin is worth a fraction of the gold one.
+      </p>
+      <p>
+        <strong>Silver bars</strong> carry progressively lower premiums as size increases. A 1 oz silver bar might be $2–4 over spot, while a 100 oz silver bar might be $0.50–1.50 over spot per ounce.
+      </p>
+
+      <h2>When Premiums Are Not Reasonable</h2>
+      <p>
+        Most dealers operate within a fair range. But some don&apos;t, and knowing the warning signs helps you avoid overpaying.
+      </p>
+      <p>
+        If a dealer&apos;s premium is more than double the typical range for a product without an obvious reason, that&apos;s a flag. A 1 oz Gold Eagle at 15% over spot when other dealers are at 5% deserves a question.
+      </p>
+      <p>
+        High-pressure sales tactics paired with vague pricing should make you cautious. A reputable dealer will tell you the spot price, the premium, and the total — transparently. If a dealer won&apos;t break down the math, or if they discourage you from comparing prices, that&apos;s worth noting.
+      </p>
+      <p>
+        Television and radio advertisers selling gold coins at dramatically high premiums are a known issue in the industry. The coins they sell are real, but the premiums can be two or three times what you&apos;d pay from a competitive dealer. Always compare before buying from any source that reached you through advertising.
+      </p>
+      <p>
+        <strong>Numismatic premiums</strong> are a separate category. A rare coin&apos;s premium over its melt value can be enormous — and legitimately so. But if someone tries to sell you a common, modern bullion coin as a &ldquo;rare&rdquo; piece at a numismatic premium, that&apos;s a red flag. For more on this, see{" "}
+        <Link href="/blog/gold-ira-scams" className="text-gold font-semibold">Gold IRA Scams</Link>.
+      </p>
+
+      <h2>Premiums When You Sell</h2>
+      <p>
+        The premium works in reverse when you sell. You won&apos;t get spot price for your gold or silver — you&apos;ll get spot minus a dealer&apos;s buy-back margin. This is the spread, and it&apos;s how dealers make money.
+      </p>
+      <p>
+        A typical buy-back price for common gold bullion is 1–3% below spot. For silver, the buy-back discount is usually wider — sometimes 5–10% below spot.
+      </p>
+      <p>
+        The <strong>round-trip cost</strong> — what you pay going in and what you receive going out — is the true cost of ownership. A dealer who sells at a 5% premium and buys back at 2% below spot costs you about 7% round-trip. A dealer at 3% and 1% below costs about 4%. Over time, that difference compounds. See{" "}
+        <Link href="/blog/what-should-i-truly-pay-for-gold-and-silver" className="text-gold font-semibold">What Should I Truly Pay for Gold and Silver?</Link>{" "}
+        for the full framework.
+      </p>
+
+      <h2>How to Use This Knowledge</h2>
+      <p>
+        <strong>Before every purchase, check the current spot price.</strong> This takes seconds. You cannot evaluate whether a price is fair without knowing spot.
+      </p>
+      <p>
+        <strong>Calculate the premium</strong> as both a dollar amount and a percentage. If spot gold is $3,200 and the coin costs $3,360, that&apos;s $160 or 5% over spot.
+      </p>
+      <p>
+        <strong>Compare at least three dealers</strong> — online and local — for the same product with the same payment method. Our{" "}
+        <Link href="/online-dealers" className="text-gold font-semibold">online dealer directory</Link>{" "}
+        and{" "}
+        <Link href="/dealers" className="text-gold font-semibold">local dealer directory</Link>{" "}
+        link directly to each dealer&apos;s pricing page.
+      </p>
+      <p>
+        <strong>Factor in total cost.</strong> A dealer with a slightly higher premium but free shipping and no credit card surcharge might be cheaper all-in.
+      </p>
+      <p>
+        <strong>Remember that premiums are negotiable on larger purchases.</strong> If you&apos;re buying 10 or more ounces of gold, ask about volume pricing.
+      </p>
+
+      <h2>The Bottom Line</h2>
+      <p>
+        The spot price is the starting point, not the final price. The premium is not a penalty — it&apos;s the cost of transforming raw commodity metal into a product you can hold in your hand. Reasonable premiums are the cost of doing business with legitimate dealers who source, verify, store, insure, and sell real precious metals.
+      </p>
+      <p>
+        Your job as a buyer is simple: know the spot price, understand the typical premium range for what you&apos;re buying, compare a few sources, and make sure the total cost makes sense. Do that consistently, and you&apos;ll never overpay.
+      </p>
+      <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
+        GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver, and we do not receive compensation from any dealer listed on this site.
+      </p>
+    </>
+  ),
+
   "online-vs-local-coin-dealer": (
     <>
       <p>
