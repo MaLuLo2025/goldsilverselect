@@ -23,6 +23,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/privacy",
     "/terms",
     "/cookies",
+    "/faq",
   ].map((path) => ({
     url: `${BASE}${path}`,
     lastModified: now,
@@ -46,9 +47,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  // Dealer pages (local dealers with addresses)
+  // Dealer detail pages (all local dealers with city/state)
   const dealerPages = dealers
-    .filter((d) => d.address)
+    .filter((d) => d.citySlug && d.stateSlug && d.vertical !== "online-coin-bullion" && d.vertical !== "gold-silver-ira")
     .map((d) => ({
       url: `${BASE}/dealers/${d.stateSlug}/${d.citySlug}/${d.slug}`,
       lastModified: now,
