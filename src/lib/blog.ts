@@ -85,6 +85,28 @@ export const blogPosts: BlogPost[] = [
     date: "2026-03-24",
   },
   {
+    slug: "silver-premiums-and-bar-size",
+    title:
+      "Silver Premiums and How Bar Size Affects What You Pay",
+    tag: "Premiums & Pricing",
+    tagColor: "forest",
+    excerpt:
+      "Silver premiums run higher than gold as a percentage and shift dramatically depending on what form you buy. Here\u2019s the math most buyers don\u2019t see.",
+    date: "2026-03-25",
+    series: "Spot Price vs. What You Pay",
+  },
+  {
+    slug: "junk-silver-premiums-explained",
+    title:
+      "Junk Silver Premiums Explained: The Constitutional Silver Guide",
+    tag: "Premiums & Pricing",
+    tagColor: "forest",
+    excerpt:
+      "Pre-1965 U.S. coins contain 90% silver and are priced differently from bullion. Here\u2019s how constitutional silver works and when it\u2019s the smartest buy.",
+    date: "2026-03-25",
+    series: "Spot Price vs. What You Pay",
+  },
+  {
     slug: "what-is-junk-silver",
     title:
       "What Is Junk Silver and Why Do People Pay Over Spot for Worn-Out Coins?",

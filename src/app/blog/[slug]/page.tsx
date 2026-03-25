@@ -935,6 +935,75 @@ const blogContent: Record<string, React.ReactNode> = {
     </>
   ),
 
+  "silver-premiums-and-bar-size": (
+    <>
+      <p><em>Silver premiums run higher than gold as a percentage — and they shift dramatically depending on what form you buy. Here&apos;s the math that most buyers don&apos;t see until after the receipt.</em></p>
+      <p>New silver buyers almost always have the same reaction. They check the spot price, walk into a dealer, and discover that the coin or bar they want costs significantly more per ounce than they expected. A 1 oz American Silver Eagle might carry a premium of $4–8 over a spot price of $32 — that&apos;s 12–25% above the metal value. Coming from the gold world, where premiums run 3–7%, that gap feels wrong.</p>
+      <p>It&apos;s not wrong. It&apos;s how silver works. And understanding why — and how to minimize it — is one of the most practical things a silver buyer can learn.</p>
+      <h2>Why Silver Premiums Are Higher Than Gold</h2>
+      <p>The reason is mechanical, not conspiratorial. It costs roughly the same amount to mine, refine, mint, package, ship, insure, inventory, and sell a 1 oz silver coin as a 1 oz gold coin. But the gold coin might be worth $3,200 and the silver coin might be worth $32. Those fixed costs represent about 3–5% of the gold coin&apos;s value but 15–25% of the silver coin&apos;s value.</p>
+      <p>Think of it this way: if it costs a mint $8 to produce a 1 oz coin regardless of metal, that $8 is a rounding error on a $3,200 gold coin but a 25% surcharge on a $32 silver coin. This is the fundamental reason silver premiums, expressed as a percentage, will always be higher than gold premiums. It&apos;s not dealer greed — it&apos;s arithmetic. For more on how gold premiums work, see <Link href="/blog/spot-price-vs-what-you-actually-pay" className="text-gold font-semibold">Spot Price vs. What You Actually Pay</Link>.</p>
+      <h2>How Form Factor Changes the Premium</h2>
+      <p>The form you buy silver in has a bigger impact on your per-ounce cost than almost any other variable.</p>
+      <p><strong>Government-minted silver coins</strong> carry the highest premiums. American Silver Eagles typically range from $4–8 over spot. Canadian Silver Maple Leafs run slightly lower at $3–6 over spot. You&apos;re paying for government backing, recognizable design, anti-counterfeiting features, and legal tender status.</p>
+      <p><strong>Private mint silver rounds</strong> occupy the middle ground — typically $2–4 over spot. Same silver content, lower premium, but less recognition and potentially wider sell-back spreads.</p>
+      <p><strong>Small silver bars (1–10 oz)</strong> fall in a similar range, with the per-ounce premium dropping as size increases. A 10 oz bar might carry $1.50–3 over spot per ounce.</p>
+      <p><strong>Mid-size silver bars (100 oz)</strong> represent a significant premium break — $0.50–1.50 per ounce over spot, approaching gold-like premiums of 1.5–5%.</p>
+      <p><strong>Monster boxes of Silver Eagles</strong> (500 coins, sealed from the mint) offer volume pricing that can shave $1–2 per coin off the individual premium.</p>
+      <p><strong>Junk silver</strong> — pre-1965 U.S. coins with 90% silver content — carries variable premiums that fluctuate with demand. For a deep dive, see <Link href="/blog/junk-silver-premiums-explained" className="text-gold font-semibold">Junk Silver Premiums Explained</Link>.</p>
+      <h2>The Scaling Math</h2>
+      <p>At a silver spot price of $32 per ounce, using typical mid-market premiums:</p>
+      <p>A single 1 oz American Silver Eagle at $7 over spot costs $39 — <strong>21.9% premium</strong>. For 100 ounces: $3,900.</p>
+      <p>A 10 oz silver bar at $2.50 over spot per ounce costs $345 — <strong>7.8% premium</strong>. For 100 ounces (ten bars): $3,450.</p>
+      <p>A 100 oz silver bar at $1 over spot per ounce costs $3,300 — <strong>3.1% premium</strong>.</p>
+      <p>The difference between 100 ounces in Silver Eagles versus a single 100 oz bar is $600 — nearly 20 additional ounces of silver at spot price. Over years of accumulation, the form factor choice compounds into a significant difference in total ounces owned.</p>
+      <h2>When Paying Higher Premiums Makes Sense</h2>
+      <p><strong>Liquidity and recognition</strong> matter when you sell. American Silver Eagles are recognized by every dealer. A 100 oz bar needs authentication and limits your buyer pool.</p>
+      <p><strong>Divisibility</strong> has real value. If you need to sell 5 or 10 ounces, coins give you that flexibility. A 100 oz bar is all-or-nothing.</p>
+      <p><strong>The most practical approach</strong> for most silver buyers is a blend: some recognizable sovereign coins for liquidity and divisibility, plus larger bars for cost efficiency. Compare premiums across dealers using our <Link href="/online-dealers" className="text-gold font-semibold">online dealer directory</Link>.</p>
+      <h2>Silver Premiums During Market Stress</h2>
+      <p>Silver premiums are more volatile than gold premiums. During the 2020 pandemic surge and the 2021 silver squeeze, premiums on Silver Eagles exceeded $10–12 over spot — nearly 40–50% above metal value. Dealers couldn&apos;t get supply fast enough.</p>
+      <p>Elevated premiums during demand spikes are a signal, not an opportunity. When premiums are running double or triple their normal levels, you&apos;re paying a panic tax. Experienced buyers watch premiums as carefully as spot price, and buy more aggressively when premiums are at or below historical norms.</p>
+      <h2>The Bottom Line</h2>
+      <p>Silver premiums are higher than gold premiums as a percentage — and that&apos;s built into the economics of the metal. The form you buy silver in is the primary lever for controlling your per-ounce cost. For maximum efficiency: buy the largest bar size you&apos;re comfortable with. For maximum liquidity: buy recognizable sovereign coins. For the best balance: mix both.</p>
+      <p>The spot price tells you what silver is worth. The premium tells you what the market is charging for the privilege of owning it in physical form. Pay attention to both. For the full framework, see <Link href="/blog/what-should-i-truly-pay-for-gold-and-silver" className="text-gold font-semibold">What Should I Truly Pay for Gold and Silver?</Link></p>
+      <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver, and we do not receive compensation from any dealer listed on this site.</p>
+    </>
+  ),
+
+  "junk-silver-premiums-explained": (
+    <>
+      <p><em>Pre-1965 U.S. coins contain 90% silver. They&apos;re not junk at all — and understanding how they&apos;re priced is different from everything else in the precious metals market.</em></p>
+      <p>The name is terrible. &ldquo;Junk silver&rdquo; sounds like something you&apos;d throw away, which is exactly the opposite of what it is. The term simply means pre-1965 U.S. coins that contain 90% silver — dimes, quarters, half dollars, and dollars that were pulled from circulation decades ago and are now traded for their silver content rather than their face value.</p>
+      <h2>What Qualifies as Junk Silver</h2>
+      <p>Before 1965, U.S. dimes, quarters, and half dollars were minted with 90% silver and 10% copper. In 1965, the U.S. Mint switched to clad coins with no silver content. The pre-1965 coins — Roosevelt dimes, Washington quarters, Franklin half dollars, Kennedy half dollars (1964 only at 90%), and Walking Liberty half dollars — are what the market calls junk silver or constitutional silver.</p>
+      <p>Morgan and Peace silver dollars also contain 90% silver but are typically priced separately because many have numismatic value above their metal content. War nickels (1942–1945) contain 35% silver and trade at lower premiums.</p>
+      <h2>How Junk Silver Is Priced</h2>
+      <p>Junk silver is priced per dollar of face value, and the unit of trade is typically a bag — either $1 face value (a small lot), $100 face value (a half bag), or $1,000 face value (a full bag, roughly 715 troy ounces of pure silver).</p>
+      <p>The silver content per dollar of face value is approximately <strong>0.715 troy ounces</strong>. To calculate melt value: multiply face value × 0.715 × current spot price. At $32 spot, $1 face value of 90% silver has a melt value of about $22.88. A $1,000 bag is about $22,880.</p>
+      <p>The premium is quoted as a price per dollar of face value, over or under melt. In normal markets, junk silver trades at modest premiums — sometimes just a few percent over melt.</p>
+      <h2>Why Junk Silver Premiums Fluctuate More Than Bullion</h2>
+      <p>Junk silver is a finite, shrinking supply. No new coins are being minted. Every year, some coins get lost, damaged, or melted. When physical demand surges, premiums spike faster and harder than on newly minted products. The <a href="https://www.usmint.gov/" target="_blank" rel="noopener noreferrer">U.S. Mint</a> can ramp up Silver Eagle production, but nobody can make more 1964 Washington quarters.</p>
+      <p>Conversely, during quiet markets, premiums can compress to near-zero because the coins are less convenient than standard bullion. This asymmetry — high premiums during surges, low premiums during quiet markets — is what makes junk silver interesting to patient, cost-conscious buyers.</p>
+      <h2>The Practical Advantages</h2>
+      <p><strong>Authentication is essentially free.</strong> These are U.S. government-minted coins that circulated for decades. Counterfeiting is extremely rare because individual coins are worth so little.</p>
+      <p><strong>Divisibility is unmatched.</strong> Sell one dime, sell ten quarters, sell a hundred half dollars. No other form of silver offers this flexibility.</p>
+      <p><strong>Recognition is universal</strong> within the United States. Any dealer will instantly know what they are and their approximate value.</p>
+      <h2>The Practical Disadvantages</h2>
+      <p><strong>Counting and verifying takes time.</strong> A $100 face value lot of quarters is 400 coins.</p>
+      <p><strong>Storage is less efficient</strong> than bars. A $1,000 face value bag weighs about 55 pounds.</p>
+      <p><strong>Sell-back spreads can be wider</strong> than bullion products because dealers need to sort and count before reselling. Ask about buy-back pricing before accumulating a large position.</p>
+      <h2>How to Buy Junk Silver Smart</h2>
+      <p><strong>Check the premium to melt ratio before buying.</strong> Calculate melt value ($face × 0.715 × spot), then compare to the asking price. Under 5% is reasonable in normal markets. Over 10% means you&apos;re either in a demand surge or should shop elsewhere.</p>
+      <p><strong>Buy during quiet markets.</strong> The best deals appear when demand is low and premiums are compressed — the opposite of panic buying.</p>
+      <p><strong>Consider half dollars over dimes for efficiency.</strong> Fewer individual coins to count and handle for the same total silver content.</p>
+      <p>For more on how premiums work across different silver products, see <Link href="/blog/silver-premiums-and-bar-size" className="text-gold font-semibold">Silver Premiums and Bar Size</Link>. For the broader premium framework, see <Link href="/blog/spot-price-vs-what-you-actually-pay" className="text-gold font-semibold">Spot Price vs. What You Actually Pay</Link>. Compare silver prices across our <Link href="/online-dealers" className="text-gold font-semibold">online dealer directory</Link>.</p>
+      <h2>The Bottom Line</h2>
+      <p>Junk silver is one of the most practical ways to own physical silver — divisible, recognizable, impossible to counterfeit, and often available at premiums below newly minted bullion. Buy patiently during quiet markets, store securely, and understand what you own: real silver in a form that Americans have trusted for over a century.</p>
+      <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver, and we do not receive compensation from any dealer listed on this site.</p>
+    </>
+  ),
+
   "online-vs-local-coin-dealer": (
     <>
       <p>
