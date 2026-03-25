@@ -220,5 +220,19 @@ Each vertical landing page displays a warm, informative description box above th
 ### Pattern Reference
 - AestheticSelect.com is the reference implementation: geography first, then service category
 
+## Command Shortcuts
+
+When the site owner types **"full audit"** — run a complete vendor data standards audit across ALL verticals on the site. Check:
+1. All required fields present (name, address, phone, website, city/state, vertical, description)
+2. Descriptions factual only with no superlatives ("best," "top-rated," "leading," "premier," "#1")
+3. Featured tier rule compliance (requires BOTH Google rating AND BBB rating)
+4. Website URLs load (verify programmatically)
+5. No unintentional duplicates across cities or verticals
+6. No template/sample dealers remaining
+7. Correct vertical tagging — every dealer tagged to the correct vertical only
+8. Vertical description text displays on each category page
+
+Generate report organized by vertical and city showing: total dealers per vertical, Featured count, Standard count, any flagged issues. **Do not deploy — report only.** This applies to ALL Select directory sites.
+
 ## Git Permissions
 - Allowed: git add/commit without asking in this project
