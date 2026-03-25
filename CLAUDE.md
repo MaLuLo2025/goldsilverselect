@@ -118,5 +118,33 @@ Independent directory of precious metals dealers, Gold & Silver IRA custodians, 
 - When submitting sitemaps to Google Search Console, the full URL is required (e.g., https://goldsilverselect.com/sitemap.xml), not just the filename.
 - Every site must have a dynamic sitemap.xml generated at build time that includes all pages — homepage, dealer/vendor pages, city pages, state pages, blog articles, FAQ, and legal pages.
 
+## Homepage Search & Browse UX Standard
+
+### Search Flow
+- User selects State → City dropdown populates dynamically from vendor data (every city with at least one vendor must appear)
+- After geography is selected, vertical category boxes appear (e.g., Coin & Bullion, Jewelry, Recycling — varies per site)
+- User clicks a category → taken to that vertical's listings filtered by selected city
+- No generic "Browse" button — the category boxes ARE the browse mechanism
+- If no geography is selected and user clicks a local vertical, prompt them to select a location first
+- Online/national verticals (e.g., Online Coin & Bullion) are always clickable regardless of geography selection
+
+### Category Filtering
+- Each vertical shows ONLY its own vendors — never mixed results
+- Clicking "Jewelry" shows only jewelry stores, clicking "Coin & Bullion" shows only coin dealers, etc.
+- Same pattern as AestheticSelect: clicking "Injectables" shows only injectables providers, not plastic surgery
+
+### Navigation State Persistence
+- Browser back button must preserve geography selection (state + city)
+- If user is in Texas → Dallas → Coin & Bullion and hits back, they return to Texas → Dallas with category boxes visible — not a blank state
+- Use URL params or session state to preserve selections
+
+### City List
+- Always generated dynamically from vendor data — never a separate static list
+- If a vendor exists in a city, that city must appear in the dropdown
+- This prevents city lists from falling out of sync when new vendors are added
+
+### Pattern Reference
+- AestheticSelect.com is the reference implementation: geography first, then service category
+
 ## Git Permissions
 - Allowed: git add/commit without asking in this project
