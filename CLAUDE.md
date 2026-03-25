@@ -143,6 +143,11 @@ Independent directory of precious metals dealers, Gold & Silver IRA custodians, 
 - If a vendor exists in a city, that city must appear in the dropdown
 - This prevents city lists from falling out of sync when new vendors are added
 
+### Online Vendors Within Verticals
+- Every vertical displays local vendors first (filtered by geography) followed by an Online section showing national/online vendors in the same vertical.
+- Verticals with online vendors are always accessible regardless of geography selection. This prevents any vertical from appearing empty when online options exist.
+- On city and state pages, online dealer and IRA provider sections appear below local results, separated by a divider with contextual copy (e.g., "Ship to [City] and everywhere in [State] with insured delivery").
+
 ### Empty State Handling
 - When a user selects a state with no vendors/cities in the database, the city dropdown shows "No cities yet" and a friendly message appears: "We're expanding our directory — if you don't see your city yet, check out our well-reviewed online dealers below."
 - Online/national vertical category boxes get a subtle gold border highlight to draw attention when no local dealers exist for the selected geography

@@ -8,8 +8,13 @@ import { getCitiesByState } from "@/lib/cities";
 import { categories } from "@/lib/categories";
 import { iconMap } from "./Icons";
 
-// Verticals that don't require a location selection
-const LOCATION_INDEPENDENT = new Set(["online-coin-bullion", "gold-silver-ira"]);
+// Verticals that are always accessible (have online/national vendors or are online-only)
+const ALWAYS_ACCESSIBLE = new Set([
+  "online-coin-bullion",
+  "gold-silver-ira",
+  "recycling",
+  "jewelry",
+]);
 
 // Map verticals to their destination pages
 function getCategoryUrl(
@@ -65,7 +70,7 @@ export default function HeroSearch() {
   }, [selectedState, selectedCity]);
 
   function handleCategoryClick(cat: (typeof categories)[number]) {
-    const needsLocation = !LOCATION_INDEPENDENT.has(cat.vertical);
+    const needsLocation = !ALWAYS_ACCESSIBLE.has(cat.vertical);
     if (needsLocation && !selectedState) {
       const sel = document.getElementById("hero-state-select");
       if (sel) {
@@ -89,7 +94,7 @@ export default function HeroSearch() {
     forceClickable?: boolean
   ) {
     const Icon = iconMap[cat.icon];
-    const isLocationIndependent = LOCATION_INDEPENDENT.has(cat.vertical);
+    const isLocationIndependent = ALWAYS_ACCESSIBLE.has(cat.vertical);
     const hasLocation = !!selectedState;
     const clickable = forceClickable || isLocationIndependent || hasLocation;
     // Highlight online dealers when state has no local dealers

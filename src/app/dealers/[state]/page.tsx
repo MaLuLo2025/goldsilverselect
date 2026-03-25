@@ -6,7 +6,8 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { states } from "@/lib/states";
 import { getCitiesByState } from "@/lib/cities";
-import { getDealersByState } from "@/lib/dealers";
+import { getDealersByState, getOnlineDealers } from "@/lib/dealers";
+import DealerList from "@/components/DealerList";
 import DealerRatings from "@/components/DealerRatings";
 import { isFeatured, truncateAtSentence } from "@/components/DealerCard";
 
@@ -176,23 +177,28 @@ export default function StateDealersPage({
             })}
           </div>
         ) : (
-          <div className="text-center py-12">
-            <p className="font-sans text-[16px] mb-4" style={{ color: "#999" }}>
-              We&apos;re expanding our directory in {state.name}. No local
-              dealers listed yet.
+          <div className="text-center py-8">
+            <p className="font-sans text-[15px] mb-2" style={{ color: "#999" }}>
+              We&apos;re expanding our local directory in {state.name}.
             </p>
-            <p className="font-sans text-[14px] mb-6" style={{ color: "#aaa" }}>
-              Browse our well-reviewed online dealers &mdash; they ship to
-              every state with insured delivery.
+            <p className="font-sans text-[13px]" style={{ color: "#aaa" }}>
+              Browse the online dealers below &mdash; they ship to {state.name} with insured delivery.
             </p>
-            <Link
-              href="/online-dealers"
-              className="btn-gold inline-block no-underline"
-            >
-              Browse Online Dealers
-            </Link>
           </div>
         )}
+      </section>
+
+      {/* Online Dealers — always shown */}
+      <section className="max-w-[1100px] mx-auto" style={{ padding: "0 24px 64px" }}>
+        <div style={{ borderTop: "1px solid #e8e5dd", paddingTop: 32 }}>
+          <h2 className="font-serif text-[24px] font-bold text-gold mb-2">
+            Online Coin &amp; Bullion Dealers
+          </h2>
+          <p className="font-sans text-[13px] mb-4" style={{ color: "#888" }}>
+            Ship to every address in {state.name} with insured delivery.
+          </p>
+          <DealerList dealers={getOnlineDealers()} showLink={false} />
+        </div>
       </section>
 
       <Footer />
