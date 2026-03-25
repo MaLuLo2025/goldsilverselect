@@ -1,11 +1,10 @@
+import { Suspense } from "react";
 import TickerBanner from "@/components/TickerBanner";
 import Header from "@/components/Header";
 import HeroSearch from "@/components/HeroSearch";
 import IntelligenceSection from "@/components/IntelligenceSection";
 import Footer from "@/components/Footer";
 import Logo from "@/components/Logo";
-import { iconMap } from "@/components/Icons";
-import { categories } from "@/lib/categories";
 import { blogPosts } from "@/lib/blog";
 
 export default function Home() {
@@ -51,59 +50,9 @@ export default function Home() {
             jewelry or &ldquo;junk&rdquo; — you deserve transparent pricing,
             honest dealers, and zero pressure. We help you find them.
           </p>
-          <HeroSearch />
-        </div>
-      </section>
-
-      {/* ===== CATEGORY CARDS ===== */}
-      <section className="max-w-[1100px] mx-auto" style={{ padding: "56px 24px" }}>
-        <div className="text-center mb-10">
-          <div className="gs-divider" />
-          <h2 className="font-serif text-[30px] font-bold text-gray-900 mb-2">
-            Browse by Category
-          </h2>
-          <p className="font-sans text-sm" style={{ color: "#888" }}>
-            Every listing links directly to the dealer&apos;s website. No
-            middlemen. No paid placements.
-          </p>
-        </div>
-        <div className="grid grid-cols-3 gap-5">
-          {categories.slice(0, 3).map((cat) => {
-            const Icon = iconMap[cat.icon];
-            return (
-              <div key={cat.slug} className="category-card">
-                <div className="mb-3.5">{Icon && <Icon />}</div>
-                <h3 className="font-serif text-[19px] font-semibold text-gold mb-2">
-                  {cat.title}
-                </h3>
-                <p
-                  className="font-sans text-[13.5px] leading-relaxed"
-                  style={{ color: "#777" }}
-                >
-                  {cat.description}
-                </p>
-              </div>
-            );
-          })}
-        </div>
-        <div className="grid grid-cols-2 gap-5 mt-5 max-w-[740px] mx-auto">
-          {categories.slice(3).map((cat) => {
-            const Icon = iconMap[cat.icon];
-            return (
-              <div key={cat.slug} className="category-card">
-                <div className="mb-3.5">{Icon && <Icon />}</div>
-                <h3 className="font-serif text-[19px] font-semibold text-gold mb-2">
-                  {cat.title}
-                </h3>
-                <p
-                  className="font-sans text-[13.5px] leading-relaxed"
-                  style={{ color: "#777" }}
-                >
-                  {cat.description}
-                </p>
-              </div>
-            );
-          })}
+          <Suspense fallback={null}>
+            <HeroSearch />
+          </Suspense>
         </div>
       </section>
 
