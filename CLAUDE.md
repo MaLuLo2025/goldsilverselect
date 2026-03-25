@@ -222,17 +222,20 @@ Each vertical landing page displays a warm, informative description box above th
 
 ## Command Shortcuts
 
-When the site owner types **"full audit"** — run a complete vendor data standards audit across ALL verticals on the site. Check:
-1. All required fields present (name, address, phone, website, city/state, vertical, description)
-2. Descriptions factual only with no superlatives ("best," "top-rated," "leading," "premier," "#1")
-3. Featured tier rule compliance (requires BOTH Google rating AND BBB rating)
-4. Website URLs load (verify programmatically)
-5. No unintentional duplicates across cities or verticals
-6. No template/sample dealers remaining
-7. Correct vertical tagging — every dealer tagged to the correct vertical only
-8. Vertical description text displays on each category page
+When the site owner types **"full audit"** — run a complete vendor data standards audit across ALL verticals, then fix everything fixable:
+1. Check all required fields — name, address, phone, website, city/state, type, vertical, description.
+2. For every missing address, phone, or website: look up the business on Google Maps and BBB. Fill in any data that can be found. Verify website URLs load.
+3. If a business cannot be found on Google Maps at all, flag for removal — it may be closed.
+4. Check descriptions are 2-3 sentences, factual only, no superlatives. Fix any violations.
+5. Verify Featured tier rule — every Featured dealer has BOTH Google rating AND BBB rating. Demote any that don't.
+6. Check for unintentional duplicates across verticals.
+7. Remove any template/sample dealers.
+8. Verify correct vertical tagging.
+9. Verify vertical description text displays on each category page.
+10. Generate a before/after report showing what was found and what was fixed, organized by vertical and city.
+11. Deploy all fixes.
 
-Generate report organized by vertical and city showing: total dealers per vertical, Featured count, Standard count, any flagged issues. **Do not deploy — report only.** This applies to ALL Select directory sites.
+This applies to ALL Select directory sites.
 
 ## Git Permissions
 - Allowed: git add/commit without asking in this project
