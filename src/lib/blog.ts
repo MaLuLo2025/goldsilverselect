@@ -64,6 +64,16 @@ export const blogPosts: BlogPost[] = [
     series: "Spot Price vs. What You Pay",
   },
   {
+    slug: "online-vs-local-coin-dealer",
+    title:
+      "Online vs. Local Coin Dealer: Does It Actually Matter?",
+    tag: "Education",
+    tagColor: "forest",
+    excerpt:
+      "Should you buy gold and silver online or from a local coin shop? The answer is simpler than you think \u2014 here\u2019s what actually determines whether you get a fair deal.",
+    date: "2026-03-24",
+  },
+  {
     slug: "what-is-junk-silver",
     title:
       "What Is Junk Silver and Why Do People Pay Over Spot for Worn-Out Coins?",
