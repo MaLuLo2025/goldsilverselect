@@ -1579,6 +1579,138 @@ export const dealers: Dealer[] = [
   },
 
   // ============================================================
+  // ONLINE RECYCLERS & REFINERS (mail-in / national)
+  // ============================================================
+  {
+    slug: "cash-for-gold-usa",
+    name: "Cash for Gold USA",
+    vertical: "recycling",
+    description:
+      "Canton, MA-based online gold buyer founded in 2005. Parent company CJ Environmental Inc. is BBB A+ accredited. Buys gold, silver, platinum, diamonds, and luxury watches via free insured mail-in kits. Appraises within 24 hours. Offers same-day payment by check, PayPal, or ACH bank wire. Free returns if offer is declined.",
+    city: "Canton",
+    citySlug: "canton",
+    state: "Massachusetts",
+    stateSlug: "massachusetts",
+    website: "https://cashforgoldusa.com/",
+    isVerified: false,
+    bbbRating: "A+",
+  },
+  {
+    slug: "sell-your-gold",
+    name: "Sell Your Gold",
+    vertical: "recycling",
+    description:
+      "Boca Raton, FL-based online gold buyer. Parent company is BBB A+ accredited. Buys gold, silver, and platinum items via free insured mail-in kits. Price-match guarantee \u2014 will match or beat any competitor offer. Over 10,000 Trustpilot reviews averaging 4.8 stars. Free returns if offer declined.",
+    address: "6401 Congress Ave, Suite 175, Boca Raton, FL 33487",
+    city: "Boca Raton",
+    citySlug: "boca-raton",
+    state: "Florida",
+    stateSlug: "florida",
+    website: "https://sellyourgold.com/",
+    isVerified: false,
+    bbbRating: "A+",
+    trustpilotRating: 4.8,
+  },
+  {
+    slug: "express-gold-cash",
+    name: "Express Gold Cash",
+    vertical: "recycling",
+    description:
+      "Family-owned online gold buyer. BBB A+ rated. Buys gold, silver, and diamonds via free insured mail-in kits. Price-match guarantee. Pays within 24 hours of offer acceptance. Trustpilot rating of 4.9 stars.",
+    website: "https://expressgoldcash.com/",
+    city: "",
+    citySlug: "",
+    state: "",
+    stateSlug: "",
+    isVerified: false,
+    bbbRating: "A+",
+    trustpilotRating: 4.9,
+  },
+  {
+    slug: "cash-for-gold-mailer",
+    name: "Cash for Gold Mailer",
+    vertical: "recycling",
+    description:
+      "Online gold buyer with over 50 years of combined appraiser experience. Buys gold, silver, platinum, diamonds, and gemstones. Posts transparent pricing on website using pennyweight scale. Provides free insured shipping kits. Payment processed within one business day of offer acceptance.",
+    website: "https://cashforgoldmailer.com/",
+    city: "",
+    citySlug: "",
+    state: "",
+    stateSlug: "",
+    isVerified: false,
+  },
+  {
+    slug: "specialty-metals-smelters",
+    name: "Specialty Metals Smelters & Refiners",
+    vertical: "recycling",
+    description:
+      "Fairfield, CT precious metals refiner established in 1980. Over 40 years in business. Refines gold, silver, platinum, palladium, and rhodium from industrial, electronic, jewelry, and mining sources. Also accepts individual and estate lots. Ships via USPS, UPS, or FedEx. Also operates GoldRefiners.com for consumer gold recycling.",
+    address: "2490 Black Rock Turnpike, Fairfield, CT 06825",
+    city: "Fairfield",
+    citySlug: "fairfield",
+    state: "Connecticut",
+    stateSlug: "connecticut",
+    phone: "(800) 426-2344",
+    website: "http://specialtymetals.com/",
+    isVerified: false,
+  },
+  {
+    slug: "mid-states-recycling",
+    name: "Mid-States Recycling and Refining",
+    vertical: "recycling",
+    description:
+      "Precious metals refiner with over 40 years of experience. Specializes in gold, silver, and platinum refining from jewelry, dental, industrial, and mining sources. Offers diamond and gemstone recovery services. Invites customers to tour the facility or witness the processing of their materials. Also sells certified recycled fine precious metals.",
+    website: "https://midstatesrecycling.com/",
+    city: "",
+    citySlug: "",
+    state: "",
+    stateSlug: "",
+    isVerified: false,
+  },
+  {
+    slug: "midwest-refineries",
+    name: "Midwest Refineries",
+    vertical: "recycling",
+    description:
+      "Family-owned precious metals refiner established in 1939, now in its third generation. Recently relocated from Michigan to Lakeland, FL. Buys and refines gold, silver, platinum, palladium, and rhodium. Accepts scrap of any size \u2014 no minimum, no maximum. Charges zero fees for refining, assaying, or treatment. Pays 92% of spot for .999 silver bullion.",
+    address: "4418 Florida National Dr, Lakeland, FL 33813",
+    city: "Lakeland",
+    citySlug: "lakeland",
+    state: "Florida",
+    stateSlug: "florida",
+    phone: "(863) 390-0414",
+    website: "https://midwestrefineries.com/",
+    isVerified: false,
+  },
+  {
+    slug: "manhattan-gold-silver",
+    name: "Manhattan Gold & Silver",
+    vertical: "recycling",
+    description:
+      "Manhattan Diamond District precious metals refiner established in 1985. Family-owned. Six in-house furnaces. Serves jewelers, pawnbrokers, dentists, and industrial companies. Walk-in customers receive same-day testing and payment. Online payout estimator available. Note: as of early 2026, limiting purchase quantities and not accepting mail-in shipments \u2014 check website for current status.",
+    city: "New York",
+    citySlug: "new-york",
+    state: "New York",
+    stateSlug: "new-york",
+    website: "https://mgsrefining.com/",
+    isVerified: false,
+  },
+  {
+    slug: "metallix-refining",
+    name: "Metallix Refining",
+    vertical: "recycling",
+    description:
+      "Precious metals recycling company founded in 1968, headquartered in Shrewsbury, NJ. Operates a 150,000 square-foot refinery on 20 acres in Greenville, NC. Purchases, recycles, and refines materials containing gold, silver, platinum, palladium, and rhodium.",
+    city: "Shrewsbury",
+    citySlug: "shrewsbury",
+    state: "New Jersey",
+    stateSlug: "new-jersey",
+    phone: "(800) 327-7938",
+    website: "https://metallix.com/",
+    isVerified: false,
+  },
+
+  // ============================================================
   // ONLINE DEALERS — FEATURED (BBB A+ and Google 4.5+)
   // ============================================================
   // McAlvany: Featured status manually approved pending Google rating verification.

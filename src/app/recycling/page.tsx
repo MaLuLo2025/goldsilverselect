@@ -14,7 +14,20 @@ export const metadata: Metadata = {
 };
 
 export default function RecyclingPage() {
-  const recyclers = getDealersByVertical("recycling");
+  const allRecyclers = getDealersByVertical("recycling");
+  const localRecyclers = allRecyclers.filter((d) => d.city && d.citySlug);
+  const onlineRecyclers = allRecyclers.filter((d) => !d.citySlug || !d.city);
+
+  // Separate local by type: storefront recyclers vs mail-in/refiners with addresses
+  const localStorefront = localRecyclers.filter(
+    (d) => d.stateSlug && d.address
+  );
+  const onlineWithAddress = localRecyclers.filter(
+    (d) => d.stateSlug && !d.address
+  );
+
+  // Combine online: no-city dealers + city dealers without addresses (mail-in operations)
+  const mailInAndRefiners = [...onlineRecyclers, ...onlineWithAddress];
 
   return (
     <>
@@ -51,15 +64,32 @@ export default function RecyclingPage() {
         </div>
       </section>
 
-      {/* Recyclers */}
-      <section className="max-w-[900px] mx-auto" style={{ padding: "40px 24px 64px" }}>
-        <h2 className="font-serif text-[24px] font-bold text-gray-900 mb-4">
-          Recyclers &amp; Refiners
-        </h2>
-        <DealerList dealers={recyclers} showLink={false} />
+      {/* Local Recyclers */}
+      {localStorefront.length > 0 && (
+        <section className="max-w-[900px] mx-auto" style={{ padding: "40px 24px 0" }}>
+          <h2 className="font-serif text-[24px] font-bold text-gray-900 mb-4">
+            Local Recyclers &amp; Scrap Buyers
+          </h2>
+          <DealerList dealers={localStorefront} showLink={false} />
+        </section>
+      )}
 
-        {/* Browsing by state */}
-        <div className="mt-10">
+      {/* Online Mail-In Buyers & Refiners */}
+      <section className="max-w-[900px] mx-auto" style={{ padding: "40px 24px 0" }}>
+        <div style={localStorefront.length > 0 ? { borderTop: "1px solid #e8e5dd", paddingTop: 32 } : undefined}>
+          <h2 className="font-serif text-[24px] font-bold text-gray-900 mb-2">
+            Online Mail-In Buyers &amp; Refiners
+          </h2>
+          <p className="font-sans text-[13px] mb-4" style={{ color: "#888" }}>
+            Ship your gold, silver, or scrap via free insured mail-in kits. National service — available in all 50 states.
+          </p>
+          <DealerList dealers={allRecyclers} showLink={false} />
+        </div>
+      </section>
+
+      {/* Browsing by state */}
+      <section className="max-w-[900px] mx-auto" style={{ padding: "40px 24px 64px" }}>
+        <div className="mt-4">
           <h3 className="font-serif text-[18px] font-bold text-gray-900 mb-3">
             Find Recyclers by State
           </h3>
