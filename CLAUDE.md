@@ -66,9 +66,10 @@ Independent directory of precious metals dealers, Gold & Silver IRA custodians, 
 
 ## External API Budget Rules (CRITICAL — read before touching /api/prices)
 
-### Current Plan: Metals.dev Copper ($1.79/month, 2,000 calls/month)
-- **Budget: ~66 calls/day, ~2.7 calls/hour**
-- Current implementation: 1 call to `/v1/latest` every 20 minutes = ~2,160 calls/month (tight fit)
+### Current Plan: Metals.dev Silver ($9.99/month, 10,000 calls/month) — may downgrade to Copper
+- **Implementation deliberately conservative: designed to run on Copper (2,000 calls/month)**
+- Current implementation: 1 call to `/v1/latest` every 20 minutes = ~2,160 calls/month
+- Do NOT increase call frequency just because Silver has headroom — owner may downgrade
 - `/v1/latest` returns all 4 metals in a single call but does NOT return daily change/percent
 - `/v1/metal/spot` returns change_percent but requires 1 call PER METAL (4x the cost)
 
