@@ -30,14 +30,20 @@ export function generateMetadata({
 
 export default function StateDealersPage({
   params,
+  searchParams,
 }: {
   params: { state: string };
+  searchParams: { v?: string };
 }) {
   const state = states.find((s) => s.slug === params.state);
   if (!state) notFound();
 
+  const verticalFilter = searchParams.v || null;
   const citiesInState = getCitiesByState(params.state);
-  const dealersInState = getDealersByState(params.state);
+  const allDealersInState = getDealersByState(params.state);
+  const dealersInState = verticalFilter
+    ? allDealersInState.filter((d) => d.vertical === verticalFilter)
+    : allDealersInState;
 
   // Group dealers by city
   const dealersByCity: Record<string, typeof dealersInState> = {};

@@ -33,16 +33,25 @@ const verticalLabels: Record<string, string> = {
 
 export default function CityDealersPage({
   params,
+  searchParams,
 }: {
   params: { state: string; city: string };
+  searchParams: { v?: string };
 }) {
   const state = states.find((s) => s.slug === params.state);
   const city = getCityBySlug(params.state, params.city);
   if (!state || !city) notFound();
 
-  const cityDealers = getDealersByCity(params.state, params.city);
+  const verticalFilter = searchParams.v || null;
+  const allCityDealers = getDealersByCity(params.state, params.city);
+  const cityDealers = verticalFilter
+    ? allCityDealers.filter((d) => d.vertical === verticalFilter)
+    : allCityDealers;
   const onlineDealers = getOnlineDealers();
   const iraProviders = getIRAProviders();
+
+  // Active vertical label for filtered view
+  const filterLabel = verticalFilter ? verticalLabels[verticalFilter] || null : null;
 
   // Group by vertical
   const byVertical: Record<string, typeof cityDealers> = {};
@@ -86,7 +95,7 @@ export default function CityDealersPage({
         <div className="max-w-[720px] mx-auto">
           <div className="gs-divider" />
           <h1 className="font-serif text-[34px] font-bold text-gray-900 mb-3">
-            Precious Metals Dealers in{" "}
+            {filterLabel || "Precious Metals Dealers"} in{" "}
             <span className="text-gold">
               {city.name}, {state.name}
             </span>
@@ -95,10 +104,19 @@ export default function CityDealersPage({
             className="font-sans text-[15px] leading-relaxed max-w-[520px] mx-auto"
             style={{ color: "#666" }}
           >
-            {cityDealers.length} dealer
-            {cityDealers.length !== 1 ? "s" : ""} in {city.name}. Coin shops,
-            bullion dealers, jewelers, and recyclers — all with direct links.
+            {cityDealers.length} {filterLabel ? filterLabel.toLowerCase() : "dealer"}
+            {cityDealers.length !== 1 && !filterLabel ? "s" : ""}{" "}
+            {filterLabel ? "listing" : ""}{cityDealers.length !== 1 && filterLabel ? "s" : ""} in {city.name}.
+            {!filterLabel && " Coin shops, bullion dealers, jewelers, and recyclers \u2014 all with direct links."}
           </p>
+          {verticalFilter && (
+            <Link
+              href={`/dealers/${params.state}/${params.city}`}
+              className="font-sans text-[13px] text-gold font-semibold no-underline hover:underline inline-block mt-2"
+            >
+              Show all categories in {city.name} &rarr;
+            </Link>
+          )}
         </div>
       </section>
 

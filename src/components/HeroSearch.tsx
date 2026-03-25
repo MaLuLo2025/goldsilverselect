@@ -16,7 +16,7 @@ const ALWAYS_ACCESSIBLE = new Set([
   "jewelry",
 ]);
 
-// Map verticals to their destination pages
+// Map verticals to their destination pages — always pass vertical filter
 function getCategoryUrl(
   vertical: string,
   slug: string,
@@ -25,23 +25,15 @@ function getCategoryUrl(
 ): string {
   if (vertical === "online-coin-bullion") return "/online-dealers";
   if (vertical === "gold-silver-ira") return "/gold-silver-iras";
-  if (vertical === "recycling") {
-    return citySlug
-      ? `/dealers/${stateSlug}/${citySlug}`
-      : stateSlug
-      ? `/dealers/${stateSlug}`
-      : "/recycling";
-  }
-  if (vertical === "jewelry") {
-    return citySlug
-      ? `/dealers/${stateSlug}/${citySlug}`
-      : stateSlug
-      ? `/dealers/${stateSlug}`
-      : "/jewelry";
-  }
-  // local-coin-bullion
-  if (citySlug) return `/dealers/${stateSlug}/${citySlug}`;
-  if (stateSlug) return `/dealers/${stateSlug}`;
+
+  // Local verticals: pass ?v= param to filter results
+  const vParam = `?v=${vertical}`;
+  if (citySlug) return `/dealers/${stateSlug}/${citySlug}${vParam}`;
+  if (stateSlug) return `/dealers/${stateSlug}${vParam}`;
+
+  // Fallback to dedicated pages
+  if (vertical === "recycling") return "/recycling";
+  if (vertical === "jewelry") return "/jewelry";
   return "/dealers";
 }
 
