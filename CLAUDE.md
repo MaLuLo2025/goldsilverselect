@@ -153,6 +153,25 @@ Switched from 1× `/v1/latest` (2,160/month) to 4× `/v1/metal/spot` with 60-sec
 - When submitting sitemaps to Google Search Console, the full URL is required (e.g., https://goldsilverselect.com/sitemap.xml), not just the filename.
 - Every site must have a dynamic sitemap.xml generated at build time that includes all pages — homepage, dealer/vendor pages, city pages, state pages, blog articles, FAQ, and legal pages.
 
+## Vertical Descriptions
+
+Each vertical landing page displays a warm, informative description box above the dealer listings. These explain why the curated selection is different from a generic directory. Tone: factual, direct, reassuring — never salesy.
+
+### Local Coin & Bullion (/dealers)
+"Brick-and-mortar coin shops and bullion dealers you can walk into, inspect inventory, and transact in person. Every shop in our directory is an established, independent dealer — not a franchise, not a cash-for-gold kiosk. We verify addresses, check BBB profiles, and write every description ourselves. If you're buying your first gold coin or selling a collection, these are the local professionals worth talking to."
+
+### Online Coin & Bullion (/online-dealers)
+"Reputable online dealers that post their premiums publicly, ship with insurance, and maintain buyback programs. We list only established operations with verifiable track records — no pop-up shops, no social media sellers, no dealers who hide their pricing behind a phone call. Compare premiums across multiple dealers before you buy. Every link goes directly to the dealer's own website."
+
+### Jewelry (/jewelry)
+"Independent shops in your area that buy, sell, and craft gold and silver jewelry. These are local goldsmiths, silversmiths, estate jewelers, and precious metals specialists — not chain stores or pawn shops. Whether you're looking to sell inherited jewelry, commission a custom piece, or find estate gold and silver at fair prices, these shops work directly with precious metals every day."
+
+### Recycling (/recycling)
+"Vetted recyclers, refiners, and precious metals buyers who pay based on current spot prices — not the 30 cents on the dollar you'll get at a mall kiosk. These are established operations with transparent testing, published buy rates, and a track record of fair dealing. Whether you're selling scrap gold, inherited sterling silver, dental gold, or industrial precious metals, start here."
+
+### Gold & Silver IRAs (/gold-silver-iras)
+"Self-directed precious metals IRAs are a legitimate product — but the industry that sells them is one of the most aggressively marketed corners of the financial world. We list IRA providers with factual descriptions only. We do not receive referral fees, we do not endorse any provider, and we strongly recommend reading our warnings below before contacting any company. Know the fees before you sign anything."
+
 ## Homepage Search & Browse UX Standard
 
 ### Search Flow

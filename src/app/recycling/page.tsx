@@ -52,6 +52,17 @@ export default function RecyclingPage() {
         </div>
       </section>
 
+      <section className="max-w-[900px] mx-auto" style={{ padding: "0 24px 16px" }}>
+        <div
+          className="rounded-md"
+          style={{ background: "rgba(197,164,78,0.06)", border: "1px solid rgba(197,164,78,0.15)", padding: "20px 24px" }}
+        >
+          <p className="font-sans text-[14px] leading-relaxed" style={{ color: "#666" }}>
+            Vetted recyclers, refiners, and precious metals buyers who pay based on current spot prices &mdash; not the 30 cents on the dollar you&apos;ll get at a mall kiosk. These are established operations with transparent testing, published buy rates, and a track record of fair dealing. Whether you&apos;re selling scrap gold, inherited sterling silver, dental gold, or industrial precious metals, start here.
+          </p>
+        </div>
+      </section>
+
       {/* Warning */}
       <section className="max-w-[900px] mx-auto" style={{ padding: "0 24px" }}>
         <div className="rounded-md" style={{ background: "#1B3D2F", padding: "24px 28px" }}>

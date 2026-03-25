@@ -87,6 +87,14 @@ export default function OnlineDealersPage() {
       </section>
 
       <section className="max-w-[900px] mx-auto" style={{ padding: "40px 24px 64px" }}>
+        <div
+          className="rounded-md mb-10"
+          style={{ background: "rgba(197,164,78,0.06)", border: "1px solid rgba(197,164,78,0.15)", padding: "20px 24px" }}
+        >
+          <p className="font-sans text-[14px] leading-relaxed" style={{ color: "#666" }}>
+            Reputable online dealers that post their premiums publicly, ship with insurance, and maintain buyback programs. We list only established operations with verifiable track records &mdash; no pop-up shops, no social media sellers, no dealers who hide their pricing behind a phone call. Compare premiums across multiple dealers before you buy. Every link goes directly to the dealer&apos;s own website.
+          </p>
+        </div>
         {featuredDealers.length > 0 && (
           <div className="mb-8">
             <h3

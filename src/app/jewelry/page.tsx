@@ -39,6 +39,14 @@ export default function JewelryPage() {
       </section>
 
       <section className="max-w-[900px] mx-auto" style={{ padding: "40px 24px 64px" }}>
+        <div
+          className="rounded-md mb-10"
+          style={{ background: "rgba(197,164,78,0.06)", border: "1px solid rgba(197,164,78,0.15)", padding: "20px 24px" }}
+        >
+          <p className="font-sans text-[14px] leading-relaxed" style={{ color: "#666" }}>
+            Independent shops in your area that buy, sell, and craft gold and silver jewelry. These are local goldsmiths, silversmiths, estate jewelers, and precious metals specialists &mdash; not chain stores or pawn shops. Whether you&apos;re looking to sell inherited jewelry, commission a custom piece, or find estate gold and silver at fair prices, these shops work directly with precious metals every day.
+          </p>
+        </div>
         <DealerList dealers={jewelers} showLink={false} />
 
         <div className="mt-10">

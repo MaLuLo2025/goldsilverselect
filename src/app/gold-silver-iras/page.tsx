@@ -38,6 +38,17 @@ export default function IRAPage() {
         </div>
       </section>
 
+      <section className="max-w-[900px] mx-auto" style={{ padding: "0 24px 16px" }}>
+        <div
+          className="rounded-md"
+          style={{ background: "rgba(197,164,78,0.06)", border: "1px solid rgba(197,164,78,0.15)", padding: "20px 24px" }}
+        >
+          <p className="font-sans text-[14px] leading-relaxed" style={{ color: "#666" }}>
+            Self-directed precious metals IRAs are a legitimate product &mdash; but the industry that sells them is one of the most aggressively marketed corners of the financial world. We list IRA providers with factual descriptions only. We do not receive referral fees, we do not endorse any provider, and we strongly recommend reading our warnings below before contacting any company. Know the fees before you sign anything.
+          </p>
+        </div>
+      </section>
+
       {/* Warning box */}
       <section className="max-w-[900px] mx-auto" style={{ padding: "0 24px" }}>
         <div className="rounded-md" style={{ background: "#1B3D2F", padding: "28px 32px" }}>
