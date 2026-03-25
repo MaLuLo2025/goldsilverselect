@@ -133,6 +133,14 @@ Independent directory of precious metals dealers, Gold & Silver IRA custodians, 
 - Clicking "Jewelry" shows only jewelry stores, clicking "Coin & Bullion" shows only coin dealers, etc.
 - Same pattern as AestheticSelect: clicking "Injectables" shows only injectables providers, not plastic surgery
 
+### Vertical Filtering Rule
+- When a user selects a vertical category, the results page shows ONLY vendors tagged to that vertical.
+- Coin & Bullion shows only coin and bullion dealers. Jewelry shows only jewelry stores. Recycling shows only recyclers. Gold IRAs shows only IRA providers.
+- No cross-vertical mixing in results unless explicitly designed (e.g., online recyclers displayed under a separate Online heading within the Recycling vertical).
+- This is the foundational UX principle established in AestheticSelect — selecting Injectables never shows plastic surgery providers.
+- Any deviation from this rule requires explicit instruction and documented reasoning in this file.
+- This applies to ALL Select directory sites.
+
 ### Navigation State Persistence
 - Browser back button must preserve geography selection (state + city)
 - If user is in Texas → Dallas → Coin & Bullion and hits back, they return to Texas → Dallas with category boxes visible — not a blank state
