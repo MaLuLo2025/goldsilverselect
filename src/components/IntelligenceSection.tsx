@@ -156,7 +156,11 @@ export default function IntelligenceSection() {
               We never advocate, never opine
             </span>{" "}
             &mdash; just the substance, clearly presented. Sign up below to get
-            notified.
+            notified. If you have a specific question, check out our{" "}
+            <Link href="/faq" className="text-gold font-semibold no-underline hover:underline">
+              FAQs
+            </Link>
+            .
           </p>
         </div>
       </div>
