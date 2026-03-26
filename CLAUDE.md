@@ -228,6 +228,7 @@ All search functions on Select directory sites must use inclusive word-independe
 - Include fuzzy matching for hyphens, plurals, and minor variations ("gold-silver" matches "gold silver," "premiums" matches "premium")
 - Search should surface both FAQ answers AND related blog articles under a "Related Articles" heading
 - Over-disclose rather than under-disclose — better to show 8 results with 2 less relevant than 0 results when content exists
+- Search on Select directory sites surfaces all content types: FAQs, blog articles, and video summaries. Results are grouped by type with clear headings (FAQ, Related Articles, Videos & Research). As content is added to any section of the site, it must be indexed by the search function automatically. This creates a unified discovery experience across all site content.
 - This applies to ALL Select directory sites
 
 ## Blog-FAQ Integration Rule

@@ -4,6 +4,8 @@ import { useState, useMemo } from "react";
 import Link from "next/link";
 import { faqCategories, FAQItem } from "@/lib/faq";
 import { blogPosts } from "@/lib/blog";
+import { intelligenceItems } from "@/lib/intelligence";
+import { intelligenceSummaries } from "@/lib/intelligence-summaries";
 
 // Normalize text for fuzzy matching: lowercase, remove hyphens, handle plurals
 function normalize(text: string): string {
@@ -47,6 +49,16 @@ interface ScoredBlog {
   slug: string;
   title: string;
   excerpt: string;
+  score: number;
+}
+
+interface ScoredVideo {
+  slug: string;
+  title: string;
+  speaker: string;
+  source: string;
+  type: string;
+  description: string;
   score: number;
 }
 
@@ -100,6 +112,34 @@ export default function FAQContent() {
           slug: post.slug,
           title: post.title,
           excerpt: post.excerpt,
+          score: total,
+        });
+      }
+    });
+    return results.sort((a, b) => b.score - a.score).slice(0, 5);
+  }, [isSearching, queryWords]);
+
+  // Scored video/research results
+  const scoredVideos = useMemo<ScoredVideo[]>(() => {
+    if (!isSearching) return [];
+    const results: ScoredVideo[] = [];
+    intelligenceItems.forEach((item) => {
+      const tScore = scoreMatch(item.title, queryWords) * 3;
+      const sScore = scoreMatch(item.speaker, queryWords) * 2;
+      const dScore = scoreMatch(item.description, queryWords);
+      const tagScore = scoreMatch(item.tag, queryWords);
+      // Also search the editorial summary if it exists
+      const summary = intelligenceSummaries[item.slug] || "";
+      const sumScore = scoreMatch(summary, queryWords);
+      const total = tScore + sScore + dScore + tagScore + sumScore;
+      if (total > 0) {
+        results.push({
+          slug: item.slug,
+          title: item.title,
+          speaker: item.speaker,
+          source: item.source,
+          type: item.type,
+          description: item.description,
           score: total,
         });
       }
@@ -274,24 +314,52 @@ export default function FAQContent() {
           {/* Related blog articles */}
           {scoredBlogs.length > 0 && (
             <div className="mb-10">
-              <h3
-                className="font-serif text-[18px] font-bold mb-3"
-                style={{ color: "#C5A44E" }}
-              >
+              <h3 className="font-serif text-[18px] font-bold mb-3" style={{ color: "#C5A44E" }}>
                 Related Articles
               </h3>
               <div className="grid gap-3">
                 {scoredBlogs.map((blog) => (
+                  <Link key={blog.slug} href={`/blog/${blog.slug}`} className="blog-card no-underline block">
+                    <h4 className="font-serif text-[16px] font-semibold text-gray-900 mb-1">{blog.title}</h4>
+                    <p className="font-sans text-[13px] leading-relaxed" style={{ color: "#777" }}>{blog.excerpt}</p>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Related videos */}
+          {scoredVideos.length > 0 && (
+            <div className="mb-10">
+              <h3 className="font-serif text-[18px] font-bold mb-3" style={{ color: "#C5A44E" }}>
+                Videos &amp; Research
+              </h3>
+              <div className="grid gap-3">
+                {scoredVideos.map((video) => (
                   <Link
-                    key={blog.slug}
-                    href={`/blog/${blog.slug}`}
+                    key={video.slug}
+                    href={`/intelligence/${video.slug}`}
                     className="blog-card no-underline block"
                   >
-                    <h4 className="font-serif text-[16px] font-semibold text-gray-900 mb-1">
-                      {blog.title}
-                    </h4>
-                    <p className="font-sans text-[13px] leading-relaxed" style={{ color: "#777" }}>
-                      {blog.excerpt}
+                    <div className="flex items-center gap-2 mb-1">
+                      <span
+                        className="font-sans text-[9px] font-bold uppercase"
+                        style={{
+                          color: video.type === "video" ? "#C5A44E" : "#1B3D2F",
+                          background: video.type === "video" ? "rgba(197,164,78,0.1)" : "rgba(27,61,47,0.08)",
+                          padding: "2px 6px",
+                          borderRadius: 3,
+                          letterSpacing: "0.06em",
+                        }}
+                      >
+                        {video.type}
+                      </span>
+                      <span className="font-sans text-[11px]" style={{ color: "#aaa" }}>{video.source}</span>
+                    </div>
+                    <h4 className="font-serif text-[16px] font-semibold text-gray-900 mb-1">{video.title}</h4>
+                    <p className="font-sans text-[12px] font-semibold" style={{ color: "#C5A44E" }}>{video.speaker}</p>
+                    <p className="font-sans text-[13px] leading-relaxed mt-1" style={{ color: "#777" }}>
+                      {video.description.slice(0, 150)}{video.description.length > 150 ? "\u2026" : ""}
                     </p>
                   </Link>
                 ))}
