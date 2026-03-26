@@ -25,8 +25,8 @@ export const faqCategories: FAQCategory[] = [
       {
         question: "What is the spot price of gold and silver?",
         answer: "The spot price is the current wholesale benchmark for raw metal on global commodity exchanges like COMEX and the London Bullion Market. It changes throughout the trading day based on futures contracts, currency movements, and global supply and demand. The spot price is your starting point for evaluating any purchase \u2014 but it\u2019s not the price you\u2019ll pay. Every dealer charges a premium above spot. Understanding that premium is the key to knowing whether you\u2019re getting a fair deal.",
-        learnMoreLabel: "Spot Price vs. What You Actually Pay",
-        learnMoreHref: "/blog/spot-price-vs-what-you-pay",
+        learnMoreLabel: "Spot Price vs. What You Actually Pay at the Counter",
+        learnMoreHref: "/blog/spot-price-vs-what-you-actually-pay",
       },
       {
         question: "What is a premium, and how much should I expect to pay?",
@@ -37,8 +37,8 @@ export const faqCategories: FAQCategory[] = [
       {
         question: "What\u2019s the difference between bullion and numismatic coins?",
         answer: "Bullion is valued primarily by its metal content and weight \u2014 a 1 oz gold bar is worth roughly 1 oz of gold plus a modest premium. Numismatic coins are valued for rarity, condition, historical significance, and collector demand, often well above their metal value. A rare date Morgan Silver Dollar might sell for hundreds of times the value of its silver content. If your goal is to own metal, buy bullion. If you\u2019re a collector who understands grading and mintage numbers, numismatic premiums can be justified \u2014 but understand that you\u2019re paying for the coin, not just the metal inside it.",
-        learnMoreLabel: "Numismatic vs. Bullion \u2014 Understanding the Markup",
-        learnMoreHref: "/blog/numismatic-vs-bullion-markup",
+        learnMoreLabel: "Gold Coin Premiums Compared",
+        learnMoreHref: "/blog/gold-coin-premiums-compared",
       },
       {
         question: "Should I buy gold online or from a local coin shop?",
@@ -54,6 +54,8 @@ export const faqCategories: FAQCategory[] = [
       },
       {
         question: "Is it better to buy gold or silver?",
+        learnMoreLabel: "The Gold-to-Silver Ratio: What It Is and How Traders Use It",
+        learnMoreHref: "/blog/gold-silver-ratio-explained",
         answer: "They serve different purposes. Gold stores more value in less space and weight \u2014 an ounce of gold is worth roughly 90\u2013100 ounces of silver, making it far easier to store, transport, and liquidate in large amounts. Silver is more affordable per ounce, making it accessible for smaller budgets, but it requires significantly more storage space for equivalent value. Many buyers hold both. The gold-to-silver ratio \u2014 which tells you how many ounces of silver it takes to buy one ounce of gold at current prices \u2014 is one metric some buyers use to decide which metal is relatively cheaper at any given time. You can see the live ratio on our homepage ticker.",
       },
       {
@@ -69,10 +71,22 @@ export const faqCategories: FAQCategory[] = [
         learnMoreHref: "/blog/what-should-i-truly-pay-for-gold-and-silver",
       },
       {
+        question: "Should I buy silver bars or silver coins?",
+        answer: "It depends on your priorities. Silver coins from government mints (American Eagles, Canadian Maple Leafs) are universally recognized and easy to sell, but carry premiums of 12\u201325% over spot. Silver bars \u2014 especially 10 oz and 100 oz bars \u2014 carry much lower premiums per ounce (3\u20138% for 10 oz, 1.5\u20135% for 100 oz), giving you more silver for the same dollars. The tradeoff is liquidity and divisibility: you can sell one coin at a time, but you can\u2019t sell half a bar. Most experienced buyers hold a mix \u2014 coins for flexibility, bars for cost efficiency.",
+        learnMoreLabel: "Silver Premiums and How Bar Size Affects What You Pay",
+        learnMoreHref: "/blog/silver-premiums-and-bar-size",
+      },
+      {
+        question: "Why are silver premiums higher than gold premiums?",
+        answer: "It costs roughly the same amount to mint, package, ship, and sell a 1 oz silver coin as a 1 oz gold coin. But the gold coin is worth ~$3,200 and the silver coin is worth ~$32. Those fixed handling costs represent 3\u20135% of the gold coin\u2019s value but 15\u201325% of the silver coin\u2019s value. This is arithmetic, not dealer greed. The most effective way to reduce the percentage premium on silver is to buy larger formats \u2014 10 oz bars, 100 oz bars, or monster boxes \u2014 where the fixed cost is spread across more ounces.",
+        learnMoreLabel: "Silver Premiums and How Bar Size Affects What You Pay",
+        learnMoreHref: "/blog/silver-premiums-and-bar-size",
+      },
+      {
         question: 'What is "junk silver"?',
         answer: "\u201CJunk silver\u201D refers to pre-1965 U.S. coins \u2014 dimes, quarters, and half dollars \u2014 that contain 90% silver. The term \u201Cjunk\u201D doesn\u2019t mean they\u2019re worthless. It means they have no significant numismatic or collectible value \u2014 they\u2019re bought and sold purely for their silver content. A $1 face value bag of pre-1965 quarters contains approximately 0.715 troy ounces of pure silver. Junk silver is popular because it comes in small, divisible denominations, is widely recognized, and has a fixed supply that makes it genuinely scarce during high-demand periods.",
-        learnMoreLabel: "Junk Silver Premiums Explained",
-        learnMoreHref: "/blog/junk-silver-premiums",
+        learnMoreLabel: "Junk Silver Premiums Explained: The Constitutional Silver Guide",
+        learnMoreHref: "/blog/junk-silver-premiums-explained",
       },
       {
         question: "Should I pay with credit card or bank transfer?",
@@ -89,23 +103,25 @@ export const faqCategories: FAQCategory[] = [
       {
         question: "How do I sell gold or silver I already own?",
         answer: "You have two main options. Sell to a local dealer for immediate cash \u2014 walk in, get a quote, walk out with payment. Or sell to an online dealer \u2014 ship your metals, receive payment after they verify the product. Local is faster and simpler. Online may offer slightly better prices on larger quantities because high-volume online buyers operate on thinner margins. In either case, check the spot price before you go, and get quotes from at least two or three buyers before committing.",
-        learnMoreLabel: "Understanding Sell-Back Spreads",
-        learnMoreHref: "/blog/sell-back-spreads",
+        learnMoreLabel: "What Should I Truly Pay for Gold and Silver?",
+        learnMoreHref: "/blog/what-should-i-truly-pay-for-gold-and-silver",
       },
       {
         question: "What will a dealer pay me for my gold or silver?",
         answer: "Dealers typically buy at or slightly below the current spot price for commodity bullion, and at a small premium below spot for highly recognizable products like American Gold Eagles and Maple Leafs. The gap between what you paid when you bought (premium above spot) and what you receive when you sell (at or near spot) is the round-trip cost of ownership. This spread varies by product and by dealer. Always ask about buyback pricing before you make a purchase.",
-        learnMoreLabel: "Understanding Sell-Back Spreads",
-        learnMoreHref: "/blog/sell-back-spreads",
+        learnMoreLabel: "What Should I Truly Pay for Gold and Silver?",
+        learnMoreHref: "/blog/what-should-i-truly-pay-for-gold-and-silver",
       },
       {
         question: "Where can I sell gold and silver coins I inherited?",
         answer: "Start by identifying what you have. Government-minted bullion coins \u2014 Eagles, Maple Leafs, Krugerrands \u2014 are straightforward. Their value is primarily their metal content, and any reputable dealer can quote you a price. Numismatic or collectible coins are more complex. Their value may be significantly above metal content based on rarity, condition, and collector demand. For bullion, get quotes from multiple local and online dealers. For potentially valuable collectible coins, consider a professional appraisal from a PCGS or NGC authorized dealer before selling.",
         learnMoreLabel: "Numismatic vs. Bullion \u2014 Understanding the Markup",
-        learnMoreHref: "/blog/numismatic-vs-bullion-markup",
+        learnMoreHref: "/blog/gold-coin-premiums-compared",
       },
       {
         question: "Should I sell my gold when the price goes up?",
+        learnMoreLabel: "What Should I Truly Pay for Gold and Silver?",
+        learnMoreHref: "/blog/what-should-i-truly-pay-for-gold-and-silver",
         answer: "That\u2019s a personal financial decision that depends on your goals, and we can\u2019t advise on it. What we can tell you is that if you do decide to sell, the same principles apply as when buying: know the spot price, compare offers from at least two or three dealers, and understand that premiums and buyback spreads vary. Selling in a panic \u2014 whether driven by fear the price will drop or excitement that it\u2019s risen \u2014 is rarely optimal. A calm, informed seller who compares offers will almost always get a better result than one who accepts the first quote.",
       },
     ],
@@ -118,7 +134,7 @@ export const faqCategories: FAQCategory[] = [
         question: "Why does gold and silver cost more than the spot price?",
         answer: "The spot price is a wholesale benchmark for raw, unformed metal on commodity exchanges. Turning that raw metal into a finished coin or bar requires mining, refining, minting, quality assurance, packaging, shipping, insuring, and retailing. Every step in that supply chain adds cost. The premium above spot covers those production and distribution costs plus the dealer\u2019s operating margin. Premiums are a normal and unavoidable part of buying physical precious metals \u2014 the question isn\u2019t whether you\u2019ll pay one, but whether you\u2019re paying a fair one.",
         learnMoreLabel: "Spot Price vs. What You Actually Pay",
-        learnMoreHref: "/blog/spot-price-vs-what-you-pay",
+        learnMoreHref: "/blog/spot-price-vs-what-you-actually-pay",
       },
       {
         question: "What is a fair premium for gold coins?",
@@ -129,17 +145,31 @@ export const faqCategories: FAQCategory[] = [
       {
         question: "What is a fair premium for silver?",
         answer: "Silver premiums run higher as a percentage than gold premiums. This is because the per-ounce price of silver is much lower, so fixed costs \u2014 minting, shipping, handling \u2014 represent a larger share of the total price. Generic silver rounds typically carry premiums of 8\u201315% over spot. American Silver Eagles can run 15\u201330% or more depending on market conditions and U.S. Mint supply constraints. Larger silver bars \u2014 10 oz, 100 oz \u2014 carry lower percentage premiums and are the most cost-effective way to accumulate silver by weight.",
-        learnMoreLabel: "Silver Premiums and Bar Size Scaling",
-        learnMoreHref: "/blog/silver-premiums-bar-scaling",
+        learnMoreLabel: "Silver Premiums and How Bar Size Affects What You Pay",
+        learnMoreHref: "/blog/silver-premiums-and-bar-size",
+      },
+      {
+        question: "How is junk silver priced differently from bullion?",
+        answer: "Junk silver (pre-1965 U.S. coins with 90% silver) is priced per dollar of face value, not per coin. The silver content per dollar of face value is approximately 0.715 troy ounces. To calculate melt value: multiply face value \u00d7 0.715 \u00d7 the current spot price of silver. Premiums on junk silver fluctuate more than standard bullion because supply is finite and shrinking \u2014 no new coins are being minted. During quiet markets, junk silver can trade near or even below melt value. During demand surges, premiums can spike dramatically.",
+        learnMoreLabel: "Junk Silver Premiums Explained",
+        learnMoreHref: "/blog/junk-silver-premiums-explained",
+      },
+      {
+        question: "What is the round-trip cost of buying and selling precious metals?",
+        answer: "The round-trip cost is the total premium you pay when buying plus the discount you receive when selling. If you buy a gold coin at 5% over spot and sell it back at 2% below spot, your round-trip cost is roughly 7%. This is the true cost of ownership \u2014 not just the premium you paid going in. Product choice affects the round trip: government-minted coins like Eagles generally command better buyback prices than generic rounds, partially offsetting their higher purchase premium. Always ask about buyback pricing before you buy.",
+        learnMoreLabel: "Spot Price vs. What You Actually Pay",
+        learnMoreHref: "/blog/spot-price-vs-what-you-actually-pay",
       },
       {
         question: "Why do premiums spike sometimes?",
         answer: "Premiums spike when physical demand outpaces the available supply of finished products. This typically happens during financial crises, geopolitical shocks, or sudden surges in retail buying. The spot price \u2014 which reflects futures contracts \u2014 may not move much, but the cost of an actual coin or bar can jump significantly because mints, refiners, and dealers simply can\u2019t produce and ship fast enough to meet demand. Premiums generally compress back to normal ranges once demand stabilizes, but that can take weeks or months.",
-        learnMoreLabel: "Why Premiums Spike During Crises",
-        learnMoreHref: "/blog/premium-spikes-in-crises",
+        learnMoreLabel: "Spot Price vs. What You Actually Pay at the Counter",
+        learnMoreHref: "/blog/spot-price-vs-what-you-actually-pay",
       },
       {
         question: "What is the gold-to-silver ratio?",
+        learnMoreLabel: "The Gold-to-Silver Ratio Explained",
+        learnMoreHref: "/blog/gold-silver-ratio-explained",
         answer: "The gold-to-silver ratio tells you how many ounces of silver it takes to buy one ounce of gold at current prices. If gold is $3,000/oz and silver is $30/oz, the ratio is 100:1. The historical average over the past several decades has generally ranged between 50:1 and 80:1, though it has spiked above 100:1 during periods of financial stress. Some buyers use this ratio as a signal \u2014 a historically high ratio (meaning silver is cheap relative to gold) might favor silver purchases, and vice versa. The ratio is not a prediction tool, but it provides context. You can see the live gold-to-silver ratio on our homepage ticker.",
       },
     ],
@@ -150,6 +180,8 @@ export const faqCategories: FAQCategory[] = [
     items: [
       {
         question: "How much is my gold jewelry worth?",
+        learnMoreLabel: "Cash for Gold: Why Most Buyers Pay You Half",
+        learnMoreHref: "/blog/cash-for-gold-ripoff",
         answer: "Gold jewelry value for resale is based on its metal content \u2014 weight multiplied by purity \u2014 not what you paid at a jewelry store. Check the karat stamp on the piece: 10K is 41.7% pure gold, 14K is 58.3%, 18K is 75%, and 24K is 99.9% pure. Weigh the piece in grams, multiply by the purity percentage, then multiply by the current gold price per gram. That calculation gives you the melt value. Most buyers will offer 70\u201390% of melt value, with the discount covering their assay and refining costs.",
       },
       {
@@ -158,6 +190,8 @@ export const faqCategories: FAQCategory[] = [
       },
       {
         question: "Is sterling silver flatware or jewelry worth selling?",
+        learnMoreLabel: "Cash for Gold: Why Most Buyers Pay You Half",
+        learnMoreHref: "/blog/cash-for-gold-ripoff",
         answer: "Sterling silver is 92.5% pure silver. Its melt value depends on weight and the current silver spot price. Because silver is much less valuable per ounce than gold, silver jewelry and flatware have lower melt value than most people expect. A sterling silver fork might contain $15\u201330 worth of silver at current spot prices. Whether selling is worthwhile depends on the total quantity you have and whether any of the pieces have collectible or antique value beyond their metal content.",
       },
       {

@@ -220,6 +220,15 @@ Each vertical landing page displays a warm, informative description box above th
 ### Pattern Reference
 - AestheticSelect.com is the reference implementation: geography first, then service category
 
+## Blog-FAQ Integration Rule
+
+Every time a new blog article is deployed on any Select directory site, Code MUST also review the FAQ hub and:
+1. Check every existing FAQ — if the new blog provides a deeper answer to an existing FAQ, add a "Learn More" link to that blog in the FAQ answer.
+2. Review the blog content for topics not covered by any existing FAQ — draft new FAQ entries for uncovered topics, add them to the appropriate FAQ category, and include a link to the blog article in the answer.
+3. Deploy FAQ updates at the same time as the blog article.
+
+This is not optional — it happens every time a blog is published. This applies to ALL Select directory sites that have an FAQ hub.
+
 ## Command Shortcuts
 
 When the site owner types **"full audit"** — run a complete vendor data standards audit across ALL verticals, then fix everything fixable:
