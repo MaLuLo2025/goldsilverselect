@@ -220,6 +220,16 @@ Each vertical landing page displays a warm, informative description box above th
 ### Pattern Reference
 - AestheticSelect.com is the reference implementation: geography first, then service category
 
+## Search UX Standard
+
+All search functions on Select directory sites must use inclusive word-independent matching, not exact phrase matching:
+- Split queries into individual words, match ANY word independently ("gold silver ratio" matches results containing "gold" OR "silver" OR "ratio")
+- Rank results by relevance — items matching more search words rank higher
+- Include fuzzy matching for hyphens, plurals, and minor variations ("gold-silver" matches "gold silver," "premiums" matches "premium")
+- Search should surface both FAQ answers AND related blog articles under a "Related Articles" heading
+- Over-disclose rather than under-disclose — better to show 8 results with 2 less relevant than 0 results when content exists
+- This applies to ALL Select directory sites
+
 ## Blog-FAQ Integration Rule
 
 Every time a new blog article is deployed on any Select directory site, Code MUST also review the FAQ hub and:
