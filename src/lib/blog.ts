@@ -127,4 +127,14 @@ export const blogPosts: BlogPost[] = [
       "Every major conflict since 1900 has moved the gold price. Here\u2019s what actually happened \u2014 from the gold standard era through two world wars, the Cold War, and the modern age of sanctions and central bank buying.",
     date: "2026-03-31",
   },
+  {
+    slug: "central-bank-gold-buying-reshaping-the-market",
+    title:
+      "Central Bank Gold Buying: The Biggest Shift in the Gold Market in 50 Years",
+    tag: "Education",
+    tagColor: "forest",
+    excerpt:
+      "Central banks bought over 1,000 tonnes of gold in 2022, 2023, and 2024 \u2014 triple the decade prior\u2019s average. Here\u2019s who\u2019s buying, why, and what it means for the price of gold.",
+    date: "2026-03-31",
+  },
 ];
