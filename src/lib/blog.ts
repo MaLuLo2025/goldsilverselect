@@ -117,4 +117,14 @@ export const blogPosts: BlogPost[] = [
     date: "2026-03-23",
     series: "Spot Price vs. What You Pay",
   },
+  {
+    slug: "gold-and-wars-geopolitical-risk-hedge",
+    title:
+      "Gold and Wars: 125 Years of Gold as a Geopolitical Risk Hedge",
+    tag: "Education",
+    tagColor: "forest",
+    excerpt:
+      "Every major conflict since 1900 has moved the gold price. Here\u2019s what actually happened \u2014 from the gold standard era through two world wars, the Cold War, and the modern age of sanctions and central bank buying.",
+    date: "2026-03-31",
+  },
 ];

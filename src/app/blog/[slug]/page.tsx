@@ -1159,6 +1159,119 @@ const blogContent: Record<string, React.ReactNode> = {
       </p>
     </>
   ),
+
+  "gold-and-wars-geopolitical-risk-hedge": (
+    <>
+      <p>
+        Gold has been called the ultimate crisis asset. When governments go to war, when borders close, when currencies collapse under the weight of military spending, gold tends to hold its value or rise. This is not a theory. It is a pattern that has repeated across every major conflict of the past 125 years.
+      </p>
+      <p>
+        Understanding this history does not predict the future. But it does explain why central banks, sovereign wealth funds, and experienced investors treat gold as portfolio insurance against the kind of risks that don&apos;t show up in earnings reports.
+      </p>
+
+      <h2>The Gold Standard Era: 1900&ndash;1933</h2>
+      <p>
+        At the turn of the 20th century, gold wasn&apos;t an investment &mdash; it <em>was</em> money. Most major economies operated on the gold standard, meaning their currencies were directly convertible to a fixed weight of gold. The U.S. dollar was pegged at $20.67 per ounce, a price that held from 1879 through 1933.
+      </p>
+      <p>
+        World War I shattered this system in practice, even if it persisted on paper. European nations suspended gold convertibility to finance the war, printing money to pay for munitions, troops, and supplies. The result was severe inflation across Europe. Germany&apos;s hyperinflation of 1921&ndash;1923 &mdash; where a loaf of bread eventually cost billions of marks &mdash; became the defining cautionary tale of what happens when governments print money without restraint.
+      </p>
+      <p>
+        Citizens who held physical gold through this period preserved their wealth. Those who held government currency and bonds did not. This lesson embedded itself in the European financial consciousness and has never fully faded.
+      </p>
+      <p>
+        In the United States, the formal gold price remained fixed at $20.67 through World War I. But in 1933, in the depths of the Great Depression, President Roosevelt issued{" "}
+        <a href="https://www.archives.gov/milestone-documents/executive-order-6102" target="_blank" rel="noopener noreferrer">Executive Order 6102</a>, making it illegal for U.S. citizens to hold more than $100 in gold coin, bullion, or certificates. Citizens were required to surrender their gold to the Federal Reserve at $20.67 per ounce. Roosevelt then revalued gold to $35 per ounce &mdash; an overnight 69% devaluation of the dollar against gold.
+      </p>
+      <p>
+        The lesson: when governments face financial crisis, they sometimes change the rules. The people who held gold had their property seized. The government that seized it immediately revalued it higher.
+      </p>
+
+      <h2>World War II: 1939&ndash;1945</h2>
+      <p>
+        World War II cemented gold&apos;s role as the ultimate store of value in crisis. Across occupied Europe, gold was the only universally accepted medium of exchange. Families used gold coins and jewelry to buy passage out of occupied territories, to bribe officials, and to survive when local currencies became worthless under occupation.
+      </p>
+      <p>
+        The war&apos;s aftermath created the{" "}
+        <a href="https://www.imf.org/external/about/histend.htm" target="_blank" rel="noopener noreferrer">Bretton Woods system</a> in 1944, which pegged the U.S. dollar to gold at $35 per ounce and pegged all other major currencies to the dollar. The United States, holding roughly two-thirds of the world&apos;s monetary gold reserves, became the anchor of the global financial system.
+      </p>
+      <p>
+        This system worked as long as the U.S. maintained fiscal discipline. It did not survive the next major conflict.
+      </p>
+
+      <h2>Vietnam and the End of the Gold Standard: 1965&ndash;1975</h2>
+      <p>
+        The cost of the Vietnam War, combined with President Johnson&apos;s Great Society domestic spending programs, put enormous pressure on U.S. gold reserves. Foreign governments, watching American deficits mount, began converting their dollar holdings into gold at the $35 fixed rate &mdash; exactly as they were entitled to do under Bretton Woods.
+      </p>
+      <p>
+        By 1971, the drain on U.S. gold reserves was unsustainable. On August 15, 1971, President Nixon{" "}
+        <a href="https://www.federalreservehistory.org/essays/gold-convertibility-ends" target="_blank" rel="noopener noreferrer">&ldquo;closed the gold window,&rdquo;</a> ending the dollar&apos;s convertibility into gold. The price was no longer fixed.
+      </p>
+      <p>
+        What followed was the most dramatic gold rally in modern history. From $35 in 1971, gold rose to $850 by January 1980 &mdash; a 2,300% increase in under a decade. The combination of war spending, inflation, the 1973 oil embargo, the Iranian hostage crisis, and the Soviet invasion of Afghanistan created a perfect storm of geopolitical fear and monetary instability.
+      </p>
+      <p>
+        The lesson was clear: when the world feels dangerous and governments are spending beyond their means, gold moves.
+      </p>
+
+      <h2>The Gulf Wars and the War on Terror: 1990&ndash;2011</h2>
+      <p>
+        The 1990&ndash;1991 Gulf War produced a brief gold spike from $383 to $417 &mdash; modest by historical standards, partly because the conflict was short and decisive. The market priced in a quick resolution, and it got one.
+      </p>
+      <p>
+        September 11, 2001, was different. Gold was trading at $271 on September 10. Within weeks it crossed $293, and by 2002 it was above $340. But the real move came as the wars in Afghanistan and Iraq dragged on and the U.S. government&apos;s deficit spending accelerated. Between 2001 and 2011, gold rose from $271 to $1,895 &mdash; a 600% gain over a decade.
+      </p>
+      <p>
+        The 2008 financial crisis layered financial system risk on top of geopolitical risk, supercharging the rally. Central banks around the world responded with unprecedented money printing (quantitative easing), and gold became the de facto hedge against both war and monetary debasement simultaneously.
+      </p>
+
+      <h2>The Modern Era: Ukraine, Sanctions, and Central Bank Buying (2022&ndash;Present)</h2>
+      <p>
+        Russia&apos;s invasion of Ukraine in February 2022 triggered the most significant geopolitical repricing of gold since the 1970s &mdash; not because of the war itself, but because of what followed.
+      </p>
+      <p>
+        Western nations froze approximately $300 billion in Russian central bank reserves held in dollars, euros, and other Western currencies. This was unprecedented. For the first time, a G20 nation&apos;s sovereign reserves were weaponized against it.
+      </p>
+      <p>
+        The message received by every non-aligned central bank in the world was immediate and clear: dollar-denominated reserves can be seized. Gold cannot.
+      </p>
+      <p>
+        The result has been the largest sustained central bank gold-buying program in recorded history. According to the{" "}
+        <a href="https://www.gold.org/goldhub/research/gold-demand-trends" target="_blank" rel="noopener noreferrer">World Gold Council</a>, central banks purchased over 1,000 tonnes of gold in both 2022 and 2023, roughly double the historical average. China, Poland, India, Turkey, Singapore, and numerous smaller nations have been aggressive buyers.
+      </p>
+      <p>
+        Gold broke through $2,000 in 2023, $2,500 in 2024, and has continued climbing. As of early 2026, it trades above $3,000. The rally is not driven primarily by retail investors or jewelry demand &mdash; it is driven by sovereign nations diversifying away from dollar reserves and into the one asset that cannot be frozen, sanctioned, or debased by another government&apos;s monetary policy.
+      </p>
+
+      <h2>The Pattern</h2>
+      <p>
+        Every major conflict since 1900 has either directly moved the gold price higher or created the monetary conditions (deficit spending, money printing, currency debasement) that moved it higher in the years that followed.
+      </p>
+      <p>
+        The mechanism is straightforward: wars are expensive. Governments finance them by borrowing and printing money. The resulting inflation and fiscal instability erode confidence in paper currencies. Gold, which cannot be printed, debased, or defaulted on, becomes more attractive by comparison.
+      </p>
+      <p>
+        In the modern era, a second mechanism has emerged: the weaponization of the dollar-based financial system through sanctions. When holding dollars becomes a geopolitical risk for sovereign nations, gold becomes the neutral alternative.
+      </p>
+
+      <h2>What This Means for Individual Investors</h2>
+      <p>
+        None of this means gold always goes up during wars, or that you should buy gold because you expect a conflict. Gold dropped sharply at the outbreak of COVID-19 in March 2020 before recovering. It fell after the initial Gulf War spike. Short-term price movements during crises are unpredictable.
+      </p>
+      <p>
+        What the historical record does support is a more modest claim: over time, across multiple conflicts and crises spanning 125 years, gold has preserved purchasing power better than any government-issued currency. It has served as effective insurance against the monetary consequences of war &mdash; inflation, debasement, and the seizure of financial assets.
+      </p>
+      <p>
+        Most financial advisors who recommend gold suggest a 5&ndash;15% allocation as portfolio insurance, not a speculative position. The goal is not to profit from the next crisis. The goal is to own an asset that holds its value when other assets don&apos;t &mdash; the same reason central banks have been buying at record pace since 2022.
+      </p>
+      <p>
+        Gold does not pay dividends. It does not generate earnings. What it does is sit there, unchanged, while everything else around it shifts. For 125 years, that has been enough.
+      </p>
+      <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
+        GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver, and we do not receive compensation from any dealer listed on this site. This article is for educational purposes only and does not constitute investment advice.
+      </p>
+    </>
+  ),
 };
 
 export default function BlogPostPage({
