@@ -57,6 +57,10 @@ export const faqCategories: FAQCategory[] = [
         learnMoreLabel: "The Gold-to-Silver Ratio: What It Is and How Traders Use It",
         learnMoreHref: "/blog/gold-silver-ratio-explained",
         answer: "They serve different purposes. Gold stores more value in less space and weight \u2014 an ounce of gold is worth roughly 90\u2013100 ounces of silver, making it far easier to store, transport, and liquidate in large amounts. Silver is more affordable per ounce, making it accessible for smaller budgets, but it requires significantly more storage space for equivalent value. Many buyers hold both. The gold-to-silver ratio \u2014 which tells you how many ounces of silver it takes to buy one ounce of gold at current prices \u2014 is one metric some buyers use to decide which metal is relatively cheaper at any given time. You can see the live ratio on our homepage ticker.",
+        links: [
+          { label: "Gold and Wars: 125 Years as a Geopolitical Risk Hedge", href: "/blog/gold-and-wars-geopolitical-risk-hedge" },
+          { label: "Central Bank Gold Buying: The Biggest Shift in 50 Years", href: "/blog/central-bank-gold-buying-reshaping-the-market" },
+        ],
       },
       {
         question: "How do I know if a coin dealer is legitimate?",
@@ -246,6 +250,48 @@ export const faqCategories: FAQCategory[] = [
       {
         question: 'What does "confiscation-proof" mean? Should I worry about the government taking my gold?',
         answer: "\u201CConfiscation-proof\u201D is a marketing term frequently used by gold IRA companies and high-premium coin dealers to justify steering buyers toward expensive numismatic coins. The claim is usually that collectible coins were exempt from Executive Order 6102 in 1933, when the U.S. government required citizens to turn in gold holdings. While there was a narrow exemption for coins with recognized collector value in 1933, the circumstances of that era \u2014 the gold standard, fixed gold prices, a specific economic emergency \u2014 bear no resemblance to today\u2019s monetary system. No modern U.S. law or executive order has suggested gold confiscation, and no serious analysis treats it as a realistic near-term scenario. When a dealer uses confiscation fears to sell you a high-premium product, they\u2019re selling fear, not protection.",
+      },
+    ],
+  },
+  {
+    id: "geopolitics",
+    title: "Gold, Geopolitics & Central Banks",
+    items: [
+      {
+        question: "Why do central banks buy gold?",
+        answer: "Central banks hold gold as a reserve asset for several reasons: it has no counterparty risk (unlike bonds or foreign currency deposits, gold cannot default), it cannot be frozen by sanctions or seized by another government, it maintains purchasing power over long periods, and it provides diversification away from dollar-denominated reserves. Since 2022, central bank gold buying has surged to over 1,000 tonnes per year \u2014 roughly triple the decade prior\u2019s average \u2014 driven largely by the freezing of Russia\u2019s $300 billion in Western-held reserves, which demonstrated that dollar reserves can be weaponized.",
+        learnMoreLabel: "Central Bank Gold Buying: The Biggest Shift in 50 Years",
+        learnMoreHref: "/blog/central-bank-gold-buying-reshaping-the-market",
+      },
+      {
+        question: "Which central banks are buying the most gold?",
+        answer: "China has been the largest buyer, growing official reserves from roughly 1,054 tonnes in 2015 to over 2,260 tonnes by late 2025 (with actual holdings likely higher). Poland has added over 130 tonnes since 2018 and publicly targets 20% of reserves in gold. India added over 70 tonnes in 2024 alone. Turkey, Singapore, Czech Republic, Qatar, Iraq, and Uzbekistan have also been consistent buyers. The trend is concentrated among emerging market and non-aligned nations diversifying away from dollar reserves.",
+        learnMoreLabel: "Central Bank Gold Buying: The Biggest Shift in 50 Years",
+        learnMoreHref: "/blog/central-bank-gold-buying-reshaping-the-market",
+      },
+      {
+        question: "How does central bank buying affect the gold price?",
+        answer: "Central banks now absorb nearly a third of all newly mined gold each year. This gold goes into sovereign vaults and typically stays there for decades, effectively removing it from the market. This creates persistent upward pressure on prices by reducing available supply for all other buyers \u2014 retail investors, jewelers, ETFs, and institutions. Central banks also tend to buy on dips rather than chase momentum, which establishes a structural price floor. When the most conservative, longest-horizon financial institutions in the world are aggressively accumulating an asset, it also sends a signal to other market participants.",
+        learnMoreLabel: "Central Bank Gold Buying: The Biggest Shift in 50 Years",
+        learnMoreHref: "/blog/central-bank-gold-buying-reshaping-the-market",
+      },
+      {
+        question: "Does gold go up during wars?",
+        answer: "The historical pattern is more nuanced than \u201Cgold goes up during wars.\u201D Gold sometimes spikes at the onset of a conflict, but the larger and more persistent price moves come from the monetary consequences of war \u2014 deficit spending, money printing, currency debasement, and inflation. Vietnam-era spending led to the end of the gold standard and a 2,300% gold rally over the following decade. The War on Terror and the 2008 financial crisis drove gold from $271 to $1,895. The 2022 Ukraine conflict triggered the sanctions-driven central bank buying surge that has pushed gold above $3,000. The mechanism is consistent: wars are expensive, governments finance them by debasing currencies, and gold benefits as the alternative.",
+        learnMoreLabel: "Gold and Wars: 125 Years as a Geopolitical Risk Hedge",
+        learnMoreHref: "/blog/gold-and-wars-geopolitical-risk-hedge",
+      },
+      {
+        question: "What is de-dollarization and how does it affect gold?",
+        answer: "De-dollarization refers to the gradual shift by nations away from holding U.S. dollars as their primary reserve currency. The dollar\u2019s share of global foreign exchange reserves has declined from roughly 72% in 2000 to approximately 58% by 2025, according to IMF data. As central banks diversify out of dollars, gold is the primary beneficiary because it is the only reserve asset that carries no counterparty risk and no political alignment. The trend has accelerated since 2022, when Western sanctions demonstrated that dollar reserves can be frozen. This structural shift is one of the key drivers of sustained gold demand at the sovereign level.",
+        learnMoreLabel: "Central Bank Gold Buying: The Biggest Shift in 50 Years",
+        learnMoreHref: "/blog/central-bank-gold-buying-reshaping-the-market",
+      },
+      {
+        question: "How much of my portfolio should be in gold?",
+        answer: "This is a personal financial decision that depends on your goals, risk tolerance, and overall portfolio. We don\u2019t provide investment advice. What we can share is that most financial advisors who recommend gold suggest a 5\u201315% allocation as portfolio insurance \u2014 not a speculative position. The goal is typically to own an asset that holds its value during periods when stocks, bonds, and currencies decline simultaneously. Gold does not pay dividends or generate earnings, so it functions as insurance rather than a growth investment. Consult a fee-only financial advisor for guidance specific to your situation.",
+        learnMoreLabel: "Gold and Wars: 125 Years as a Geopolitical Risk Hedge",
+        learnMoreHref: "/blog/gold-and-wars-geopolitical-risk-hedge",
       },
     ],
   },
