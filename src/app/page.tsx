@@ -1,4 +1,5 @@
 import { Suspense } from "react";
+import Link from "next/link";
 import TickerBanner from "@/components/TickerBanner";
 import Header from "@/components/Header";
 import HeroSearch from "@/components/HeroSearch";
@@ -125,7 +126,7 @@ export default function Home() {
         </div>
         <div className="grid grid-cols-2 gap-4">
           {[...blogPosts].sort((a, b) => b.date.localeCompare(a.date)).map((post) => (
-            <div key={post.slug} className="blog-card">
+            <Link key={post.slug} href={`/blog/${post.slug}`} className="blog-card block">
               <span
                 className="inline-block font-sans font-bold uppercase mb-2.5"
                 style={{
@@ -145,11 +146,11 @@ export default function Home() {
               <h4 className="font-serif text-[17px] font-semibold text-gray-900 leading-snug">
                 {post.title}
               </h4>
-            </div>
+            </Link>
           ))}
         </div>
         <div className="text-center mt-7">
-          <button className="btn-outline">Read All Articles</button>
+          <Link href="/blog" className="btn-outline inline-block">Read All Articles</Link>
         </div>
       </section>
 
