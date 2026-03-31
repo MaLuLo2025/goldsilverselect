@@ -124,7 +124,7 @@ export default function Home() {
           </h2>
         </div>
         <div className="grid grid-cols-2 gap-4">
-          {blogPosts.map((post) => (
+          {[...blogPosts].sort((a, b) => b.date.localeCompare(a.date)).map((post) => (
             <div key={post.slug} className="blog-card">
               <span
                 className="inline-block font-sans font-bold uppercase mb-2.5"
