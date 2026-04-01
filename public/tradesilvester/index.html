@@ -271,7 +271,31 @@ function showWarning() {
 function enterApp() {
   document.getElementById('screen-warning').classList.remove('active');
   document.body.style.display = 'block';
-  document.getElementById('app-container').style.display = 'block';
+  document.body.style.background = '#0d0d1a';
+
+  // Load Silvester React app
+  var appDiv = document.getElementById('app-container');
+  if (appDiv) appDiv.style.display = 'block';
+
+  // Create root div for React
+  var root = document.createElement('div');
+  root.id = 'root';
+  document.body.appendChild(root);
+
+  // Set API base URL
+  window.SILVESTER_API_BASE = 'https://web-production-3df4b.up.railway.app/api';
+
+  // Load CSS
+  var css = document.createElement('link');
+  css.rel = 'stylesheet';
+  css.href = '/tradesilvester/assets/index-pOMLaC5R.css';
+  document.head.appendChild(css);
+
+  // Load JS
+  var script = document.createElement('script');
+  script.type = 'module';
+  script.src = '/tradesilvester/assets/index-CAxnRXNm.js';
+  document.body.appendChild(script);
 }
 
 // Session restore
