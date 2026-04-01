@@ -269,21 +269,34 @@ function showWarning() {
 }
 
 function enterApp() {
+  // Hide all gate screens
   document.getElementById('screen-warning').classList.remove('active');
+
+  // Hide the app-container placeholder
+  var placeholder = document.getElementById('app-container');
+  if (placeholder) placeholder.style.display = 'none';
+
+  // Reset body styling
   document.body.style.display = 'block';
+  document.body.style.alignItems = '';
+  document.body.style.justifyContent = '';
   document.body.style.background = '#0d0d1a';
+  document.body.style.color = '#e0e0e0';
+  document.body.style.minHeight = '100vh';
 
-  // Load Silvester React app
-  var appDiv = document.getElementById('app-container');
-  if (appDiv) appDiv.style.display = 'block';
+  // Hide all .screen elements
+  document.querySelectorAll('.screen').forEach(function(el) {
+    el.style.display = 'none';
+  });
 
-  // Create root div for React
+  // Set API base URL BEFORE loading the script
+  window.SILVESTER_API_BASE = 'https://web-production-3df4b.up.railway.app/api';
+
+  // Create root div for React BEFORE loading the script
   var root = document.createElement('div');
   root.id = 'root';
+  document.body.innerHTML = '';
   document.body.appendChild(root);
-
-  // Set API base URL
-  window.SILVESTER_API_BASE = 'https://web-production-3df4b.up.railway.app/api';
 
   // Load CSS
   var css = document.createElement('link');
@@ -291,7 +304,7 @@ function enterApp() {
   css.href = '/tradesilvester/assets/index-pOMLaC5R.css';
   document.head.appendChild(css);
 
-  // Load JS
+  // Load JS module — React will mount to #root
   var script = document.createElement('script');
   script.type = 'module';
   script.src = '/tradesilvester/assets/index-CAxnRXNm.js';
