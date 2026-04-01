@@ -30,6 +30,14 @@ const nextConfig = {
       },
     ];
   },
+  async rewrites() {
+    return [
+      {
+        source: '/tradesilvester',
+        destination: '/tradesilvester/index.html',
+      },
+    ];
+  },
 };
 
 module.exports = nextConfig;
