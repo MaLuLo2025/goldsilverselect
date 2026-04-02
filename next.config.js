@@ -40,6 +40,10 @@ const nextConfig = {
         source: '/silvester',
         destination: '/silvester/index.html',
       },
+      {
+        source: '/tory',
+        destination: '/tory/index.html',
+      },
     ];
   },
 };

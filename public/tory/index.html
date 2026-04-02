@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Private Access</title>
+<meta name="robots" content="noindex, nofollow">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  background: #0a0a0f;
+  color: #d4d0c8;
+  font-family: 'DM Mono', monospace;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.screen { display:none; width:100%; padding:40px 24px; text-align:center; }
+.screen.active { display:block; }
+
+.gate-input {
+  width:100%; max-width:300px; padding:14px 18px;
+  background:#111120; border:1px solid #2a2a3a; border-radius:4px;
+  color:#d4d0c8; font-family:'DM Mono',monospace; font-size:14px;
+  text-align:center; letter-spacing:2px; outline:none;
+  margin-bottom:12px; transition:border-color 0.3s;
+}
+.gate-input:focus { border-color:#c9a84c; }
+.gate-input::placeholder { color:#3a3830; letter-spacing:1px; }
+.gate-btn {
+  display:inline-block; padding:12px 36px; background:transparent;
+  border:1px solid #8a7233; border-radius:4px; color:#c9a84c;
+  font-family:'DM Mono',monospace; font-size:11px; letter-spacing:3px;
+  text-transform:uppercase; cursor:pointer; transition:all 0.3s;
+}
+.gate-btn:hover { background:#c9a84c; color:#0a0a0f; }
+.gate-error { color:#e04b6b; font-size:11px; margin-top:10px; display:none; }
+
+.warning-text {
+  font-family:'Cormorant Garamond', Georgia, serif;
+  font-size:28px; color:#e04b6b; font-weight:600;
+  line-height:1.4; margin-bottom:16px;
+}
+.warning-sub {
+  font-size:13px; color:#888; margin-bottom:32px; line-height:1.6;
+}
+</style>
+</head>
+<body>
+
+<!-- SCREEN 1: Code Entry -->
+<div id="screen-gate" class="screen active">
+  <div style="margin-bottom:32px;">
+    <div style="font-family:'Cormorant Garamond',serif; font-size:32px; color:#c9a84c; font-weight:600; margin-bottom:8px;">Private Access</div>
+    <div style="font-size:11px; color:#3a3830; letter-spacing:2px;">AUTHORIZED USERS ONLY</div>
+  </div>
+  <div>
+    <input id="code-input" type="password" class="gate-input" placeholder="Enter access code"
+      onkeydown="if(event.key==='Enter')checkCode()">
+    <br>
+    <button class="gate-btn" onclick="checkCode()">Enter</button>
+    <div id="gate-error" class="gate-error">Invalid code</div>
+  </div>
+</div>
+
+<!-- SCREEN 2: Warning -->
+<div id="screen-warning" class="screen">
+  <div class="warning-text">
+    THIS IS A PRIVATE SITE FOR<br>AUTHORIZED USE ONLY.
+  </div>
+  <div class="warning-sub">
+    If you are not authorized to be here, please leave now.
+  </div>
+  <button class="gate-btn" onclick="enterApp()">I am authorized. Continue.</button>
+</div>
+
+<!-- SCREEN 3: App (loaded dynamically) -->
+
+<script>
+const VALID_CODE = "$torytory$";
+
+function checkCode() {
+  const input = document.getElementById('code-input').value;
+  if (input === VALID_CODE) {
+    sessionStorage.setItem('tory_auth', 'true');
+    document.getElementById('screen-gate').classList.remove('active');
+    document.getElementById('screen-warning').classList.add('active');
+  } else {
+    document.getElementById('gate-error').style.display = 'block';
+    document.getElementById('code-input').style.borderColor = '#e04b6b';
+    setTimeout(() => {
+      document.getElementById('gate-error').style.display = 'none';
+      document.getElementById('code-input').style.borderColor = '#2a2a3a';
+    }, 2000);
+  }
+}
+
+function enterApp() {
+  window.location.href = '/tory/app.html';
+}
+
+// Session restore
+if (sessionStorage.getItem('tory_auth') === 'true') {
+  document.getElementById('screen-gate').classList.remove('active');
+  document.getElementById('screen-warning').classList.add('active');
+}
+</script>
+
+</body>
+</html>
