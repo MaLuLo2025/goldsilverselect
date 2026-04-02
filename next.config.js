@@ -36,6 +36,10 @@ const nextConfig = {
         source: '/tradesilvester',
         destination: '/tradesilvester/index.html',
       },
+      {
+        source: '/silvester',
+        destination: '/silvester/index.html',
+      },
     ];
   },
 };
