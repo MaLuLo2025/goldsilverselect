@@ -22,6 +22,353 @@ export function generateMetadata({
 
 // Blog content keyed by slug
 const blogContent: Record<string, React.ReactNode> = {
+  "home-storage-gold-ira-scam": (
+    <>
+      <p>
+        Walk into any late-night cable break and you&apos;ll eventually see the pitch: open a self-directed IRA, form an LLC, buy gold with the LLC&apos;s money, and store the coins at home in your own safe. The marketing copy calls it a &ldquo;Home Storage Gold IRA&rdquo; or a &ldquo;Checkbook LLC IRA.&rdquo; The promise is total control of your retirement metals without depository fees.
+      </p>
+      <p>
+        The reality is that the IRS considers this arrangement a prohibited transaction or, depending on how it&apos;s structured, a full distribution of the entire account. The penalty can include immediate income tax on the full account balance, a 10% early withdrawal penalty if you&apos;re under 59&frac12;, and potential additional fines. For a six-figure rollover, the bill can run into tens of thousands of dollars &mdash; and the metals you thought you owned through the IRA may end up classified as never having been in the IRA at all.
+      </p>
+      <p>
+        This is one of the most expensive scams in the precious metals industry, and it survives because the marketing exploits a real but narrow IRS rule and stretches it past the breaking point.
+      </p>
+
+      <h2>What the Law Actually Says</h2>
+      <p>
+        The relevant statute is{" "}
+        <a href="https://www.law.cornell.edu/uscode/text/26/408" target="_blank" rel="noopener noreferrer">
+          Internal Revenue Code Section 408(m)
+        </a>
+        , which governs collectibles in IRAs. The general rule is that an IRA cannot hold collectibles. Coins and bullion are explicitly listed as collectibles. There is, however, a narrow exception: certain U.S.-minted gold, silver, platinum, and palladium coins, and bullion meeting specific fineness standards, may be held in an IRA &mdash; <em>but only if the bullion is in the physical possession of a trustee.</em>
+      </p>
+      <p>
+        The phrase &ldquo;physical possession of a trustee&rdquo; is the entire battleground. The IRS interprets it to mean a bank, federally insured credit union, or non-bank trustee that has been approved by the IRS to act as a custodian. It does not mean you. It does not mean an LLC you control. It does not mean your safe deposit box.
+      </p>
+
+      <h2>The McNulty Case</h2>
+      <p>
+        The clearest legal authority on this question is{" "}
+        <a href="https://www.ustaxcourt.gov/" target="_blank" rel="noopener noreferrer">
+          McNulty v. Commissioner
+        </a>
+        , a 2021 U.S. Tax Court decision that addressed exactly this scheme. Andrew and Donna McNulty rolled IRA funds into a self-directed IRA, used the IRA to fund an LLC, used the LLC to purchase American Eagle coins, and stored the coins at their home.
+      </p>
+      <p>
+        The Tax Court ruled against them. The court held that physical possession of IRA-owned coins by the IRA owner &mdash; even if the coins were technically titled to an LLC owned by the IRA &mdash; constituted a taxable distribution of the entire IRA. The McNultys owed income tax on the full distribution, plus penalties.
+      </p>
+      <p>
+        The court was unambiguous: independent oversight by an approved trustee is the entire point of the IRA collectibles exception. The moment you take physical possession, the exception disappears, the metals are deemed distributed, and the tax bill comes due.
+      </p>
+
+      <h2>How the Pitch Is Sold</h2>
+      <p>
+        Home storage IRA promoters typically use a multi-step structure designed to obscure the problem:
+      </p>
+      <p>
+        <strong>Step 1:</strong> You open a self-directed IRA with a custodian who advertises as &ldquo;checkbook control friendly.&rdquo;
+      </p>
+      <p>
+        <strong>Step 2:</strong> The custodian helps you form an LLC, with the IRA as the sole member.
+      </p>
+      <p>
+        <strong>Step 3:</strong> You become the manager of the LLC and open a business checking account in the LLC&apos;s name.
+      </p>
+      <p>
+        <strong>Step 4:</strong> The IRA funds the LLC, the LLC writes a check to a coin dealer, the dealer ships coins, and you store them at home in a safe.
+      </p>
+      <p>
+        The promoter argues that the LLC owns the coins, not you, so the trustee-possession rule is satisfied through the LLC structure. McNulty rejected exactly this argument. The IRS and the Tax Court look at the substance of the arrangement, not the legal form. If you have physical access and control, the IRA has effectively distributed the assets to you.
+      </p>
+
+      <h2>What the IRS Has Said Publicly</h2>
+      <p>
+        The IRS has published guidance making this position explicit. The agency&apos;s{" "}
+        <a href="https://www.irs.gov/retirement-plans/retirement-plans-faqs-regarding-iras-investments" target="_blank" rel="noopener noreferrer">
+          Retirement Plans FAQs Regarding IRAs Investments
+        </a>{" "}
+        page states that IRA-eligible bullion must be held by a trustee. The IRS has separately warned in news releases and consumer guidance that &ldquo;home storage&rdquo; arrangements for IRA-owned bullion do not comply with the Code.
+      </p>
+      <p>
+        The Government Accountability Office (GAO) examined this issue in a 2018 report on self-directed IRAs and noted the persistent confusion created by aggressive marketing of home storage arrangements. The GAO recommended that the IRS issue clearer public guidance &mdash; in part because so many retirees were being sold these structures by promoters who had no fiduciary obligation to them.
+      </p>
+
+      <h2>What You Actually Owe If You Get Caught</h2>
+      <p>
+        If the IRS classifies a home storage arrangement as a distribution, here&apos;s what typically happens:
+      </p>
+      <ul>
+        <li><strong>Income tax</strong> on the entire deemed-distributed amount, taxed as ordinary income in the year of the distribution. For a $250,000 IRA, this can easily push the account holder into a higher tax bracket and produce a federal tax bill of $50,000 to $80,000 depending on other income.</li>
+        <li><strong>10% early withdrawal penalty</strong> if you&apos;re under 59&frac12;.</li>
+        <li><strong>Additional state income tax</strong> in states that follow federal classification.</li>
+        <li><strong>Accuracy-related penalties</strong> of 20% on the underpayment if the IRS concludes the position was unreasonable.</li>
+        <li><strong>Interest</strong> on the underpayment from the original tax year forward.</li>
+      </ul>
+      <p>
+        For an account that took years to build, the entire structure can collapse in a single audit cycle.
+      </p>
+
+      <h2>The Legitimate Alternative</h2>
+      <p>
+        Gold and silver IRAs are legal when structured correctly. The metals must be held by an IRS-approved non-bank trustee at an approved depository. Common legitimate depositories include Delaware Depository, Brink&apos;s Global Services, International Depository Services, and HSBC Bank. The IRS publishes a list of approved non-bank trustees and their authorized custodial activities.
+      </p>
+      <p>
+        If you want a precious metals IRA, the correct structure is: (1) open the account with a reputable self-directed IRA custodian, (2) fund the account, (3) instruct the custodian to purchase eligible bullion from a dealer, (4) have the bullion shipped directly from the dealer to an approved depository in the custodian&apos;s name, (5) pay the annual storage and custodial fees, and (6) take distributions following normal IRA rules when you retire.
+      </p>
+      <p>
+        At every stage, you do not touch the metal. That is the entire legal point.
+      </p>
+
+      <h2>The Simpler Path Most Buyers Should Consider</h2>
+      <p>
+        The fundamental question worth asking before opening any precious metals IRA is whether the tax-deferred wrapper is worth the fee structure. Setup fees, custodial fees, and storage fees commonly run $200 to $400 per year for the life of the account. On smaller balances, those fees can erode returns substantially.
+      </p>
+      <p>
+        Many buyers conclude that simply purchasing physical metal outside an IRA &mdash; with no setup fees, no annual custodial fees, and no storage fees paid to a third party &mdash; is more efficient. The tradeoff is that gains on physical metal sold outside an IRA are taxable as collectibles at a top federal rate of 28%. Whether that&apos;s better or worse than tax deferral depends on your time horizon, tax bracket, and overall portfolio.
+      </p>
+      <p>
+        Whatever you decide, the home storage IRA pitch is not the answer. It is one of the few precious metals industry practices that the IRS has explicitly ruled against in published Tax Court decisions, and the penalty for getting it wrong can dwarf anything you would have saved in storage fees.
+      </p>
+
+      <h2>Before You Sign Anything</h2>
+      <p>
+        If a salesperson is pitching you a home storage gold IRA, a checkbook LLC for IRA-owned bullion, or any structure that ends with you holding the coins yourself, walk away. Consult a fee-only financial advisor or a CPA with IRA experience before signing any rollover paperwork. The cost of a one-hour consultation is the cheapest insurance available against a six-figure tax mistake.
+      </p>
+      <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
+        GoldSilverSelect.com is an independent directory of local and online precious metals dealers and IRA providers. We do not sell gold or silver, we are not a tax advisor, and we do not receive compensation from any dealer or IRA company listed on this site. This article is for educational purposes only and does not constitute tax, legal, or investment advice. Consult a qualified tax professional before making decisions about your retirement accounts.
+      </p>
+    </>
+  ),
+  "how-to-spot-counterfeit-gold-silver-coins": (
+    <>
+      <p>
+        The counterfeit gold and silver coin market has grown into a real problem for retail buyers. Modern Chinese-made fakes of American Silver Eagles, Canadian Maple Leafs, South African Krugerrands, and one-ounce gold bars are accurate enough to fool casual inspection &mdash; and bad enough to destroy the value of a collection if they slip into your stack unnoticed.
+      </p>
+      <p>
+        The good news is that physical counterfeits have to obey the laws of physics. Real gold and silver have specific densities, dimensions, and acoustic properties that are very difficult for counterfeiters to replicate without using equally expensive metal. Here are seven tests you can run on any coin before you pay for it.
+      </p>
+
+      <h2>1. The Magnet Test</h2>
+      <p>
+        Gold and silver are not magnetic. Neither is platinum or palladium. If a coin sticks to a strong rare-earth magnet or even noticeably tugs toward one, it contains ferromagnetic metal &mdash; usually iron, nickel, or steel &mdash; and it is not pure precious metal.
+      </p>
+      <p>
+        The magnet test is the cheapest first-pass check, but it&apos;s not sufficient on its own. Counterfeiters know about it, and tungsten-cored fakes (which are non-magnetic) can pass this test easily. Treat a magnet test as necessary but not sufficient.
+      </p>
+
+      <h2>2. The Dimensions and Weight Test</h2>
+      <p>
+        Every government-minted coin has published specifications for diameter, thickness, and weight. The{" "}
+        <a href="https://www.usmint.gov/learn/coin-and-medal-programs/american-eagle/american-eagle-bullion-coins" target="_blank" rel="noopener noreferrer">
+          U.S. Mint
+        </a>{" "}
+        publishes exact specs for American Eagles. The{" "}
+        <a href="https://www.mint.ca/store/template/mintPage.jsp?cat=Bullion+coins&amp;parent=Bullion%2C+Refinery+%26+Mint+Services&amp;cmPage=BullionCoins" target="_blank" rel="noopener noreferrer">
+          Royal Canadian Mint
+        </a>{" "}
+        publishes the same for Maple Leafs. A 1 oz American Silver Eagle weighs exactly 31.103 grams, has a diameter of 40.6 millimeters, and a thickness of 2.98 millimeters. A 1 oz American Gold Eagle weighs 33.931 grams (because it&apos;s a 22-karat coin alloyed with copper and silver), has a diameter of 32.7 millimeters, and a thickness of 2.87 millimeters.
+      </p>
+      <p>
+        A precise digital scale (accurate to 0.01 grams) and a digital caliper (accurate to 0.01 millimeters) cost less than $30 combined. Tungsten has a similar density to gold and can fool a simple weight check, but most fakes get the dimensions wrong because matching gold density requires the exact same volume. Always check weight <em>and</em> dimensions together.
+      </p>
+
+      <h2>3. The Ping Test</h2>
+      <p>
+        Pure silver and pure gold ring with a long, distinctive tone when struck against another piece of metal or balanced on a fingertip and tapped. Counterfeit coins made of base metal alloys produce a duller, shorter sound.
+      </p>
+      <p>
+        The simplest version: balance the coin on the tip of your finger and tap it lightly with another coin or a pen. A real silver coin will produce a clear, sustained ring. A fake will thud. There are also free smartphone apps (CoinTrust, Bullion Test) that compare your coin&apos;s acoustic signature against a database of known authentic coins. They&apos;re imperfect but useful as a second check.
+      </p>
+
+      <h2>4. The Ice Melt Test (Silver Only)</h2>
+      <p>
+        Silver is the most thermally conductive metal in existence. When you place an ice cube on a real silver coin or bar, the ice melts almost immediately because the silver rapidly transfers ambient heat into it. Place the same ice cube on a counterfeit made of nickel, copper, or steel, and the melt rate is dramatically slower.
+      </p>
+      <p>
+        This test only works for silver, not gold, and it&apos;s most useful for larger pieces like 10 oz or 100 oz silver bars where the surface area makes the difference visually obvious. It&apos;s a satisfying test to watch, and counterfeiters cannot fake it without using actual silver.
+      </p>
+
+      <h2>5. The Sigma Metalytics Test</h2>
+      <p>
+        For serious buyers, a{" "}
+        <a href="https://www.sigmametalytics.com/" target="_blank" rel="noopener noreferrer">
+          Sigma Metalytics Precious Metal Verifier
+        </a>{" "}
+        is the most reliable non-destructive test available outside a professional lab. It uses electromagnetic waves to measure the resistivity of the metal beneath the coin&apos;s surface, which means it can detect tungsten cores and plated counterfeits that pass weight and dimension checks.
+      </p>
+      <p>
+        The basic Sigma unit costs around $700 to $900. That&apos;s expensive for a casual buyer but cheap insurance for anyone buying significant quantities or buying from secondary-market sellers. Most reputable coin shops own one and will test coins in front of you on request &mdash; and a dealer who refuses to test in front of you should be a red flag.
+      </p>
+
+      <h2>6. The Visual Inspection</h2>
+      <p>
+        Modern fakes are good but not perfect. Use a 10x or 20x jeweler&apos;s loupe and look for:
+      </p>
+      <ul>
+        <li>Mushy or soft details, particularly in the eagle feathers, hair strands, and lettering</li>
+        <li>Tool marks or seam lines on the edge that shouldn&apos;t exist on a struck coin</li>
+        <li>Incorrect font shapes or spacing in the date and inscriptions</li>
+        <li>A grainy or porous surface texture (real bullion coins have a smooth, lustrous finish from the strike)</li>
+        <li>Reeded edges that are uneven, too shallow, or wrong in count</li>
+      </ul>
+      <p>
+        The American Numismatic Association and PCGS both publish extensive counterfeit detection guides with side-by-side photos. Spending an hour studying these before buying expensive coins is one of the best investments a new buyer can make.
+      </p>
+
+      <h2>7. Buy from Verified Sources and Ask for Verification</h2>
+      <p>
+        The single most effective defense against counterfeits is buying from reputable dealers in the first place. Established local coin shops with long histories and online dealers with verifiable track records source from authorized distributors and have strong incentives not to handle fake product. Their buy/sell spreads exist precisely because they take on the verification work for you.
+      </p>
+      <p>
+        For coins that command significant premiums &mdash; pre-1933 U.S. gold, key-date Morgans, certified coins &mdash; buy only from sellers who provide third-party authentication from PCGS, NGC, ANACS, or ICG. These services use destructive and non-destructive tests, and a coin in a sealed authenticated holder has been examined by professional numismatists.
+      </p>
+      <p>
+        The risk profile changes dramatically for unauthenticated coins purchased on auction sites, social media marketplaces, or from individual sellers without verifiable histories. If you must buy from these channels, run every test above and assume the burden of verification is entirely on you.
+      </p>
+
+      <h2>What to Do If You Suspect a Coin Is Fake</h2>
+      <p>
+        If you bought from a reputable dealer and have concerns, take the coin back. A legitimate dealer will test it in front of you and refund or exchange if it&apos;s confirmed counterfeit. If you bought from a private seller and the coin fails verification, you may have very limited recourse beyond the seller&apos;s own willingness to refund. Counterfeit precious metal coins are also illegal under federal law, and reporting clear cases to the U.S. Secret Service (the federal agency that investigates currency counterfeiting) is appropriate when fraud is involved.
+      </p>
+      <p>
+        Counterfeit detection isn&apos;t about paranoia. It&apos;s about basic due diligence on a high-value purchase. The seven tests above take less than five minutes for any single coin, cost less than $30 in basic equipment, and protect you from the only category of loss that can&apos;t be undone &mdash; paying real money for something that isn&apos;t actually metal.
+      </p>
+      <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
+        GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver and we do not receive compensation from any dealer listed on this site. This article is for educational purposes only and does not constitute investment advice.
+      </p>
+    </>
+  ),
+  "capital-gains-tax-gold-silver-2026": (
+    <>
+      <p>
+        Most new precious metals buyers are surprised to learn how gold and silver are taxed when they sell. The IRS does not treat physical bullion like stocks. It treats them like collectibles &mdash; the same category as art, antiques, and rare coins &mdash; which means a different (and higher) maximum federal tax rate, different reporting rules, and a separate maze of state sales tax exemptions to navigate at the time of purchase.
+      </p>
+      <p>
+        Here&apos;s exactly how it works in 2026.
+      </p>
+
+      <h2>The 28% Collectibles Rate</h2>
+      <p>
+        Under{" "}
+        <a href="https://www.law.cornell.edu/uscode/text/26/408" target="_blank" rel="noopener noreferrer">
+          IRC Section 408(m)
+        </a>
+        , gold, silver, platinum, and palladium bullion are classified as collectibles for federal tax purposes. Long-term capital gains on collectibles are taxed at a maximum federal rate of <strong>28%</strong>, compared to 0%, 15%, or 20% for stocks and other capital assets depending on income.
+      </p>
+      <p>
+        The 28% rate is a maximum, not a flat rate. If your ordinary income tax rate would be lower than 28%, you pay your ordinary rate on the gain. Most taxpayers in the 22% or 24% bracket end up paying their bracket rate on collectibles gains. Taxpayers in the 32%, 35%, or 37% brackets cap out at 28%.
+      </p>
+      <p>
+        This is one of the few areas of the tax code where high-income earners get a slightly better treatment than the headline rate suggests.
+      </p>
+
+      <h2>Short-Term vs. Long-Term</h2>
+      <p>
+        The collectibles rate only applies to long-term gains &mdash; metal held for more than one year. If you buy gold in March and sell it in October of the same year, the gain is short-term and taxed at your full ordinary income rate, just like a stock held under 12 months.
+      </p>
+      <p>
+        For most precious metals buyers, this isn&apos;t a major concern because the typical holding period is years or decades. But for buyers who trade more actively &mdash; rotating between metals, taking profits during price spikes &mdash; the holding period rule matters and is worth tracking carefully.
+      </p>
+
+      <h2>Calculating Cost Basis</h2>
+      <p>
+        Your gain is the sale price minus your cost basis. Cost basis includes:
+      </p>
+      <ul>
+        <li>The original purchase price (what you paid the dealer, including the premium over spot)</li>
+        <li>Sales tax paid at the time of purchase, if any</li>
+        <li>Shipping and insurance costs paid at purchase</li>
+        <li>Storage fees, in some interpretations &mdash; the IRS treatment is mixed; consult a tax professional</li>
+      </ul>
+      <p>
+        Keep every purchase receipt. The single most common mistake precious metals owners make at tax time is being unable to prove cost basis because they bought coins years ago in cash and never kept records. Without documentation, the IRS can treat your entire sale proceeds as gain.
+      </p>
+
+      <h2>1099-B Reporting Rules</h2>
+      <p>
+        Dealers are required to file Form 1099-B with the IRS reporting precious metals purchases from individuals when the transaction meets specific thresholds set by the IRS. The reportable items are based on{" "}
+        <a href="https://www.irs.gov/pub/irs-pdf/i1099b.pdf" target="_blank" rel="noopener noreferrer">
+          IRS guidance on broker reporting
+        </a>{" "}
+        and historical industry practice tied to delivery quantities. The most commonly cited reportable transactions include:
+      </p>
+      <ul>
+        <li>Sales of 25 or more 1 oz gold Maple Leafs, Krugerrands, or Mexican Onzas</li>
+        <li>Sales of 1 kilogram or more of gold bars (or any aggregate equivalent)</li>
+        <li>Sales of 1,000 troy ounces or more of silver bars or rounds</li>
+        <li>Sales of 90% silver U.S. coins with a face value of $1,000 or more</li>
+        <li>Sales of 25 or more 1 oz platinum or palladium coins</li>
+      </ul>
+      <p>
+        Notably absent from the reportable list are American Gold Eagles, American Silver Eagles, and American Buffalos in any quantity. This is a quirk of how the rules were originally written and has not changed. Selling 100 American Silver Eagles to a dealer typically does not trigger 1099-B reporting; selling 1,000 ounces of generic silver rounds typically does.
+      </p>
+      <p>
+        Important: the absence of 1099-B reporting does <em>not</em> mean the gain is tax-free. You are still legally required to report and pay tax on every taxable gain, regardless of whether the dealer files a 1099-B. The reporting rules govern what the dealer tells the IRS, not what you owe.
+      </p>
+
+      <h2>State Sales Tax at Purchase</h2>
+      <p>
+        Sales tax on precious metals purchases is governed by state law and varies dramatically. Many states exempt investment-grade bullion entirely. Some exempt purchases over a certain dollar threshold (often $1,000 or $1,500). A few states tax all precious metal purchases at the full sales tax rate.
+      </p>
+      <p>
+        States that fully exempt investment-grade bullion (as of 2026) include Texas, Florida, Arizona, Washington, Oregon, Nevada, Wyoming, Alaska, Delaware, New Hampshire, Montana, and many others. States that historically tax precious metals at full rate include New Jersey, Vermont, Hawaii, Wisconsin, and several others. State legislatures change these rules frequently &mdash; a state that taxed bullion in 2020 may have exempted it by 2026 or vice versa.
+      </p>
+      <p>
+        Online dealers must collect sales tax based on the buyer&apos;s state of delivery. This means buying online from an out-of-state dealer does not avoid sales tax in a state that taxes bullion &mdash; the dealer is required to collect and remit it. Always verify the sales tax treatment in your state before making large purchases. The Industry Council for Tangible Assets and individual state tax authority websites are the most reliable sources.
+      </p>
+
+      <h2>Selling at a Loss</h2>
+      <p>
+        If you sell precious metals for less than your cost basis, the loss is generally deductible against other capital gains. Collectible losses follow standard capital loss rules: net them against capital gains first, then deduct up to $3,000 of net losses against ordinary income per year, and carry forward any excess.
+      </p>
+      <p>
+        There is no special &ldquo;collectibles loss&rdquo; rate &mdash; losses are losses. The 28% rate only applies on the gains side.
+      </p>
+
+      <h2>IRA Tax Treatment Is Different</h2>
+      <p>
+        Gold and silver held inside a properly structured precious metals IRA are not taxed as collectibles. Inside an IRA, the metals follow standard IRA tax rules: contributions may be tax-deductible (traditional IRA), gains grow tax-deferred, and distributions are taxed as ordinary income at retirement. Roth IRA precious metals grow tax-free if all rules are followed.
+      </p>
+      <p>
+        This tax-deferred treatment is one of the legitimate arguments for using an IRA structure for long-term metal holdings &mdash; though the annual custodial and storage fees common in precious metals IRAs eat into the benefit, particularly on smaller accounts. Run the math before assuming the IRA wrapper is automatically the better choice.
+      </p>
+
+      <h2>Inheriting Gold and Silver</h2>
+      <p>
+        Inherited precious metals receive a stepped-up basis under current federal law. The cost basis becomes the fair market value on the date of the original owner&apos;s death, not the price they originally paid. This means heirs who sell soon after inheriting often owe little or no capital gains tax, even on metals held in the family for decades.
+      </p>
+      <p>
+        If you inherit gold or silver, document the date-of-death value (a written appraisal from a reputable dealer is the standard practice) and keep that record permanently. It establishes your cost basis for any future sale and can save substantial tax if the metal appreciates further before you sell.
+      </p>
+
+      <h2>The 1031 Exchange Loophole That No Longer Exists</h2>
+      <p>
+        Before the Tax Cuts and Jobs Act of 2017, precious metals could potentially be swapped tax-free under Section 1031 like-kind exchange rules. Some owners used this to rotate between gold and silver without triggering taxable events. The 2017 law restricted Section 1031 to real estate only, eliminating this option for precious metals.
+      </p>
+      <p>
+        Any swap of gold for silver, silver for gold, bullion for coins, or coin for coin is now a taxable event measured in dollars. Plan accordingly.
+      </p>
+
+      <h2>The Practical Guidance</h2>
+      <p>
+        For most retail precious metals buyers, the practical takeaways are:
+      </p>
+      <ul>
+        <li>Keep every purchase receipt forever &mdash; or at least scan and store them digitally</li>
+        <li>Hold for more than one year to qualify for the long-term collectibles rate</li>
+        <li>Verify your state&apos;s sales tax treatment before large purchases</li>
+        <li>Don&apos;t assume the absence of a 1099-B means the gain isn&apos;t taxable &mdash; it always is</li>
+        <li>If you inherit metals, document the date-of-death value immediately</li>
+        <li>For complex situations or large gains, consult a CPA familiar with collectibles taxation</li>
+      </ul>
+      <p>
+        Precious metals have favorable long-term wealth preservation characteristics, but they are not a tax shelter. Every major sale triggers a reportable event, and the rules are different enough from stocks and bonds that surprises at tax time are common for new buyers. A few hours spent understanding the rules is the cheapest insurance available.
+      </p>
+      <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
+        GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We are not a tax advisor, and this article is for educational purposes only. Tax laws change and individual situations vary significantly. Consult a qualified CPA or tax attorney before making decisions based on this information.
+      </p>
+    </>
+  ),
   "spot-price-vs-what-you-pay": (
     <>
       <p>

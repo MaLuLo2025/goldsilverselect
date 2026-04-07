@@ -2,6 +2,36 @@ import { BlogPost } from "./types";
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "home-storage-gold-ira-scam",
+    title:
+      "The Home Storage Gold IRA Scam: Why the IRS Penalty Could Cost You Everything",
+    tag: "Don\u2019t Get Ripped Off",
+    tagColor: "gold",
+    excerpt:
+      "\u201CSelf-storage\u201D and \u201Ccheckbook LLC\u201D gold IRA pitches sound like a clever way to keep your retirement metals at home. The IRS calls it a prohibited transaction \u2014 and the penalty can wipe out the entire account.",
+    date: "2026-04-06",
+  },
+  {
+    slug: "how-to-spot-counterfeit-gold-silver-coins",
+    title:
+      "How to Spot Counterfeit Gold and Silver Coins: 7 Tests You Can Do at Home",
+    tag: "Education",
+    tagColor: "forest",
+    excerpt:
+      "Counterfeit American Eagles, Maple Leafs, and Krugerrands are circulating in larger numbers than most buyers realize. Here are seven simple tests you can run before you ever pay for a coin.",
+    date: "2026-04-06",
+  },
+  {
+    slug: "capital-gains-tax-gold-silver-2026",
+    title:
+      "Capital Gains Tax on Gold and Silver: What You\u2019ll Actually Owe in 2026",
+    tag: "Education",
+    tagColor: "forest",
+    excerpt:
+      "Gold and silver are taxed as collectibles \u2014 with a top federal rate of 28%, separate 1099-B reporting rules, and a maze of state sales tax exemptions. Here\u2019s exactly how it works.",
+    date: "2026-04-06",
+  },
+  {
     slug: "spot-price-vs-what-you-pay",
     title:
       "Spot Price vs. What You Pay: Why Every Coin Costs More Than the Ticker Says",

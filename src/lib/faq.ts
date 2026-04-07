@@ -128,6 +128,24 @@ export const faqCategories: FAQCategory[] = [
         learnMoreHref: "/blog/what-should-i-truly-pay-for-gold-and-silver",
         answer: "That\u2019s a personal financial decision that depends on your goals, and we can\u2019t advise on it. What we can tell you is that if you do decide to sell, the same principles apply as when buying: know the spot price, compare offers from at least two or three dealers, and understand that premiums and buyback spreads vary. Selling in a panic \u2014 whether driven by fear the price will drop or excitement that it\u2019s risen \u2014 is rarely optimal. A calm, informed seller who compares offers will almost always get a better result than one who accepts the first quote.",
       },
+      {
+        question: "Do I owe taxes when I sell gold or silver?",
+        answer: "Yes. The IRS classifies physical gold and silver bullion as collectibles under IRC Section 408(m). Long-term gains (metal held more than one year) are taxed at a maximum federal rate of 28% \u2014 higher than the 0/15/20% rates that apply to stocks. Short-term gains (held one year or less) are taxed at your ordinary income rate. Your gain is the sale price minus your cost basis, which includes what you originally paid the dealer plus any premium, sales tax, shipping, and insurance. Keep every purchase receipt \u2014 without documentation, the IRS can treat the entire sale proceeds as gain.",
+        learnMoreLabel: "Capital Gains Tax on Gold and Silver",
+        learnMoreHref: "/blog/capital-gains-tax-gold-silver-2026",
+      },
+      {
+        question: "Will the dealer report my sale to the IRS?",
+        answer: "Sometimes \u2014 it depends on what and how much you sell. Dealers are required to file Form 1099-B for sales that meet specific IRS thresholds: 25 or more 1 oz gold Maple Leafs, Krugerrands, or Mexican Onzas; 1 kilogram or more of gold bars; 1,000 troy ounces or more of silver bars or rounds; and 90% silver U.S. coins with face value of $1,000 or more. Notably absent from this list are American Gold Eagles, American Silver Eagles, and American Buffalos in any quantity \u2014 these typically do not trigger 1099-B reporting. But the absence of a 1099-B does NOT mean the gain is tax-free. You are still legally required to report and pay tax on every taxable gain.",
+        learnMoreLabel: "Capital Gains Tax on Gold and Silver",
+        learnMoreHref: "/blog/capital-gains-tax-gold-silver-2026",
+      },
+      {
+        question: "How are inherited gold and silver coins taxed?",
+        answer: "Inherited precious metals receive a stepped-up basis under current federal law. Your cost basis becomes the fair market value on the date of the original owner\u2019s death \u2014 not the price they originally paid decades ago. This means heirs who sell soon after inheriting often owe little or no capital gains tax, even on metal held in the family for years. If you inherit gold or silver, get a written appraisal from a reputable dealer documenting the date-of-death value and keep it permanently \u2014 it establishes your basis for any future sale.",
+        learnMoreLabel: "Capital Gains Tax on Gold and Silver",
+        learnMoreHref: "/blog/capital-gains-tax-gold-silver-2026",
+      },
     ],
   },
   {
@@ -219,8 +237,16 @@ export const faqCategories: FAQCategory[] = [
       {
         question: "Should I buy gold through an IRA?",
         answer: "Gold IRAs exist and are legal, but the industry around them is one of the most aggressively marketed and fee-heavy corners of the precious metals world. Setup fees, annual custodian fees, storage fees, and transaction fees can significantly erode returns over time. Many gold IRA companies spend heavily on advertising \u2014 celebrity endorsements, free gold promotions, fear-based marketing \u2014 and those costs are ultimately passed on to the customer through higher premiums and fees. If you\u2019re considering a gold IRA, research the full fee structure thoroughly and compare the total cost to simply buying physical gold yourself and storing it independently. Consult a fee-only financial advisor who doesn\u2019t earn a commission from the sale.",
-        learnMoreLabel: "Gold IRA Scams \u2014 What You Need to Know",
-        learnMoreHref: "/blog/gold-ira-scams",
+        links: [
+          { label: "Gold IRA Scams \u2014 What You Need to Know", href: "/blog/gold-ira-scams" },
+          { label: "The Home Storage Gold IRA Scam", href: "/blog/home-storage-gold-ira-scam" },
+        ],
+      },
+      {
+        question: "Can I store gold from my IRA at home?",
+        answer: "No. The IRS requires IRA-owned bullion to be held by an approved trustee or non-bank custodian at an approved depository. \u201CHome storage\u201D and \u201Ccheckbook LLC\u201D arrangements that put IRA-owned coins in your personal possession are treated by the IRS as a full distribution of the entire account \u2014 triggering income tax on the full balance plus a 10% early withdrawal penalty if you\u2019re under 59\u00bd. The 2021 Tax Court case McNulty v. Commissioner ruled directly against this structure. If a salesperson pitches a home storage gold IRA, walk away.",
+        learnMoreLabel: "The Home Storage Gold IRA Scam",
+        learnMoreHref: "/blog/home-storage-gold-ira-scam",
       },
     ],
   },
@@ -235,7 +261,21 @@ export const faqCategories: FAQCategory[] = [
           { label: "FTC: Investment Scams", href: "https://consumer.ftc.gov/articles/investment-scams" },
           { label: "CFTC: Gold Is No Safe Investment", href: "https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/gold_is_no_safe_investment.htm" },
           { label: "What Should I Truly Pay for Gold and Silver?", href: "/blog/what-should-i-truly-pay-for-gold-and-silver" },
+          { label: "The Home Storage Gold IRA Scam", href: "/blog/home-storage-gold-ira-scam" },
+          { label: "How to Spot Counterfeit Gold and Silver Coins", href: "/blog/how-to-spot-counterfeit-gold-silver-coins" },
         ],
+      },
+      {
+        question: "What is the home storage gold IRA scam?",
+        answer: "Promoters market \u201Chome storage\u201D or \u201Ccheckbook LLC\u201D gold IRAs as a way to hold IRA-owned coins in your own safe, supposedly avoiding depository fees. The IRS treats this as a prohibited transaction or a full distribution of the entire account. The 2021 U.S. Tax Court decision McNulty v. Commissioner ruled directly against this structure \u2014 the McNultys owed income tax on the full distributed amount plus penalties. IRA-owned bullion must be held by an IRS-approved trustee or non-bank custodian at an approved depository. There is no legitimate way to store IRA-owned metal at home.",
+        learnMoreLabel: "The Home Storage Gold IRA Scam",
+        learnMoreHref: "/blog/home-storage-gold-ira-scam",
+      },
+      {
+        question: "How do I avoid buying counterfeit gold or silver coins?",
+        answer: "Counterfeit American Eagles, Maple Leafs, and Krugerrands circulate in larger numbers than most buyers realize. The most reliable defense is buying from reputable dealers with verifiable track records and asking for verification on the spot. For self-verification, run multiple tests: a magnet test (real precious metals are non-magnetic), a precise weight and dimension check against published mint specs, a ping test (real silver and gold ring with a long sustained tone), and for serious buyers, a Sigma Metalytics verifier. Any single test can be fooled, so always run several. For high-premium numismatic coins, only buy slabs authenticated by PCGS, NGC, ANACS, or ICG.",
+        learnMoreLabel: "How to Spot Counterfeit Gold and Silver Coins",
+        learnMoreHref: "/blog/how-to-spot-counterfeit-gold-silver-coins",
       },
       {
         question: "Are gold IRA companies legitimate?",
