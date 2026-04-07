@@ -5,7 +5,7 @@ import { dealers } from "@/lib/dealers";
 import { blogPosts } from "@/lib/blog";
 import { intelligenceItems } from "@/lib/intelligence";
 
-const BASE = "https://goldsilverselect.com";
+const BASE = "https://www.goldsilverselect.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date().toISOString();
