@@ -8,6 +8,7 @@ import { states } from "@/lib/states";
 import { getCityBySlug } from "@/lib/cities";
 import { getDealerBySlug } from "@/lib/dealers";
 import DealerRatings from "@/components/DealerRatings";
+import AnalyticsLink from "@/components/AnalyticsLink";
 
 export function generateMetadata({
   params,
@@ -114,23 +115,31 @@ export default function DealerDetailPage({
         {/* Website & Phone — prominent */}
         <div className="flex gap-5 flex-wrap mb-4">
           {dealer.website && (
-            <a
+            <AnalyticsLink
+              variant="website"
               href={dealer.website}
+              vendorName={dealer.name}
+              vendorId={dealer.slug}
+              linkLocation="detail"
               target="_blank"
               rel="noopener noreferrer"
               className="font-sans text-[14px] font-semibold text-gold no-underline hover:underline inline-flex items-center gap-1"
             >
               {dealer.website.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "")} &rarr;
-            </a>
+            </AnalyticsLink>
           )}
           {dealer.phone && (
-            <a
+            <AnalyticsLink
+              variant="phone"
               href={`tel:${dealer.phone}`}
+              vendorName={dealer.name}
+              vendorId={dealer.slug}
+              linkLocation="detail"
               className="font-sans text-[14px] font-semibold no-underline hover:underline inline-flex items-center gap-1"
               style={{ color: "#555" }}
             >
               {dealer.phone}
-            </a>
+            </AnalyticsLink>
           )}
         </div>
 
@@ -216,15 +225,19 @@ export default function DealerDetailPage({
 
           {dealer.website && (
             <div className="mt-6">
-              <a
+              <AnalyticsLink
+                variant="website"
                 href={dealer.website}
+                vendorName={dealer.name}
+                vendorId={dealer.slug}
+                linkLocation="detail"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-gold inline-block no-underline"
                 style={{ padding: "12px 28px", fontSize: 13 }}
               >
                 Visit Dealer Website →
-              </a>
+              </AnalyticsLink>
             </div>
           )}
         </div>

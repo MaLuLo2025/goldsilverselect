@@ -1,6 +1,6 @@
-import Link from "next/link";
 import { Dealer } from "@/lib/types";
 import DealerRatings from "./DealerRatings";
+import AnalyticsLink from "./AnalyticsLink";
 
 /** Featured requires BOTH a BBB rating AND Google 4.5+, or manual approval */
 export function isFeatured(dealer: Dealer): boolean {
@@ -69,14 +69,18 @@ export default function DealerCard({
         </p>
         <DealerRatings dealer={dealer} />
         {dealer.website && (
-          <Link
+          <AnalyticsLink
+            variant="website"
             href={dealer.website}
+            vendorName={dealer.name}
+            vendorId={dealer.slug}
+            linkLocation="card"
             target="_blank"
             rel="noopener noreferrer"
             className="font-sans text-[12px] text-gold font-semibold no-underline hover:underline mt-1.5 inline-block"
           >
             {dealer.website.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "")} &rarr;
-          </Link>
+          </AnalyticsLink>
         )}
       </div>
       <div

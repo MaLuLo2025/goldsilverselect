@@ -7,6 +7,10 @@ import { states } from "@/lib/states";
 import { getCitiesByState } from "@/lib/cities";
 import { categories } from "@/lib/categories";
 import { iconMap } from "./Icons";
+import {
+  trackCategorySelected,
+  trackLocationSelected,
+} from "@/lib/analytics";
 
 // Verticals that are always accessible (have online/national vendors or are online-only)
 const ALWAYS_ACCESSIBLE = new Set([
@@ -72,6 +76,11 @@ export default function HeroSearch() {
       }
       return;
     }
+    trackCategorySelected({
+      category: cat.vertical,
+      state: selectedState || null,
+      city: selectedCity || null,
+    });
     const url = getCategoryUrl(
       cat.vertical,
       cat.slug,
@@ -143,7 +152,19 @@ export default function HeroSearch() {
         <select
           className="gs-select"
           value={selectedCity}
-          onChange={(e) => setSelectedCity(e.target.value)}
+          onChange={(e) => {
+            const newCity = e.target.value;
+            setSelectedCity(newCity);
+            if (newCity && selectedState) {
+              const cityObj = citiesForState.find((c) => c.slug === newCity);
+              const stateObj = states.find((s) => s.slug === selectedState);
+              trackLocationSelected({
+                state: stateObj?.name ?? selectedState,
+                city: cityObj?.name ?? newCity,
+                geographyLevel: "state_and_city",
+              });
+            }
+          }}
           disabled={!selectedState || !!stateHasNoCities}
           style={{ opacity: selectedState && !stateHasNoCities ? 1 : 0.5 }}
         >

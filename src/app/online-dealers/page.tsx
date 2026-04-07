@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import { getOnlineDealers } from "@/lib/dealers";
 import DealerRatings from "@/components/DealerRatings";
 import { isFeatured, truncateAtSentence } from "@/components/DealerCard";
-import Link from "next/link";
+import AnalyticsLink from "@/components/AnalyticsLink";
 
 export const metadata: Metadata = {
   title: "Online Coin & Bullion Dealers",
@@ -50,14 +50,18 @@ export default function OnlineDealersPage() {
         </p>
         <DealerRatings dealer={dealer} />
         {dealer.website && (
-          <Link
+          <AnalyticsLink
+            variant="website"
             href={dealer.website}
+            vendorName={dealer.name}
+            vendorId={dealer.slug}
+            linkLocation="online_dealers"
             target="_blank"
             rel="noopener noreferrer"
             className="font-sans text-[12px] text-gold font-semibold no-underline hover:underline mt-1.5 inline-block"
           >
             {dealer.website.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "")} &rarr;
-          </Link>
+          </AnalyticsLink>
         )}
       </div>
     </div>
