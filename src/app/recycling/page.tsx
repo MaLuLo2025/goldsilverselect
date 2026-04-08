@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import { getDealersByVertical } from "@/lib/dealers";
 import { states } from "@/lib/states";
 import DealerList from "@/components/DealerList";
+import TrackedListingMount from "@/components/TrackedListingMount";
 
 export const metadata: Metadata = {
   title: "Precious Metals Recycling — Sell Gold, Silver & Scrap",
@@ -31,6 +32,7 @@ export default function RecyclingPage() {
 
   return (
     <>
+      <TrackedListingMount category="recycling" resultCount={allRecyclers.length} />
       <TickerBanner />
       <Header />
 

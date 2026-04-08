@@ -6,6 +6,7 @@ import { getOnlineDealers } from "@/lib/dealers";
 import DealerRatings from "@/components/DealerRatings";
 import { isFeatured, truncateAtSentence } from "@/components/DealerCard";
 import AnalyticsLink from "@/components/AnalyticsLink";
+import TrackedListingMount from "@/components/TrackedListingMount";
 
 export const metadata: Metadata = {
   title: "Online Coin & Bullion Dealers",
@@ -69,6 +70,7 @@ export default function OnlineDealersPage() {
 
   return (
     <>
+      <TrackedListingMount category="online-coin-bullion" resultCount={dealers.length} />
       <TickerBanner />
       <Header />
 

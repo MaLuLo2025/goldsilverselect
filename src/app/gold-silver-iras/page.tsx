@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { getIRAProviders } from "@/lib/dealers";
 import DealerList from "@/components/DealerList";
+import TrackedListingMount from "@/components/TrackedListingMount";
 
 export const metadata: Metadata = {
   title: "Gold & Silver IRA Providers",
@@ -17,6 +18,7 @@ export default function IRAPage() {
 
   return (
     <>
+      <TrackedListingMount category="gold-silver-ira" resultCount={providers.length} />
       <TickerBanner />
       <Header />
 

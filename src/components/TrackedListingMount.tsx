@@ -12,13 +12,13 @@ import { trackCategorySelected } from "@/lib/analytics";
  */
 export default function TrackedListingMount({
   category,
-  city,
-  state,
+  city = null,
+  state = null,
   resultCount,
 }: {
   category: string;
-  city: string;
-  state: string;
+  city?: string | null;
+  state?: string | null;
   resultCount: number;
 }) {
   const fired = useRef(false);
