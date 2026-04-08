@@ -8,6 +8,7 @@ import { states } from "@/lib/states";
 import { getCityBySlug } from "@/lib/cities";
 import { getDealersByCity, getOnlineDealers, getIRAProviders, getDealersByVertical } from "@/lib/dealers";
 import DealerList from "@/components/DealerList";
+import TrackedListingMount from "@/components/TrackedListingMount";
 
 export function generateMetadata({
   params,
@@ -62,6 +63,12 @@ export default function CityDealersPage({
 
   return (
     <>
+      <TrackedListingMount
+        category={verticalFilter ?? "all_dealers"}
+        city={city.name}
+        state={params.state}
+        resultCount={cityDealers.length}
+      />
       <TickerBanner />
       <Header />
 

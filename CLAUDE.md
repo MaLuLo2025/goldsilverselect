@@ -19,7 +19,20 @@ Independent directory of precious metals dealers, Gold & Silver IRA custodians, 
 - **Styling:** Tailwind CSS + custom CSS in globals.css
 - **Hosting:** Vercel (auto-deploy from GitHub)
 - **Domain:** goldsilverselect.com (Cloudflare DNS → Vercel)
+- **Canonical hostname:** `https://www.goldsilverselect.com` (apex 307s to www)
 - **Analytics:** GA4 (ID TBD — not yet set up)
+
+## SEO Foundation (see global Section 20)
+
+This project must follow **Section 20 (SEO Foundation)** of the global `~/.claude/CLAUDE.md`. Read it before any content addition or template change.
+
+Project-specific notes:
+- Canonical hostname: `https://www.goldsilverselect.com` — `metadataBase` is set in `src/app/layout.tsx`
+- Sitemap base URL constant in `src/app/sitemap.ts` must match `metadataBase`
+- New blog posts and intelligence entries must appear in the dynamic sitemap on the next deploy — verify before marking work done
+- Title suffix: `| GoldSilverSelect`
+- Every blog post must have `Article` JSON-LD; vertical hubs may have `FAQPage` JSON-LD where they include FAQs
+- Dealer detail pages should have `LocalBusiness` (or relevant business type) JSON-LD
 
 ## Design System — "Mint" Theme
 - **Ticker bar:** #111110 (near-black)
