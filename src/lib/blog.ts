@@ -167,4 +167,34 @@ export const blogPosts: BlogPost[] = [
       "Central banks bought over 1,000 tonnes of gold in 2022, 2023, and 2024 \u2014 triple the decade prior\u2019s average. Here\u2019s who\u2019s buying, why, and what it means for the price of gold.",
     date: "2026-03-31",
   },
+  {
+    slug: "storing-gold-silver-safely",
+    title:
+      "How to Store Physical Gold and Silver: Home, Vault, or Safe Deposit Box?",
+    tag: "Education",
+    tagColor: "forest",
+    excerpt:
+      "Physical metals have no automatic custodian. Home storage, bank safe deposit boxes, and private vaults each have real tradeoffs in cost, insurance, and access. Here\u2019s what each option actually looks like.",
+    date: "2026-04-13",
+  },
+  {
+    slug: "silver-industrial-demand-2026",
+    title:
+      "Why Silver Crossed $100: Solar Panels, AI, and the Sixth Year of Deficit",
+    tag: "Education",
+    tagColor: "forest",
+    excerpt:
+      "Silver\u2019s surge past $100/oz isn\u2019t speculative \u2014 it\u2019s structural. Solar panels, AI data centers, and EVs are consuming silver faster than mines can produce it. Here\u2019s what\u2019s driving the sixth consecutive year of deficit.",
+    date: "2026-04-13",
+  },
+  {
+    slug: "gold-vs-bitcoin-2026",
+    title:
+      "Gold vs. Bitcoin in 2026: Which One Actually Protects Your Money?",
+    tag: "Education",
+    tagColor: "forest",
+    excerpt:
+      "Gold doubled. Bitcoin dropped 47% from its high. Both were supposed to be safe havens. The 2026 divergence is the data point worth examining \u2014 here\u2019s what the crisis performance data actually shows.",
+    date: "2026-04-13",
+  },
 ];

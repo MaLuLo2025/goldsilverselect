@@ -3,6 +3,9 @@
 ## Project Overview
 Independent directory of precious metals dealers, Gold & Silver IRA custodians, recyclers, and jewelers. Part of the Select Sites portfolio (AestheticSelect, FirearmSelect, GoWeddingSelect, GoLawyerSelect, GoldSilverSelect).
 
+## File Output
+All generated files for this project go to `~/Claude Files/goldsilverselect/` — never `~/Downloads/`.
+
 ## ECC Workflow
 
 - `/plan` before any non-trivial change — especially anything touching /api/prices

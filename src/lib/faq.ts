@@ -60,6 +60,7 @@ export const faqCategories: FAQCategory[] = [
         links: [
           { label: "Gold and Wars: 125 Years as a Geopolitical Risk Hedge", href: "/blog/gold-and-wars-geopolitical-risk-hedge" },
           { label: "Central Bank Gold Buying: The Biggest Shift in 50 Years", href: "/blog/central-bank-gold-buying-reshaping-the-market" },
+          { label: "Why Silver Crossed $100: Industrial Demand Explained", href: "/blog/silver-industrial-demand-2026" },
         ],
       },
       {
@@ -187,6 +188,9 @@ export const faqCategories: FAQCategory[] = [
         answer: "Premiums spike when physical demand outpaces the available supply of finished products. This typically happens during financial crises, geopolitical shocks, or sudden surges in retail buying. The spot price \u2014 which reflects futures contracts \u2014 may not move much, but the cost of an actual coin or bar can jump significantly because mints, refiners, and dealers simply can\u2019t produce and ship fast enough to meet demand. Premiums generally compress back to normal ranges once demand stabilizes, but that can take weeks or months.",
         learnMoreLabel: "Spot Price vs. What You Actually Pay at the Counter",
         learnMoreHref: "/blog/spot-price-vs-what-you-actually-pay",
+        links: [
+          { label: "Why Silver Crossed $100: Industrial Demand and the Supply Deficit", href: "/blog/silver-industrial-demand-2026" },
+        ],
       },
       {
         question: "What is the gold-to-silver ratio?",
@@ -229,10 +233,14 @@ export const faqCategories: FAQCategory[] = [
       {
         question: "How should I store gold and silver at home?",
         answer: "If you store precious metals at home, use a quality safe that is both fireproof and securely anchored \u2014 bolted to the floor or wall. Keep your holdings private. Discussing what you own, how much you have, or where you store it creates unnecessary risk. Consider splitting your holdings across multiple locations to reduce the impact of any single loss. And check your homeowner\u2019s or renter\u2019s insurance policy carefully \u2014 standard policies often have surprisingly low coverage limits for precious metals, sometimes as little as $200. You may need a scheduled rider or separate policy.",
+        learnMoreLabel: "Home, Vault, or Safe Deposit Box? Full Storage Guide",
+        learnMoreHref: "/blog/storing-gold-silver-safely",
       },
       {
         question: "What about bank safe deposit boxes?",
         answer: "Safe deposit boxes offer strong physical security, but they have limitations worth understanding. Their contents are not FDIC insured \u2014 if items are lost, damaged, or stolen, the bank\u2019s liability is typically very limited. Access is restricted to bank hours, which means you can\u2019t reach your metals on weekends, holidays, or outside business hours. During banking crises, legal disputes, or certain government actions, access can be frozen. Some buyers use safe deposit boxes for a portion of their holdings while keeping some accessible at home.",
+        learnMoreLabel: "Home, Vault, or Safe Deposit Box? Full Storage Guide",
+        learnMoreHref: "/blog/storing-gold-silver-safely",
       },
       {
         question: "Should I buy gold through an IRA?",
@@ -247,6 +255,18 @@ export const faqCategories: FAQCategory[] = [
         answer: "No. The IRS requires IRA-owned bullion to be held by an approved trustee or non-bank custodian at an approved depository. \u201CHome storage\u201D and \u201Ccheckbook LLC\u201D arrangements that put IRA-owned coins in your personal possession are treated by the IRS as a full distribution of the entire account \u2014 triggering income tax on the full balance plus a 10% early withdrawal penalty if you\u2019re under 59\u00bd. The 2021 Tax Court case McNulty v. Commissioner ruled directly against this structure. If a salesperson pitches a home storage gold IRA, walk away.",
         learnMoreLabel: "The Home Storage Gold IRA Scam",
         learnMoreHref: "/blog/home-storage-gold-ira-scam",
+      },
+      {
+        question: "What is allocated vs. segregated vs. unallocated storage?",
+        answer: "These terms describe how a depository holds your metals. Segregated storage means your items are physically separated from all other clients\u2019 holdings in a dedicated space \u2014 you get back the exact bars or coins you deposited. Allocated storage means your metals are identified and assigned to your account but may share vault space with others\u2019 holdings. Unallocated storage means you own a claim to a quantity of metal, but no specific items are assigned to you \u2014 the depository holds a pool and owes you your share. Unallocated is cheapest but carries the most counterparty risk: in a bankruptcy, unallocated metal may be treated as a general asset of the company, not as your property. For most individual buyers, allocated or segregated is the appropriate choice.",
+        learnMoreLabel: "Full Storage Guide: Home, Vault, or Safe Deposit Box",
+        learnMoreHref: "/blog/storing-gold-silver-safely",
+      },
+      {
+        question: "Does homeowner\u2019s insurance cover gold and silver?",
+        answer: "Barely. Standard homeowner\u2019s insurance policies typically cover only $200 to $500 in precious metals \u2014 a sublimit buried in the policy that most people don\u2019t discover until after a loss. If you store any meaningful quantity at home, you almost certainly need a scheduled personal property rider (also called a floater). Rider costs typically run $1 to $2 per $100 of insured value per year. For $20,000 in metals, expect $200\u2013$400 annually. The rider usually requires documentation of what you own \u2014 purchase receipts, photographs, or an appraisal.",
+        learnMoreLabel: "Full Storage Guide: Home, Vault, or Safe Deposit Box",
+        learnMoreHref: "/blog/storing-gold-silver-safely",
       },
     ],
   },
@@ -332,6 +352,21 @@ export const faqCategories: FAQCategory[] = [
         answer: "This is a personal financial decision that depends on your goals, risk tolerance, and overall portfolio. We don\u2019t provide investment advice. What we can share is that most financial advisors who recommend gold suggest a 5\u201315% allocation as portfolio insurance \u2014 not a speculative position. The goal is typically to own an asset that holds its value during periods when stocks, bonds, and currencies decline simultaneously. Gold does not pay dividends or generate earnings, so it functions as insurance rather than a growth investment. Consult a fee-only financial advisor for guidance specific to your situation.",
         learnMoreLabel: "Gold and Wars: 125 Years as a Geopolitical Risk Hedge",
         learnMoreHref: "/blog/gold-and-wars-geopolitical-risk-hedge",
+        links: [
+          { label: "Gold vs. Bitcoin: Which Actually Protects Your Money?", href: "/blog/gold-vs-bitcoin-2026" },
+        ],
+      },
+      {
+        question: "Why has silver\u2019s price risen so sharply in 2026?",
+        answer: "Silver crossed $100/oz in 2026 driven by structural industrial demand outpacing supply. Solar panel manufacturing now consumes over 230 million ounces annually (up from 140 million in 2020). AI data centers, electric vehicles, and 5G infrastructure are all growing sources of silver demand. Meanwhile, 72% of silver is mined as a byproduct of copper, zinc, lead, and gold \u2014 meaning silver supply cannot respond quickly to price increases. 2026 marks the sixth consecutive year where global demand has exceeded supply. The price reflects real scarcity, not speculation.",
+        learnMoreLabel: "Why Silver Crossed $100: Solar, AI, and the Supply Deficit",
+        learnMoreHref: "/blog/silver-industrial-demand-2026",
+      },
+      {
+        question: "Is bitcoin \u201Cdigital gold\u201D \u2014 does it work as a safe haven?",
+        answer: "The data so far does not support that label during crises. In every major stress event since bitcoin\u2019s creation \u2014 the 2020 COVID crash (down 35% in one day), the 2022 crypto crash (down 77%), and the 2026 market stress (down 47% from its all-time high) \u2014 bitcoin has fallen alongside equities, often more sharply. During those same periods, gold held value or rose. Bitcoin has performed as a risk-on asset correlated with tech stocks, not as a safe haven. This could change as the asset matures and its holder base shifts, but the current evidence points to bitcoin as a growth asset, not a crisis hedge. Both assets can have a place in a portfolio \u2014 they just solve different problems.",
+        learnMoreLabel: "Gold vs. Bitcoin in 2026: Full Comparison",
+        learnMoreHref: "/blog/gold-vs-bitcoin-2026",
       },
     ],
   },
