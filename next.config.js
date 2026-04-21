@@ -30,15 +30,6 @@ const nextConfig = {
       },
     ];
   },
-  async redirects() {
-    return [
-      {
-        source: '/SGI',
-        destination: '/sgi',
-        permanent: true,
-      },
-    ];
-  },
   async rewrites() {
     return [
       {
