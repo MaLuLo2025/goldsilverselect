@@ -16,7 +16,7 @@ const securityHeaders = [
       "img-src 'self' data: https:",
       "font-src 'self'",
       "connect-src 'self' https://*.supabase.co https://api.stripe.com https://web-production-3df4b.up.railway.app https://api.tradesilvester.com https://*.google-analytics.com https://*.analytics.google.com https://select-admin-teal.vercel.app",
-      "frame-src https://js.stripe.com",
+      "frame-src https://js.stripe.com https://sgi-analytics.vercel.app",
     ].join('; ')
   }
 ];
@@ -27,6 +27,15 @@ const nextConfig = {
       {
         source: '/(.*)',
         headers: securityHeaders,
+      },
+    ];
+  },
+  async redirects() {
+    return [
+      {
+        source: '/SGI',
+        destination: '/sgi',
+        permanent: true,
       },
     ];
   },
