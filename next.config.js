@@ -44,6 +44,14 @@ const nextConfig = {
         source: '/tory',
         destination: '/tory/index.html',
       },
+      {
+        source: '/SGI',
+        destination: 'https://sgi-analytics.vercel.app/analytics',
+      },
+      {
+        source: '/SGI/:path*',
+        destination: 'https://sgi-analytics.vercel.app/:path*',
+      },
     ];
   },
 };
