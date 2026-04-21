@@ -2278,6 +2278,370 @@ const blogContent: Record<string, React.ReactNode> = {
       </p>
     </>
   ),
+
+  "how-much-over-spot-should-i-pay-for-gold-2026": (
+    <>
+      <p>
+        Gold is trading near $5,100 an ounce. Silver is in the low-$60 range. A 1-ounce American Gold Eagle costs somewhere between $5,300 and $6,500 at retail depending on where you shop. That spread &mdash; the premium over spot &mdash; is where precious metals dealers make their margin, and it&apos;s also where retail buyers get quietly overcharged.
+      </p>
+      <p>
+        This article is the first in our <strong>Spot Price vs What You Pay</strong> series. The goal is simple: show you what a fair premium looks like in 2026, what crosses the line into overpriced, and where the truly predatory premiums hide. With real dollar numbers, not percentages alone.
+      </p>
+      <h2>What the &ldquo;premium over spot&rdquo; actually covers</h2>
+      <p>
+        Spot price is the wholesale trading price for an ounce of raw, unrefined metal on commodities exchanges &mdash; currently around $5,100 for gold and the low-$60s for silver. It is not the price of anything you can hold in your hand.
+      </p>
+      <p>
+        By the time metal becomes a coin or bar you can buy, it has been refined, minted, packaged, shipped, insured, distributed, and priced by a dealer. Each step costs something. The premium over spot covers those costs plus the dealer&apos;s margin. A fair premium reflects the real cost of producing and selling that specific product. A rip-off premium is everything on top of that.
+      </p>
+      <h2>Fair premium ranges for standard bullion products in 2026</h2>
+      <p>
+        These are typical ranges in normal market conditions. Wide market disruption (2020-style demand spikes) can push premiums higher temporarily &mdash; but outside of those conditions, here&apos;s where the numbers should land:
+      </p>
+      <p><strong>Gold coins (1 oz)</strong></p>
+      <ul>
+        <li>American Gold Eagle: 3&ndash;6% over spot (~$150&ndash;$310 premium at $5,100 gold)</li>
+        <li>Canadian Gold Maple Leaf: 3&ndash;5%</li>
+        <li>Austrian Gold Philharmonic: 3&ndash;5%</li>
+        <li>South African Krugerrand: 2&ndash;4%</li>
+        <li>Generic rounds (Sunshine, PAMP, etc.): 2&ndash;4%</li>
+      </ul>
+      <p><strong>Gold bars</strong></p>
+      <ul>
+        <li>1 oz gold bars (PAMP, Valcambi, Credit Suisse): 2&ndash;4%</li>
+        <li>10 oz gold bars: 1&ndash;3%</li>
+        <li>1 kilo gold bars: 1&ndash;2%</li>
+      </ul>
+      <p><strong>Silver coins (1 oz)</strong></p>
+      <ul>
+        <li>American Silver Eagle: 15&ndash;25% over spot (~$9&ndash;$15 premium at $60 silver)</li>
+        <li>Canadian Silver Maple Leaf: 10&ndash;18%</li>
+        <li>Generic silver rounds: 7&ndash;12%</li>
+      </ul>
+      <p><strong>Silver bars</strong></p>
+      <ul>
+        <li>1 oz bars: 8&ndash;15%</li>
+        <li>10 oz bars: 5&ndash;10%</li>
+        <li>100 oz bars: 3&ndash;7%</li>
+      </ul>
+      <p>
+        Silver premiums run percentage-wise higher than gold because the fabrication cost per ounce is almost identical, but that cost is spread across a much lower underlying metal value. A $2 minting cost on a $5,100 gold coin is trivial; the same $2 on a $60 silver coin is meaningful.
+      </p>
+      <h2>What counts as a rip-off premium</h2>
+      <p>
+        Premiums well outside the ranges above are a warning sign, not proof of fraud. Sometimes there&apos;s a legitimate reason. Often there isn&apos;t.
+      </p>
+      <p><strong>Red flag premium thresholds:</strong></p>
+      <ul>
+        <li>Gold bullion coins priced at 10%+ over spot</li>
+        <li>Gold bars priced at 6%+ over spot</li>
+        <li>Silver bullion coins priced at 35%+ over spot</li>
+        <li>Any &ldquo;exclusive&rdquo; or &ldquo;premium&rdquo; bullion priced at 40%+ over spot</li>
+      </ul>
+      <p>
+        When you see premiums above these levels, ask what the dealer is charging for specifically. Legitimate reasons exist: a limited-mintage proof coin, a graded numismatic piece, or a temporary supply disruption in a specific product. But when a dealer applies a 40%+ markup to standard bullion &mdash; a coin that every other dealer is selling at 5% over spot &mdash; that is not a fair transaction. It is the dealer counting on the buyer not knowing what spot is.
+      </p>
+      <p>
+        In 2023, the SEC sued a precious metals dealer for marking up gold and silver by up to 130% over cost while telling investors they were paying a 1&ndash;5% markup, cheating clients out of approximately $50 million. That case was extreme but not unique &mdash; similar enforcement actions surface every year in the precious metals retirement account space.
+      </p>
+      <h2>The padded spot price trick</h2>
+      <p>
+        The most effective way to hide a big premium is to lie about the spot price itself.
+      </p>
+      <p>
+        A dealer displays &ldquo;spot&rdquo; on their website at, say, $5,250 when the actual LBMA or COMEX spot is $5,100. They then quote their product at &ldquo;3% over spot&rdquo; &mdash; which sounds reasonable, but is actually selling against a spot price that was marked up $150 before the premium was added. The total markup is closer to 6% than 3%.
+      </p>
+      <p>
+        <strong>How to protect yourself:</strong> always verify the live spot price on an independent source &mdash; Kitco, the LBMA, or a major financial news site &mdash; before evaluating a dealer&apos;s pricing. The spot price you see at the dealer must match the independent source within a few dollars. If it doesn&apos;t, the &ldquo;3% over spot&rdquo; claim is meaningless.
+      </p>
+      <h2>The full cost of buying physical metal</h2>
+      <p>
+        Premium over spot is the biggest line item, but it&apos;s not the only one. The true all-in cost to your door also includes:
+      </p>
+      <ul>
+        <li><strong>Sales tax</strong>, if your state charges it on bullion (many states do not, but some do on specific products)</li>
+        <li><strong>Shipping and insurance</strong>, typically $10&ndash;$50 for standard-value orders, higher for five-figure purchases</li>
+        <li><strong>Payment method surcharges</strong>: most dealers discount 2&ndash;4% for bank wire or check over credit card</li>
+      </ul>
+      <p>
+        When comparing dealers, always compare the final shopping cart total, not the advertised premium. A dealer quoting 3% over spot with a 4% credit card surcharge is not cheaper than a dealer quoting 5% over spot with no surcharge.
+      </p>
+      <h2>When higher premiums are actually justified</h2>
+      <p>
+        Not every high premium is a red flag. These situations genuinely cost more to produce and distribute:
+      </p>
+      <ul>
+        <li><strong>Small-denomination products</strong> (1/10 oz gold coins, fractional silver rounds) &mdash; the fixed fabrication cost is spread over less metal</li>
+        <li><strong>Limited-mintage or proof coins</strong> &mdash; higher production costs, often with added collectible value</li>
+        <li><strong>Numismatic and graded coins</strong> &mdash; valued for rarity, not metal content alone</li>
+        <li><strong>Supply-disrupted products</strong> &mdash; during acute demand spikes, even standard bullion can temporarily command 15&ndash;25% premiums</li>
+      </ul>
+      <p>
+        The rule: a premium outside the fair range needs a specific, plausible explanation. If the product is standard 1-ounce bullion from a major mint and the dealer can&apos;t justify a premium above the ranges in this article, you are overpaying.
+      </p>
+      <h2>Frequently Asked Questions</h2>
+      <h3>What&apos;s a fair premium over spot for a 1-oz American Gold Eagle in 2026?</h3>
+      <p>
+        In normal market conditions, 3&ndash;6% over the live spot price. At gold near $5,100 an ounce, that&apos;s roughly a $150&ndash;$310 premium per coin. Premiums above 10% on standard Eagles generally reflect either a supply disruption or a dealer pricing well above the market.
+      </p>
+      <h3>How do I spot a padded spot price?</h3>
+      <p>
+        Compare the spot price shown on the dealer&apos;s site to an independent source &mdash; Kitco, the LBMA reference price, or a major financial news site &mdash; at the same moment. A discrepancy of more than a few dollars per ounce means the dealer is pricing against an inflated reference, and the &ldquo;X% over spot&rdquo; claim is misleading. The honest dealers update their spot displays every few seconds from live market feeds.
+      </p>
+      <h3>Why are silver coin premiums so much higher than gold coin premiums?</h3>
+      <p>
+        Silver has a much lower underlying metal value per ounce than gold, but the cost to mint a coin is similar for both. That fixed fabrication cost represents a much larger percentage of silver&apos;s price than gold&apos;s. A 20% premium on a $60 silver coin is $12. A 20% premium on a $5,100 gold coin would be $1,020 &mdash; which is why gold premiums don&apos;t run that high outside of supply disruptions.
+      </p>
+      <h3>Should I buy gold coins or gold bars for the lowest premium?</h3>
+      <p>
+        Bars. Gold bars in 1 oz and larger sizes typically carry lower premiums than coins of the same weight &mdash; 1&ndash;3% for 10 oz bars versus 3&ndash;6% for 1 oz coins. The tradeoff is liquidity: coins are more widely recognized and generally easier to resell to any dealer, while larger bars may need to be sold through dealers who specifically handle them.
+      </p>
+      <h3>Is it ever worth paying a 30%+ premium on standard bullion?</h3>
+      <p>
+        Almost never on standard 1-ounce bullion from a major mint. The only situations that might justify an elevated premium on standard bullion are acute supply disruptions (the March 2020 demand spike is the textbook example) or small-denomination products under 1/10 oz. On standard 1-ounce bullion in normal market conditions, 30%+ premiums are a signal to walk away and buy the same product elsewhere.
+      </p>
+      <p>
+        <em>Live spot prices update on our ticker at the top of every page. Compare dealer pricing in the verified dealer directory &mdash; featured listings publish their live pricing transparently.</em>
+      </p>
+      <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
+        GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver, and we do not receive compensation from any dealer listed on this site. This article is for educational purposes only and does not constitute investment advice.
+      </p>
+    </>
+  ),
+
+  "gold-ira-scams-red-flags-federal": (
+    <>
+      <p>
+        Gold IRAs can be a legitimate part of a retirement strategy. Gold IRA <em>sales tactics</em> are, disproportionately, how retirees get scammed.
+      </p>
+      <p>
+        This isn&apos;t speculation. The SEC, CFTC, and FTC have each brought enforcement actions against precious metals dealers targeting retirement savers &mdash; and the federal consumer guidance from those agencies is public, free, and specific about what to watch for. This article pulls together the red flags these agencies have actually flagged in enforcement filings and consumer advisories, with citations you can verify yourself.
+      </p>
+      <p>
+        If you&apos;re considering rolling retirement savings into physical gold, read this before you sign anything.
+      </p>
+      <h2>Red flag 1: Aggressive cold-calling or urgent economic fear pitches</h2>
+      <p>
+        Legitimate precious metals dealers rarely cold-call retirement savers. The pitch almost always starts with generalized economic panic &mdash; imminent dollar collapse, government confiscation of retirement accounts, hyperinflation &mdash; followed by gold as the only safe option and a limited-time price that expires if you don&apos;t move today.
+      </p>
+      <p>
+        The <a href="https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/precious_metals.html" target="_blank" rel="noopener noreferrer">Commodity Futures Trading Commission has specifically warned</a> about this pattern in its precious metals advisory, noting that fear-based selling tactics and artificial urgency are hallmarks of fraudulent operations. Reputable dealers don&apos;t work on countdown timers. If a salesperson refuses to send written information, discourages you from talking to family or a financial advisor, or pressures immediate action &mdash; that alone is enough to walk away.
+      </p>
+      <h2>Red flag 2: &ldquo;Exclusive,&rdquo; &ldquo;premium,&rdquo; or numismatic coin pushes</h2>
+      <p>
+        This is the most expensive scam in the gold IRA space, and it has been litigated repeatedly.
+      </p>
+      <p>
+        In 2023, the SEC sued Red Rock Secured for pressuring investors to roll retirement accounts into gold IRAs and then marking up precious metals by as much as 130% &mdash; while telling those investors they were paying a 1&ndash;5% markup. The enforcement action alleged approximately $50 million in investor losses.
+      </p>
+      <p>
+        The sales tactic typically works like this: a legitimate-looking company pitches a retirement rollover, then steers the customer toward &ldquo;exclusive&rdquo; or &ldquo;premium&rdquo; coins rather than standard bullion. The exclusive coins are sold at premiums of 30%&ndash;100%+ over their actual metal value. The customer&apos;s IRA statement shows the inflated purchase price. If the customer ever tries to liquidate, they discover the coins are worth a fraction of what they paid.
+      </p>
+      <p>
+        <strong>The rule:</strong> IRA-held precious metals should be standard bullion &mdash; American Gold Eagles, American Gold Buffalos, Canadian Gold Maple Leafs, or comparable bars from accredited refiners &mdash; purchased at a transparent premium over spot. Any pitch that routes you to &ldquo;exclusive&rdquo; or &ldquo;premium&rdquo; or &ldquo;collectible&rdquo; coins inside a retirement account is the pitch the SEC has repeatedly warned about.
+      </p>
+      <h2>Red flag 3: &ldquo;Home storage&rdquo; gold IRAs</h2>
+      <p>
+        The IRS does not allow IRA-held precious metals to be stored in your home. Any company marketing a &ldquo;home storage IRA&rdquo; &mdash; typically structured as an LLC that you control, with the metals held in a personal safe &mdash; is selling a structure the IRS and Tax Court have rejected.
+      </p>
+      <p>
+        In <em>McNulty v. Commissioner</em> (T.C. Memo. 2021-152), the U.S. Tax Court ruled that physically storing IRA-owned precious metals in the taxpayer&apos;s home constituted a taxable distribution from the IRA &mdash; triggering income tax on the full value plus a 10% early withdrawal penalty for taxpayers under age 59&frac12;. The court&apos;s reasoning was straightforward: the statute requires IRA assets to be held by a qualified trustee or custodian, and the taxpayer&apos;s personal possession disqualified the arrangement.
+      </p>
+      <p>
+        Companies promoting home storage IRAs often cite the same IRC &sect; 408(m) language the McNulty court analyzed, but misread it. If you&apos;re being sold on home storage, get a second opinion from a CPA or tax attorney before signing. The tax consequences of an improperly structured IRA can erase most of the account&apos;s value.
+      </p>
+      <h2>Red flag 4: &ldquo;Free silver&rdquo; or &ldquo;bonus gold&rdquo; promotions</h2>
+      <p>
+        &ldquo;Open an IRA with us and get free silver&rdquo; sounds generous. In practice, the &ldquo;free&rdquo; metal is paid for by an inflated purchase price on the primary metals in the account.
+      </p>
+      <p>
+        The math is simple: a dealer offering $5,000 in &ldquo;free&rdquo; silver on a $100,000 rollover isn&apos;t actually giving anything away &mdash; they&apos;re charging an extra 5% on the $100,000 of gold you&apos;re buying, then using part of that markup to cover the promotional metal. The customer ends up with $105,000 of metals that should have cost $95,000.
+      </p>
+      <p>
+        If a dealer advertises a free-metal promotion, ask what the all-in premium is over spot on the metals you&apos;re actually buying. Compare that premium against the fair ranges documented in our <Link href="/blog/how-much-over-spot-should-i-pay-for-gold-2026">Spot Price vs What You Pay guide</Link>. If the premium is above the fair range for the product, you&apos;re paying for the &ldquo;free&rdquo; metal plus the dealer&apos;s margin on top.
+      </p>
+      <h2>Red flag 5: Opaque or &ldquo;all-inclusive&rdquo; fees</h2>
+      <p>
+        A legitimate gold IRA has predictable fees: a setup fee for the self-directed IRA (typically $50&ndash;$150), an annual custodian fee ($80&ndash;$300), an annual depository storage fee ($100&ndash;$300 for segregated, less for commingled), and the premium over spot on the metal itself.
+      </p>
+      <p>
+        Fee structures that bundle &ldquo;all costs included&rdquo; without breaking them out are usually concealing a higher metal premium or higher recurring fees than a segregated fee schedule would show. Ask for each fee category separately. Compare against at least two other providers before committing.
+      </p>
+      <h2>Red flag 6: &ldquo;Gold only goes up&rdquo; or guaranteed returns</h2>
+      <p>
+        No investment is guaranteed, and anyone selling precious metals with promises of guaranteed appreciation is making a statement that would get a licensed securities broker fined. Gold has had strong long-term performance and has historically held value through periods of high inflation &mdash; but it has also had extended flat periods and multi-year declines. A salesperson who tells you gold cannot lose money is either uninformed or deliberately misleading.
+      </p>
+      <h2>Red flag 7: Recovery fraud after the initial scam</h2>
+      <p>
+        One of the cruelest variants: after a retiree realizes they were defrauded on a gold IRA, they receive calls from &ldquo;recovery specialists&rdquo; offering to help get the money back &mdash; for an upfront fee. The recovery specialists are almost always affiliated with the original scammers and the upfront fee is the second bite at the same victim.
+      </p>
+      <p>
+        Legitimate attorneys handle precious metals fraud cases on contingency or standard hourly billing. Advance-fee recovery services in this space are, by FTC warning and documented case pattern, almost always fraudulent.
+      </p>
+      <h2>Before you commit to a gold IRA provider</h2>
+      <p>
+        Five concrete checks every potential customer should run:
+      </p>
+      <ol>
+        <li><strong>Verify the company&apos;s registration</strong> with your state&apos;s Secretary of State. Companies claiming decades of operations with recent incorporation dates are a red flag.</li>
+        <li><strong>Check for enforcement actions</strong> on the SEC and CFTC websites by searching the company name. Recent lawsuits or cease-and-desist orders are disqualifying.</li>
+        <li><strong>Read the BBB and public complaint history</strong> &mdash; not just the star rating, but the actual complaints, particularly those involving pricing disputes or liquidation difficulties.</li>
+        <li><strong>Demand a written, itemized fee schedule</strong> before any funds move. Setup, annual custodian, annual depository, and metal premium should each be separately disclosed.</li>
+        <li><strong>Insist on standard IRA-approved bullion</strong> &mdash; no &ldquo;exclusive&rdquo; coins, no &ldquo;premium&rdquo; products, no numismatic upsells inside the IRA.</li>
+      </ol>
+      <p>
+        Doing all five takes an hour. It is the single most valuable hour you can spend in the process.
+      </p>
+      <h2>Frequently Asked Questions</h2>
+      <h3>Is a gold IRA legitimate, or is the whole concept a scam?</h3>
+      <p>
+        The concept is legitimate &mdash; a self-directed IRA can legally hold IRS-approved gold, silver, platinum, and palladium. The structure is recognized by the IRS, and multiple reputable companies offer compliant gold IRA services. The scams are not in the concept; they are in the sales tactics and pricing of specific dealers. Vet the provider carefully and the underlying account structure is sound.
+      </p>
+      <h3>What types of gold are IRS-approved for an IRA?</h3>
+      <p>
+        Gold held in an IRA must be at least 99.5% pure (with the American Gold Eagle being a specific statutory exception). Approved products include American Gold Eagles, American Gold Buffalos, Canadian Gold Maple Leafs, Austrian Gold Philharmonics, and gold bars from refiners on accredited lists (LBMA, COMEX, or equivalent). Numismatic, collectible, and most &ldquo;exclusive&rdquo; coins are not eligible &mdash; and any dealer pushing them into an IRA is either uninformed or operating outside IRS rules.
+      </p>
+      <h3>Can I store my gold IRA at home?</h3>
+      <p>
+        No. The IRS requires precious metals held in an IRA to be stored by an approved depository. The U.S. Tax Court confirmed this in McNulty v. Commissioner (2021), ruling that home storage constituted a taxable distribution. Anyone selling a &ldquo;home storage IRA,&rdquo; &ldquo;checkbook IRA,&rdquo; or similar structure for physical precious metals is selling a structure the IRS has rejected.
+      </p>
+      <h3>What are reasonable fees for a gold IRA?</h3>
+      <p>
+        Typical fee ranges: $50&ndash;$150 for account setup, $80&ndash;$300 per year for the custodian, $100&ndash;$300 per year for the depository (commingled storage is cheaper than segregated), plus the premium over spot on the metals themselves. Total annual fees on a $100,000 account should generally fall between $200 and $500. Significantly higher fees warrant specific explanation.
+      </p>
+      <h3>How do I report a gold IRA scam?</h3>
+      <p>
+        Report to the SEC at sec.gov/tcr, the CFTC at cftc.gov/complaint, the FTC at reportfraud.ftc.gov, and your state attorney general&apos;s office. If retirement funds are involved, also file a complaint with the Department of Labor. Multiple reports across agencies increase the chance of enforcement action and help regulators identify patterns.
+      </p>
+      <p>
+        <em>Looking for a verified gold IRA dealer? Our directory lists dealers with IRA-approved programs. Featured listings publish their fee schedules and premium structures transparently.</em>
+      </p>
+      <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
+        GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver, and we do not receive compensation from any dealer listed on this site. This article is for educational purposes only and does not constitute investment advice.
+      </p>
+    </>
+  ),
+
+  "what-do-cash-for-gold-shops-actually-pay": (
+    <>
+      <p>
+        If you&apos;ve inherited jewelry, sold off a coin collection, or simply decided to liquidate some gold, you&apos;ve probably seen the signs: &ldquo;We Buy Gold &mdash; Highest Prices Paid.&rdquo; The bright storefronts at strip malls. The pawn shop counter. The mail-in envelopes advertised on late-night TV.
+      </p>
+      <p>
+        None of them are going to pay you what your gold is worth.
+      </p>
+      <p>
+        That&apos;s not an accusation of fraud. It&apos;s how the cash-for-gold business model works: buy at a steep discount, melt, refine, and resell at something closer to spot. Understanding the spread between what your gold is actually worth and what a cash-for-gold operation will pay is the difference between being ripped off and getting a fair offer.
+      </p>
+      <h2>The three channels for selling gold &mdash; and what each actually pays</h2>
+      <p>
+        Suppose you have a 14-karat gold chain weighing 20 grams. Let&apos;s work through what each channel would realistically pay, with gold spot at roughly $5,100 per troy ounce.
+      </p>
+      <p><strong>Step 1: calculate melt value.</strong></p>
+      <ul>
+        <li>14k gold is 58.3% pure gold</li>
+        <li>20 grams &times; 0.583 = 11.66 grams of pure gold</li>
+        <li>11.66 grams &divide; 31.103 (grams per troy ounce) = 0.375 troy ounces</li>
+        <li>0.375 &times; $5,100 spot = $1,913 pure-gold content at current spot</li>
+      </ul>
+      <p>
+        That&apos;s the theoretical maximum value of the metal. No buyer will pay exactly that &mdash; refining, margin, and risk all get subtracted. But it&apos;s the starting point for evaluating any offer.
+      </p>
+      <p><strong>Channel 1: Strip-mall cash-for-gold shop or pawn shop</strong></p>
+      <p>Typical payout: <strong>40%&ndash;60% of melt value</strong> &mdash; roughly $765&ndash;$1,150 on our $1,913 melt</p>
+      <p><strong>Channel 2: Local coin or precious metals dealer (buying for melt)</strong></p>
+      <p>Typical payout: <strong>75%&ndash;90% of melt value</strong> &mdash; roughly $1,435&ndash;$1,720</p>
+      <p><strong>Channel 3: Online bullion dealer buyback program</strong></p>
+      <p>Typical payout: <strong>85%&ndash;95% of melt value</strong> &mdash; roughly $1,625&ndash;$1,815</p>
+      <p><strong>Channel 4: Private buyer (online marketplace, collector)</strong></p>
+      <p>Typical payout: <strong>90%&ndash;105%+ of melt value</strong>, depending on design, brand, and collectible premium</p>
+      <p>
+        The difference between the worst channel and the best &mdash; same piece of jewelry, same day &mdash; can easily be $900 or more on a single item.
+      </p>
+      <h2>Why the spread is so wide</h2>
+      <p>
+        Cash-for-gold storefronts rely on three factors to profit:
+      </p>
+      <ol>
+        <li><strong>Sellers who don&apos;t know melt value.</strong> Most customers walk in without having calculated what their gold is actually worth. The counter employee offers a number; the customer accepts or negotiates within a narrow range the employee controls.</li>
+        <li><strong>Emotional pressure.</strong> Sellers who are liquidating because they need the money quickly are the most price-insensitive customers. The entire business model is built around this segment.</li>
+        <li><strong>Volume and refining margin.</strong> Shops ship bulk quantities of scrap gold to refiners who pay closer to 95% of spot. The shop&apos;s profit is the spread between what they paid the customer and what the refiner paid them &mdash; typically 30%&ndash;50% on each transaction.</li>
+      </ol>
+      <p>
+        None of this is illegal. It&apos;s a market where the seller is usually less informed than the buyer, and pricing reflects that imbalance.
+      </p>
+      <h2>The sales tactics that expand the spread</h2>
+      <p>
+        Even within cash-for-gold shops, pricing is not fixed &mdash; and several tactics are designed to make the initial offer lower than the shop&apos;s actual walk-away price:
+      </p>
+      <ul>
+        <li><strong>Lowball opening offer.</strong> The first offer is often 50%&ndash;60% of what the shop will actually pay if you push back. Counter with a specific number based on your calculated melt value, or walk.</li>
+        <li><strong>&ldquo;Testing&rdquo; the karat down.</strong> A 14k piece might be tested and called 10k, reducing the calculated melt value by 30%. Ask to watch the test. Pieces stamped 14k or 585 are 14k; the stamp is the starting point.</li>
+        <li><strong>&ldquo;Scrap pricing&rdquo; language.</strong> Describing your jewelry as &ldquo;scrap&rdquo; lets the buyer apply a lower percentage of melt, framed as industry-standard treatment of damaged or broken pieces. Intact jewelry is not scrap.</li>
+        <li><strong>&ldquo;Today only&rdquo; pressure.</strong> The same line used by every other commission-based sales environment. A fair offer on Monday is still a fair offer on Friday. Walk and come back if you need time to compare.</li>
+      </ul>
+      <h2>&ldquo;We pay 90% of spot&rdquo; &mdash; what this actually means</h2>
+      <p>
+        Some cash-for-gold and online buyers advertise payouts as a percentage of spot. Read the fine print carefully. &ldquo;90% of spot&rdquo; usually means 90% of spot <em>on the pure gold content</em>, which is the same as 90% of melt value &mdash; not 90% of the total weight of the jewelry.
+      </p>
+      <p>On our 20-gram 14k chain:</p>
+      <ul>
+        <li>90% of melt: 0.90 &times; $1,913 = $1,722</li>
+        <li>90% of the <em>total gram weight</em> at spot (a misleading calculation no one should accept): 20 grams &times; $164/gram (spot in grams) &times; 0.90 = $2,952 (not a real offer &mdash; used only as illustration)</li>
+      </ul>
+      <p>
+        Always verify the buyer is applying the percentage to the pure-gold content, not simulating a higher rate based on meaningless math. Confirm in writing before you ship or hand over the item.
+      </p>
+      <h2>What to do before you sell</h2>
+      <p>
+        Five steps that separate sellers who get fair offers from sellers who don&apos;t:
+      </p>
+      <ol>
+        <li><strong>Weigh each piece separately</strong> on a gram scale. Accurate weight is the foundation of every calculation.</li>
+        <li><strong>Identify the karat stamp</strong> &mdash; 10k (41.7% pure), 14k (58.3%), 18k (75%), 22k (91.7%), 24k (99.9%).</li>
+        <li><strong>Calculate melt value</strong> using the current spot price for each piece separately, then sum.</li>
+        <li><strong>Get at least three quotes</strong> &mdash; one local coin dealer, one online bullion buyback program, one cash-for-gold shop. Compare against melt.</li>
+        <li><strong>For pieces with potential collectible or designer value</strong> &mdash; branded jewelry (Tiffany, Cartier, David Yurman), older estate pieces, or signed designer work &mdash; get an appraisal before melting. Melt value may be well below resale value.</li>
+      </ol>
+      <p>
+        The entire process takes an afternoon and typically results in offers 30%&ndash;80% higher than what you&apos;d get from the first cash-for-gold counter you walked into.
+      </p>
+      <h2>When cash-for-gold shops make sense</h2>
+      <p>
+        They have a place. If you need funds today, don&apos;t want to ship or wait for online buybacks, and your pieces have no collectible value, a cash-for-gold shop is a legitimate option &mdash; just not at the shop&apos;s opening price. Counter-offer at 75%&ndash;85% of your calculated melt value. Many shops will meet you there if you&apos;ve demonstrated you know the math.
+      </p>
+      <p>
+        They are not the right channel for: branded or designer jewelry, collectible coins, signed estate pieces, or any situation where you have time to get competing offers.
+      </p>
+      <h2>Frequently Asked Questions</h2>
+      <h3>Where should I actually sell my gold jewelry to get the best price?</h3>
+      <p>
+        For non-collectible, non-designer pieces: an online bullion dealer buyback program or a local coin/precious metals dealer will typically pay 75%&ndash;95% of melt value. For collectible, branded, or designer jewelry: an appraisal followed by a sale through a specialist dealer or auction house often recovers more than melt value. Cash-for-gold shops and pawn shops are a last resort that typically pay 40%&ndash;60% of melt.
+      </p>
+      <h3>What does &ldquo;we pay 90% of spot&rdquo; actually mean?</h3>
+      <p>
+        It generally means 90% of the melt value of the pure gold content, not 90% of some inflated calculation. Multiply the gram weight by the karat purity percentage, divide by 31.103 to convert to troy ounces, then multiply by current spot to get melt value. 90% of that number is the actual payout. Confirm this calculation with the buyer before transacting.
+      </p>
+      <h3>How do I calculate the melt value of a gold chain or ring?</h3>
+      <p>
+        Gram weight &times; karat purity percentage = grams of pure gold. Divide by 31.103 to convert to troy ounces. Multiply by the current spot price per troy ounce. For a 10-gram 18k ring with spot at $5,100: 10 &times; 0.75 = 7.5 grams pure gold &divide; 31.103 = 0.241 troy oz &times; $5,100 = approximately $1,229 melt value.
+      </p>
+      <h3>Are mail-in gold-buying services legitimate?</h3>
+      <p>
+        Some are, some aren&apos;t. The best-known national mail-in services typically pay 60%&ndash;85% of melt &mdash; wider spread than local dealers, with convenience as the tradeoff. Before shipping, research the specific company&apos;s complaint history and read their fine print on how the final offer is calculated and your right to have items returned if you decline the offer. Reputable services fully insure the shipment and allow free return of declined items.
+      </p>
+      <h3>Should I melt down old gold jewelry that belonged to family?</h3>
+      <p>
+        Only if the pieces have no other significance &mdash; sentimental, artistic, or collectible. Melt value is almost always less than what a well-preserved, designer, or antique piece sells for intact to the right buyer. If there&apos;s any chance a piece is worth more than its metal content, get an independent appraisal before selling it for melt.
+      </p>
+      <p>
+        <em>Looking to sell to a dealer you can verify? Our directory lists precious metals dealers with buyback programs, including their payout rates where published.</em>
+      </p>
+      <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
+        GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver, and we do not receive compensation from any dealer listed on this site. This article is for educational purposes only and does not constitute investment advice.
+      </p>
+    </>
+  ),
 };
 
 export default function BlogPostPage({

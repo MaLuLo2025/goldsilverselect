@@ -197,4 +197,32 @@ export const blogPosts: BlogPost[] = [
       "Gold doubled. Bitcoin dropped 47% from its high. Both were supposed to be safe havens. The 2026 divergence is the data point worth examining \u2014 here\u2019s what the crisis performance data actually shows.",
     date: "2026-04-13",
   },
+  {
+    slug: "how-much-over-spot-should-i-pay-for-gold-2026",
+    title: "How Much Over Spot Should I Pay for Gold in 2026? (With Real Dollar Examples)",
+    tag: "Premiums & Pricing",
+    tagColor: "forest",
+    excerpt:
+      "Gold is near $5,100 an ounce \u2014 so what\u2019s a fair premium, what crosses into overpriced, and where do the worst rip-offs hide? Dollar-by-dollar ranges for standard bullion products, plus the \u201Cpadded spot price\u201D trick that makes unfair premiums look reasonable.",
+    date: "2026-04-20",
+    series: "Spot Price vs. What You Pay",
+  },
+  {
+    slug: "gold-ira-scams-red-flags-federal",
+    title: "Gold IRA Scams: 7 Red Flags the SEC, CFTC, and FTC Have Already Warned You About",
+    tag: "Don\u2019t Get Ripped Off",
+    tagColor: "gold",
+    excerpt:
+      "Legitimate gold IRAs are a real retirement option. The sales tactics around them are, disproportionately, how retirees get scammed. A federal enforcement-backed guide to the red flags \u2014 including the $50M Red Rock Secured SEC case, the McNulty home-storage ruling, and what actually constitutes IRS-approved precious metals.",
+    date: "2026-04-20",
+  },
+  {
+    slug: "what-do-cash-for-gold-shops-actually-pay",
+    title: "What Do Cash-for-Gold Shops Actually Pay? (And the Three Better Options)",
+    tag: "Don\u2019t Get Ripped Off",
+    tagColor: "gold",
+    excerpt:
+      "Cash-for-gold storefronts typically pay 40\u201360% of melt value. Local coin dealers pay 75\u201390%. Online bullion dealer buybacks pay 85\u201395%. A practical guide to calculating melt value, avoiding the sales tactics that expand the spread, and choosing the right channel.",
+    date: "2026-04-20",
+  },
 ];

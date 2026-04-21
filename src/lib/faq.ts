@@ -147,6 +147,18 @@ export const faqCategories: FAQCategory[] = [
         learnMoreLabel: "Capital Gains Tax on Gold and Silver",
         learnMoreHref: "/blog/capital-gains-tax-gold-silver-2026",
       },
+      {
+        question: "Where should I actually sell my gold jewelry to get the best price?",
+        learnMoreLabel: "What Do Cash-for-Gold Shops Actually Pay?",
+        learnMoreHref: "/blog/what-do-cash-for-gold-shops-actually-pay",
+        answer: "For standard non-collectible pieces: an online bullion dealer buyback program or a local coin/precious metals dealer will typically pay 75\u201395% of melt value. Cash-for-gold shops and pawn shops typically pay 40\u201360% of melt.",
+      },
+      {
+        question: "What does \u2018we pay 90% of spot\u2019 actually mean?",
+        learnMoreLabel: "What Do Cash-for-Gold Shops Actually Pay?",
+        learnMoreHref: "/blog/what-do-cash-for-gold-shops-actually-pay",
+        answer: "It generally means 90% of the melt value of the pure gold content in your item \u2014 not 90% of the total weight at spot. Multiply gram weight by karat purity, divide by 31.103 to convert to troy ounces, then multiply by current spot.",
+      },
     ],
   },
   {
@@ -198,6 +210,18 @@ export const faqCategories: FAQCategory[] = [
         learnMoreHref: "/blog/gold-silver-ratio-explained",
         answer: "The gold-to-silver ratio tells you how many ounces of silver it takes to buy one ounce of gold at current prices. If gold is $3,000/oz and silver is $30/oz, the ratio is 100:1. The historical average over the past several decades has generally ranged between 50:1 and 80:1, though it has spiked above 100:1 during periods of financial stress. Some buyers use this ratio as a signal \u2014 a historically high ratio (meaning silver is cheap relative to gold) might favor silver purchases, and vice versa. The ratio is not a prediction tool, but it provides context. You can see the live gold-to-silver ratio on our homepage ticker.",
       },
+      {
+        question: "What\u2019s a fair premium over spot for a 1-oz American Gold Eagle in 2026?",
+        learnMoreLabel: "How Much Over Spot Should I Pay for Gold?",
+        learnMoreHref: "/blog/how-much-over-spot-should-i-pay-for-gold-2026",
+        answer: "In normal market conditions, 3\u20136% over the live spot price. At gold near $5,100 an ounce, that\u2019s roughly a $150\u2013$310 premium per coin. Premiums above 10% on standard Eagles generally reflect either a temporary supply disruption or a dealer pricing well above the market. For a full breakdown of fair premium ranges across gold and silver bullion, see our guide on how much over spot to pay for gold.",
+      },
+      {
+        question: "How do I spot a padded spot price?",
+        learnMoreLabel: "How Much Over Spot Should I Pay for Gold?",
+        learnMoreHref: "/blog/how-much-over-spot-should-i-pay-for-gold-2026",
+        answer: "Compare the spot price shown on a dealer\u2019s website to an independent source \u2014 Kitco, the LBMA reference price, or a major financial news site \u2014 at the same moment. A discrepancy of more than a few dollars per ounce means the dealer is pricing against an inflated reference, and any \u2018X% over spot\u2019 claim is misleading. Reputable dealers update their spot displays in near real-time from live market feeds.",
+      },
     ],
   },
   {
@@ -248,13 +272,26 @@ export const faqCategories: FAQCategory[] = [
         links: [
           { label: "Gold IRA Scams \u2014 What You Need to Know", href: "/blog/gold-ira-scams" },
           { label: "The Home Storage Gold IRA Scam", href: "/blog/home-storage-gold-ira-scam" },
+          { label: "Gold IRA Scams: Red Flags from Federal Enforcement Actions", href: "/blog/gold-ira-scams-red-flags-federal" },
         ],
       },
       {
-        question: "Can I store gold from my IRA at home?",
-        answer: "No. The IRS requires IRA-owned bullion to be held by an approved trustee or non-bank custodian at an approved depository. \u201CHome storage\u201D and \u201Ccheckbook LLC\u201D arrangements that put IRA-owned coins in your personal possession are treated by the IRS as a full distribution of the entire account \u2014 triggering income tax on the full balance plus a 10% early withdrawal penalty if you\u2019re under 59\u00bd. The 2021 Tax Court case McNulty v. Commissioner ruled directly against this structure. If a salesperson pitches a home storage gold IRA, walk away.",
-        learnMoreLabel: "The Home Storage Gold IRA Scam",
-        learnMoreHref: "/blog/home-storage-gold-ira-scam",
+        question: "Is a gold IRA legitimate, or is the whole concept a scam?",
+        learnMoreLabel: "Gold IRA Scams: Red Flags from Federal Enforcement Actions",
+        learnMoreHref: "/blog/gold-ira-scams-red-flags-federal",
+        answer: "The concept is legitimate. A self-directed IRA can legally hold IRS-approved gold, silver, platinum, and palladium, and the structure is recognized by the IRS. What gets retirees in trouble is not the concept \u2014 it\u2019s the sales tactics and pricing of specific dealers, which the SEC, CFTC, and FTC have repeatedly pursued in enforcement actions.",
+      },
+      {
+        question: "Can I store my gold IRA at home?",
+        learnMoreLabel: "Gold IRA Scams: Red Flags from Federal Enforcement Actions",
+        learnMoreHref: "/blog/gold-ira-scams-red-flags-federal",
+        answer: "No. The IRS requires precious metals held in an IRA to be stored by an approved depository. The U.S. Tax Court confirmed this in McNulty v. Commissioner (2021), ruling that home storage constituted a taxable distribution \u2014 triggering income tax on the full value plus a 10% early withdrawal penalty for taxpayers under age 59\u00bd.",
+      },
+      {
+        question: "What types of gold are IRS-approved for an IRA?",
+        learnMoreLabel: "Gold IRA Scams: Red Flags from Federal Enforcement Actions",
+        learnMoreHref: "/blog/gold-ira-scams-red-flags-federal",
+        answer: "Gold held in an IRA must be at least 99.5% pure (with the American Gold Eagle as a statutory exception). Approved products include American Gold Eagles, American Gold Buffalos, Canadian Gold Maple Leafs, Austrian Gold Philharmonics, and gold bars from refiners on accredited lists.",
       },
       {
         question: "What is allocated vs. segregated vs. unallocated storage?",
