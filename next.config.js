@@ -31,20 +31,56 @@ const nextConfig = {
     ];
   },
   async rewrites() {
-    return [
-      {
-        source: '/tradesilvester',
-        destination: '/tradesilvester/index.html',
-      },
-      {
-        source: '/silvester',
-        destination: '/silvester/index.html',
-      },
-      {
-        source: '/tory',
-        destination: '/tory/index.html',
-      },
-    ];
+    return {
+      beforeFiles: [
+        // tradesilvester.com — serve static files from public/tradesilvester/
+        {
+          source: '/',
+          destination: '/tradesilvester/index.html',
+          has: [{ type: 'host', value: '(www\\.)?tradesilvester\\.com' }],
+        },
+        {
+          source: '/app.html',
+          destination: '/tradesilvester/app.html',
+          has: [{ type: 'host', value: '(www\\.)?tradesilvester\\.com' }],
+        },
+        {
+          source: '/favicon.svg',
+          destination: '/tradesilvester/favicon.svg',
+          has: [{ type: 'host', value: '(www\\.)?tradesilvester\\.com' }],
+        },
+        {
+          source: '/icons.svg',
+          destination: '/tradesilvester/icons.svg',
+          has: [{ type: 'host', value: '(www\\.)?tradesilvester\\.com' }],
+        },
+        {
+          source: '/assets/:path*',
+          destination: '/tradesilvester/assets/:path*',
+          has: [{ type: 'host', value: '(www\\.)?tradesilvester\\.com' }],
+        },
+        {
+          source: '/:path(silvester-logo-.*\\.png)',
+          destination: '/tradesilvester/:path',
+          has: [{ type: 'host', value: '(www\\.)?tradesilvester\\.com' }],
+        },
+      ],
+      afterFiles: [
+        // Path-based rewrites for goldsilverselect.com subpages
+        {
+          source: '/tradesilvester',
+          destination: '/tradesilvester/index.html',
+        },
+        {
+          source: '/silvester',
+          destination: '/silvester/index.html',
+        },
+        {
+          source: '/tory',
+          destination: '/tory/index.html',
+        },
+      ],
+    };
   },
 };
 
