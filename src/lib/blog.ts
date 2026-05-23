@@ -2,6 +2,39 @@ import { BlogPost } from "./types";
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "sell-back-spreads-what-dealers-actually-pay",
+    title:
+      "What You Actually Get When You Sell Silver Back: Dealer Spreads Explained",
+    tag: "Premiums & Pricing",
+    tagColor: "forest",
+    excerpt:
+      "Reputable dealers pay 90\u201397% of melt value for generic bullion. Learn how quantities, product types, and dealer overhead affect your sell-back price and exit strategy.",
+    date: "2026-05-26",
+    series: "Spot Price vs. What You Pay",
+  },
+  {
+    slug: "numismatic-premium-vs-bullion-value",
+    title:
+      "Numismatic Premium vs Bullion Value: When Scarcity Drives the Price",
+    tag: "Premiums & Pricing",
+    tagColor: "forest",
+    excerpt:
+      "The same silver dollar can trade from $25 to $1,200+ depending on rarity and grade. Learn when numismatic premiums reflect real value and when they\u2019re dealer markups disguised as collectibility.",
+    date: "2026-05-26",
+    series: "Spot Price vs. What You Pay",
+  },
+  {
+    slug: "junk-silver-pricing-face-value-premium",
+    title:
+      "Junk Silver Pricing: How Face Value Converts to Premium Over Spot",
+    tag: "Premiums & Pricing",
+    tagColor: "forest",
+    excerpt:
+      "$1 face value of pre-1965 silver coins contains 0.715 troy ounces of pure silver. Learn how to calculate fair prices, typical premiums, and when junk silver offers better value than modern bullion.",
+    date: "2026-05-26",
+    series: "Spot Price vs. What You Pay",
+  },
+  {
     slug: "home-storage-gold-ira-scam",
     title:
       "The Home Storage Gold IRA Scam: Why the IRS Penalty Could Cost You Everything",

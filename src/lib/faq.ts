@@ -37,8 +37,11 @@ export const faqCategories: FAQCategory[] = [
       {
         question: "What\u2019s the difference between bullion and numismatic coins?",
         answer: "Bullion is valued primarily by its metal content and weight \u2014 a 1 oz gold bar is worth roughly 1 oz of gold plus a modest premium. Numismatic coins are valued for rarity, condition, historical significance, and collector demand, often well above their metal value. A rare date Morgan Silver Dollar might sell for hundreds of times the value of its silver content. If your goal is to own metal, buy bullion. If you\u2019re a collector who understands grading and mintage numbers, numismatic premiums can be justified \u2014 but understand that you\u2019re paying for the coin, not just the metal inside it.",
-        learnMoreLabel: "Gold Coin Premiums Compared",
-        learnMoreHref: "/blog/gold-coin-premiums-compared",
+        learnMoreLabel: "Numismatic Premium vs Bullion Value: When Scarcity Drives the Price",
+        learnMoreHref: "/blog/numismatic-premium-vs-bullion-value",
+        links: [
+          { label: "Gold Coin Premiums Compared", href: "/blog/gold-coin-premiums-compared" },
+        ],
       },
       {
         question: "Should I buy gold online or from a local coin shop?",
@@ -92,12 +95,33 @@ export const faqCategories: FAQCategory[] = [
         answer: "\u201CJunk silver\u201D refers to pre-1965 U.S. coins \u2014 dimes, quarters, and half dollars \u2014 that contain 90% silver. The term \u201Cjunk\u201D doesn\u2019t mean they\u2019re worthless. It means they have no significant numismatic or collectible value \u2014 they\u2019re bought and sold purely for their silver content. A $1 face value bag of pre-1965 quarters contains approximately 0.715 troy ounces of pure silver. Junk silver is popular because it comes in small, divisible denominations, is widely recognized, and has a fixed supply that makes it genuinely scarce during high-demand periods.",
         learnMoreLabel: "Junk Silver Premiums Explained: The Constitutional Silver Guide",
         learnMoreHref: "/blog/junk-silver-premiums-explained",
+        links: [
+          { label: "Junk Silver Pricing: How Face Value Converts to Premium Over Spot", href: "/blog/junk-silver-pricing-face-value-premium" },
+        ],
       },
       {
         question: "Should I pay with credit card or bank transfer?",
         answer: "Most online dealers charge a 2\u20134% surcharge for credit card purchases versus wire transfer or ACH payment. On a $3,000 purchase, that\u2019s $60\u2013120 in additional cost. Bank transfers save money but take longer to process and don\u2019t offer the purchase protection that comes with a credit card. Some buyers accept the surcharge for the convenience and rewards points. There\u2019s no wrong answer, but you should factor the payment method into your total cost comparison.",
         learnMoreLabel: "What Should I Truly Pay for Gold and Silver?",
         learnMoreHref: "/blog/what-should-i-truly-pay-for-gold-and-silver",
+      },
+      {
+        question: "When should I pay numismatic premiums instead of buying bullion?",
+        answer: "Pay numismatic premiums when you\u2019re building a collection for personal enjoyment, have expertise to identify undervalued coins, are buying PCGS or NGC graded coins at prices verified against auction results, or view numismatics as a hobby first and investment second. Don\u2019t pay numismatic premiums when buying silver as an inflation hedge, when dealers pressure you with \u201Crare investment opportunities,\u201D when coins aren\u2019t third-party graded, or when premiums are justified with vague \u201Ccollectible\u201D claims.",
+        learnMoreLabel: "Numismatic Premium vs Bullion Value: When Scarcity Drives the Price",
+        learnMoreHref: "/blog/numismatic-premium-vs-bullion-value",
+      },
+      {
+        question: "What\u2019s the difference between bullion value and numismatic value?",
+        answer: "Bullion value is based on precious metal content \u2014 spot price plus a small premium for manufacturing and distribution. Numismatic value is based on rarity, condition (grade), historical significance, or mint errors. The same silver dollar can trade from $25 (melt value) to $1,200+ (rare date in high grade) depending on these factors. The metal is worth $23\u201325; everything above that is numismatic premium.",
+        learnMoreLabel: "Numismatic Premium vs Bullion Value: When Scarcity Drives the Price",
+        learnMoreHref: "/blog/numismatic-premium-vs-bullion-value",
+      },
+      {
+        question: "Should I get my coins professionally graded?",
+        answer: "Only if the grade significantly affects value. Grading costs $25\u201350 per coin plus shipping. You wouldn\u2019t grade a common-date silver dollar worth $25 raw because fees exceed any premium gain. You would grade a rare-date Morgan that might be worth $500 in MS-64 but $1,500 in MS-65. For buyers: don\u2019t pay numismatic premiums for raw coins unless you have expertise to grade accurately. If dealers won\u2019t send coins for third-party grading, they\u2019re either overgrading or the coins have problems professional examination would reveal.",
+        learnMoreLabel: "Numismatic Premium vs Bullion Value: When Scarcity Drives the Price",
+        learnMoreHref: "/blog/numismatic-premium-vs-bullion-value",
       },
     ],
   },
@@ -114,14 +138,20 @@ export const faqCategories: FAQCategory[] = [
       {
         question: "What will a dealer pay me for my gold or silver?",
         answer: "Dealers typically buy at or slightly below the current spot price for commodity bullion, and at a small premium below spot for highly recognizable products like American Gold Eagles and Maple Leafs. The gap between what you paid when you bought (premium above spot) and what you receive when you sell (at or near spot) is the round-trip cost of ownership. This spread varies by product and by dealer. Always ask about buyback pricing before you make a purchase.",
-        learnMoreLabel: "What Should I Truly Pay for Gold and Silver?",
-        learnMoreHref: "/blog/what-should-i-truly-pay-for-gold-and-silver",
+        learnMoreLabel: "What Dealers Actually Pay: Sell-Back Spreads Explained",
+        learnMoreHref: "/blog/sell-back-spreads-what-dealers-actually-pay",
+        links: [
+          { label: "What Should I Truly Pay for Gold and Silver?", href: "/blog/what-should-i-truly-pay-for-gold-and-silver" },
+        ],
       },
       {
         question: "Where can I sell gold and silver coins I inherited?",
         answer: "Start by identifying what you have. Government-minted bullion coins \u2014 Eagles, Maple Leafs, Krugerrands \u2014 are straightforward. Their value is primarily their metal content, and any reputable dealer can quote you a price. Numismatic or collectible coins are more complex. Their value may be significantly above metal content based on rarity, condition, and collector demand. For bullion, get quotes from multiple local and online dealers. For potentially valuable collectible coins, consider a professional appraisal from a PCGS or NGC authorized dealer before selling.",
-        learnMoreLabel: "Numismatic vs. Bullion \u2014 Understanding the Markup",
-        learnMoreHref: "/blog/gold-coin-premiums-compared",
+        learnMoreLabel: "Numismatic Premium vs Bullion Value: When Scarcity Drives the Price",
+        learnMoreHref: "/blog/numismatic-premium-vs-bullion-value",
+        links: [
+          { label: "What Dealers Actually Pay: Sell-Back Spreads Explained", href: "/blog/sell-back-spreads-what-dealers-actually-pay" },
+        ],
       },
       {
         question: "Should I sell my gold when the price goes up?",
@@ -159,6 +189,24 @@ export const faqCategories: FAQCategory[] = [
         learnMoreHref: "/blog/what-do-cash-for-gold-shops-actually-pay",
         answer: "It generally means 90% of the melt value of the pure gold content in your item \u2014 not 90% of the total weight at spot. Multiply gram weight by karat purity, divide by 31.103 to convert to troy ounces, then multiply by current spot.",
       },
+      {
+        question: "What percentage of melt value should dealers pay when I sell silver?",
+        answer: "Reputable bullion dealers typically pay 90\u201397% of melt value for generic bullion products. Large quantities of recognizable bullion (100+ oz of Silver Eagles) fetch 96\u201397%. Medium quantities (10\u2013100 oz) get 92\u201395%. Small quantities (under 10 oz) or oddball products get 90\u201392%. If a dealer offers less than 90% of melt on generic bullion, they\u2019re either running high overhead, exploiting your urgency, or planning to resell at abnormally high premiums.",
+        learnMoreLabel: "What Dealers Actually Pay: Sell-Back Spreads Explained",
+        learnMoreHref: "/blog/sell-back-spreads-what-dealers-actually-pay",
+      },
+      {
+        question: "Where should I sell silver \u2014 online dealers, local shops, or pawn shops?",
+        answer: "Online bullion dealers typically offer the best prices (95\u201397% of melt for large quantities) but require shipping and 5\u201310 days for payment. Local coin shops pay 2\u20135% less but offer immediate payment. Pawn shops should be last resort \u2014 expect 70\u201380% of melt value. The premium you pay for instant local liquidity versus online rates is 2\u20135%. For most sellers, online dealers deliver better value unless you need cash same-day.",
+        learnMoreLabel: "What Dealers Actually Pay: Sell-Back Spreads Explained",
+        learnMoreHref: "/blog/sell-back-spreads-what-dealers-actually-pay",
+      },
+      {
+        question: "What products get the best sell-back rates?",
+        answer: "Government bullion (Silver Eagles, Maples, Britannias) sells back at 95\u201397% of melt because they\u2019re universally recognized and easy to authenticate. Generic rounds and bars sell at 92\u201395%. Junk silver (90% coins) sells at 90\u201394% depending on quantity. Foreign government bullion varies 93\u201396% based on recognition. Numismatic coins are unpredictable (50\u201390% of recent retail depending on market). If you\u2019re buying silver to preserve wealth with potential need to sell, stick to products with the highest sell-back rates.",
+        learnMoreLabel: "What Dealers Actually Pay: Sell-Back Spreads Explained",
+        learnMoreHref: "/blog/sell-back-spreads-what-dealers-actually-pay",
+      },
     ],
   },
   {
@@ -188,12 +236,18 @@ export const faqCategories: FAQCategory[] = [
         answer: "Junk silver (pre-1965 U.S. coins with 90% silver) is priced per dollar of face value, not per coin. The silver content per dollar of face value is approximately 0.715 troy ounces. To calculate melt value: multiply face value \u00d7 0.715 \u00d7 the current spot price of silver. Premiums on junk silver fluctuate more than standard bullion because supply is finite and shrinking \u2014 no new coins are being minted. During quiet markets, junk silver can trade near or even below melt value. During demand surges, premiums can spike dramatically.",
         learnMoreLabel: "Junk Silver Premiums Explained",
         learnMoreHref: "/blog/junk-silver-premiums-explained",
+        links: [
+          { label: "Junk Silver Pricing: How Face Value Converts to Premium Over Spot", href: "/blog/junk-silver-pricing-face-value-premium" },
+        ],
       },
       {
         question: "What is the round-trip cost of buying and selling precious metals?",
         answer: "The round-trip cost is the total premium you pay when buying plus the discount you receive when selling. If you buy a gold coin at 5% over spot and sell it back at 2% below spot, your round-trip cost is roughly 7%. This is the true cost of ownership \u2014 not just the premium you paid going in. Product choice affects the round trip: government-minted coins like Eagles generally command better buyback prices than generic rounds, partially offsetting their higher purchase premium. Always ask about buyback pricing before you buy.",
         learnMoreLabel: "Spot Price vs. What You Actually Pay",
         learnMoreHref: "/blog/spot-price-vs-what-you-actually-pay",
+        links: [
+          { label: "What Dealers Actually Pay: Sell-Back Spreads Explained", href: "/blog/sell-back-spreads-what-dealers-actually-pay" },
+        ],
       },
       {
         question: "Why do premiums spike sometimes?",
@@ -221,6 +275,84 @@ export const faqCategories: FAQCategory[] = [
         learnMoreLabel: "How Much Over Spot Should I Pay for Gold?",
         learnMoreHref: "/blog/how-much-over-spot-should-i-pay-for-gold-2026",
         answer: "Compare the spot price shown on a dealer\u2019s website to an independent source \u2014 Kitco, the LBMA reference price, or a major financial news site \u2014 at the same moment. A discrepancy of more than a few dollars per ounce means the dealer is pricing against an inflated reference, and any \u2018X% over spot\u2019 claim is misleading. Reputable dealers update their spot displays in near real-time from live market feeds.",
+      },
+      {
+        question: "What is the spot price of gold?",
+        learnMoreLabel: "Spot Price vs. What You Pay",
+        learnMoreHref: "/blog/spot-price-vs-what-you-pay",
+        answer: "The spot price is the wholesale benchmark for institutional gold trading \u2014 what large dealers, refineries, and central banks pay each other for gold in 100-ounce or 1,000-ounce institutional bars. The LBMA Gold Price (set twice daily in London) and the COMEX gold futures contract together establish the reference point for nearly every other gold price worldwide. Retail buyers pay spot plus a premium covering minting, distribution, dealer overhead, and margin.",
+      },
+      {
+        question: "Why does my dealer charge more than the spot price?",
+        learnMoreLabel: "Spot Price vs. What You Pay",
+        learnMoreHref: "/blog/spot-price-vs-what-you-pay",
+        answer: "The premium covers six things: mint cost (producing the coin), refining and fabrication, wholesale distribution markup, dealer overhead (rent, staff, security, insurance), inventory risk (the dealer absorbs spot price drops on inventory they hold), and dealer margin. For a 1-ounce gold coin in normal market conditions, the premium typically runs 3% to 8% over spot.",
+      },
+      {
+        question: "What\u2019s a fair premium on a Gold American Eagle?",
+        learnMoreLabel: "Gold Coin Premiums Compared",
+        learnMoreHref: "/blog/gold-coin-premiums-compared",
+        answer: "3% to 7% over spot is the typical range for a 1-ounce Gold American Eagle in normal 2026 market conditions. Premiums above 8% during normal market conditions are above market. Premiums below 3% are rare and warrant questions \u2014 sometimes a legitimate promotional offer, sometimes a sign of counterfeit risk on lesser-known dealer sites.",
+      },
+      {
+        question: "Are gold bars cheaper than gold coins?",
+        learnMoreLabel: "Gold Coin Premiums Compared",
+        learnMoreHref: "/blog/gold-coin-premiums-compared",
+        answer: "Per ounce, yes \u2014 bars typically carry lower premiums than coins of equal weight, and larger bars carry lower per-ounce premiums than smaller ones. The tradeoffs: bars are generally less recognized in informal resale markets than government-mint coins, large bars require selling the entire bar at once rather than partial liquidation, and some buyers value the design and recognition of coins enough to pay the premium difference.",
+      },
+      {
+        question: "Is the Krugerrand IRA-eligible?",
+        learnMoreLabel: "Gold Coin Premiums Compared",
+        learnMoreHref: "/blog/gold-coin-premiums-compared",
+        answer: "No. IRS rules require gold in retirement accounts to meet .995 fineness. The Krugerrand\u2019s .9167 fineness falls below the threshold. The Gold American Eagle, despite being .9167 fineness, has a specific statutory exemption that no other .9167 coin receives. For IRA-eligible gold positions, look to Eagles, Maple Leafs, or .9999-fine bars from approved refiners.",
+      },
+      {
+        question: "Why are silver premiums so much higher than gold premiums in percentage terms?",
+        learnMoreLabel: "Silver Premiums and Bar Size",
+        learnMoreHref: "/blog/silver-premiums-and-bar-size",
+        answer: "Fixed fabrication costs (minting, packaging, distribution) are similar between gold and silver in absolute dollars \u2014 roughly $1\u20133 per ounce of metal. Spread across a $32 ounce of silver, those costs become a much larger percentage than when spread across a $2,650 ounce of gold. The percentage premium on silver looks alarming but is proportionate to gold premium in dollar-of-fabrication terms.",
+      },
+      {
+        question: "Are 100-ounce silver bars a good deal?",
+        learnMoreLabel: "Silver Premiums and Bar Size",
+        learnMoreHref: "/blog/silver-premiums-and-bar-size",
+        answer: "Per ounce of metal, yes \u2014 they typically carry the lowest premium of any common silver product (3\u20136% over spot). Tradeoffs: reduced divisibility (the bar must be sold whole), lower recognition in informal resale markets, and slightly higher counterfeit risk that responsible dealer selection mitigates. For long-hold positions where the bar will be held to maturity or sold all at once, 100-oz bars are usually the cost-efficient choice.",
+      },
+      {
+        question: "What\u2019s the difference between a dealer\u2019s bid and ask price?",
+        learnMoreLabel: "Spot Price vs. What You Pay",
+        learnMoreHref: "/blog/spot-price-vs-what-you-pay",
+        answer: "The ask is what the dealer charges you to buy. The bid is what the dealer pays you to sell. The spread between them is the dealer\u2019s full margin on a round-trip transaction. For a Gold Eagle, a representative spread might be $110 on a $2,800 buy price \u2014 about 4%. The bid-ask spread is the round-trip cost of holding the coin if you buy and sell at the same dealer with no spot price movement. Compare spreads, not just headline ask prices.",
+      },
+      {
+        question: "Should I buy junk silver?",
+        learnMoreLabel: "Silver Premiums and Bar Size",
+        learnMoreHref: "/blog/silver-premiums-and-bar-size",
+        answer: "Junk silver (pre-1965 U.S. dimes, quarters, half-dollars containing 90% silver) provides maximum divisibility \u2014 a roll of silver dimes lets you sell ten cents of silver at a time. Modern bullion provides higher purity (.999 vs .900) and cleaner authentication. For most buyers, modern bullion is the cost-efficient choice. Junk silver makes sense if divisibility into very small units has specific value to you.",
+      },
+      {
+        question: "How do dealer premium quotes change during market volatility?",
+        learnMoreLabel: "Spot Price vs. What You Pay",
+        learnMoreHref: "/blog/spot-price-vs-what-you-pay",
+        answer: "Premiums tend to widen meaningfully during periods of rapid spot price movement or unusual retail demand. In March 2020, Gold Eagle premiums briefly exceeded 10% over spot. In late 2022, similar spikes occurred. During those periods, dealers raise premiums to manage inventory risk and demand surge. Buying during volatility means paying inflated premiums on top of inflated spot prices. Disciplined buyers wait for premiums to normalize.",
+      },
+      {
+        question: "How do I convert junk silver face value to actual silver weight?",
+        answer: "The standard conversion for 90% silver coins: $1.00 face value = 0.715 troy ounces of pure silver. So $100 face value = 71.5 troy ounces, and a $1,000 face value bag contains 715 troy ounces. This applies to dimes, quarters, and half dollars minted 1964 and earlier.",
+        learnMoreLabel: "Junk Silver Pricing: How Face Value Converts to Premium Over Spot",
+        learnMoreHref: "/blog/junk-silver-pricing-face-value-premium",
+      },
+      {
+        question: "Why does junk silver have lower premiums than modern bullion?",
+        answer: "Junk silver skips minting costs (the government absorbed those in the 1950s\u201360s), has no government guarantee of weight and purity, and shows wear from circulation. Typical premiums run $0.99\u2013$2.49 per ounce over spot versus $3\u20135 for American Silver Eagles. You\u2019re buying worn coins valued purely for silver content, not pristine government-backed bullion products. This makes junk silver one of the most cost-effective ways to acquire physical silver by weight.",
+        learnMoreLabel: "Junk Silver Pricing: How Face Value Converts to Premium Over Spot",
+        learnMoreHref: "/blog/junk-silver-pricing-face-value-premium",
+      },
+      {
+        question: "Do dimes, quarters, and halves have the same silver content per dollar of face value?",
+        answer: "Yes. All 90% silver dimes, quarters, and half dollars contain 0.715 troy ounces of silver per dollar of face value. The mix doesn\u2019t affect total silver content \u2014 a $100 bag of all dimes contains the same amount of silver as a $100 bag of all quarters. The only difference is fractional flexibility (dimes give smaller units for potential barter).",
+        learnMoreLabel: "Junk Silver Pricing: How Face Value Converts to Premium Over Spot",
+        learnMoreHref: "/blog/junk-silver-pricing-face-value-premium",
       },
     ],
   },
