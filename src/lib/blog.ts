@@ -2,6 +2,38 @@ import { BlogPost } from "./types";
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "gold-ira-fees-scams",
+    title:
+      "Gold IRA Fees and Scams: What the Industry Doesn\u2019t Want You to Calculate",
+    tag: "Investor Protection",
+    tagColor: "gold",
+    excerpt:
+      "Gold IRAs are legitimate but aggressively marketed. Learn the real fee structure, common scams like numismatic upselling and inflated markups, and how to evaluate providers before signing.",
+    date: "2026-06-09",
+  },
+  {
+    slug: "dca-vs-timing-precious-metals",
+    title:
+      "Dollar-Cost Averaging vs Timing the Market for Precious Metals",
+    tag: "Premiums & Pricing",
+    tagColor: "forest",
+    excerpt:
+      "Market timing requires forecasting inflation, central bank policy, and sentiment simultaneously. Dollar-cost averaging eliminates the timing decision and produces comparable results for most buyers.",
+    date: "2026-06-09",
+    series: "Spot Price vs. What You Pay",
+  },
+  {
+    slug: "gold-silver-ratio-buyers-guide",
+    title:
+      "The Gold-to-Silver Ratio: What Buyers Actually Need to Know",
+    tag: "Premiums & Pricing",
+    tagColor: "forest",
+    excerpt:
+      "The ratio tells you which metal offers more per dollar relative to historical norms. Learn the 80/60 rule, how industrial demand shifts the ratio, and how ratio traders accumulate ounces over time.",
+    date: "2026-06-09",
+    series: "Spot Price vs. What You Pay",
+  },
+  {
     slug: "sell-back-spreads-what-dealers-actually-pay",
     title:
       "What You Actually Get When You Sell Silver Back: Dealer Spreads Explained",

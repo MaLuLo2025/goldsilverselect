@@ -100,6 +100,18 @@ export const faqCategories: FAQCategory[] = [
         ],
       },
       {
+        question: "Should I dollar-cost average or wait for the right time to buy precious metals?",
+        answer: "Dollar-cost averaging\u2014buying a fixed dollar amount at regular intervals regardless of price\u2014outperforms most retail timing attempts for two structural reasons: it eliminates emotional decision-making, and round-trip dealer premiums plus sell-back spreads (typically 4-8% combined) mean timing needs to be right by more than that amount just to break even versus systematic buying. Set an interval (monthly or quarterly), choose a consistent product, automate purchases if possible, and track your average cost per ounce over time.",
+        learnMoreLabel: "Dollar-Cost Averaging vs Timing the Market for Precious Metals",
+        learnMoreHref: "/blog/dca-vs-timing-precious-metals",
+      },
+      {
+        question: "How do I track my cost basis for physical silver and gold?",
+        answer: "Record every purchase with date, product, quantity, total cost including shipping, and average cost per ounce at time of purchase. Your overall average cost per ounce is total dollars spent divided by total ounces owned. This matters for tax purposes when you sell (physical metals are taxed as collectibles at up to 28% for long-term gains), and for tracking whether your strategy is working. A simple spreadsheet updated with each purchase is sufficient for most buyers.",
+        learnMoreLabel: "Dollar-Cost Averaging vs Timing the Market for Precious Metals",
+        learnMoreHref: "/blog/dca-vs-timing-precious-metals",
+      },
+      {
         question: "Should I pay with credit card or bank transfer?",
         answer: "Most online dealers charge a 2\u20134% surcharge for credit card purchases versus wire transfer or ACH payment. On a $3,000 purchase, that\u2019s $60\u2013120 in additional cost. Bank transfers save money but take longer to process and don\u2019t offer the purchase protection that comes with a credit card. Some buyers accept the surcharge for the convenience and rewards points. There\u2019s no wrong answer, but you should factor the payment method into your total cost comparison.",
         learnMoreLabel: "What Should I Truly Pay for Gold and Silver?",
@@ -331,6 +343,18 @@ export const faqCategories: FAQCategory[] = [
         answer: "Junk silver (pre-1965 U.S. dimes, quarters, half-dollars containing 90% silver) provides maximum divisibility \u2014 a roll of silver dimes lets you sell ten cents of silver at a time. Modern bullion provides higher purity (.999 vs .900) and cleaner authentication. For most buyers, modern bullion is the cost-efficient choice. Junk silver makes sense if divisibility into very small units has specific value to you.",
       },
       {
+        question: "What is the gold-to-silver ratio and why does it matter?",
+        answer: "The gold-to-silver ratio is gold\u2019s spot price divided by silver\u2019s spot price\u2014it tells you how many ounces of silver it takes to buy one ounce of gold. The live ratio displays in our price ticker alongside spot prices. Historically, the ratio has averaged around 68 over the past 30 years, with a high of 126 (COVID panic in 2020) and lows near 30. When the ratio is above 80, silver is historically undervalued relative to gold, making it a better relative value for new buyers. When below 60, gold is relatively cheaper. The ratio doesn\u2019t predict where prices go\u2014it tells you which metal offers more per dollar today compared to historical norms.",
+        learnMoreLabel: "The Gold-to-Silver Ratio: What Buyers Actually Need to Know",
+        learnMoreHref: "/blog/gold-silver-ratio-buyers-guide",
+      },
+      {
+        question: "Is a high gold-to-silver ratio a signal to buy silver?",
+        answer: "It\u2019s a signal that silver is relatively undervalued compared to gold\u2014not necessarily that silver prices will rise. The ratio can stay elevated for years or push to new extremes before reverting. Experienced buyers use a high ratio as a tiebreaker when deciding between metals, not as a standalone buy signal. Pair ratio context with dealer premium awareness and your overall allocation goals.",
+        learnMoreLabel: "The Gold-to-Silver Ratio: What Buyers Actually Need to Know",
+        learnMoreHref: "/blog/gold-silver-ratio-buyers-guide",
+      },
+      {
         question: "How do dealer premium quotes change during market volatility?",
         learnMoreLabel: "Spot Price vs. What You Pay",
         learnMoreHref: "/blog/spot-price-vs-what-you-pay",
@@ -405,6 +429,7 @@ export const faqCategories: FAQCategory[] = [
           { label: "Gold IRA Scams \u2014 What You Need to Know", href: "/blog/gold-ira-scams" },
           { label: "The Home Storage Gold IRA Scam", href: "/blog/home-storage-gold-ira-scam" },
           { label: "Gold IRA Scams: Red Flags from Federal Enforcement Actions", href: "/blog/gold-ira-scams-red-flags-federal" },
+          { label: "Gold IRA Fees and Scams: What the Industry Doesn\u2019t Want You to Calculate", href: "/blog/gold-ira-fees-scams" },
         ],
       },
       {
@@ -479,6 +504,33 @@ export const faqCategories: FAQCategory[] = [
       {
         question: 'What does "confiscation-proof" mean? Should I worry about the government taking my gold?',
         answer: "\u201CConfiscation-proof\u201D is a marketing term frequently used by gold IRA companies and high-premium coin dealers to justify steering buyers toward expensive numismatic coins. The claim is usually that collectible coins were exempt from Executive Order 6102 in 1933, when the U.S. government required citizens to turn in gold holdings. While there was a narrow exemption for coins with recognized collector value in 1933, the circumstances of that era \u2014 the gold standard, fixed gold prices, a specific economic emergency \u2014 bear no resemblance to today\u2019s monetary system. No modern U.S. law or executive order has suggested gold confiscation, and no serious analysis treats it as a realistic near-term scenario. When a dealer uses confiscation fears to sell you a high-premium product, they\u2019re selling fear, not protection.",
+      },
+    ],
+  },
+  {
+    id: "gold-iras",
+    title: "Gold IRAs",
+    items: [
+      {
+        question: "Is a Gold IRA a legitimate retirement strategy?",
+        answer: "Gold IRAs\u2014self-directed IRAs holding physical precious metals at an IRS-approved depository\u2014are a legitimate account structure. The metals are real, the IRS approval is real, and the tax advantages mirror traditional or Roth IRAs. The concern isn\u2019t the structure; it\u2019s the cost structure most companies apply: dealer markups of 10-40% above market prices on product going into the account, plus annual custodian fees, plus depository storage fees of 0.5-1% annually, plus liquidation costs. These fees require significant price appreciation just to break even. Evaluate total cost\u2014not just the tax advantage pitch\u2014before opening an account.",
+        learnMoreLabel: "Gold IRA Fees and Scams: What the Industry Doesn\u2019t Want You to Calculate",
+        learnMoreHref: "/blog/gold-ira-fees-scams",
+      },
+      {
+        question: "What are the warning signs of a predatory Gold IRA company?",
+        answer: "Red flags: urgent sales pressure around imminent currency collapse or hyperinflation; pushing numismatic or \u201Ccollector\u201D coins instead of standard bullion (these carry massive markups); refusing to provide complete written fee disclosures before account opening; unclear or slow buyback processes; \u201Cfree silver\u201D bonuses funded by inflated markup on your first purchase; claims of IRS \u201Cendorsement\u201D of specific products (the IRS approves the structure, not the company). Legitimate providers give you complete fee schedules in writing without pressure to act immediately.",
+        learnMoreLabel: "Gold IRA Fees and Scams: What the Industry Doesn\u2019t Want You to Calculate",
+        learnMoreHref: "/blog/gold-ira-fees-scams",
+        links: [
+          { label: "Gold IRA Scams: Red Flags from Federal Enforcement Actions", href: "/blog/gold-ira-scams-red-flags-federal" },
+        ],
+      },
+      {
+        question: "What does physical gold in a Gold IRA actually cost?",
+        answer: "Three fee layers: (1) dealer markup above spot price on the product purchased\u2014often 10-40% above open-market prices in direct-to-consumer gold IRA channels; (2) annual custodian maintenance fees, typically $50-$300/year; (3) depository storage fees, typically 0.5-1% of account value annually. A $100,000 account can absorb $10,000-$40,000 in initial markup plus $1,250-$1,300/year in ongoing fees. Get a complete written fee schedule before committing to any provider, and compare the product price they quote against standard dealer premiums.",
+        learnMoreLabel: "Gold IRA Fees and Scams: What the Industry Doesn\u2019t Want You to Calculate",
+        learnMoreHref: "/blog/gold-ira-fees-scams",
       },
     ],
   },
