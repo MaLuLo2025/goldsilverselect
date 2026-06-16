@@ -317,4 +317,7 @@ export const blogPosts: BlogPost[] = [
       "Northwest Territorial Mint’s 2016 bankruptcy left customers out millions. Bullion Direct closed in 2015 with unfilled orders. Whether you recover your metal depends almost entirely on how it was held before the failure.",
     date: "2026-06-30",
   },
+  { slug: "buying-gold-pawn-shop", title: "Buying Gold at a Pawn Shop: When It Makes Sense and When to Walk Away", tag: "Buyer’s Guide", tagColor: "gold", excerpt: "Pawn shops sell gold. Some of it is priced well. Most of it isn’t. Understanding the economics of how pawn shops acquire and price gold-bearing inventory is the filter you need.", date: "2026-06-30" },
+  { slug: "silver-industrial-demand", title: "Silver’s Industrial Demand: Why It Behaves Differently Than Gold", tag: "Market Dynamics", tagColor: "gold", excerpt: "Silver’s price behavior differs from gold’s in ways that matter for investors — primarily because of silver’s significant industrial role. Understanding what drives it clarifies why silver is more volatile.", date: "2026-06-30" },
+  { slug: "dealer-buyback-programs", title: "How Dealer Buyback Programs Work and How to Evaluate Them", tag: "Buyer’s Guide", tagColor: "gold", excerpt: "Where you sell your precious metals matters as much as where you buy them. Dealer buyback programs vary significantly in their terms, pricing, and reliability.", date: "2026-06-30" },
 ];
