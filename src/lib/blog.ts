@@ -290,4 +290,31 @@ export const blogPosts: BlogPost[] = [
       "Cash-for-gold storefronts typically pay 40\u201360% of melt value. Local coin dealers pay 75\u201390%. Online bullion dealer buybacks pay 85\u201395%. A practical guide to calculating melt value, avoiding the sales tactics that expand the spread, and choosing the right channel.",
     date: "2026-04-20",
   },
+  {
+    slug: "precious-metals-dealer-scams",
+    title: "How to Spot a Precious Metals Dealer Scam Before You Lose Money",
+    tag: "Don’t Get Ripped Off",
+    tagColor: "gold",
+    excerpt:
+      "The precious metals industry has legitimate dealers at every level — and a persistent predatory fringe pushing products at 50 to 100% above market value. Six specific red flags to check before you send a wire.",
+    date: "2026-06-30",
+  },
+  {
+    slug: "physical-silver-vs-etf",
+    title: "Physical Silver vs. Silver ETFs: What You Actually Own",
+    tag: "Investor Protection",
+    tagColor: "gold",
+    excerpt:
+      "Silver ETFs and physical silver bars both track silver’s price. But the ownership structure, counterparty risk, tax treatment, and behavior under market stress are fundamentally different. The distinction that matters most when markets are stressed.",
+    date: "2026-06-30",
+  },
+  {
+    slug: "dealer-insolvency-metals",
+    title: "What Happens to Your Metals When a Dealer Goes Out of Business",
+    tag: "Don’t Get Ripped Off",
+    tagColor: "gold",
+    excerpt:
+      "Northwest Territorial Mint’s 2016 bankruptcy left customers out millions. Bullion Direct closed in 2015 with unfilled orders. Whether you recover your metal depends almost entirely on how it was held before the failure.",
+    date: "2026-06-30",
+  },
 ];

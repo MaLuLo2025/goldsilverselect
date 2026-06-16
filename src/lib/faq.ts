@@ -135,6 +135,18 @@ export const faqCategories: FAQCategory[] = [
         learnMoreLabel: "Numismatic Premium vs Bullion Value: When Scarcity Drives the Price",
         learnMoreHref: "/blog/numismatic-premium-vs-bullion-value",
       },
+      {
+        question: "What\u2019s the difference between physical silver and a silver ETF?",
+        answer: "Physical silver means you own the actual metal \u2014 you can hold it, store it, sell it directly. A silver ETF means you own shares in a fund that tracks silver\u2019s price, but you don\u2019t own specific silver. The ETF is inside the financial system; physical silver isn\u2019t. ETFs offer better liquidity in normal markets and no storage hassle; physical offers direct ownership with no counterparty risk. For investors who want precious metals specifically because they\u2019re outside the banking system, an ETF doesn\u2019t serve that purpose.",
+        learnMoreLabel: "Physical Silver vs. Silver ETFs: What You Actually Own",
+        learnMoreHref: "/blog/physical-silver-vs-etf",
+      },
+      {
+        question: "Can I get my money back if a silver ETF goes down in value?",
+        answer: "No more than you can get money back on any investment that declines. An ETF tracks silver\u2019s price \u2014 if silver falls, your ETF shares fall proportionally. This is not a dealer or fund failure; it\u2019s normal price risk. The risk you\u2019re protecting against with ETF structure research is fund-level problems (custody, accounting) rather than silver price risk.",
+        learnMoreLabel: "Physical Silver vs. Silver ETFs: What You Actually Own",
+        learnMoreHref: "/blog/physical-silver-vs-etf",
+      },
     ],
   },
   {
@@ -455,12 +467,33 @@ export const faqCategories: FAQCategory[] = [
         answer: "These terms describe how a depository holds your metals. Segregated storage means your items are physically separated from all other clients\u2019 holdings in a dedicated space \u2014 you get back the exact bars or coins you deposited. Allocated storage means your metals are identified and assigned to your account but may share vault space with others\u2019 holdings. Unallocated storage means you own a claim to a quantity of metal, but no specific items are assigned to you \u2014 the depository holds a pool and owes you your share. Unallocated is cheapest but carries the most counterparty risk: in a bankruptcy, unallocated metal may be treated as a general asset of the company, not as your property. For most individual buyers, allocated or segregated is the appropriate choice.",
         learnMoreLabel: "Full Storage Guide: Home, Vault, or Safe Deposit Box",
         learnMoreHref: "/blog/storing-gold-silver-safely",
+        links: [
+          { label: "What Happens to Your Metals When a Dealer Goes Out of Business", href: "/blog/dealer-insolvency-metals" },
+        ],
       },
       {
         question: "Does homeowner\u2019s insurance cover gold and silver?",
         answer: "Barely. Standard homeowner\u2019s insurance policies typically cover only $200 to $500 in precious metals \u2014 a sublimit buried in the policy that most people don\u2019t discover until after a loss. If you store any meaningful quantity at home, you almost certainly need a scheduled personal property rider (also called a floater). Rider costs typically run $1 to $2 per $100 of insured value per year. For $20,000 in metals, expect $200\u2013$400 annually. The rider usually requires documentation of what you own \u2014 purchase receipts, photographs, or an appraisal.",
         learnMoreLabel: "Full Storage Guide: Home, Vault, or Safe Deposit Box",
         learnMoreHref: "/blog/storing-gold-silver-safely",
+      },
+      {
+        question: "What happens to my metals if the dealer I bought from goes bankrupt?",
+        answer: "If you took delivery (metal was shipped to you), dealer bankruptcy doesn\u2019t affect you \u2014 you have the metal. If your metal is in the dealer\u2019s storage program, the outcome depends on whether it\u2019s allocated (titled to you at an independent depository, likely recoverable) or unallocated (pooled metal, you\u2019re an unsecured creditor in the bankruptcy). Customers with unfilled orders are typically unsecured creditors and may recover only a portion of what\u2019s owed, or nothing, depending on the estate. This is why delivery or third-party depository storage is preferable to dealer-controlled storage for significant holdings.",
+        learnMoreLabel: "What Happens to Your Metals When a Dealer Goes Out of Business",
+        learnMoreHref: "/blog/dealer-insolvency-metals",
+      },
+      {
+        question: "What is allocated storage and why does it matter?",
+        answer: "Allocated storage means specific, identifiable physical metal \u2014 your serial-numbered bars or coins \u2014 is legally titled to you and held separately from the dealer\u2019s own assets. If the dealer fails, you have a direct ownership claim on that specific metal rather than a general claim on the dealer\u2019s estate. Unallocated storage means you have a general claim on a pool of metal without specific bars identified as yours \u2014 this becomes an unsecured creditor claim in bankruptcy. For any significant storage arrangement, confirm in writing whether your holding is allocated or unallocated, and whether the depository is independent of the dealer.",
+        learnMoreLabel: "What Happens to Your Metals When a Dealer Goes Out of Business",
+        learnMoreHref: "/blog/dealer-insolvency-metals",
+      },
+      {
+        question: "Is gold stored with a Gold IRA custodian safe if the custodian fails?",
+        answer: "Gold IRA assets are required by IRS rules to be held at approved depositories, separate from the custodian\u2019s operating assets. If the custodian fails, the depository holds your allocated metal independently. However, your specific situation depends on the agreements in place and how the depository relationship is structured. For very large IRA holdings, reviewing the custodian\u2019s insolvency procedures and the depository arrangement with a qualified attorney provides more certainty than relying on standard disclosures.",
+        learnMoreLabel: "What Happens to Your Metals When a Dealer Goes Out of Business",
+        learnMoreHref: "/blog/dealer-insolvency-metals",
       },
     ],
   },
@@ -504,6 +537,24 @@ export const faqCategories: FAQCategory[] = [
       {
         question: 'What does "confiscation-proof" mean? Should I worry about the government taking my gold?',
         answer: "\u201CConfiscation-proof\u201D is a marketing term frequently used by gold IRA companies and high-premium coin dealers to justify steering buyers toward expensive numismatic coins. The claim is usually that collectible coins were exempt from Executive Order 6102 in 1933, when the U.S. government required citizens to turn in gold holdings. While there was a narrow exemption for coins with recognized collector value in 1933, the circumstances of that era \u2014 the gold standard, fixed gold prices, a specific economic emergency \u2014 bear no resemblance to today\u2019s monetary system. No modern U.S. law or executive order has suggested gold confiscation, and no serious analysis treats it as a realistic near-term scenario. When a dealer uses confiscation fears to sell you a high-premium product, they\u2019re selling fear, not protection.",
+      },
+      {
+        question: "How do I know if a precious metals dealer is legitimate?",
+        answer: "Legitimate dealers provide transparent pricing (spot price + clearly stated premium), written quotes before payment, multiple payment options including credit cards, a verifiable physical address, and a track record you can research. Check the Better Business Bureau, look for Industry Council for Tangible Assets (ICTA) or Professional Numismatists Guild (PNG) membership, and search the company name plus \u201Creviews\u201D and \u201Ccomplaints\u201D before committing. Any dealer who pressures you to decide same-day or refuses to provide pricing in writing should be avoided.",
+        learnMoreLabel: "How to Spot a Precious Metals Dealer Scam Before You Lose Money",
+        learnMoreHref: "/blog/precious-metals-dealer-scams",
+      },
+      {
+        question: "What are common precious metals scams to watch out for?",
+        answer: "The most common are: selling gold or silver at dramatically inflated premiums (50\u2013100% above fair market value) by obscuring the comparison to spot price; pushing \u201Cnumismatic\u201D or \u201Cexclusive\u201D coins with collector premium claims that aren\u2019t supported by the actual market; high-pressure urgency tactics claiming limited allocation or imminent price spikes; and wire-only payment requirements that eliminate dispute mechanisms. A legitimate dealer won\u2019t pressure you and can explain their pricing clearly in writing.",
+        learnMoreLabel: "How to Spot a Precious Metals Dealer Scam Before You Lose Money",
+        learnMoreHref: "/blog/precious-metals-dealer-scams",
+      },
+      {
+        question: "Is it safe to buy gold online?",
+        answer: "Yes, from established dealers with verifiable track records. The major online bullion dealers (APMEX, JM Bullion, SD Bullion, Kitco, Scottsdale Bullion & Coin) have processed millions of transactions. Use a credit card when possible for the buyer protection mechanism, confirm expected shipping timelines before purchase, and verify order tracking after payment. Be more cautious with smaller or unfamiliar online dealers \u2014 check their history and reviews before sending payment.",
+        learnMoreLabel: "How to Spot a Precious Metals Dealer Scam Before You Lose Money",
+        learnMoreHref: "/blog/precious-metals-dealer-scams",
       },
     ],
   },
