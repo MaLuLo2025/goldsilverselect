@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import { states } from "@/lib/states";
 import { getCitiesByState } from "@/lib/cities";
 import { getDealersByState, getOnlineDealers } from "@/lib/dealers";
+import { stateContent } from "@/lib/stateContent";
 import DealerList from "@/components/DealerList";
 import DealerRatings from "@/components/DealerRatings";
 import { isFeatured, truncateAtSentence } from "@/components/DealerCard";
@@ -184,13 +185,26 @@ export default function StateDealersPage({
             })}
           </div>
         ) : (
-          <div className="text-center py-8">
-            <p className="font-serif text-[22px] font-semibold mb-3" style={{ color: "#333" }}>
-              We&apos;re expanding our local directory in {state.name}.
-            </p>
-            <p className="font-sans text-[16px]" style={{ color: "#555" }}>
-              Browse the online dealers below &mdash; they ship to {state.name} with insured delivery.
-            </p>
+          <div>
+            {stateContent[params.state] ? (
+              <div className="max-w-[760px]">
+                <p className="font-sans text-[16px] leading-relaxed mb-4" style={{ color: "#444" }}>
+                  {stateContent[params.state].intro}
+                </p>
+                <p className="font-sans text-[15px] leading-relaxed" style={{ color: "#666" }}>
+                  {stateContent[params.state].buyingTips}
+                </p>
+              </div>
+            ) : (
+              <div className="text-center py-8">
+                <p className="font-serif text-[22px] font-semibold mb-3" style={{ color: "#333" }}>
+                  We&apos;re expanding our local directory in {state.name}.
+                </p>
+                <p className="font-sans text-[16px]" style={{ color: "#555" }}>
+                  Browse the online dealers below &mdash; they ship to {state.name} with insured delivery.
+                </p>
+              </div>
+            )}
           </div>
         )}
       </section>
