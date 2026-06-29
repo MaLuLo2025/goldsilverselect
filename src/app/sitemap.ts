@@ -39,13 +39,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  // City pages
-  const cityPages = cities.map((c) => ({
-    url: `${BASE}/dealers/${c.stateSlug}/${c.slug}`,
-    lastModified: now,
-    changeFrequency: "weekly" as const,
-    priority: 0.6,
-  }));
+  // City pages — only include cities with 3+ dealers (thin pages are noindexed)
+  const cityPages = cities
+    .filter((c) => {
+      const count = dealers.filter(
+        (d) => d.stateSlug === c.stateSlug && d.citySlug === c.slug
+      ).length;
+      return count >= 3;
+    })
+    .map((c) => ({
+      url: `${BASE}/dealers/${c.stateSlug}/${c.slug}`,
+      lastModified: now,
+      changeFrequency: "weekly" as const,
+      priority: 0.6,
+    }));
 
   // Dealer detail pages (all local dealers with city/state)
   const dealerPages = dealers

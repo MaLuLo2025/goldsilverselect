@@ -18,10 +18,15 @@ export function generateMetadata({
   const state = states.find((s) => s.slug === params.state);
   const city = getCityBySlug(params.state, params.city);
   if (!state || !city) return {};
+  const dealerCount = getDealersByCity(params.state, params.city).length;
+  const thinContent = dealerCount < 3;
   return {
     title: `Precious Metals Dealers in ${city.name}, ${state.name}`,
     description: `Find coin shops, bullion dealers, jewelers, and gold buyers in ${city.name}, ${state.name}. Direct links to dealer websites.`,
     alternates: { canonical: `/dealers/${params.state}/${params.city}` },
+    robots: thinContent
+      ? { index: false, follow: true }
+      : { index: true, follow: true },
   };
 }
 
