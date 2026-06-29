@@ -320,4 +320,31 @@ export const blogPosts: BlogPost[] = [
   { slug: "buying-gold-pawn-shop", title: "Buying Gold at a Pawn Shop: When It Makes Sense and When to Walk Away", tag: "Buyer’s Guide", tagColor: "gold", excerpt: "Pawn shops sell gold. Some of it is priced well. Most of it isn’t. Understanding the economics of how pawn shops acquire and price gold-bearing inventory is the filter you need.", date: "2026-06-30" },
   { slug: "silver-industrial-demand", title: "Silver’s Industrial Demand: Why It Behaves Differently Than Gold", tag: "Market Dynamics", tagColor: "gold", excerpt: "Silver’s price behavior differs from gold’s in ways that matter for investors — primarily because of silver’s significant industrial role. Understanding what drives it clarifies why silver is more volatile.", date: "2026-06-30" },
   { slug: "dealer-buyback-programs", title: "How Dealer Buyback Programs Work and How to Evaluate Them", tag: "Buyer’s Guide", tagColor: "gold", excerpt: "Where you sell your precious metals matters as much as where you buy them. Dealer buyback programs vary significantly in their terms, pricing, and reliability.", date: "2026-06-30" },
+  {
+    slug: "why-gold-surged-2025-2026",
+    title: "Why Gold Surged: What Drove the 2025–2026 Rally",
+    tag: "Market Dynamics",
+    tagColor: "gold",
+    excerpt:
+      "Gold reached $5,589/oz in January 2026 — roughly triple the price from five years earlier. Several concurrent forces drove this extraordinary run. Understanding them matters for evaluating current prices.",
+    date: "2026-07-07",
+  },
+  {
+    slug: "how-much-gold-silver-to-own",
+    title: "How Much Gold and Silver Should You Own? An Honest Framework",
+    tag: "Investor Education",
+    tagColor: "gold",
+    excerpt:
+      "Gold bug proponents say as much as possible. Mainstream advisors often say none. Neither is useful. Here’s an honest framework based on institutional research and your actual financial situation.",
+    date: "2026-07-07",
+  },
+  {
+    slug: "buying-gold-costco-retail",
+    title: "Buying Gold from Costco and Retail Chains: What to Know",
+    tag: "Buyer's Guide",
+    tagColor: "gold",
+    excerpt:
+      "Costco sells hundreds of millions in gold monthly. The products are legitimate. Whether the price is competitive depends on the day. Here’s how to evaluate a retail chain purchase against alternatives.",
+    date: "2026-07-07",
+  },
 ];

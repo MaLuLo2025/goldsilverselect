@@ -147,6 +147,18 @@ export const faqCategories: FAQCategory[] = [
         learnMoreLabel: "Physical Silver vs. Silver ETFs: What You Actually Own",
         learnMoreHref: "/blog/physical-silver-vs-etf",
       },
+      {
+        question: "Is it safe to buy gold from Costco?",
+        answer: "Costco has been selling PAMP Suisse and Credit Suisse gold bars \u2014 both legitimate, recognized bullion products with assay cards from LBMA-approved refineries. The products are genuine. The pricing has been competitive at times. Check Costco\u2019s premium against current prices at APMEX or JM Bullion before buying \u2014 if it\u2019s comparable, it\u2019s a reasonable source. If not, online dealers are likely cheaper. Inventory at Costco is inconsistent; products sell out quickly and restocking is unpredictable.",
+        learnMoreLabel: "Buying Gold from Costco and Retail Chains: What to Know",
+        learnMoreHref: "/blog/buying-gold-costco-retail",
+      },
+      {
+        question: "What should I look for when buying gold or silver for the first time?",
+        answer: "Start with these basics: (1) Know the current spot price before you talk to any seller. (2) Buy products with clear assay documentation \u2014 government-minted coins (American Gold Eagle, Maple Leaf, Silver Eagle) or bars from recognized refineries with assay cards. (3) Understand what premium you\u2019re paying above spot, as a percentage. (4) Buy from a dealer with a track record you can verify. (5) Keep your purchase receipts \u2014 you\u2019ll need cost documentation for taxes when you eventually sell.",
+        learnMoreLabel: "What Should I Truly Pay for Gold and Silver?",
+        learnMoreHref: "/blog/what-should-i-truly-pay-for-gold-and-silver",
+      },
     ],
   },
   {
@@ -639,6 +651,48 @@ export const faqCategories: FAQCategory[] = [
         answer: "The data so far does not support that label during crises. In every major stress event since bitcoin\u2019s creation \u2014 the 2020 COVID crash (down 35% in one day), the 2022 crypto crash (down 77%), and the 2026 market stress (down 47% from its all-time high) \u2014 bitcoin has fallen alongside equities, often more sharply. During those same periods, gold held value or rose. Bitcoin has performed as a risk-on asset correlated with tech stocks, not as a safe haven. This could change as the asset matures and its holder base shifts, but the current evidence points to bitcoin as a growth asset, not a crisis hedge. Both assets can have a place in a portfolio \u2014 they just solve different problems.",
         learnMoreLabel: "Gold vs. Bitcoin in 2026: Full Comparison",
         learnMoreHref: "/blog/gold-vs-bitcoin-2026",
+      },
+      {
+        question: "Why did gold prices rise so dramatically in 2025 and 2026?",
+        answer: "Several forces converged. Central banks \u2014 particularly China, India, Turkey, and other emerging market nations \u2014 bought gold at near-record pace as they reduced reliance on US dollar reserves. Geopolitical tensions in the Middle East drove safe-haven demand. Inflation remained elevated in the US and globally, supporting gold\u2019s role as an inflation hedge. And retail buying surged dramatically \u2014 spurred partly by major retailers like Costco making gold accessible and partly by concerns about dollar stability. Gold hit $5,589/oz in January 2026 before pulling back.",
+        learnMoreLabel: "Why Gold Surged: What Drove the 2025\u20132026 Rally",
+        learnMoreHref: "/blog/why-gold-surged-2025-2026",
+      },
+      {
+        question: "Does gold always go up during inflation?",
+        answer: "Not reliably in the short term. Gold\u2019s most consistent driver is real interest rates \u2014 nominal rates minus inflation. When real rates are negative (inflation exceeds bond yields), gold becomes relatively attractive. When real rates rise sharply (as they did in 2022), gold can fall even when inflation is high. The relationship between gold and inflation exists but it\u2019s not direct or immediate. Over very long periods (decades), gold has preserved purchasing power. Over shorter periods (months, years), prices can diverge significantly from inflation trends.",
+        learnMoreLabel: "Why Gold Surged: What Drove the 2025\u20132026 Rally",
+        learnMoreHref: "/blog/why-gold-surged-2025-2026",
+      },
+      {
+        question: "Why is central bank gold buying important to individual investors?",
+        answer: "Central bank purchases represent structural, price-insensitive demand that doesn\u2019t fluctuate with retail sentiment. When central banks are buying hundreds of tonnes per year, they\u2019re absorbing meaningful annual production at whatever price the market clears. This provides a demand floor that has historically supported prices. Central banks have been net buyers for 15 consecutive years. That\u2019s a significant shift from the 1990s and 2000s when central bank selling was a major gold market headwind.",
+        learnMoreLabel: "Central Bank Gold Buying: The Biggest Shift in 50 Years",
+        learnMoreHref: "/blog/central-bank-gold-buying-reshaping-the-market",
+      },
+    ],
+  },
+  {
+    id: "getting-started",
+    title: "Getting Started & Allocation",
+    items: [
+      {
+        question: "How much of my portfolio should be in gold and silver?",
+        answer: "A range of 5\u201310% of investable assets is the most commonly cited institutional recommendation for precious metals as a portfolio diversifier. This provides inflation hedge and diversification benefit without meaningfully reducing long-term expected returns from other assets. Higher allocations (10\u201320%+) are held by investors specifically positioning for financial system risk or dollar devaluation scenarios \u2014 a deliberate strategy with its own tradeoffs. Starting smaller is fine if you\u2019re new to the asset class.",
+        learnMoreLabel: "How Much Gold and Silver Should You Own?",
+        learnMoreHref: "/blog/how-much-gold-silver-to-own",
+      },
+      {
+        question: "Should I buy more gold or more silver?",
+        answer: "Gold is more stable and functions better as portfolio insurance \u2014 lower volatility, higher liquidity, universally recognized. Silver is more volatile with industrial demand as an additional return driver (solar panels, EVs, electronics) \u2014 higher upside potential and higher downside risk. A common approach is gold-heavy within a precious metals allocation (70\u201380% gold, 20\u201330% silver) for stability-focused buyers. Buyers specifically interested in silver\u2019s industrial demand story go higher in silver. Neither is wrong \u2014 depends on your purpose.",
+        learnMoreLabel: "How Much Gold and Silver Should You Own?",
+        learnMoreHref: "/blog/how-much-gold-silver-to-own",
+      },
+      {
+        question: "Can I buy gold with $500?",
+        answer: "Yes. Silver is more accessible at lower dollar amounts \u2014 a one-ounce silver coin costs $65\u201390 at current prices, so $500 buys approximately 5\u20137 ounces. A one-tenth-ounce American Gold Eagle costs roughly $460\u2013480 at current gold prices, putting a small gold position within reach. Fractional gold (one-tenth, one-quarter, one-half ounce) carries higher premiums than full-ounce coins on a percentage basis. Starting with silver in smaller amounts and building toward a gold position over time is a practical approach for buyers with limited initial capital.",
+        learnMoreLabel: "How Much Gold and Silver Should You Own?",
+        learnMoreHref: "/blog/how-much-gold-silver-to-own",
       },
     ],
   },
