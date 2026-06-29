@@ -1,0 +1,2384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+  <link rel="canonical" href="https://www.silvergoldinsights.com/research/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.silvergoldinsights.com/research/">
+  <meta property="og:title" content="Research & Charts | Silver Gold Insights">
+  <meta property="og:description" content="Institutional-grade precious metals research powered by The Gold Window. Live charts covering gold price history, purchasing power, ratios, and macro indicators.">
+  <meta property="og:site_name" content="Silver Gold Insights">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Research & Charts | Silver Gold Insights">
+  <meta name="twitter:description" content="Institutional-grade precious metals research powered by The Gold Window. Live charts covering gold price history, purchasing power, ratios, and macro indicators.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Research &amp; Analytics — Tory Aggeler | Powered by The Gold Window</title>
+<meta name="description" content="Institutional-grade precious metals research and analytics from Tory Aggeler. Purchasing power calculator, ratios, performance, and macro indicators. Powered by The Gold Window.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='50' fill='%232B2D2F'/><text y='.9em' font-size='60' x='50%' text-anchor='middle' fill='%23C9A44A' font-family='Georgia,serif'>M</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --gold:        #B8922A;
+  --gold-mid:    #C9A44A;
+  --gold-light:  #DFC07A;
+  --gold-pale:   #EFE0BC;
+
+  --warm-white:  #FDFAF5;
+  --cream:       #F5F0E8;
+  --espresso:    #2B2D2F;
+  --espresso-mid:#363839;
+
+  --text:        #1A1B1C;
+  --text-mid:    #484A4C;
+  --text-muted:  #8A8C8E;
+  --border:      #E8E3DA;
+
+  --font-d: 'Cormorant Garamond', Georgia, serif;
+  --font-b: 'Jost', system-ui, sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--font-b);
+  color: var(--text);
+  background: var(--warm-white);
+  font-size: 16px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+img { max-width: 100%; display: block; }
+a { color: inherit; text-decoration: none; }
+
+/* ============ NAV ============ */
+.nav {
+  position: sticky; top: 0; z-index: 100;
+  background: var(--espresso);
+  height: 68px;
+  padding: 0 32px;
+  display: flex; align-items: center;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+
+.nav-brand {
+  display: flex; align-items: center;
+  flex-shrink: 0;
+  padding-right: 24px;
+  margin-right: auto;
+}
+
+.nav-mca {
+  padding-right: 16px;
+  border-right: 1px solid rgba(255,255,255,0.14);
+  text-decoration: none;
+  display: block;
+  transition: opacity 0.18s ease;
+}
+.nav-mca:hover { opacity: 0.78; }
+.nav-mca:hover .nav-mca-name { color: var(--gold-light); }
+.nav-mca-name {
+  font-family: var(--font-d);
+  font-size: 22px;
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: 0.02em;
+  line-height: 1;
+}
+.nav-mca-sub {
+  font-family: var(--font-b);
+  font-size: 8.5px;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.4);
+  margin-top: 3px;
+}
+
+.nav-tory {
+  padding-left: 16px;
+  text-decoration: none;
+  display: block;
+  transition: opacity 0.18s ease;
+}
+.nav-tory:hover { opacity: 0.85; }
+.nav-tory-name {
+  font-family: var(--font-d);
+  font-size: 20px;
+  font-weight: 500;
+  color: rgba(255,255,255,0.95);
+  letter-spacing: 0.01em;
+  line-height: 1;
+}
+.nav-tory-sub {
+  font-family: var(--font-b);
+  font-size: 8.5px;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--gold-mid);
+  margin-top: 3px;
+}
+
+.nav-links {
+  display: flex; list-style: none;
+  gap: 32px;
+  margin-right: 28px;
+}
+.nav-links a {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.7);
+  transition: color 0.2s;
+}
+.nav-links a:hover,
+.nav-links a.active { color: var(--gold-light); }
+
+.nav-cta {
+  background: var(--gold);
+  color: var(--espresso);
+  padding: 10px 20px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  transition: background 0.2s;
+}
+.nav-cta:hover { background: var(--gold-mid); }
+
+.nav-hamburger {
+  display: none;
+  background: none; border: none; cursor: pointer;
+  width: 36px; height: 36px;
+  flex-direction: column; gap: 5px;
+  align-items: center; justify-content: center;
+}
+.nav-hamburger span {
+  display: block; width: 22px; height: 1.5px;
+  background: rgba(255,255,255,0.7);
+  transition: transform 0.25s, opacity 0.25s;
+}
+.nav-hamburger.open span:nth-child(1) { transform: translateY(6.5px) rotate(45deg); }
+.nav-hamburger.open span:nth-child(2) { opacity: 0; }
+.nav-hamburger.open span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
+
+.nav-mobile-menu {
+  display: none;
+  position: fixed; top: 68px; left: 0; right: 0;
+  background: var(--espresso);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  padding: 24px 32px 32px;
+  z-index: 99;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+}
+.nav-mobile-menu.open { display: block; }
+.nav-mobile-links { list-style: none; margin-bottom: 24px; }
+.nav-mobile-links li { border-bottom: 1px solid rgba(255,255,255,0.06); }
+.nav-mobile-links a {
+  display: block; padding: 14px 0;
+  font-size: 13px; font-weight: 400;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: rgba(255,255,255,0.7);
+}
+.nav-mobile-bottom { display: flex; flex-direction: column; gap: 12px; padding-top: 8px; }
+.nav-mobile-phone { font-size: 14px; color: rgba(255,255,255,0.55); }
+
+@media (max-width: 925px) {
+  .nav-links { display: none; }
+  .nav > .nav-cta { display: none; }
+  .nav-hamburger { display: flex; }
+  .nav { padding: 0 20px; }
+}
+
+/* ============ TICKER ============ */
+.ticker {
+  background: var(--espresso-mid);
+  border-top: 1px solid rgba(255,255,255,0.04);
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+  overflow: hidden;
+  height: 42px;
+  display: flex; align-items: center;
+}
+.ticker-track {
+  display: flex; align-items: center;
+  white-space: nowrap;
+  animation: tick 60s linear infinite;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+}
+.ticker-item {
+  padding: 0 20px;
+  color: rgba(255,255,255,0.75);
+}
+.t-label {
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.5);
+  font-size: 10.5px;
+  margin-right: 8px;
+}
+.t-price { color: #fff; font-weight: 500; }
+.t-up { color: #4ECB71; margin-left: 8px; font-size: 11px; }
+.t-dn { color: #E66; margin-left: 8px; font-size: 11px; }
+.t-dot { color: rgba(255,255,255,0.2); padding: 0; }
+@keyframes tick { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+
+/* ============ TYPE & UTILITY ============ */
+h1, h2, h3, h4 { font-family: var(--font-d); font-weight: 500; line-height: 1.15; color: var(--text); }
+h1 { font-size: clamp(46px, 6vw, 76px); letter-spacing: -0.01em; }
+h2 { font-size: clamp(34px, 4vw, 50px); letter-spacing: -0.005em; }
+h3 { font-size: 24px; }
+em { font-style: italic; color: var(--gold); }
+
+.eyebrow {
+  font-family: var(--font-b);
+  font-size: 11px; font-weight: 500;
+  letter-spacing: 0.22em; text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.eyebrow::before {
+  content: ''; display: inline-block;
+  width: 28px; height: 1px;
+  background: var(--gold);
+  vertical-align: middle;
+  margin-right: 12px;
+}
+
+.section { padding: 96px 32px; }
+.section.tight { padding: 72px 32px; }
+.section-inner { max-width: 1120px; margin: 0 auto; }
+.section-inner.narrow { max-width: 880px; }
+
+.s-warm-white { background: var(--warm-white); }
+.s-cream { background: var(--cream); }
+.s-espresso { background: var(--espresso); color: rgba(255,255,255,0.85); }
+.s-espresso h1, .s-espresso h2, .s-espresso h3 { color: #fff; }
+.s-espresso em { color: var(--gold-light); }
+.s-espresso .eyebrow { color: var(--gold-light); }
+.s-espresso .eyebrow::before { background: var(--gold-light); }
+
+.s-header { max-width: 720px; margin-bottom: 48px; }
+.s-header.center { margin-left: auto; margin-right: auto; text-align: center; }
+.s-header.center .eyebrow::before { display: none; }
+.s-header p { font-size: 17px; color: var(--text-mid); margin-top: 16px; max-width: 640px; }
+.s-espresso .s-header p { color: rgba(255,255,255,0.65); }
+
+/* ============ BUTTONS ============ */
+.btn {
+  display: inline-block;
+  padding: 14px 28px;
+  font-size: 12px; font-weight: 500;
+  letter-spacing: 0.16em; text-transform: uppercase;
+  transition: all 0.25s;
+  cursor: pointer; border: none;
+}
+.btn-primary {
+  background: var(--gold);
+  color: var(--espresso);
+}
+.btn-primary:hover { background: var(--gold-mid); }
+.btn-ghost {
+  background: transparent;
+  color: var(--espresso);
+  border: 1px solid var(--espresso);
+}
+.btn-ghost:hover { background: var(--espresso); color: #fff; }
+.s-espresso .btn-ghost { color: #fff; border-color: rgba(255,255,255,0.4); }
+.s-espresso .btn-ghost:hover { background: #fff; color: var(--espresso); }
+
+.link-more {
+  display: inline-flex; align-items: center;
+  font-family: var(--font-b);
+  font-size: 12px; font-weight: 500;
+  letter-spacing: 0.16em; text-transform: uppercase;
+  color: var(--gold);
+  transition: color 0.2s, transform 0.2s;
+}
+.link-more::after {
+  content: '→'; margin-left: 10px;
+  transition: transform 0.2s;
+}
+.link-more:hover { color: var(--gold-mid); }
+.link-more:hover::after { transform: translateX(4px); }
+.s-espresso .link-more { color: var(--gold-light); }
+
+/* ============ HERO (TEXT LEFT, PHOTO RIGHT — matches original) ============ */
+.hero {
+  background: var(--warm-white);
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 1px solid var(--border);
+}
+.hero-inner {
+  max-width: 1320px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  align-items: stretch;
+  min-height: 600px;
+}
+
+/* LEFT: Tory's introduction */
+.hero-left {
+  padding: 88px 56px 88px 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero-eyebrow {
+  font-family: var(--font-b);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 28px;
+  display: flex;
+  align-items: center;
+}
+.hero-eyebrow::before {
+  content: '';
+  display: inline-block;
+  width: 32px;
+  height: 1px;
+  background: var(--gold);
+  margin-right: 14px;
+}
+.hero-left h1 {
+  font-family: var(--font-d);
+  font-size: clamp(38px, 4.4vw, 58px);
+  line-height: 1.08;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  color: var(--text);
+  margin: 0 0 28px;
+}
+.hero-left h1 em {
+  font-style: italic;
+  color: var(--gold);
+}
+.hero-sub {
+  font-size: 17px;
+  line-height: 1.65;
+  color: var(--text-mid);
+  margin: 0 0 36px;
+  max-width: 500px;
+}
+.hero-actions {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-bottom: 52px;
+}
+.hero-stats {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 48px;
+  padding-top: 32px;
+  border-top: 1px solid var(--border);
+  max-width: 520px;
+}
+.hero-stat-num {
+  font-family: var(--font-d);
+  font-size: 36px;
+  font-weight: 500;
+  color: var(--gold);
+  line-height: 1;
+  margin-bottom: 10px;
+}
+.hero-stat-label {
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text-mid);
+  line-height: 1.4;
+}
+
+/* RIGHT: Photo */
+.hero-right {
+  position: relative;
+  overflow: hidden;
+  background: var(--espresso);
+  min-height: 600px;
+}
+.hero-right img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 25%;
+  display: block;
+}
+.hero-photo-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 28px 32px;
+  background: linear-gradient(to top, rgba(43,45,47,0.92), rgba(43,45,47,0));
+  color: #fff;
+}
+.hero-photo-name {
+  font-family: var(--font-d);
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 0.005em;
+  margin-bottom: 4px;
+  color: #fff;
+}
+.hero-photo-role {
+  font-family: var(--font-b);
+  font-size: 10.5px;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--gold-light);
+}
+
+/* ============ TABLET / MOBILE ============ */
+@media (max-width: 960px) {
+  .hero-inner {
+    grid-template-columns: 1fr;
+    min-height: 0;
+  }
+  .hero-left {
+    padding: 56px 24px 64px;
+    order: 2;
+  }
+  .hero-right {
+    order: 1;
+    min-height: 420px;
+  }
+  .hero-sub { max-width: none; }
+  .hero-stats { max-width: none; gap: 32px; }
+}
+@media (max-width: 520px) {
+  .hero-stats {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  .hero-stat-num { font-size: 28px; }
+  .hero-stat-label { font-size: 9px; }
+  .hero-right { min-height: 360px; }
+}
+
+/* ============ SERVICES PREVIEW ============ */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-bottom: 48px;
+}
+.service-card {
+  background: var(--warm-white);
+  border: 1px solid var(--border);
+  padding: 36px 32px;
+  transition: border-color 0.25s, transform 0.25s;
+  display: flex; flex-direction: column;
+}
+.service-card:hover {
+  border-color: var(--gold);
+  transform: translateY(-2px);
+}
+.service-icon {
+  font-family: var(--font-d);
+  font-size: 32px;
+  color: var(--gold);
+  margin-bottom: 16px;
+  line-height: 1;
+}
+.service-title {
+  font-family: var(--font-d);
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 12px;
+  color: var(--text);
+}
+.service-desc {
+  font-size: 14px;
+  color: var(--text-mid);
+  line-height: 1.6;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+.service-link {
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--gold);
+  transition: color 0.2s;
+}
+.service-link::after { content: ' →'; }
+.service-link:hover { color: var(--gold-mid); }
+@media (max-width: 925px) {
+  .services-grid { grid-template-columns: 1fr; }
+}
+
+/* ============ RESEARCH PREVIEW ============ */
+.research-tabs {
+  display: flex; gap: 0;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 0;
+  overflow-x: auto;
+}
+.research-tab {
+  flex: 1; min-width: 140px;
+  background: none; border: none;
+  padding: 16px 18px;
+  font-family: var(--font-b);
+  font-size: 11px; font-weight: 500;
+  letter-spacing: 0.14em; text-transform: uppercase;
+  color: var(--text-mid);
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: color 0.2s, border-color 0.2s;
+  white-space: nowrap;
+}
+.research-tab:hover { color: var(--text); }
+.research-tab.active {
+  color: var(--gold);
+  border-bottom-color: var(--gold);
+}
+
+.research-iframe-wrap {
+  background: var(--warm-white);
+  border: 1px solid var(--border);
+  border-top: none;
+  position: relative;
+  overflow: hidden;
+}
+.research-iframe-wrap iframe {
+  width: 100%;
+  height: 1100px;
+  border: none;
+  display: block;
+  transition: height 0.25s ease;
+}
+.research-footer {
+  text-align: center;
+  margin-top: 36px;
+}
+.research-disclaimer {
+  max-width: 920px;
+  margin: 24px auto 0;
+  font-size: 11.5px;
+  line-height: 1.6;
+  color: var(--text-muted);
+  text-align: center;
+  letter-spacing: 0.01em;
+}
+@media (max-width: 640px) {
+  .research-iframe-wrap iframe { height: 900px; }
+  .research-iframe-wrap iframe[data-active-height="700"] { height: 520px; }
+  .research-tab { font-size: 10px; padding: 14px 12px; }
+}
+
+/* ============ VIDEOS PREVIEW ============ */
+.videos-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-bottom: 48px;
+}
+.video-card {
+  background: var(--warm-white);
+  border: 1px solid var(--border);
+  transition: border-color 0.25s, transform 0.25s;
+  display: flex; flex-direction: column;
+  cursor: pointer;
+}
+.video-card:hover {
+  border-color: var(--gold);
+  transform: translateY(-2px);
+}
+.video-thumb {
+  aspect-ratio: 16 / 9;
+  background: linear-gradient(135deg, var(--espresso) 0%, var(--espresso-mid) 100%);
+  position: relative;
+  display: flex; align-items: center; justify-content: center;
+  overflow: hidden;
+}
+.video-thumb::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 50% 50%, rgba(184,146,42,0.12) 0%, transparent 70%);
+}
+.video-play {
+  position: relative;
+  width: 56px; height: 56px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.92);
+  display: flex; align-items: center; justify-content: center;
+  transition: transform 0.25s;
+}
+.video-card:hover .video-play { transform: scale(1.08); }
+.video-play::after {
+  content: '';
+  width: 0; height: 0;
+  border-left: 14px solid var(--espresso);
+  border-top: 9px solid transparent;
+  border-bottom: 9px solid transparent;
+  margin-left: 4px;
+}
+.video-body { padding: 24px 24px 28px; }
+.video-meta {
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 10px;
+}
+.video-title {
+  font-family: var(--font-d);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.3;
+  color: var(--text);
+  margin-bottom: 8px;
+}
+.video-duration {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+@media (max-width: 925px) {
+  .videos-grid { grid-template-columns: 1fr; }
+}
+
+/* ============ TESTIMONIAL (EDITORIAL PULL-QUOTE) ============ */
+.pullquote {
+  background: var(--warm-white);
+  padding: 120px 32px;
+  position: relative;
+}
+.pullquote-inner {
+  max-width: 880px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+.pullquote-mark {
+  font-family: var(--font-d);
+  font-size: 140px;
+  line-height: 0.8;
+  color: var(--gold-pale);
+  position: absolute;
+  top: -32px; left: 50%;
+  transform: translateX(-50%);
+  pointer-events: none;
+  font-style: italic;
+}
+.pullquote-text {
+  font-family: var(--font-d);
+  font-size: clamp(24px, 3vw, 34px);
+  font-style: italic;
+  line-height: 1.4;
+  color: var(--text);
+  position: relative;
+  margin-bottom: 36px;
+}
+.pullquote-rule {
+  width: 48px; height: 1px;
+  background: var(--gold);
+  margin: 0 auto 20px;
+}
+.pullquote-author {
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text);
+  margin-bottom: 6px;
+}
+.pullquote-detail {
+  font-size: 12px;
+  color: var(--text-muted);
+  letter-spacing: 0.06em;
+}
+.pullquote-dots {
+  display: flex; justify-content: center;
+  gap: 8px;
+  margin-top: 48px;
+}
+.pullquote-dot {
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: var(--border);
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+  border: none;
+  padding: 0;
+}
+.pullquote-dot.active { background: var(--gold); transform: scale(1.4); }
+.pullquote-dot:hover { background: var(--gold-mid); }
+@media (max-width: 640px) {
+  .pullquote { padding: 72px 20px; }
+  .pullquote-mark { font-size: 100px; top: -20px; }
+}
+
+/* ============ CTA BAND ============ */
+.cta-band {
+  background: var(--espresso);
+  padding: 80px 32px;
+  text-align: center;
+  border-top: 3px solid var(--gold);
+}
+.cta-band-inner { max-width: 720px; margin: 0 auto; }
+.cta-band h2 {
+  color: #fff;
+  margin-bottom: 16px;
+}
+.cta-band p {
+  font-size: 16px;
+  color: rgba(255,255,255,0.7);
+  margin-bottom: 36px;
+}
+.cta-band-actions {
+  display: flex; gap: 14px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.cta-band-phone {
+  display: inline-block;
+  margin-top: 28px;
+  font-size: 13px;
+  color: rgba(255,255,255,0.5);
+  letter-spacing: 0.08em;
+}
+.cta-band-phone strong { color: var(--gold-light); font-weight: 500; }
+
+/* ============ FOOTER ============ */
+.footer {
+  background: #1F2123;
+  padding: 64px 32px 28px;
+  color: rgba(255,255,255,0.5);
+  font-size: 13px;
+}
+.footer-inner { max-width: 1120px; margin: 0 auto; }
+.footer-top {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  gap: 48px;
+  padding-bottom: 48px;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  margin-bottom: 28px;
+}
+.footer-brand-name {
+  font-family: var(--font-d);
+  font-size: 26px;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+.footer-brand-name em { color: inherit; font-style: normal; }
+.footer-brand-sub {
+  font-size: 9.5px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.4);
+  margin-bottom: 20px;
+}
+.footer-brand-blurb {
+  font-size: 13px;
+  color: rgba(255,255,255,0.55);
+  line-height: 1.6;
+  max-width: 320px;
+}
+.footer-col h4 {
+  font-family: var(--font-b);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.7);
+  margin-bottom: 18px;
+}
+.footer-col ul { list-style: none; }
+.footer-col li { margin-bottom: 10px; }
+.footer-col a {
+  color: rgba(255,255,255,0.55);
+  font-size: 13px;
+  transition: color 0.2s;
+}
+.footer-col a:hover { color: var(--gold-light); }
+.footer-bottom {
+  display: flex; justify-content: space-between; flex-wrap: wrap;
+  gap: 16px;
+  font-size: 11px;
+  color: rgba(255,255,255,0.35);
+  letter-spacing: 0.04em;
+}
+.footer-bottom a { color: rgba(255,255,255,0.45); }
+@media (max-width: 925px) {
+  .footer-top { grid-template-columns: 1fr 1fr; gap: 32px; }
+}
+@media (max-width: 520px) {
+  .footer-top { grid-template-columns: 1fr; }
+}
+
+/* ============ REVEAL ANIMATION ============ */
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.reveal.in {
+  opacity: 1;
+  transform: none;
+}
+
+/* ============ WHY MCALVANY (espresso institutional band) ============ */
+.s-mca {
+  background: var(--espresso);
+  color: #E8E5E0;
+  padding: 96px 48px;
+  position: relative;
+  overflow: hidden;
+}
+.s-mca::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--gold) 30%, var(--gold) 70%, transparent);
+  opacity: 0.4;
+}
+.s-mca-inner {
+  max-width: 1240px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+.s-mca-eyebrow {
+  font-family: var(--font-b);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--gold-light);
+  margin-bottom: 24px;
+}
+.s-mca-wordmark {
+  font-family: var(--font-d);
+  font-size: clamp(56px, 6vw, 80px);
+  font-weight: 500;
+  color: #fff;
+  line-height: 1;
+  letter-spacing: 0.005em;
+  margin-bottom: 10px;
+}
+.s-mca-tagline {
+  font-family: var(--font-b);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--gold-light);
+  margin-bottom: 36px;
+}
+.s-mca-body p {
+  font-size: 17px;
+  line-height: 1.75;
+  color: #D4D0CB;
+  margin: 0 0 18px;
+  font-weight: 300;
+}
+.s-mca-body p:last-child { margin-bottom: 0; }
+.s-mca-body strong {
+  color: #fff;
+  font-weight: 500;
+}
+.s-mca-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+.s-mca-stat {
+  border: 1px solid rgba(184,146,42,0.25);
+  background: rgba(0,0,0,0.18);
+  padding: 32px 28px;
+}
+.s-mca-stat-num {
+  font-family: var(--font-d);
+  font-size: 44px;
+  font-weight: 500;
+  color: var(--gold-light);
+  line-height: 1;
+  margin-bottom: 14px;
+  letter-spacing: -0.01em;
+}
+.s-mca-stat-label {
+  font-family: var(--font-b);
+  font-size: 10.5px;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--gold-light);
+  margin-bottom: 10px;
+}
+.s-mca-stat-desc {
+  font-size: 13.5px;
+  line-height: 1.55;
+  color: #B8B5B0;
+  font-weight: 300;
+}
+
+@media (max-width: 960px) {
+  .s-mca { padding: 64px 24px; }
+  .s-mca-inner {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+}
+@media (max-width: 520px) {
+  .s-mca-stats { grid-template-columns: 1fr; gap: 16px; }
+  .s-mca-stat { padding: 24px 22px; }
+  .s-mca-stat-num { font-size: 36px; }
+}
+
+/* ============ TEAM SECTION ============ */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  margin-top: 8px;
+}
+.team-card {
+  background: #fff;
+  border: 1px solid var(--border);
+  overflow: hidden;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.team-card:hover {
+  border-color: var(--gold-light);
+  box-shadow: 0 8px 32px rgba(184,146,42,0.10);
+}
+.team-photo {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  background: var(--espresso);
+}
+.team-photo img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 25%;
+  display: block;
+}
+.team-body {
+  padding: 26px 26px 30px;
+}
+.team-role {
+  font-family: var(--font-b);
+  font-size: 10.5px;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 6px;
+}
+.team-name {
+  font-family: var(--font-d);
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--text);
+  margin-bottom: 14px;
+  letter-spacing: -0.005em;
+}
+.team-bio {
+  font-size: 15px;
+  line-height: 1.65;
+  color: var(--text-mid);
+  margin-bottom: 18px;
+}
+.team-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.team-tag {
+  font-family: var(--font-b);
+  font-size: 10.5px;
+  font-weight: 400;
+  background: rgba(184,146,42,0.07);
+  color: var(--gold);
+  border: 1px solid rgba(184,146,42,0.18);
+  padding: 4px 10px;
+  border-radius: 2px;
+  letter-spacing: 0.04em;
+}
+.team-cta {
+  margin-top: 48px;
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .team-grid { grid-template-columns: 1fr; max-width: 460px; margin: 8px auto 0; }
+}
+
+/* ============ SURVEY / QUIZ ============ */
+.survey-wrap {
+  max-width: 720px;
+  margin: 16px auto 0;
+  background: #fff;
+  border: 1px solid var(--border);
+  padding: 48px 56px;
+  position: relative;
+}
+.survey-step { display: none; }
+.survey-step.active { display: block; }
+.survey-label {
+  font-family: var(--font-b);
+  font-size: 10.5px;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+.survey-label-step {
+  color: var(--gold);
+  margin-right: 10px;
+}
+.survey-q {
+  font-family: var(--font-d);
+  font-size: 26px;
+  font-weight: 500;
+  color: var(--text);
+  line-height: 1.25;
+  margin: 0 0 28px;
+  letter-spacing: -0.01em;
+}
+.survey-options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 28px;
+}
+.survey-opt {
+  font-family: var(--font-b);
+  font-size: 15px;
+  font-weight: 400;
+  background: var(--warm-white);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 14px 18px;
+  text-align: left;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: border-color 0.15s, background 0.15s, color 0.15s;
+}
+.survey-opt::before {
+  content: '';
+  display: inline-block;
+  width: 14px; height: 14px;
+  border: 1.5px solid var(--border);
+  border-radius: 50%;
+  margin-right: 12px;
+  flex-shrink: 0;
+  transition: border-color 0.15s, background 0.15s;
+}
+.survey-opt:hover {
+  border-color: var(--gold);
+  background: rgba(184,146,42,0.04);
+}
+.survey-opt:hover::before { border-color: var(--gold); }
+.survey-opt.selected {
+  border-color: var(--gold);
+  background: rgba(184,146,42,0.06);
+  color: var(--gold);
+}
+.survey-opt.selected::before {
+  border-color: var(--gold);
+  background: var(--gold);
+  box-shadow: inset 0 0 0 3px #fff;
+}
+.survey-pips {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+.survey-pip {
+  width: 28px;
+  height: 3px;
+  background: var(--border);
+  border-radius: 1px;
+}
+.survey-pip.done { background: var(--gold); }
+.survey-aside {
+  margin-top: 32px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 13.5px;
+  color: var(--text-mid);
+}
+.survey-aside a { color: var(--gold); text-decoration: none; font-weight: 500; }
+.survey-aside a:hover { text-decoration: underline; }
+.survey-aside-icon {
+  width: 36px; height: 36px;
+  border-radius: 50%;
+  background: rgba(184,146,42,0.10);
+  border: 1px solid rgba(184,146,42,0.30);
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+  color: var(--gold);
+  font-family: var(--font-b);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+}
+.survey-done {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 8px 0;
+}
+.survey-done-icon {
+  width: 48px; height: 48px;
+  border-radius: 50%;
+  background: rgba(184,146,42,0.10);
+  border: 1px solid var(--gold);
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+.survey-done-icon svg {
+  width: 22px; height: 22px;
+  stroke: var(--gold);
+  fill: none;
+  stroke-width: 2.2;
+}
+.survey-done-text { flex: 1; }
+.survey-done-title {
+  font-family: var(--font-d);
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--text);
+  margin-bottom: 4px;
+}
+.survey-done-sub {
+  font-size: 14.5px;
+  color: var(--text-mid);
+}
+.survey-done-cta {
+  margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+  .survey-wrap { padding: 32px 24px; }
+  .survey-q { font-size: 22px; }
+  .survey-options { grid-template-columns: 1fr; }
+}
+
+
+/* ============ RESEARCH PAGE — Hero ============ */
+.r-hero {
+  background: var(--warm-white);
+  padding: 80px 48px 64px;
+  border-bottom: 1px solid var(--border);
+  position: relative;
+}
+.r-hero-inner {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+.r-hero-eyebrow {
+  font-family: var(--font-b);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 24px;
+}
+.r-hero-eyebrow::before {
+  content: '';
+  display: inline-block;
+  width: 32px;
+  height: 1px;
+  background: var(--gold);
+  vertical-align: middle;
+  margin-right: 14px;
+}
+.r-hero h1 {
+  font-family: var(--font-d);
+  font-size: clamp(40px, 5vw, 64px);
+  line-height: 1.05;
+  font-weight: 500;
+  letter-spacing: -0.012em;
+  color: var(--text);
+  margin: 0 0 24px;
+  max-width: 880px;
+}
+.r-hero h1 em {
+  font-style: italic;
+  color: var(--gold);
+}
+.r-hero-sub {
+  font-size: 17.5px;
+  line-height: 1.65;
+  color: var(--text-mid);
+  max-width: 680px;
+  margin: 0 0 36px;
+}
+.r-powered-by {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 22px;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--gold);
+}
+.r-powered-by-label {
+  font-family: var(--font-b);
+  font-size: 9.5px;
+  font-weight: 500;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+.r-powered-by-name {
+  font-family: var(--font-d);
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--text);
+  letter-spacing: 0.005em;
+}
+.r-powered-by-arrow {
+  font-size: 14px;
+  color: var(--gold);
+}
+.r-powered-by a {
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  color: inherit;
+  transition: opacity 0.18s;
+}
+.r-powered-by a:hover { opacity: 0.7; }
+
+/* ============ STICKY IN-PAGE NAV ============ */
+.r-pagenav {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  background: var(--espresso);
+  border-bottom: 1px solid rgba(184,146,42,0.25);
+}
+.r-pagenav-inner {
+  max-width: 1240px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 0 32px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.r-pagenav-inner::-webkit-scrollbar { display: none; }
+.r-pagenav a {
+  display: inline-block;
+  padding: 18px 22px;
+  font-family: var(--font-b);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.6);
+  text-decoration: none;
+  white-space: nowrap;
+  border-bottom: 2px solid transparent;
+  transition: color 0.18s, border-color 0.18s;
+}
+.r-pagenav a:hover { color: #fff; }
+.r-pagenav a.active {
+  color: var(--gold-light);
+  border-bottom-color: var(--gold);
+}
+
+/* ============ RESEARCH SECTIONS ============ */
+.r-section {
+  padding: 80px 48px;
+  scroll-margin-top: 120px;
+}
+.r-section.s-warm-white { background: var(--warm-white); }
+.r-section.s-cream { background: var(--cream); }
+.r-section-inner {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+.r-section-head {
+  margin-bottom: 48px;
+  max-width: 760px;
+}
+.r-section-eyebrow {
+  font-family: var(--font-b);
+  font-size: 10.5px;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 14px;
+}
+.r-section-head h2 {
+  font-family: var(--font-d);
+  font-size: clamp(32px, 3.4vw, 44px);
+  line-height: 1.12;
+  font-weight: 500;
+  letter-spacing: -0.008em;
+  color: var(--text);
+  margin: 0 0 16px;
+}
+.r-section-head h2 em {
+  font-style: italic;
+  color: var(--gold);
+}
+.r-section-head p {
+  font-size: 16.5px;
+  line-height: 1.65;
+  color: var(--text-mid);
+  margin: 0;
+}
+
+/* ============ FEATURED CALCULATOR ============ */
+.r-featured {
+  background: var(--espresso);
+  padding: 64px 48px 80px;
+  position: relative;
+}
+.r-featured::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--gold) 30%, var(--gold) 70%, transparent);
+  opacity: 0.4;
+}
+.r-featured-inner {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+.r-featured-head {
+  margin-bottom: 32px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 24px;
+  align-items: end;
+}
+.r-featured-head-left {
+  max-width: 720px;
+}
+.r-featured-eyebrow {
+  font-family: var(--font-b);
+  font-size: 10.5px;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--gold-light);
+  margin-bottom: 14px;
+}
+.r-featured-head h2 {
+  font-family: var(--font-d);
+  font-size: clamp(30px, 3.2vw, 40px);
+  line-height: 1.12;
+  font-weight: 500;
+  letter-spacing: -0.008em;
+  color: #fff;
+  margin: 0 0 14px;
+}
+.r-featured-head p {
+  font-size: 15.5px;
+  line-height: 1.6;
+  color: #D4D0CB;
+  margin: 0;
+}
+.r-featured-frame {
+  background: #fff;
+  border: 1px solid rgba(255,255,255,0.08);
+  overflow: hidden;
+}
+.r-featured-frame iframe {
+  width: 100%;
+  height: 1100px;
+  border: none;
+  display: block;
+}
+
+/* ============ CHART CARDS ============ */
+.r-chart-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+}
+.r-chart {
+  background: #fff;
+  border: 1px solid var(--border);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.r-chart-head {
+  padding: 28px 32px 20px;
+  border-bottom: 1px solid var(--border);
+}
+.r-chart-eyebrow {
+  font-family: var(--font-b);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 8px;
+}
+.r-chart-head h3 {
+  font-family: var(--font-d);
+  font-size: 26px;
+  font-weight: 500;
+  color: var(--text);
+  margin: 0 0 10px;
+  letter-spacing: -0.005em;
+}
+.r-chart-context {
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: var(--text-mid);
+  margin: 0;
+  max-width: 720px;
+}
+.r-chart-frame {
+  position: relative;
+  background: var(--warm-white);
+}
+.r-chart-frame iframe {
+  width: 100%;
+  height: 700px;
+  border: none;
+  display: block;
+}
+.r-chart-foot {
+  padding: 18px 32px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--warm-white);
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.r-chart-source {
+  font-family: var(--font-b);
+  font-size: 10.5px;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+.r-chart-open {
+  font-family: var(--font-b);
+  font-size: 12.5px;
+  font-weight: 500;
+  color: var(--gold);
+  text-decoration: none;
+  transition: opacity 0.18s;
+}
+.r-chart-open:hover { opacity: 0.7; }
+
+.r-section-foot {
+  margin-top: 40px;
+  text-align: center;
+  padding-top: 32px;
+  border-top: 1px solid var(--border);
+}
+.r-section-foot a {
+  font-family: var(--font-b);
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--gold);
+  text-decoration: none;
+}
+.r-section-foot a:hover { text-decoration: underline; }
+
+/* ============ PARTNERSHIP EXPLAINER ============ */
+.r-partnership {
+  background: var(--cream);
+  padding: 80px 48px;
+}
+.r-partnership-inner {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: center;
+}
+.r-partnership-text h2 {
+  font-family: var(--font-d);
+  font-size: clamp(28px, 3vw, 36px);
+  line-height: 1.15;
+  font-weight: 500;
+  color: var(--text);
+  margin: 0 0 20px;
+  letter-spacing: -0.005em;
+}
+.r-partnership-text h2 em { font-style: italic; color: var(--gold); }
+.r-partnership-text p {
+  font-size: 15.5px;
+  line-height: 1.7;
+  color: var(--text-mid);
+  margin: 0 0 16px;
+}
+.r-partnership-card {
+  background: #fff;
+  border: 1px solid var(--border);
+  padding: 36px 32px;
+  text-align: center;
+}
+.r-partnership-card-label {
+  font-family: var(--font-b);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 14px;
+}
+.r-partnership-card-name {
+  font-family: var(--font-d);
+  font-size: 36px;
+  font-weight: 500;
+  color: var(--text);
+  letter-spacing: 0.005em;
+  margin-bottom: 8px;
+}
+.r-partnership-card-sub {
+  font-family: var(--font-b);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 24px;
+}
+.r-partnership-card-desc {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--text-mid);
+  margin-bottom: 24px;
+}
+
+/* ============ DISCLAIMER ============ */
+.r-disclaimer {
+  padding: 56px 48px;
+  background: var(--warm-white);
+  border-top: 1px solid var(--border);
+}
+.r-disclaimer-inner {
+  max-width: 920px;
+  margin: 0 auto;
+  font-size: 11.5px;
+  line-height: 1.7;
+  color: var(--text-muted);
+  text-align: center;
+}
+.r-disclaimer-label {
+  font-family: var(--font-b);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--text-mid);
+  margin-bottom: 12px;
+  display: block;
+}
+
+/* ============ MOBILE ============ */
+@media (max-width: 900px) {
+  .r-featured-head { grid-template-columns: 1fr; }
+  .r-partnership-inner { grid-template-columns: 1fr; gap: 32px; }
+}
+@media (max-width: 720px) {
+  .r-hero { padding: 56px 22px 48px; }
+  .r-section { padding: 56px 22px; }
+  .r-featured { padding: 48px 22px 56px; }
+  .r-featured-frame iframe { height: 900px; }
+  .r-chart-frame iframe { height: 520px; }
+  .r-chart-head { padding: 22px 22px 16px; }
+  .r-chart-foot { padding: 16px 22px; }
+  .r-partnership { padding: 56px 22px; }
+  .r-disclaimer { padding: 40px 22px; }
+}
+
+
+/* ============ PURCHASING POWER 2-COL GRID ============ */
+.r-chart-grid-2col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+}
+.r-chart-grid-2col .r-chart-frame iframe {
+  height: 520px;
+}
+.r-chart-grid-2col .r-chart-head {
+  padding: 22px 26px 16px;
+}
+.r-chart-grid-2col .r-chart-head h3 {
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+.r-chart-grid-2col .r-chart-context {
+  font-size: 13.5px;
+}
+.r-chart-grid-2col .r-chart-foot {
+  padding: 14px 26px;
+}
+@media (max-width: 980px) {
+  .r-chart-grid-2col {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  .r-chart-grid-2col .r-chart-frame iframe { height: 480px; }
+}
+
+</style>
+</head>
+<body>
+<!-- ============ NAV ============ -->
+<nav class="nav">
+  <div class="nav-brand">
+    <a href="https://mcalvany.com/metals/" target="_blank" rel="noopener noreferrer" class="nav-mca" title="Visit McAlvany Precious Metals">
+      <div class="nav-mca-name">McAlvany</div>
+      <div class="nav-mca-sub">Precious Metals</div>
+    </a>
+    <a href="/" class="nav-tory" title="Tory Aggeler — Home">
+      <div class="nav-tory-name">Tory Aggeler</div>
+      <div class="nav-tory-sub">Senior Advisor</div>
+    </a>
+  </div>
+  <ul class="nav-links">
+    <li><a href="/about">About</a></li>
+    <li><a href="/team">Team</a></li>
+    <li><a href="/services">Services</a></li>
+    <li><a href="/research" class="active">Research</a></li>
+    <li><a href="/education">Education</a></li>
+    <li><a href="/contact">Contact</a></li>
+  </ul>
+  <a href="/contact" class="nav-cta">Schedule a Call</a>
+  <button class="nav-hamburger" id="navHamburger" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<div class="nav-mobile-menu" id="navMobileMenu">
+  <ul class="nav-mobile-links">
+    <li><a href="/about">About</a></li>
+    <li><a href="/team">Team</a></li>
+    <li><a href="/services">Services</a></li>
+    <li><a href="/research" class="active">Research</a></li>
+    <li><a href="/education">Education</a></li>
+    <li><a href="/contact">Contact</a></li>
+  </ul>
+  <div class="nav-mobile-bottom">
+    <a href="tel:+18662118972" class="nav-mobile-phone">866.211.8972</a>
+    <a href="mailto:taggeler@mcalvany.com" class="nav-mobile-phone">taggeler@mcalvany.com</a>
+    <a href="/contact" class="nav-cta">Schedule a Call</a>
+  </div>
+</div>
+
+<!-- ============ TICKER ============ -->
+<div class="ticker">
+  <div class="ticker-track">
+    <span class="ticker-item"><span class="t-label">Gold</span> <span class="t-price">$3,142.80</span> <span class="t-up">▲ +$18.40 (+0.59%)</span></span>
+    <span class="ticker-item t-dot">·</span>
+    <span class="ticker-item"><span class="t-label">Silver</span> <span class="t-price">$34.72</span> <span class="t-up">▲ +$0.48 (+1.40%)</span></span>
+    <span class="ticker-item t-dot">·</span>
+    <span class="ticker-item"><span class="t-label">Platinum</span> <span class="t-price">$984.10</span> <span class="t-dn">▼ -$6.20 (-0.63%)</span></span>
+    <span class="ticker-item t-dot">·</span>
+    <span class="ticker-item"><span class="t-label">Palladium</span> <span class="t-price">$1,054.50</span> <span class="t-up">▲ +$12.30 (+1.18%)</span></span>
+    <span class="ticker-item t-dot">·</span>
+    <span class="ticker-item"><span class="t-label">Au/Ag Ratio</span> <span class="t-price">90.5</span></span>
+    <span class="ticker-item t-dot">·</span>
+    <span class="ticker-item"><span class="t-label">USD Index</span> <span class="t-price">104.22</span> <span class="t-dn">▼ -0.14</span></span>
+    <span class="ticker-item"><span class="t-label">Gold</span> <span class="t-price">$3,142.80</span> <span class="t-up">▲ +$18.40 (+0.59%)</span></span>
+    <span class="ticker-item t-dot">·</span>
+    <span class="ticker-item"><span class="t-label">Silver</span> <span class="t-price">$34.72</span> <span class="t-up">▲ +$0.48 (+1.40%)</span></span>
+    <span class="ticker-item t-dot">·</span>
+    <span class="ticker-item"><span class="t-label">Platinum</span> <span class="t-price">$984.10</span> <span class="t-dn">▼ -$6.20 (-0.63%)</span></span>
+    <span class="ticker-item t-dot">·</span>
+    <span class="ticker-item"><span class="t-label">Palladium</span> <span class="t-price">$1,054.50</span> <span class="t-up">▲ +$12.30 (+1.18%)</span></span>
+    <span class="ticker-item t-dot">·</span>
+    <span class="ticker-item"><span class="t-label">Au/Ag Ratio</span> <span class="t-price">90.5</span></span>
+    <span class="ticker-item t-dot">·</span>
+    <span class="ticker-item"><span class="t-label">USD Index</span> <span class="t-price">104.22</span> <span class="t-dn">▼ -0.14</span></span>
+  </div>
+</div>
+
+
+<!-- ============ RESEARCH PAGE HERO ============ -->
+<section class="r-hero">
+  <div class="r-hero-inner">
+    <div class="r-hero-eyebrow">Research &amp; Analytics</div>
+    <h1>The data and tools <em>behind every decision</em>.</h1>
+    <p class="r-hero-sub">Precious metals investing demands more than just price charts. Tory's research suite — purchasing power, ratios, macro indicators, and historical performance — gives you the analytical grounding to act with confidence.</p>
+    <div class="r-powered-by">
+      <a href="https://thegoldwindow.ai/partners/tory-aggeler" target="_blank" rel="noopener">
+        <span class="r-powered-by-label">Powered by</span>
+        <span class="r-powered-by-name">The Gold Window</span>
+        <span class="r-powered-by-arrow">→</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STICKY IN-PAGE NAV ============ */-->
+<nav class="r-pagenav" id="rPagenav">
+  <div class="r-pagenav-inner">
+    <a href="#calc" data-section="calc" class="active">Calculator</a>
+    <a href="#realworld" data-section="realworld">Real-World Examples</a>
+    <a href="#performance" data-section="performance">Price &amp; Performance</a>
+    <a href="#ratios" data-section="ratios">Ratios &amp; Comparisons</a>
+    <a href="#macro" data-section="macro">Macro Indicators</a>
+  </div>
+</nav>
+
+<!-- ============ FEATURED CALCULATOR ============ -->
+<section class="r-featured" id="calc">
+  <div class="r-featured-inner">
+    <div class="r-featured-head">
+      <div class="r-featured-head-left">
+        <div class="r-featured-eyebrow">Featured · Interactive Tool</div>
+        <h2>Purchasing Power Calculator</h2>
+        <p>See exactly how the dollar in your hand has lost ground against gold, silver, and other assets — at any starting date you choose. The single most important question precious metals investors should ask, with a real answer.</p>
+      </div>
+    </div>
+    <div class="r-featured-frame">
+      <iframe src="https://thegoldwindow.ai/embed/calculator" loading="lazy" title="Purchasing Power Calculator — The Gold Window"></iframe>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============ REAL-WORLD PURCHASING POWER ============ -->
+<section class="r-section s-cream" id="realworld">
+  <div class="r-section-inner">
+    <div class="r-section-head reveal">
+      <div class="r-section-eyebrow">Section 1</div>
+      <h2>Real-World <em>Purchasing Power</em></h2>
+      <p>The calculator above shows the abstract story — what the dollar has lost against gold over time. These charts show the concrete one: what an ounce of gold actually buys, decade after decade, in the things people actually spend money on.</p>
+    </div>
+    <div class="r-chart-grid-2col">
+      <div class="r-chart reveal">
+        <div class="r-chart-head">
+          <div class="r-chart-eyebrow">Daily Necessities</div>
+          <h3>Gold &amp; the Cost of Bread</h3>
+          <p class="r-chart-context">A loaf of bread, priced in gold over time. The ultimate sanity check on what real money actually preserves.</p>
+        </div>
+        <div class="r-chart-frame">
+          <iframe src="https://thegoldwindow.ai/embed/pp-bread" loading="lazy" title="Gold &amp; the Cost of Bread — The Gold Window"></iframe>
+        </div>
+        <div class="r-chart-foot">
+          <span class="r-chart-source">Data · The Gold Window</span>
+          <a href="https://thegoldwindow.ai/partners/tory-aggeler" target="_blank" rel="noopener" class="r-chart-open">Open in The Gold Window →</a>
+        </div>
+      </div>
+
+      <div class="r-chart reveal">
+        <div class="r-chart-head">
+          <div class="r-chart-eyebrow">Daily Necessities</div>
+          <h3>Gold &amp; the Cost of Eggs</h3>
+          <p class="r-chart-context">A dozen eggs measured in gold. A grocery-aisle test of monetary stability — or the lack of it.</p>
+        </div>
+        <div class="r-chart-frame">
+          <iframe src="https://thegoldwindow.ai/embed/pp-eggs" loading="lazy" title="Gold &amp; the Cost of Eggs — The Gold Window"></iframe>
+        </div>
+        <div class="r-chart-foot">
+          <span class="r-chart-source">Data · The Gold Window</span>
+          <a href="https://thegoldwindow.ai/partners/tory-aggeler" target="_blank" rel="noopener" class="r-chart-open">Open in The Gold Window →</a>
+        </div>
+      </div>
+
+      <div class="r-chart reveal">
+        <div class="r-chart-head">
+          <div class="r-chart-eyebrow">Daily Necessities</div>
+          <h3>Gold &amp; the Cost of Beef</h3>
+          <p class="r-chart-context">Ground beef priced in gold across the decades. Tangible evidence of what hard money looks like at the dinner table.</p>
+        </div>
+        <div class="r-chart-frame">
+          <iframe src="https://thegoldwindow.ai/embed/pp-beef" loading="lazy" title="Gold &amp; the Cost of Beef — The Gold Window"></iframe>
+        </div>
+        <div class="r-chart-foot">
+          <span class="r-chart-source">Data · The Gold Window</span>
+          <a href="https://thegoldwindow.ai/partners/tory-aggeler" target="_blank" rel="noopener" class="r-chart-open">Open in The Gold Window →</a>
+        </div>
+      </div>
+
+      <div class="r-chart reveal">
+        <div class="r-chart-head">
+          <div class="r-chart-eyebrow">Energy</div>
+          <h3>Gold &amp; the Cost of Gasoline</h3>
+          <p class="r-chart-context">A gallon of gas paid in gold instead of dollars. The cost stays remarkably constant — only the dollar changes.</p>
+        </div>
+        <div class="r-chart-frame">
+          <iframe src="https://thegoldwindow.ai/embed/pp-gasoline" loading="lazy" title="Gold &amp; the Cost of Gasoline — The Gold Window"></iframe>
+        </div>
+        <div class="r-chart-foot">
+          <span class="r-chart-source">Data · The Gold Window</span>
+          <a href="https://thegoldwindow.ai/partners/tory-aggeler" target="_blank" rel="noopener" class="r-chart-open">Open in The Gold Window →</a>
+        </div>
+      </div>
+
+      <div class="r-chart reveal">
+        <div class="r-chart-head">
+          <div class="r-chart-eyebrow">Major Purchases</div>
+          <h3>Gold &amp; the Cost of a Home</h3>
+          <p class="r-chart-context">The price of a median home, measured in ounces of gold rather than dollars. The dollar's purchasing-power story made visible.</p>
+        </div>
+        <div class="r-chart-frame">
+          <iframe src="https://thegoldwindow.ai/embed/pp-housing" loading="lazy" title="Gold &amp; the Cost of a Home — The Gold Window"></iframe>
+        </div>
+        <div class="r-chart-foot">
+          <span class="r-chart-source">Data · The Gold Window</span>
+          <a href="https://thegoldwindow.ai/partners/tory-aggeler" target="_blank" rel="noopener" class="r-chart-open">Open in The Gold Window →</a>
+        </div>
+      </div>
+
+      <div class="r-chart reveal">
+        <div class="r-chart-head">
+          <div class="r-chart-eyebrow">Major Purchases</div>
+          <h3>Gold &amp; the Cost of a Car</h3>
+          <p class="r-chart-context">A new car priced in gold over time. Big-ticket consumer goods viewed through a hard-money lens.</p>
+        </div>
+        <div class="r-chart-frame">
+          <iframe src="https://thegoldwindow.ai/embed/pp-car" loading="lazy" title="Gold &amp; the Cost of a Car — The Gold Window"></iframe>
+        </div>
+        <div class="r-chart-foot">
+          <span class="r-chart-source">Data · The Gold Window</span>
+          <a href="https://thegoldwindow.ai/partners/tory-aggeler" target="_blank" rel="noopener" class="r-chart-open">Open in The Gold Window →</a>
+        </div>
+      </div>
+
+      <div class="r-chart reveal">
+        <div class="r-chart-head">
+          <div class="r-chart-eyebrow">Major Purchases</div>
+          <h3>Gold &amp; the Cost of College</h3>
+          <p class="r-chart-context">One year of college tuition in gold ounces. The dollar cost has exploded; the gold cost tells a far more honest story.</p>
+        </div>
+        <div class="r-chart-frame">
+          <iframe src="https://thegoldwindow.ai/embed/pp-college" loading="lazy" title="Gold &amp; the Cost of College — The Gold Window"></iframe>
+        </div>
+        <div class="r-chart-foot">
+          <span class="r-chart-source">Data · The Gold Window</span>
+          <a href="https://thegoldwindow.ai/partners/tory-aggeler" target="_blank" rel="noopener" class="r-chart-open">Open in The Gold Window →</a>
+        </div>
+      </div>
+
+      <div class="r-chart reveal">
+        <div class="r-chart-head">
+          <div class="r-chart-eyebrow">Classic Benchmark</div>
+          <h3>Gold &amp; the Cost of a Suit</h3>
+          <p class="r-chart-context">A traditional precious-metals benchmark: an ounce of gold should buy a quality men's suit. This chart tests that claim across more than a century.</p>
+        </div>
+        <div class="r-chart-frame">
+          <iframe src="https://thegoldwindow.ai/embed/pp-suit" loading="lazy" title="Gold &amp; the Cost of a Suit — The Gold Window"></iframe>
+        </div>
+        <div class="r-chart-foot">
+          <span class="r-chart-source">Data · The Gold Window</span>
+          <a href="https://thegoldwindow.ai/partners/tory-aggeler" target="_blank" rel="noopener" class="r-chart-open">Open in The Gold Window →</a>
+        </div>
+      </div>
+
+      <div class="r-chart reveal">
+        <div class="r-chart-head">
+          <div class="r-chart-eyebrow">Earnings</div>
+          <h3>Gold &amp; Hourly Wages</h3>
+          <p class="r-chart-context">Average hourly wages denominated in gold. How much real value an hour of work actually buys, decade by decade.</p>
+        </div>
+        <div class="r-chart-frame">
+          <iframe src="https://thegoldwindow.ai/embed/pp-wages" loading="lazy" title="Gold &amp; Hourly Wages — The Gold Window"></iframe>
+        </div>
+        <div class="r-chart-foot">
+          <span class="r-chart-source">Data · The Gold Window</span>
+          <a href="https://thegoldwindow.ai/partners/tory-aggeler" target="_blank" rel="noopener" class="r-chart-open">Open in The Gold Window →</a>
+        </div>
+      </div>
+
+      <div class="r-chart reveal">
+        <div class="r-chart-head">
+          <div class="r-chart-eyebrow">Earnings</div>
+          <h3>Gold &amp; Household Income</h3>
+          <p class="r-chart-context">Median household income in gold ounces. Whether American families are getting richer in real terms — or only on paper.</p>
+        </div>
+        <div class="r-chart-frame">
+          <iframe src="https://thegoldwindow.ai/embed/pp-income" loading="lazy" title="Gold &amp; Household Income — The Gold Window"></iframe>
+        </div>
+        <div class="r-chart-foot">
+          <span class="r-chart-source">Data · The Gold Window</span>
+          <a href="https://thegoldwindow.ai/partners/tory-aggeler" target="_blank" rel="noopener" class="r-chart-open">Open in The Gold Window →</a>
+        </div>
+      </div>
+
+    </div>
+    <div class="r-section-foot">
+      <a href="https://thegoldwindow.ai/partners/tory-aggeler" target="_blank" rel="noopener">Explore the full purchasing-power suite on The Gold Window →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRICE & PERFORMANCE ============ -->
+<section class="r-section s-warm-white" id="performance">
+  <div class="r-section-inner">
+    <div class="r-section-head reveal">
+      <div class="r-section-eyebrow">Section 2</div>
+      <h2>Price &amp; <em>Performance</em></h2>
+      <p>How precious metals have moved — day to day, year over year, and through seasonal cycles. The foundation for understanding what you actually own.</p>
+    </div>
+    <div class="r-chart-grid">
+      <div class="r-chart reveal">
+        <div class="r-chart-head">
+          <div class="r-chart-eyebrow">Spot Prices</div>
+          <h3>Gold Spot Price</h3>
+          <p class="r-chart-context">Real-time and historical spot pricing for gold. The base data point for every other comparison and decision.</p>
+        </div>
+        <div class="r-chart-frame">
+          <iframe src="https://thegoldwindow.ai/embed/gold-spot" loading="lazy" title="Gold Spot Price — The Gold Window"></iframe>
+        </div>
+        <div class="r-chart-foot">
+          <span class="r-chart-source">Data · The Gold Window</span>
+          <a href="https://thegoldwindow.ai/partners/tory-aggeler" target="_blank" rel="noopener" class="r-chart-open">Open in The Gold Window →</a>
+        </div>
+      </div>
+
+      <div class="r-chart reveal">
+        <div class="r-chart-head">
+          <div class="r-chart-eyebrow">Annual Returns</div>
+          <h3>Gold Annual Returns</h3>
+          <p class="r-chart-context">Year-by-year price performance — how often gold has positive years, how big the wins and drawdowns are, and how it stacks up across decades.</p>
+        </div>
+        <div class="r-chart-frame">
+          <iframe src="https://thegoldwindow.ai/embed/yearly-returns" loading="lazy" title="Gold Annual Returns — The Gold Window"></iframe> 
+        </div>
+        <div class="r-chart-foot">
+          <span class="r-chart-source">Data · The Gold Window</span>
+          <a href="https://thegoldwindow.ai/partners/tory-aggeler" target="_blank" rel="noopener" class="r-chart-open">Open in The Gold Window →</a>
+        </div>
+      </div>
+
+      <div class="r-chart reveal">
+        <div class="r-chart-head">
+          <div class="r-chart-eyebrow">Seasonality</div>
+          <h3>Gold Monthly Returns</h3>
+          <p class="r-chart-context">Average return by calendar month across the historical record. Useful for timing context but not a stand-alone trading signal.</p>
+        </div>
+        <div class="r-chart-frame">
+          <iframe src="https://thegoldwindow.ai/embed/gold-monthly" loading="lazy" title="Gold Monthly Returns — The Gold Window"></iframe>
+        </div>
+        <div class="r-chart-foot">
+          <span class="r-chart-source">Data · The Gold Window</span>
+          <a href="https://thegoldwindow.ai/partners/tory-aggeler" target="_blank" rel="noopener" class="r-chart-open">Open in The Gold Window →</a>
+        </div>
+      </div>
+
+    </div>
+    <div class="r-section-foot">
+      <a href="https://thegoldwindow.ai/partners/tory-aggeler" target="_blank" rel="noopener">Explore all performance charts on The Gold Window →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ RATIOS & COMPARISONS ============ -->
+<section class="r-section s-cream" id="ratios">
+  <div class="r-section-inner">
+    <div class="r-section-head reveal">
+      <div class="r-section-eyebrow">Section 3</div>
+      <h2>Ratios &amp; <em>Cross-Asset Comparisons</em></h2>
+      <p>The most useful metals analysis isn't price alone — it's metals relative to other assets. These ratios reveal when gold is expensive, when silver is cheap, and where opportunities are forming.</p>
+    </div>
+    <div class="r-chart-grid">
+      <div class="r-chart reveal">
+        <div class="r-chart-head">
+          <div class="r-chart-eyebrow">Ratios</div>
+          <h3>Gold &#8725; Silver Ratio</h3>
+          <p class="r-chart-context">The classic precious metals ratio. Historically signals when to favor silver (high readings) or gold (low readings) within a metals portfolio.</p>
+        </div>
+        <div class="r-chart-frame">
+          <iframe src="https://thegoldwindow.ai/embed/gold-silver-ratio" loading="lazy" title="Gold &#8725; Silver Ratio — The Gold Window"></iframe>
+        </div>
+        <div class="r-chart-foot">
+          <span class="r-chart-source">Data · The Gold Window</span>
+          <a href="https://thegoldwindow.ai/partners/tory-aggeler" target="_blank" rel="noopener" class="r-chart-open">Open in The Gold Window →</a>
+        </div>
+      </div>
+
+      <div class="r-chart reveal">
+        <div class="r-chart-head">
+          <div class="r-chart-eyebrow">Energy</div>
+          <h3>Gold &#8725; Oil Ratio</h3>
+          <p class="r-chart-context">Gold priced in barrels of oil. A measure of monetary versus energy value through different inflation regimes.</p>
+        </div>
+        <div class="r-chart-frame">
+          <iframe src="https://thegoldwindow.ai/embed/gold-oil" loading="lazy" title="Gold &#8725; Oil Ratio — The Gold Window"></iframe> 
+        </div>
+        <div class="r-chart-foot">
+          <span class="r-chart-source">Data · The Gold Window</span>
+          <a href="https://thegoldwindow.ai/partners/tory-aggeler" target="_blank" rel="noopener" class="r-chart-open">Open in The Gold Window →</a>
+        </div>
+      </div>
+
+      <div class="r-chart reveal">
+        <div class="r-chart-head">
+          <div class="r-chart-eyebrow">Equities</div>
+          <h3>Gold vs. S&amp;P 500</h3>
+          <p class="r-chart-context">How gold has performed against the broad U.S. equity market. Context for diversification and risk-on / risk-off cycles.</p>
+        </div>
+        <div class="r-chart-frame">
+          <iframe src="https://thegoldwindow.ai/embed/gold-sp500" loading="lazy" title="Gold vs. S&amp;P 500 — The Gold Window"></iframe> 
+        </div>
+        <div class="r-chart-foot">
+          <span class="r-chart-source">Data · The Gold Window</span>
+          <a href="https://thegoldwindow.ai/partners/tory-aggeler" target="_blank" rel="noopener" class="r-chart-open">Open in The Gold Window →</a>
+        </div>
+      </div>
+
+      <div class="r-chart reveal">
+        <div class="r-chart-head">
+          <div class="r-chart-eyebrow">Digital Assets</div>
+          <h3>Gold vs. Bitcoin</h3>
+          <p class="r-chart-context">Two hard-asset alternatives to fiat. Comparing performance and volatility profiles helps frame how each fits in a portfolio.</p>
+        </div>
+        <div class="r-chart-frame">
+          <iframe src="https://thegoldwindow.ai/embed/gold-vs-bitcoin" loading="lazy" title="Gold vs. Bitcoin — The Gold Window"></iframe> 
+        </div>
+        <div class="r-chart-foot">
+          <span class="r-chart-source">Data · The Gold Window</span>
+          <a href="https://thegoldwindow.ai/partners/tory-aggeler" target="_blank" rel="noopener" class="r-chart-open">Open in The Gold Window →</a>
+        </div>
+      </div>
+
+      <div class="r-chart reveal">
+        <div class="r-chart-head">
+          <div class="r-chart-eyebrow">Mining Sector</div>
+          <h3>GDX vs. Gold</h3>
+          <p class="r-chart-context">Gold mining equities (GDX) measured against the metal itself. Useful for understanding when miners are over- or underperforming the underlying.</p>
+        </div>
+        <div class="r-chart-frame">
+          <iframe src="https://thegoldwindow.ai/embed/gdx-gold" loading="lazy" title="GDX vs. Gold — The Gold Window"></iframe> 
+        </div>
+        <div class="r-chart-foot">
+          <span class="r-chart-source">Data · The Gold Window</span>
+          <a href="https://thegoldwindow.ai/partners/tory-aggeler" target="_blank" rel="noopener" class="r-chart-open">Open in The Gold Window →</a>
+        </div>
+      </div>
+
+    </div>
+    <div class="r-section-foot">
+      <a href="https://thegoldwindow.ai/partners/tory-aggeler" target="_blank" rel="noopener">Explore all ratio charts on The Gold Window →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MACRO INDICATORS ============ -->
+<section class="r-section s-warm-white" id="macro">
+  <div class="r-section-inner">
+    <div class="r-section-head reveal">
+      <div class="r-section-eyebrow">Section 4</div>
+      <h2>Macro <em>Indicators</em></h2>
+      <p>Gold's behavior is best understood against the monetary and economic forces that shape it. Inflation and money supply are the two most important.</p>
+    </div>
+    <div class="r-chart-grid">
+      <div class="r-chart reveal">
+        <div class="r-chart-head">
+          <div class="r-chart-eyebrow">Inflation</div>
+          <h3>Gold vs. CPI</h3>
+          <p class="r-chart-context">The classic inflation-hedge thesis, charted. How gold's price has tracked the official consumer price index over time.</p>
+        </div>
+        <div class="r-chart-frame">
+          <iframe src="https://thegoldwindow.ai/embed/gold-vs-cpi" loading="lazy" title="Gold vs. CPI — The Gold Window"></iframe>
+        </div>
+        <div class="r-chart-foot">
+          <span class="r-chart-source">Data · The Gold Window</span>
+          <a href="https://thegoldwindow.ai/partners/tory-aggeler" target="_blank" rel="noopener" class="r-chart-open">Open in The Gold Window →</a>
+        </div>
+      </div>
+
+      <div class="r-chart reveal">
+        <div class="r-chart-head">
+          <div class="r-chart-eyebrow">Money Supply</div>
+          <h3>Gold vs. M2</h3>
+          <p class="r-chart-context">Gold measured against U.S. money supply expansion. The case for gold as a hedge against monetary debasement, in one chart.</p>
+        </div>
+        <div class="r-chart-frame">
+          <iframe src="https://thegoldwindow.ai/embed/gold-vs-m2" loading="lazy" title="Gold vs. M2 — The Gold Window"></iframe> 
+        </div>
+        <div class="r-chart-foot">
+          <span class="r-chart-source">Data · The Gold Window</span>
+          <a href="https://thegoldwindow.ai/partners/tory-aggeler" target="_blank" rel="noopener" class="r-chart-open">Open in The Gold Window →</a>
+        </div>
+      </div>
+
+    </div>
+    <div class="r-section-foot">
+      <a href="https://thegoldwindow.ai/partners/tory-aggeler" target="_blank" rel="noopener">Explore all macro charts on The Gold Window →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TGW PARTNERSHIP EXPLAINER ============ -->
+<section class="r-partnership">
+  <div class="r-partnership-inner">
+    <div class="r-partnership-text reveal">
+      <h2>Built on <em>The Gold Window</em>.</h2>
+      <p>The research and analytics on this page are powered by The Gold Window — an institutional-grade precious metals analytics platform purpose-built for serious investors and the advisors who serve them.</p>
+      <p>Tory's clients have a dedicated branded research portal on The Gold Window with the full chart library, custom analytics, and advisor commentary. Every chart on this page is a live, interactive version of what's available there.</p>
+    </div>
+    <div class="r-partnership-card reveal">
+      <div class="r-partnership-card-label">Visit Tory's Portal At</div>
+      <div class="r-partnership-card-name">The Gold Window</div>
+      <div class="r-partnership-card-sub">Tory Aggeler · Partner Page</div>
+      <p class="r-partnership-card-desc">Access the full chart library, calculators, and macro dashboards in Tory's branded research environment on The Gold Window.</p>
+      <a href="https://thegoldwindow.ai/partners/tory-aggeler" target="_blank" rel="noopener" class="btn btn-primary">Open Tory's Research Portal</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DISCLAIMER ============ -->
+<section class="r-disclaimer">
+  <div class="r-disclaimer-inner">
+    <span class="r-disclaimer-label">Disclaimer</span>
+    Charts and analytics on this page are provided by The Gold Window. Data is sourced from third-party providers and updated periodically. Past performance does not guarantee future results. Information is provided for educational purposes only and does not constitute investment, tax, or legal advice. Consult a qualified professional before making any investment decision. Precious metals investments carry risk, including the potential loss of principal.
+  </div>
+</section>
+<!-- ============ CTA BAND ============ -->
+<section class="cta-band">
+  <div class="cta-band-inner">
+    <h2>Ready to talk about your portfolio?</h2>
+    <p>Tory works with a select group of clients. Consultations are free, conversational, and there's no obligation.</p>
+    <div class="cta-band-actions">
+      <a href="/contact" class="btn btn-primary">Schedule a Free Call</a>
+      <a href="/about" class="btn btn-ghost">More About Tory</a>
+    </div>
+    <div class="cta-band-phone">
+      Or call direct: <strong>866.211.8972</strong>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand-name">McAlvany</div>
+        <div class="footer-brand-sub">Precious Metals</div>
+        <p class="footer-brand-blurb">
+          Trusted guidance for physical precious metals ownership since 1972. Personal service from Senior Advisor Tory Aggeler, backed by the McAlvany institutional team.
+        </p>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="/about">About Tory</a></li>
+          <li><a href="/services">Services</a></li>
+          <li><a href="/research">Research</a></li>
+          <li><a href="/education">Education</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="https://mcalvany.com" target="_blank" rel="noopener">McAlvany.com</a></li>
+          <li><a href="https://thegoldwindow.ai" target="_blank" rel="noopener">The Gold Window</a></li>
+          <li><a href="https://mcalvanyweeklycommentary.com" target="_blank" rel="noopener">Weekly Commentary</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+18662118972">866.211.8972</a></li>
+          <li><a href="mailto:taggeler@mcalvany.com">taggeler@mcalvany.com</a></li>
+          <li>Durango, Colorado</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2026 McAlvany Precious Metals. All rights reserved.</div>
+      <div>
+        <a href="#">Privacy</a>  ·  <a href="#">Terms</a>  ·  <a href="#">Disclosures</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+// Hamburger
+const hamburger = document.getElementById('navHamburger');
+const mobileMenu = document.getElementById('navMobileMenu');
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('open');
+  mobileMenu.classList.toggle('open');
+});
+
+// Reveal
+const obs = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.classList.add('in');
+      obs.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.15 });
+document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+
+// Research tabs
+document.querySelectorAll('.research-tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelectorAll('.research-tab').forEach(t => t.classList.remove('active'));
+    tab.classList.add('active');
+    const frame = document.getElementById('researchFrame');
+    const height = tab.dataset.height || '700';
+    // Set desktop height inline; mobile overrides via data-active-height attribute
+    frame.style.height = height + 'px';
+    frame.setAttribute('data-active-height', height);
+    frame.src = tab.dataset.src;
+  });
+});
+
+// Testimonial rotator
+const testimonials = [
+  {
+    text: "Tory has been our precious metals advisor for over six years. He's never once pushed us into a decision — he educates, explains, and lets us choose. That kind of integrity is rare in this industry.",
+    author: "Robert K.",
+    detail: "Retired Engineer · Colorado"
+  },
+  {
+    text: "I had no idea how to move my IRA into physical metals. Tory and the team walked me through every step. The process was seamless — and I was kept updated the whole time.",
+    author: "Sandra L.",
+    detail: "Business Owner · Texas"
+  },
+  {
+    text: "I called three different precious metals companies before I found Tory. The difference was immediate — he actually listened, asked about my goals, and gave me a real strategy. Not just a sales pitch.",
+    author: "David M.",
+    detail: "Attorney · Arizona"
+  }
+];
+document.querySelectorAll('.pullquote-dot').forEach(dot => {
+  dot.addEventListener('click', () => {
+    const idx = parseInt(dot.dataset.idx);
+    document.querySelectorAll('.pullquote-dot').forEach(d => d.classList.remove('active'));
+    dot.classList.add('active');
+    document.getElementById('pqText').textContent = testimonials[idx].text;
+    document.getElementById('pqAuthor').textContent = testimonials[idx].author;
+    document.getElementById('pqDetail').textContent = testimonials[idx].detail;
+  });
+});
+</script>
+
+
+<script>
+(function(){
+  var surveyAnswers = {};
+  window.surveySelect = function(btn, step) {
+    var opts = btn.parentNode.querySelectorAll('.survey-opt');
+    opts.forEach(function(o){ o.classList.remove('selected'); });
+    btn.classList.add('selected');
+    surveyAnswers['step' + step] = btn.textContent.trim();
+    setTimeout(function(){
+      if (step < 3) {
+        document.getElementById('survey-step-' + step).classList.remove('active');
+        document.getElementById('survey-step-' + (step + 1)).classList.add('active');
+      } else {
+        var wrap = document.getElementById('surveyWrap');
+        wrap.innerHTML = '<div class="survey-done">' +
+          '<div class="survey-done-icon"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>' +
+          '<div class="survey-done-text">' +
+            '<div class="survey-done-title">Thanks — Tory will be in touch.</div>' +
+            '<div class="survey-done-sub">Your answers (' + (surveyAnswers.step1||'') + ' · ' + (surveyAnswers.step2||'') + ' · ' + (surveyAnswers.step3||'') + ') have been noted. Schedule your call below.</div>' +
+            '<div class="survey-done-cta"><a href="/contact" class="btn btn-primary">Schedule a Call</a></div>' +
+          '</div>' +
+          '</div>';
+      }
+    }, 280);
+  };
+})();
+</script>
+
+
+<script>
+// Mobile hamburger
+const hamburger = document.getElementById('navHamburger');
+const mobileMenu = document.getElementById('navMobileMenu');
+if (hamburger && mobileMenu) {
+  hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('open');
+    mobileMenu.classList.toggle('open');
+  });
+}
+
+// Reveal animations
+const obs = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.classList.add('in');
+      obs.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.15 });
+document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+
+// Sticky in-page nav scrollspy
+const pagenavLinks = document.querySelectorAll('.r-pagenav a');
+const sections = ['calc', 'realworld', 'performance', 'ratios', 'macro'].map(id => document.getElementById(id)).filter(Boolean);
+function updateActiveSection() {
+  const scrollPos = window.scrollY + 180;
+  let active = sections[0];
+  for (const sec of sections) {
+    if (sec.offsetTop <= scrollPos) active = sec;
+  }
+  pagenavLinks.forEach(link => {
+    link.classList.toggle('active', link.dataset.section === active.id);
+  });
+}
+window.addEventListener('scroll', updateActiveSection, { passive: true });
+updateActiveSection();
+
+// Smooth scroll for in-page nav
+pagenavLinks.forEach(link => {
+  link.addEventListener('click', (e) => {
+    const targetId = link.getAttribute('href').slice(1);
+    const target = document.getElementById(targetId);
+    if (target) {
+      e.preventDefault();
+      const navHeight = document.querySelector('.nav').offsetHeight;
+      const pagenavHeight = document.querySelector('.r-pagenav').offsetHeight;
+      const offset = navHeight + pagenavHeight + 12;
+      const top = target.getBoundingClientRect().top + window.scrollY - offset;
+      window.scrollTo({ top, behavior: 'smooth' });
+    }
+  });
+});
+</script>
+</body>
+</html>

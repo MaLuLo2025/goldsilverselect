@@ -28,11 +28,58 @@ const nextConfig = {
         source: '/(.*)',
         headers: securityHeaders,
       },
+      {
+        source: '/js/:path*',
+        headers: [
+          { key: 'Cache-Control', value: 'public, max-age=86400, stale-while-revalidate=3600' },
+        ],
+      },
     ];
   },
   async rewrites() {
     return {
       beforeFiles: [
+        // silvergoldinsights.com — serve static files from public/preview/sgi/
+        {
+          source: '/',
+          destination: '/preview/sgi/index.html',
+          has: [{ type: 'host', value: '(www\\.)?silvergoldinsights\\.com' }],
+        },
+        {
+          source: '/education',
+          destination: '/preview/sgi/education/index.html',
+          has: [{ type: 'host', value: '(www\\.)?silvergoldinsights\\.com' }],
+        },
+        {
+          source: '/education/',
+          destination: '/preview/sgi/education/index.html',
+          has: [{ type: 'host', value: '(www\\.)?silvergoldinsights\\.com' }],
+        },
+        {
+          source: '/research',
+          destination: '/preview/sgi/research/index.html',
+          has: [{ type: 'host', value: '(www\\.)?silvergoldinsights\\.com' }],
+        },
+        {
+          source: '/research/',
+          destination: '/preview/sgi/research/index.html',
+          has: [{ type: 'host', value: '(www\\.)?silvergoldinsights\\.com' }],
+        },
+        {
+          source: '/js/:path*',
+          destination: '/preview/sgi/js/:path*',
+          has: [{ type: 'host', value: '(www\\.)?silvergoldinsights\\.com' }],
+        },
+        {
+          source: '/sitemap.xml',
+          destination: '/preview/sgi/sitemap.xml',
+          has: [{ type: 'host', value: '(www\\.)?silvergoldinsights\\.com' }],
+        },
+        {
+          source: '/robots.txt',
+          destination: '/preview/sgi/robots.txt',
+          has: [{ type: 'host', value: '(www\\.)?silvergoldinsights\\.com' }],
+        },
         // tradesilvester.com — serve static files from public/tradesilvester/
         {
           source: '/',
