@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   title: "Jewelry Stores & Custom Jewelers",
   description:
     "Find local jewelers, estate jewelry specialists, and custom designers working in gold, silver, and platinum. Independent directory — no paid placements.",
+  alternates: { canonical: "/jewelry" },
 };
 
 export default function JewelryPage() {

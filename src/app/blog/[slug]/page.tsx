@@ -17,7 +17,7 @@ export function generateMetadata({
 }): Metadata {
   const post = blogPosts.find((p) => p.slug === params.slug);
   if (!post) return {};
-  return { title: post.title, description: post.excerpt };
+  return { title: post.title, description: post.excerpt, alternates: { canonical: `/blog/${params.slug}` } };
 }
 
 // Blog content keyed by slug

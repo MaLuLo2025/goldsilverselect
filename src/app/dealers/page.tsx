@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "Find Local Coin & Bullion Dealers by State",
   description:
     "Browse trusted local precious metals dealers across the United States. Find coin shops, bullion dealers, and gold buyers near you.",
+  alternates: { canonical: "/dealers" },
 };
 
 export default function DealersPage() {

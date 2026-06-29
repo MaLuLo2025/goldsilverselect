@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "Gold & Silver FAQ \u2014 Your Questions Answered",
   description:
     "Answers to the most common questions about buying, selling, and pricing gold and silver. Understand premiums, spot prices, dealer selection, and how to avoid overpaying.",
+  alternates: { canonical: "/faq" },
 };
 
 export default function FAQPage() {

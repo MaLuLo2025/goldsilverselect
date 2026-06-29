@@ -12,6 +12,7 @@ export const metadata: Metadata = {
   title: "Precious Metals Recycling — Sell Gold, Silver & Scrap",
   description:
     "Find precious metals recyclers, refiners, and scrap buyers. Sell inherited jewelry, dental gold, or industrial scrap at fair market value.",
+  alternates: { canonical: "/recycling" },
 };
 
 export default function RecyclingPage() {

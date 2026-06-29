@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Terms of Service",
   description:
     "GoldSilverSelect terms of service — the legal agreement governing your use of our website.",
+  alternates: { canonical: "/terms" },
 };
 
 export default function TermsPage() {

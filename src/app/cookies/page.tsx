@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Cookie Policy",
   description:
     "GoldSilverSelect cookie policy — what cookies we use, why, and how to manage them.",
+  alternates: { canonical: "/cookies" },
 };
 
 export default function CookiePolicyPage() {

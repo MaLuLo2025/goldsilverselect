@@ -22,6 +22,7 @@ export function generateMetadata({
   return {
     title: `${item.title} — ${item.speaker}`,
     description: item.description,
+    alternates: { canonical: `/intelligence/${params.slug}` },
   };
 }
 

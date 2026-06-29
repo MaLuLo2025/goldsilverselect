@@ -21,6 +21,7 @@ export function generateMetadata({
   return {
     title: `Precious Metals Dealers in ${city.name}, ${state.name}`,
     description: `Find coin shops, bullion dealers, jewelers, and gold buyers in ${city.name}, ${state.name}. Direct links to dealer websites.`,
+    alternates: { canonical: `/dealers/${params.state}/${params.city}` },
   };
 }
 

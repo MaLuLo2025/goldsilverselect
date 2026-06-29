@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   title: "Gold & Silver IRA Providers",
   description:
     "Independent directory of precious metals IRA custodians. Know the fees, understand the rules, and choose with confidence. No paid placements.",
+  alternates: { canonical: "/gold-silver-iras" },
 };
 
 export default function IRAPage() {

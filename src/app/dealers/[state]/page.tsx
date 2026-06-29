@@ -25,6 +25,7 @@ export function generateMetadata({
   return {
     title: `Coin & Bullion Dealers in ${state.name}`,
     description: `Find trusted precious metals dealers, coin shops, and bullion buyers in ${state.name}. Direct links to dealer websites — no middlemen.`,
+    alternates: { canonical: `/dealers/${params.state}` },
   };
 }
 

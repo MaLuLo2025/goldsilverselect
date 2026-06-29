@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: "Market Intelligence — Curated Precious Metals Research & Insights",
   description:
     "Curated insights from the sharpest minds in macro investing and precious metals. Druckenmiller, Dalio, Gundlach, and institutional research — summarized, not spun.",
+  alternates: { canonical: "/intelligence" },
 };
 
 export default function IntelligencePage() {

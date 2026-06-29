@@ -12,6 +12,7 @@ export const metadata: Metadata = {
   title: "Online Coin & Bullion Dealers",
   description:
     "Reputable online precious metals dealers with transparent pricing, buyback programs, and secure shipping. Compare dealers side by side.",
+  alternates: { canonical: "/online-dealers" },
 };
 
 export default function OnlineDealersPage() {

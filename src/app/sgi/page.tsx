@@ -3,6 +3,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "The Gold Window | GoldSilverSelect",
   description: "Precious metals analytics — interactive charts for price history, ratios, macro indicators, miners, seasonality, and purchasing power.",
+  alternates: { canonical: "/sgi" },
 };
 
 export default function SGIPage() {

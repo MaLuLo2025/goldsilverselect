@@ -20,6 +20,7 @@ export function generateMetadata({
   return {
     title: `${dealer.name} — ${dealer.city}, ${dealer.state}`,
     description: dealer.description,
+    alternates: { canonical: `/dealers/${params.state}/${params.city}/${params.dealer}` },
   };
 }
 

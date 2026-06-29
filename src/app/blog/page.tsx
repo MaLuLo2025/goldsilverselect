@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "Blog — Precious Metals Education & Scam Alerts",
   description:
     "Research, education, and consumer protection content for precious metals buyers. Premiums explained, scam alerts, ratio trading, and more.",
+  alternates: { canonical: "/blog" },
 };
 
 export default function BlogPage() {
