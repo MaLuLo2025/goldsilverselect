@@ -77,6 +77,12 @@ const nextConfig = {
           has: [{ type: 'host', value: '(www\\.)?silvergoldinsights\\.com' }],
         },
         {
+          // config.js served from API route so the key comes from env, not a static file
+          source: '/js/config.js',
+          destination: '/api/sgi-config',
+          has: [{ type: 'host', value: '(www\\.)?silvergoldinsights\\.com' }],
+        },
+        {
           source: '/js/:path*',
           destination: '/preview/sgi/js/:path*',
           has: [{ type: 'host', value: '(www\\.)?silvergoldinsights\\.com' }],
