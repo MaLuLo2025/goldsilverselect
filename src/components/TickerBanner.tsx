@@ -26,6 +26,7 @@ export default function TickerBanner() {
     const s = FALLBACK.find((m) => m.metal === "silver");
     return g && s ? (g.price / s.price).toFixed(1) : "\u2014";
   });
+  const [unavailable, setUnavailable] = useState(false);
 
   const activeMarket = markets.find((m) => m.status === "open");
 
@@ -33,7 +34,15 @@ export default function TickerBanner() {
     fetch("/api/prices")
       .then((res) => (res.ok ? res.json() : null))
       .then((data) => {
-        if (!data || data.error) return;
+        if (!data || data.error) {
+          setUnavailable(true);
+          return;
+        }
+
+        if (data._source === "fallback") {
+          setUnavailable(true);
+          return;
+        }
 
         const metals: { key: Metal; label: string }[] = [
           { key: "gold", label: "GOLD" },
@@ -50,6 +59,7 @@ export default function TickerBanner() {
         }));
 
         if (newPrices.some((p) => p.price > 0)) {
+          setUnavailable(false);
           setPrices(newPrices);
           const g = data.gold?.price;
           const s = data.silver?.price;
@@ -57,7 +67,7 @@ export default function TickerBanner() {
         }
       })
       .catch(() => {
-        // Keep fallback prices on failure
+        setUnavailable(true);
       });
   }, []);
 
@@ -101,6 +111,14 @@ export default function TickerBanner() {
 
         {/* Scrolling ticker */}
         <div className="overflow-hidden flex-1">
+          {unavailable ? (
+            <div
+              className="flex items-center justify-center h-full"
+              style={{ color: "#555", fontSize: 10, letterSpacing: "0.08em" }}
+            >
+              PRICES TEMPORARILY UNAVAILABLE
+            </div>
+          ) : (
           <div className="ticker-track">
             {[0, 1].map((copy) => (
               <div key={copy} className="flex items-center">
@@ -168,6 +186,7 @@ export default function TickerBanner() {
               </div>
             ))}
           </div>
+          )}
         </div>
 
         {/* Fixed right: Au:Ag ratio + delay note */}

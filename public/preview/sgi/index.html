@@ -1759,6 +1759,12 @@ document.querySelectorAll('.pullquote-dot').forEach(dot => {
 <script>
 // Live price ticker — fetches from /api/prices (same-origin, 20-min cache)
 (function () {
+  function showUnavailable() {
+    var tickerTrack = document.querySelector('.ticker-track');
+    if (tickerTrack) {
+      tickerTrack.innerHTML = '<span class="ticker-item" style="color:#888;font-size:11px;letter-spacing:0.08em;padding:0 24px;">Prices temporarily unavailable</span>';
+    }
+  }
   function fmt(n, decimals) {
     return n.toLocaleString('en-US', { minimumFractionDigits: decimals, maximumFractionDigits: decimals });
   }
@@ -1768,8 +1774,9 @@ document.querySelectorAll('.pullquote-dot').forEach(dot => {
     return arrow + ' ' + sign + '$' + fmt(Math.abs(change), 2) + ' (' + sign + fmt(Math.abs(pct), 2) + '%)';
   }
   fetch('/api/prices')
-    .then(function (r) { return r.json(); })
+    .then(function (r) { return r.ok ? r.json() : null; })
     .then(function (data) {
+      if (!data || data._source === 'fallback') { showUnavailable(); return; }
       var map = { 'Gold': 'gold', 'Silver': 'silver', 'Platinum': 'platinum', 'Palladium': 'palladium' };
       document.querySelectorAll('.ticker-item').forEach(function (item) {
         var labelEl = item.querySelector('.t-label');
@@ -1793,7 +1800,7 @@ document.querySelectorAll('.pullquote-dot').forEach(dot => {
         }
       });
     })
-    .catch(function () { /* keep static fallback values */ });
+    .catch(function () { showUnavailable(); });
 })();
 </script>
 </body>

@@ -41,7 +41,7 @@ export async function GET() {
 
   if (!apiKey) {
     console.error("[prices] METALS_API_KEY not set");
-    return NextResponse.json(FALLBACK);
+    return NextResponse.json({ ...FALLBACK, _source: "fallback" });
   }
 
   // Try Redis cache first
@@ -49,7 +49,7 @@ export async function GET() {
     try {
       const cached = await client.get<Record<string, MetalResult>>(CACHE_KEY);
       if (cached) {
-        return NextResponse.json(cached);
+        return NextResponse.json({ ...cached, _source: "redis" });
       }
     } catch (err) {
       console.error("[prices] Redis get error:", err);
@@ -102,5 +102,6 @@ export async function GET() {
     }
   }
 
-  return NextResponse.json(results);
+  const source = liveCount === METALS.length ? "live" : "fallback";
+  return NextResponse.json({ ...results, _source: source });
 }
