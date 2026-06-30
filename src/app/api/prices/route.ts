@@ -1,24 +1,19 @@
 import { NextResponse } from "next/server";
+import { Redis } from "@upstash/redis";
 
 // Budget calculation (per CLAUDE.md):
-// 4 calls × 3/hour (20-min cache) × 24 × 30 = 8,640 calls/month
-// Fits Silver plan (10,000/month). If downgrading to Copper, switch back to /v1/latest.
+// Redis cache survives cold starts — TTL holds across all function instances.
+// 4 calls × 3/hour (20-min TTL) × 24 × 30 = 8,640 calls/month — theoretical ceiling.
+// In practice, cache warm = 0 calls per visitor. Only true cache misses hit metals.dev.
+
+const CACHE_KEY = "gss:metals:spot";
+const CACHE_TTL_SECONDS = 20 * 60; // 20 minutes
 
 interface MetalResult {
   price: number;
   change: number;
   pct: number;
 }
-
-interface CachedResponse {
-  data: Record<string, MetalResult>;
-  timestamp: number;
-}
-
-let cache: CachedResponse | null = null;
-const CACHE_TTL = 20 * 60_000; // 20 minutes
-
-const METALS = ["gold", "silver", "platinum", "palladium"] as const;
 
 const FALLBACK: Record<string, MetalResult> = {
   gold: { price: 3025.0, change: 0, pct: 0 },
@@ -27,21 +22,44 @@ const FALLBACK: Record<string, MetalResult> = {
   palladium: { price: 960.0, change: 0, pct: 0 },
 };
 
+const METALS = ["gold", "silver", "platinum", "palladium"] as const;
+
+let redis: Redis | null = null;
+
+function getRedis(): Redis | null {
+  if (redis) return redis;
+  const url = process.env.UPSTASH_REDIS_REST_URL;
+  const token = process.env.UPSTASH_REDIS_REST_TOKEN;
+  if (!url || !token) return null;
+  redis = new Redis({ url, token });
+  return redis;
+}
+
 export async function GET() {
-  const now = Date.now();
   const apiKey = process.env.METALS_API_KEY;
+  const client = getRedis();
 
   if (!apiKey) {
     console.error("[prices] METALS_API_KEY not set");
     return NextResponse.json(FALLBACK);
   }
 
-  if (cache && now - cache.timestamp < CACHE_TTL) {
-    return NextResponse.json(cache.data);
+  // Try Redis cache first
+  if (client) {
+    try {
+      const cached = await client.get<Record<string, MetalResult>>(CACHE_KEY);
+      if (cached) {
+        return NextResponse.json(cached);
+      }
+    } catch (err) {
+      console.error("[prices] Redis get error:", err);
+      // Fall through to live fetch
+    }
   }
 
-  const maskedKey = apiKey.slice(0, 4) + "..." + apiKey.slice(-4);
+  // Cache miss — fetch from metals.dev
   const results: Record<string, MetalResult> = {};
+  let liveCount = 0;
 
   for (const metal of METALS) {
     try {
@@ -51,14 +69,14 @@ export async function GET() {
 
       if (!res.ok) {
         console.error(`[prices] ${metal} ${res.status}: ${body.slice(0, 200)}`);
-        results[metal] = cache?.data[metal] || FALLBACK[metal];
+        results[metal] = FALLBACK[metal];
         continue;
       }
 
       const parsed = JSON.parse(body);
       if (parsed.status !== "success" || !parsed.rate) {
         console.error(`[prices] ${metal} bad response: ${body.slice(0, 200)}`);
-        results[metal] = cache?.data[metal] || FALLBACK[metal];
+        results[metal] = FALLBACK[metal];
         continue;
       }
 
@@ -67,15 +85,21 @@ export async function GET() {
         change: parsed.rate.change ?? 0,
         pct: parsed.rate.change_percent ?? 0,
       };
+      liveCount++;
     } catch (err) {
       console.error(`[prices] ${metal} exception:`, err);
-      results[metal] = cache?.data[metal] || FALLBACK[metal];
+      results[metal] = FALLBACK[metal];
     }
   }
 
-  if (Object.values(results).some((r) => r.price > 0)) {
-    cache = { data: results, timestamp: now };
-    console.log(`[prices] cached: gold=$${results.gold.price} (${results.gold.pct}%), silver=$${results.silver.price}`);
+  // Only cache in Redis if we got real live data (not just fallback values)
+  if (client && liveCount === METALS.length) {
+    try {
+      await client.set(CACHE_KEY, results, { ex: CACHE_TTL_SECONDS });
+      console.log(`[prices] cached in Redis: gold=$${results.gold?.price} (${results.gold?.pct}%)`);
+    } catch (err) {
+      console.error("[prices] Redis set error:", err);
+    }
   }
 
   return NextResponse.json(results);

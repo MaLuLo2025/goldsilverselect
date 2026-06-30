@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect } from "react";
 import { markets } from "@/lib/markets";
 import { Metal } from "@/lib/types";
 
@@ -29,44 +29,37 @@ export default function TickerBanner() {
 
   const activeMarket = markets.find((m) => m.status === "open");
 
-  const fetchPrices = useCallback(async () => {
-    try {
-      const res = await fetch("/api/prices");
-      if (!res.ok) return;
-      const data = await res.json();
-      if (data.error) return;
-
-      const metals: { key: Metal; label: string }[] = [
-        { key: "gold", label: "GOLD" },
-        { key: "silver", label: "SILVER" },
-        { key: "platinum", label: "PLATINUM" },
-        { key: "palladium", label: "PALLADIUM" },
-      ];
-
-      const newPrices: TickerPrice[] = metals.map(({ key, label }) => ({
-        metal: key,
-        label,
-        price: data[key]?.price || 0,
-        pct: data[key]?.pct,
-      }));
-
-      // Only update if we got real data
-      if (newPrices.some((p) => p.price > 0)) {
-        setPrices(newPrices);
-        const g = data.gold?.price;
-        const s = data.silver?.price;
-        if (g && s) setRatio((g / s).toFixed(1));
-      }
-    } catch {
-      // Keep existing prices on failure
-    }
-  }, []);
-
   useEffect(() => {
-    fetchPrices();
-    const interval = setInterval(fetchPrices, 60_000);
-    return () => clearInterval(interval);
-  }, [fetchPrices]);
+    fetch("/api/prices")
+      .then((res) => (res.ok ? res.json() : null))
+      .then((data) => {
+        if (!data || data.error) return;
+
+        const metals: { key: Metal; label: string }[] = [
+          { key: "gold", label: "GOLD" },
+          { key: "silver", label: "SILVER" },
+          { key: "platinum", label: "PLATINUM" },
+          { key: "palladium", label: "PALLADIUM" },
+        ];
+
+        const newPrices: TickerPrice[] = metals.map(({ key, label }) => ({
+          metal: key,
+          label,
+          price: data[key]?.price || 0,
+          pct: data[key]?.pct,
+        }));
+
+        if (newPrices.some((p) => p.price > 0)) {
+          setPrices(newPrices);
+          const g = data.gold?.price;
+          const s = data.silver?.price;
+          if (g && s) setRatio((g / s).toFixed(1));
+        }
+      })
+      .catch(() => {
+        // Keep fallback prices on failure
+      });
+  }, []);
 
   return (
     <div className="font-sans" style={{ background: "#111110" }}>
