@@ -292,6 +292,8 @@ em { font-style: italic; color: var(--gold); }
 .btn-ghost:hover { background: var(--espresso); color: #fff; }
 .s-espresso .btn-ghost { color: #fff; border-color: rgba(255,255,255,0.4); }
 .s-espresso .btn-ghost:hover { background: #fff; color: var(--espresso); }
+.cta-band .btn-ghost { color: #fff; border-color: rgba(255,255,255,0.4); }
+.cta-band .btn-ghost:hover { background: #fff; color: var(--espresso); }
 
 .link-more {
   display: inline-flex; align-items: center;
@@ -1383,9 +1385,6 @@ a.video-card { text-decoration: none; color: inherit; display: block; }
         <span class="service-link">Learn More</span>
       </a>
     </div>
-    <div style="text-align: center;">
-      <a href="/services" class="link-more">View All Services</a>
-    </div>
   </div>
 </section>
 
@@ -1443,9 +1442,6 @@ a.video-card { text-decoration: none; color: inherit; display: block; }
           </div>
         </div>
       </div>
-    </div>
-    <div class="team-cta">
-      <a href="/team" class="link-more">Meet the full team</a>
     </div>
   </div>
 </section>
@@ -1759,5 +1755,46 @@ document.querySelectorAll('.pullquote-dot').forEach(dot => {
 
 <script src="/js/config.js?v=2"></script>
 <script src="/js/youtube-feed.js"></script>
+
+<script>
+// Live price ticker — fetches from /api/prices (same-origin, 20-min cache)
+(function () {
+  function fmt(n, decimals) {
+    return n.toLocaleString('en-US', { minimumFractionDigits: decimals, maximumFractionDigits: decimals });
+  }
+  function fmtChange(change, pct) {
+    var arrow = change >= 0 ? '▲' : '▼';
+    var sign = change >= 0 ? '+' : '';
+    return arrow + ' ' + sign + '$' + fmt(Math.abs(change), 2) + ' (' + sign + fmt(Math.abs(pct), 2) + '%)';
+  }
+  fetch('/api/prices')
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      var map = { 'Gold': 'gold', 'Silver': 'silver', 'Platinum': 'platinum', 'Palladium': 'palladium' };
+      document.querySelectorAll('.ticker-item').forEach(function (item) {
+        var labelEl = item.querySelector('.t-label');
+        if (!labelEl) return;
+        var label = labelEl.textContent.trim();
+        var key = map[label];
+        if (key && data[key]) {
+          var d = data[key];
+          var priceEl = item.querySelector('.t-price');
+          if (priceEl) priceEl.textContent = '$' + fmt(d.price, 2);
+          item.querySelectorAll('.t-up, .t-dn').forEach(function (el) { el.remove(); });
+          if (d.change !== undefined) {
+            var span = document.createElement('span');
+            span.className = d.change >= 0 ? 't-up' : 't-dn';
+            span.textContent = fmtChange(d.change, d.pct);
+            item.appendChild(span);
+          }
+        } else if (label === 'Au/Ag Ratio' && data.gold && data.silver) {
+          var priceEl = item.querySelector('.t-price');
+          if (priceEl) priceEl.textContent = (data.gold.price / data.silver.price).toFixed(1);
+        }
+      });
+    })
+    .catch(function () { /* keep static fallback values */ });
+})();
+</script>
 </body>
 </html>
