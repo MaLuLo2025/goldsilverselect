@@ -16,7 +16,7 @@ const securityHeaders = [
       "img-src 'self' data: https:",
       "font-src 'self' https://fonts.gstatic.com",
       "connect-src 'self' https://*.supabase.co https://api.stripe.com https://web-production-3df4b.up.railway.app https://api.tradesilvester.com https://*.google-analytics.com https://*.analytics.google.com https://select-admin-teal.vercel.app https://www.googleapis.com",
-      "frame-src 'self' https://js.stripe.com https://sgi-analytics.vercel.app https://thegoldwindow.ai",
+      "frame-src 'self' https://js.stripe.com https://sgi-analytics.vercel.app https://thegoldwindow.ai https://www.youtube.com",
     ].join('; ')
   }
 ];
