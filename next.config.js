@@ -29,14 +29,8 @@ const nextConfig = {
         headers: securityHeaders,
       },
       {
-        // config.js is served by the /api/sgi-config route — never cache it
-        source: '/js/config.js',
-        headers: [
-          { key: 'Cache-Control', value: 'no-store' },
-        ],
-      },
-      {
-        source: '/js/:path*',
+        // Only cache the static JS file; config.js is served by the API route
+        source: '/js/youtube-feed.js',
         headers: [
           { key: 'Cache-Control', value: 'public, max-age=86400, stale-while-revalidate=3600' },
         ],
