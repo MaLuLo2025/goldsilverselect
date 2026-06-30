@@ -12,11 +12,11 @@ const securityHeaders = [
     value: [
       "default-src 'self'",
       "script-src 'self' 'unsafe-inline' https://www.googletagmanager.com",
-      "style-src 'self' 'unsafe-inline'",
+      "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
       "img-src 'self' data: https:",
-      "font-src 'self'",
+      "font-src 'self' https://fonts.gstatic.com",
       "connect-src 'self' https://*.supabase.co https://api.stripe.com https://web-production-3df4b.up.railway.app https://api.tradesilvester.com https://*.google-analytics.com https://*.analytics.google.com https://select-admin-teal.vercel.app",
-      "frame-src https://js.stripe.com https://sgi-analytics.vercel.app",
+      "frame-src 'self' https://js.stripe.com https://sgi-analytics.vercel.app https://thegoldwindow.ai",
     ].join('; ')
   }
 ];
@@ -33,6 +33,17 @@ const nextConfig = {
         headers: [
           { key: 'Cache-Control', value: 'public, max-age=86400, stale-while-revalidate=3600' },
         ],
+      },
+    ];
+  },
+  async redirects() {
+    return [
+      // silvergoldinsights.com: www → non-www canonical redirect
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'www\\.silvergoldinsights\\.com' }],
+        destination: 'https://silvergoldinsights.com/:path*',
+        permanent: true,
       },
     ];
   },
