@@ -11,22 +11,11 @@ interface TickerPrice {
   pct?: number;
 }
 
-const FALLBACK: TickerPrice[] = [
-  { metal: "gold", label: "GOLD", price: 3025.0 },
-  { metal: "silver", label: "SILVER", price: 33.5 },
-  { metal: "platinum", label: "PLATINUM", price: 985.0 },
-  { metal: "palladium", label: "PALLADIUM", price: 960.0 },
-];
-
 export default function TickerBanner() {
   const [showMarkets, setShowMarkets] = useState(false);
-  const [prices, setPrices] = useState<TickerPrice[]>(FALLBACK);
-  const [ratio, setRatio] = useState(() => {
-    const g = FALLBACK.find((m) => m.metal === "gold");
-    const s = FALLBACK.find((m) => m.metal === "silver");
-    return g && s ? (g.price / s.price).toFixed(1) : "\u2014";
-  });
-  const [unavailable, setUnavailable] = useState(false);
+  const [prices, setPrices] = useState<TickerPrice[]>([]);
+  const [ratio, setRatio] = useState<string | null>(null);
+  const [unavailable, setUnavailable] = useState(true);
 
   const activeMarket = markets.find((m) => m.status === "open");
 
@@ -189,34 +178,36 @@ export default function TickerBanner() {
           )}
         </div>
 
-        {/* Fixed right: Au:Ag ratio + delay note */}
-        <div
-          className="flex items-center gap-3 flex-shrink-0 z-10"
-          style={{
-            background: "#0a0a0a",
-            borderLeft: "1px solid #222",
-            padding: "0 14px",
-            height: "100%",
-          }}
-        >
-          <div className="flex items-center gap-1.5">
-            <span
-              className="font-bold"
-              style={{ color: "#666", fontSize: 9, letterSpacing: "0.06em" }}
-            >
-              Au:Ag
-            </span>
-            <span
-              className="font-serif font-semibold"
-              style={{ color: "#C5A44E", fontSize: 13 }}
-            >
-              {ratio}
+        {/* Fixed right: Au:Ag ratio + delay note — hidden when unavailable */}
+        {!unavailable && ratio !== null && (
+          <div
+            className="flex items-center gap-3 flex-shrink-0 z-10"
+            style={{
+              background: "#0a0a0a",
+              borderLeft: "1px solid #222",
+              padding: "0 14px",
+              height: "100%",
+            }}
+          >
+            <div className="flex items-center gap-1.5">
+              <span
+                className="font-bold"
+                style={{ color: "#666", fontSize: 9, letterSpacing: "0.06em" }}
+              >
+                Au:Ag
+              </span>
+              <span
+                className="font-serif font-semibold"
+                style={{ color: "#C5A44E", fontSize: 13 }}
+              >
+                {ratio}
+              </span>
+            </div>
+            <span style={{ color: "#999", fontSize: 9, letterSpacing: "0.03em" }}>
+              Delayed 20 min
             </span>
           </div>
-          <span style={{ color: "#999", fontSize: 9, letterSpacing: "0.03em" }}>
-            Delayed 20 min
-          </span>
-        </div>
+        )}
       </div>
 
       {/* Expandable market hours */}

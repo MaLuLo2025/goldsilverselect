@@ -23,12 +23,6 @@ interface MetalResult {
   pct: number;
 }
 
-const FALLBACK: Record<string, MetalResult> = {
-  gold:      { price: 3025.0, change: 0, pct: 0 },
-  silver:    { price: 33.5,   change: 0, pct: 0 },
-  platinum:  { price: 985.0,  change: 0, pct: 0 },
-  palladium: { price: 960.0,  change: 0, pct: 0 },
-};
 
 let tgwRedis: Redis | null = null;
 let gssRedis: Redis | null = null;
@@ -107,7 +101,10 @@ export async function GET() {
     }
   }
 
-  // ── 3. Tertiary: hardcoded fallback ─────────────────────────────────────
-  console.log(`[metals-call] key=hardcoded-fallback ts=${ts}`);
-  return NextResponse.json({ ...FALLBACK, _source: "fallback" });
+  // ── 3. Both sources unavailable ──────────────────────────────────────────
+  console.log(`[metals-call] key=error ts=${ts}`);
+  return NextResponse.json(
+    { error: "Prices temporarily unavailable", _source: "error" },
+    { status: 503 }
+  );
 }
