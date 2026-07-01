@@ -85,6 +85,7 @@ export async function GET() {
         change: parsed.rate.change ?? 0,
         pct: parsed.rate.change_percent ?? 0,
       };
+      console.log(`[metals-call] key=gss-sgi metal=${metal} ts=${new Date().toISOString()}`);
       liveCount++;
     } catch (err) {
       console.error(`[prices] ${metal} exception:`, err);
