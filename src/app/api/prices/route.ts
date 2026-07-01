@@ -38,8 +38,13 @@ function getTgwRedis(): Redis | null {
   const url = process.env.UPSTASH_REDIS_REST_URL_TGW;
   const token = process.env.UPSTASH_REDIS_REST_TOKEN_TGW;
   if (!url || !token) return null;
-  tgwRedis = new Redis({ url, token });
-  return tgwRedis;
+  try {
+    tgwRedis = new Redis({ url, token });
+    return tgwRedis;
+  } catch (err) {
+    console.error("[prices] Failed to init TGW Redis client:", err);
+    return null;
+  }
 }
 
 function getGssRedis(): Redis | null {
@@ -47,8 +52,13 @@ function getGssRedis(): Redis | null {
   const url = process.env.UPSTASH_REDIS_REST_URL;
   const token = process.env.UPSTASH_REDIS_REST_TOKEN;
   if (!url || !token) return null;
-  gssRedis = new Redis({ url, token });
-  return gssRedis;
+  try {
+    gssRedis = new Redis({ url, token });
+    return gssRedis;
+  } catch (err) {
+    console.error("[prices] Failed to init GSS Redis client:", err);
+    return null;
+  }
 }
 
 export async function GET() {
