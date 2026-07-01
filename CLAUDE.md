@@ -91,40 +91,47 @@ Project-specific notes:
 - Modifying existing files: produce full replacement download, not sed scripts
 - Always verify Vercel status after push
 
-## External API Budget Rules (CRITICAL — read before touching /api/prices)
+## Price Data Architecture (read before touching /api/prices)
 
-### Current Plan: Metals.dev Silver ($9.99/month, 10,000 calls/month) — may downgrade to Copper
-- **Implementation deliberately conservative: designed to run on Copper (2,000 calls/month)**
-- Current implementation: 4 calls to `/v1/metal/spot` (one per metal) every 20 minutes = ~8,640 calls/month
-- Returns price + daily change_percent for each metal
-- Do NOT reduce cache TTL below 20 minutes
-- **Daily % change is a REQUIREMENT — never deploy prices-only.** The ticker must always show price + daily change. Without % change it's useless wallpaper.
-- **Minimum plan: Silver ($9.99/month, 10,000 calls).** Do not downgrade to Copper — it cannot support the /v1/metal/spot endpoint needed for % change.
-- `/v1/latest` returns all 4 metals in a single call but does NOT return daily change/percent
-- `/v1/metal/spot` returns change_percent but requires 1 call PER METAL (4x the cost)
+### Current Architecture (as of 2026-07-01)
+`/api/prices` does **not** call metals.dev. It reads spot prices from Redis only:
 
-### NEVER do the following without explicit owner approval:
-- Switch from `/v1/latest` to `/v1/metal/spot` (4x cost multiplier)
-- Reduce cache TTL below 20 minutes
-- Add any new API endpoint calls
-- Change the number of metals fetched
+1. **Primary — TGW Redis** (`sgi:metals:spot:all`, env vars `UPSTASH_REDIS_REST_URL_TGW` / `UPSTASH_REDIS_REST_TOKEN_TGW`)
+   - Written by TGW's `src/lib/data/metals-dev.ts` on a 5-minute TTL
+   - Shape: `Record<string, { metal, price, change, changePercent, currency }>`
+   - Transform applied on read: `changePercent → pct` (GSS TickerBanner shape)
+   - On success: result is warm-written into GSS Redis (`gss:metals:spot`, 20-min TTL) to keep the secondary fallback current
+   - Log: `[metals-call] key=tgw-redis ts=<ISO>`
 
-### Before making ANY change to /api/prices:
-1. Calculate the monthly call count: (calls per request) × (requests per hour based on cache TTL) × 24 × 30
-2. Verify the result fits within the current plan limit (2,000/month for Copper)
-3. If it doesn't fit, STOP and tell the owner. Do not deploy.
-4. Document the calculation in the commit message
+2. **Secondary — GSS Redis** (`gss:metals:spot`, env vars `UPSTASH_REDIS_REST_URL` / `UPSTASH_REDIS_REST_TOKEN`)
+   - Used when TGW Redis is unavailable or returns null
+   - Data is already in GSS shape — no transform needed
+   - Stays warm via the TGW warm-write; also retains last-known data across TGW outages up to TTL
+   - Log: `[metals-call] key=gss-redis-fallback ts=<ISO>`
 
-### What happened (March 2026 — do not repeat):
-Switched from 1× `/v1/latest` (2,160/month) to 4× `/v1/metal/spot` with 60-second cache (172,800/month). Burned through the entire monthly quota in ~8 hours. Ticker showed fallback prices for the rest of the month. This happened TWICE because the root cause wasn't documented.
+3. **Tertiary — hardcoded FALLBACK**
+   - Used only when both Redis reads fail
+   - Static prices with zero change/pct — TickerBanner shows "PRICES TEMPORARILY UNAVAILABLE"
+   - Log: `[metals-call] key=hardcoded-fallback ts=<ISO>`
 
-### To upgrade and get daily % change back:
-- Silver plan ($9.99/month, 10,000 calls) would allow `/v1/metal/spot` with a 5-minute cache
-- Calculation: 4 calls × 12/hour × 24 × 30 = 34,560 — still over. Would need 10-min cache minimum.
-- 4 calls × 6/hour × 24 × 30 = 17,280 — still over for Silver.
-- Correct approach on Silver: 1× `/v1/latest` every 5 min (8,640/month) for prices, NO spot endpoint
-- To use `/v1/metal/spot`: need Platinum plan ($19.99/month, 50,000 calls) with 5-min cache (34,560/month)
-- **Do not change the plan or endpoint without owner approval**
+### metals.dev quota is managed entirely by TGW
+This project makes zero metals.dev API calls. The metals.dev plan, TTL, and quota calculations are owned by the TGW project (`~/Projects/sgi-analytics`). Do not add metals.dev calls here without explicit owner approval.
+
+### Required env vars
+| Var | Purpose |
+|-----|---------|
+| `UPSTASH_REDIS_REST_URL_TGW` | TGW Upstash REST URL (primary price source) |
+| `UPSTASH_REDIS_REST_TOKEN_TGW` | TGW Upstash REST token |
+| `UPSTASH_REDIS_REST_URL` | GSS Upstash REST URL (fallback) |
+| `UPSTASH_REDIS_REST_TOKEN` | GSS Upstash REST token |
+
+### Daily % change requirement
+**Daily % change is still a REQUIREMENT** — the ticker must always show price + daily change. This is now sourced from TGW Redis (`changePercent` field), which gets it from metals.dev `/v1/metal/spot`. If TGW stops populating change data, investigate TGW's metals-dev.ts, not this project.
+
+### History: why metals.dev was removed from this project (March–July 2026)
+- March 2026: switching to 4× `/v1/metal/spot` with 60-second client-side polling burned the entire monthly quota in ~8 hours. Happened twice.
+- June 2026: quota exhaustion recurred even after moving to 20-min server-side cache, because the in-memory cache didn't survive serverless cold starts.
+- July 2026: architecture changed to read from TGW Redis. GSS no longer needs its own metals.dev subscription.
 
 ## Vendor Data Standards
 
