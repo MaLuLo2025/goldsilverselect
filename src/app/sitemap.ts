@@ -31,13 +31,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: path === "" ? 1.0 : 0.8,
   }));
 
-  // State pages
-  const statePages = states.map((s) => ({
-    url: `${BASE}/dealers/${s.slug}`,
-    lastModified: now,
-    changeFrequency: "weekly" as const,
-    priority: 0.7,
-  }));
+  // State pages — only include states with 3+ local dealers (thin pages are noindexed)
+  const statePages = states
+    .filter((s) => {
+      const count = dealers.filter(
+        (d) => d.stateSlug === s.slug && d.vertical !== "online-coin-bullion" && d.vertical !== "gold-silver-ira"
+      ).length;
+      return count >= 3;
+    })
+    .map((s) => ({
+      url: `${BASE}/dealers/${s.slug}`,
+      lastModified: now,
+      changeFrequency: "weekly" as const,
+      priority: 0.7,
+    }));
 
   // City pages — only include cities with 3+ dealers (thin pages are noindexed)
   const cityPages = cities

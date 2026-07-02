@@ -23,10 +23,17 @@ export function generateMetadata({
 }): Metadata {
   const state = states.find((s) => s.slug === params.state);
   if (!state) return {};
+  const dealerCount = getDealersByState(params.state).filter(
+    (d) => d.vertical !== "online-coin-bullion" && d.vertical !== "gold-silver-ira"
+  ).length;
+  const thinContent = dealerCount < 3;
   return {
     title: `Coin & Bullion Dealers in ${state.name}`,
     description: `Find trusted precious metals dealers, coin shops, and bullion buyers in ${state.name}. Direct links to dealer websites — no middlemen.`,
     alternates: { canonical: `/dealers/${params.state}` },
+    robots: thinContent
+      ? { index: false, follow: true }
+      : { index: true, follow: true },
   };
 }
 
