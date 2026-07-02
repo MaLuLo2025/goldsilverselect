@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import TickerBanner from "@/components/TickerBanner";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -46,8 +46,11 @@ export default function CityDealersPage({
   searchParams: { v?: string };
 }) {
   const state = states.find((s) => s.slug === params.state);
+  if (!state) notFound();
   const city = getCityBySlug(params.state, params.city);
-  if (!state || !city) notFound();
+  // City has no dealers (removed or never added) — redirect to the state page
+  // so Google follows to indexed content instead of hitting a dead 404.
+  if (!city) redirect(`/dealers/${params.state}`);
 
   const verticalFilter = searchParams.v || null;
   const allCityDealers = getDealersByCity(params.state, params.city);
