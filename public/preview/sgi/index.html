@@ -735,9 +735,32 @@ a.video-card { text-decoration: none; color: inherit; display: block; }
 }
 .pullquote-dot.active { background: var(--gold-mid); transform: scale(1.4); }
 .pullquote-dot:hover { background: var(--gold-light); }
+.pullquote-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: var(--gold-light);
+  width: 46px; height: 46px;
+  border-radius: 50%;
+  font-size: 26px;
+  line-height: 1;
+  cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  transition: background 0.2s, border-color 0.2s, color 0.2s;
+  z-index: 2;
+  font-family: var(--font-d);
+}
+.pullquote-arrow:hover { background: rgba(201, 164, 74, 0.15); border-color: var(--gold-mid); color: #fff; }
+.pullquote-arrow-prev { left: 40px; }
+.pullquote-arrow-next { right: 40px; }
 @media (max-width: 640px) {
   .pullquote { padding: 72px 20px; }
   .pullquote-mark { font-size: 100px; top: -20px; }
+  .pullquote-arrow { width: 38px; height: 38px; font-size: 22px; }
+  .pullquote-arrow-prev { left: 6px; }
+  .pullquote-arrow-next { right: 6px; }
 }
 
 /* ============ CTA BAND ============ */
@@ -1495,6 +1518,8 @@ a.video-card { text-decoration: none; color: inherit; display: block; }
 
 <!-- ============ PULL QUOTE ============ -->
 <section class="pullquote">
+  <button class="pullquote-arrow pullquote-arrow-prev" aria-label="Previous testimonial">&lsaquo;</button>
+  <button class="pullquote-arrow pullquote-arrow-next" aria-label="Next testimonial">&rsaquo;</button>
   <div class="pullquote-inner">
     <div class="pullquote-mark">"</div>
     <p class="pullquote-text" id="pqText">Tory has been our precious metals advisor for over six years. He's never once pushed us into a decision — he educates, explains, and lets us choose. That kind of integrity is rare in this industry.</p>
@@ -1751,16 +1776,37 @@ const testimonials = [
     detail: "Attorney · Arizona"
   }
 ];
-document.querySelectorAll('.pullquote-dot').forEach(dot => {
-  dot.addEventListener('click', () => {
-    const idx = parseInt(dot.dataset.idx);
-    document.querySelectorAll('.pullquote-dot').forEach(d => d.classList.remove('active'));
-    dot.classList.add('active');
-    document.getElementById('pqText').textContent = testimonials[idx].text;
-    document.getElementById('pqAuthor').textContent = testimonials[idx].author;
-    document.getElementById('pqDetail').textContent = testimonials[idx].detail;
-  });
-});
+(function () {
+  const dots = Array.from(document.querySelectorAll('.pullquote-dot'));
+  const pqText = document.getElementById('pqText');
+  const pqAuthor = document.getElementById('pqAuthor');
+  const pqDetail = document.getElementById('pqDetail');
+  const section = document.querySelector('.pullquote');
+  let current = 0, timer = null;
+  const INTERVAL = 6000;
+
+  function render(idx) {
+    current = (idx + testimonials.length) % testimonials.length;
+    dots.forEach((d, i) => d.classList.toggle('active', i === current));
+    pqText.textContent = testimonials[current].text;
+    pqAuthor.textContent = testimonials[current].author;
+    pqDetail.textContent = testimonials[current].detail;
+  }
+  function stopAuto() { if (timer) { clearInterval(timer); timer = null; } }
+  function startAuto() { stopAuto(); timer = setInterval(() => render(current + 1), INTERVAL); }
+  function go(idx) { render(idx); startAuto(); } // manual nav restarts the timer
+
+  dots.forEach((dot, i) => dot.addEventListener('click', () => go(i)));
+  const prevBtn = document.querySelector('.pullquote-arrow-prev');
+  const nextBtn = document.querySelector('.pullquote-arrow-next');
+  if (prevBtn) prevBtn.addEventListener('click', () => go(current - 1));
+  if (nextBtn) nextBtn.addEventListener('click', () => go(current + 1));
+  if (section) {
+    section.addEventListener('mouseenter', stopAuto);
+    section.addEventListener('mouseleave', startAuto);
+  }
+  startAuto();
+})();
 </script>
 
 
