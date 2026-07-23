@@ -671,7 +671,7 @@ a.video-card { text-decoration: none; color: inherit; display: block; }
 
 /* ============ TESTIMONIAL (EDITORIAL PULL-QUOTE) ============ */
 .pullquote {
-  background: var(--warm-white);
+  background: var(--espresso);
   padding: 120px 32px;
   position: relative;
 }
@@ -685,7 +685,7 @@ a.video-card { text-decoration: none; color: inherit; display: block; }
   font-family: var(--font-d);
   font-size: 140px;
   line-height: 0.8;
-  color: var(--gold-pale);
+  color: rgba(201, 164, 74, 0.40);
   position: absolute;
   top: -32px; left: 50%;
   transform: translateX(-50%);
@@ -697,13 +697,13 @@ a.video-card { text-decoration: none; color: inherit; display: block; }
   font-size: clamp(24px, 3vw, 34px);
   font-style: italic;
   line-height: 1.4;
-  color: var(--text);
+  color: #F2EFEA;
   position: relative;
   margin-bottom: 36px;
 }
 .pullquote-rule {
   width: 48px; height: 1px;
-  background: var(--gold);
+  background: var(--gold-mid);
   margin: 0 auto 20px;
 }
 .pullquote-author {
@@ -711,12 +711,12 @@ a.video-card { text-decoration: none; color: inherit; display: block; }
   font-weight: 500;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--text);
+  color: var(--gold-light);
   margin-bottom: 6px;
 }
 .pullquote-detail {
   font-size: 12px;
-  color: var(--text-muted);
+  color: rgba(255, 255, 255, 0.55);
   letter-spacing: 0.06em;
 }
 .pullquote-dots {
@@ -727,14 +727,14 @@ a.video-card { text-decoration: none; color: inherit; display: block; }
 .pullquote-dot {
   width: 6px; height: 6px;
   border-radius: 50%;
-  background: var(--border);
+  background: rgba(255, 255, 255, 0.25);
   cursor: pointer;
   transition: background 0.2s, transform 0.2s;
   border: none;
   padding: 0;
 }
-.pullquote-dot.active { background: var(--gold); transform: scale(1.4); }
-.pullquote-dot:hover { background: var(--gold-mid); }
+.pullquote-dot.active { background: var(--gold-mid); transform: scale(1.4); }
+.pullquote-dot:hover { background: var(--gold-light); }
 @media (max-width: 640px) {
   .pullquote { padding: 72px 20px; }
   .pullquote-mark { font-size: 100px; top: -20px; }
