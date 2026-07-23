@@ -10,7 +10,7 @@ import { NextResponse } from "next/server";
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
-const TO_EMAIL = process.env.LEAD_TO_EMAIL || "taggeler@mcalvany.com";
+const TO_EMAIL = process.env.LEAD_TO_EMAIL || "tory@mcalvany.com";
 // From must be an address on a Resend-verified domain. thegoldwindow.ai is verified;
 // swap to leads@silvergoldinsights.com once that domain is moved to Cloudflare + verified.
 const FROM_EMAIL =
