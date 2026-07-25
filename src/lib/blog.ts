@@ -341,10 +341,37 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "buying-gold-costco-retail",
     title: "Buying Gold from Costco and Retail Chains: What to Know",
-    tag: "Buyer's Guide",
+    tag: "Buyer’s Guide",
     tagColor: "gold",
     excerpt:
       "Costco sells hundreds of millions in gold monthly. The products are legitimate. Whether the price is competitive depends on the day. Here’s how to evaluate a retail chain purchase against alternatives.",
     date: "2026-07-07",
+  },
+  {
+    slug: "central-bank-gold-buying",
+    title: "Central Bank Gold Buying: What It Is, Who’s Doing It, and Why It Matters to You",
+    tag: "Market Dynamics",
+    tagColor: "gold",
+    excerpt:
+      "Central banks have been consistent net buyers of gold since 2010, with purchases in 2022–2025 at historically elevated levels. Here’s why emerging market central banks are buying — and what it means for individual buyers.",
+    date: "2026-07-14",
+  },
+  {
+    slug: "silver-supply-deficit",
+    title: "The Silver Supply Deficit: What It Is and What It Actually Means for Prices",
+    tag: "Market Dynamics",
+    tagColor: "gold",
+    excerpt:
+      "The silver market has been in a structural supply deficit for six consecutive years. The deficit is real. Whether it drives dramatically higher prices depends on several factors that aren’t guaranteed to align.",
+    date: "2026-07-14",
+  },
+  {
+    slug: "start-buying-precious-metals-500",
+    title: "How to Start Buying Precious Metals with $500 or Less",
+    tag: "Buyer’s Guide",
+    tagColor: "gold",
+    excerpt:
+      "High gold prices create a barrier-to-entry perception, but the market offers legitimate options at multiple price points. Here’s how to think about a first purchase at $500 or under.",
+    date: "2026-07-14",
   },
 ];
