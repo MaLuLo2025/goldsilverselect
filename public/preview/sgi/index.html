@@ -1275,28 +1275,7 @@ a.video-card { text-decoration: none; color: inherit; display: block; }
 <!-- ============ TICKER ============ -->
 <div class="ticker">
   <div class="ticker-track">
-    <span class="ticker-item"><span class="t-label">Gold</span> <span class="t-price">$3,142.80</span> <span class="t-up">▲ +$18.40 (+0.59%)</span></span>
-    <span class="ticker-item t-dot">·</span>
-    <span class="ticker-item"><span class="t-label">Silver</span> <span class="t-price">$34.72</span> <span class="t-up">▲ +$0.48 (+1.40%)</span></span>
-    <span class="ticker-item t-dot">·</span>
-    <span class="ticker-item"><span class="t-label">Platinum</span> <span class="t-price">$984.10</span> <span class="t-dn">▼ -$6.20 (-0.63%)</span></span>
-    <span class="ticker-item t-dot">·</span>
-    <span class="ticker-item"><span class="t-label">Palladium</span> <span class="t-price">$1,054.50</span> <span class="t-up">▲ +$12.30 (+1.18%)</span></span>
-    <span class="ticker-item t-dot">·</span>
-    <span class="ticker-item"><span class="t-label">Au/Ag Ratio</span> <span class="t-price">90.5</span></span>
-    <span class="ticker-item t-dot">·</span>
-    <span class="ticker-item"><span class="t-label">USD Index</span> <span class="t-price">104.22</span> <span class="t-dn">▼ -0.14</span></span>
-    <span class="ticker-item"><span class="t-label">Gold</span> <span class="t-price">$3,142.80</span> <span class="t-up">▲ +$18.40 (+0.59%)</span></span>
-    <span class="ticker-item t-dot">·</span>
-    <span class="ticker-item"><span class="t-label">Silver</span> <span class="t-price">$34.72</span> <span class="t-up">▲ +$0.48 (+1.40%)</span></span>
-    <span class="ticker-item t-dot">·</span>
-    <span class="ticker-item"><span class="t-label">Platinum</span> <span class="t-price">$984.10</span> <span class="t-dn">▼ -$6.20 (-0.63%)</span></span>
-    <span class="ticker-item t-dot">·</span>
-    <span class="ticker-item"><span class="t-label">Palladium</span> <span class="t-price">$1,054.50</span> <span class="t-up">▲ +$12.30 (+1.18%)</span></span>
-    <span class="ticker-item t-dot">·</span>
-    <span class="ticker-item"><span class="t-label">Au/Ag Ratio</span> <span class="t-price">90.5</span></span>
-    <span class="ticker-item t-dot">·</span>
-    <span class="ticker-item"><span class="t-label">USD Index</span> <span class="t-price">104.22</span> <span class="t-dn">▼ -0.14</span></span>
+    <span class="ticker-item" style="color:rgba(255,255,255,0.4);letter-spacing:0.08em;">Loading market data…</span>
   </div>
 </div>
 
@@ -1886,48 +1865,48 @@ const testimonials = [
 <script src="/js/youtube-feed.js"></script>
 
 <script>
-// Live price ticker — fetches from /api/prices (same-origin, 20-min cache)
+// Live price ticker — fetches /api/prices, rebuilds from real data, and hides
+// (shows "unavailable") on any failure. Never renders hardcoded fallback values.
 (function () {
+  var track = document.querySelector('.ticker-track');
+  if (!track) return;
+
   function showUnavailable() {
-    var tickerTrack = document.querySelector('.ticker-track');
-    if (tickerTrack) {
-      tickerTrack.innerHTML = '<span class="ticker-item" style="color:#888;font-size:11px;letter-spacing:0.08em;padding:0 24px;">Prices temporarily unavailable</span>';
-    }
+    track.innerHTML = '<span class="ticker-item" style="color:#888;font-size:11px;letter-spacing:0.08em;padding:0 24px;">Prices temporarily unavailable</span>';
   }
-  function fmt(n, decimals) {
-    return n.toLocaleString('en-US', { minimumFractionDigits: decimals, maximumFractionDigits: decimals });
+  function fmt(n, d) {
+    return n.toLocaleString('en-US', { minimumFractionDigits: d, maximumFractionDigits: d });
   }
-  function fmtChange(change, pct) {
-    var arrow = change >= 0 ? '▲' : '▼';
-    var sign = change >= 0 ? '+' : '';
-    return arrow + ' ' + sign + '$' + fmt(Math.abs(change), 2) + ' (' + sign + fmt(Math.abs(pct), 2) + '%)';
+  function valid(m) {
+    return m && typeof m.price === 'number' && isFinite(m.price) && m.price > 0;
   }
+  function changeHtml(change, pct) {
+    if (typeof change !== 'number' || typeof pct !== 'number' || !isFinite(change) || !isFinite(pct)) return '';
+    var up = change >= 0, sign = up ? '+' : '';
+    return ' <span class="' + (up ? 't-up' : 't-dn') + '">' + (up ? '▲' : '▼') + ' ' + sign + '$' + fmt(Math.abs(change), 2) + ' (' + sign + fmt(Math.abs(pct), 2) + '%)</span>';
+  }
+  function itemHtml(label, priceText, change, pct) {
+    return '<span class="ticker-item"><span class="t-label">' + label + '</span> <span class="t-price">' + priceText + '</span>' + changeHtml(change, pct) + '</span>';
+  }
+
   fetch('/api/prices')
     .then(function (r) { return r.ok ? r.json() : null; })
     .then(function (data) {
-      if (!data || data._source === 'fallback') { showUnavailable(); return; }
-      var map = { 'Gold': 'gold', 'Silver': 'silver', 'Platinum': 'platinum', 'Palladium': 'palladium' };
-      document.querySelectorAll('.ticker-item').forEach(function (item) {
-        var labelEl = item.querySelector('.t-label');
-        if (!labelEl) return;
-        var label = labelEl.textContent.trim();
-        var key = map[label];
-        if (key && data[key]) {
-          var d = data[key];
-          var priceEl = item.querySelector('.t-price');
-          if (priceEl) priceEl.textContent = '$' + fmt(d.price, 2);
-          item.querySelectorAll('.t-up, .t-dn').forEach(function (el) { el.remove(); });
-          if (d.change !== undefined) {
-            var span = document.createElement('span');
-            span.className = d.change >= 0 ? 't-up' : 't-dn';
-            span.textContent = fmtChange(d.change, d.pct);
-            item.appendChild(span);
-          }
-        } else if (label === 'Au/Ag Ratio' && data.gold && data.silver) {
-          var priceEl = item.querySelector('.t-price');
-          if (priceEl) priceEl.textContent = (data.gold.price / data.silver.price).toFixed(1);
-        }
-      });
+      if (!data || data._source === 'error' || data._source === 'fallback') { showUnavailable(); return; }
+      var g = data.gold, s = data.silver, p = data.platinum, pd = data.palladium;
+      if (!valid(g) || !valid(s)) { showUnavailable(); return; }
+
+      var dot = '<span class="ticker-item t-dot">·</span>';
+      var parts = [];
+      parts.push(itemHtml('Gold', '$' + fmt(g.price, 2), g.change, g.pct));
+      parts.push(itemHtml('Silver', '$' + fmt(s.price, 2), s.change, s.pct));
+      if (valid(p)) parts.push(itemHtml('Platinum', '$' + fmt(p.price, 2), p.change, p.pct));
+      if (valid(pd)) parts.push(itemHtml('Palladium', '$' + fmt(pd.price, 2), pd.change, pd.pct));
+      parts.push(itemHtml('Au/Ag Ratio', fmt(g.price / s.price, 1)));
+
+      var oneSet = parts.join(dot);
+      // Duplicate the set so the -50% marquee animation loops seamlessly.
+      track.innerHTML = oneSet + dot + oneSet;
     })
     .catch(function () { showUnavailable(); });
 })();
