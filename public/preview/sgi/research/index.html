@@ -292,6 +292,8 @@ em { font-style: italic; color: var(--gold); }
 .btn-ghost:hover { background: var(--espresso); color: #fff; }
 .s-espresso .btn-ghost { color: #fff; border-color: rgba(255,255,255,0.4); }
 .s-espresso .btn-ghost:hover { background: #fff; color: var(--espresso); }
+.cta-band .btn-ghost { color: #fff; border-color: rgba(255,255,255,0.45); }
+.cta-band .btn-ghost:hover { background: #fff; color: var(--espresso); }
 
 .link-more {
   display: inline-flex; align-items: center;
@@ -1711,28 +1713,7 @@ em { font-style: italic; color: var(--gold); }
 <!-- ============ TICKER ============ -->
 <div class="ticker">
   <div class="ticker-track">
-    <span class="ticker-item"><span class="t-label">Gold</span> <span class="t-price">$3,142.80</span> <span class="t-up">▲ +$18.40 (+0.59%)</span></span>
-    <span class="ticker-item t-dot">·</span>
-    <span class="ticker-item"><span class="t-label">Silver</span> <span class="t-price">$34.72</span> <span class="t-up">▲ +$0.48 (+1.40%)</span></span>
-    <span class="ticker-item t-dot">·</span>
-    <span class="ticker-item"><span class="t-label">Platinum</span> <span class="t-price">$984.10</span> <span class="t-dn">▼ -$6.20 (-0.63%)</span></span>
-    <span class="ticker-item t-dot">·</span>
-    <span class="ticker-item"><span class="t-label">Palladium</span> <span class="t-price">$1,054.50</span> <span class="t-up">▲ +$12.30 (+1.18%)</span></span>
-    <span class="ticker-item t-dot">·</span>
-    <span class="ticker-item"><span class="t-label">Au/Ag Ratio</span> <span class="t-price">90.5</span></span>
-    <span class="ticker-item t-dot">·</span>
-    <span class="ticker-item"><span class="t-label">USD Index</span> <span class="t-price">104.22</span> <span class="t-dn">▼ -0.14</span></span>
-    <span class="ticker-item"><span class="t-label">Gold</span> <span class="t-price">$3,142.80</span> <span class="t-up">▲ +$18.40 (+0.59%)</span></span>
-    <span class="ticker-item t-dot">·</span>
-    <span class="ticker-item"><span class="t-label">Silver</span> <span class="t-price">$34.72</span> <span class="t-up">▲ +$0.48 (+1.40%)</span></span>
-    <span class="ticker-item t-dot">·</span>
-    <span class="ticker-item"><span class="t-label">Platinum</span> <span class="t-price">$984.10</span> <span class="t-dn">▼ -$6.20 (-0.63%)</span></span>
-    <span class="ticker-item t-dot">·</span>
-    <span class="ticker-item"><span class="t-label">Palladium</span> <span class="t-price">$1,054.50</span> <span class="t-up">▲ +$12.30 (+1.18%)</span></span>
-    <span class="ticker-item t-dot">·</span>
-    <span class="ticker-item"><span class="t-label">Au/Ag Ratio</span> <span class="t-price">90.5</span></span>
-    <span class="ticker-item t-dot">·</span>
-    <span class="ticker-item"><span class="t-label">USD Index</span> <span class="t-price">104.22</span> <span class="t-dn">▼ -0.14</span></span>
+    <span class="ticker-item" style="color:rgba(255,255,255,0.4);letter-spacing:0.08em;">Loading market data…</span>
   </div>
 </div>
 
@@ -2379,6 +2360,58 @@ pagenavLinks.forEach(link => {
     }
   });
 });
+</script>
+<script>
+// Live price ticker — fetches /api/prices, rebuilds from real data, self-refreshes,
+// and never renders hardcoded values. Hardened: 60s auto-refresh, keep-last-good on
+// transient failure, width-fill so the marquee has no gap. (Shared across all pages.)
+(function () {
+  var track = document.querySelector('.ticker-track');
+  if (!track) return;
+  var POLL_MS = 60000;
+  function showUnavailable() {
+    track.innerHTML = '<span class="ticker-item" style="color:#888;font-size:11px;letter-spacing:0.08em;padding:0 24px;">Prices temporarily unavailable</span>';
+  }
+  function fmt(n, d) { return n.toLocaleString('en-US', { minimumFractionDigits: d, maximumFractionDigits: d }); }
+  function valid(m) { return m && typeof m.price === 'number' && isFinite(m.price) && m.price > 0; }
+  function changeHtml(change, pct) {
+    if (typeof change !== 'number' || typeof pct !== 'number' || !isFinite(change) || !isFinite(pct)) return '';
+    var up = change >= 0, sign = up ? '+' : '';
+    return ' <span class="' + (up ? 't-up' : 't-dn') + '">' + (up ? '▲' : '▼') + ' ' + sign + '$' + fmt(Math.abs(change), 2) + ' (' + sign + fmt(Math.abs(pct), 2) + '%)</span>';
+  }
+  function itemHtml(label, priceText, change, pct) {
+    return '<span class="ticker-item"><span class="t-label">' + label + '</span> <span class="t-price">' + priceText + '</span>' + changeHtml(change, pct) + '</span>';
+  }
+  function render(data) {
+    if (!data || data._source === 'error' || data._source === 'fallback') {
+      if (!track.querySelector('.t-price')) showUnavailable();  // keep last-good if we already have prices
+      return;
+    }
+    var g = data.gold, s = data.silver, p = data.platinum, pd = data.palladium;
+    if (!valid(g) || !valid(s)) { if (!track.querySelector('.t-price')) showUnavailable(); return; }
+    var dot = '<span class="ticker-item t-dot">·</span>';
+    var parts = [];
+    parts.push(itemHtml('Gold', '$' + fmt(g.price, 2), g.change, g.pct));
+    parts.push(itemHtml('Silver', '$' + fmt(s.price, 2), s.change, s.pct));
+    if (valid(p)) parts.push(itemHtml('Platinum', '$' + fmt(p.price, 2), p.change, p.pct));
+    if (valid(pd)) parts.push(itemHtml('Palladium', '$' + fmt(pd.price, 2), pd.change, pd.pct));
+    parts.push(itemHtml('Au/Ag Ratio', fmt(g.price / s.price, 1)));
+    var unit = parts.join(dot) + dot;
+    var container = (track.parentElement && track.parentElement.offsetWidth) || window.innerWidth || 1200;
+    var half = unit, reps = 1;
+    track.innerHTML = half;
+    while (track.scrollWidth < container && reps < 12) { reps++; half += unit; track.innerHTML = half; }
+    track.innerHTML = half + half;  // duplicate the (>=viewport) half for a seamless -50% loop
+  }
+  function load() {
+    fetch('/api/prices', { cache: 'no-store' })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(render)
+      .catch(function () { if (!track.querySelector('.t-price')) showUnavailable(); });
+  }
+  load();
+  setInterval(load, POLL_MS);
+})();
 </script>
 </body>
 </html>

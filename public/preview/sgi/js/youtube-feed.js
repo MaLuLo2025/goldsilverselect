@@ -247,7 +247,7 @@
 
   function archiveCardHtml(video) {
     return '' +
-      '<a class="e-vid-card" ' + getCardLinkAttrs(video) + '>' +
+      '<a class="e-vid-card" data-yt-id="' + escapeHtml(video.id) + '" ' + getCardLinkAttrs(video) + '>' +
         '<div class="e-vid-thumb" style="background-image: url(\'' + escapeHtml(video.thumbnail) + '\'); background-size: cover; background-position: center;">' +
           '<div class="e-vid-play"></div>' +
           (video.duration ? '<div class="e-vid-duration">' + escapeHtml(video.duration) + '</div>' : '') +
@@ -262,7 +262,7 @@
 
   function previewCardHtml(video) {
     return '' +
-      '<a class="video-card" ' + getCardLinkAttrs(video) + '>' +
+      '<a class="video-card" data-yt-id="' + escapeHtml(video.id) + '" ' + getCardLinkAttrs(video) + '>' +
         '<div class="video-thumb" style="background-image: url(\'' + escapeHtml(video.thumbnail) + '\'); background-size: cover; background-position: center;">' +
           '<div class="video-play"></div>' +
         '</div>' +
