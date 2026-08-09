@@ -159,6 +159,24 @@ export const faqCategories: FAQCategory[] = [
         learnMoreLabel: "What Should I Truly Pay for Gold and Silver?",
         learnMoreHref: "/blog/what-should-i-truly-pay-for-gold-and-silver",
       },
+      {
+        question: "What\u2019s the difference between the American Gold Eagle and the Canadian Gold Maple Leaf?",
+        answer: "Both are 1-ounce government-minted gold coins, widely recognized by dealers worldwide. The key differences: the Maple Leaf is .9999 fine (99.99% gold) while the Eagle is .9167 fine (22 karat) \u2014 the Eagle contains 1 troy ounce of gold but the coin weighs slightly more due to copper and silver alloy added for hardness. The Eagle has a specific statutory exemption making it IRA-eligible despite its lower fineness; the Maple Leaf is also IRA-eligible at .9999 purity. Eagles tend to be more liquid in the U.S. domestic market; Maple Leafs have broader international recognition.",
+        learnMoreLabel: "American Gold Eagle vs. Canadian Gold Maple Leaf",
+        learnMoreHref: "/blog/american-eagle-vs-maple-leaf",
+      },
+      {
+        question: "How do I verify a gold coin or bar is authentic?",
+        answer: "No single test is definitive, so run multiple: (1) Magnet test \u2014 gold and silver are non-magnetic; a coin that sticks to a magnet is fake. (2) Weight and dimension check against published mint specifications \u2014 counterfeits rarely hit both simultaneously. (3) Ping test \u2014 real silver and gold ring with a long, clear tone; base metals produce a dull thud. (4) Sigma Metalytics or XRF analyzer \u2014 the most reliable electronic verification, available at many reputable coin shops. (5) For high-value coins, PCGS or NGC third-party grading is the definitive standard. Counterfeit Eagles, Maple Leafs, and Krugerrands do circulate \u2014 do not skip verification on private or secondary market purchases.",
+        learnMoreLabel: "How to Authenticate Gold Coins and Bars",
+        learnMoreHref: "/blog/how-to-authenticate-gold",
+      },
+      {
+        question: "What are the differences between APMEX, JM Bullion, and SD Bullion?",
+        answer: "All three are established, reputable online precious metals dealers with large catalogs of genuine products. APMEX has the widest selection including numismatic and collector items; their prices tend to run slightly above the other two on standard bullion but they have a strong track record. JM Bullion offers competitive pricing on common products with free shipping thresholds that are accessible for most buyers. SD Bullion typically posts the lowest premiums on commodity silver and gold but with a smaller product catalog. Shipping thresholds, payment method surcharges, and product availability vary \u2014 compare specific product prices on all three at the time of purchase rather than assuming one is always cheapest.",
+        learnMoreLabel: "APMEX vs. JM Bullion vs. SD Bullion Compared",
+        learnMoreHref: "/blog/apmex-vs-jm-bullion-vs-sd-bullion",
+      },
     ],
   },
   {
@@ -506,6 +524,12 @@ export const faqCategories: FAQCategory[] = [
         answer: "Gold IRA assets are required by IRS rules to be held at approved depositories, separate from the custodian\u2019s operating assets. If the custodian fails, the depository holds your allocated metal independently. However, your specific situation depends on the agreements in place and how the depository relationship is structured. For very large IRA holdings, reviewing the custodian\u2019s insolvency procedures and the depository arrangement with a qualified attorney provides more certainty than relying on standard disclosures.",
         learnMoreLabel: "What Happens to Your Metals When a Dealer Goes Out of Business",
         learnMoreHref: "/blog/dealer-insolvency-metals",
+      },
+      {
+        question: "What are my options for storing physical gold and silver?",
+        answer: "There are four main options, each with distinct tradeoffs. Home safe: immediate access, no fees, but requires a quality fireproof anchored safe and discreet ownership \u2014 homeowner's insurance typically covers only $200\u2013500 in precious metals without a scheduled rider. Safe deposit box: bank-grade physical security, but no FDIC protection for contents, access limited to bank hours, and access can be restricted during legal or banking disruptions. Professional vaulting (domestic): third-party allocated storage at a specialized depository, typically $100\u2013200/year, insured, fully allocated to your account. Offshore storage: legal for U.S. citizens, requires FBAR/FATCA reporting if the account value exceeds $10,000, and adds jurisdiction diversification but reduces accessibility.",
+        learnMoreLabel: "Where to Store Physical Gold and Silver: Complete Guide",
+        learnMoreHref: "/blog/precious-metals-storage-options",
       },
     ],
   },
