@@ -4,6 +4,7 @@ import { cities } from "@/lib/cities";
 import { dealers } from "@/lib/dealers";
 import { blogPosts } from "@/lib/blog";
 import { intelligenceItems } from "@/lib/intelligence";
+import { isStateContentIndexable } from "@/lib/stateContent";
 
 const BASE = "https://www.goldsilverselect.com";
 
@@ -31,13 +32,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: path === "" ? 1.0 : 0.8,
   }));
 
-  // State pages — only include states with 3+ local dealers (thin pages are noindexed)
+  // State pages — include states with 3+ local dealers, or zero-dealer states
+  // whose editorial content clears the indexability bar (see isStateContentIndexable)
   const statePages = states
     .filter((s) => {
       const count = dealers.filter(
         (d) => d.stateSlug === s.slug && d.vertical !== "online-coin-bullion" && d.vertical !== "gold-silver-ira"
       ).length;
-      return count >= 3;
+      return count >= 3 || isStateContentIndexable(s.slug);
     })
     .map((s) => ({
       url: `${BASE}/dealers/${s.slug}`,

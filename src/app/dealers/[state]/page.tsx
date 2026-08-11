@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 import { states } from "@/lib/states";
 import { getCitiesByState } from "@/lib/cities";
 import { getDealersByState, getOnlineDealers } from "@/lib/dealers";
-import { stateContent } from "@/lib/stateContent";
+import { stateContent, isStateContentIndexable } from "@/lib/stateContent";
 import type { StateSection } from "@/lib/stateContent";
 import DealerList from "@/components/DealerList";
 import DealerRatings from "@/components/DealerRatings";
@@ -43,10 +43,14 @@ export function generateMetadata({
   const dealerCount = getDealersByState(params.state).filter(
     (d) => d.vertical !== "online-coin-bullion" && d.vertical !== "gold-silver-ira"
   ).length;
-  const thinContent = dealerCount < 3;
+  const thinContent = dealerCount < 3 && !isStateContentIndexable(params.state);
+  const description =
+    dealerCount === 0 && isStateContentIndexable(params.state)
+      ? `${state.name} sales tax on bullion, dealer licensing rules, common scams, and what to verify before you buy or sell precious metals.`
+      : `Find trusted precious metals dealers, coin shops, and bullion buyers in ${state.name}. Direct links to dealer websites — no middlemen.`;
   return {
     title: `Coin & Bullion Dealers in ${state.name}`,
-    description: `Find trusted precious metals dealers, coin shops, and bullion buyers in ${state.name}. Direct links to dealer websites — no middlemen.`,
+    description,
     alternates: { canonical: `/dealers/${params.state}` },
     robots: thinContent
       ? { index: false, follow: true }

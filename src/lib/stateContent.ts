@@ -35,9 +35,32 @@ export const stateContent: Record<string, StateContent> = {
   },
   alaska: {
     intro:
-      "Alaska has a long and direct relationship with precious metals — placer gold mining has operated in the state since the 1880 Gold Rush near Juneau and the 1902 Fairbanks strike. Alaska residents can still pan for gold in designated areas, and raw gold nuggets and dust are actively traded in Anchorage and Fairbanks. The state levies no sales tax at the state level, which benefits buyers of bullion and coins.",
+      "Alaska has a direct historical connection to precious metals — the Klondike Gold Rush of 1896–99 and the broader Alaska mining history are central to the state's identity, and active gold mining continues today. The market reflects that heritage: Anchorage and Fairbanks support established dealers, and the state has an unusually engaged retail investor base relative to its population. Alaska's geographic isolation creates distinct dynamics — higher shipping and insurance costs on online purchases, limited in-state competition, and a buyer base that mixes long-term residents with rotating military and oil-industry workers.",
     buyingTips:
-      "Anchorage has the most active coin and bullion market in the state. For standard investment bullion like American Eagles and Maple Leafs, national online dealers ship to Alaska with insured delivery, often with better pricing than local retail.",
+      "Anchorage and Fairbanks offer the primary in-person options, including dealers specializing in locally sourced Alaska gold. For investment-grade bullion, mainland online dealers provide a wider product range, though shipping and insurance must be factored into any total-cost comparison. Because in-state competition is thin, comparing a local quote against a delivered mainland price is the most reliable way to know whether an Alaska premium is reasonable or simply unchallenged.",
+    salesTax:
+      "Alaska imposes no state-level sales tax. Some local jurisdictions levy their own sales tax, so the applicable rate depends on the borough or municipality where the transaction occurs, but most Alaska precious metals purchases carry no state-level tax. For in-state purchases the dealer's price is typically the buyer's total cost.",
+    commonScams:
+      "Alaska's distance from mainland dealer competition is the state's structural risk: a premium that would not survive comparison in a dense market can persist here simply because buyers have fewer reference points. Verify spot independently and price at least one delivered mainland quote before accepting a local offer on a significant purchase. The state's mining heritage also supports a trade in locally sourced placer gold, where purity and weight representations matter more than with minted bullion — raw or nugget gold is not assayed to a mint standard, and its value depends on fineness a buyer generally cannot confirm by inspection. Anchorage residents have a verification tool most states don't offer: the Anchorage Police Department's Pawn Unit monitors licensed pawn shops, scrap yards, and crafted precious metal dealers operating in the municipality, and licensed shops report their incoming transactions to APD weekly.",
+    whatToVerify:
+      "Alaska regulates pawnbrokers and secondhand dealers at the state level under AS 08.76, administered by the Division of Corporations, Business and Professional Licensing. A permanent state pawnbroker license is required for anyone whose business needs one under AS 08.76.100 and who does not already hold a conforming municipal license; the state license runs up to two years and expires December 31 of odd-numbered years. Licensees must also hold an Alaska Business License. Anchorage buyers can go further — APD publishes the current list of licensed pawn shops operating in the municipality, so a shop's licensed status is directly checkable rather than taken on the dealer's word. For any numismatic purchase, confirm grading comes from PCGS or NGC. For bullion, get written pricing stated relative to current spot.",
+    displayOrder: [
+      "intro",
+      "buyingTips",
+      "whatToVerify",
+      "commonScams",
+      "salesTax",
+    ],
+    sources: [
+      {
+        label: "Alaska Division of Corporations, Business and Professional Licensing — Pawnbrokers",
+        url: "https://www.commerce.alaska.gov/web/cbpl/ProfessionalLicensing/Pawnbrokers.aspx",
+      },
+      {
+        label: "Anchorage Police Department — Licensed pawn shops",
+        url: "https://www.anchoragepolice.com/pawn-shops",
+      },
+    ],
   },
   arkansas: {
     intro:
@@ -47,9 +70,32 @@ export const stateContent: Record<string, StateContent> = {
   },
   delaware: {
     intro:
-      "Delaware's position as a major corporate and financial services hub means that precious metals ownership is common among investment-oriented residents, even though the local physical dealer market is thin relative to neighboring states. The state charges no sales tax — including on gold, silver, and platinum bullion — making it one of the more favorable states for precious metals transactions. Philadelphia-area dealers are easily accessible from northern Delaware.",
+      "Delaware's precious metals market is concentrated in Wilmington, with smaller dealer presence in Dover and the coastal beach communities. The state's compact geography and proximity to Philadelphia and the broader Mid-Atlantic mean many Delaware buyers find wider selection a short drive away. Delaware's role as a corporate domicile doesn't translate into precious metals market depth, but its substantial retiree population generates a steady supply of estate gold and inherited collections.",
     buyingTips:
-      "Delaware buyers frequently cross into Pennsylvania or New Jersey for access to physical coin shops. Given the state's no-sales-tax environment, purchasing online and having bullion shipped to a Delaware address is straightforward and cost-effective.",
+      "Wilmington offers the primary in-person dealer options. Because Delaware levies no sales tax, online dealers compete directly with local shops on total delivered cost — the comparison is unusually clean here, with no tax calculation to complicate it. Buyers willing to travel to Philadelphia or Baltimore gain access to considerably deeper inventory, though crossing state lines can change the sales tax treatment of the transaction.",
+    salesTax:
+      "Delaware imposes no state-level sales tax. The dealer's price is the buyer's total cost, which makes Delaware a destination for buyers from neighboring Pennsylvania, New Jersey, and Maryland on larger purchases where sales tax differences become material.",
+    commonScams:
+      "Delaware's licensing regime is built around criminal-history screening, which tells you what the state considers the primary risk: buyers who acquire metal they should not be acquiring. Chapter 23 bars a license where the applicant has a felony conviction within five years, a theft or fraud misdemeanor within five years, or a drug misdemeanor within three — and a pending charge in any of those categories blocks issuance outright. Licensees must notify Delaware State Police within five days of any arrest. The operators to watch are the ones outside that system: a Delaware license designates a specific building, and a dealer may not carry on the business at any address other than the one on the license. That makes hotel-ballroom and other pop-up buying events structurally incompatible with the licensing scheme, and they are the most common vector for below-market offers on estate collections.",
+    whatToVerify:
+      "Delaware licenses pawnbrokers, secondhand dealers, and scrap metal processors under Title 24, Chapter 23 of the Delaware Code — and the licensing authority is the Delaware State Police, not a business-registration office. Licenses expire annually on December 31 and are tied to a specific business address. Licensees must hold a current Delaware business license from the Division of Revenue, and under § 2313 they must record every transaction on a designated electronic tracking system. Where payment is based on weight for precious metal, the statute requires the weight and metal type to be recorded along with any precious stones in the item — so a Delaware dealer buying by weight should be documenting exactly what they are paying you for. Ask to see the license, and confirm the address on it matches where you are standing.",
+    displayOrder: [
+      "salesTax",
+      "intro",
+      "whatToVerify",
+      "buyingTips",
+      "commonScams",
+    ],
+    sources: [
+      {
+        label: "Delaware State Police — Pawnbrokers, Secondhand Dealers & Scrap Metal Processors",
+        url: "https://dsp.delaware.gov/pawnbrokers-secondhand-dealers-scrap-metal-processors/",
+      },
+      {
+        label: "24 Del. C. Ch. 23, Subchapter II — Licensing",
+        url: "https://delcode.delaware.gov/title24/c023/sc02/index.html",
+      },
+    ],
   },
   hawaii: {
     intro:
@@ -101,9 +147,28 @@ export const stateContent: Record<string, StateContent> = {
   },
   montana: {
     intro:
-      "Montana has a direct connection to precious metals — the state's history of copper, silver, and gold mining is central to its identity, and Butte's Copper King legacy still resonates. Today, Montana residents have strong interest in gold and silver as physical stores of value, and the state exempts precious metals from sales tax. Missoula and Billings have established coin and bullion dealers. The state's proximity to Wyoming and Idaho also gives access to regional coin shows.",
+      "Montana's connection to precious metals runs through its mining history — copper, silver, and gold shaped the state, and the Butte legacy still resonates. Today the market is concentrated in Billings and Missoula, with smaller dealers in Bozeman, Helena, Great Falls, and Kalispell. Montana's modest population is offset by a culturally engaged investor base with unusually strong interest in physical metals as stores of value, and by a steady supply of estate gold from ranching and mining families.",
     buyingTips:
-      "Billings and Missoula are the primary physical markets in Montana. For investment bullion, online dealers provide access to a wider product range with competitive premiums — Montana's sales tax exemption applies to most qualifying purchases.",
+      "Billings and Missoula offer the primary in-person dealer options, with credible smaller shops in Bozeman, Helena, and Great Falls. Online dealers shipping to Montana provide wider selection at competitive premiums. Buyers near the Wyoming, Idaho, or North Dakota lines may find additional options across the border — worth checking, since Montana's dealer base is thin enough that in-state price comparison alone can be misleading.",
+    salesTax:
+      "Montana imposes no state-level sales tax, which makes in-state precious metals purchases unusually straightforward: the negotiated price is the total cost, with no exemption criteria to satisfy and no qualifying-product analysis required.",
+    commonScams:
+      "Montana's regulatory gap is the thing buyers and sellers should understand. Where states like Vermont and Delaware run certification regimes that screen dealers before they open, Montana has no equivalent state-level check — which means a Montana dealer's legitimacy is established by reputation and record, not by a license anyone verified. That raises the stakes on the standard patterns: traveling buyers running short-term events in hotel conference rooms, and telephone or mail solicitations pushing 'rare' coins at premiums well above the numismatic market. Neither faces a state licensing barrier here. Get a written offer, verify spot independently, and decline same-day pressure. The Montana Department of Justice Office of Consumer Protection handles complaints from buyers who believe they've been targeted.",
+    whatToVerify:
+      "Montana has no state-level precious metals dealer certification. Regulation happens municipally, and it varies by city — Missoula licenses pawnbrokers and secondhand dealers through the city treasurer under Title 5 of its municipal code, requiring separate transaction registers for each category of business a shop operates. Other Montana municipalities license through the city clerk. So the meaningful question is not 'is this dealer state-licensed' — none are — but whether they hold the applicable municipal license for the city they operate in, and how long they have operated there. Verify business registration with the Montana Secretary of State, check how long the business has held its location, and review independent feedback. For numismatic purchases, confirm grading comes from PCGS or NGC. For bullion, get written pricing relative to current spot.",
+    displayOrder: [
+      "intro",
+      "whatToVerify",
+      "commonScams",
+      "salesTax",
+      "buyingTips",
+    ],
+    sources: [
+      {
+        label: "Montana Department of Justice — Office of Consumer Protection",
+        url: "https://dojmt.gov/consumer/",
+      },
+    ],
   },
   nebraska: {
     intro:
@@ -143,9 +208,32 @@ export const stateContent: Record<string, StateContent> = {
   },
   "rhode-island": {
     intro:
-      "Rhode Island's small geography makes Providence the natural hub for all precious metals activity in the state. The city has a history in jewelry manufacturing — it was once a center of U.S. costume jewelry production — and still has jewelers and dealers active in gold and silver buying. Rhode Island charges sales tax on most precious metals, which affects local pricing. The broader New England market, including Boston-area dealers, is easily accessible for Rhode Island residents.",
+      "Rhode Island's precious metals market is concentrated in Providence, with smaller presence in Warwick and Newport. The state's compact size means most Rhode Island buyers also reach dealers in nearby Massachusetts and Connecticut. Providence's historic jewelry manufacturing industry built a specialized precious metals trade going back generations, and the city retains a more developed numismatic community than the state's population alone would suggest.",
     buyingTips:
-      "Providence has the primary coin and jewelry market in Rhode Island. Boston's larger dealer network is under an hour away and worth the trip for larger transactions. Online dealers shipping to Rhode Island provide access to investment bullion without Rhode Island's local sales tax in many cases.",
+      "Providence offers the strongest in-person options in Rhode Island. For larger purchases or specialized products, online dealers provide wider selection at competitive premiums. The Boston and Worcester markets are within easy reach for buyers willing to travel, which is worth doing on significant transactions — Rhode Island's dealer base is small enough that meaningful price comparison often means leaving the state.",
+    salesTax:
+      "Rhode Island exempts precious metal bullion from sales tax under R.I. Gen. Laws § 44-18-30, on the reasoning that such a purchase is substantially equivalent to a securities or commodities transaction, and separately exempts coins having numismatic or investment value. Bullion is defined by content rather than form, so refined bars sold for metal content qualify. Processed items, jewelry, medals, tokens, and accessories generally remain taxable at the state's 7 percent rate. Confirm with the dealer whether a specific item qualifies.",
+    commonScams:
+      "Rhode Island's licensing statute defines the state's central risk with unusual precision. State regulations provide that a dealer buying coins for numismatic value is exempt from licensing, but that purchasing coins for metal content is a violation — and such buyers are subject to prosecution as unlicensed precious metals dealers. The practical scam follows directly: a shop uses collector-sounding language while paying melt, capturing numismatic value it never priced into the offer, from a seller who does not know the two bases are legally distinct. Insist that a written offer state which basis it is on. Traveling buying events present the same problem from another direction — a permanent registered Rhode Island place of business is a licensing prerequisite, so an operation without one is not licensable.",
+    whatToVerify:
+      "Rhode Island runs one of the country's few dedicated precious metals licensing regimes, and it is administered by the Attorney General rather than a business-registration office. Under R.I. Gen. Laws § 6-11.1-1, no person — including pawnbrokers, consignment shops, salvage operators, and secondhand dealers — may buy gold, silver, platinum-group metals, or precious stones from the public for resale without an AG-issued license, and the AG will not license anyone who has not registered a permanent place of business in the state. Before selling an inherited collection, ask two questions: is the buyer AG-licensed, and is this offer based on numismatic value or metal content. The Attorney General's Precious Metals Unit administers licensing and investigates consumer complaints on precious metals sales.",
+    displayOrder: [
+      "whatToVerify",
+      "intro",
+      "commonScams",
+      "buyingTips",
+      "salesTax",
+    ],
+    sources: [
+      {
+        label: "R.I. Gen. Laws § 6-11.1-1 — Precious metals dealer licensing",
+        url: "https://webserver.rilegislature.gov/Statutes/TITLE6/6-11.1/6-11.1-1.htm",
+      },
+      {
+        label: "RI Precious Metals Regulatory Enforcement Unit — Rules and Regulations",
+        url: "https://rules.sos.ri.gov/regulations/part/110-20-00-1",
+      },
+    ],
   },
   "south-carolina": {
     intro:
@@ -155,9 +243,22 @@ export const stateContent: Record<string, StateContent> = {
   },
   "south-dakota": {
     intro:
-      "South Dakota is part of the Black Hills gold country — the Homestake Mine in Lead was the largest gold mine in the Western Hemisphere for much of the 20th century. That heritage drives ongoing interest in gold and silver throughout the state. Rapid City has the most active coin and bullion market, and the region hosts coin shows tied to the Black Hills Gold brand of jewelry. South Dakota has no state income tax and generally favorable precious metals transaction laws.",
+      "South Dakota's precious metals market centers on Sioux Falls and Rapid City. The state's small population is offset by a financially engaged investor base — Sioux Falls' role as a banking and credit-card industry hub supports a more sophisticated retail investor community than population alone would predict. Rapid City serves the western half of the state and sits at the edge of the Black Hills tourist economy, which brings seasonal buying and selling activity that the rest of the state doesn't see.",
     buyingTips:
-      "Rapid City is the primary market for coin and bullion transactions in South Dakota. Sioux Falls has a smaller but growing market. The Black Hills Gold jewelry tradition also means local jewelers frequently deal in gold buying and selling.",
+      "Sioux Falls and Rapid City offer the primary in-person dealer options. Online dealers shipping to South Dakota provide wider selection. With only two meaningful in-state markets, local price comparison is limited — checking a delivered online quote is the practical way to establish whether a local premium is competitive before committing to a larger purchase.",
+    salesTax:
+      "South Dakota exempts qualifying bullion sales from state sales tax under specific criteria. Coins meeting bullion definitions and bars from recognized refiners typically qualify, while processed and collectible items may be treated differently. Municipal sales tax applies in many South Dakota jurisdictions, so confirm the full tax treatment — state and local — with the dealer before transacting.",
+    commonScams:
+      "The Black Hills tourist economy makes South Dakota unusual: seasonal visitor traffic through Rapid City supports temporary and event-based buying operations that a market this size would not otherwise sustain. Rapid City's ordinance addresses this directly, defining a trade show as an organized gathering for trading gems and precious metals over a designated period, on either an isolated or recurring basis, and distinguishing it from any business with a fixed location inside city limits where such trading happens regularly. That distinction is the useful one for a seller: a fixed-location licensed dealer is accountable at an address next month, and an event operator is not. Estate sellers approached at or shortly after a show are the most exposed, because the offer arrives without a comparison point and expires when the event does.",
+    whatToVerify:
+      "South Dakota regulates pawnbrokers and precious metals dealers through municipal authority rather than a statewide licensing agency, so requirements depend on the city. Sioux Falls maintains a dedicated ordinance chapter covering pawnbrokers, secondhand goods dealers, and dealers in precious metals and precious gems. Rapid City licenses gems and precious metals dealers through the city and separately regulates trade shows. Requirements can be substantial at the municipal level — Watertown, for example, requires a South Dakota Division of Criminal Investigation background check, fingerprinting through the police department, and a surety bond before issuing a license. Ask which city license the dealer holds and confirm it covers precious metals specifically, not just general secondhand goods. For numismatic purchases, confirm grading comes from PCGS or NGC; for bullion, get written pricing relative to spot.",
+    displayOrder: [
+      "intro",
+      "commonScams",
+      "whatToVerify",
+      "buyingTips",
+      "salesTax",
+    ],
   },
   tennessee: {
     intro:
@@ -173,9 +274,32 @@ export const stateContent: Record<string, StateContent> = {
   },
   vermont: {
     intro:
-      "Vermont's precious metals market is small and centered in Burlington and Montpelier, with a handful of coin dealers serving the state's collector community. Vermont's independent ethos and interest in alternative financial arrangements has driven some interest in physical gold and silver. The state participates in the New England coin show circuit, and Boston-area dealers are accessible for Vermont residents seeking a larger physical market.",
+      "Vermont's precious metals market is concentrated in Burlington and Montpelier, with smaller presence in Rutland and Brattleboro. The state's small population supports a limited in-state dealer base, but Vermont's New England heritage and multi-generational family wealth in dairy, maple, and other traditional industries produce a steady supply of estate gold and silver. Many Vermont buyers also cross into New Hampshire, which levies no sales tax of any kind.",
     buyingTips:
-      "Burlington has the most active coin market in Vermont, though the selection is limited. For investment bullion, online dealers provide the most cost-effective access. Vermont buyers near the New Hampshire border can also access that state's favorable no-sales-tax environment.",
+      "Burlington offers the primary in-person dealer options in Vermont. The state's thin dealer base means many buyers cross into New Hampshire for additional choice, and online dealers shipping to Vermont provide wider selection at competitive premiums. If you do cross the border, verify how the receiving dealer handles out-of-state transactions before assuming the trip changes your tax position.",
+    salesTax:
+      "Vermont exempts qualifying bullion sales from state sales tax under specific criteria. Coins meeting bullion definitions and bars from recognized refiners typically qualify, while jewelry and processed items generally do not. Confirm with the dealer whether a specific purchase qualifies before transacting.",
+    commonScams:
+      "Vermont's statute is built around slowing down the resale of stolen metal, which tells you which operators are structurally incompatible with it. Chapter 97A requires a certified dealer to hold purchased precious metal for at least ten days before offering it for sale or scrap, and bars removing it from the state during that period. Certified dealers are also enrolled in a statewide stolen property notification system that pushes theft reports to dealers and law enforcement. The operations that cannot function under those rules are the ones to avoid: pop-up buying events with no fixed Vermont location, and buyers who take possession and move metal out of state immediately. The New Hampshire border adds a second pressure — some operations market to Vermont sellers crossing for the tax difference while sitting outside Vermont's certification regime entirely.",
+    whatToVerify:
+      "Vermont certifies precious metal dealers through the Department of Public Safety under Title 9, Chapter 97A, a requirement effective January 1, 2015 — so certification runs through DPS, not the Secretary of State, and a Secretary of State business registration tells you nothing about whether a dealer is certified to buy precious metals. Certification carries a $200 application fee, and certified dealers are enrolled in the state's stolen property notification system. The chapter's ten-day retention requirement and its treatment of collectible coins as antiques both affect how a given transaction is handled. Ask any Vermont buyer whether they hold current DPS certification before handing over an estate collection. For numismatic purchases, confirm grading comes from PCGS or NGC; for bullion, get written pricing relative to current spot.",
+    displayOrder: [
+      "intro",
+      "salesTax",
+      "whatToVerify",
+      "commonScams",
+      "buyingTips",
+    ],
+    sources: [
+      {
+        label: "Vermont Department of Public Safety — Precious Metal Dealer Licensing",
+        url: "https://dps.vermont.gov/licensing/preciousmetals",
+      },
+      {
+        label: "9 V.S.A. Chapter 97A — Precious Metal Dealers",
+        url: "https://legislature.vermont.gov/statutes/fullchapter/09/097A",
+      },
+    ],
   },
   virginia: {
     intro:
@@ -196,3 +320,25 @@ export const stateContent: Record<string, StateContent> = {
       "Milwaukee has the most active coin and bullion market in Wisconsin, with multiple dealers competing for collector and investor business. Madison serves the south-central market. For investment bullion, online dealers shipping to Wisconsin offer competitive pricing, with the sales tax situation varying by dealer.",
   },
 };
+
+const REQUIRED_SECTIONS: StateSection[] = [
+  "intro",
+  "buyingTips",
+  "salesTax",
+  "commonScams",
+  "whatToVerify",
+];
+
+export function isStateContentIndexable(slug: string): boolean {
+  const entry = stateContent[slug];
+  if (!entry) return false;
+
+  let wordCount = 0;
+  for (const section of REQUIRED_SECTIONS) {
+    const value = entry[section];
+    if (!value || !value.trim()) return false;
+    wordCount += value.trim().split(/\s+/).length;
+  }
+
+  return wordCount >= 400;
+}
