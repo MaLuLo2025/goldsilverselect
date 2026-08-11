@@ -8,9 +8,26 @@ import { states } from "@/lib/states";
 import { getCitiesByState } from "@/lib/cities";
 import { getDealersByState, getOnlineDealers } from "@/lib/dealers";
 import { stateContent } from "@/lib/stateContent";
+import type { StateSection } from "@/lib/stateContent";
 import DealerList from "@/components/DealerList";
 import DealerRatings from "@/components/DealerRatings";
 import { isFeatured, truncateAtSentence } from "@/components/DealerCard";
+
+const DEFAULT_SECTION_ORDER: StateSection[] = [
+  "intro",
+  "buyingTips",
+  "salesTax",
+  "commonScams",
+  "whatToVerify",
+];
+
+const SECTION_HEADINGS: Record<StateSection, (stateName: string) => string> = {
+  intro: () => "Market Overview",
+  buyingTips: (stateName) => `Where to Buy in ${stateName}`,
+  salesTax: (stateName) => `${stateName} Sales Tax on Precious Metals`,
+  commonScams: (stateName) => `Common Scams Reported in ${stateName}`,
+  whatToVerify: (stateName) => `What to Verify Before You Buy in ${stateName}`,
+};
 
 export function generateStaticParams() {
   return states.map((s) => ({ state: s.slug }));
@@ -195,12 +212,60 @@ export default function StateDealersPage({
           <div>
             {stateContent[params.state] ? (
               <div className="max-w-[760px]">
-                <p className="font-sans text-[16px] leading-relaxed mb-4" style={{ color: "#444" }}>
-                  {stateContent[params.state].intro}
-                </p>
-                <p className="font-sans text-[15px] leading-relaxed" style={{ color: "#666" }}>
-                  {stateContent[params.state].buyingTips}
-                </p>
+                {(stateContent[params.state].displayOrder ?? DEFAULT_SECTION_ORDER).map(
+                  (section) => {
+                    const content = stateContent[params.state][section];
+                    if (!content) return null;
+                    return (
+                      <div key={section} className="mb-6 last:mb-0">
+                        <h2
+                          className="font-serif text-[20px] font-bold mb-2"
+                          style={{ color: "#333" }}
+                        >
+                          {SECTION_HEADINGS[section](state.name)}
+                        </h2>
+                        <p
+                          className={
+                            section === "intro"
+                              ? "font-sans text-[16px] leading-relaxed"
+                              : "font-sans text-[15px] leading-relaxed"
+                          }
+                          style={{ color: section === "intro" ? "#444" : "#666" }}
+                        >
+                          {content}
+                        </p>
+                      </div>
+                    );
+                  }
+                )}
+                {stateContent[params.state].sources &&
+                  stateContent[params.state].sources!.length > 0 && (
+                    <div
+                      className="mt-2 pt-6"
+                      style={{ borderTop: "1px solid #e8e5dd" }}
+                    >
+                      <h3
+                        className="font-serif text-[16px] font-bold mb-2"
+                        style={{ color: "#333" }}
+                      >
+                        Sources
+                      </h3>
+                      <ul className="font-sans text-[13px] leading-relaxed">
+                        {stateContent[params.state].sources!.map((source) => (
+                          <li key={source.url} className="mb-1">
+                            <a
+                              href={source.url}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-gold hover:underline"
+                            >
+                              {source.label}
+                            </a>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
               </div>
             ) : (
               <div className="text-center py-8">

@@ -2,9 +2,28 @@
 // Each blurb is unique — covers local market context, buying/selling behavior,
 // and relevant geographic notes to differentiate pages from one another.
 
+export type StateSection =
+  | "intro"
+  | "buyingTips"
+  | "salesTax"
+  | "commonScams"
+  | "whatToVerify";
+
+export interface StateSource {
+  label: string;
+  url: string;
+}
+
 export interface StateContent {
   intro: string;
   buyingTips: string;
+  // TODO: these become required once the expanded content merge lands —
+  // existing 28 entries only have intro/buyingTips today.
+  salesTax?: string;
+  commonScams?: string;
+  whatToVerify?: string;
+  displayOrder?: StateSection[];
+  sources?: StateSource[];
 }
 
 export const stateContent: Record<string, StateContent> = {
