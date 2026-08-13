@@ -29,9 +29,32 @@ export interface StateContent {
 export const stateContent: Record<string, StateContent> = {
   alabama: {
     intro:
-      "Alabama's precious metals market is anchored in the Birmingham metro, where a handful of established coin and jewelry shops serve collectors and investors in the Tennessee Valley region. The state has no income tax on gold and silver sales, making it relatively favorable for bullion transactions. Estate gold and silver coins are common — decades of agricultural wealth in rural Alabama translated into family coin collections that still surface at estate sales today.",
+      "Alabama's precious metals market centers on Birmingham, with meaningful activity in Huntsville, Mobile, and Montgomery and a distinct pocket in the Muscle Shoals/Florence area of the Shoals region. Birmingham's history as the industrial center of the Deep South produced generations of household wealth that has cycled through the state's coin and jewelry trade for over a century, and the current market reflects that inheritance: estate silver, hallmarked jewelry, and pre-1933 US gold appear regularly in Alabama shops. The steady flow of estate material means Alabama has more supply than its population would predict, and that in turn means a seller comparing offers across two or three Birmingham-area dealers typically finds a real spread.",
     buyingTips:
-      "Buyers in Alabama typically transact at local jewelers or pawn shops in larger cities like Huntsville and Mobile. For investment-grade bullion, online dealers shipping to Alabama offer the widest selection with insured delivery.",
+      "Birmingham, Huntsville, Mobile, and Montgomery each support established dealers, and the four-metro spread means most Alabama buyers have a real in-person option within an hour or two. For estate liquidations — common in Alabama given the demographics and multigenerational property holdings — get quotes from at least two dealers before selling. Online dealers shipping to Alabama are competitive on standard bullion and give a useful third reference point against local premiums. If you are handling an estate that includes both coins and scrap jewelry, be aware that dealers vary in how aggressively they price each category, and separating the lots often produces a better total.",
+    salesTax:
+      "Alabama exempts qualifying bullion from state sales tax under Ala. Code § 40-23-4(a)(51). The exemption applies to gold, silver, platinum, and palladium bullion refined to at least .900 fine that is sold based on its precious metal content rather than its rarity, condition, or form. Coins meeting the same content and pricing test also qualify. Jewelry, decorative items, and numismatic coins priced above metal content are generally taxable. The exemption was originally enacted with a sunset date but has been extended by subsequent legislation. Local sales taxes may still apply in some Alabama jurisdictions even where state tax does not. Confirm the current treatment of a specific purchase with the dealer before transacting.",
+    commonScams:
+      "Alabama's Chapter 34 tells you exactly which behaviors the state considers the risk, and each one maps to a scam pattern worth watching for. Section 8-34-3 requires dealers to record the seller's name, address, date of birth, signature, physical description, and government ID number for every purchase — and to file a report with the local law enforcement agency at least weekly. A dealer who processes an estate lot without asking for ID or filling out paperwork is skipping a statutory obligation, not saving you time. Section 8-34-4 requires purchased items to be held in the same shape and form for fifteen business days, and separately prohibits purchases from anyone under eighteen — knowledge of age is not a defense. That fifteen-day rule is the practical reason a legitimate Alabama dealer will not melt or resize a piece the day you sell it, and a shop that moves inventory faster than the statute allows is operating outside the framework. Traveling 'cash for gold' operations that appear at hotel conference rooms for a weekend are the highest-risk pattern in Alabama, because the transaction and the operator both disappear before the fifteen-day window closes.",
+    whatToVerify:
+      "Alabama regulates dealers in gold or precious items under Ala. Code Title 8, Chapter 34, enacted by Act 2010-732. Section 8-34-2 requires each dealer to be licensed, and section 8-34-5 requires each dealer to prominently display a copy of the chapter on the business premises — a public-facing compliance signal you can look for the moment you walk in. Section 8-34-7 exempts retail merchants, manufacturers, wholesalers, and pawnbrokers licensed by the Alabama State Banking Department, which means the shop across the street from a Chapter 34 dealer may be operating under an entirely different regulatory regime. Ask which framework a specific operator falls under, and — for pawnbrokers — verify the state banking license separately. Violations of Chapter 34 are a Class B misdemeanor under section 8-34-6, so records, holding periods, and identification requirements are enforceable obligations rather than best practices. For numismatic purchases, confirm grading comes from PCGS or NGC; for bullion, get written pricing stated relative to current spot.",
+    displayOrder: [
+      "intro",
+      "buyingTips",
+      "salesTax",
+      "whatToVerify",
+      "commonScams",
+    ],
+    sources: [
+      {
+        label: "Ala. Code Title 8, Chapter 34 — Dealers in Gold or Precious Items",
+        url: "https://law.justia.com/codes/alabama/title-8/chapter-34/",
+      },
+      {
+        label: "Ala. Code § 8-34-3 — Documentation and weekly law enforcement report",
+        url: "https://law.justia.com/codes/alabama/title-8/chapter-34/section-8-34-3/",
+      },
+    ],
   },
   alaska: {
     intro:
@@ -105,9 +128,32 @@ export const stateContent: Record<string, StateContent> = {
   },
   indiana: {
     intro:
-      "Indiana has a significant coin collecting community centered in Indianapolis, with strong participation in regional coin shows throughout the state. The city of Fort Wayne hosts one of the better-attended annual coin shows in the Midwest. Indiana exempts investment-grade gold and silver bullion from state sales tax, which aligns with broader Midwestern precious metals buying norms. Older farmstead estates in central and southern Indiana regularly yield pre-1933 gold coins and Morgan silver dollars.",
+      "Indiana's precious metals market anchors in the Indianapolis metro, with meaningful dealer activity in Fort Wayne, Evansville, South Bend, and the Bloomington-Columbus corridor. Indiana sits at the intersection of several regional coin show circuits, and the annual Central States Numismatic Society convention — one of the largest shows in the country — draws Indiana dealers and collectors into a market that behaves like it belongs to a larger state. The manufacturing base across the state produced multigenerational family wealth that regularly surfaces as estate gold and silver, and Indianapolis in particular supports a professional dealer community with enough depth that a seller can meaningfully compare offers.",
     buyingTips:
-      "Indianapolis and Fort Wayne both have established coin dealer communities. For large bullion purchases, national online dealers shipping to Indiana offer competitive premiums over spot with the benefit of no state sales tax on qualifying items.",
+      "Indianapolis supports the deepest in-person market in Indiana, with Fort Wayne, Evansville, and South Bend all sustaining credible dealers. For a significant purchase or sale, comparing two or three quotes is practical and worthwhile. The Central States show is an unusually good price-discovery venue even if you ultimately transact with a local storefront afterward. Online dealers shipping to Indiana are competitive on standard investment bullion, and the sales tax exemption on IRA-qualifying products means the delivered online cost is often close to the local counter price on the same items.",
+    salesTax:
+      "Indiana exempts qualifying coins and bullion from state sales tax under Ind. Code § 6-2.5-5-47. The exemption is defined by reference to what qualifies as a permitted investment for an individual retirement account under 26 U.S.C. § 408(m) — a narrower and more precise standard than most states use. Coins and bullion that meet the IRA-permitted-investment test are exempt; items outside that definition, along with jewelry, decorative items, and numismatic coins priced above their metal-content-based IRA-permitted equivalent, generally remain taxable. Storage services for qualifying coins and bullion are also exempt under the same section. Confirm with the dealer whether a specific product meets the IRA-permitted-investment standard before transacting.",
+    commonScams:
+      "Indiana regulates 'valuable metal dealers' under Ind. Code 25-37.5, and the definition is broad enough to catch scrap and junk operators alongside anyone else purchasing valuable metal for resale — but the operational profile in the statute is scrap-oriented, not coin-oriented. Section 25-37.5-1-2 requires the dealer to record the seller's name, address, age, driver's license or Social Security number, verified against a government photo ID, plus a photograph of both the seller and the item, plus the license plate of the vehicle delivering the material. Section 25-37.5-1-4 then requires the dealer to hold each purchase separate and apart, without changing its form, for at least five working days so that a law enforcement officer can inspect it. That combination — photograph plus five-day inspection window — is designed to make stolen scrap difficult to move quickly. The pattern to watch for is a dealer offering to take an estate lot in cash without ID or photograph and to process it immediately; that is a statutory violation, and it is also the setup for the buyer to underpay a seller who does not have another opinion in hand. Section 25-37.5-1-7 makes the failure to comply enforceable against the seller as well as the dealer.",
+    whatToVerify:
+      "Indiana's regulatory framework distinguishes between commercial and retail transactions in ways worth understanding before you sell. Section 25-37.5-1-5 excludes purchases from persons or entities regularly engaged in the business of manufacturing valuable metals or selling valuable metals at retail from the recordkeeping regime, and section 25-37.5-1-10 further excludes commercial transactions between certain licensed automotive salvage and scrap-processing entities. That means an established coin and bullion dealer buying inventory from another established dealer is inside a different compliance conversation than an individual walking in with an inherited collection. When you sell as an individual, the recordkeeping obligations apply and the dealer will need your ID, photograph, and signature on the state form; a dealer who waives any of that is skipping a statutory duty. Municipal licensing adds another layer — many Indiana cities (including Indianapolis and Bloomington) impose local licensing requirements on top of state law, so ask which municipal license the dealer holds and whether the address you are standing at is the licensed premises. For numismatic purchases, confirm grading comes from PCGS or NGC; for bullion, get written pricing relative to current spot.",
+    displayOrder: [
+      "intro",
+      "commonScams",
+      "salesTax",
+      "buyingTips",
+      "whatToVerify",
+    ],
+    sources: [
+      {
+        label: "Ind. Code § 25-37.5-1-1 — Valuable metal dealer definitions",
+        url: "https://law.justia.com/codes/indiana/2022/title-25/article-37-5/chapter-1/section-25-37-5-1-1/",
+      },
+      {
+        label: "Ind. Code § 25-37.5-1-2 — Record of purchases; forms; identification",
+        url: "https://law.justia.com/codes/indiana/2017/title-25/article-37.5/chapter-1/section-25-37.5-1-2/",
+      },
+    ],
   },
   iowa: {
     intro:
@@ -123,15 +169,51 @@ export const stateContent: Record<string, StateContent> = {
   },
   kentucky: {
     intro:
-      "Kentucky's precious metals market is distributed across Louisville, Lexington, and the Bowling Green area. The state has a strong coin show circuit, and the Louisville Numismatic Club is one of the more active in the region. Kentucky charges sales tax on most precious metals transactions, which affects local retail pricing. The state's horse farm and bourbon industry wealth has historically translated into interest in gold as an alternative store of value.",
+      "Kentucky's precious metals market runs along the Louisville–Lexington corridor, with meaningful activity in Northern Kentucky (across the river from Cincinnati), Bowling Green, and the Owensboro area on the Ohio River. Louisville supports the state's deepest dealer market, with Lexington a close second and a professional numismatic community that has advocated for state precious metals policy in ways that show up in Kentucky law. The state has an unusually clear recent legislative story around bullion taxation, and understanding that story matters both because it changes the total cost of a Kentucky purchase and because it demonstrates how contested — and consequential — sales tax treatment of precious metals can be.",
+    salesTax:
+      "Kentucky's sales tax treatment of bullion and currency has been the subject of one of the more dramatic recent legislative fights in this area, and buyers should understand where things stand and what to ask. HB 8 (2024) enacted a broad sales and use tax exemption for bullion and currency under KRS 139.480, effective August 1, 2024. Governor Beshear attempted a line-item veto of the exemption; the Attorney General opined the veto was invalid because the Kentucky Constitution restricts line-item vetoes to appropriations measures. The Department of Revenue nonetheless continued collecting sales tax on those transactions. In 2025, the General Assembly passed HB 2 to reinforce the exemption, the Governor vetoed the full bill, and the legislature overrode the veto on March 27, 2025. HB 2 confirmed the exemption retroactive to August 1, 2024 and — importantly for Kentucky buyers who transacted during the disputed period — created a refund pathway. Under KRS 134.580, individual consumers seeking refunds of sales tax paid on qualifying bullion or collectible currency purchases on or after August 1, 2024 must request the refund directly from the retailer that made the sale. If you paid Kentucky sales tax on a bullion purchase during that window, you have a claim; ask the retailer.",
+    commonScams:
+      "Kentucky does not have a comprehensive state-level coin and bullion dealer licensing regime comparable to Ohio's Chapter 4728 or South Carolina's Title 40 Chapter 54, which means the compliance signals a Kentucky buyer can look for are different. The closest state framework is KRS 433.890, which governs recyclers, dealers in junk or metals, dealers in secondhand articles, and similar operators — a scrap-oriented statute that reaches nonferrous metals and catalytic converters directly but sits at some distance from a typical coin and bullion transaction. Registration as a secondary metals recycler under KRS 433.902 does not translate into a coin dealer credential. The practical result is that Kentucky places more weight on municipal licensing and on the dealer's independently demonstrable track record, so a Kentucky buyer or seller has to do more of the verification work personally. Ask directly about the dealer's business history, whether they are BBB-accredited, and whether they hold any professional numismatic association memberships that carry independent standards.",
     buyingTips:
-      "Louisville has the most active local coin and bullion market in Kentucky. For larger bullion purchases, online dealers shipping to Kentucky provide access to full inventory with competitive spot premiums.",
+      "Louisville and Lexington support the deepest in-person markets, with credible additional options in Northern Kentucky (Covington, Florence) and Bowling Green. Northern Kentucky buyers should also be aware of the Cincinnati metro's dealer market across the river, where different tax and licensing frameworks apply. For online purchases shipping to Kentucky, the confirmed bullion and currency exemption means the delivered cost is competitive with in-state pricing on standard products. If you are considering a significant estate liquidation, comparing two or three quotes is worth the time — the absence of a comprehensive state coin dealer regime means dealer pricing discipline varies more in Kentucky than in some neighboring states, and the spread between offers can be meaningful.",
+    whatToVerify:
+      "Because Kentucky lacks a dedicated state coin and bullion dealer licensing chapter, verification is more of a bottom-up exercise than in states with a Chapter 4728-style regime. Verify business registration with the Kentucky Secretary of State, check the local BBB profile, and ask directly about municipal licensing at the address where you are standing. For dealers who also handle scrap jewelry or nonferrous metals, ask whether they are registered as a secondary metals recycler under KRS 433.902 — that registration comes with its own recordkeeping and reporting obligations and is a compliance signal. For numismatic purchases, confirm any grading certifications come from PCGS or NGC. For bullion, get written pricing stated relative to current spot. And when documenting a Kentucky bullion or currency purchase, retain the invoice: it is your proof of exempt treatment under HB 8, and it is what you would present to the retailer if you needed to claim a refund under the transitional refund pathway.",
+    displayOrder: [
+      "salesTax",
+      "intro",
+      "commonScams",
+      "whatToVerify",
+      "buyingTips",
+    ],
+    sources: [
+      {
+        label: "Kentucky Sales Tax Facts (June 2025) — Currency and bullion exemption guidance",
+        url: "https://revenue.ky.gov/News/Publications/Sales%20Tax%20Newsletters/Sales%20Tax%20Facts%202025%20-%20Jun.pdf",
+      },
+      {
+        label: "KRS 433.890 — Duties of purchasers of metal and objects containing metal",
+        url: "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=52802",
+      },
+    ],
   },
   louisiana: {
     intro:
-      "Louisiana has a distinctive precious metals culture shaped by New Orleans' history as a major port city and financial center in the 19th century. Antique gold jewelry, French colonial coins, and Civil War-era silver are common in Louisiana estate sales. New Orleans hosts a small but active network of coin dealers and estate jewelers, and the state exempts investment-grade precious metals from sales tax under Louisiana Revised Statutes.",
+      "Louisiana's precious metals market concentrates in New Orleans, Baton Rouge, Shreveport, and Lafayette. New Orleans in particular supports a distinctive trade shaped by the city's age and its antiques district — estate silver, French and Spanish colonial pieces, and inherited jewelry circulate in volume that a market this size would not otherwise produce. Louisiana's civil law tradition and multigenerational family property holdings mean estate transactions here often involve items that have not been appraised in decades, which raises both the opportunity and the risk on any single sale.",
     buyingTips:
-      "New Orleans' French Quarter and Magazine Street antique districts are worth exploring for estate gold and silver. For standard bullion products, national online dealers shipping to Louisiana offer consistent pricing and full selection.",
+      "New Orleans and Baton Rouge support the deepest in-person markets, with established dealers in Shreveport and Lafayette. The New Orleans antiques trade is a genuine advantage when selling older silver or period jewelry, where a piece may be worth considerably more intact than melted — get an antiques opinion before accepting any melt-based offer on marked or period work. For standard investment bullion, online dealers shipping to Louisiana are competitive on premium, and a delivered quote is a useful benchmark against local pricing.",
+    salesTax:
+      "Louisiana's treatment of precious metals has changed more than once in recent years, and the state's combination of state and local sales taxes makes the total rate on any taxable item highly parish-dependent. Qualifying numismatic coins and bullion have been exempted from state sales tax, but both the criteria and the local treatment matter. Confirm the current state and parish treatment of a specific purchase with the dealer before transacting rather than relying on older guidance.",
+    commonScams:
+      "Louisiana imposes strict liability on one specific transaction, and knowing it explains a great deal about how a legitimate shop behaves. No secondhand dealer may purchase gold, silver, or other precious metals, jewelry, or precious stones from anyone under eighteen, and lack of knowledge of the seller's age is expressly not a defense. That is why a Louisiana dealer cards everyone: the risk sits with them regardless of what they were told. The rule does not extend to manufactured registered bullion bars, coins, or numismatic items, which is why a bullion counter may handle the same customer differently than the jewelry counter does. Louisiana's licensing Part also limits where a secondhand dealer may be located and requires any location change to be noted on the license, so an operation working out of a temporary space is outside the structure entirely. Record retention is mandatory with law enforcement inspection rights and penalties attached, which means a dealer who does not want to write anything down is avoiding a legal obligation, not saving you paperwork.",
+    whatToVerify:
+      "Louisiana defines a secondhand dealer under R.S. 37:1861 to include anyone buying, selling, or trading used or secondhand jewelry, silverware, diamonds, and precious metals, and the definition reaches coinage directly. An object, including currency or coinage regardless of the issuing government, falls inside the definition if at least twenty-five percent of its weight is precious metal, or if its market value lies primarily in the precious metal component. At the same time, the licensing Part does not apply to dealers in coins and currency, dealers in antiques, or gun, knife, and other trade and hobby shows, subject to a statutory cross-reference that keeps that exemption from being absolute. The upshot for a seller is that a shop handling both estate jewelry and coins may straddle the line, so ask directly whether they are licensed and bonded as a secondhand dealer under the Part and which category your items fall into.",
+    displayOrder: [
+      "intro",
+      "whatToVerify",
+      "salesTax",
+      "buyingTips",
+      "commonScams",
+    ],
   },
   maine: {
     intro:
@@ -196,15 +278,61 @@ export const stateContent: Record<string, StateContent> = {
   },
   ohio: {
     intro:
-      "Ohio has one of the largest and most active precious metals markets in the Midwest, anchored by major cities including Columbus, Cleveland, and Cincinnati. The state is home to several national coin show events and a dense network of coin shops, bullion dealers, and estate jewelers. Ohio exempts investment-grade gold, silver, platinum, and palladium bullion from sales tax — a significant benefit for buyers. The American Numismatic Association's World's Fair of Money has been held in Cincinnati.",
+      "Ohio supports one of the deepest precious metals markets in the Midwest. Cleveland, Columbus, Cincinnati, Dayton, and Toledo all sustain established dealers, and the state hosts an active coin show circuit that draws collectors from across the region. Ohio's manufacturing history left behind a substantial base of industrial and scrap precious metals activity alongside the retail trade, and its large population of long-settled families generates steady estate flow. The practical effect for a buyer is real competition — Ohio is one of the states where comparing two or three local quotes is genuinely worth the afternoon, and where a lowball offer is easier to identify because an alternative is usually a short drive away.",
     buyingTips:
-      "Columbus, Cleveland, and Cincinnati all have strong local dealer communities. Ohio's sales tax exemption on qualifying bullion makes local and online purchases equally tax-advantaged. For collectors, Ohio's coin show calendar is one of the most active in the country.",
+      "The major metros each support multiple competing dealers, which is unusual enough to be worth using deliberately. Get quotes from more than one shop before committing on a significant purchase, and treat Ohio's coin show circuit as a price-discovery tool even if you ultimately buy from a storefront. Online dealers shipping to Ohio remain competitive on standard bullion products, so a delivered online quote makes a useful third reference point against local premiums.",
+    salesTax:
+      "Ohio exempts qualifying investment metal bullion and investment coins from state sales tax, with the exemption turning on whether an item qualifies as investment metal rather than on its form or the size of the transaction. Jewelry, processed items, and accessories generally remain taxable, and county permissive taxes affect the rate on anything taxable. Confirm with the dealer whether a specific item qualifies before transacting.",
+    commonScams:
+      "Ohio's statute names the behaviors the state considers the risk, which makes them easy to check for. Licensed dealers must report items received to the local police department daily under section 4728.07 — not weekly, not on request — so a legitimate Ohio scrap or jewelry buyer is documenting transactions to law enforcement within a day. Section 4728.08 separately bars purchasing from an intoxicated person, and section 4728.09 imposes a retention period on property that may be stolen. The operators to watch are the ones outside that system: Ohio requires a separate temporary exhibition permit under section 4728.04 for buying at shows and events, so a buyer working an Ohio hotel event or show floor should hold one. Administrative rules make licenses nontransferable and bar a licensee from transacting or soliciting under any name or at any address other than what appears on the license, so a dealer operating under a different name than the paperwork is a documented violation rather than a technicality.",
+    whatToVerify:
+      "Ohio licenses precious metals dealers through the Division of Financial Institutions in the Department of Commerce under Revised Code Chapter 4728 — a financial regulator, not a business-registration office. An applicant must show experience and a net worth of at least ten thousand dollars, or post a ten thousand dollar surety bond instead, which the public or the Division can claim against if a dealer knowingly buys stolen property. That bond is a real remedy, so ask which basis the dealer qualified on. License fees are capped at three hundred dollars and licenses expire the last day of June. Crucially, Chapter 4728 does not reach everything: section 4728.11 exempts coins, hallmark bars, registered ingots, and other collectible currency, so an Ohio bullion counter may be lawfully unlicensed while a scrap gold buyer must be licensed. Ask which side of that line your transaction falls on. In Liberty Coins, LLC v. Goodman, a jeweler and a coin dealer successfully challenged the chapter's warrantless search provision, though the Sixth Circuit upheld the recordkeeping and daily reporting requirements.",
+    displayOrder: [
+      "intro",
+      "whatToVerify",
+      "commonScams",
+      "salesTax",
+      "buyingTips",
+    ],
+    sources: [
+      {
+        label: "Ohio Revised Code Chapter 4728 — Precious Metals Dealers",
+        url: "https://codes.ohio.gov/ohio-revised-code/chapter-4728",
+      },
+      {
+        label: "ORC 4728.01 — Precious metals dealer definitions",
+        url: "https://codes.ohio.gov/ohio-revised-code/section-4728.01",
+      },
+    ],
   },
   oregon: {
     intro:
-      "Oregon exempts gold and silver bullion from state sales tax, and the state has a strong community of physical precious metals buyers in Portland, Eugene, and Bend. Portland's coin and bullion market is well-developed, with dealers serving both numismatic collectors and investment-oriented buyers. Oregon's proximity to major California refiners and dealers also means competitive sourcing options. The state's self-reliant outdoor culture includes meaningful precious metals interest as an alternative store of value.",
+      "Oregon's precious metals market centers on Portland, with meaningful dealer activity in Salem, Eugene, Medford, and Bend. Portland supports the deepest in-person market in the Pacific Northwest outside Seattle, with an established coin and bullion trade that predates the modern online market and a numismatic community with real depth in early US gold and Pacific Northwest regional material. Oregon's investor culture skews toward physical metals held for the long term rather than short-term trading, and the state's regulatory posture toward coin and bullion transactions is notably different from most states in a way that changes how Oregon buyers should think about verification.",
+    salesTax:
+      "Oregon imposes no state sales tax of any kind — it is one of five US states with no general retail sales tax — which means precious metals purchases in Oregon carry no sales tax component regardless of product type, transaction size, or dealer. The dealer's quoted price is the buyer's total cost. That treatment applies uniformly to bullion, numismatic coins, jewelry, and every other category, unlike states where the applicable rate turns on whether an item qualifies as investment bullion. The absence of a sales tax makes Oregon an unusually clean market for total-cost comparison against online dealers shipping in, and it removes one of the recurring practical complications — the question of whether a specific product qualifies for a bullion exemption — that Oregon buyers in most other states have to work through.",
+    commonScams:
+      "Oregon's precious metal secondhand dealer statute at ORS 646A.064 to 646A.067 contains a definitional carve-out that Oregon buyers and sellers should understand, because it changes what state-level regulation actually applies to a coin or bullion transaction. ORS 646A.064 defines 'item of precious metal' to include gold in eight karat or greater purity, silver, platinum, and palladium — but it expressly excludes 'gold or silver coins or bullion in any form.' The practical effect is that Oregon's state-level precious metals secondhand dealer regime does not reach a coin or bullion sale at all. A coin and bullion dealer in Oregon is not required to comply with ORS 646A.065's recordkeeping and retention requirements for coin or bullion transactions, which means the state-law compliance signals that exist in South Carolina, Ohio, or Virginia are simply not present here. That is neither a scandal nor a gap — it is a deliberate legislative choice — but it means Oregon buyers cannot rely on state regulation to sort legitimate operators from opportunistic ones. Municipal ordinances fill some of the gap; ORS 646A.066 explicitly preserves local ordinances with substantially equivalent or more stringent requirements, and Portland, Gresham, and other Oregon cities have their own secondhand dealer regimes with permitting and background check requirements that do reach coin operators in some circumstances.",
     buyingTips:
-      "Portland has the most active precious metals market in Oregon, with multiple established coin shops and bullion dealers. Eugene and Bend have smaller but active markets. Online dealers shipping to Oregon offer competitive bullion pricing with no state sales tax on qualifying products.",
+      "Portland supports the strongest in-person market in Oregon, with established dealers in Salem, Eugene, Medford, and Bend. The absence of state sales tax makes head-to-head comparison against online delivered pricing straightforward, and online dealers shipping to Oregon are usually competitive on standard investment bullion. For estate liquidations or larger transactions, comparing two or three quotes remains worthwhile — the state's regulatory light touch on coin and bullion means dealer pricing discipline is more variable than in more heavily regulated markets. If you are near the Washington border, be aware that Washington's precious metals sales tax treatment differs from Oregon's and can affect cross-border purchase decisions.",
+    whatToVerify:
+      "Because Oregon's state precious metals secondhand dealer statute expressly excludes coin and bullion transactions, verification of a Portland or Salem coin dealer has to rely more heavily on municipal licensing, business registration, and independent reputation checks than in states with a comprehensive state dealer regime. Verify business registration with the Oregon Secretary of State, check the local BBB profile, and — importantly — ask which municipal ordinances apply at the dealer's specific address. Portland, Gresham, and other Oregon cities have their own secondhand dealer permitting regimes, and the compliance conversation happens at the municipal level. Ask whether the dealer holds the applicable municipal permit and whether background checks have been completed on the personnel handling transactions. For numismatic purchases, confirm grading certifications come from PCGS or NGC. For bullion, get written pricing stated relative to current spot. And for any purchase, retain the invoice: without a state sales tax to document, the invoice serves primarily as the record of what you paid and the basis for calculating gain or loss when you eventually sell.",
+    displayOrder: [
+      "salesTax",
+      "intro",
+      "whatToVerify",
+      "buyingTips",
+      "commonScams",
+    ],
+    sources: [
+      {
+        label: "ORS 646A.064 — Definitions for precious metal secondhand dealer statute",
+        url: "https://oregon.public.law/statutes/ors_646a.064",
+      },
+      {
+        label: "ORS 646A.065 — Records required for precious metal transactions",
+        url: "https://oregon.public.law/statutes/ors_646a.065",
+      },
+    ],
   },
   "rhode-island": {
     intro:
@@ -237,9 +365,32 @@ export const stateContent: Record<string, StateContent> = {
   },
   "south-carolina": {
     intro:
-      "South Carolina's precious metals market is distributed across Columbia, Charleston, and Greenville, with Charleston's historic wealth contributing to a particularly active estate gold and antique silver market. The state exempts investment-grade bullion from sales tax, which benefits buyers statewide. South Carolina's coastal estate sale circuit frequently surfaces pre-1933 gold coins, silver flatware sets, and antique jewelry from families with roots in the state's planter and merchant class.",
+      "South Carolina's precious metals market runs along the Charleston–Columbia–Greenville corridor, with additional activity in Myrtle Beach and the coastal resort communities. The state's substantial retiree population and long-settled Lowcountry families generate a steady supply of estate silver, inherited jewelry, and coin collections, and the tourist economy along the coast brings seasonal buying activity that inland markets do not see. Charleston in particular supports a specialized trade in antique silver that reflects the city's age, which means older pieces there are more likely to be valued as objects rather than as metal.",
     buyingTips:
-      "Charleston and Columbia have the most established precious metals markets in South Carolina. Greenville's growing economy has increased dealer activity in the upstate region. Online dealers shipping to South Carolina offer full bullion selection with no sales tax on qualifying investment-grade items.",
+      "Charleston, Columbia, and Greenville each support established dealers, and the geographic spread means most South Carolina buyers have a real in-person option within an hour. For investment bullion, online dealers shipping to South Carolina compete well on premium, and a delivered quote is a useful check on any local offer. If you are selling estate silver or antique pieces, the Charleston market's familiarity with older American and English silver can matter more than the metal price alone — get a second opinion before selling anything with maker's marks at melt value, because hallmarked work frequently carries a premium that a scrap buyer will not volunteer.",
+    salesTax:
+      "South Carolina exempts qualifying gold, silver, and platinum bullion and certain coins from state sales tax, with the exemption defined by metal content and product type rather than by transaction value. Jewelry, decorative items, and accessories generally remain taxable, and local option taxes affect the rate on taxable items. Confirm with the dealer whether a specific purchase qualifies before transacting.",
+    commonScams:
+      "South Carolina has the most direct statutory answer to the traveling-buyer problem of any state in the country. A permitted dealer may not operate on public property, or from a vehicle, flea market, hotel room, residential dwelling, similar temporary location, or space subleased for a term shorter than one year. The hotel-ballroom gold-buying event that appears in most states as a practical warning is, in South Carolina, simply outside the permit scheme. If someone is buying gold out of a conference room, a booth, or a van in this state, that alone tells you what you need to know before handing over an estate collection — you do not need to evaluate their offer, because the setting has already answered the question. The permit structure has consequences on the back end as well: a conviction for a second offense disqualifies a dealer from holding a permit at all. Sellers approached at or shortly after coastal antique and collectible events are the most exposed, because the offer arrives without a comparison point and disappears when the event does.",
+    whatToVerify:
+      "South Carolina regulates dealers in precious metals under Title 40, Chapter 54 of the state code. Permits are prescribed by the State Law Enforcement Division and filed with local law enforcement in the jurisdiction where the dealer operates, so verification is a two-part question: does the dealer hold a SLED-prescribed permit, and is it on file locally where you are standing. Because the statute ties permitted operation to a fixed, non-temporary location with a lease of at least a year, the dealer's physical premises are themselves part of the compliance picture — a permanent storefront is a statutory requirement rather than a convenience. Ask how long they have held the location and whether the permit names that address. For numismatic purchases, confirm grading comes from PCGS or NGC; for bullion, get written pricing stated relative to current spot.",
+    displayOrder: [
+      "commonScams",
+      "intro",
+      "whatToVerify",
+      "buyingTips",
+      "salesTax",
+    ],
+    sources: [
+      {
+        label: "S.C. Code Title 40, Chapter 54 — Dealers in Precious Metals",
+        url: "https://www.scstatehouse.gov/code/t40c054.php",
+      },
+      {
+        label: "South Carolina Law Enforcement Division",
+        url: "https://www.sled.sc.gov/",
+      },
+    ],
   },
   "south-dakota": {
     intro:
@@ -262,9 +413,22 @@ export const stateContent: Record<string, StateContent> = {
   },
   tennessee: {
     intro:
-      "Tennessee's precious metals market is strong in Nashville, Memphis, and Knoxville, with a well-developed network of coin shops, bullion dealers, and estate jewelers. The state exempts most investment-grade precious metals from sales tax, which is a meaningful benefit for buyers. Nashville's growing wealth concentration has increased demand for gold and silver investment products, and the city has attracted several new coin and bullion dealers in recent years.",
+      "Tennessee's precious metals market centers on Nashville, Memphis, Knoxville, and Chattanooga, with Nashville's growth over the past decade adding meaningful depth to the state's dealer base. Tennessee's position at the intersection of several regional markets and its lack of a state income tax have drawn both residents and capital, and the state supports an active trade in estate silver and inherited collections from long-settled families across the Cumberland Plateau and West Tennessee. The four-metro structure means competition exists, but it is regional rather than statewide.",
     buyingTips:
-      "Nashville has the most active and competitive precious metals market in Tennessee. Memphis serves the western part of the state, and Knoxville covers East Tennessee well. Tennessee's sales tax exemption on qualifying bullion applies to both local and online purchases shipped to Tennessee addresses.",
+      "Nashville and Memphis support the deepest in-person markets, with credible dealers in Knoxville and Chattanooga. The metro spread means most Tennessee buyers have a real local option, and comparing two quotes is practical in a way it is not in thinner states. Online dealers shipping to Tennessee are competitive on standard bullion products. If you are selling a mixed estate lot of coins and scrap jewelry, be aware that the two categories are treated differently under state law and are frequently better sold separately, to different buyers.",
+    salesTax:
+      "Tennessee exempts qualifying gold, silver, platinum, and palladium bullion and coins from state sales tax, with the exemption turning on the item qualifying as bullion or coin rather than on transaction size. Jewelry, processed items, and accessories generally remain taxable, and Tennessee's local option sales taxes affect the rate on taxable items. Confirm with the dealer whether a specific purchase qualifies before transacting.",
+    commonScams:
+      "Tennessee draws a line that directly affects how you should sell a mixed collection. The registration requirement applies to dealers purchasing antique, used, or scrap jewelry and precious metals for resale, but it expressly does not apply to anyone dealing solely in coins, or to transactions between dealers where the selling dealer has already complied. So a pure coin dealer sits outside the registration scheme entirely, while the moment a shop starts buying scrap gold jewelry it must register. The practical risk is a shop that takes your coins and your jewelry as one undifferentiated lot at a scrap price, capturing collector value on the coins that was never priced into the offer. Ask for the two categories to be quoted separately, in writing. Tennessee Attorney General opinions have also confirmed that a dealer registered as a scrap metal dealer with the Department of Commerce and Insurance under a different chapter is not thereby covered for scrap jewelry and precious metals, so a dealer waving the wrong registration is not registered for what they are doing.",
+    whatToVerify:
+      "Tennessee requires dealers in antique, used, or scrap jewelry and precious metals to register with both the chief of police and the sheriff of each city and county where the business is carried on. That dual, per-jurisdiction registration is the specific thing to ask about — there is no statewide license for this trade, so a dealer claiming to be state-licensed is describing something that does not exist. Pawnbrokers are licensed separately by the county clerk under the Pawnbrokers Act, and Attorney General opinions have confirmed that a pawnbroker handling scrap jewelry and precious metals must still comply with the longer holding period in the dealers statute, because the specific provision controls over the general one. Section 38-1-202 separately bars taking an item under a buy-sell agreement when it is known to be stolen. For numismatic purchases, confirm grading comes from PCGS or NGC; for bullion, get written pricing relative to spot.",
+    displayOrder: [
+      "intro",
+      "salesTax",
+      "commonScams",
+      "whatToVerify",
+      "buyingTips",
+    ],
   },
   utah: {
     intro:
@@ -303,9 +467,28 @@ export const stateContent: Record<string, StateContent> = {
   },
   virginia: {
     intro:
-      "Virginia's precious metals market is one of the largest on the East Coast, anchored by Northern Virginia's proximity to Washington, D.C. and the wealth concentrated in the D.C. metro region. Richmond and Virginia Beach also have active coin and bullion markets. Virginia exempts investment-grade precious metals from sales tax, and the state's high concentration of federal employees, defense contractors, and financial professionals creates sustained demand for gold and silver as portfolio diversifiers.",
+      "Virginia's precious metals market spans several distinct regions: the Northern Virginia suburbs of Washington, the Richmond metro, Hampton Roads, and the Shenandoah Valley. Northern Virginia's affluence and federal workforce support a substantial investment-oriented buyer base, while the state's older communities and military heritage generate steady estate flow. Virginia also has an unusually engaged market in pre-1933 United States gold, reflecting a collector culture that predates the modern bullion trade and that still supports numismatic premiums well above metal content on the right material.",
     buyingTips:
-      "Northern Virginia (Tysons Corner, Arlington, Falls Church) has the most competitive bullion dealer market in the state. Richmond and Virginia Beach are well-served for collector and investment demand. Virginia's sales tax exemption on qualifying bullion applies statewide.",
+      "Northern Virginia, Richmond, and Hampton Roads each support competing dealers, and Northern Virginia buyers also reach the Washington and Maryland markets easily. That regional density is worth using — compare at least two local quotes on a significant purchase. Online dealers shipping to Virginia are competitive on standard bullion. If you hold pre-1933 US gold or graded collector coins, the Virginia market's depth in that category means a numismatic offer may substantially exceed melt, so do not sell to a metal-content buyer without getting a collector opinion first.",
+    salesTax:
+      "Virginia exempts qualifying gold, silver, and platinum bullion from state sales tax, with the exemption defined by metal content and product form. Jewelry, processed items, and accessories generally remain taxable, and local taxes affect the rate on taxable items. Exemption criteria in Virginia have been revised more than once in recent years, so confirm the current treatment of a specific purchase with the dealer before transacting rather than relying on older guidance.",
+    commonScams:
+      "Virginia law puts the documentation burden on the transaction itself, which changes what a legitimate sale looks like here. Dealers must obtain seller credentials and a statement of ownership, so a Virginia buyer who does not ask for identification and an ownership representation is not following the statute — and a seller who is not asked should treat that as a warning rather than a convenience. Some Virginia localities go further. Loudoun County requires pawnbrokers, precious metals and gem dealers, secondhand dealers, and scrap metal dealers to deliver a report to the Sheriff's Office every day except Sunday, within twenty-four hours of the transaction, including the seller's full name, address, date of birth, and a copy of government identification. Loudoun also requires precious metals and gem dealers to record the true weight or carat of items purchased. That last requirement is the useful one for a seller: a Loudoun dealer is obligated to document what they are actually paying you for, by weight or carat, not by a vague description. The operators to avoid are the ones who skip the paperwork and pay cash without a record.",
+    whatToVerify:
+      "Virginia regulates dealers in precious metals under Code of Virginia section 54.1-4100 and following, and the chapter authorizes examination of dealer records and property by law enforcement — oversight that only functions if the dealer is actually inside the system. Permits are administered locally, so the practical questions are which locality issued the permit, whether it is current, and whether it names the address where you are standing. In counties with additional reporting obligations, ask whether the dealer files the required daily report, since that single question separates a compliant operation from one working around the rules. Confirm that any weight-based offer is documented with true weight or carat. For numismatic purchases, confirm grading comes from PCGS or NGC; for bullion, get written pricing relative to current spot.",
+    displayOrder: [
+      "intro",
+      "buyingTips",
+      "commonScams",
+      "whatToVerify",
+      "salesTax",
+    ],
+    sources: [
+      {
+        label: "Code of Virginia § 54.1-4100 et seq. — Dealers in Precious Metals",
+        url: "https://law.lis.virginia.gov/vacode/title54.1/chapter41/",
+      },
+    ],
   },
   "west-virginia": {
     intro:
@@ -315,9 +498,32 @@ export const stateContent: Record<string, StateContent> = {
   },
   wisconsin: {
     intro:
-      "Wisconsin has an active coin collecting community anchored in Milwaukee and Madison, with coin shows held regularly throughout the state. The Wisconsin State Numismatic Society is one of the older numismatic clubs in the Midwest. Wisconsin charges sales tax on precious metals, which affects local transaction costs. Milwaukee's German and Scandinavian heritage communities historically valued tangible savings, and old-family estate collections in Wisconsin frequently include Morgan silver dollars and early U.S. gold coins.",
+      "Wisconsin's precious metals market anchors in Milwaukee and Madison, with meaningful dealer activity in Green Bay, Appleton, Eau Claire, and the Kenosha-Racine corridor near the Illinois line. Milwaukee's industrial and brewing heritage produced generations of household wealth that regularly surfaces as estate gold and silver, while Madison's professional and academic communities support a distinct dealer market with above-average interest in numismatic material. Wisconsin's recent legislative shift on bullion taxation has meaningfully changed the total cost picture for in-state purchases, and the state's approach to dealer regulation happens almost entirely at the municipal level — both of which affect how Wisconsin buyers should approach a transaction.",
+    salesTax:
+      "Wisconsin enacted a comprehensive sales and use tax exemption for precious metal bullion under 2023 Wis. Act 149, effective March 23, 2024, codified at Wis. Stat. § 77.54(71). The statute defines precious metal bullion as coins, bars, rounds, or sheets containing at least 35% gold, silver, copper, platinum, or palladium that are marked with weight, purity, and content or that a government authority has minted on the basis of weight, purity, and content. Notably, that 35% threshold and the inclusion of copper make Wisconsin's definition broader than most states' bullion exemptions. Jewelry, works of art, scrap metal, electronics, and other tangible personal property that contains precious metal bullion but is processed into something else remain taxable. Under 2025 Wis. Act 124, effective March 27, 2026, purchasers no longer need to present a Wisconsin sales and use tax exemption certificate to claim the bullion exemption — a meaningful administrative simplification. The state base rate is 5%, with counties adding up to 0.5% and Milwaukee imposing an additional 2% city rate; qualifying bullion is exempt from all of these.",
     buyingTips:
-      "Milwaukee has the most active coin and bullion market in Wisconsin, with multiple dealers competing for collector and investor business. Madison serves the south-central market. For investment bullion, online dealers shipping to Wisconsin offer competitive pricing, with the sales tax situation varying by dealer.",
+      "Milwaukee and Madison support the deepest in-person markets in Wisconsin, with Green Bay, Appleton, and Eau Claire offering credible additional options. Since the Act 149 bullion exemption took effect, in-state pricing on qualifying products has become directly comparable to online delivered pricing without needing to factor in state or local tax. For estate liquidations — common in Wisconsin given the state's demographics and long-settled family holdings — get at least two quotes before selling, and separate coin and jewelry lots since they are frequently priced under different competitive dynamics. Wisconsin's coin show circuit is active in Milwaukee and Madison and serves as a useful price-discovery venue.",
+    whatToVerify:
+      "Wisconsin regulates pawnbrokers, secondhand article dealers, and secondhand jewelry dealers at the municipal level under Wis. Stat. § 134.71 — there is no comprehensive state license for precious metals dealers. A person operating as a pawnbroker, secondhand article dealer, or secondhand jewelry dealer applies for a license to the clerk of the municipality where the principal place of business is located. Section 134.71(6) requires the local law enforcement agency to investigate each applicant for felony convictions within the preceding ten years and for certain misdemeanor and ordinance violations. Each license runs from January 1 through December 31 of the year issued and is not transferable. The practical verification question in Wisconsin is therefore two-part: is the operator holding the applicable municipal license, and is the license current for the current calendar year. Ask the dealer directly which municipal license they hold and, for a significant transaction, verify with the municipal clerk. Section 134.71(8) also imposes holding periods: purchased items must be held for not less than thirty days by a pawnbroker, ten days by a secondhand article dealer, and fifteen days by a secondhand jewelry dealer, which is why a legitimate Wisconsin operator will not immediately melt or resize a piece you have just sold. For numismatic purchases, confirm grading comes from PCGS or NGC; for bullion, get written pricing relative to current spot.",
+    commonScams:
+      "Wisconsin's municipal licensing structure and Chapter 134.71's holding periods together give a Wisconsin seller several concrete things to check for that separate compliant operators from opportunistic ones. Section 134.71(8)(b) expressly prohibits pawnbrokers, secondhand article dealers, and secondhand jewelry dealers from engaging in the purchase, receipt, or exchange of any secondhand article or secondhand jewelry from a minor, subject to narrow exceptions. Section 134.71(5)(c) tracks felony and specified misdemeanor history in licensing applications, so a licensed Wisconsin dealer has been through law enforcement review. The scam patterns to watch for are the ones that exist outside this structure: temporary buyers operating from hotel conference rooms or itinerant events who are not holding a municipal secondhand jewelry dealer license for that location; operators who take an estate lot at melt without asking for identification, offering a written quote, or documenting the transaction; and mail-in gold-buying operations that mail a check well below any reasonable market value and rely on the seller not knowing what the material was actually worth. The Wisconsin Department of Agriculture, Trade and Consumer Protection maintains resources for buyers and sellers who suspect they have been targeted by any of these.",
+    displayOrder: [
+      "intro",
+      "salesTax",
+      "whatToVerify",
+      "buyingTips",
+      "commonScams",
+    ],
+    sources: [
+      {
+        label: "Wis. Stat. § 134.71(5) — Pawnbroker and secondhand dealer license applications",
+        url: "https://docs.legis.wisconsin.gov/document/statutes/134.71(5)",
+      },
+      {
+        label: "Wis. Stat. § 134.71(8) — Holding periods and minor-purchase prohibition",
+        url: "https://docs.legis.wisconsin.gov/document/statutes/134.71(8)",
+      },
+    ],
   },
 };
 
