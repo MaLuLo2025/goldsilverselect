@@ -131,6 +131,15 @@ export default function HeroSearch() {
 
   return (
     <div>
+      {/* Disclaimer */}
+      <p
+        className="italic text-sm text-center mb-3"
+        style={{ color: "#777" }}
+      >
+        Precious metals transactions can be complex. Always do your own
+        research before selecting a dealer.
+      </p>
+
       {/* Dropdowns */}
       <div className="flex gap-3 justify-center flex-wrap mb-4">
         <select
@@ -201,11 +210,8 @@ export default function HeroSearch() {
       {!stateHasNoCities && <div className="mb-4" />}
 
       {/* Category cards */}
-      <div className="grid grid-cols-3 gap-4 max-w-[820px] mx-auto">
-        {categories.slice(0, 3).map((cat) => renderCategoryCard(cat))}
-      </div>
-      <div className="grid grid-cols-2 gap-4 mt-4 max-w-[540px] mx-auto">
-        {categories.slice(3).map((cat) => renderCategoryCard(cat))}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-[820px] mx-auto">
+        {categories.map((cat) => renderCategoryCard(cat))}
       </div>
     </div>
   );

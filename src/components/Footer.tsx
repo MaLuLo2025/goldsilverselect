@@ -51,8 +51,8 @@ export default function Footer() {
             style={{ color: "#777" }}
           >
             An independent directory of precious metals dealers, IRA custodians,
-            recyclers, and jewelers. We don&apos;t sell metals. We help you find
-            honest dealers who do.
+            recyclers, and jewelers. We don&apos;t sell metals. We help you
+            compare the dealers who do.
           </p>
         </div>
 

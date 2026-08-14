@@ -38,9 +38,9 @@ export default function Home() {
           <h1 className="font-serif text-[44px] font-bold text-gray-900 leading-[1.15] mb-4">
             Know the market.
             <br />
-            Find trusted dealers.
+            Compare dealers.
             <br />
-            <span className="text-gold">Own with confidence.</span>
+            <span className="text-gold">Buy with confidence.</span>
           </h1>
           <p
             className="font-sans text-[17px] leading-relaxed max-w-[560px] mx-auto mb-9"
@@ -48,8 +48,11 @@ export default function Home() {
           >
             Whether you&apos;re buying your first gold or silver coin or your
             thousandth, trading bullion, starting an IRA, or selling inherited
-            jewelry or &ldquo;junk&rdquo; — you deserve transparent pricing,
-            honest dealers, and zero pressure. We help you find them.
+            jewelry or scrap — you deserve transparent pricing, no pressure,
+            and a clear picture of what you&apos;re paying. Dealers marked
+            Featured meet a minimum BBB rating and a 4.5+ Google rating.
+            Other listings are verified for legitimacy but may not carry a
+            public rating.
           </p>
           <Suspense fallback={null}>
             <HeroSearch />

@@ -14,7 +14,7 @@ export const categories: Category[] = [
     slug: "online-dealers",
     vertical: "online-coin-bullion",
     description:
-      "Reputable web-based dealers with transparent pricing, buyback programs, and secure shipping.",
+      "Web-based dealers offering transparent pricing, published buyback programs, and insured shipping.",
     icon: "globe",
   },
   {
