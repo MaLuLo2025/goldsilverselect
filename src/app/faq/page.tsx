@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import TickerBanner from "@/components/TickerBanner";
 import Header from "@/components/Header";
+import CrossPromoBanner from "@/components/CrossPromoBanner";
 import Footer from "@/components/Footer";
 import FAQContent from "@/components/FAQContent";
 import { faqCategories } from "@/lib/faq";
@@ -36,6 +37,7 @@ export default function FAQPage() {
       <TickerBanner />
       <Header />
 
+      <CrossPromoBanner />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}

@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 import TickerBanner from "@/components/TickerBanner";
 import Header from "@/components/Header";
+import CrossPromoBanner from "@/components/CrossPromoBanner";
 import Footer from "@/components/Footer";
 import { getDealersByVertical } from "@/lib/dealers";
 import { states } from "@/lib/states";
@@ -37,6 +38,7 @@ export default function RecyclingPage() {
       <TickerBanner />
       <Header />
 
+      <CrossPromoBanner />
       <section
         className="text-center"
         style={{

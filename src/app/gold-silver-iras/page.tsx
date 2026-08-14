@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 import TickerBanner from "@/components/TickerBanner";
 import Header from "@/components/Header";
+import CrossPromoBanner from "@/components/CrossPromoBanner";
 import Footer from "@/components/Footer";
 import { getIRAProviders } from "@/lib/dealers";
 import DealerList from "@/components/DealerList";
@@ -23,6 +24,7 @@ export default function IRAPage() {
       <TickerBanner />
       <Header />
 
+      <CrossPromoBanner />
       <section
         className="text-center"
         style={{

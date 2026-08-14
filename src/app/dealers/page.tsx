@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 import TickerBanner from "@/components/TickerBanner";
 import Header from "@/components/Header";
+import CrossPromoBanner from "@/components/CrossPromoBanner";
 import Footer from "@/components/Footer";
 import { states } from "@/lib/states";
 
@@ -26,6 +27,7 @@ export default function DealersPage() {
       <TickerBanner />
       <Header />
 
+      <CrossPromoBanner />
       {/* Hero */}
       <section
         className="text-center"

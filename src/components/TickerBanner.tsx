@@ -3,6 +3,11 @@
 import { useState, useEffect } from "react";
 import { markets } from "@/lib/markets";
 import { Metal } from "@/lib/types";
+import {
+  isMarketOpen,
+  getNextMarketOpen,
+  formatNextOpen,
+} from "@/lib/marketHours";
 
 interface TickerPrice {
   metal: Metal;
@@ -11,25 +16,47 @@ interface TickerPrice {
   pct?: number;
 }
 
+type FetchStatus = "loading" | "ok" | "error";
+
+function StatusDot({ color }: { color: string }) {
+  return (
+    <span
+      className="inline-block rounded-full flex-shrink-0"
+      style={{ width: 6, height: 6, background: color, marginRight: 8 }}
+    />
+  );
+}
+
 export default function TickerBanner() {
   const [showMarkets, setShowMarkets] = useState(false);
   const [prices, setPrices] = useState<TickerPrice[]>([]);
   const [ratio, setRatio] = useState<string | null>(null);
-  const [unavailable, setUnavailable] = useState(true);
+  const [fetchStatus, setFetchStatus] = useState<FetchStatus>("loading");
+  const [now] = useState(() => new Date());
 
   const activeMarket = markets.find((m) => m.status === "open");
+
+  const marketOpen = isMarketOpen(now);
+  const nextOpenLabel = marketOpen
+    ? null
+    : formatNextOpen(getNextMarketOpen(now), now);
+
+  // STATE 3 (the only genuine problem state) is a live market with no usable
+  // price data. A closed market always renders STATE 2 regardless of fetch
+  // outcome — there's nothing wrong, prices just aren't expected right now.
+  const isHardError = marketOpen && fetchStatus === "error";
 
   useEffect(() => {
     fetch("/api/prices")
       .then((res) => (res.ok ? res.json() : null))
       .then((data) => {
         if (!data || data.error) {
-          setUnavailable(true);
+          setFetchStatus("error");
           return;
         }
 
         if (data._source === "fallback") {
-          setUnavailable(true);
+          setFetchStatus("error");
           return;
         }
 
@@ -48,15 +75,17 @@ export default function TickerBanner() {
         }));
 
         if (newPrices.some((p) => p.price > 0)) {
-          setUnavailable(false);
+          setFetchStatus("ok");
           setPrices(newPrices);
           const g = data.gold?.price;
           const s = data.silver?.price;
           if (g && s) setRatio((g / s).toFixed(1));
+        } else {
+          setFetchStatus("error");
         }
       })
       .catch(() => {
-        setUnavailable(true);
+        setFetchStatus("error");
       });
   }, []);
 
@@ -100,13 +129,24 @@ export default function TickerBanner() {
 
         {/* Scrolling ticker */}
         <div className="overflow-hidden flex-1">
-          {unavailable ? (
+          {!marketOpen ? (
             <div
               className="flex items-center justify-center h-full"
-              style={{ color: "#555", fontSize: 10, letterSpacing: "0.08em" }}
+              style={{ color: "#999", fontSize: 10.5, letterSpacing: "0.04em" }}
             >
-              PRICES TEMPORARILY UNAVAILABLE
+              <StatusDot color="#E8B84A" />
+              Markets closed until {nextOpenLabel} ET
             </div>
+          ) : isHardError ? (
+            <div
+              className="flex items-center justify-center h-full"
+              style={{ color: "#999", fontSize: 10.5, letterSpacing: "0.04em" }}
+            >
+              <StatusDot color="#E28B7A" />
+              Live prices temporarily unavailable — refresh to retry
+            </div>
+          ) : fetchStatus === "loading" ? (
+            <div className="h-full" />
           ) : (
           <div className="ticker-track">
             {[0, 1].map((copy) => (
@@ -178,8 +218,8 @@ export default function TickerBanner() {
           )}
         </div>
 
-        {/* Fixed right: Au:Ag ratio + delay note — hidden when unavailable */}
-        {!unavailable && ratio !== null && (
+        {/* Fixed right: Au:Ag ratio + delay note — hidden only in the hard-error state */}
+        {!isHardError && (
           <div
             className="flex items-center gap-3 flex-shrink-0 z-10"
             style={{
@@ -189,20 +229,22 @@ export default function TickerBanner() {
               height: "100%",
             }}
           >
-            <div className="flex items-center gap-1.5">
-              <span
-                className="font-bold"
-                style={{ color: "#666", fontSize: 9, letterSpacing: "0.06em" }}
-              >
-                Au:Ag
-              </span>
-              <span
-                className="font-serif font-semibold"
-                style={{ color: "#C5A44E", fontSize: 13 }}
-              >
-                {ratio}
-              </span>
-            </div>
+            {ratio !== null && (
+              <div className="flex items-center gap-1.5">
+                <span
+                  className="font-bold"
+                  style={{ color: "#666", fontSize: 9, letterSpacing: "0.06em" }}
+                >
+                  Au:Ag
+                </span>
+                <span
+                  className="font-serif font-semibold"
+                  style={{ color: "#C5A44E", fontSize: 13 }}
+                >
+                  {ratio}
+                </span>
+              </div>
+            )}
             <span style={{ color: "#999", fontSize: 9, letterSpacing: "0.03em" }}>
               Delayed 20 min
             </span>

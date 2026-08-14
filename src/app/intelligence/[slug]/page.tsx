@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import TickerBanner from "@/components/TickerBanner";
 import Header from "@/components/Header";
+import CrossPromoBanner from "@/components/CrossPromoBanner";
 import Footer from "@/components/Footer";
 import { intelligenceItems, getIntelligenceBySlug } from "@/lib/intelligence";
 import { intelligenceSummaries } from "@/lib/intelligence-summaries";
@@ -80,6 +81,7 @@ export default function IntelligenceDetailPage({
       <TickerBanner />
       <Header />
 
+      <CrossPromoBanner />
       {/* Breadcrumb */}
       <div className="max-w-[800px] mx-auto" style={{ padding: "16px 24px 0" }}>
         <nav className="font-sans text-[12px]" style={{ color: "#999" }}>

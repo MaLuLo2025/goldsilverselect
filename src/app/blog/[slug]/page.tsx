@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import TickerBanner from "@/components/TickerBanner";
 import Header from "@/components/Header";
+import CrossPromoBanner from "@/components/CrossPromoBanner";
 import Footer from "@/components/Footer";
 import { blogPosts } from "@/lib/blog";
 
@@ -4908,6 +4909,7 @@ export default function BlogPostPage({
       <TickerBanner />
       <Header />
 
+      <CrossPromoBanner />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}

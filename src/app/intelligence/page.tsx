@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import TickerBanner from "@/components/TickerBanner";
 import Header from "@/components/Header";
+import CrossPromoBanner from "@/components/CrossPromoBanner";
 import Footer from "@/components/Footer";
 import IntelligenceSection from "@/components/IntelligenceSection";
 
@@ -17,6 +18,7 @@ export default function IntelligencePage() {
       <TickerBanner />
       <Header />
 
+      <CrossPromoBanner />
       {/* Hero */}
       <section
         className="text-center"

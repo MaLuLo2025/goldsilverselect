@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import TickerBanner from "@/components/TickerBanner";
 import Header from "@/components/Header";
+import CrossPromoBanner from "@/components/CrossPromoBanner";
 import Footer from "@/components/Footer";
 import { states } from "@/lib/states";
 import { getCityBySlug } from "@/lib/cities";
@@ -65,6 +66,7 @@ export default function DealerDetailPage({
       <TickerBanner />
       <Header />
 
+      <CrossPromoBanner />
       {/* Schema.org */}
       <script
         type="application/ld+json"

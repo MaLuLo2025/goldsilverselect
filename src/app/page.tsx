@@ -2,6 +2,7 @@ import { Suspense } from "react";
 import Link from "next/link";
 import TickerBanner from "@/components/TickerBanner";
 import Header from "@/components/Header";
+import CrossPromoBanner from "@/components/CrossPromoBanner";
 import HeroSearch from "@/components/HeroSearch";
 import IntelligenceSection from "@/components/IntelligenceSection";
 import Footer from "@/components/Footer";
@@ -14,6 +15,7 @@ export default function Home() {
       <TickerBanner />
       <Header />
 
+      <CrossPromoBanner />
       {/* ===== HERO ===== */}
       <section
         className="text-center relative overflow-hidden"
