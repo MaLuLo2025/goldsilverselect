@@ -23,7 +23,7 @@ All generated files for this project go to `~/Claude Files/goldsilverselect/` �
 - **Hosting:** Vercel (auto-deploy from GitHub)
 - **Domain:** goldsilverselect.com (Cloudflare DNS → Vercel)
 - **Canonical hostname:** `https://www.goldsilverselect.com` (apex 307s to www)
-- **Analytics:** GA4 (ID TBD — not yet set up)
+- **Analytics:** GA4 (G-B6JLJE474B), enforced via Google Consent Mode v2 — gtag.js loads unconditionally, but `analytics_storage` defaults to denied and only flips to granted once the visitor accepts Analytics cookies (banner or Cookie Preferences panel). Denied visitors still generate Google's anonymized, cookieless modeling signal. `_ga`/`_ga_*` cookies are actively deleted if consent is withdrawn.
 
 ## SEO Foundation (see global Section 20)
 

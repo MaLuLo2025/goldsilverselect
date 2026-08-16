@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Logo from "./Logo";
+import CookiePreferencesLink from "./CookiePreferencesLink";
 
 const columns = [
   {
@@ -79,6 +80,7 @@ export default function Footer() {
                 {link.label}
               </Link>
             ))}
+            {col.title === "Company" && <CookiePreferencesLink />}
           </div>
         ))}
       </div>
