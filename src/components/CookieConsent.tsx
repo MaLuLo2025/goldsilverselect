@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useLayoutEffect } from "react";
 import Link from "next/link";
 import {
   DEFAULT_PREFS,
@@ -11,12 +11,25 @@ import {
   type CookiePreferences,
 } from "@/lib/cookieConsent";
 
+// useLayoutEffect is unavailable during SSR (React warns), so fall back to
+// useEffect on the server — the client always gets the layout-effect timing.
+const useIsomorphicLayoutEffect =
+  typeof window !== "undefined" ? useLayoutEffect : useEffect;
+
 export default function CookieConsent() {
   const [visible, setVisible] = useState(false);
   const [showPrefs, setShowPrefs] = useState(false);
   const [prefs, setPrefs] = useState<CookiePreferences>(DEFAULT_PREFS);
 
-  useEffect(() => {
+  // Layout effect (not a plain effect) so the visibility decision commits in
+  // the same synchronous flush as hydration, before the browser's first
+  // post-hydration paint. A plain useEffect here left a real gap: hydration
+  // would commit and paint a banner-less frame, THEN the effect would fire
+  // on a later task and paint the banner in a second frame — a click landed
+  // in that gap hit ordinary page content instead of the banner and was
+  // silently lost. Collapsing this to one frame means the banner's first
+  // paint is already fully interactive.
+  useIsomorphicLayoutEffect(() => {
     const consent = getStoredConsent();
     if (!consent) {
       setVisible(true);

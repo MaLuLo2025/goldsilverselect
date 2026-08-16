@@ -14,6 +14,12 @@ All generated files for this project go to `~/Claude Files/goldsilverselect/` â€
 - Log any mistakes to `gotchas.md` at project root
 - Run `/learn` at session end
 
+## Working Practices
+
+**Debugging discipline.** After three failed hypotheses on the same problem, stop and explicitly state a comparison: estimated cost of continued debugging vs. estimated cost of a clean rebuild of the affected component. State the comparison before proceeding either way. Favor rebuild when the component is small enough to rewrite in under an hour, when you understand why the current version fails but not why it ever worked, or when each fix reveals another layer.
+
+**Verification tooling.** For timing-sensitive or click-sensitive browser verification, use Playwright with element-handle clicks rather than the Chrome extension. Fixed-coordinate and ref-based clicks through the extension have produced phantom failures that Playwright could not reproduce (documented during the August 2026 consent banner work). The extension remains fine for rendering and content checks.
+
 ## Connected Projects
 - **Silvester** (`~/Projects/silvester`) â€” gold/silver ratio signal engine that feeds data context to this site's intelligence section
 
