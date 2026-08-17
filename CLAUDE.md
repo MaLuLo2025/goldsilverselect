@@ -20,6 +20,10 @@ All generated files for this project go to `~/Claude Files/goldsilverselect/` �
 
 **Verification tooling.** For timing-sensitive or click-sensitive browser verification, use Playwright with element-handle clicks rather than the Chrome extension. Fixed-coordinate and ref-based clicks through the extension have produced phantom failures that Playwright could not reproduce (documented during the August 2026 consent banner work). The extension remains fine for rendering and content checks.
 
+**Browser verification requires a production build.** Run `npm run build && npm run start`, never `npm run dev`. Next.js dev mode's HMR uses `eval()`, which this site's own CSP blocks — hydration fails silently, the page renders but interactive components never mount, and browser automation returns misleading results with no visible error. Cost a real debugging detour on 2026-08-17.
+
+**deploy.sh uses `git add -A`.** It will sweep untracked files into the commit. When the working tree has untracked files that shouldn't ship (audit docs, scratch files), stage explicitly and `git push` directly instead of running the script — the push triggers Vercel's auto-deploy either way.
+
 ## Connected Projects
 - **Silvester** (`~/Projects/silvester`) — gold/silver ratio signal engine that feeds data context to this site's intelligence section
 
