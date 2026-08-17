@@ -33,10 +33,25 @@ export default function TickerBanner() {
   const [ratio, setRatio] = useState<string | null>(null);
   const [fetchStatus, setFetchStatus] = useState<FetchStatus>("loading");
   const [now] = useState(() => new Date());
+  // The API's own market-state signal (marketOpen field), once a fetch
+  // resolves with one. undefined until then, or if the API never included
+  // it (a genuine error response has no opinion on market state).
+  const [apiMarketOpen, setApiMarketOpen] = useState<boolean | undefined>(
+    undefined
+  );
 
   const activeMarket = markets.find((m) => m.status === "open");
 
-  const marketOpen = isMarketOpen(now);
+  const clientMarketOpen = isMarketOpen(now);
+  // Prefer the API's own determination of whether the market is open —
+  // TGW is the actual source of truth for whether the underlying price is
+  // live or last-close. Our own hardcoded hours table is a fallback guess
+  // for before the fetch resolves, or if the API gave no signal at all
+  // (the genuine-error / TGW-unreachable case). The two can legitimately
+  // disagree — this reconciles that instead of trusting the local clock
+  // unconditionally, which was the root cause of the ticker showing the
+  // error state during nominally-open hours when TGW itself reported stale.
+  const marketOpen = apiMarketOpen ?? clientMarketOpen;
   const nextOpenLabel = marketOpen
     ? null
     : formatNextOpen(getNextMarketOpen(now), now);
@@ -58,6 +73,10 @@ export default function TickerBanner() {
         if (data._source === "fallback") {
           setFetchStatus("error");
           return;
+        }
+
+        if (typeof data.marketOpen === "boolean") {
+          setApiMarketOpen(data.marketOpen);
         }
 
         const metals: { key: Metal; label: string }[] = [

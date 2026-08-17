@@ -99,45 +99,48 @@ Project-specific notes:
 
 ## Price Data Architecture (read before touching /api/prices)
 
-### Current Architecture (as of 2026-07-01)
-`/api/prices` does **not** call metals.dev. It reads spot prices from Redis only:
+### Current Architecture (as of 2026-08-17)
+`/api/prices` does **not** call metals.dev, and does **not** read TGW's Redis directly. It reads TGW's public dashboard snapshot HTTP endpoint:
 
-1. **Primary — TGW Redis** (`sgi:metals:spot:all`, env vars `UPSTASH_REDIS_REST_URL_TGW` / `UPSTASH_REDIS_REST_TOKEN_TGW`)
-   - Written by TGW's `src/lib/data/metals-dev.ts` on a 5-minute TTL
-   - Shape: `Record<string, { metal, price, change, changePercent, currency }>`
-   - Transform applied on read: `changePercent → pct` (GSS TickerBanner shape)
-   - On success: result is warm-written into GSS Redis (`gss:metals:spot`, 20-min TTL) to keep the secondary fallback current
-   - Log: `[metals-call] key=tgw-redis ts=<ISO>`
+1. **Primary — TGW's snapshot API** (`GET https://thegoldwindow.ai/api/dashboard/snapshot`, no auth, no shared env vars — a public read-only HTTP call, not a Redis connection)
+   - Server-side cached by TGW itself (~30s); we additionally cache the fetch with `next: { revalidate: 60 }`
+   - Response includes `pm: []` (gold/silver/platinum/palladium) and `pmStale: boolean`. `pmStale: true` means the underlying price is a closed-market last-close value, not a live quote — it does **not** mean the data is missing. We treat `pm` containing valid gold+silver as usable either way, tagging the response `marketOpen: !pmStale`.
+   - Only a genuine failure (fetch error, non-OK response, malformed body, or `pm` yielding no valid gold/silver at all) is treated as "no data."
+   - On success (live or closed-market): warm-written into GSS Redis (`gss:metals:spot`, 20-min TTL) to keep the fallback current.
+   - Log: `[metals-call] key=tgw-snapshot ts=<ISO> marketOpen=<bool>`
 
 2. **Secondary — GSS Redis** (`gss:metals:spot`, env vars `UPSTASH_REDIS_REST_URL` / `UPSTASH_REDIS_REST_TOKEN`)
-   - Used when TGW Redis is unavailable or returns null
-   - Data is already in GSS shape — no transform needed
-   - Stays warm via the TGW warm-write; also retains last-known data across TGW outages up to TTL
+   - Used when the TGW snapshot fetch fails or yields no usable gold/silver
+   - Carries forward whatever `marketOpen` value was stored at warm-write time, if any
    - Log: `[metals-call] key=gss-redis-fallback ts=<ISO>`
 
-3. **Tertiary — hardcoded FALLBACK**
-   - Used only when both Redis reads fail
-   - Static prices with zero change/pct — TickerBanner shows "PRICES TEMPORARILY UNAVAILABLE"
-   - Log: `[metals-call] key=hardcoded-fallback ts=<ISO>`
+3. **Tertiary — 503, no hardcoded fallback**
+   - Used only when neither of the above yields valid gold/silver — a genuine failure, not a closed market (a closed market is a 200 from tier 1, tagged `marketOpen: false`)
+   - No static/hardcoded prices are ever served — removed 2026-07-01 (see History below)
+   - Log: `[metals-call] key=error ts=<ISO>`
+
+`TickerBanner.tsx`'s three-state UI reads the `marketOpen` field from the response (when present) and prefers it over its own local-clock guess (`src/lib/marketHours.ts`, a hardcoded COMEX-hours table) — the two are independently maintained and can legitimately disagree, so the API's determination wins whenever the fetch actually resolves with one. The local clock is only a fallback for before the fetch resolves, or for a genuine error response (which carries no market-state opinion).
 
 ### metals.dev quota is managed entirely by TGW
-This project makes zero metals.dev API calls. The metals.dev plan, TTL, and quota calculations are owned by the TGW project (`~/Projects/sgi-analytics`). Do not add metals.dev calls here without explicit owner approval.
+This project makes zero metals.dev API calls, direct or indirect. TGW's `/api/dashboard/snapshot` is the only price dependency; its own metals.dev plan, TTL, and quota calculations are owned by the TGW project (`~/Projects/sgi-analytics`). Do not add metals.dev calls here without explicit owner approval.
 
 ### Required env vars
 | Var | Purpose |
 |-----|---------|
-| `UPSTASH_REDIS_REST_URL_TGW` | TGW Upstash REST URL (primary price source) |
-| `UPSTASH_REDIS_REST_TOKEN_TGW` | TGW Upstash REST token |
-| `UPSTASH_REDIS_REST_URL` | GSS Upstash REST URL (fallback) |
+| `UPSTASH_REDIS_REST_URL` | GSS Upstash REST URL (fallback cache only — GSS no longer connects to TGW's Redis directly) |
 | `UPSTASH_REDIS_REST_TOKEN` | GSS Upstash REST token |
 
-### Daily % change requirement
-**Daily % change is still a REQUIREMENT** — the ticker must always show price + daily change. This is now sourced from TGW Redis (`changePercent` field), which gets it from metals.dev `/v1/metal/spot`. If TGW stops populating change data, investigate TGW's metals-dev.ts, not this project.
+No TGW-specific credentials are needed — `SNAPSHOT_URL` is a public HTTP endpoint, not a Redis connection.
 
-### History: why metals.dev was removed from this project (March–July 2026)
-- March 2026: switching to 4× `/v1/metal/spot` with 60-second client-side polling burned the entire monthly quota in ~8 hours. Happened twice.
+### Daily % change requirement
+**Daily % change is still a REQUIREMENT** — the ticker must always show price + daily change. Sourced from TGW's snapshot `changePercent` field, which TGW derives from metals.dev. If TGW stops populating change data, investigate TGW's `src/app/api/dashboard/snapshot/route.ts` / `src/lib/data/metals-dev.ts`, not this project.
+
+### History: how this project's price source has changed (March 2026 – present)
+- March 2026: switching to 4× `/v1/metal/spot` with 60-second client-side polling burned the entire monthly metals.dev quota in ~8 hours. Happened twice.
 - June 2026: quota exhaustion recurred even after moving to 20-min server-side cache, because the in-memory cache didn't survive serverless cold starts.
-- July 2026: architecture changed to read from TGW Redis. GSS no longer needs its own metals.dev subscription.
+- July 2026: architecture changed to read TGW's Redis directly (`sgi:metals:spot:all`, `UPSTASH_REDIS_REST_URL_TGW`). GSS no longer needed its own metals.dev subscription. Hardcoded fallback prices removed the same month.
+- August 2026 (`eb41a8c`): architecture changed again, to TGW's public snapshot HTTP endpoint instead of a direct Redis connection — no TGW-specific credentials needed at all. This is the current architecture described above. The direct-Redis env vars (`UPSTASH_REDIS_REST_URL_TGW` / `UPSTASH_REDIS_REST_TOKEN_TGW`) are no longer used by this project.
+- August 2026: fixed `/api/prices` treating TGW's `pmStale: true` as "no data" and returning 503 on closed markets, discarding valid last-close prices TGW provides. Now returns 200 with a `marketOpen` flag; see current architecture above.
 
 ## Vendor Data Standards
 

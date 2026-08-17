@@ -9,10 +9,14 @@ export const dynamic = "force-dynamic";
 //
 // Primary source: The Gold Window's public dashboard snapshot API (real-time,
 // server-side cached). We consume it read-only — no coupling to TGW internals.
-// Backup: the last-good result cached in GSS Redis (kept warm on every success),
-// so a snapshot-API hiccup still serves recent prices for up to 20 min.
-// If neither yields valid numbers, we return 503 so the ticker hides rather than
-// ever showing stale/incorrect values.
+// Backup: the last-good result cached in GSS Redis (kept warm on every success —
+// including closed-market last-close data, not just live), so a snapshot-API
+// hiccup still serves recent prices for up to 20 min.
+// If neither yields any valid gold/silver numbers, we return 503 — that's a
+// genuine failure (TGW unreachable, malformed response, no data at all), not
+// a closed market. A closed market still returns 200 with the last-close
+// prices TGW provides, tagged `marketOpen: false` so the client can render
+// its existing closed-market state instead of treating it as an error.
 
 const GSS_CACHE_KEY = "gss:metals:spot";
 const GSS_CACHE_TTL_SECONDS = 20 * 60;
@@ -22,6 +26,12 @@ interface MetalResult {
   price: number;
   change: number;
   pct: number;
+}
+
+interface SnapshotResult {
+  results: Record<string, MetalResult>;
+  /** true = live/fresh TGW data, false = closed-market last-close data. */
+  marketOpen: boolean;
 }
 
 // snapshot `pm` symbol → our key
@@ -56,9 +66,14 @@ function getGssRedis(): Redis | null {
   }
 }
 
-// Pull + validate live prices from the TGW snapshot API. Returns null on any
-// failure, stale flag, or missing gold/silver — callers treat null as "no data".
-async function fromSnapshot(): Promise<Record<string, MetalResult> | null> {
+// Pull + validate prices from the TGW snapshot API — live or last-close.
+// Returns null only on a genuine failure: fetch error, non-OK response,
+// malformed body, or no usable gold/silver data at all (whether pmStale is
+// true or false — an empty pm[] is "no data" regardless of the stale flag).
+// pmStale alone no longer disqualifies a response; it's carried through as
+// `marketOpen` instead, so the caller can distinguish "closed, here's the
+// last close" from "nothing to show".
+async function fromSnapshot(): Promise<SnapshotResult | null> {
   try {
     const res = await fetch(SNAPSHOT_URL, {
       headers: { "User-Agent": "silvergoldinsights-ticker" },
@@ -69,7 +84,7 @@ async function fromSnapshot(): Promise<Record<string, MetalResult> | null> {
       pm?: Array<{ symbol?: string; price?: unknown; changeAmount?: unknown; changePercent?: unknown }>;
       pmStale?: boolean;
     };
-    if (!snap || snap.pmStale === true || !Array.isArray(snap.pm)) return null;
+    if (!snap || !Array.isArray(snap.pm)) return null;
 
     const results: Record<string, MetalResult> = {};
     for (const it of snap.pm) {
@@ -82,9 +97,11 @@ async function fromSnapshot(): Promise<Record<string, MetalResult> | null> {
         pct: num(it?.changePercent) ?? 0,
       };
     }
-    // Require the two headline metals, else treat as no data.
+    // Require the two headline metals — live or last-close, we need at
+    // least gold+silver for a usable ticker. This is the only "no data"
+    // gate now.
     if (!validMetal(results.gold) || !validMetal(results.silver)) return null;
-    return results;
+    return { results, marketOpen: snap.pmStale !== true };
   } catch (err) {
     console.error("[prices] snapshot fetch error:", err);
     return null;
@@ -94,28 +111,36 @@ async function fromSnapshot(): Promise<Record<string, MetalResult> | null> {
 export async function GET() {
   const ts = new Date().toISOString();
 
-  // ── 1. Primary: live TGW snapshot API ────────────────────────────────────
+  // ── 1. Primary: live TGW snapshot API (live or last-close, both OK) ──────
   const snap = await fromSnapshot();
   if (snap) {
-    console.log(`[metals-call] key=tgw-snapshot ts=${ts}`);
-    // Keep the backup cache warm with the last-good result.
+    console.log(`[metals-call] key=tgw-snapshot ts=${ts} marketOpen=${snap.marketOpen}`);
+    // Keep the backup cache warm with the last-good result — including
+    // closed-market data now, not just live, so the 20-min fallback window
+    // doesn't go stale during an extended TGW outage that happens to
+    // coincide with a closed market.
     const gss = getGssRedis();
     if (gss) {
       gss
-        .set(GSS_CACHE_KEY, snap, { ex: GSS_CACHE_TTL_SECONDS })
+        .set(GSS_CACHE_KEY, { ...snap.results, marketOpen: snap.marketOpen }, { ex: GSS_CACHE_TTL_SECONDS })
         .catch((err) => console.error("[prices] GSS warm-write error:", err));
     }
-    return NextResponse.json({ ...snap, _source: "tgw-snapshot" });
+    return NextResponse.json({ ...snap.results, marketOpen: snap.marketOpen, _source: "tgw-snapshot" });
   }
 
   // ── 2. Backup: last-good GSS Redis cache ─────────────────────────────────
   const gss = getGssRedis();
   if (gss) {
     try {
-      const cached = await gss.get<Record<string, MetalResult>>(GSS_CACHE_KEY);
+      const cached = await gss.get<Record<string, MetalResult> & { marketOpen?: boolean }>(GSS_CACHE_KEY);
       if (cached && validMetal(cached.gold) && validMetal(cached.silver)) {
         console.log(`[metals-call] key=gss-redis-fallback ts=${ts}`);
-        return NextResponse.json({ ...cached, _source: "redis" });
+        const { marketOpen, ...prices } = cached;
+        return NextResponse.json({
+          ...prices,
+          ...(marketOpen !== undefined ? { marketOpen } : {}),
+          _source: "redis",
+        });
       }
     } catch (err) {
       console.error("[prices] GSS Redis read error:", err);
