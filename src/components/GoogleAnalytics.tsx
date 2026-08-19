@@ -9,7 +9,7 @@ import {
 } from "@/lib/cookieConsent";
 import { deleteGaCookies } from "@/lib/gaCookies";
 
-const GA_ID = "G-B6JLJE474B";
+const GA_ID = "G-LZ68P21VGD";
 
 // History worth knowing before touching this file: GSS originally shipped
 // with a real consent gate (commit 4a25c41) that made the gtag script tags
