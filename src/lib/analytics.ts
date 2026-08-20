@@ -9,6 +9,12 @@
 // Never sends user PII — only business identifiers (vendor names, geography,
 // categories). Server-side enrichment (country, region, device class) happens
 // at the admin endpoint from request headers, never from this client payload.
+//
+// The select-admin relay is gated behind the same analytics consent choice as
+// GA4 (see cookieConsent.ts) — if the visitor has not accepted analytics
+// cookies, relayToAdmin() no-ops.
+
+import { getStoredPrefs } from "./cookieConsent";
 
 type GtagFn = (...args: unknown[]) => void;
 
@@ -43,6 +49,7 @@ type AdminPayload = {
 
 function relayToAdmin(payload: AdminPayload): void {
   if (typeof window === "undefined") return;
+  if (!getStoredPrefs().analytics) return;
   try {
     const body = JSON.stringify(payload);
     // sendBeacon survives page navigation (e.g., outbound link clicks).

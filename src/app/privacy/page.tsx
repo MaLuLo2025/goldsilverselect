@@ -37,13 +37,21 @@ export default function PrivacyPage() {
             data when you visit, including your IP address, browser type, operating system, referring
             URLs, pages viewed, and the dates and times of your visits.
           </p>
-          <p>
+          <p className="mb-3">
             <strong>Cookies and tracking technologies:</strong> We use cookies and similar
             technologies to enhance your experience. See our{" "}
             <a href="/cookies" className="text-gold hover:underline">
               Cookie Policy
             </a>{" "}
             for details.
+          </p>
+          <p>
+            <strong>Interaction data:</strong> We collect anonymous interaction data — such as which
+            listings you click on and which categories or locations you browse — to understand how
+            visitors use the site and improve the directory. This data is sent to our own first-party
+            analytics infrastructure, not to any third-party service. No cookies are set by this
+            system, and no advertising or personal profile is built from it. As part of standard
+            server processing, your IP address and browser information may be logged.
           </p>
         </Section>
 
