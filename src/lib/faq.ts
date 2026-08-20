@@ -546,6 +546,8 @@ export const faqCategories: FAQCategory[] = [
           { label: "What Should I Truly Pay for Gold and Silver?", href: "/blog/what-should-i-truly-pay-for-gold-and-silver" },
           { label: "The Home Storage Gold IRA Scam", href: "/blog/home-storage-gold-ira-scam" },
           { label: "How to Spot Counterfeit Gold and Silver Coins", href: "/blog/how-to-spot-counterfeit-gold-silver-coins" },
+          { label: "Counterfeit Gold Bars: How They Work and How to Protect Yourself", href: "/blog/counterfeit-gold-bars-how-to-protect-yourself" },
+          { label: "The “Free Silver” Trap: How Gold IRA Promotions Actually Work", href: "/blog/gold-ira-free-silver-trap" },
         ],
       },
       {
@@ -559,6 +561,15 @@ export const faqCategories: FAQCategory[] = [
         answer: "Counterfeit American Eagles, Maple Leafs, and Krugerrands circulate in larger numbers than most buyers realize. The most reliable defense is buying from reputable dealers with verifiable track records and asking for verification on the spot. For self-verification, run multiple tests: a magnet test (real precious metals are non-magnetic), a precise weight and dimension check against published mint specs, a ping test (real silver and gold ring with a long sustained tone), and for serious buyers, a Sigma Metalytics verifier. Any single test can be fooled, so always run several. For high-premium numismatic coins, only buy slabs authenticated by PCGS, NGC, ANACS, or ICG.",
         learnMoreLabel: "How to Spot Counterfeit Gold and Silver Coins",
         learnMoreHref: "/blog/how-to-spot-counterfeit-gold-silver-coins",
+        links: [
+          { label: "Counterfeit Gold Bars: How They Work and How to Protect Yourself", href: "/blog/counterfeit-gold-bars-how-to-protect-yourself" },
+        ],
+      },
+      {
+        question: "Can a gold bar be counterfeit even if it passes a weight check?",
+        answer: "Yes — the most sophisticated gold bar counterfeits use a tungsten core plated with real gold. Tungsten’s density (19.25 g/cm³) is close enough to gold’s (19.32 g/cm³) that a tungsten-core bar passes a standard weight-and-dimension check, and the gold shell is real enough to pass a surface acid test or handheld XRF scan. The counterfeit is in the interior, not the surface. Reliable detection requires ultrasonic thickness testing (the industry standard, since sound travels at different speeds through gold and tungsten), a specific gravity (water displacement) test, or Sigma Metalytics electromagnetic conductivity testing. For significant purchases, also verify the bar’s serial number against the refiner’s registry.",
+        learnMoreLabel: "Counterfeit Gold Bars: How They Work and How to Protect Yourself",
+        learnMoreHref: "/blog/counterfeit-gold-bars-how-to-protect-yourself",
       },
       {
         question: "Are gold IRA companies legitimate?",
@@ -611,7 +622,14 @@ export const faqCategories: FAQCategory[] = [
         learnMoreHref: "/blog/gold-ira-fees-scams",
         links: [
           { label: "Gold IRA Scams: Red Flags from Federal Enforcement Actions", href: "/blog/gold-ira-scams-red-flags-federal" },
+          { label: "The \u201cFree Silver\u201d Trap: How Gold IRA Promotions Actually Work", href: "/blog/gold-ira-free-silver-trap" },
         ],
+      },
+      {
+        question: "Is the \u201cfree silver\u201d bonus in a Gold IRA rollover offer actually free?",
+        answer: "No \u2014 the cost is recovered through the markup on the metal you purchase for the account, not through any real discount. The CFTC and FINRA have jointly warned that spreads in precious metals transactions can range from 30% to over 300%, and that dealers often recover promotional costs through inflated pricing on the products purchased inside the IRA. On a $100,000 rollover, a $5,000 \u201cfree silver\u201d bonus funded by a 15% markup can cost you roughly $15,000 in excess premium \u2014 three dollars paid for every dollar of \u201cfree\u201d metal received. The way to evaluate any such offer is to ask for the total per-ounce cost of everything in the IRA, including all commissions and fees, and compare it to spot price \u2014 not to focus on the size of the bonus.",
+        learnMoreLabel: "The \u201cFree Silver\u201d Trap: How Gold IRA Promotions Actually Work",
+        learnMoreHref: "/blog/gold-ira-free-silver-trap",
       },
       {
         question: "What does physical gold in a Gold IRA actually cost?",

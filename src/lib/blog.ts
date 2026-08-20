@@ -374,4 +374,31 @@ export const blogPosts: BlogPost[] = [
       "High gold prices create a barrier-to-entry perception, but the market offers legitimate options at multiple price points. Here’s how to think about a first purchase at $500 or under.",
     date: "2026-07-14",
   },
+  {
+    slug: "gold-ira-free-silver-trap",
+    title: "The “Free Silver” Trap: How Gold IRA Promotions Actually Work",
+    tag: "Consumer Protection",
+    tagColor: "gold",
+    excerpt:
+      "Gold IRA companies advertising free silver with your rollover aren’t giving you anything. Here’s where the cost is actually hidden.",
+    date: "2026-08-25",
+  },
+  {
+    slug: "gold-at-4500-buy-sell-hold",
+    title: "Gold at $4,500: Should You Buy, Sell, or Hold?",
+    tag: "Market Analysis",
+    tagColor: "gold",
+    excerpt:
+      "Gold has rebounded to $4,500 after falling from January’s $5,598 peak. Here’s what’s driving the price, what the data says, and how to think about your position.",
+    date: "2026-08-25",
+  },
+  {
+    slug: "counterfeit-gold-bars-how-to-protect-yourself",
+    title: "Counterfeit Gold Bars: How They Work and How to Protect Yourself",
+    tag: "Consumer Protection",
+    tagColor: "gold",
+    excerpt:
+      "Counterfeit gold bars are more sophisticated than ever. Here’s how fakes are made, how to spot them, and what verification methods actually work.",
+    date: "2026-08-25",
+  },
 ];
