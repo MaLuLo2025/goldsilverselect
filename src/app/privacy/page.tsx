@@ -98,7 +98,7 @@ export default function PrivacyPage() {
           <p>If you have questions about this Privacy Policy, please contact us at:</p>
           <p className="mt-2">
             GoldSilverSelect<br />
-            Durango, Colorado<br />
+            Volusia County, Florida<br />
             contact@goldsilverselect.com
           </p>
         </Section>

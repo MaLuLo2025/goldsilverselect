@@ -110,7 +110,7 @@ export default function TermsPage() {
             Rules. The arbitration shall be conducted by a single arbitrator.
           </p>
           <p className="mb-3">
-            The seat of arbitration shall be Durango, La Plata County, Colorado. The arbitrator&apos;s
+            The seat of arbitration shall be Volusia County, Florida. The arbitrator&apos;s
             decision shall be final and binding, and judgment on the award may be entered in any
             court of competent jurisdiction.
           </p>
@@ -131,9 +131,9 @@ export default function TermsPage() {
 
         <Section title="13. Governing Law &amp; Venue">
           These Terms shall be governed by and construed in accordance with the laws of the State of
-          Colorado, without regard to its conflict of laws provisions. To the extent any dispute is
+          Florida, without regard to its conflict of laws provisions. To the extent any dispute is
           not subject to arbitration, the exclusive venue shall be the state and federal courts
-          located in La Plata County, Colorado, and you consent to the personal jurisdiction of such
+          located in Volusia County, Florida, and you consent to the personal jurisdiction of such
           courts.
         </Section>
 
@@ -153,7 +153,7 @@ export default function TermsPage() {
           <p>If you have questions about these Terms, please contact us at:</p>
           <p className="mt-2">
             GoldSilverSelect<br />
-            Durango, Colorado<br />
+            Volusia County, Florida<br />
             contact@goldsilverselect.com
           </p>
         </Section>

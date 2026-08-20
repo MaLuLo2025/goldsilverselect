@@ -114,7 +114,7 @@ export default function CookiePolicyPage() {
           <p>If you have questions about our use of cookies, please contact us at:</p>
           <p className="mt-2">
             GoldSilverSelect<br />
-            Durango, Colorado<br />
+            Volusia County, Florida<br />
             privacy@goldsilverselect.com
           </p>
         </Section>
