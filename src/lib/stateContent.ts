@@ -87,9 +87,32 @@ export const stateContent: Record<string, StateContent> = {
   },
   arkansas: {
     intro:
-      "Arkansas is home to Crater of Diamonds State Park — the only diamond mine in the world open to the public — which contributes to broader public interest in minerals and precious stones. The state's precious metals market is concentrated in Little Rock and Fort Smith, where established coin shops serve both collectors and bullion buyers. Arkansas imposes sales tax on gold and silver coin purchases under $1,000, which factors into local transaction costs.",
+      "Arkansas's precious metals market is concentrated in Little Rock and Northwest Arkansas (Fayetteville-Bentonville-Rogers), with secondary dealer activity in Hot Springs, Fort Smith, and Jonesboro. The explosive growth of the Northwest Arkansas economy — anchored by Walmart, Tyson Foods, and J.B. Hunt — has drawn population and wealth into the region faster than dealer infrastructure has followed, which means Little Rock still dominates the state's coin and bullion trade despite no longer being the state's economic center of gravity. The investor base leans conservative and accumulation-oriented: farm-economy families converting generational wealth into physical metals, retirees diversifying out of paper assets, and a growing cohort of younger buyers drawn by the state's unusually favorable tax treatment. Arkansas's legislative trajectory on precious metals has been one of the most aggressive in the country, moving from a standard sales tax exemption in 2021 to a full Legal Tender Act in 2023 that eliminates state capital gains on specie entirely.",
+    salesTax:
+      "Arkansas enacted one of the most comprehensive precious metals tax frameworks in the country through two legislative actions. Senate Bill 336 (2021) created the initial exemption from state sales and use tax for coins, currency, and bullion made in whole or in part of gold, silver, platinum, or palladium, codified at Ark. Code § 26-52-454. The exemption applies when the item is sold based on its intrinsic value as precious metal rather than its form or representative value as a medium of exchange — the standard bullion-value-over-form test used by most states. Then House Bill 1718 (2023), the Arkansas Legal Tender Act, went substantially further: it reaffirmed gold and silver specie as legal tender, defined specie as coin having gold or silver content or refined bullion coined, stamped, or imprinted with its weight and purity, and declared that specie shall not be characterized as personal property for taxation or regulatory purposes — effectively eliminating state-level capital gains taxation on qualifying gold and silver transactions. The Act passed 82-8 in the House and 32-0 in the Senate. Jewelry, decorative items, copper products, and accessories remain taxable under standard rates.",
     buyingTips:
-      "Collectors in Arkansas frequently find silver at estate sales and flea markets in smaller communities throughout the Ozarks. For tax-efficient bullion purchases, online dealers can ship to Arkansas addresses with no state sales tax on qualifying investment-grade bullion.",
+      "Little Rock and the Fayetteville-Bentonville metro offer the strongest in-person dealer options in Arkansas. Hot Springs hosts regional coin shows that draw dealers and collectors from across the mid-South. For investment-grade bullion in larger quantities, online dealers shipping to Arkansas provide wider selection at competitive premiums, and the state's comprehensive exemption means no sales tax on qualifying purchases regardless of channel. For estate liquidations — common in Arkansas given the state's agricultural wealth and demographics — comparing quotes from at least two dealers before selling is worth the effort, as the smaller in-state dealer base means less competitive pricing pressure than in larger markets.",
+    commonScams:
+      "Arkansas buyers should be cautious of telemarketing operations selling 'rare' or 'investment-grade' coins at premiums far above their actual numismatic value. These operations target buyers across the South and frequently use high-pressure phone scripts emphasizing scarcity or limited availability. Traveling 'cash for gold' operations setting up in hotel conference rooms for a few days are also documented in Arkansas — they advertise aggressively, offer prices well below what established local dealers would pay, and disappear before sellers can compare quotes. The Arkansas Attorney General's Consumer Protection Division has handled cases involving both patterns. The protective steps are consistent: verify current spot price independently before any transaction, get multiple quotes, and avoid transacting under time pressure or with operators who won't provide written pricing relative to spot.",
+    whatToVerify:
+      "Before buying from any Arkansas precious metals dealer, verify business registration with the Arkansas Secretary of State, check the BBB profile and complaint history, and confirm the dealer provides clear written pricing relative to current spot price. For numismatic purchases, confirm any grading certifications come from PCGS or NGC — the two services with established market credibility. For estate sales, understand that the Legal Tender Act's capital gains exemption applies to qualifying specie transactions; retain your purchase documentation, as it establishes your cost basis for any future sale and is your evidence of the transaction's character as a specie exchange.",
+    displayOrder: [
+      "salesTax",
+      "intro",
+      "buyingTips",
+      "commonScams",
+      "whatToVerify",
+    ],
+    sources: [
+      {
+        label: "Ark. Code § 26-52-454 — Coins, currency, and bullion exemption",
+        url: "https://law.justia.com/codes/arkansas/title-26/subtitle-5/chapter-52/subchapter-4/section-26-52-454/",
+      },
+      {
+        label: "HB 1718 (2023) — Arkansas Legal Tender Act",
+        url: "https://www.arkleg.state.ar.us/Bills/FTPDocument?path=%2FBills%2F2023R%2FPublic%2FHB1718.pdf",
+      },
+    ],
   },
   delaware: {
     intro:
@@ -122,9 +145,28 @@ export const stateContent: Record<string, StateContent> = {
   },
   hawaii: {
     intro:
-      "Hawaii's precious metals market reflects its island geography — shipping costs and logistics make local dealer pricing less competitive than on the mainland, and the physical dealer network is limited. Honolulu has the most established market, with a mix of coin shops and jewelry dealers who buy and sell gold and silver. Silver coins, particularly pre-1965 U.S. 90% silver, are popular with collectors across the islands.",
+      "Hawaii's precious metals market is concentrated in Honolulu, with limited dealer presence outside Oahu. The state's geographic isolation creates distinct market dynamics that buyers should understand before transacting: shipping costs and insurance for online purchases are materially higher than mainland, in-state dealers face limited competition which can affect pricing, and the buyer base reflects both the local resident community and the substantial military population at Pearl Harbor, Hickam, Schofield Barracks, and other installations. Hawaii's tax treatment of precious metals is among the least favorable in the country, which compounds the cost disadvantage of island purchasing. Buyers who understand both the tax and logistics picture can make informed decisions about whether to buy locally, from mainland online dealers, or during mainland travel.",
+    salesTax:
+      "Hawaii does not impose a traditional retail sales tax. Instead, the state levies a General Excise Tax (GET) on businesses engaged in commercial activities. Despite multiple legislative efforts — including House Bill 1830 (2020) and House Bill 1184 (2021) — there is no GET exemption for precious metals of any kind in Hawaii. Investment-grade bullion, coins, bars, and all other precious metal products are subject to the GET at the state rate of 4%, with county surcharges in some jurisdictions (notably Honolulu County at 0.5%) bringing the effective rate to 4.5%. The GET is technically assessed on the seller, not the buyer, but dealers routinely pass it through to the purchase price — and the law permits this. When comparing prices at a Hawaii dealer, always confirm whether the quoted price includes GET or whether it will be added. This distinction matters more in Hawaii than in sales-tax states because the GET's seller-side structure makes it less visible. For online purchases shipped to Hawaii, out-of-state dealers registered for Hawaii GET collection will add it at checkout.",
     buyingTips:
-      "For investment bullion, Hawaii residents typically purchase through national online dealers who ship to the islands with insured, tracked delivery. Local dealers in Honolulu are better suited for coin collecting, estate jewelry, and small transactions.",
+      "Honolulu offers the primary in-person dealer options in Hawaii. The dealer base is small relative to most mainland markets of comparable population, which limits competitive pricing pressure. For larger purchases or specialized products, mainland online dealers — APMEX, JM Bullion, SD Bullion, Kitco — provide wider selection and competitive premiums even after factoring in shipping and insurance to Hawaii. The total-delivered-cost comparison is essential: a mainland dealer's price plus shipping plus insurance plus Hawaii GET (if the dealer collects it) versus a Honolulu dealer's counter price with GET included. In some cases the mainland option is cheaper despite shipping; in others the local dealer wins on smaller purchases where shipping is proportionally expensive.",
+    commonScams:
+      "Hawaii's limited dealer competition and geographic isolation have occasionally allowed local operators to charge premiums above what mainland comparison would support. Verifying current spot price independently and comparing to mainland online prices — factoring in shipping — helps evaluate whether a local purchase is competitive. Telemarketing scams and online operations target Hawaii residents through the same channels as mainland markets. The Hawaii Office of Consumer Protection (Department of Commerce and Consumer Affairs) maintains resources for buyers who suspect they have been targeted.",
+    whatToVerify:
+      "Verify dealer registration with the Hawaii Department of Commerce and Consumer Affairs, check BBB profiles, and review independent customer feedback. For any significant purchase, compare to at least one mainland online dealer's total delivered cost — including shipping, insurance, and GET — before committing. For numismatic purchases, confirm grading certifications come from PCGS or NGC.",
+    displayOrder: [
+      "intro",
+      "salesTax",
+      "buyingTips",
+      "commonScams",
+      "whatToVerify",
+    ],
+    sources: [
+      {
+        label: "Hawaii General Excise Tax — no precious metals exemption",
+        url: "https://www.soundmoneydefense.org/gold-silver-laws-hawaii",
+      },
+    ],
   },
   indiana: {
     intro:
@@ -157,15 +199,61 @@ export const stateContent: Record<string, StateContent> = {
   },
   iowa: {
     intro:
-      "Iowa's precious metals market is modest but steady, with coin shops operating in Des Moines, Cedar Rapids, and Davenport serving a mix of collectors and bullion buyers. The state's agricultural heritage has historically driven savings in tangible assets, and pre-1933 U.S. gold coins remain a popular holding among older Iowa collectors. Iowa does not exempt precious metals from state sales tax for most buyers, which affects local transaction economics.",
+      "Iowa's precious metals market is anchored in Des Moines and the Cedar Rapids-Iowa City corridor, with smaller dealer communities in Davenport, Sioux City, Waterloo, and Council Bluffs. The state's agricultural economic base has generated significant multi-generational wealth — farm families converting land equity and crop proceeds into physical metals over decades — producing a steady supply of estate gold and silver that flows through Iowa's dealer network. Des Moines supports the deepest in-person market, while Council Bluffs benefits from proximity to Omaha's larger dealer community across the Missouri River. Iowa's legislative trajectory on precious metals has been consistently favorable, with two distinct exemptions now in place covering both the purchase and the eventual sale.",
+    salesTax:
+      "Iowa exempts qualifying coins, currency, and bullion from state sales and use tax under Iowa Code § 423.3(91), an exemption originally enacted and then reinstated in 2006. The statute defines bullion as bars, ingots, or commemorative medallions of gold, silver, platinum, palladium, or a combination thereof, where the value of the metal depends on its content and not its form. Coins and currency are defined as items made of gold, silver, other metal, or paper that are or have been used as legal tender. There is no minimum purchase threshold. In 2024, Iowa went further with House File 2626, which exempts capital gains from the sale of bullion from Iowa state income tax, effective for tax year 2025. Combined with the sales tax exemption, Iowa now imposes neither a purchase tax nor a state-level sale tax on qualifying precious metals — one of the more favorable total-lifecycle treatments in the country.",
     buyingTips:
-      "Des Moines has the most active coin market in the state. Estate sales across rural Iowa regularly surface silver dollars, gold pocket watch cases, and pre-1965 U.S. silver coins. Online dealers provide access to a broader range of bullion products at competitive premiums.",
+      "Des Moines and the Cedar Rapids-Iowa City corridor offer the strongest in-person dealer options in Iowa. Council Bluffs buyers should also consider the Omaha, Nebraska metro across the river, which supports a larger dealer base. Online dealers shipping to Iowa are competitive on standard bullion, and with no sales tax and no state capital gains tax on qualifying products, the total cost of ownership in Iowa is straightforward to calculate. Iowa's coin show circuit, primarily centered in Des Moines and Cedar Rapids, offers in-person comparison opportunities. For estate liquidations, comparing at least two quotes is worthwhile — Iowa's smaller dealer base means less competitive pressure on buy prices than larger Midwestern markets like Chicago or Minneapolis.",
+    commonScams:
+      "Iowa's substantial retiree and rural population has made the state a documented target for telemarketing operations selling 'rare' coins at premiums far above their actual numismatic value, and for traveling 'cash for gold' operations offering well below market prices to estate sellers. The Iowa Attorney General's office has pursued enforcement actions involving these patterns. Verifying current spot price independently and getting multiple quotes before transacting provides the primary defense against both.",
+    whatToVerify:
+      "Verify dealer registration with the Iowa Secretary of State, check BBB profiles, and review independent customer feedback. For numismatic purchases, confirm grading certifications come from PCGS or NGC. For bullion, get written pricing relative to current spot. Iowa's sales tax exemption applies to qualifying items automatically — no certificate or special form is required — but retain your invoice as proof of the transaction for capital gains documentation purposes, since Iowa's HF 2626 exemption requires the gain to be reported and then excluded on your state return.",
+    displayOrder: [
+      "intro",
+      "salesTax",
+      "buyingTips",
+      "whatToVerify",
+      "commonScams",
+    ],
+    sources: [
+      {
+        label: "Iowa Code § 423.3(91) — Sales tax exemption for coins, currency, bullion",
+        url: "https://www.gainesvillecoins.com/tax/iowa",
+      },
+      {
+        label: "HF 2626 (2024) — Iowa capital gains exemption for bullion",
+        url: "https://www.legis.iowa.gov/docs/publications/FN/1370873.pdf",
+      },
+    ],
   },
   kansas: {
     intro:
-      "Kansas sits in the heart of the Great Plains, and its precious metals market reflects a practical, value-oriented buying culture. Wichita and Overland Park are the primary markets, with coin shops serving both collector and investment demand. Kansas exempts monetary gold and silver coins from sales tax, which is a meaningful benefit for coin buyers in the state. Kansas City, Missouri — just across the border — provides additional access to a larger dealer network.",
+      "Kansas's precious metals market is concentrated in the Kansas City metro (Johnson and Wyandotte counties on the Kansas side) and Wichita, with smaller dealer communities in Topeka, Lawrence, and Manhattan. The Kansas City metro is effectively a shared market with Missouri — Kansas buyers routinely cross the state line, and dealers on both sides compete for the same customer base. Wichita anchors the south-central Kansas market and supports several established dealers serving the broader region. Kansas's investor base reflects the state's agricultural and aviation-industry economic pillars: steady, long-term accumulation rather than speculative trading, with a reliable supply of estate gold and silver from farming families and retirees.",
+    salesTax:
+      "Kansas exempts all sales of gold or silver coins and palladium, platinum, gold, or silver bullion from state sales and compensating use tax under K.S.A. § 79-3606(mmmm), enacted through House Bill 2140 and effective July 1, 2019. The statute defines bullion as bars, ingots, or commemorative medallions of gold, silver, platinum, palladium, or a combination thereof, where the value of the metal depends on its content and not its form. The exemption applies broadly to qualifying items with no minimum purchase threshold. Kansas has also introduced but not yet enacted legal tender legislation — SB 39 (2025) would recognize gold and silver specie as legal tender and eliminate state capital gains taxes on their exchange, following the model Arkansas and Utah have already adopted. As of mid-2026, that bill has not passed. Jewelry, collectible items valued for rarity rather than metal content, accessories, and processed items remain taxable.",
     buyingTips:
-      "The Kansas City metro (including Overland Park and Leawood) offers the broadest range of local options for Kansas buyers. For bullion, online dealers shipping to Kansas offer full selection with the benefit of the state's sales tax exemption on monetary coins.",
+      "The Kansas City metro (including Johnson County on the Kansas side) and Wichita offer the strongest in-person dealer options. Kansas City buyers benefit from the cross-border market — compare pricing on both sides of the state line, as Missouri also exempts bullion from sales tax. Online dealers shipping to Kansas are competitive on standard bullion. Kansas's coin show circuit is active, with regional shows in Wichita and the Kansas City area providing in-person comparison opportunities.",
+    commonScams:
+      "Common scams in Kansas follow patterns documented across the Midwest: telemarketing operations selling 'rare' coins at premiums far above their actual numismatic value, and traveling roadshow buyers offering well below market prices to estate sellers. The Kansas Attorney General's office has handled cases involving these patterns. Verifying current spot price independently and getting multiple quotes before transacting remains the primary defense.",
+    whatToVerify:
+      "Verify dealer registration with the Kansas Secretary of State, check BBB profiles, and review independent customer feedback. For numismatic purchases, confirm grading certifications come from PCGS or NGC. For bullion, get written pricing relative to current spot. The K.S.A. § 79-3606(mmmm) exemption applies automatically to qualifying items — no certificate is required — but confirm with the dealer that your specific purchase meets the statutory definition before transacting, particularly for items that straddle the bullion-collectible boundary.",
+    displayOrder: [
+      "intro",
+      "salesTax",
+      "buyingTips",
+      "commonScams",
+      "whatToVerify",
+    ],
+    sources: [
+      {
+        label: "K.S.A. § 79-3606(mmmm) — Sales tax exemption for coins and bullion",
+        url: "https://www.gainesvillecoins.com/tax/kansas",
+      },
+      {
+        label: "Kansas DOR Notice 19-02 — Exempt sales of gold, silver coins and bullion",
+        url: "https://safehavenmetal.com/state-sales-tax/kansas-precious-metals-sales-tax/",
+      },
+    ],
   },
   kentucky: {
     intro:
@@ -217,15 +305,53 @@ export const stateContent: Record<string, StateContent> = {
   },
   maine: {
     intro:
-      "Maine's precious metals market is small and concentrated in Portland, Bangor, and the coastal communities. The state's outdoor and self-reliant culture supports interest in physical gold and silver as stores of value among a segment of the population. Maine does not exempt precious metals from state sales tax in most cases, which is a factor in local pricing. Regional coin shows in New England are accessible to Maine buyers.",
+      "Maine's precious metals market is concentrated in Portland and the Lewiston-Auburn area, with smaller dealer presence in Bangor and coastal communities. The state's substantial retiree population and multi-generational New England family wealth create a steady supply of estate gold and silver flowing through Maine's dealer network. Portland supports the most active dealer community, though the total number of in-state dealers is small relative to New England markets in Massachusetts or Connecticut. Maine's tax treatment of precious metals is among the least favorable in the country — the state is one of only a handful that still imposes full sales tax on bullion with no exemption — which drives some Maine buyers to transact in neighboring New Hampshire (no sales tax of any kind) or Massachusetts (bullion exemption above $1,000).",
+    salesTax:
+      "Maine imposes its standard 5.5% sales tax on all precious metals purchases with no exemption for bullion, coins, or currency. There is no threshold, no purity requirement, and no product-type distinction — every precious metals transaction in Maine is fully taxable at the same rate as any other retail purchase. Multiple legislative efforts to create an exemption have been introduced and have failed. LD 1051 passed the Maine Senate in May 2023 with the goal of removing tax effective January 2024, but did not become law. Additional exemption bills have been introduced in subsequent sessions, backed by the National Coin & Bullion Association and in-state advocates, but as of mid-2026 Maine remains one of only four states (alongside Hawaii, New Mexico, and Vermont) with no precious metals sales tax relief of any kind. This makes Maine one of the most expensive states in which to purchase bullion — the 5.5% adds $220 to a $4,000 gold purchase that would be tax-free across the border in New Hampshire.",
     buyingTips:
-      "Portland has the most active coin and jewelry market in Maine. Boston-area dealers are a reasonable option for Maine residents seeking access to a wider physical market. Online dealers shipping to Maine provide the broadest bullion selection.",
+      "Portland offers the strongest in-person dealer options in Maine. For larger purchases, the tax differential makes New Hampshire worth considering — a short drive for southern Maine buyers, with no sales tax on any purchase. Online dealers shipping to Maine will collect the 5.5% sales tax if they have nexus, adding meaningfully to the total cost. Maine's smaller dealer base means in-state pricing comparison is limited; comparing against online dealer pricing helps establish whether local quotes are competitive even before adding tax. For estate liquidations, getting quotes from at least two sources is particularly important given the limited competition.",
+    commonScams:
+      "Common scams in Maine include telemarketing operations selling 'rare' coins at premiums above their actual market value, and 'cash for gold' operations offering well below market prices to estate sellers. Maine's retiree population is a documented focus for these operators. The Maine Attorney General's Consumer Protection Division maintains resources for buyers who suspect they have been targeted. The protective steps are consistent with every other state: verify current spot price independently, compare quotes from multiple sources, and avoid transactions under time pressure.",
+    whatToVerify:
+      "Verify dealer registration with the Maine Secretary of State, check BBB profiles, and review independent customer feedback. For numismatic purchases, confirm grading certifications come from PCGS or NGC. For bullion, get written pricing relative to current spot — and factor in the 5.5% sales tax when comparing to out-of-state or online alternatives, since that tax is a real and material part of your total acquisition cost in Maine.",
+    displayOrder: [
+      "salesTax",
+      "intro",
+      "buyingTips",
+      "commonScams",
+      "whatToVerify",
+    ],
+    sources: [
+      {
+        label: "Maine sales tax — no precious metals exemption as of 2026",
+        url: "https://www.soundmoneydefense.org/gold-silver-laws-maine",
+      },
+    ],
   },
   mississippi: {
     intro:
-      "Mississippi's precious metals market is modest, with coin dealers operating primarily in Jackson, Gulfport, and Hattiesburg. The state's Gulf Coast region sees tourism-related jewelry trade, and estate gold from the antebellum era occasionally surfaces in the northern Mississippi hill country. Mississippi charges sales tax on precious metals transactions, which affects local dealer economics. The Memphis, Tennessee market — easily accessible from northern Mississippi — provides a broader range of options.",
+      "Mississippi's precious metals market is concentrated in Jackson, with secondary dealer activity in Gulfport-Biloxi on the Gulf Coast and Tupelo in the northeast. The state's smaller population and rural character mean fewer in-state dealer options than neighboring Tennessee or Louisiana, but Jackson's established dealers maintain steady inventory and serve both retail buyers and estate sellers. Mississippi's 2023 legislation removing sales tax from precious metals was a significant development that brought the state in line with most of its neighbors and removed a cost barrier that had historically driven some Mississippi buyers to transact out of state.",
+    salesTax:
+      "Mississippi exempts the sale of coins, currency, and bullion from state sales tax under legislation enacted through Senate Bill 2862, signed by Governor Tate Reeves in April 2023. The exemption covers coins, currency, and bullion manufactured from gold, silver, platinum, or palladium, including items sold based on their collectible value — a notably broader definition than many states, which exclude numismatic items priced above metal content. Mississippi became the 43rd state to eliminate sales taxes on gold and silver bullion. The exemption took effect July 1, 2023. Jewelry, decorative items, and processed precious metal products remain taxable. Mississippi does not separately exempt capital gains on precious metals at the state level — gains are taxed as ordinary income under the state's progressive income tax structure.",
     buyingTips:
-      "Memphis-area dealers are the closest major market for northern Mississippi residents. For bullion, online dealers shipping to Mississippi addresses offer competitive pricing without the friction of local sales tax in most investment-grade transactions.",
+      "Jackson offers the primary in-person dealer options in Mississippi. Gulfport-Biloxi supports a smaller dealer community. For larger purchases or specialized products, online dealers shipping to Mississippi provide wider selection at competitive premiums, and with the 2023 sales tax exemption in place the total-cost comparison is straightforward. Mississippi buyers near the Tennessee or Louisiana lines may find more selection crossing into Memphis or New Orleans markets, both of which support deeper dealer communities and active coin show circuits.",
+    commonScams:
+      "Common scams in Mississippi follow patterns documented across the South: telemarketing operations selling 'rare' coins at inflated premiums targeting older buyers, and 'cash for gold' operations offering well below market prices to estate sellers. The Mississippi Attorney General's Consumer Protection Division has handled cases involving these patterns. The protective steps remain consistent: verify current spot price independently, compare quotes from multiple sources, and avoid transactions under time pressure or with operators who won't provide written pricing.",
+    whatToVerify:
+      "Verify dealer registration with the Mississippi Secretary of State, check BBB profiles, and review independent customer feedback. For numismatic purchases, confirm grading certifications come from PCGS or NGC. For bullion, get written pricing relative to current spot. Note that Mississippi's exemption is broader than most — it covers collectible coins valued for numismatic worth, not just bullion priced by metal content — so the exemption should apply to a wider range of products than buyers familiar with other states' narrower definitions might expect.",
+    displayOrder: [
+      "intro",
+      "salesTax",
+      "buyingTips",
+      "commonScams",
+      "whatToVerify",
+    ],
+    sources: [
+      {
+        label: "SB 2862 (2023) — Mississippi sales tax exemption for coins, currency, bullion",
+        url: "https://learn.apmex.com/learning-guide/bullion/mississippi-repeals-state-sales-tax-on-precious-metals/",
+      },
+    ],
   },
   montana: {
     intro:
@@ -254,27 +380,103 @@ export const stateContent: Record<string, StateContent> = {
   },
   nebraska: {
     intro:
-      "Nebraska's precious metals market is centered in Omaha and Lincoln, where coin shops serve a mix of collectors and conservative investors drawn to gold and silver as inflation hedges. The Omaha area, home to Berkshire Hathaway, has a disproportionately investment-minded population that includes significant precious metals interest. Nebraska charges sales tax on precious metals, though some municipalities have lower rates that apply to local transactions.",
+      "Nebraska's precious metals market is concentrated in Omaha and Lincoln, with Omaha serving as the state's commercial anchor and a regional financial center that supports a more sophisticated investor base than the state's population alone might suggest. Berkshire Hathaway's presence, several major insurance companies, and the broader financial services sector anchored in Omaha contribute to an investor community with above-average interest in portfolio diversification through physical metals. Lincoln's state government and University of Nebraska communities support a steady retail market. Estate gold from agricultural and small business families is a consistent supply source across the state.",
+    salesTax:
+      "Nebraska exempts qualifying currency and bullion from state and local sales and use taxes under a framework most recently updated by LB 1317, operative January 1, 2025. The updated statute uses a notably broad definition: bullion includes coins, bars, ingots, notes, leaf, foil, film, or commemorative medallions of gold, silver, platinum, or palladium, or a combination of these, for which value depends primarily on content and not form. Currency includes coins or currency made of gold, silver, other metal, or paper and used as legal tender. The inclusion of notes, leaf, foil, and film in the bullion definition makes Nebraska's exemption one of the more expansive in the country — most states limit their definitions to coins, bars, and ingots. The statute explicitly provides that sales and use taxes shall not be imposed on qualifying currency or bullion, which extends the exemption to local taxes in addition to the state rate.",
     buyingTips:
-      "Omaha has the most active coin dealer market in Nebraska. For investment-grade bullion, online dealers shipping to Nebraska offer full product selection. The Omaha and Lincoln areas host regular coin shows worth attending for collectors.",
+      "Omaha and Lincoln offer the strongest in-person dealer options in Nebraska. Online dealers shipping to Nebraska provide wider selection and competitive premiums for larger purchases. Nebraska's coin show circuit, primarily centered in Omaha and Lincoln, offers in-person comparison opportunities. For estate liquidations, Omaha's larger dealer base provides enough competition to make multi-quote comparisons worthwhile — the financial services culture in the city supports dealers who are accustomed to serving informed buyers.",
+    commonScams:
+      "Common scams in Nebraska include telemarketing pushing 'rare' coins at inflated premiums and traveling roadshow buyers offering well below market prices to estate sellers. The Nebraska Attorney General's office has pursued enforcement actions involving these patterns. Legislative efforts to repeal the bullion exemption have surfaced in Nebraska — worth monitoring if you are a Nebraska buyer, since a repeal would materially affect your purchase costs. Verifying current spot price independently is the primary defense against overpriced offerings.",
+    whatToVerify:
+      "Verify dealer registration with the Nebraska Secretary of State, check BBB profiles, and review independent customer feedback. For numismatic purchases, confirm grading certifications come from PCGS or NGC. For bullion, get written pricing relative to current spot. Nebraska's broad exemption definition means most standard bullion products qualify, but items processed for industrial, artistic, or decorative uses may not — confirm with the dealer if there is any ambiguity about a specific product.",
+    displayOrder: [
+      "intro",
+      "salesTax",
+      "buyingTips",
+      "whatToVerify",
+      "commonScams",
+    ],
+    sources: [
+      {
+        label: "LB 1317 — Nebraska currency and bullion exemption, operative January 1, 2025",
+        url: "https://grreserve.com/sales-tax/",
+      },
+    ],
   },
   nevada: {
     intro:
-      "Nevada has deep mining roots — the Comstock Lode silver discovery in 1859 shaped the state's early economy and still defines its identity around mineral wealth. Las Vegas and Reno both have active precious metals markets, with coin shops, pawn dealers, and refiners serving a high-volume transient population and a core of local investors. Nevada charges no state income tax and no sales tax on most precious metals transactions, making it one of the most favorable states for bullion buying and selling.",
+      "Nevada's precious metals market is anchored by Las Vegas and Reno, with Las Vegas supporting the largest dealer community by far. The city's tourism economy, substantial transient population, and long-standing cash-economy culture create distinct market dynamics — both established residents and visitors transact in precious metals, and the dealer landscape includes both credible established operators and some who leverage the city's less price-aware tourist traffic. Reno's smaller but established dealer base serves Northern Nevada and the eastern Sierra. Nevada has no state income tax, which eliminates state-level capital gains tax on precious metals sales entirely — a genuine structural advantage. However, its sales tax treatment of precious metals is significantly less favorable than most neighboring states, creating an unusual combination of zero income tax but taxable purchases.",
+    salesTax:
+      "Nevada's sales tax treatment of precious metals is ambiguous and less favorable than most of its neighbors. The state applies an 'intent of use' standard that creates uncertainty about which transactions qualify for any exemption. Most precious metal coins are taxable, and bars and rounds face an unclear regulatory test. Combined state and local sales tax rates in Nevada range from approximately 6.85% to 8.375% depending on location — substantially higher than the zero rate available in neighboring Oregon (no sales tax) and the clear exemptions in Arizona, Utah, Idaho, and Colorado. Assembly Bill 359, introduced in the 2025 legislative session, proposed placing a full exemption referendum on the November 2026 ballot. If passed by voters, a comprehensive exemption covering coins, currency, and bullion would take effect January 1, 2027 — but as of mid-2026 the current ambiguous framework remains in effect. Confirm the tax treatment of any specific purchase with the dealer before transacting.",
     buyingTips:
-      "Las Vegas has by far the largest and most competitive precious metals market in Nevada. The local competition among dealers often produces favorable buy/sell spreads. Reno offers a strong secondary market. National online dealers also ship to Nevada with no state sales tax on qualifying bullion.",
+      "Las Vegas and Reno offer strong in-person dealer options in Nevada. Las Vegas's larger market includes both established storefront dealers and operators in the broader cash-economy environment — sticking with established dealers with verifiable track records and published pricing is particularly important in this market. Online dealers shipping to Nevada will typically collect sales tax, which adds meaningfully to the total cost. Buyers near the Oregon, Arizona, or Utah borders may find the tax treatment in those states more favorable for larger purchases.",
+    commonScams:
+      "Las Vegas's tourist-heavy economy and cash-friendly culture have attracted operators selling precious metals at significant premiums to less price-aware buyers. Established Las Vegas dealers maintain professional standards, but verifying spot price independently before any significant purchase is essential. Telemarketing scams and online operations also target Nevada residents through standard channels. The Nevada Attorney General's Bureau of Consumer Protection maintains resources for buyers who suspect they have been targeted.",
+    whatToVerify:
+      "Verify dealer registration with the Nevada Secretary of State, check BBB profiles, and review independent customer feedback — particularly for Las Vegas dealers given the broader market's range of operators. For numismatic purchases, confirm grading certifications come from PCGS or NGC. For bullion, get written pricing relative to current spot. Given Nevada's ambiguous sales tax framework, always confirm with the dealer whether sales tax will be charged on your specific purchase before committing.",
+    displayOrder: [
+      "intro",
+      "salesTax",
+      "commonScams",
+      "buyingTips",
+      "whatToVerify",
+    ],
+    sources: [
+      {
+        label: "Nevada precious metals tax treatment — limited exemption, AB 359 pending",
+        url: "https://goldbroker.com/sales-tax/nevada",
+      },
+    ],
   },
   "new-hampshire": {
     intro:
-      "New Hampshire's \"Live Free or Die\" ethos extends to financial privacy — the state has no income tax on wages and no sales tax of any kind, making it one of the cleanest states for precious metals transactions. The Nashua and Manchester areas have the most active local coin markets, and the state participates in the broader New England coin show circuit. Granite State residents have historically favored tangible assets, and physical gold and silver ownership is common.",
+      "New Hampshire's precious metals market is concentrated in the Manchester-Nashua corridor and the Seacoast region (Portsmouth and surrounding communities), with smaller dealer presence in Concord and the Lakes Region. The state's absence of any sales tax makes it a natural destination for buyers from neighboring Massachusetts and Maine looking to avoid their states' sales tax on precious metals purchases. New Hampshire's established libertarian-leaning political culture also supports steady underlying interest in precious metals as financial alternatives and stores of value independent of the banking system. The state's population is modest, but the cross-border draw from Massachusetts — the most populous of the bordering states — effectively enlarges the buyer market that New Hampshire dealers serve.",
+    salesTax:
+      "New Hampshire imposes no state sales tax of any kind — it is one of five US states with no general retail sales tax. This applies uniformly to all precious metals purchases regardless of product type, transaction size, or buyer residency. The dealer's quoted price is the buyer's total cost, with no tax calculation required. This zero-tax treatment applies equally to bullion, numismatic coins, jewelry, and every other category, unlike states where the applicable rate depends on whether an item qualifies under a specific bullion exemption definition. For buyers crossing state lines from Massachusetts (which exempts bullion over $1,000 but taxes below that threshold) or Maine (which applies 5.5% with no exemption), New Hampshire offers a straightforward cost advantage on any purchase.",
     buyingTips:
-      "Manchester and Nashua have the most established coin and bullion dealers in New Hampshire. The state's complete sales tax exemption makes purchasing locally or through online dealers equally favorable from a tax standpoint.",
+      "Manchester, Nashua, and the Portsmouth area offer the strongest in-person dealer options in New Hampshire. The Seacoast region benefits from proximity to the greater Boston market. Online dealers shipping to New Hampshire compete directly with local pricing since there is no sales tax to factor in either way — the comparison is purely on premium and shipping. For buyers crossing from Massachusetts or Maine specifically for tax purposes, verify the dealer's policies on out-of-state transactions and understand that your home state may have use-tax obligations on out-of-state purchases (enforcement varies, but the obligation exists in most states with sales tax).",
+    commonScams:
+      "Common scams in New Hampshire include telemarketing operations selling 'rare' coins at premiums above their actual market value, and online operations using wire-transfer-only payments to push exclusive coin offerings. The New Hampshire Attorney General's Consumer Protection Bureau maintains resources for buyers who suspect they have been targeted. New Hampshire's smaller market size limits the scale of in-state scam operations, but phone and internet-based schemes reach buyers regardless of geography.",
+    whatToVerify:
+      "Verify dealer registration with the New Hampshire Secretary of State, check BBB profiles, and review independent customer feedback. For numismatic purchases, confirm grading certifications come from PCGS or NGC. For bullion, get written pricing relative to current spot. New Hampshire's absence of sales tax simplifies the total-cost calculation, but doesn't change the importance of verifying premiums, product authenticity, and dealer reputation.",
+    displayOrder: [
+      "salesTax",
+      "intro",
+      "buyingTips",
+      "commonScams",
+      "whatToVerify",
+    ],
+    sources: [
+      {
+        label: "New Hampshire — no state sales tax of any kind",
+        url: "https://www.soundmoneydefense.org/gold-silver-laws-new-hampshire",
+      },
+    ],
   },
   "new-mexico": {
     intro:
-      "New Mexico's precious metals market reflects the state's mining heritage and proximity to Mexico. Silver City — named for the silver veins discovered in the 1870s — is part of a broader regional mining legacy. Albuquerque and Santa Fe have active coin and jewelry markets, with particular strength in silver jewelry, Navajo and Pueblo artisan silverwork, and vintage turquoise-and-silver pieces that cross into precious metals collecting. New Mexico does not charge sales tax on most investment-grade bullion.",
+      "New Mexico's precious metals market is concentrated in Albuquerque and Santa Fe, with smaller dealer presence in Las Cruces and Rio Rancho. Santa Fe's role as a destination for high-end art and antique collectors creates a distinct market for numismatic items and collectible coins that trades in parallel with the standard bullion market — Santa Fe dealers often specialize in Spanish colonial coinage, Native American silver, and other regional specialties that carry collector premiums well above metal content. Albuquerque's larger population supports a broader retail dealer base oriented toward investment bullion. New Mexico's mining history and proximity to silver-producing regions contribute to ongoing local interest in silver specifically.",
+    salesTax:
+      "New Mexico imposes its Gross Receipts Tax (GRT) on most commercial transactions, and precious metals are not exempt. There is no bullion exemption, no coin exemption, and no threshold above which tax doesn't apply. The effective rate varies significantly by location — the combined state and local GRT ranges from approximately 5.125% in some jurisdictions to 8.8675% in others, depending on the municipality and county. This makes New Mexico one of only four states (alongside Hawaii, Maine, and Vermont) with no precious metals tax relief of any kind as of mid-2026. Legislation to create an exemption has been discussed but not enacted. For a $4,000 gold purchase in Albuquerque (GRT approximately 7.875%), the tax adds roughly $315 — a material cost that buyers in neighboring Arizona, Colorado, Utah, or Texas do not face.",
     buyingTips:
-      "Albuquerque has the largest precious metals market in New Mexico, with coin shops and estate jewelers serving both collector and investment demand. Santa Fe's gallery and antique districts offer unique estate silver. Online dealers provide standard bullion products at competitive premiums.",
+      "Albuquerque and Santa Fe offer the strongest in-person dealer options in New Mexico. For investment bullion, Albuquerque dealers and online options provide more straightforward pricing than Santa Fe's specialty collector market. Santa Fe's numismatic dealers command collector premiums that reflect genuine rarity and regional significance — pricing in that market is not comparable to standard bullion economics and should not be evaluated by the same standards. For larger bullion purchases, buyers near the Arizona, Colorado, or Texas borders may find the tax savings of purchasing out of state meaningful, though use-tax obligations may apply depending on the transaction. Online dealers shipping to New Mexico will collect GRT if they have nexus.",
+    commonScams:
+      "Common scams in New Mexico include telemarketing operations selling 'rare' coins at inflated premiums and 'cash for gold' buyers offering well below market prices to estate sellers. Santa Fe's high-end collector market has also seen operators pushing coins described as 'rare' or 'historic' at premiums that don't survive comparison to established numismatic market values. The New Mexico Attorney General's office maintains resources for buyers who suspect they have been targeted.",
+    whatToVerify:
+      "Verify dealer registration with the New Mexico Secretary of State, check BBB profiles, and review independent customer feedback. For numismatic purchases — which are more common in New Mexico than in many states due to Santa Fe's active collector market — confirm grading certifications come from PCGS or NGC and that asking prices align with published numismatic market values. For bullion, get written pricing relative to current spot. Always confirm the applicable GRT rate before transacting, since rates vary significantly by location within the state.",
+    displayOrder: [
+      "intro",
+      "salesTax",
+      "buyingTips",
+      "commonScams",
+      "whatToVerify",
+    ],
+    sources: [
+      {
+        label: "New Mexico Gross Receipts Tax — no precious metals exemption",
+        url: "https://www.soundmoneydefense.org/gold-silver-laws-new-mexico",
+      },
+    ],
   },
   ohio: {
     intro:
@@ -432,9 +634,32 @@ export const stateContent: Record<string, StateContent> = {
   },
   utah: {
     intro:
-      "Utah has some of the most progressive precious metals laws in the country — the state formally recognizes gold and silver coins as legal tender and exempts them from state capital gains tax. Salt Lake City has a strong coin and bullion dealer community, and the state's LDS culture, which historically emphasizes self-reliance and food storage, extends to physical precious metals as a component of financial preparedness. The U.S. Mint's West Point facility has historical ties to Utah silver mining.",
+      "Utah has one of the most distinctive precious metals markets in the country, anchored by a legal and policy framework that goes further than any other state in treating gold and silver as money rather than as commodities. The Utah Legal Tender Act, first enacted in 2011 as HB 317, made Utah the first state in over 80 years to recognize US-minted gold and silver coins as legal tender — a position rooted in Article I, Section 10 of the US Constitution. Subsequent legislation, including HB 306 (2024), expanded the framework to authorize electronic payment platforms backed by precious metals and to allow state vendors to accept gold and silver. Salt Lake City and Provo support active dealer markets, with smaller dealer communities in Ogden, St. George, and Logan. The combination of favorable policy, no state capital gains tax on specie, a culturally engaged investor base, and an active local dealer market makes Utah one of the more active precious metals states relative to its population.",
+    salesTax:
+      "Utah exempts qualifying precious metals from state sales and use tax under Utah Code § 59-12-104. The exemption covers gold, silver, and platinum bullion with a precious metal content of at least 50% — a lower purity threshold than most states require, making the exemption unusually inclusive. Notably, palladium is explicitly excluded from Utah's bullion exemption; palladium bars and coins (other than those qualifying as foreign legal tender) are subject to Utah sales tax. US government-issued gold and silver coins qualify both under the bullion exemption and as specie legal tender under the Legal Tender Act. The capital gains treatment is equally favorable: Utah Code § 59-10-1028 provides a nonrefundable credit for capital gains recognized on the sale or exchange of gold and silver coins issued by the US government, effectively eliminating state capital gains tax on those transactions. Combined state and local sales tax rates in Utah range from approximately 6% to 8.5% depending on location — qualifying bullion is exempt from all of these.",
     buyingTips:
-      "Salt Lake City has multiple established coin and bullion dealers competing for business, which typically produces favorable pricing. Provo and Ogden have smaller markets. Utah's legal tender recognition of gold and silver coins is unique among states and benefits long-term holders.",
+      "Salt Lake City and Provo offer the strongest in-person dealer options in Utah, with multiple established dealers competing for retail business. Utah's policy environment has attracted some specialty operators and products — including the Utah Goldback, a non-monetary precious metals product denominated in fractional gold — which exist alongside the standard bullion market. For traditional bullion, both in-state dealers and online options offer competitive pricing. The 50% purity threshold means even lower-purity items that wouldn't qualify in stricter states may be exempt here — but confirm with the dealer for items near the threshold.",
+    commonScams:
+      "Common scams in Utah follow standard patterns: telemarketing operations selling 'rare' coins at inflated premiums and online operations using wire-transfer-only payments to push exclusive offerings. Utah's specialty precious metals products — like Goldbacks — have generated consumer questions about their actual value relative to their gold content and their face-value pricing; understanding the relationship between a product's stated value and its actual metal content matters before buying. The Utah Division of Consumer Protection maintains resources for buyers who suspect they have been targeted.",
+    whatToVerify:
+      "Verify dealer registration with the Utah Department of Commerce, check BBB profiles, and review independent customer feedback. For numismatic purchases, confirm grading certifications come from PCGS or NGC. For bullion, get written pricing relative to current spot. Note Utah's palladium exclusion — if you are purchasing palladium, sales tax applies regardless of form. For Utah-specific products like Goldbacks, understand the relationship between the product's pricing and its actual gold content before buying — these products carry premiums that reflect their novelty and utility features, not just their metal value.",
+    displayOrder: [
+      "salesTax",
+      "intro",
+      "buyingTips",
+      "whatToVerify",
+      "commonScams",
+    ],
+    sources: [
+      {
+        label: "Utah Code § 59-12-104 — Sales tax exemption for bullion (50%+ precious metal content)",
+        url: "https://www.soundmoneydefense.org/gold-silver-laws-utah",
+      },
+      {
+        label: "Utah Code § 59-10-1028 — Capital gains credit for gold and silver coin exchange",
+        url: "https://incometax.utah.gov/credits/coin-sales",
+      },
+    ],
   },
   vermont: {
     intro:
@@ -492,9 +717,32 @@ export const stateContent: Record<string, StateContent> = {
   },
   "west-virginia": {
     intro:
-      "West Virginia's precious metals market is modest, with coin shops operating in Charleston and Huntington. The state's coal and natural resources history has driven wealth that occasionally surfaces in estate gold and silver collections. West Virginia charges sales tax on precious metals transactions, which affects local pricing. The state's proximity to Ohio — which has a much larger dealer community — means many West Virginia buyers cross the border for larger purchases.",
+      "West Virginia's precious metals market is concentrated in Charleston and Huntington, with smaller dealer presence in Morgantown, the Eastern Panhandle (Martinsburg, Charles Town), and Parkersburg. The state's coal and natural gas industries have generated significant family wealth over generations, contributing to a steady supply of estate gold and silver coming through West Virginia dealers. The state's rural character and smaller dealer base mean in-state options are more limited than neighboring Virginia, Ohio, or Pennsylvania, and many West Virginia buyers travel to those markets or transact online for wider selection. West Virginia's 2019 legislation removing sales tax from investment bullion and coins brought the state in line with its neighbors and eliminated a cost barrier that had historically driven cross-border purchasing.",
+    salesTax:
+      "West Virginia exempts the sale of investment metal bullion and investment coins from state consumer sales and service tax under W. Va. Code § 11-15-9R, enacted through Senate Bill 502 and effective July 1, 2019. The bill was introduced by Senator Craig Blair with the explicit goal of encouraging precious metals purchasers to keep their investment dollars in state rather than crossing into Virginia, Ohio, or Pennsylvania. The statute defines investment metal bullion as any elementary precious metal put through a process of smelting or refining — including gold, silver, platinum, and palladium — whose value depends on its content and not its form. Investment coins are defined as numismatic coins or other forms of money and legal tender manufactured of gold, silver, platinum, palladium, or other metal, of the United States or any foreign nation, with a fair market value greater than any nominal value. The bill passed unanimously in the Senate. Bullion that has been assembled, fabricated, manufactured, or processed for industrial, professional, aesthetic, or artistic uses does not qualify for the exemption.",
     buyingTips:
-      "Charleston has the most established coin market in West Virginia. For larger bullion purchases, the Columbus and Cincinnati Ohio markets are accessible. Online dealers shipping to West Virginia provide the broadest selection.",
+      "Charleston and Huntington offer the primary in-person dealer options in West Virginia. The Eastern Panhandle (Martinsburg, Charles Town) and Morgantown have smaller dealer presences. West Virginia buyers near Virginia, Ohio, or Pennsylvania borders can access deeper dealer markets within reasonable driving distance — all three neighboring states also exempt bullion from sales tax, so cross-border purchases don't introduce a tax disadvantage. Online dealers shipping to West Virginia provide wider selection at competitive premiums, with the exemption keeping total costs straightforward.",
+    commonScams:
+      "Common scams in West Virginia include telemarketing operations selling 'rare' coins at premiums above their actual market value and 'cash for gold' operations offering well below market prices to estate sellers. The state's older rural population is a documented focus for these operators. The West Virginia Attorney General's Consumer Protection Division maintains resources for buyers who suspect they have been targeted. Verifying current spot price independently and getting multiple quotes before transacting is the primary defense.",
+    whatToVerify:
+      "Verify dealer registration with the West Virginia Secretary of State, check BBB profiles, and review independent customer feedback. For numismatic purchases, confirm grading certifications come from PCGS or NGC. For bullion, get written pricing relative to current spot. West Virginia's exemption explicitly excludes bullion processed for industrial or artistic uses — if a product straddles that boundary, confirm with the dealer that it qualifies under W. Va. Code § 11-15-9R before assuming the exemption applies.",
+    displayOrder: [
+      "intro",
+      "salesTax",
+      "buyingTips",
+      "commonScams",
+      "whatToVerify",
+    ],
+    sources: [
+      {
+        label: "W. Va. Code § 11-15-9R — Exemption for investment metal bullion and coins",
+        url: "https://code.wvlegislature.gov/11-15-9R/",
+      },
+      {
+        label: "SB 502 (2019) — West Virginia removes sales tax on precious metals",
+        url: "https://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=SB502+INTR.htm&yr=2019&sesstype=RS&i=502",
+      },
+    ],
   },
   wisconsin: {
     intro:
