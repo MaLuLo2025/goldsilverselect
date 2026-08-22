@@ -61,6 +61,13 @@ export default function TickerBanner() {
   // outcome — there's nothing wrong, prices just aren't expected right now.
   const isHardError = marketOpen && fetchStatus === "error";
 
+  // Closed market but we still have a last-known price set (from the API's
+  // last-close data) — show it, flat, instead of blanking the ticker. No
+  // captured-at timestamp: "markets closed" is the only honest disclosure
+  // we can make about how current these numbers are.
+  const hasPrices = prices.some((p) => p.price > 0);
+  const showClosedTicker = !marketOpen && hasPrices;
+
   useEffect(() => {
     fetch("/api/prices")
       .then((res) => (res.ok ? res.json() : null))
@@ -148,7 +155,7 @@ export default function TickerBanner() {
 
         {/* Scrolling ticker */}
         <div className="overflow-hidden flex-1">
-          {!marketOpen ? (
+          {!marketOpen && !hasPrices ? (
             <div
               className="flex items-center justify-center h-full"
               style={{ color: "#999", fontSize: 10.5, letterSpacing: "0.04em" }}
@@ -192,7 +199,10 @@ export default function TickerBanner() {
                       style={{
                         color: "#FAFAF5",
                         fontSize: 14,
-                        marginRight: m.pct != null && m.pct !== 0 ? 6 : 0,
+                        marginRight:
+                          !showClosedTicker && m.pct != null && m.pct !== 0
+                            ? 6
+                            : 0,
                       }}
                     >
                       $
@@ -200,7 +210,7 @@ export default function TickerBanner() {
                         minimumFractionDigits: 2,
                       })}
                     </span>
-                    {m.pct != null && m.pct !== 0 && (
+                    {!showClosedTicker && m.pct != null && m.pct !== 0 && (
                       <span
                         className="font-medium"
                         style={{
@@ -265,7 +275,9 @@ export default function TickerBanner() {
               </div>
             )}
             <span style={{ color: "#999", fontSize: 9, letterSpacing: "0.03em" }}>
-              Delayed 20 min
+              {showClosedTicker
+                ? `Markets closed · reopen ${nextOpenLabel} ET`
+                : "Delayed 20 min"}
             </span>
           </div>
         )}
