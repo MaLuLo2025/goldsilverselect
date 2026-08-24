@@ -23,7 +23,7 @@ chain (see Price Data Architecture below) is easy to regress silently.
 
 **Browser verification requires a production build.** Run `npm run build && npm run start`, never `npm run dev`. Next.js dev mode's HMR uses `eval()`, which this site's own CSP blocks — hydration fails silently, the page renders but interactive components never mount, and browser automation returns misleading results with no visible error. Cost a real debugging detour on 2026-08-17.
 
-**deploy.sh uses `git add -A`.** It will sweep untracked files into the commit. When the working tree has untracked files that shouldn't ship (audit docs, scratch files), stage explicitly and `git push` directly instead of running the script — the push triggers Vercel's auto-deploy either way.
+**deploy.sh (fixed 2026-08-24).** No longer runs `git add -A` — stage exactly what you want to ship (`git add <files>`) before running it. The script also refuses to run off a branch other than `main`, and refuses to commit if any staged file matches the `../CONVENTIONS.md` blocklist (`.env*`, `*.pem`, `*.key`, `*credentials*`, `node_modules/`, or >5MB).
 
 ## Connected Projects
 - **Silvester** (`~/Projects/silvester`) — gold/silver ratio signal engine that feeds data context to this site's intelligence section
@@ -97,11 +97,11 @@ Project-specific notes:
 - Financial disclaimer on every page
 
 ## Deployment
-- `./deploy.sh "commit message"` — git add, commit, push (Vercel auto-deploys)
-- **Not yet updated to the shared standard**: per `../CONVENTIONS.md`, this
-  script must move to explicit-stage-only (no `git add -A`) — see the
-  gotcha below and the Working Practices note for the current workaround
-  until that edit happens
+- `./deploy.sh "commit message"` — stage the files you want to ship
+  (`git add <files>`) first, then run it: branch check, blocklist guard,
+  commit, fetch-and-verify, push (Vercel auto-deploys). Updated 2026-08-24
+  to the `../CONVENTIONS.md` deploy-script standard — no property-specific
+  override on the script itself
 - Template literal handling and file-modification pattern are in
   `../CONVENTIONS.md` (Deployment Workflow) — no property-specific override
 - Always verify Vercel status after push
