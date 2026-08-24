@@ -1,5 +1,11 @@
 # GoldSilverSelect.com
 
+## Shared Conventions
+Authoritative shared conventions for all Select properties live at
+`../CONVENTIONS.md`. This file documents only property-specific overrides
+or details. Do not duplicate shared conventions here; update
+`CONVENTIONS.md` instead and propagate as needed.
+
 ## Project Overview
 Independent directory of precious metals dealers, Gold & Silver IRA custodians, recyclers, and jewelers. Part of the Select Sites portfolio (AestheticSelect, FirearmSelect, GoWeddingSelect, GoLawyerSelect, GoldSilverSelect).
 
@@ -8,17 +14,12 @@ All generated files for this project go to `~/Claude Files/goldsilverselect/` �
 
 ## ECC Workflow
 
-- `/plan` before any non-trivial change — especially anything touching /api/prices
-- `/security-scan` before deploying any new API endpoint
-- `/code-review` before every deploy
-- Log any mistakes to `gotchas.md` at project root
-- Run `/learn` at session end
+Base checklist and debugging/verification discipline are in
+`../CONVENTIONS.md`. Property-specific override: `/plan` especially
+carefully before anything touching `/api/prices` — that route's fallback
+chain (see Price Data Architecture below) is easy to regress silently.
 
 ## Working Practices
-
-**Debugging discipline.** After three failed hypotheses on the same problem, stop and explicitly state a comparison: estimated cost of continued debugging vs. estimated cost of a clean rebuild of the affected component. State the comparison before proceeding either way. Favor rebuild when the component is small enough to rewrite in under an hour, when you understand why the current version fails but not why it ever worked, or when each fix reveals another layer.
-
-**Verification tooling.** For timing-sensitive or click-sensitive browser verification, use Playwright with element-handle clicks rather than the Chrome extension. Fixed-coordinate and ref-based clicks through the extension have produced phantom failures that Playwright could not reproduce (documented during the August 2026 consent banner work). The extension remains fine for rendering and content checks.
 
 **Browser verification requires a production build.** Run `npm run build && npm run start`, never `npm run dev`. Next.js dev mode's HMR uses `eval()`, which this site's own CSP blocks — hydration fails silently, the page renders but interactive components never mount, and browser automation returns misleading results with no visible error. Cost a real debugging detour on 2026-08-17.
 
@@ -97,8 +98,12 @@ Project-specific notes:
 
 ## Deployment
 - `./deploy.sh "commit message"` — git add, commit, push (Vercel auto-deploys)
-- Files with template literals: downloadable files, never Terminal heredocs
-- Modifying existing files: produce full replacement download, not sed scripts
+- **Not yet updated to the shared standard**: per `../CONVENTIONS.md`, this
+  script must move to explicit-stage-only (no `git add -A`) — see the
+  gotcha below and the Working Practices note for the current workaround
+  until that edit happens
+- Template literal handling and file-modification pattern are in
+  `../CONVENTIONS.md` (Deployment Workflow) — no property-specific override
 - Always verify Vercel status after push
 
 ## Price Data Architecture (read before touching /api/prices)
