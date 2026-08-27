@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { Redis } from "@upstash/redis";
+import { cacheGet, cacheSet } from "@/lib/cache/runtime-cache";
 
 // Always run on request (never prerender/freeze at build). The upstream snapshot
 // fetch below is still cached ~60s, so this stays cheap while staying live.
@@ -9,9 +9,9 @@ export const dynamic = "force-dynamic";
 //
 // Primary source: The Gold Window's public dashboard snapshot API (real-time,
 // server-side cached). We consume it read-only — no coupling to TGW internals.
-// Backup: the last-good result cached in GSS Redis (kept warm on every success —
-// including closed-market last-close data, not just live), so a snapshot-API
-// hiccup still serves recent prices for up to 20 min.
+// Backup: the last-good result kept in the Vercel Runtime Cache (warmed on
+// every success, including closed-market last-close data and not just live),
+// so a snapshot-API hiccup still serves recent prices for up to 20 min.
 // If neither yields any valid gold/silver numbers, we return 503 — that's a
 // genuine failure (TGW unreachable, malformed response, no data at all), not
 // a closed market. A closed market still returns 200 with the last-close
@@ -49,21 +49,6 @@ function num(v: unknown): number | null {
 function validMetal(m: unknown): m is MetalResult {
   const p = num((m as MetalResult)?.price);
   return p !== null && p > 0;
-}
-
-let gssRedis: Redis | null = null;
-function getGssRedis(): Redis | null {
-  if (gssRedis) return gssRedis;
-  const url = process.env.UPSTASH_REDIS_REST_URL;
-  const token = process.env.UPSTASH_REDIS_REST_TOKEN;
-  if (!url || !token) return null;
-  try {
-    gssRedis = new Redis({ url, token });
-    return gssRedis;
-  } catch (err) {
-    console.error("[prices] Failed to init GSS Redis client:", err);
-    return null;
-  }
 }
 
 // Pull + validate prices from the TGW snapshot API — live or last-close.
@@ -119,32 +104,27 @@ export async function GET() {
     // closed-market data now, not just live, so the 20-min fallback window
     // doesn't go stale during an extended TGW outage that happens to
     // coincide with a closed market.
-    const gss = getGssRedis();
-    if (gss) {
-      gss
-        .set(GSS_CACHE_KEY, { ...snap.results, marketOpen: snap.marketOpen }, { ex: GSS_CACHE_TTL_SECONDS })
-        .catch((err) => console.error("[prices] GSS warm-write error:", err));
-    }
+    void cacheSet(
+      GSS_CACHE_KEY,
+      { ...snap.results, marketOpen: snap.marketOpen },
+      GSS_CACHE_TTL_SECONDS,
+      ["prices"]
+    );
     return NextResponse.json({ ...snap.results, marketOpen: snap.marketOpen, _source: "tgw-snapshot" });
   }
 
-  // ── 2. Backup: last-good GSS Redis cache ─────────────────────────────────
-  const gss = getGssRedis();
-  if (gss) {
-    try {
-      const cached = await gss.get<Record<string, MetalResult> & { marketOpen?: boolean }>(GSS_CACHE_KEY);
-      if (cached && validMetal(cached.gold) && validMetal(cached.silver)) {
-        console.log(`[metals-call] key=gss-redis-fallback ts=${ts}`);
-        const { marketOpen, ...prices } = cached;
-        return NextResponse.json({
-          ...prices,
-          ...(marketOpen !== undefined ? { marketOpen } : {}),
-          _source: "redis",
-        });
-      }
-    } catch (err) {
-      console.error("[prices] GSS Redis read error:", err);
-    }
+  // ── 2. Backup: last-good Runtime Cache entry ─────────────────────────────
+  const cached = await cacheGet<Record<string, MetalResult> & { marketOpen?: boolean }>(
+    GSS_CACHE_KEY
+  );
+  if (cached && validMetal(cached.gold) && validMetal(cached.silver)) {
+    console.log(`[metals-call] key=runtime-cache-fallback ts=${ts}`);
+    const { marketOpen, ...prices } = cached;
+    return NextResponse.json({
+      ...prices,
+      ...(marketOpen !== undefined ? { marketOpen } : {}),
+      _source: "runtime-cache",
+    });
   }
 
   // ── 3. Nothing valid → hide the ticker ───────────────────────────────────
