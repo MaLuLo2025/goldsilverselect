@@ -31,6 +31,11 @@ while IFS= read -r f; do
   [ -z "$f" ] && continue
   base=$(basename "$f")
   case "$base" in
+    # Templates are meant to be committed — they carry variable NAMES, never
+    # values. Listed explicitly and matched before the .env* deny below, so the
+    # rule stays deny-by-default: anything not named here (.env, .env.local,
+    # .env.production, .env.anything) is still blocked.
+    .env.example|.env.sample|.env.template) ;;
     .env*) BLOCKED="${BLOCKED}  $f (matches .env*)"$'\n' ;;
     *.pem) BLOCKED="${BLOCKED}  $f (matches *.pem)"$'\n' ;;
     *.key) BLOCKED="${BLOCKED}  $f (matches *.key)"$'\n' ;;
