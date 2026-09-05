@@ -367,6 +367,15 @@ export const faqCategories: FAQCategory[] = [
         answer: "Fixed fabrication costs (minting, packaging, distribution) are similar between gold and silver in absolute dollars \u2014 roughly $1\u20133 per ounce of metal. Spread across a $32 ounce of silver, those costs become a much larger percentage than when spread across a $2,650 ounce of gold. The percentage premium on silver looks alarming but is proportionate to gold premium in dollar-of-fabrication terms.",
       },
       {
+        question: "Why does silver's price move more than gold's on the same news?",
+        answer: "Three structural factors make silver more volatile than gold. The silver market is roughly one-tenth the size of the gold market by total value, so the same buying or selling pressure moves silver's price proportionally more. Silver also has significant industrial demand (roughly 50% of annual consumption), so it responds to both monetary/investment forces and economic-growth expectations simultaneously, while gold's industrial demand is negligible. And the gold/silver ratio tends to widen in risk-off periods and narrow in risk-on periods, which amplifies whatever direction gold is already moving. This is a structural, permanent characteristic of silver \u2014 not a sign that something unusual is happening.",
+        learnMoreLabel: "Silver at $64: Why Silver\u2019s Volatility Is Different From Gold\u2019s",
+        learnMoreHref: "/blog/silver-volatility-different-from-gold",
+        links: [
+          { label: "Silver\u2019s Industrial Demand: Why It Behaves Differently Than Gold", href: "/blog/silver-industrial-demand" },
+        ],
+      },
+      {
         question: "Are 100-ounce silver bars a good deal?",
         learnMoreLabel: "Silver Premiums and Bar Size",
         learnMoreHref: "/blog/silver-premiums-and-bar-size",
@@ -457,12 +466,18 @@ export const faqCategories: FAQCategory[] = [
         answer: "If you store precious metals at home, use a quality safe that is both fireproof and securely anchored \u2014 bolted to the floor or wall. Keep your holdings private. Discussing what you own, how much you have, or where you store it creates unnecessary risk. Consider splitting your holdings across multiple locations to reduce the impact of any single loss. And check your homeowner\u2019s or renter\u2019s insurance policy carefully \u2014 standard policies often have surprisingly low coverage limits for precious metals, sometimes as little as $200. You may need a scheduled rider or separate policy.",
         learnMoreLabel: "Home, Vault, or Safe Deposit Box? Full Storage Guide",
         learnMoreHref: "/blog/storing-gold-silver-safely",
+        links: [
+          { label: "Where to Store Your Gold: Home, Bank, or Depository?", href: "/blog/where-to-store-gold-home-bank-depository" },
+        ],
       },
       {
         question: "What about bank safe deposit boxes?",
         answer: "Safe deposit boxes offer strong physical security, but they have limitations worth understanding. Their contents are not FDIC insured \u2014 if items are lost, damaged, or stolen, the bank\u2019s liability is typically very limited. Access is restricted to bank hours, which means you can\u2019t reach your metals on weekends, holidays, or outside business hours. During banking crises, legal disputes, or certain government actions, access can be frozen. Some buyers use safe deposit boxes for a portion of their holdings while keeping some accessible at home.",
         learnMoreLabel: "Home, Vault, or Safe Deposit Box? Full Storage Guide",
         learnMoreHref: "/blog/storing-gold-silver-safely",
+        links: [
+          { label: "Where to Store Your Gold: Home, Bank, or Depository?", href: "/blog/where-to-store-gold-home-bank-depository" },
+        ],
       },
       {
         question: "Should I buy gold through an IRA?",
@@ -499,6 +514,7 @@ export const faqCategories: FAQCategory[] = [
         learnMoreHref: "/blog/storing-gold-silver-safely",
         links: [
           { label: "What Happens to Your Metals When a Dealer Goes Out of Business", href: "/blog/dealer-insolvency-metals" },
+          { label: "Where to Store Your Gold: Home, Bank, or Depository?", href: "/blog/where-to-store-gold-home-bank-depository" },
         ],
       },
       {
@@ -506,6 +522,15 @@ export const faqCategories: FAQCategory[] = [
         answer: "Barely. Standard homeowner\u2019s insurance policies typically cover only $200 to $500 in precious metals \u2014 a sublimit buried in the policy that most people don\u2019t discover until after a loss. If you store any meaningful quantity at home, you almost certainly need a scheduled personal property rider (also called a floater). Rider costs typically run $1 to $2 per $100 of insured value per year. For $20,000 in metals, expect $200\u2013$400 annually. The rider usually requires documentation of what you own \u2014 purchase receipts, photographs, or an appraisal.",
         learnMoreLabel: "Full Storage Guide: Home, Vault, or Safe Deposit Box",
         learnMoreHref: "/blog/storing-gold-silver-safely",
+        links: [
+          { label: "Where to Store Your Gold: Home, Bank, or Depository?", href: "/blog/where-to-store-gold-home-bank-depository" },
+        ],
+      },
+      {
+        question: "What questions should I ask a storage provider before using them?",
+        answer: "Regardless of whether you're evaluating a home safe, a bank safe deposit box, or a private depository, the same questions protect you. What is the insurance coverage, what events does it cover, and what is the claims process? Is the metal segregated or commingled, and what are the legal implications of each? What access do you have, and under what circumstances can access be restricted? What happens if the provider goes bankrupt, closes, or is acquired? And what documentation will you receive proving what you've deposited, where it is, and that it's yours?",
+        learnMoreLabel: "Where to Store Your Gold: Home, Bank, or Depository?",
+        learnMoreHref: "/blog/where-to-store-gold-home-bank-depository",
       },
       {
         question: "What happens to my metals if the dealer I bought from goes bankrupt?",
@@ -528,8 +553,8 @@ export const faqCategories: FAQCategory[] = [
       {
         question: "What are my options for storing physical gold and silver?",
         answer: "There are four main options, each with distinct tradeoffs. Home safe: immediate access, no fees, but requires a quality fireproof anchored safe and discreet ownership \u2014 homeowner's insurance typically covers only $200\u2013500 in precious metals without a scheduled rider. Safe deposit box: bank-grade physical security, but no FDIC protection for contents, access limited to bank hours, and access can be restricted during legal or banking disruptions. Professional vaulting (domestic): third-party allocated storage at a specialized depository, typically $100\u2013200/year, insured, fully allocated to your account. Offshore storage: legal for U.S. citizens, requires FBAR/FATCA reporting if the account value exceeds $10,000, and adds jurisdiction diversification but reduces accessibility.",
-        learnMoreLabel: "Where to Store Physical Gold and Silver: Complete Guide",
-        learnMoreHref: "/blog/precious-metals-storage-options",
+        learnMoreLabel: "Where to Store Your Gold: Home, Bank, or Depository?",
+        learnMoreHref: "/blog/where-to-store-gold-home-bank-depository",
       },
     ],
   },
@@ -687,6 +712,9 @@ export const faqCategories: FAQCategory[] = [
         answer: "Silver crossed $100/oz in 2026 driven by structural industrial demand outpacing supply. Solar panel manufacturing now consumes over 230 million ounces annually (up from 140 million in 2020). AI data centers, electric vehicles, and 5G infrastructure are all growing sources of silver demand. Meanwhile, 72% of silver is mined as a byproduct of copper, zinc, lead, and gold \u2014 meaning silver supply cannot respond quickly to price increases. 2026 marks the sixth consecutive year where global demand has exceeded supply. The price reflects real scarcity, not speculation.",
         learnMoreLabel: "Why Silver Crossed $100: Solar, AI, and the Supply Deficit",
         learnMoreHref: "/blog/silver-industrial-demand-2026",
+        links: [
+          { label: "Silver at $64: Why Silver\u2019s Volatility Is Different From Gold\u2019s", href: "/blog/silver-volatility-different-from-gold" },
+        ],
       },
       {
         question: "Is bitcoin \u201Cdigital gold\u201D \u2014 does it work as a safe haven?",

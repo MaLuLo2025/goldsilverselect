@@ -401,4 +401,22 @@ export const blogPosts: BlogPost[] = [
       "Counterfeit gold bars are more sophisticated than ever. Here’s how fakes are made, how to spot them, and what verification methods actually work.",
     date: "2026-08-25",
   },
+  {
+    slug: "silver-volatility-different-from-gold",
+    title: "Silver at $64: Why Silver’s Volatility Is Different From Gold’s",
+    tag: "Market Analysis",
+    tagColor: "gold",
+    excerpt:
+      "Silver dropped nearly 4% in a single session in September 2026 while gold fell less than 3%. Here’s why silver is structurally more volatile and what that means for buyers.",
+    date: "2026-09-08",
+  },
+  {
+    slug: "where-to-store-gold-home-bank-depository",
+    title: "Where to Store Your Gold: Home, Bank, or Depository?",
+    tag: "Buyer’s Guide",
+    tagColor: "gold",
+    excerpt:
+      "You’ve bought physical gold. Now where does it go? Here’s what each storage option actually involves — the costs, the risks, and the questions to ask.",
+    date: "2026-09-08",
+  },
 ];
