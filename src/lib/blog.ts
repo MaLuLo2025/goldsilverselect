@@ -420,3 +420,9 @@ export const blogPosts: BlogPost[] = [
     date: "2026-09-08",
   },
 ];
+
+const slugs = blogPosts.map((p) => p.slug);
+const dupes = slugs.filter((s, i) => slugs.indexOf(s) !== i);
+if (dupes.length > 0) {
+  throw new Error(`Duplicate blog slugs found: ${dupes.join(", ")}`);
+}
