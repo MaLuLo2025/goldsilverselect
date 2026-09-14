@@ -419,6 +419,35 @@ export const blogPosts: BlogPost[] = [
       "You’ve bought physical gold. Now where does it go? Here’s what each storage option actually involves — the costs, the risks, and the questions to ask.",
     date: "2026-09-08",
   },
+  {
+    slug: "1099-b-precious-metals-reporting",
+    title:
+      "Precious Metals Reporting: 1099-B, Form 8300, and the Felony Trap Called Structuring",
+    tag: "Education",
+    tagColor: "forest",
+    excerpt:
+      "Buying and selling precious metals is entirely legal — and mostly untriggered by any federal reporting. But two federal forms and one felony statute govern the transactions that do get reported, and confusing them is how ordinary buyers accidentally commit crimes.",
+    date: "2026-09-14",
+  },
+  {
+    slug: "should-i-buy-platinum-bullion-2026",
+    title: "Should You Buy Platinum or Palladium Bullion in 2026?",
+    tag: "Buyer’s Guide",
+    tagColor: "gold",
+    excerpt:
+      "Why platinum trades below gold, why palladium is struggling, and where PGMs actually belong in a precious metals allocation. Plus the dealer diversification pitches to be careful of, and what to buy if you decide they make sense.",
+    date: "2026-09-14",
+  },
+  {
+    slug: "is-coin-grading-worth-it-pcgs-ngc",
+    title:
+      "Is Coin Grading Worth It? When PCGS and NGC Add Value, and When They Turn Bullion Into a Scam",
+    tag: "Premiums & Pricing",
+    tagColor: "forest",
+    excerpt:
+      "For genuinely rare numismatic coins, third-party grading is legitimate authentication that unlocks real value. For modern bullion, the same services often become the mechanism by which commodity metal gets sold at 8-to-20 times its underlying worth.",
+    date: "2026-09-14",
+  },
 ];
 
 const slugs = blogPosts.map((p) => p.slug);

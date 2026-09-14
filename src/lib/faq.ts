@@ -134,6 +134,9 @@ export const faqCategories: FAQCategory[] = [
         answer: "Only if the grade significantly affects value. Grading costs $25\u201350 per coin plus shipping. You wouldn\u2019t grade a common-date silver dollar worth $25 raw because fees exceed any premium gain. You would grade a rare-date Morgan that might be worth $500 in MS-64 but $1,500 in MS-65. For buyers: don\u2019t pay numismatic premiums for raw coins unless you have expertise to grade accurately. If dealers won\u2019t send coins for third-party grading, they\u2019re either overgrading or the coins have problems professional examination would reveal.",
         learnMoreLabel: "Numismatic Premium vs Bullion Value: When Scarcity Drives the Price",
         learnMoreHref: "/blog/numismatic-premium-vs-bullion-value",
+        links: [
+          { label: "Is Coin Grading Worth It? PCGS and NGC Explained", href: "/blog/is-coin-grading-worth-it-pcgs-ngc" },
+        ],
       },
       {
         question: "What\u2019s the difference between physical silver and a silver ETF?",
@@ -177,6 +180,30 @@ export const faqCategories: FAQCategory[] = [
         learnMoreLabel: "APMEX vs. JM Bullion vs. SD Bullion Compared",
         learnMoreHref: "/blog/apmex-vs-jm-bullion-vs-sd-bullion",
       },
+      {
+        question: "Is it legal to split a large cash purchase to avoid Form 8300?",
+        answer: "No. This is called “structuring” and is a federal felony under 31 U.S.C. § 5324, punishable by up to 5 years in prison (10 if part of a pattern). The underlying purchase can be entirely legal — structuring is a separate crime tied to intent to evade the reporting requirement. A dealer who suggests splitting a transaction is asking you to commit a felony.",
+        learnMoreLabel: "Precious Metals Reporting: 1099-B, Form 8300, and the Felony Trap Called Structuring",
+        learnMoreHref: "/blog/1099-b-precious-metals-reporting",
+      },
+      {
+        question: "Is platinum a good investment in 2026?",
+        answer: "Platinum has real long-term upside if hydrogen fuel cell adoption scales, plus structural demand from diesel and industrial catalyst use. It’s not a monetary metal in the same sense as gold — it’s an industrial commodity with investment demand layered on. A modest position (5–15% of a precious metals allocation) makes sense for diversification.",
+        learnMoreLabel: "Should You Buy Platinum or Palladium Bullion in 2026?",
+        learnMoreHref: "/blog/should-i-buy-platinum-bullion-2026",
+      },
+      {
+        question: "Should I buy palladium at current prices?",
+        answer: "Palladium is well below its 2022 highs, but the demand outlook is challenging — gasoline vehicles (the primary use) are being displaced by EVs. Position sizing should reflect the uncertainty.",
+        learnMoreLabel: "Should You Buy Platinum or Palladium Bullion in 2026?",
+        learnMoreHref: "/blog/should-i-buy-platinum-bullion-2026",
+      },
+      {
+        question: "Is a graded MS-70 Silver Eagle a better investment than a raw one?",
+        answer: "For metal exposure, no — you’re paying a substantial premium above the coin’s silver value for a grade assigned by a third-party service. For a collector actively building a registry set, yes. The question is whether you’re a bullion buyer or a collector; dealers sometimes conflate the two.",
+        learnMoreLabel: "Is Coin Grading Worth It? PCGS and NGC Explained",
+        learnMoreHref: "/blog/is-coin-grading-worth-it-pcgs-ngc",
+      },
     ],
   },
   {
@@ -218,12 +245,18 @@ export const faqCategories: FAQCategory[] = [
         answer: "Yes. The IRS classifies physical gold and silver bullion as collectibles under IRC Section 408(m). Long-term gains (metal held more than one year) are taxed at a maximum federal rate of 28% \u2014 higher than the 0/15/20% rates that apply to stocks. Short-term gains (held one year or less) are taxed at your ordinary income rate. Your gain is the sale price minus your cost basis, which includes what you originally paid the dealer plus any premium, sales tax, shipping, and insurance. Keep every purchase receipt \u2014 without documentation, the IRS can treat the entire sale proceeds as gain.",
         learnMoreLabel: "Capital Gains Tax on Gold and Silver",
         learnMoreHref: "/blog/capital-gains-tax-gold-silver-2026",
+        links: [
+          { label: "Precious Metals Reporting: 1099-B, Form 8300, and the Felony Trap Called Structuring", href: "/blog/1099-b-precious-metals-reporting" },
+        ],
       },
       {
         question: "Will the dealer report my sale to the IRS?",
         answer: "Sometimes \u2014 it depends on what and how much you sell. Dealers are required to file Form 1099-B for sales that meet specific IRS thresholds: 25 or more 1 oz gold Maple Leafs, Krugerrands, or Mexican Onzas; 1 kilogram or more of gold bars; 1,000 troy ounces or more of silver bars or rounds; and 90% silver U.S. coins with face value of $1,000 or more. Notably absent from this list are American Gold Eagles, American Silver Eagles, and American Buffalos in any quantity \u2014 these typically do not trigger 1099-B reporting. But the absence of a 1099-B does NOT mean the gain is tax-free. You are still legally required to report and pay tax on every taxable gain.",
         learnMoreLabel: "Capital Gains Tax on Gold and Silver",
         learnMoreHref: "/blog/capital-gains-tax-gold-silver-2026",
+        links: [
+          { label: "Precious Metals Reporting: 1099-B, Form 8300, and the Felony Trap Called Structuring", href: "/blog/1099-b-precious-metals-reporting" },
+        ],
       },
       {
         question: "How are inherited gold and silver coins taxed?",
@@ -260,6 +293,24 @@ export const faqCategories: FAQCategory[] = [
         answer: "Government bullion (Silver Eagles, Maples, Britannias) sells back at 95\u201397% of melt because they\u2019re universally recognized and easy to authenticate. Generic rounds and bars sell at 92\u201395%. Junk silver (90% coins) sells at 90\u201394% depending on quantity. Foreign government bullion varies 93\u201396% based on recognition. Numismatic coins are unpredictable (50\u201390% of recent retail depending on market). If you\u2019re buying silver to preserve wealth with potential need to sell, stick to products with the highest sell-back rates.",
         learnMoreLabel: "What Dealers Actually Pay: Sell-Back Spreads Explained",
         learnMoreHref: "/blog/sell-back-spreads-what-dealers-actually-pay",
+      },
+      {
+        question: "Which precious metals sales trigger a 1099-B?",
+        answer: "Only specific products at specific quantities: 25+ ounces of Gold Krugerrands, Maple Leafs, or Mexican Onzas; $1,000+ face value of 90% silver US coins; 1 kilo or 1,000 ounce gold bars; 1,000 ounce silver bars; and specific platinum and palladium bar sizes. American Gold Eagles, American Silver Eagles, American Gold Buffalos, and most fractional coins are not on the reportable list at any quantity — though the capital gains tax on any sale still applies regardless.",
+        learnMoreLabel: "Precious Metals Reporting: 1099-B, Form 8300, and the Felony Trap Called Structuring",
+        learnMoreHref: "/blog/1099-b-precious-metals-reporting",
+      },
+      {
+        question: "If no 1099 is filed on my sale, do I still owe capital gains tax?",
+        answer: "Yes. The tax obligation is independent of whether a third-party report is filed. All capital gains on precious metals sales are taxable and must be reported on your tax return. The 1099-B is a reporting mechanism to the IRS; the tax obligation exists regardless.",
+        learnMoreLabel: "Precious Metals Reporting: 1099-B, Form 8300, and the Felony Trap Called Structuring",
+        learnMoreHref: "/blog/1099-b-precious-metals-reporting",
+      },
+      {
+        question: "Should I get my inherited coin collection graded before selling?",
+        answer: "Depends on what’s in the collection. For genuinely rare or valuable numismatic coins — pre-1933 US gold, key-date silver, classic type coins in high grades — professional grading often unlocks meaningful additional value. For modern bullion, generic silver rounds, or heavily worn common-date coins, the grading fees typically exceed the value added. Have the collection reviewed by a numismatist first.",
+        learnMoreLabel: "Is Coin Grading Worth It? PCGS and NGC Explained",
+        learnMoreHref: "/blog/is-coin-grading-worth-it-pcgs-ngc",
       },
     ],
   },
