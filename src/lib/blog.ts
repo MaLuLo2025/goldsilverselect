@@ -437,6 +437,35 @@ export const blogPosts: BlogPost[] = [
       "For genuinely rare numismatic coins, third-party grading is legitimate authentication that unlocks real value. For modern bullion, the same services often become the mechanism by which commodity metal gets sold at 8-to-20 times its underlying worth.",
     date: "2026-09-14",
   },
+  {
+    slug: "sales-tax-precious-metals-by-state-2026",
+    title: "State Sales Tax on Precious Metals: The 2026 Exemption Map",
+    tag: "Buyer’s Guide",
+    tagColor: "gold",
+    excerpt:
+      "Eight states plus DC apply sales tax to precious metals in 2026; others exempt based on dollar thresholds or product category. A state-by-state guide to sales tax on bullion, the use-tax obligation that follows cross-state purchases, and how online dealers handle it.",
+    date: "2026-09-21",
+  },
+  {
+    slug: "inheriting-gold-silver-tax-basis",
+    title:
+      "Inheriting Gold and Silver: The Step-Up in Basis That Saves You Decades of Tax",
+    tag: "Education",
+    tagColor: "forest",
+    excerpt:
+      "Inherited precious metals receive a step-up in basis to fair market value at the decedent's date of death — often eliminating decades of accumulated capital gains for tax purposes. A guide to what heirs owe, when, and what documentation matters.",
+    date: "2026-09-21",
+  },
+  {
+    slug: "how-to-start-buying-gold-silver-2026",
+    title:
+      "How to Start Buying Gold and Silver in 2026: The First $500 to $5,000 Without Getting Ripped Off",
+    tag: "Buyer’s Guide",
+    tagColor: "gold",
+    excerpt:
+      "Six recurring mistakes first-time buyers make, the four product categories that cover 95% of what makes sense, reasonable premium expectations in 2026, and where to actually buy. Updated companion to our 2024-era starter guide.",
+    date: "2026-09-21",
+  },
 ];
 
 const slugs = blogPosts.map((p) => p.slug);

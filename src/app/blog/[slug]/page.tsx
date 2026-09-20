@@ -5558,6 +5558,472 @@ const blogContent: Record<string, React.ReactNode> = {
       </p>
     </>
   ),
+
+  "sales-tax-precious-metals-by-state-2026": (
+    <>
+      <p>
+        Most precious metals buyers assume sales tax doesn&apos;t apply to bullion purchases. For most buyers in most states, that assumption is correct &mdash; but &ldquo;most&rdquo; is doing a lot of work in that sentence. Eight states and the District of Columbia impose sales tax on some or all precious metals purchases in 2026, and among the exempting states, the specific exemption rules vary considerably &mdash; some exempt only above certain dollar thresholds, some exempt only specific product categories, some exempt bullion but not numismatic.
+      </p>
+      <p>
+        Buyers who ignore this get burned two ways. First, unexpected sales tax on a purchase can add 5-10% to the cost of metal, wiping out months of dealer premium comparison. Second, buyers who intentionally cross state lines to avoid sales tax can trigger use-tax obligations in their home state &mdash; legally identical in most cases to owing the original sales tax.
+      </p>
+      <p>This is the 2026 landscape.</p>
+
+      <h2>States That Fully Tax Precious Metals</h2>
+      <p>As of 2026, these jurisdictions apply sales tax to essentially all precious metals purchases with no bullion exemption:</p>
+      <ul>
+        <li><strong>District of Columbia</strong> &mdash; full sales tax applies.</li>
+        <li><strong>Hawaii</strong> &mdash; general excise tax applies to precious metals.</li>
+        <li><strong>Kentucky</strong> &mdash; sales tax applies with limited exceptions.</li>
+        <li><strong>Maine</strong> &mdash; sales tax applies.</li>
+        <li><strong>New Jersey</strong> &mdash; sales tax applies with narrow exceptions.</li>
+        <li><strong>New Mexico</strong> &mdash; gross receipts tax applies.</li>
+        <li><strong>Vermont</strong> &mdash; sales tax applies.</li>
+        <li><strong>Wisconsin</strong> &mdash; sales tax applies.</li>
+      </ul>
+      <p>In these jurisdictions, a $10,000 bullion purchase adds $500-$1,000 in sales tax depending on the local rate.</p>
+
+      <h2>States With Dollar-Threshold Exemptions</h2>
+      <p>Several states exempt precious metals purchases above a specific dollar threshold &mdash; below the threshold, tax applies; above it, exempt.</p>
+      <ul>
+        <li><strong>Texas</strong> &mdash; exempts precious metals transactions above $1,000 in single purchases.</li>
+        <li><strong>Illinois</strong> &mdash; similar threshold structure, with per-transaction exemption above certain amounts.</li>
+        <li><strong>Massachusetts</strong> &mdash; has threshold-based exemptions for bullion at specified quantities.</li>
+        <li><strong>Maryland</strong> &mdash; exemption applies at certain transaction sizes.</li>
+      </ul>
+      <p>
+        The threshold amounts and specific product qualifications change with state legislation. Verify the current threshold before assuming any purchase qualifies.
+      </p>
+
+      <h2>States That Exempt Bullion but Not Numismatic</h2>
+      <p>
+        Many states distinguish between &ldquo;bullion&rdquo; (metal valued primarily for its precious metal content) and &ldquo;numismatic&rdquo; or &ldquo;collectible&rdquo; coins (valued for rarity, condition, or historical significance).
+      </p>
+      <p>The exemption often applies to the first category only. A common example:</p>
+      <ul>
+        <li>A 1 oz American Silver Eagle sold at spot + typical premium &mdash; bullion, exempt in most states</li>
+        <li>The same 1 oz Silver Eagle graded MS-70 and priced at 5x spot &mdash; numismatic, may be taxable</li>
+        <li>A pre-1933 US gold coin &mdash; numismatic, often taxable</li>
+      </ul>
+      <p>
+        Definitions vary. Some states use dollar thresholds (item value &gt; X times metal content = numismatic); others use category definitions; a few use both.
+      </p>
+
+      <h2>States With Broad Precious Metals Exemptions</h2>
+      <p>
+        Most states &mdash; roughly 42 &mdash; provide broad exemptions covering standard bullion products and often numismatic coins as well. In these states, ordinary precious metals purchases don&apos;t trigger sales tax.
+      </p>
+      <p>The exemption typically covers:</p>
+      <ul>
+        <li>Gold, silver, platinum, and palladium bullion coins from major mints</li>
+        <li>Standard bullion bars and rounds</li>
+        <li>Legal-tender coins purchased at value related to metal content</li>
+      </ul>
+      <p>
+        Verification is worth doing on any specific purchase &mdash; even in generally-exempt states, specific products may be treated differently (jewelry, novelty items, and some numismatic coins can be taxable in states where standard bullion isn&apos;t).
+      </p>
+
+      <h2>The Cross-State Purchase and Use-Tax Problem</h2>
+      <p>
+        Buyers frequently cross state lines to avoid sales tax in a taxing state. A New Jersey resident drives to Pennsylvania (bullion-exempt) to buy gold. A Wisconsin resident buys online from a dealer that doesn&apos;t charge sales tax on out-of-state shipments.
+      </p>
+      <p>
+        The catch: most taxing states have a corresponding use tax, which is the buyer&apos;s obligation to pay tax on out-of-state purchases where sales tax wasn&apos;t collected. The rate typically matches the sales tax rate.
+      </p>
+      <p>Practical realities:</p>
+      <ul>
+        <li><strong>Individual buyers rarely pay use tax voluntarily.</strong> Enforcement is limited for small-dollar transactions, and few consumers file the required use-tax return.</li>
+        <li><strong>Enforcement risk increases with dollar amount.</strong> A $100 online purchase probably escapes notice. A $50,000 dealer purchase that shows up in a state audit does not.</li>
+        <li><strong>Dealer 1099-B or Form 8300 reporting</strong> on sales creates a paper trail that state tax authorities can access.</li>
+        <li><strong>Legal exposure exists regardless of enforcement risk.</strong> Failing to pay lawful use tax is technically tax evasion, and the statute of limitations often doesn&apos;t run on unpaid tax.</li>
+      </ul>
+      <p>
+        The correct approach: if you cross state lines to avoid sales tax, file the use-tax return and pay the equivalent. If the total cost of paying the tax is meaningfully higher than just buying locally (accounting for travel), buying locally is often the cleaner choice.
+      </p>
+
+      <h2>The Online-Purchase Question</h2>
+      <p>
+        Online precious metals sales generally don&apos;t collect sales tax from out-of-state buyers unless the dealer has nexus in the buyer&apos;s state (physical presence, employees, or economic-nexus threshold exceeded). Post-Wayfair, states can require out-of-state sellers to collect sales tax once they exceed a certain sales threshold in that state.
+      </p>
+      <p>Practical effects:</p>
+      <ul>
+        <li>Large online precious metals dealers with substantial sales volume increasingly collect sales tax on shipments to taxing states</li>
+        <li>Smaller dealers below the economic nexus threshold don&apos;t collect it</li>
+        <li>The buyer&apos;s use-tax obligation exists either way</li>
+      </ul>
+      <p>
+        Check whether the specific dealer collects sales tax on shipments to your state before finalizing an order. If they do, the online purchase carries the same tax cost as a local one.
+      </p>
+
+      <h2>Practical Guidance</h2>
+      <p>Four steps for buyers to avoid sales-tax surprises:</p>
+      <ol>
+        <li>
+          <strong>Verify your state&apos;s rules</strong> before any significant purchase. State tax authority websites publish current exemption rules; the{" "}
+          <a href="https://www.taxadmin.org/state-tax-agencies" target="_blank" rel="noopener noreferrer">
+            Federation of Tax Administrators
+          </a>{" "}
+          maintains a directory of state tax agencies.
+        </li>
+        <li><strong>For borderline products</strong> (numismatic, graded coins, jewelry), confirm with the dealer whether the specific product is exempt in the specific state.</li>
+        <li><strong>For online purchases</strong>, verify whether the dealer collects sales tax on shipments to your state. If not, understand your use-tax obligation.</li>
+        <li><strong>For cross-state purchases</strong>, calculate total cost including travel &mdash; savings often smaller than they appear.</li>
+      </ol>
+      <p>
+        For a broader treatment of the capital gains tax on precious metals sales (a separate topic from sales tax on purchase), see our{" "}
+        <Link href="/blog/capital-gains-tax-gold-silver-2026" className="text-gold font-semibold">
+          capital gains guide
+        </Link>.
+      </p>
+
+      <h2>Frequently Asked Questions</h2>
+      <h3>Which states charge sales tax on precious metals in 2026?</h3>
+      <p>
+        Eight states plus DC apply sales tax broadly: DC, Hawaii, Kentucky, Maine, New Jersey, New Mexico, Vermont, and Wisconsin. Several other states apply sales tax below specific dollar thresholds or on numismatic-classified products even where bullion is exempt. State rules change with legislative sessions &mdash; verify current law before any significant purchase.
+      </p>
+      <h3>If I buy gold in Pennsylvania and take it home to New Jersey, do I owe tax?</h3>
+      <p>
+        Legally, yes &mdash; most taxing states impose a use tax on out-of-state purchases where sales tax wasn&apos;t collected, at a rate matching the sales tax rate. Enforcement varies with dollar amount and paper trail. The legal obligation exists regardless of enforcement risk.
+      </p>
+      <h3>Do online precious metals dealers charge sales tax?</h3>
+      <p>
+        Depends on the dealer&apos;s nexus with your state. Post-Wayfair, states can require out-of-state sellers to collect sales tax once they exceed an economic-nexus threshold. Large online dealers increasingly collect on shipments to taxing states; smaller dealers may not. Check before ordering.
+      </p>
+      <h3>Is a graded MS-70 Silver Eagle taxed differently than a raw one?</h3>
+      <p>
+        Often yes. Many states exempt &ldquo;bullion&rdquo; but tax &ldquo;numismatic&rdquo; coins, and a graded coin priced at multiples of its metal content is typically classified as numismatic. The specific treatment varies &mdash; see our{" "}
+        <Link href="/blog/is-coin-grading-worth-it-pcgs-ngc" className="text-gold font-semibold">
+          coin grading guide
+        </Link>{" "}
+        for the graded-vs-raw framework, and verify state-specific tax treatment before purchase.
+      </p>
+      <h3>Are precious metals in an IRA subject to sales tax?</h3>
+      <p>
+        Purchases inside a self-directed IRA typically don&apos;t trigger sales tax because the transaction is between the IRA custodian and the dealer, not the individual. Verify with your IRA custodian for specifics, and note that IRA metals must be held by an approved depositary &mdash; you can&apos;t take physical possession without triggering a distribution.
+      </p>
+      <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
+        This article is general information only, not tax or legal advice. State sales tax rules for precious metals change frequently and vary by product category, dollar threshold, and jurisdiction. Consult a qualified tax professional for guidance on specific purchases. Browse our verified dealer directory to compare pricing across dealers in your state.
+      </p>
+    </>
+  ),
+
+  "inheriting-gold-silver-tax-basis": (
+    <>
+      <p>
+        Your father spent thirty years quietly buying gold and silver. He never sold a coin &mdash; every purchase was a hold, and he passed everything to you and your siblings through the estate. When his estate attorney asks what you&apos;d like to do with the metals, you have three inherited assets and three tax questions:
+      </p>
+      <ol>
+        <li>What do you owe in tax when you take possession?</li>
+        <li>What do you owe when you sell?</li>
+        <li>How is any of this different from cash he might have left instead?</li>
+      </ol>
+      <p>
+        The answer to the first two is far more favorable than most heirs assume, and understanding why is the difference between paying appropriate tax and paying double what you owe. The answer to the third is that precious metals inheritance is generally treated much better than most people expect &mdash; the step-up in basis at death eliminates decades of accumulated capital gains, often making inherited metals nearly tax-free to sell.
+      </p>
+      <p>
+        This is a plain-language guide to the estate treatment of precious metals: what heirs actually inherit, how basis works, when tax applies, and what documentation matters.
+      </p>
+
+      <h2>The Step-Up in Basis: The Single Most Important Concept</h2>
+      <p>
+        Under U.S. federal tax law, most inherited assets receive a <strong>step-up in basis at death</strong>. The heir&apos;s cost basis in the inherited asset becomes the asset&apos;s fair market value on the date of the decedent&apos;s death, not the price the decedent originally paid.
+      </p>
+      <p>For appreciated precious metals held for many years, this is often a large tax benefit.</p>
+      <p>
+        <strong>Example.</strong> Your father bought 100 ounces of gold in 1998 at $300/oz. Total cost: $30,000. When he died in 2026, gold was at $5,100/oz. Total value: $510,000.
+      </p>
+      <ul>
+        <li>Your father&apos;s basis was $30,000.</li>
+        <li>If he had sold the day before dying, he would have owed capital gains tax on $480,000 of gain (long-term collectibles rate, up to 28% federal, plus applicable state tax).</li>
+        <li>On his death, your basis becomes the $510,000 fair-market value.</li>
+        <li>If you sell the day after inheriting, you owe capital gains tax on $0 &mdash; no gain from your basis.</li>
+        <li>If you hold and sell later, only the appreciation from $510,000 onward is taxable.</li>
+      </ul>
+      <p>
+        The step-up eliminates the entire accumulated gain for tax purposes. This is not a loophole &mdash; it&apos;s{" "}
+        <a href="https://www.law.cornell.edu/uscode/text/26/1014" target="_blank" rel="noopener noreferrer">
+          Internal Revenue Code &sect; 1014
+        </a>
+        . The IRS explains how basis works for inherited property in{" "}
+        <a href="https://www.irs.gov/publications/p551" target="_blank" rel="noopener noreferrer">
+          Publication 551
+        </a>
+        .
+      </p>
+
+      <h2>Determining Fair Market Value at Date of Death</h2>
+      <p>The valuation matters because it establishes your future tax basis. Two components:</p>
+      <p>
+        <strong>Physical metal value:</strong> for bullion, this is straightforward &mdash; spot price &times; weight on the date of death. Multiple published price sources exist (LBMA, COMEX, dealer aggregator services).
+      </p>
+      <p>
+        <strong>Numismatic value:</strong> for coins with collectible value above metal content, requires professional appraisal. For any significant collection, get an appraisal from a numismatist certified through the American Numismatic Association or a comparable body.
+      </p>
+      <p>
+        For estates near the federal estate tax exemption threshold, valuation matters for the estate return as well. For estates well below the threshold, valuation matters for the heirs&apos; basis but doesn&apos;t create estate tax liability.
+      </p>
+
+      <h2>Estate Tax vs. Income Tax &mdash; Different Questions</h2>
+      <p>Two separate tax questions to distinguish:</p>
+      <p>
+        <strong>Estate tax</strong> is owed by the estate (before distribution to heirs) if the decedent&apos;s total estate exceeds the federal exemption threshold. The 2026 exemption is high &mdash; currently over $13 million per individual &mdash; so most small estates owe no federal estate tax. Some states impose separate state estate or inheritance tax at lower thresholds.
+      </p>
+      <p>
+        <strong>Income tax on the heir</strong> applies only when the heir sells inherited assets. Because of the step-up in basis, the tax owed is often minimal &mdash; only appreciation above the stepped-up basis is taxable, and only when the metal is sold.
+      </p>
+      <p>
+        An heir receiving inherited metals owes no federal income tax at the moment of inheritance. Tax obligation arises only on sale.
+      </p>
+
+      <h2>Special Situations</h2>
+      <p>
+        <strong>Metals in a self-directed IRA.</strong> Different rules. IRA-held precious metals don&apos;t get a step-up in basis. Distributions from an inherited IRA are taxable as ordinary income (or continue tax-deferred if the heir keeps them in an inherited IRA structure). The specific rules for inherited IRAs changed significantly under SECURE Act and SECURE 2.0 &mdash; most non-spouse heirs must fully distribute within 10 years.
+      </p>
+      <p>
+        <strong>Metals in a trust.</strong> Depends heavily on trust structure. Revocable trust assets typically get a step-up the same as directly-held assets. Irrevocable trust rules are more complex and depend on how the trust was structured.
+      </p>
+      <p>
+        <strong>Joint tenancy.</strong> If metals were held in joint tenancy with right of survivorship between spouses, the surviving spouse typically gets a step-up on the deceased&apos;s half (or full step-up in community property states).
+      </p>
+      <p>
+        <strong>Gifted vs. inherited.</strong> Metals given during the decedent&apos;s lifetime don&apos;t get a step-up &mdash; the gift recipient takes the donor&apos;s original basis. Metals inherited at death do get the step-up. This matters for estate planning: outright gifting during life can be tax-inefficient compared to holding until death.
+      </p>
+
+      <h2>Documentation Heirs Need</h2>
+      <p>For each inherited item:</p>
+      <ol>
+        <li><strong>Description with identifying details</strong> &mdash; metal type, weight, coin/bar designation, mint mark, year, serial numbers where applicable</li>
+        <li><strong>Fair market value on date of death</strong> &mdash; with basis for the valuation (spot &times; weight, or appraisal report)</li>
+        <li><strong>Chain of custody</strong> &mdash; how the item moved from estate to heir</li>
+        <li><strong>Storage documentation</strong> &mdash; where held after inheritance, insurance records</li>
+      </ol>
+      <p>Keep this documentation indefinitely. If you sell in 30 years, you&apos;ll need it to establish basis on your tax return.</p>
+
+      <h2>Practical Sale Mechanics After Inheritance</h2>
+      <p>Once you own inherited metals with a stepped-up basis, sale mechanics are the same as any precious metals sale:</p>
+      <ul>
+        <li>
+          Certain sales trigger dealer 1099-B reporting (see our{" "}
+          <Link href="/blog/1099-b-precious-metals-reporting" className="text-gold font-semibold">
+            reporting guide
+          </Link>
+          )
+        </li>
+        <li>Capital gains apply only to appreciation above the stepped-up basis</li>
+        <li>Long-term vs. short-term holding: inherited assets receive automatic long-term holding treatment regardless of how long you actually hold them, so the long-term collectibles rate applies immediately</li>
+      </ul>
+      <p>
+        The tax paperwork on sale is straightforward when documentation is complete: you report the sale, deduct your basis (the stepped-up value), and calculate tax on the difference. Without documentation, the IRS can assume zero basis, taxing the entire sale proceeds &mdash; which is why the appraisal-at-death and record-keeping matter.
+      </p>
+
+      <h2>When Probate Matters</h2>
+      <p>
+        Precious metals held in the decedent&apos;s individual name typically pass through probate along with other personal property. Metals in a trust, IRA, or with named beneficiaries pass outside probate.
+      </p>
+      <p>For metals in a home safe or safe-deposit box discovered after death, the executor typically:</p>
+      <ul>
+        <li>Inventories the items</li>
+        <li>Obtains valuation for the estate return</li>
+        <li>Distributes according to the will or state intestacy rules</li>
+      </ul>
+      <p>
+        Home-stored metals that no one knew about at death can create problems &mdash; heirs may not know they exist, or may find them years after estate closure. Documenting significant metal holdings in an accessible location (estate planning documents, letter to executor) prevents this.
+      </p>
+
+      <h2>Frequently Asked Questions</h2>
+      <h3>Do I owe tax when I inherit gold or silver?</h3>
+      <p>
+        No federal income tax at the moment of inheritance. The IRS treats inherited precious metals as receiving a step-up in basis to fair market value on the date of the decedent&apos;s death, so no gain has yet been realized. Tax obligation arises only when you sell &mdash; and even then, only on appreciation from the stepped-up basis, not from the decedent&apos;s original cost.
+      </p>
+      <h3>How does the step-up in basis work for gold I inherit?</h3>
+      <p>
+        Your cost basis becomes the fair market value on the date of the decedent&apos;s death, replacing the decedent&apos;s original purchase cost. If your father bought gold at $300/oz decades ago and it was worth $5,100/oz on his date of death, your basis is $5,100/oz &mdash; not $300. Selling at $5,100 shortly after inheritance triggers no capital gain because there&apos;s no appreciation from your basis.
+      </p>
+      <h3>Do I need to file an estate tax return if I inherit precious metals?</h3>
+      <p>
+        The estate &mdash; not the heir &mdash; files the estate tax return, and only if the total estate exceeds the federal exemption threshold (currently over $13 million). Most small estates owe no federal estate tax. Some states impose separate estate or inheritance tax at lower thresholds &mdash; check the specific state&apos;s rules. Heirs don&apos;t file federal income tax on the inheritance itself.
+      </p>
+      <h3>What about precious metals in an inherited IRA?</h3>
+      <p>
+        Different rules &mdash; no step-up in basis for IRA-held assets. Distributions are taxable as ordinary income to the heir. Non-spouse heirs typically must fully distribute an inherited IRA within 10 years of the decedent&apos;s death (per SECURE Act and SECURE 2.0 rules). Consult a tax professional for the specific inherited-IRA structure that applies.
+      </p>
+      <h3>How do I document the fair market value of inherited coins?</h3>
+      <p>
+        For standard bullion: spot price &times; weight on the date of death, with documentation of the price source. For numismatic coins with collectible value above metal content: professional appraisal from an ANA-certified numismatist. Keep the appraisal indefinitely &mdash; you&apos;ll need it to establish basis if you sell later.
+      </p>
+      <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
+        This article is general information only, not tax or legal advice. Estate and tax rules are complex and vary by state, estate structure, and specific asset holdings. Before making decisions about inherited precious metals, consult a qualified estate attorney and tax professional.
+      </p>
+    </>
+  ),
+
+  "how-to-start-buying-gold-silver-2026": (
+    <>
+      <p>
+        If you have $500 to $5,000 to allocate to precious metals for the first time, the market&apos;s structure guarantees you&apos;ll be pitched three or four bad ideas for every good one. The bad ideas are more visible, more aggressive, and often wrapped in urgency-heavy sales language. The good ideas are boring: standard bullion products from established sources at reasonable premiums, held in reasonable storage, with a plan.
+      </p>
+      <p>
+        This guide covers what actually makes sense for a first-time buyer in the 2026 market &mdash; updated for current pricing, current dealer landscape, and current versions of the recurring first-time-buyer mistakes.
+      </p>
+
+      <h2>The Three Purposes Worth Understanding Before You Buy</h2>
+      <p>
+        Different first-time buyers want different things from precious metals. Clarifying which matters because the right product for one purpose is wrong for another.
+      </p>
+      <p>
+        <strong>Purpose 1 &mdash; Inflation and currency hedge.</strong> You want metal as insurance against currency debasement. Gold is the primary answer; silver secondary. Product form doesn&apos;t matter much beyond low premium.
+      </p>
+      <p>
+        <strong>Purpose 2 &mdash; Emergency-scenario liquidity.</strong> You want metal that can be traded, sold, or bartered in a scenario where digital financial infrastructure is unavailable. Small-denomination silver (junk silver, 1oz rounds) matters more than large gold bars.
+      </p>
+      <p>
+        <strong>Purpose 3 &mdash; Long-term wealth preservation.</strong> You want metal as a component of a long-horizon portfolio. Larger denominations reduce premium per ounce; storage matters more than portability.
+      </p>
+      <p>
+        Most first-time buyers want some blend of the three, and different products fit differently. There&apos;s no single &ldquo;right&rdquo; first purchase.
+      </p>
+
+      <h2>What to Buy: The Boring Answers</h2>
+      <p>Four product categories cover 95% of what makes sense for a first-time purchase.</p>
+      <p>
+        <strong>Junk silver (pre-1965 US 90% silver coins).</strong> Small denominations (dimes, quarters, half-dollars) with widely-recognized silver content. Trades near spot with modest premium. Divisible, familiar, and priced by face value &times; silver content. A $100 face value bag contains roughly 71.5 troy ounces of silver &mdash; about $2,300 at current spot, typically priced with a 5-15% premium.
+      </p>
+      <p>A common fit for first-time silver buyers who want divisibility and recognition.</p>
+      <p>
+        <strong>Silver bullion rounds (1 oz, from major private mints).</strong> Silver Eagles, Canadian Maple Leafs, or private-mint rounds from established refiners (Sunshine Minting, Asahi, Republic Metals). 1oz rounds trade at 20-40% premium over spot on the Eagles (which are more expensive due to US Mint premium) and 5-15% on private rounds.
+      </p>
+      <p>
+        <strong>Fractional gold coins (1/10 oz, 1/4 oz).</strong> Gold Eagles, Maple Leafs, or Krugerrands in small fractional sizes. Higher premium per ounce than 1oz coins (typically 8-15% for fractional vs. 4-8% for 1oz), but permits gold exposure at lower entry cost.
+      </p>
+      <p>
+        <strong>1 oz gold coins (Eagles, Maple Leafs, Krugerrands, Buffalos).</strong> The most cost-efficient gold entry point for buyers with $5,000+ to allocate. Premium typically 4-8% over spot at reputable dealers.
+      </p>
+
+      <h2>What to Avoid</h2>
+      <p>Six recurring patterns that show up in first-time buyer mistakes:</p>
+      <p>
+        <strong>Numismatic coins pitched as investments.</strong> &ldquo;Rare coins that will appreciate&rdquo; is a category with legitimate collectors but massive markup and thin resale liquidity. First-time buyers who wanted bullion end up with graded modern coins at 5-10x melt value. See our{" "}
+        <Link href="/blog/is-coin-grading-worth-it-pcgs-ngc" className="text-gold font-semibold">
+          coin grading guide
+        </Link>{" "}
+        for the full breakdown.
+      </p>
+      <p>
+        <strong>&ldquo;Exclusive&rdquo; or &ldquo;collectible&rdquo; packaging.</strong> Bullion sold in ornate boxes, with certificates of authenticity for a mass-produced coin, at 20-30% premium above equivalent product. The packaging isn&apos;t the value; the metal is.
+      </p>
+      <p>
+        <strong>Cold-call dealers.</strong> Any unsolicited phone call about precious metals. Reputable dealers don&apos;t cold-call. The lists cold-callers work from are lists of unsophisticated buyers. The{" "}
+        <a href="https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/fraudadv_preciousmetals.html" target="_blank" rel="noopener noreferrer">
+          CFTC precious metals fraud advisory
+        </a>{" "}
+        describes common pitches.
+      </p>
+      <p>
+        <strong>IRA rollover pressure in your first purchase year.</strong> Legitimate gold IRAs exist for the right investor. Gold IRA sales pressure targeted at first-time buyers is one of the most heavily-scammed categories in the industry. See our{" "}
+        <Link href="/blog/gold-ira-scams-red-flags-federal" className="text-gold font-semibold">
+          IRA scam guide
+        </Link>
+        .
+      </p>
+      <p>
+        <strong>Storage plans requiring the dealer to hold your metal.</strong> &ldquo;We&apos;ll store it for you&rdquo; arrangements with the selling dealer create counterparty risk on top of purchase risk. Physical possession or independent third-party depository storage &mdash; not the dealer&apos;s vault.
+      </p>
+      <p>
+        <strong>Any price described as &ldquo;special,&rdquo; &ldquo;exclusive,&rdquo; or &ldquo;just for you.&rdquo;</strong> Precious metals prices are transparent. Real dealer premiums are published or easily compared. &ldquo;Special pricing&rdquo; is marketing language, and usually means above-market.
+      </p>
+
+      <h2>Where to Buy</h2>
+      <p>Three legitimate channels for first-time buyers:</p>
+      <p>
+        <strong>Verified local coin dealers.</strong> Physical shops with established reputations. Advantages: face-to-face interaction, immediate possession, no shipping risk. Disadvantages: pricing varies more, smaller inventory. A common choice for a first purchase because you can walk in with questions and walk out with metal.
+      </p>
+      <p>
+        <strong>Major online precious metals dealers.</strong> Established online-first dealers with published pricing. Advantages: competitive pricing, wide selection, transparent premiums. Disadvantages: shipping delay, no face-to-face interaction.
+      </p>
+      <p>
+        <strong>Government mint distributors.</strong>{" "}
+        <a href="https://www.usmint.gov/" target="_blank" rel="noopener noreferrer">
+          The US Mint
+        </a>{" "}
+        sells Silver and Gold Eagles direct to authorized purchasers. Prices are typically higher than dealer secondary market, but authenticity is guaranteed.
+      </p>
+      <p>
+        Not legitimate: cold callers, TV pitchmen, &ldquo;collectible coin clubs&rdquo; that ship monthly, and anyone selling &ldquo;special commemorative&rdquo; bullion at premiums above normal market.
+      </p>
+
+      <h2>Reasonable Premium Expectations in 2026</h2>
+      <p>Premium is the amount above spot price you pay for a specific product. Rough current ranges:</p>
+      <ul>
+        <li><strong>Junk silver:</strong> 5-15% over silver spot value</li>
+        <li><strong>1oz silver rounds (private mints):</strong> 5-15% over spot</li>
+        <li><strong>1oz American Silver Eagles:</strong> 20-40% over spot (US Mint carries higher premium)</li>
+        <li><strong>1oz gold coins (Eagles, Maple Leafs):</strong> 4-8% over spot</li>
+        <li><strong>Fractional gold coins (1/10 oz):</strong> 8-15% over spot</li>
+        <li><strong>1oz platinum:</strong> 7-12% over spot</li>
+      </ul>
+      <p>
+        Premiums well above these ranges warrant specific questions. Premiums well below sometimes indicate counterfeit product or dealer errors.
+      </p>
+
+      <h2>Storage: Where the Metal Actually Sits</h2>
+      <p>After purchase, storage matters. Three legitimate options:</p>
+      <p>
+        <strong>Home storage.</strong> Physical possession in a home safe. Pros: complete control, immediate access. Cons: theft risk, insurance considerations (many homeowner&apos;s policies limit precious metals coverage significantly).
+      </p>
+      <p>
+        <strong>Bank safe deposit box.</strong> Traditional option for physical metal. Pros: bank-grade security. Cons: not FDIC insured, limited access hours, occasional issues with bank policies on precious metals.
+      </p>
+      <p>
+        <strong>Third-party depository.</strong> Facilities like Brinks, Delaware Depository, IDS of Texas. Pros: professional storage, full insurance, no home-security burden. Cons: annual fees ($100-$500+ depending on volume), less immediate access.
+      </p>
+      <p>
+        For $500-$5,000 first purchases, home storage in a quality safe is often reasonable. For larger accumulations, third-party depositories become cost-effective.
+      </p>
+
+      <h2>The Starter Allocation</h2>
+      <p>Rough guidance for a first $1,000-$5,000 allocation (adjust for personal circumstances):</p>
+      <ul>
+        <li><strong>$500-$1,000 starter:</strong> Junk silver bag ($100 face) plus a few 1/10 oz gold coins.</li>
+        <li><strong>$1,000-$2,500:</strong> Above plus additional silver rounds (bringing total silver to 100-200 oz range).</li>
+        <li><strong>$2,500-$5,000:</strong> Above plus 1oz gold coins (adding 1-2 gold ounces).</li>
+      </ul>
+      <p>
+        This mix provides small-denomination silver for divisibility, meaningful silver stack size, and initial gold exposure without single-purchase concentration.
+      </p>
+      <p>
+        None of this is investment advice. Individual circumstances vary substantially, and precious metals allocation should fit within a broader financial plan.
+      </p>
+
+      <h2>Frequently Asked Questions</h2>
+      <h3>How much of my portfolio should be in precious metals?</h3>
+      <p>
+        Depends heavily on personal circumstances, investment goals, and risk tolerance. Common general advice ranges from 5% to 15% of total portfolio, with some advisors recommending less or more depending on situation. Not a question with a universal answer &mdash; consult a financial advisor familiar with your specific situation.
+      </p>
+      <h3>Should I buy gold or silver first?</h3>
+      <p>
+        Depends on purpose. Silver at lower per-ounce price is a natural starting point for smaller budgets and small-denomination barter scenarios. Gold at higher per-ounce price is more efficient for larger allocations focused on wealth preservation. Many first-time buyers include some of both.
+      </p>
+      <h3>Is Costco or a warehouse-club a good place to buy gold?</h3>
+      <p>
+        Costco sells gold at competitive premiums to major online dealers. Product authenticity is reliable. The trade-off: limited selection, membership required, no in-person expertise available. For simple standard-bullion purchases (1oz gold bars, 1oz gold Eagles), it&apos;s a legitimate option. See our{" "}
+        <Link href="/blog/buying-gold-costco-retail" className="text-gold font-semibold">
+          Costco gold guide
+        </Link>{" "}
+        for the details.
+      </p>
+      <h3>Do I need to report a $500-$5,000 precious metals purchase to anyone?</h3>
+      <p>
+        No. Federal Form 8300 applies only to cash purchases over $10,000. Small purchases well under that threshold trigger no federal reporting requirements. Your own personal record-keeping for future tax basis matters &mdash; keep receipts.
+      </p>
+      <h3>Should my first purchase be in a gold IRA?</h3>
+      <p>
+        Generally no. Gold IRAs have specific costs (custodian fees, storage fees) that make sense for larger allocations but rarely for a first $500-$5,000 purchase. IRA rollover pressure aimed at first-time buyers is one of the most-scammed segments of the industry. Start with direct-purchase, physical possession or independent depository storage. Consider IRA structures later if the allocation grows and the fee structure fits.
+      </p>
+      <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
+        This article is general information only, not investment or financial advice. Precious metals purchases carry price risk, and individual investment decisions should reflect personal circumstances and broader financial planning. Browse our verified dealer directory to compare pricing across dealers in your area.
+      </p>
+    </>
+  ),
 };
 
 export default function BlogPostPage({
