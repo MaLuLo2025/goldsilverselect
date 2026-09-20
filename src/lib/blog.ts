@@ -443,8 +443,9 @@ export const blogPosts: BlogPost[] = [
     tag: "Buyer’s Guide",
     tagColor: "gold",
     excerpt:
-      "Eight states plus DC apply sales tax to precious metals in 2026; others exempt based on dollar thresholds or product category. A state-by-state guide to sales tax on bullion, the use-tax obligation that follows cross-state purchases, and how online dealers handle it.",
+      "Eight states plus DC apply sales tax to precious metals in 2026 — including Maryland (added 2025), Washington (added 2026), and Virginia (added 2026). A state-by-state guide to sales tax on bullion, the use-tax obligation that follows cross-state purchases, and how online dealers handle it.",
     date: "2026-09-21",
+    dateModified: "2026-09-21",
   },
   {
     slug: "inheriting-gold-silver-tax-basis",

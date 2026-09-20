@@ -79,5 +79,6 @@ export interface BlogPost {
   tagColor: "gold" | "forest";
   excerpt: string;
   date: string;
+  dateModified?: string;
   series?: string;
 }

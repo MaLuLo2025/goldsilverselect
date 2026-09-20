@@ -5561,8 +5561,11 @@ const blogContent: Record<string, React.ReactNode> = {
 
   "sales-tax-precious-metals-by-state-2026": (
     <>
+      <p style={{ color: "#999", fontSize: "13px", fontStyle: "italic" }}>
+        This article reflects state sales tax rules as of publication in September 2026. Recent legislative changes have shifted several states&apos; treatment; verify with the specific state&apos;s Department of Revenue before relying on this information.
+      </p>
       <p>
-        Most precious metals buyers assume sales tax doesn&apos;t apply to bullion purchases. For most buyers in most states, that assumption is correct &mdash; but &ldquo;most&rdquo; is doing a lot of work in that sentence. Eight states and the District of Columbia impose sales tax on some or all precious metals purchases in 2026, and among the exempting states, the specific exemption rules vary considerably &mdash; some exempt only above certain dollar thresholds, some exempt only specific product categories, some exempt bullion but not numismatic.
+        Most precious metals buyers assume sales tax doesn&apos;t apply to bullion purchases. For most buyers in most states, that assumption is correct &mdash; but &ldquo;most&rdquo; is doing a lot of work in that sentence. Eight jurisdictions &mdash; seven states and the District of Columbia &mdash; impose sales tax on precious metals purchases in 2026, and several more apply narrower or category-specific rules, and among the exempting states, the specific exemption rules vary considerably &mdash; some exempt only above certain dollar thresholds, some exempt only specific product categories, some exempt bullion but not numismatic.
       </p>
       <p>
         Buyers who ignore this get burned two ways. First, unexpected sales tax on a purchase can add 5-10% to the cost of metal, wiping out months of dealer premium comparison. Second, buyers who intentionally cross state lines to avoid sales tax can trigger use-tax obligations in their home state &mdash; legally identical in most cases to owing the original sales tax.
@@ -5570,29 +5573,44 @@ const blogContent: Record<string, React.ReactNode> = {
       <p>This is the 2026 landscape.</p>
 
       <h2>States That Fully Tax Precious Metals</h2>
-      <p>As of 2026, these jurisdictions apply sales tax to essentially all precious metals purchases with no bullion exemption:</p>
+      <p>
+        As of September 2026, these jurisdictions apply sales tax to essentially all precious metals purchases with no general bullion exemption. This landscape has shifted meaningfully in 2025-2026 as several previously-exempt states added tax:
+      </p>
       <ul>
         <li><strong>District of Columbia</strong> &mdash; full sales tax applies.</li>
-        <li><strong>Hawaii</strong> &mdash; general excise tax applies to precious metals.</li>
-        <li><strong>Kentucky</strong> &mdash; sales tax applies with limited exceptions.</li>
+        <li><strong>Hawaii</strong> &mdash; General Excise Tax applies.</li>
         <li><strong>Maine</strong> &mdash; sales tax applies.</li>
-        <li><strong>New Jersey</strong> &mdash; sales tax applies with narrow exceptions.</li>
+        <li><strong>Maryland</strong> &mdash; sales tax applies as of July 2025.</li>
         <li><strong>New Mexico</strong> &mdash; gross receipts tax applies.</li>
         <li><strong>Vermont</strong> &mdash; sales tax applies.</li>
-        <li><strong>Wisconsin</strong> &mdash; sales tax applies.</li>
+        <li><strong>Virginia</strong> &mdash; sales tax applies as of July 2026.</li>
+        <li><strong>Washington</strong> &mdash; sales tax applies as of January 2026.</li>
       </ul>
-      <p>In these jurisdictions, a $10,000 bullion purchase adds $500-$1,000 in sales tax depending on the local rate.</p>
+      <p>
+        Kentucky, Wisconsin, Mississippi, and New Jersey apply narrower or category-specific treatment rather than a blanket tax; check the state&apos;s rules for the specific product before buying. In the fully taxing jurisdictions, a $10,000 bullion purchase adds several hundred dollars in sales tax depending on the state and local rate (for example, roughly $600 at 6%).
+      </p>
+
+      <h2>Recent Legislative Changes (2025-2026)</h2>
+      <p>Several states changed their treatment of precious metals in the past two years:</p>
+      <ul>
+        <li><strong>Maryland:</strong> previously exempt &rarr; now 6% sales tax (July 2025)</li>
+        <li><strong>Washington:</strong> previously exempt &rarr; now 6.5% sales tax (January 2026)</li>
+        <li><strong>Virginia:</strong> previously exempt &rarr; now taxable (July 2026)</li>
+        <li><strong>Florida:</strong> previously threshold-limited &rarr; now fully exempt (2025)</li>
+      </ul>
+      <p>
+        Older articles and dealer pages may still list these states under their former treatment. Confirm current rules with the state Department of Revenue.
+      </p>
 
       <h2>States With Dollar-Threshold Exemptions</h2>
-      <p>Several states exempt precious metals purchases above a specific dollar threshold &mdash; below the threshold, tax applies; above it, exempt.</p>
+      <p>Some states exempt precious metals purchases above a specific dollar threshold &mdash; below the threshold, tax applies; above it, exempt.</p>
       <ul>
         <li><strong>Texas</strong> &mdash; exempts precious metals transactions above $1,000 in single purchases.</li>
         <li><strong>Illinois</strong> &mdash; similar threshold structure, with per-transaction exemption above certain amounts.</li>
         <li><strong>Massachusetts</strong> &mdash; has threshold-based exemptions for bullion at specified quantities.</li>
-        <li><strong>Maryland</strong> &mdash; exemption applies at certain transaction sizes.</li>
       </ul>
       <p>
-        The threshold amounts and specific product qualifications change with state legislation. Verify the current threshold before assuming any purchase qualifies.
+        Florida removed its $500 threshold in 2025 and is now fully exempt, and Maryland moved from an exemption to full taxation in July 2025. Threshold-based structures continue in select states. The threshold amounts and specific product qualifications change with state legislation. Verify the current threshold before assuming any purchase qualifies.
       </p>
 
       <h2>States That Exempt Bullion but Not Numismatic</h2>
@@ -5611,7 +5629,7 @@ const blogContent: Record<string, React.ReactNode> = {
 
       <h2>States With Broad Precious Metals Exemptions</h2>
       <p>
-        Most states &mdash; roughly 42 &mdash; provide broad exemptions covering standard bullion products and often numismatic coins as well. In these states, ordinary precious metals purchases don&apos;t trigger sales tax.
+        Most states &mdash; roughly 40 &mdash; provide broad exemptions covering standard bullion products and often numismatic coins as well. In these states, ordinary precious metals purchases don&apos;t trigger sales tax.
       </p>
       <p>The exemption typically covers:</p>
       <ul>
@@ -5625,7 +5643,7 @@ const blogContent: Record<string, React.ReactNode> = {
 
       <h2>The Cross-State Purchase and Use-Tax Problem</h2>
       <p>
-        Buyers frequently cross state lines to avoid sales tax in a taxing state. A New Jersey resident drives to Pennsylvania (bullion-exempt) to buy gold. A Wisconsin resident buys online from a dealer that doesn&apos;t charge sales tax on out-of-state shipments.
+        Buyers frequently cross state lines to avoid sales tax in a taxing state. A Maryland resident drives to Delaware (no sales tax) to buy gold. A Vermont resident buys online from a dealer that doesn&apos;t charge sales tax on out-of-state shipments.
       </p>
       <p>
         The catch: most taxing states have a corresponding use tax, which is the buyer&apos;s obligation to pay tax on out-of-state purchases where sales tax wasn&apos;t collected. The rate typically matches the sales tax rate.
@@ -5679,9 +5697,9 @@ const blogContent: Record<string, React.ReactNode> = {
       <h2>Frequently Asked Questions</h2>
       <h3>Which states charge sales tax on precious metals in 2026?</h3>
       <p>
-        Eight states plus DC apply sales tax broadly: DC, Hawaii, Kentucky, Maine, New Jersey, New Mexico, Vermont, and Wisconsin. Several other states apply sales tax below specific dollar thresholds or on numismatic-classified products even where bullion is exempt. State rules change with legislative sessions &mdash; verify current law before any significant purchase.
+        Eight jurisdictions apply sales tax broadly as of September 2026: DC, Hawaii, Maine, Maryland, New Mexico, Vermont, Virginia, and Washington. Maryland (July 2025), Washington (January 2026), and Virginia (July 2026) were previously exempt. Kentucky, Wisconsin, Mississippi, and New Jersey apply narrower or category-specific treatment, and several other states apply sales tax below specific dollar thresholds or on numismatic-classified products even where bullion is exempt. State rules change with legislative sessions &mdash; verify current law with the state Department of Revenue before any significant purchase.
       </p>
-      <h3>If I buy gold in Pennsylvania and take it home to New Jersey, do I owe tax?</h3>
+      <h3>If I buy gold in Delaware and take it home to Maryland, do I owe tax?</h3>
       <p>
         Legally, yes &mdash; most taxing states impose a use tax on out-of-state purchases where sales tax wasn&apos;t collected, at a rate matching the sales tax rate. Enforcement varies with dollar amount and paper trail. The legal obligation exists regardless of enforcement risk.
       </p>
@@ -6042,7 +6060,7 @@ export default function BlogPostPage({
     headline: post.title,
     description: post.excerpt,
     datePublished: post.date,
-    dateModified: post.date,
+    dateModified: post.dateModified ?? post.date,
     author: {
       "@type": "Organization",
       name: "GoldSilverSelect",
