@@ -109,20 +109,22 @@ Project-specific notes:
 
 ## Price Data Architecture (read before touching /api/prices)
 
-### Current Architecture (as of 2026-08-17)
-`/api/prices` does **not** call metals.dev, and does **not** read TGW's Redis directly. It reads TGW's public dashboard snapshot HTTP endpoint:
+### Current Architecture (as of 2026-08-27)
+`/api/prices` does **not** call metals.dev, and has **no Redis/Upstash dependency**. It reads TGW's public dashboard snapshot HTTP endpoint:
 
-1. **Primary — TGW's snapshot API** (`GET https://thegoldwindow.ai/api/dashboard/snapshot`, no auth, no shared env vars — a public read-only HTTP call, not a Redis connection)
+1. **Primary — TGW's snapshot API** (`GET https://thegoldwindow.ai/api/dashboard/snapshot`, no auth, no env vars — a public read-only HTTP call)
    - Server-side cached by TGW itself (~30s); we additionally cache the fetch with `next: { revalidate: 60 }`
    - Response includes `pm: []` (gold/silver/platinum/palladium) and `pmStale: boolean`. `pmStale: true` means the underlying price is a closed-market last-close value, not a live quote — it does **not** mean the data is missing. We treat `pm` containing valid gold+silver as usable either way, tagging the response `marketOpen: !pmStale`.
    - Only a genuine failure (fetch error, non-OK response, malformed body, or `pm` yielding no valid gold/silver at all) is treated as "no data."
-   - On success (live or closed-market): warm-written into GSS Redis (`gss:metals:spot`, 20-min TTL) to keep the fallback current.
+   - On success (live or closed-market): warm-written into the Vercel Runtime Cache (key `gss:metals:spot`, 20-min TTL, tag `prices`) to keep the fallback current.
    - Log: `[metals-call] key=tgw-snapshot ts=<ISO> marketOpen=<bool>`
 
-2. **Secondary — GSS Redis** (`gss:metals:spot`, env vars `UPSTASH_REDIS_REST_URL` / `UPSTASH_REDIS_REST_TOKEN`)
+2. **Secondary — Vercel Runtime Cache** (`gss:metals:spot`, via `src/lib/cache/runtime-cache.ts` → `getCache()` from `@vercel/functions`; no env vars)
    - Used when the TGW snapshot fetch fails or yields no usable gold/silver
    - Carries forward whatever `marketOpen` value was stored at warm-write time, if any
-   - Log: `[metals-call] key=gss-redis-fallback ts=<ISO>`
+   - Regional and LRU-evicted: each Vercel region has its own copy, so a hit is never guaranteed. It is a backup, not the primary read path. Off-platform (`next dev`, CI) it degrades to a no-op
+   - Only plain get/set — never build atomic read-modify-write (counters, rate limits) on it
+   - Log: `[metals-call] key=runtime-cache-fallback ts=<ISO>` (response `_source: "runtime-cache"`)
 
 3. **Tertiary — 503, no hardcoded fallback**
    - Used only when neither of the above yields valid gold/silver — a genuine failure, not a closed market (a closed market is a 200 from tier 1, tagged `marketOpen: false`)
@@ -134,13 +136,8 @@ Project-specific notes:
 ### metals.dev quota is managed entirely by TGW
 This project makes zero metals.dev API calls, direct or indirect. TGW's `/api/dashboard/snapshot` is the only price dependency; its own metals.dev plan, TTL, and quota calculations are owned by the TGW project (`~/Projects/sgi-analytics`). Do not add metals.dev calls here without explicit owner approval.
 
-### Required env vars
-| Var | Purpose |
-|-----|---------|
-| `UPSTASH_REDIS_REST_URL` | GSS Upstash REST URL (fallback cache only — GSS no longer connects to TGW's Redis directly) |
-| `UPSTASH_REDIS_REST_TOKEN` | GSS Upstash REST token |
-
-No TGW-specific credentials are needed — `SNAPSHOT_URL` is a public HTTP endpoint, not a Redis connection.
+### Env vars
+None. The snapshot URL is a public constant in `src/app/api/prices/route.ts`, and the Runtime Cache needs no credentials. `@upstash/redis` was removed from dependencies.
 
 ### Daily % change requirement
 **Daily % change is still a REQUIREMENT** — the ticker must always show price + daily change. Sourced from TGW's snapshot `changePercent` field, which TGW derives from metals.dev. If TGW stops populating change data, investigate TGW's `src/app/api/dashboard/snapshot/route.ts` / `src/lib/data/metals-dev.ts`, not this project.
@@ -150,6 +147,7 @@ No TGW-specific credentials are needed — `SNAPSHOT_URL` is a public HTTP endpo
 - June 2026: quota exhaustion recurred even after moving to 20-min server-side cache, because the in-memory cache didn't survive serverless cold starts.
 - July 2026: architecture changed to read TGW's Redis directly (`sgi:metals:spot:all`, `UPSTASH_REDIS_REST_URL_TGW`). GSS no longer needed its own metals.dev subscription. Hardcoded fallback prices removed the same month.
 - August 2026 (`eb41a8c`): architecture changed again, to TGW's public snapshot HTTP endpoint instead of a direct Redis connection — no TGW-specific credentials needed at all. This is the current architecture described above. The direct-Redis env vars (`UPSTASH_REDIS_REST_URL_TGW` / `UPSTASH_REDIS_REST_TOKEN_TGW`) are no longer used by this project.
+- August 27, 2026 (`f7ff261`): the GSS fallback cache moved from the shared Upstash Redis instance (also used by TGW) to the Vercel Runtime Cache. `@upstash/redis` dropped; `UPSTASH_REDIS_REST_URL` / `UPSTASH_REDIS_REST_TOKEN` are obsolete and can be removed from Vercel.
 - August 2026: fixed `/api/prices` treating TGW's `pmStale: true` as "no data" and returning 503 on closed markets, discarding valid last-close prices TGW provides. Now returns 200 with a `marketOpen` flag; see current architecture above.
 
 ## Vendor Data Standards
@@ -203,7 +201,7 @@ No TGW-specific credentials are needed — `SNAPSHOT_URL` is a public HTTP endpo
 - Detail pages: website and phone prominently visible near top
 
 ## Search Console
-- When submitting sitemaps to Google Search Console, the full URL is required (e.g., https://goldsilverselect.com/sitemap.xml), not just the filename.
+- When submitting sitemaps to Google Search Console, the full URL is required (e.g., https://www.goldsilverselect.com/sitemap.xml), not just the filename.
 - Every site must have a dynamic sitemap.xml generated at build time that includes all pages — homepage, dealer/vendor pages, city pages, state pages, blog articles, FAQ, and legal pages.
 
 ## Vertical Descriptions
