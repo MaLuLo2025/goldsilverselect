@@ -5580,16 +5580,16 @@ export default function BlogPostPage({
     author: {
       "@type": "Organization",
       name: "GoldSilverSelect",
-      url: "https://goldsilverselect.com",
+      url: "https://www.goldsilverselect.com",
     },
     publisher: {
       "@type": "Organization",
       name: "GoldSilverSelect",
-      url: "https://goldsilverselect.com",
+      url: "https://www.goldsilverselect.com",
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://goldsilverselect.com/blog/${params.slug}`,
+      "@id": `https://www.goldsilverselect.com/blog/${params.slug}`,
     },
   };
 
