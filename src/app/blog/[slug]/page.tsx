@@ -1041,7 +1041,7 @@ const blogContent: Record<string, React.ReactNode> = {
       </p>
       <p>
         Premiums on junk silver fluctuate more than most products. In calm markets, junk silver trades near generic silver premiums. In high-demand periods, premiums spike — sometimes dramatically — because supply is fixed. Nobody is making more 1964 Washington quarters. For more on junk silver, see our article{" "}
-        <Link href="/blog/what-is-junk-silver" className="text-gold font-semibold">
+        <Link href="/blog/junk-silver-premiums-explained" className="text-gold font-semibold">
           What Is Junk Silver?
         </Link>
       </p>
@@ -1450,7 +1450,7 @@ const blogContent: Record<string, React.ReactNode> = {
       </p>
       <p>
         <strong>Junk silver and constitutional silver</strong> can go either way. Local shops often have more varied and interesting junk silver stock — you can pick through bags and cherry-pick dates if that interests you. Online dealers typically sell junk silver in fixed face-value lots. If you just want 90% silver at the lowest premium, compare both. If you enjoy the hunt, shop local. For more on junk silver, see{" "}
-        <Link href="/blog/what-is-junk-silver" className="text-gold font-semibold">
+        <Link href="/blog/junk-silver-premiums-explained" className="text-gold font-semibold">
           What Is Junk Silver?
         </Link>
       </p>

@@ -202,17 +202,6 @@ export const blogPosts: BlogPost[] = [
     series: "Spot Price vs. What You Pay",
   },
   {
-    slug: "what-is-junk-silver",
-    title:
-      "What Is Junk Silver and Why Do People Pay Over Spot for Worn-Out Coins?",
-    tag: "Premiums & Pricing",
-    tagColor: "forest",
-    excerpt:
-      "Pre-1965 U.S. coins contain 90% silver. They\u2019re called \u201Cjunk\u201D but they\u2019re anything but. Here\u2019s how to value them and where to find them.",
-    date: "2026-03-23",
-    series: "Spot Price vs. What You Pay",
-  },
-  {
     slug: "gold-and-wars-geopolitical-risk-hedge",
     title:
       "Gold and Wars: 125 Years of Gold as a Geopolitical Risk Hedge",

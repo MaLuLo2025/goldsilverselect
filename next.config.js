@@ -39,6 +39,12 @@ const nextConfig = {
   },
   async redirects() {
     return [
+      // Consolidated: what-is-junk-silver never had content; junk-silver-premiums-explained covers the topic
+      {
+        source: '/blog/what-is-junk-silver',
+        destination: '/blog/junk-silver-premiums-explained',
+        permanent: true,
+      },
       // silvergoldinsights.com: www → non-www canonical redirect
       {
         source: '/:path*',
