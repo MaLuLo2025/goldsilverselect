@@ -105,6 +105,7 @@ Project-specific notes:
 - Template literal handling and file-modification pattern are in
   `../CONVENTIONS.md` (Deployment Workflow) — no property-specific override
 - Always verify Vercel status after push
+- Run `~/scripts/check-rendered-markdown.sh goldsilverselect` after deploy to catch renderer regressions (literal `###`, `**bold**`, `1.` etc. showing up in production posts).
 
 ## Price Data Architecture (read before touching /api/prices)
 
