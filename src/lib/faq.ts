@@ -578,14 +578,14 @@ export const faqCategories: FAQCategory[] = [
         answer: "No. The IRS requires precious metals held in an IRA to be stored by an approved depository. The U.S. Tax Court confirmed this in McNulty v. Commissioner (2021), ruling that home storage constituted a taxable distribution \u2014 triggering income tax on the full value plus a 10% early withdrawal penalty for taxpayers under age 59\u00bd.",
       },
       {
-        question: "What types of gold are IRS-approved for an IRA?",
+        question: "What types of gold are IRA-eligible?",
         learnMoreLabel: "Gold IRA Scams: Red Flags from Federal Enforcement Actions",
         learnMoreHref: "/blog/gold-ira-scams-red-flags-federal",
         links: [
           { label: "Gold IRA Scams: Red Flags from Federal Enforcement Actions", href: "/blog/gold-ira-scams-red-flags-federal" },
           { label: "IRA-Eligible Silver: The Purity Rules, the Depositories, and What Actually Counts", href: "/blog/ira-eligible-silver-rules-depositories-2026" },
         ],
-        answer: "Gold held in an IRA must be at least 99.5% pure (with the American Gold Eagle as a statutory exception). Approved products include American Gold Eagles, American Gold Buffalos, Canadian Gold Maple Leafs, Austrian Gold Philharmonics, and gold bars from refiners on accredited lists.",
+        answer: "Gold held in an IRA must be at least 99.5% pure (with the American Gold Eagle as a statutory exception). IRA-eligible products include American Gold Eagles, American Gold Buffalos, Canadian Gold Maple Leafs, Austrian Gold Philharmonics, and gold bars from refiners on accredited lists.",
       },
       {
         question: "What is allocated vs. segregated vs. unallocated storage?",
