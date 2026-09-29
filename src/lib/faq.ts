@@ -565,7 +565,7 @@ export const faqCategories: FAQCategory[] = [
         question: "Is a gold IRA legitimate, or is the whole concept a scam?",
         learnMoreLabel: "Gold IRA Scams: Red Flags from Federal Enforcement Actions",
         learnMoreHref: "/blog/gold-ira-scams-red-flags-federal",
-        answer: "The concept is legitimate. A self-directed IRA can legally hold IRS-approved gold, silver, platinum, and palladium, and the structure is recognized by the IRS. What gets retirees in trouble is not the concept \u2014 it\u2019s the sales tactics and pricing of specific dealers, which the SEC, CFTC, and FTC have repeatedly pursued in enforcement actions.",
+        answer: "The concept is legitimate. A self-directed IRA can legally hold IRA-eligible gold, silver, platinum, and palladium, and the structure is recognized by the IRS. What gets retirees in trouble is not the concept \u2014 it\u2019s the sales tactics and pricing of specific dealers, which the SEC, CFTC, and FTC have repeatedly pursued in enforcement actions.",
       },
       {
         question: "Can I store my gold IRA at home?",
@@ -657,7 +657,7 @@ export const faqCategories: FAQCategory[] = [
       },
       {
         question: "What is the home storage gold IRA scam?",
-        answer: "Promoters market \u201Chome storage\u201D or \u201Ccheckbook LLC\u201D gold IRAs as a way to hold IRA-owned coins in your own safe, supposedly avoiding depository fees. The IRS treats this as a prohibited transaction or a full distribution of the entire account. The 2021 U.S. Tax Court decision McNulty v. Commissioner ruled directly against this structure \u2014 the McNultys owed income tax on the full distributed amount plus penalties. IRA-owned bullion must be held by an IRS-approved trustee or non-bank custodian at an approved depository. There is no legitimate way to store IRA-owned metal at home.",
+        answer: "Promoters market \u201Chome storage\u201D or \u201Ccheckbook LLC\u201D gold IRAs as a way to hold IRA-owned coins in your own safe, supposedly avoiding depository fees. The IRS treats this as a prohibited transaction or a full distribution of the entire account. The 2021 U.S. Tax Court decision McNulty v. Commissioner ruled directly against this structure \u2014 the McNultys owed income tax on the full distributed amount plus penalties. IRA-owned bullion must be held by a qualified trustee or non-bank custodian at a custodian-approved depository. There is no legitimate way to store IRA-owned metal at home.",
         learnMoreLabel: "The Home Storage Gold IRA Scam",
         learnMoreHref: "/blog/home-storage-gold-ira-scam",
       },
@@ -716,7 +716,7 @@ export const faqCategories: FAQCategory[] = [
     items: [
       {
         question: "Is a Gold IRA a legitimate retirement strategy?",
-        answer: "Gold IRAs\u2014self-directed IRAs holding physical precious metals at an IRS-approved depository\u2014are a legitimate account structure. The metals are real, the IRS approval is real, and the tax advantages mirror traditional or Roth IRAs. The concern isn\u2019t the structure; it\u2019s the cost structure most companies apply: dealer markups of 10-40% above market prices on product going into the account, plus annual custodian fees, plus depository storage fees of 0.5-1% annually, plus liquidation costs. These fees require significant price appreciation just to break even. Evaluate total cost\u2014not just the tax advantage pitch\u2014before opening an account.",
+        answer: "Gold IRAs\u2014self-directed IRAs holding physical precious metals at a qualified depository\u2014are a legitimate account structure. The metals are real, the statutory framework under IRC \u00a7 408(m) is real, and the tax advantages mirror traditional or Roth IRAs. The concern isn\u2019t the structure; it\u2019s the cost structure most companies apply: dealer markups of 10-40% above market prices on product going into the account, plus annual custodian fees, plus depository storage fees of 0.5-1% annually, plus liquidation costs. These fees require significant price appreciation just to break even. Evaluate total cost\u2014not just the tax advantage pitch\u2014before opening an account.",
         learnMoreLabel: "Gold IRA Fees and Scams: What the Industry Doesn\u2019t Want You to Calculate",
         learnMoreHref: "/blog/gold-ira-fees-scams",
       },
