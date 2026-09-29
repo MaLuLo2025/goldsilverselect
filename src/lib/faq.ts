@@ -185,6 +185,10 @@ export const faqCategories: FAQCategory[] = [
         answer: "No. This is called “structuring” and is a federal felony under 31 U.S.C. § 5324, punishable by up to 5 years in prison (10 if part of a pattern). The underlying purchase can be entirely legal — structuring is a separate crime tied to intent to evade the reporting requirement. A dealer who suggests splitting a transaction is asking you to commit a felony.",
         learnMoreLabel: "Precious Metals Reporting: 1099-B, Form 8300, and the Felony Trap Called Structuring",
         learnMoreHref: "/blog/1099-b-precious-metals-reporting",
+        links: [
+          { label: "Precious Metals Reporting: 1099-B, Form 8300, and the Felony Trap Called Structuring", href: "/blog/1099-b-precious-metals-reporting" },
+          { label: "The IRS Just Corrected Its Confusing Coin Example: What Precious Metals Sellers Need to Know About 1099-B Reporting in 2026", href: "/blog/1099-b-reporting-precious-metals-2026-irs-correction" },
+        ],
       },
       {
         question: "Is platinum a good investment in 2026?",
@@ -247,6 +251,7 @@ export const faqCategories: FAQCategory[] = [
         learnMoreHref: "/blog/capital-gains-tax-gold-silver-2026",
         links: [
           { label: "Precious Metals Reporting: 1099-B, Form 8300, and the Felony Trap Called Structuring", href: "/blog/1099-b-precious-metals-reporting" },
+          { label: "Constitutional Money: The States That Recognized Gold and Silver as Legal Tender by 2026", href: "/blog/constitutional-money-legal-tender-states-2026" },
         ],
       },
       {
@@ -256,6 +261,7 @@ export const faqCategories: FAQCategory[] = [
         learnMoreHref: "/blog/capital-gains-tax-gold-silver-2026",
         links: [
           { label: "Precious Metals Reporting: 1099-B, Form 8300, and the Felony Trap Called Structuring", href: "/blog/1099-b-precious-metals-reporting" },
+          { label: "The IRS Just Corrected Its Confusing Coin Example: What Precious Metals Sellers Need to Know About 1099-B Reporting in 2026", href: "/blog/1099-b-reporting-precious-metals-2026-irs-correction" },
         ],
       },
       {
@@ -299,6 +305,10 @@ export const faqCategories: FAQCategory[] = [
         answer: "Only specific products at specific quantities: 25+ ounces of Gold Krugerrands, Maple Leafs, or Mexican Onzas; $1,000+ face value of 90% silver US coins; 1 kilo or 1,000 ounce gold bars; 1,000 ounce silver bars; and specific platinum and palladium bar sizes. American Gold Eagles, American Silver Eagles, American Gold Buffalos, and most fractional coins are not on the reportable list at any quantity — though the capital gains tax on any sale still applies regardless.",
         learnMoreLabel: "Precious Metals Reporting: 1099-B, Form 8300, and the Felony Trap Called Structuring",
         learnMoreHref: "/blog/1099-b-precious-metals-reporting",
+        links: [
+          { label: "Precious Metals Reporting: 1099-B, Form 8300, and the Felony Trap Called Structuring", href: "/blog/1099-b-precious-metals-reporting" },
+          { label: "The IRS Just Corrected Its Confusing Coin Example: What Precious Metals Sellers Need to Know About 1099-B Reporting in 2026", href: "/blog/1099-b-reporting-precious-metals-2026-irs-correction" },
+        ],
       },
       {
         question: "If no 1099 is filed on my sale, do I still owe capital gains tax?",
@@ -311,6 +321,12 @@ export const faqCategories: FAQCategory[] = [
         answer: "Depends on what’s in the collection. For genuinely rare or valuable numismatic coins — pre-1933 US gold, key-date silver, classic type coins in high grades — professional grading often unlocks meaningful additional value. For modern bullion, generic silver rounds, or heavily worn common-date coins, the grading fees typically exceed the value added. Have the collection reviewed by a numismatist first.",
         learnMoreLabel: "Is Coin Grading Worth It? PCGS and NGC Explained",
         learnMoreHref: "/blog/is-coin-grading-worth-it-pcgs-ngc",
+      },
+      {
+        question: "What changed in the 2026 Form 1099-B instructions for precious metals?",
+        answer: "On January 30, 2026, the IRS posted a correction to the 2025 and 2026 Form 1099-B instructions that removed an example suggesting individual coin sales might be reportable. The underlying rule was restated rather than changed: a sale is not reportable if no CFTC-approved regulated futures contract exists for that form of metal, or if the quantity sold is below the contract minimum. Sales by one customer within a 24-hour period are aggregated. Any gain is taxable whether or not a 1099-B is filed.",
+        learnMoreLabel: "The IRS Just Corrected Its Confusing Coin Example: What Precious Metals Sellers Need to Know About 1099-B Reporting in 2026",
+        learnMoreHref: "/blog/1099-b-reporting-precious-metals-2026-irs-correction",
       },
     ],
   },
@@ -409,6 +425,10 @@ export const faqCategories: FAQCategory[] = [
         question: "Is the Krugerrand IRA-eligible?",
         learnMoreLabel: "Gold Coin Premiums Compared",
         learnMoreHref: "/blog/gold-coin-premiums-compared",
+        links: [
+          { label: "Gold Coin Premiums Compared", href: "/blog/gold-coin-premiums-compared" },
+          { label: "IRA-Eligible Silver: The Purity Rules, the Depositories, and What Actually Counts", href: "/blog/ira-eligible-silver-rules-depositories-2026" },
+        ],
         answer: "No. IRS rules require gold in retirement accounts to meet .995 fineness. The Krugerrand\u2019s .9167 fineness falls below the threshold. The Gold American Eagle, despite being .9167 fineness, has a specific statutory exemption that no other .9167 coin receives. For IRA-eligible gold positions, look to Eagles, Maple Leafs, or .9999-fine bars from approved refiners.",
       },
       {
@@ -538,6 +558,7 @@ export const faqCategories: FAQCategory[] = [
           { label: "The Home Storage Gold IRA Scam", href: "/blog/home-storage-gold-ira-scam" },
           { label: "Gold IRA Scams: Red Flags from Federal Enforcement Actions", href: "/blog/gold-ira-scams-red-flags-federal" },
           { label: "Gold IRA Fees and Scams: What the Industry Doesn\u2019t Want You to Calculate", href: "/blog/gold-ira-fees-scams" },
+          { label: "IRA-Eligible Silver: The Purity Rules, the Depositories, and What Actually Counts", href: "/blog/ira-eligible-silver-rules-depositories-2026" },
         ],
       },
       {
@@ -550,12 +571,20 @@ export const faqCategories: FAQCategory[] = [
         question: "Can I store my gold IRA at home?",
         learnMoreLabel: "Gold IRA Scams: Red Flags from Federal Enforcement Actions",
         learnMoreHref: "/blog/gold-ira-scams-red-flags-federal",
+        links: [
+          { label: "Gold IRA Scams: Red Flags from Federal Enforcement Actions", href: "/blog/gold-ira-scams-red-flags-federal" },
+          { label: "IRA-Eligible Silver: The Purity Rules, the Depositories, and What Actually Counts", href: "/blog/ira-eligible-silver-rules-depositories-2026" },
+        ],
         answer: "No. The IRS requires precious metals held in an IRA to be stored by an approved depository. The U.S. Tax Court confirmed this in McNulty v. Commissioner (2021), ruling that home storage constituted a taxable distribution \u2014 triggering income tax on the full value plus a 10% early withdrawal penalty for taxpayers under age 59\u00bd.",
       },
       {
         question: "What types of gold are IRS-approved for an IRA?",
         learnMoreLabel: "Gold IRA Scams: Red Flags from Federal Enforcement Actions",
         learnMoreHref: "/blog/gold-ira-scams-red-flags-federal",
+        links: [
+          { label: "Gold IRA Scams: Red Flags from Federal Enforcement Actions", href: "/blog/gold-ira-scams-red-flags-federal" },
+          { label: "IRA-Eligible Silver: The Purity Rules, the Depositories, and What Actually Counts", href: "/blog/ira-eligible-silver-rules-depositories-2026" },
+        ],
         answer: "Gold held in an IRA must be at least 99.5% pure (with the American Gold Eagle as a statutory exception). Approved products include American Gold Eagles, American Gold Buffalos, Canadian Gold Maple Leafs, Austrian Gold Philharmonics, and gold bars from refiners on accredited lists.",
       },
       {
@@ -713,6 +742,12 @@ export const faqCategories: FAQCategory[] = [
         learnMoreLabel: "Gold IRA Fees and Scams: What the Industry Doesn\u2019t Want You to Calculate",
         learnMoreHref: "/blog/gold-ira-fees-scams",
       },
+      {
+        question: "Can I hold silver in a self-directed IRA?",
+        answer: "Yes, if it meets the purity standard. IRC Section 408(m) sets a minimum fineness of .999 for silver, which covers products such as American Silver Eagles and bars from approved refiners. Junk silver, sterling silver (.925), and most numismatic coins do not qualify. As with gold, IRA silver must be held by a depository rather than at home, and the specific coin or bar should appear on your custodian\u2019s approved-products list before you buy.",
+        learnMoreLabel: "IRA-Eligible Silver: The Purity Rules, the Depositories, and What Actually Counts",
+        learnMoreHref: "/blog/ira-eligible-silver-rules-depositories-2026",
+      },
     ],
   },
   {
@@ -814,6 +849,12 @@ export const faqCategories: FAQCategory[] = [
         answer: "Yes. Silver is more accessible at lower dollar amounts \u2014 a one-ounce silver coin costs $65\u201390 at current prices, so $500 buys approximately 5\u20137 ounces. A one-tenth-ounce American Gold Eagle costs roughly $460\u2013480 at current gold prices, putting a small gold position within reach. Fractional gold (one-tenth, one-quarter, one-half ounce) carries higher premiums than full-ounce coins on a percentage basis. Starting with silver in smaller amounts and building toward a gold position over time is a practical approach for buyers with limited initial capital.",
         learnMoreLabel: "How Much Gold and Silver Should You Own?",
         learnMoreHref: "/blog/how-much-gold-silver-to-own",
+      },
+      {
+        question: "Do state legal tender laws for gold and silver change how I buy or sell?",
+        answer: "Usually not by much. Several states, including Utah, Texas, and Florida, have recognized gold and silver coins as legal tender or built related infrastructure, such as the Texas Bullion Depository. No state law requires merchants to accept precious metals as payment, and state legal tender status does not remove federal capital gains tax. Some states pair the designation with state-level tax exemptions, so check the rules in your own state.",
+        learnMoreLabel: "Constitutional Money: The States That Recognized Gold and Silver as Legal Tender by 2026",
+        learnMoreHref: "/blog/constitutional-money-legal-tender-states-2026",
       },
     ],
   },

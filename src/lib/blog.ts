@@ -472,7 +472,7 @@ export const blogPosts: BlogPost[] = [
     title:
       "IRA-Eligible Silver: The Purity Rules, the Depositories, and What Actually Counts",
     tag: "Education",
-    tagColor: "gold",
+    tagColor: "forest",
     excerpt:
       "Not every silver coin qualifies for a self-directed IRA. IRC § 408(m) sets the purity floor at .999 for silver bullion, names a handful of coin exceptions, and requires storage with an IRS-approved depository — never at home. Here is what actually counts, which depositories most custodians use in 2026, and the McNulty case that made home storage a bright-line prohibition.",
     date: "2026-09-28",
