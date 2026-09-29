@@ -467,6 +467,36 @@ export const blogPosts: BlogPost[] = [
       "Six recurring mistakes first-time buyers make, the four product categories that cover 95% of what makes sense, reasonable premium expectations in 2026, and where to actually buy. Updated companion to our 2024-era starter guide.",
     date: "2026-09-21",
   },
+  {
+    slug: "ira-eligible-silver-rules-depositories-2026",
+    title:
+      "IRA-Eligible Silver: The Purity Rules, the Depositories, and What Actually Counts",
+    tag: "Education",
+    tagColor: "gold",
+    excerpt:
+      "Not every silver coin qualifies for a self-directed IRA. IRC § 408(m) sets the purity floor at .999 for silver bullion, names a handful of coin exceptions, and requires storage with an IRS-approved depository — never at home. Here is what actually counts, which depositories most custodians use in 2026, and the McNulty case that made home storage a bright-line prohibition.",
+    date: "2026-09-28",
+  },
+  {
+    slug: "1099-b-reporting-precious-metals-2026-irs-correction",
+    title:
+      "The IRS Just Corrected Its Confusing Coin Example: What Precious Metals Sellers Need to Know About 1099-B Reporting in 2026",
+    tag: "Education",
+    tagColor: "forest",
+    excerpt:
+      "On January 30, 2026, the IRS quietly corrected the 2025-2026 Form 1099-B instructions to remove a misleading example that had suggested individual coin sales might trigger broker reporting. The correction clarified what the rule actually says — and what dealers are and are not required to report when you sell. Here is what changed, what still triggers reporting, and how the separate Form 8300 cash-transaction rule fits.",
+    date: "2026-09-28",
+  },
+  {
+    slug: "constitutional-money-legal-tender-states-2026",
+    title:
+      "Constitutional Money: The States That Recognized Gold and Silver as Legal Tender by 2026",
+    tag: "Education",
+    tagColor: "forest",
+    excerpt:
+      "Utah started in 2011. Wyoming and Oklahoma followed. Texas built a state depository and passed HB 1056 in 2025 to authorize electronic payment mechanisms. Florida’s HB 999, effective July 1, 2026, added the largest state yet. Here is what state legal tender status actually does — and what it does not — for a small silver buyer.",
+    date: "2026-09-28",
+  },
 ];
 
 const slugs = blogPosts.map((p) => p.slug);
