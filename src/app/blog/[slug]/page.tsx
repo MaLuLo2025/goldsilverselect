@@ -6209,9 +6209,12 @@ const blogContent: Record<string, React.ReactNode> = {
       <p>
         The market has both legitimate custodians and outfits that push high-premium proprietary coins with markups that eat several years of returns. The screen for the latter: any dealer or custodian that emphasizes rare, exclusive, or &ldquo;IRA-approved government coins&rdquo; at prices well above spot for their metal content is almost certainly selling you the wrong product.
       </p>
-      <h2>Looking for a gold IRAs provider who explains the custodian and depository setup clearly?</h2>
-      <p>
-        The directory below lists providers vetted for silver IRA expertise. This is one of those areas where the difference between a good custodian relationship and a bad one shows up over decades of holding &mdash; worth taking time to get right at the start.
+      <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
+        This article is general information only, not investment or financial advice. Precious metals prices fluctuate, and IRA rules, custodian requirements, and depository practices vary, so confirm the details with your custodian or a tax professional before buying or storing metals in an IRA. Browse our{" "}
+        <Link href="/dealers" className="text-gold font-semibold">
+          verified dealer directory
+        </Link>{" "}
+        to compare pricing across dealers in your area.
       </p>
     </>
   ),
@@ -6343,9 +6346,12 @@ const blogContent: Record<string, React.ReactNode> = {
       <p>
         If a dealer refuses to buy without collecting identification for a small sale that is clearly below reporting thresholds, ask why. Some dealers apply their own internal policies that exceed IRS requirements &mdash; legal, but worth understanding before you decide to sell.
       </p>
-      <h2>Looking for a selling provider who understands 2026 reporting rules?</h2>
-      <p>
-        The directory below lists dealers vetted for transparent handling of reporting requirements. On any sale near the reporting thresholds, and on any question about how a specific transaction will be reported, ask before you complete the sale. A dealer who cannot clearly explain what they will report is a dealer worth avoiding.
+      <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
+        This article is general information only, not investment or financial advice. Precious metals prices fluctuate, and tax treatment depends on individual circumstances, so confirm reporting and tax questions with a qualified tax professional. Browse our{" "}
+        <Link href="/dealers" className="text-gold font-semibold">
+          verified dealer directory
+        </Link>{" "}
+        to compare pricing across dealers in your area.
       </p>
     </>
   ),
@@ -6475,9 +6481,12 @@ const blogContent: Record<string, React.ReactNode> = {
       <p>
         The 2026 and 2027 legislative sessions are likely to bring additional movement &mdash; more state bullion depositories are under discussion, expanded legal tender recognition is on the docket in several states, and there has been discussion of a federal sound money bill that would remove federal capital gains tax on gold and silver transactions nationally. Whether any of that materializes is uncertain. The trend line since 2011 has been steadily toward broader state recognition of gold and silver, with meaningful acceleration in 2024-2026.
       </p>
-      <h2>Looking for a getting started provider who explains the state-level picture for your state?</h2>
-      <p>
-        The directory below lists dealers vetted for state-by-state expertise. For any purchase where sales tax exemption, state capital gains treatment, or state depository storage is relevant, a dealer who understands your specific state&apos;s rules is worth more than a national dealer applying a one-size-fits-all process.
+      <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
+        This article is general information only, not investment or financial advice. Precious metals purchases carry price risk, and individual investment decisions should reflect personal circumstances and broader financial planning. Browse our{" "}
+        <Link href="/dealers" className="text-gold font-semibold">
+          verified dealer directory
+        </Link>{" "}
+        to compare pricing across dealers in your area.
       </p>
     </>
   ),

@@ -487,6 +487,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "On January 30, 2026, the IRS quietly corrected the 2025-2026 Form 1099-B instructions to remove a misleading example that had suggested individual coin sales might trigger broker reporting. The correction clarified what the rule actually says — and what dealers are and are not required to report when you sell. Here is what changed, what still triggers reporting, and how the separate Form 8300 cash-transaction rule fits.",
     date: "2026-09-28",
+    dateModified: "2026-09-28",
   },
   {
     slug: "constitutional-money-legal-tender-states-2026",
@@ -497,6 +498,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Utah started in 2011. Wyoming and Oklahoma followed. Texas built a state depository and passed HB 1056 in 2025 to authorize electronic payment mechanisms. Florida’s HB 999, effective July 1, 2026, added the largest state yet. Here is what state legal tender status actually does — and what it does not — for a small silver buyer.",
     date: "2026-09-28",
+    dateModified: "2026-09-28",
   },
 ];
 
