@@ -57,7 +57,7 @@ export default function DealersPage() {
           style={{ background: "rgba(197,164,78,0.06)", border: "1px solid rgba(197,164,78,0.15)", padding: "20px 24px" }}
         >
           <p className="font-sans text-[14px] leading-relaxed" style={{ color: "#666" }}>
-            Brick-and-mortar coin shops and bullion dealers you can walk into, inspect inventory, and transact in person. Every shop in our directory is an established, independent dealer &mdash; not a franchise, not a cash-for-gold kiosk. We verify addresses, check BBB profiles, and write every description ourselves. If you&apos;re buying your first gold coin or selling a collection, these are the local professionals worth talking to.
+            Brick-and-mortar coin shops and bullion dealers you can walk into, inspect inventory, and transact in person. We write every description ourselves from publicly available information. If you&apos;re buying your first gold coin or selling a collection, these are the local professionals worth talking to.
           </p>
         </div>
       </section>

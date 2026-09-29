@@ -2402,7 +2402,7 @@ const blogContent: Record<string, React.ReactNode> = {
         Almost never on standard 1-ounce bullion from a major mint. The only situations that might justify an elevated premium on standard bullion are acute supply disruptions (the March 2020 demand spike is the textbook example) or small-denomination products under 1/10 oz. On standard 1-ounce bullion in normal market conditions, 30%+ premiums are a signal to walk away and buy the same product elsewhere.
       </p>
       <p>
-        <em>Live spot prices update on our ticker at the top of every page. Compare dealer pricing in the verified dealer directory &mdash; featured listings publish their live pricing transparently.</em>
+        <em>Live spot prices update on our ticker at the top of every page. Compare dealer pricing in the dealer directory &mdash; featured listings publish their live pricing transparently.</em>
       </p>
       <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
         GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver, and we do not receive compensation from any dealer listed on this site. This article is for educational purposes only and does not constitute investment advice.
@@ -2515,7 +2515,7 @@ const blogContent: Record<string, React.ReactNode> = {
         Report to the SEC at sec.gov/tcr, the CFTC at cftc.gov/complaint, the FTC at reportfraud.ftc.gov, and your state attorney general&apos;s office. If retirement funds are involved, also file a complaint with the Department of Labor. Multiple reports across agencies increase the chance of enforcement action and help regulators identify patterns.
       </p>
       <p>
-        <em>Looking for a verified gold IRA dealer? Our directory lists dealers with IRA-approved programs. Featured listings publish their fee schedules and premium structures transparently.</em>
+        <em>Looking for a gold IRA dealer? Our directory lists dealers that offer IRA-eligible metals. Featured listings publish their fee schedules and premium structures transparently.</em>
       </p>
       <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
         GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver, and we do not receive compensation from any dealer listed on this site. This article is for educational purposes only and does not constitute investment advice.
@@ -2636,7 +2636,7 @@ const blogContent: Record<string, React.ReactNode> = {
         Only if the pieces have no other significance &mdash; sentimental, artistic, or collectible. Melt value is almost always less than what a well-preserved, designer, or antique piece sells for intact to the right buyer. If there&apos;s any chance a piece is worth more than its metal content, get an independent appraisal before selling it for melt.
       </p>
       <p>
-        <em>Looking to sell to a dealer you can verify? Our directory lists precious metals dealers with buyback programs, including their payout rates where published.</em>
+        <em>Looking to sell to a dealer? Our directory lists precious metals dealers with buyback programs, including their payout rates where published.</em>
       </p>
       <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
         GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver, and we do not receive compensation from any dealer listed on this site. This article is for educational purposes only and does not constitute investment advice.
@@ -3706,7 +3706,7 @@ const blogContent: Record<string, React.ReactNode> = {
         <strong>Dealer selection matters every time.</strong> The spread between what you pay and what the best available price is for the same product represents the single most controllable variable in your precious metals strategy.
       </p>
       <p>
-        That&apos;s the whole framework. The site&apos;s live price ticker shows you spot in real time. The directory shows you verified dealers competing for your business. What you do with that information determines your results.
+        That&apos;s the whole framework. The site&apos;s live price ticker shows you spot in real time. The directory shows you dealers competing for your business. What you do with that information determines your results.
       </p>
       <p>
         <em>This concludes the Spot Price vs What You Pay series. All eight articles are available in the blog archive.</em>
@@ -5297,7 +5297,7 @@ const blogContent: Record<string, React.ReactNode> = {
         Yes &mdash; private-party purchases between individuals don&apos;t trigger Form 8300 (which applies to businesses) or 1099-B (which applies to dealer sales). Both parties should still keep transaction records. The private-party seller still has a capital gains tax obligation on any profit, whether or not any form is filed.
       </p>
       <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
-        This article is general information only, not tax or legal advice. Precious metals reporting and tax rules can be complex, and specific transactions should be discussed with a qualified tax professional or attorney. Browse our verified dealer directory to find dealers who publish their reporting practices clearly.
+        This article is general information only, not tax or legal advice. Precious metals reporting and tax rules can be complex, and specific transactions should be discussed with a qualified tax professional or attorney. Browse our dealer directory to find dealers who publish their reporting practices clearly.
       </p>
     </>
   ),
@@ -5720,7 +5720,7 @@ const blogContent: Record<string, React.ReactNode> = {
         Purchases inside a self-directed IRA typically don&apos;t trigger sales tax because the transaction is between the IRA custodian and the dealer, not the individual. Verify with your IRA custodian for specifics, and note that IRA metals must be held by an approved depositary &mdash; you can&apos;t take physical possession without triggering a distribution.
       </p>
       <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
-        This article is general information only, not tax or legal advice. State sales tax rules for precious metals change frequently and vary by product category, dollar threshold, and jurisdiction. Consult a qualified tax professional for guidance on specific purchases. Browse our verified dealer directory to compare pricing across dealers in your state.
+        This article is general information only, not tax or legal advice. State sales tax rules for precious metals change frequently and vary by product category, dollar threshold, and jurisdiction. Consult a qualified tax professional for guidance on specific purchases. Browse our dealer directory to compare pricing across dealers in your state.
       </p>
     </>
   ),
@@ -5953,7 +5953,7 @@ const blogContent: Record<string, React.ReactNode> = {
       <h2>Where to Buy</h2>
       <p>Three legitimate channels for first-time buyers:</p>
       <p>
-        <strong>Verified local coin dealers.</strong> Physical shops with established reputations. Advantages: face-to-face interaction, immediate possession, no shipping risk. Disadvantages: pricing varies more, smaller inventory. A common choice for a first purchase because you can walk in with questions and walk out with metal.
+        <strong>Local coin dealers.</strong> Physical shops with established reputations. Advantages: face-to-face interaction, immediate possession, no shipping risk. Disadvantages: pricing varies more, smaller inventory. A common choice for a first purchase because you can walk in with questions and walk out with metal.
       </p>
       <p>
         <strong>Major online precious metals dealers.</strong> Established online-first dealers with published pricing. Advantages: competitive pricing, wide selection, transparent premiums. Disadvantages: shipping delay, no face-to-face interaction.
@@ -6038,7 +6038,7 @@ const blogContent: Record<string, React.ReactNode> = {
         Generally no. Gold IRAs have specific costs (custodian fees, storage fees) that make sense for larger allocations but rarely for a first $500-$5,000 purchase. IRA rollover pressure aimed at first-time buyers is one of the most-scammed segments of the industry. Start with direct-purchase, physical possession or independent depository storage. Consider IRA structures later if the allocation grows and the fee structure fits.
       </p>
       <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
-        This article is general information only, not investment or financial advice. Precious metals purchases carry price risk, and individual investment decisions should reflect personal circumstances and broader financial planning. Browse our verified dealer directory to compare pricing across dealers in your area.
+        This article is general information only, not investment or financial advice. Precious metals purchases carry price risk, and individual investment decisions should reflect personal circumstances and broader financial planning. Browse our dealer directory to compare pricing across dealers in your area.
       </p>
     </>
   ),
@@ -6212,7 +6212,7 @@ const blogContent: Record<string, React.ReactNode> = {
       <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
         This article is general information only, not investment or financial advice. Precious metals prices fluctuate, and IRA rules, custodian requirements, and depository practices vary, so confirm the details with your custodian or a tax professional before buying or storing metals in an IRA. Browse our{" "}
         <Link href="/dealers" className="text-gold font-semibold">
-          verified dealer directory
+          dealer directory
         </Link>{" "}
         to compare pricing across dealers in your area.
       </p>
@@ -6349,7 +6349,7 @@ const blogContent: Record<string, React.ReactNode> = {
       <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
         This article is general information only, not investment or financial advice. Precious metals prices fluctuate, and tax treatment depends on individual circumstances, so confirm reporting and tax questions with a qualified tax professional. Browse our{" "}
         <Link href="/dealers" className="text-gold font-semibold">
-          verified dealer directory
+          dealer directory
         </Link>{" "}
         to compare pricing across dealers in your area.
       </p>
@@ -6484,7 +6484,7 @@ const blogContent: Record<string, React.ReactNode> = {
       <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
         This article is general information only, not investment or financial advice. Precious metals purchases carry price risk, and individual investment decisions should reflect personal circumstances and broader financial planning. Browse our{" "}
         <Link href="/dealers" className="text-gold font-semibold">
-          verified dealer directory
+          dealer directory
         </Link>{" "}
         to compare pricing across dealers in your area.
       </p>

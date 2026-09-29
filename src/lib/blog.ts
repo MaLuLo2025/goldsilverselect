@@ -20,6 +20,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Market timing requires forecasting inflation, central bank policy, and sentiment simultaneously. Dollar-cost averaging eliminates the timing decision and produces comparable results for most buyers.",
     date: "2026-06-09",
+    dateModified: "2026-09-28",
     series: "Spot Price vs. What You Pay",
   },
   {
@@ -259,6 +260,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Gold is near $5,100 an ounce \u2014 so what\u2019s a fair premium, what crosses into overpriced, and where do the worst rip-offs hide? Dollar-by-dollar ranges for standard bullion products, plus the \u201Cpadded spot price\u201D trick that makes unfair premiums look reasonable.",
     date: "2026-04-20",
+    dateModified: "2026-09-28",
     series: "Spot Price vs. What You Pay",
   },
   {
@@ -269,6 +271,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Legitimate gold IRAs are a real retirement option. The sales tactics around them are, disproportionately, how retirees get scammed. A federal enforcement-backed guide to the red flags \u2014 including the $50M Red Rock Secured SEC case, the McNulty home-storage ruling, and what actually constitutes IRA-eligible precious metals.",
     date: "2026-04-20",
+    dateModified: "2026-09-28",
   },
   {
     slug: "what-do-cash-for-gold-shops-actually-pay",
@@ -278,6 +281,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Cash-for-gold storefronts typically pay 40\u201360% of melt value. Local coin dealers pay 75\u201390%. Online bullion dealer buybacks pay 85\u201395%. A practical guide to calculating melt value, avoiding the sales tactics that expand the spread, and choosing the right channel.",
     date: "2026-04-20",
+    dateModified: "2026-09-28",
   },
   {
     slug: "precious-metals-dealer-scams",
@@ -417,6 +421,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Buying and selling precious metals is entirely legal — and mostly untriggered by any federal reporting. But two federal forms and one felony statute govern the transactions that do get reported, and confusing them is how ordinary buyers accidentally commit crimes.",
     date: "2026-09-14",
+    dateModified: "2026-09-28",
   },
   {
     slug: "should-i-buy-platinum-bullion-2026",
@@ -445,7 +450,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Eight jurisdictions apply sales tax to precious metals in 2026 — including Maryland (added 2025), Washington (added 2026), and Virginia (added 2026). A state-by-state guide to sales tax on bullion, the use-tax obligation that follows cross-state purchases, and how online dealers handle it.",
     date: "2026-09-21",
-    dateModified: "2026-09-21",
+    dateModified: "2026-09-28",
   },
   {
     slug: "inheriting-gold-silver-tax-basis",
@@ -466,6 +471,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Six recurring mistakes first-time buyers make, the four product categories that cover 95% of what makes sense, reasonable premium expectations in 2026, and where to actually buy. Updated companion to our 2024-era starter guide.",
     date: "2026-09-21",
+    dateModified: "2026-09-28",
   },
   {
     slug: "ira-eligible-silver-rules-depositories-2026",

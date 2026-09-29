@@ -53,7 +53,7 @@ export default function Home() {
             jewelry or scrap — you deserve transparent pricing, no pressure,
             and a clear picture of what you&apos;re paying. Dealers marked
             Featured meet a minimum BBB rating and a 4.5+ Google rating.
-            Other listings are verified for legitimacy but may not carry a
+            Other listings may not carry a
             public rating.
           </p>
           <Suspense fallback={null}>

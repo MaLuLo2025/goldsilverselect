@@ -63,7 +63,7 @@ export default function RecyclingPage() {
           style={{ background: "rgba(197,164,78,0.06)", border: "1px solid rgba(197,164,78,0.15)", padding: "20px 24px" }}
         >
           <p className="font-sans text-[14px] leading-relaxed" style={{ color: "#666" }}>
-            Vetted recyclers, refiners, and precious metals buyers who pay based on current spot prices &mdash; not the 30 cents on the dollar you&apos;ll get at a mall kiosk. These are established operations with transparent testing, published buy rates, and a track record of fair dealing. Whether you&apos;re selling scrap gold, inherited sterling silver, dental gold, or industrial precious metals, start here.
+            Recyclers, refiners, and precious metals buyers that purchase scrap gold, silver, and other precious metals. Ask each buyer for its buy rates and testing method, and compare quotes against current spot prices. Whether you&apos;re selling scrap gold, inherited sterling silver, dental gold, or industrial precious metals, start here.
           </p>
         </div>
       </section>

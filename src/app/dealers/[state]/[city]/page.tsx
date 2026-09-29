@@ -147,8 +147,8 @@ export default function CityDealersPage({
           >
             <p className="font-sans text-[14px] leading-relaxed" style={{ color: "#666" }}>
               {verticalFilter === "jewelry" && "Independent shops in your area that buy, sell, and craft gold and silver jewelry. These are local goldsmiths, silversmiths, estate jewelers, and precious metals specialists \u2014 not chain stores or pawn shops. Whether you\u2019re looking to sell inherited jewelry, commission a custom piece, or find estate gold and silver at fair prices, these shops work directly with precious metals every day."}
-              {verticalFilter === "local-coin-bullion" && "Brick-and-mortar coin shops and bullion dealers you can walk into, inspect inventory, and transact in person. Every shop in our directory is an established, independent dealer \u2014 not a franchise, not a cash-for-gold kiosk. We verify addresses, check BBB profiles, and write every description ourselves."}
-              {verticalFilter === "recycling" && "Vetted recyclers, refiners, and precious metals buyers who pay based on current spot prices \u2014 not the 30 cents on the dollar you\u2019ll get at a mall kiosk. These are established operations with transparent testing, published buy rates, and a track record of fair dealing."}
+              {verticalFilter === "local-coin-bullion" && "Brick-and-mortar coin shops and bullion dealers you can walk into, inspect inventory, and transact in person. We write every description ourselves from publicly available information."}
+              {verticalFilter === "recycling" && "Recyclers, refiners, and precious metals buyers that purchase scrap gold, silver, and other precious metals. Ask each buyer for its buy rates and testing method, and compare quotes against current spot prices."}
             </p>
           </div>
         </section>
