@@ -90,6 +90,25 @@ Project-specific notes:
 - Editorial voice: summarize, synthesize, bullet point — NEVER advocate or opine
 - Outbound links to authoritative .gov/.org sources on every content page
 
+## Statutory Terminology (precious metals / IRA content)
+
+Do NOT use "IRS-approved" or similar phrasings ("IRS-authorized," "IRS-certified," "IRS-qualified") to describe bullion products, depositories, or custodians. The IRS does not approve any of these.
+
+The actual statutory framework:
+- IRC § 408(m) lists what precious metals may be held in an IRA (fineness standards, permitted coins).
+- IRC § 408(a)(2) requires a qualified trustee — a bank or a non-bank trustee formally recognized by the IRS under a separate application process.
+- Custodians choose depositories that meet their qualified-trustee criteria; the IRS does not approve depositories directly.
+
+Correct terminology by context:
+- Bullion, coins, products → "IRA-eligible"
+- Depositories → "qualified depository" or "custodian-approved depository"
+- Custodians or trustees → "qualified custodian" or "qualified trustee"
+- The process itself → "IRC § 408(m) requires..." or "the qualified-trustee requirement is..."
+
+Exception: the IRS does approve Form 5305 model trust documents used by custodians and does formally recognize non-bank trustees under § 408(a)(2). If content genuinely references one of those specific approvals, "IRS-approved" is accurate — but flag for review before publishing, since this is rare and usually the phrase is being misused.
+
+Applies to blog articles (`blog.ts` + `blog/[slug]/page.tsx`), FAQ (`faq.ts`), and any other content string. Sweep completed 2026-09-28 (commit e0270ff); remaining "IRS-approved non-bank trustee" hits are the flagged legitimate exception.
+
 ## Legal Standards
 - Colorado law, Durango/La Plata County venue, binding arbitration + class action waiver in TOS
 - Cookie consent banner with Accept/Reject/Manage
