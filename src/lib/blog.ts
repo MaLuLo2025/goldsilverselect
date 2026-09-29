@@ -474,8 +474,9 @@ export const blogPosts: BlogPost[] = [
     tag: "Education",
     tagColor: "forest",
     excerpt:
-      "Not every silver coin qualifies for a self-directed IRA. IRC § 408(m) sets the purity floor at .999 for silver bullion, names a handful of coin exceptions, and requires storage with an IRS-approved depository — never at home. Here is what actually counts, which depositories most custodians use in 2026, and the McNulty case that made home storage a bright-line prohibition.",
+      "Not every silver coin qualifies for a self-directed IRA. IRC § 408(m) sets the purity floor at .999 for silver bullion, names a handful of coin exceptions, and requires storage with a qualified depository — never at home. Here is what actually counts, which depositories most custodians use in 2026, and the McNulty case that made home storage a bright-line prohibition.",
     date: "2026-09-28",
+    dateModified: "2026-09-28",
   },
   {
     slug: "1099-b-reporting-precious-metals-2026-irs-correction",

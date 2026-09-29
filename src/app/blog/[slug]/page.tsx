@@ -6110,7 +6110,7 @@ const blogContent: Record<string, React.ReactNode> = {
       </p>
       <h2>The depository requirement</h2>
       <p>
-        The requirement that gets missed most often is not the purity standard. It is the storage rule. Under IRC &sect; 408(m) and <a href="https://www.irs.gov/publications/p590b" target="_blank" rel="noopener noreferrer">IRS Publication 590-B</a>, all physical metals held inside a self-directed IRA must be stored at an IRS-approved depository. Not at home. Not in a safe deposit box. Not with the account holder directly. <strong>Not &ldquo;in an LLC I formed for the IRA that has a home safe.&rdquo;</strong>
+        The requirement that gets missed most often is not the purity standard. It is the storage rule. Under IRC &sect; 408(m) and <a href="https://www.irs.gov/publications/p590b" target="_blank" rel="noopener noreferrer">IRS Publication 590-B</a>, all physical metals held inside a self-directed IRA must be stored at a qualified depository. Not at home. Not in a safe deposit box. Not with the account holder directly. <strong>Not &ldquo;in an LLC I formed for the IRA that has a home safe.&rdquo;</strong>
       </p>
       <p>
         That last variant &mdash; the &ldquo;checkbook control&rdquo; or &ldquo;IRA-owned LLC&rdquo; structure with home storage of the metals &mdash; was tested and rejected in <strong>McNulty v. Commissioner</strong> (2021). The Tax Court held that a taxpayer&apos;s home-stored gold coins held through an LLC constituted a taxable distribution. Penalties in the case exceeded $300,000. The reasoning is durable: the depository requirement exists to prevent self-dealing and to preserve the IRS&apos;s ability to verify the assets, and structuring around it through an LLC does not solve the underlying problem.
@@ -6120,29 +6120,29 @@ const blogContent: Record<string, React.ReactNode> = {
       </p>
       <h2>The depositories that custodians actually use</h2>
       <p>
-        The five depositories most widely used by IRA custodians in 2026:
+        Five depositories that IRA custodians commonly use in 2026:
       </p>
       <p>
-        <strong>Delaware Depository Service Company (Wilmington, DE).</strong> One of the oldest and largest precious metals depositories serving the IRA market. Offers both segregated and commingled storage. Insured through Lloyd&apos;s of London.
+        <strong>Delaware Depository Service Company (Wilmington, DE).</strong> One of the oldest and largest precious metals depositories serving the IRA market. Offers both segregated and commingled storage. Reported to carry Lloyd&apos;s of London coverage. Sources also list a second facility in Boulder City, NV.
       </p>
       <p>
-        <strong>Brinks Global Services.</strong> Multiple locations including Salt Lake City and Los Angeles. Class III vault facilities, armed transport, segregated storage available. International network for account holders with multi-jurisdictional needs.
+        <strong>Brinks Global Services.</strong> Vault locations used for IRA metals include Salt Lake City, Los Angeles, and New York. Class III vault facilities, armed transport, segregated storage available. International network for account holders with multi-jurisdictional needs.
       </p>
       <p>
-        <strong>International Depository Services (IDS).</strong> Locations in Delaware and Texas. Competitive flat-rate storage. Both segregated and commingled options.
+        <strong>International Depository Services (IDS).</strong> Vault locations in New Castle, DE; Dallas, TX; and Mississauga, Ontario. Competitive flat-rate storage. Both segregated and commingled options.
       </p>
       <p>
-        <strong>CNT Depository (Massachusetts).</strong> Established depository serving both IRA and non-IRA precious metals storage.
+        <strong>CNT Depository (Bridgewater, MA).</strong> Established depository serving both IRA and non-IRA precious metals storage.
       </p>
       <p>
-        <strong>Texas Precious Metals Depository (Shiner, TX).</strong> State-affiliated facility operated in connection with the Texas Bullion Depository initiative. Popular with account holders in Texas and the Southwest.
+        <strong>Texas Bullion Depository (Leander, TX).</strong> State of Texas depository administered by the Texas Comptroller of Public Accounts, with IRA storage available through the depository. Of interest to account holders who prefer a state-administered custody arrangement.
       </p>
       <p>
         Combined custodian and storage fees typically range from <strong>$175 to $500 per year</strong> depending on storage type (segregated vs. commingled), metal value, and the specific custodian&apos;s fee schedule.
       </p>
       <h2>Segregated vs. commingled storage</h2>
       <p>
-        Two storage structures are available at most approved depositories:
+        Two storage structures are available at most custodian-approved depositories:
       </p>
       <p>
         <strong>Segregated (allocated) storage.</strong> Your specific coins and bars are stored separately from other investors&apos; metals, typically in a labeled container or vault section. When you take a distribution, you receive the exact items you purchased. Segregated storage generally costs $150 to $300 per year more than commingled and provides the highest level of accountability and transparency. IRS Form 5498 reports the fair market value of segregated holdings annually.
@@ -6158,7 +6158,7 @@ const blogContent: Record<string, React.ReactNode> = {
         A precious metals IRA custodian is not the depository. The custodian is a qualified non-bank trustee under IRC &sect; 408(a)(2) who administers the account: executes purchase orders, maintains IRS-required transaction records, files annual Fair Market Value reports on Form 5498, coordinates insured delivery to the depository, and processes distributions.
       </p>
       <p>
-        The custodian does not typically sell metals. Instead, the custodian works with a precious metals dealer of the account holder&apos;s choice to acquire IRS-approved bullion and arranges direct delivery to a depository. The three parties in a typical arrangement &mdash; dealer, custodian, depository &mdash; are separate entities, each with their own fees.
+        The custodian does not typically sell metals. Instead, the custodian works with a precious metals dealer of the account holder&apos;s choice to acquire IRA-eligible bullion and arranges direct delivery to a depository. The three parties in a typical arrangement &mdash; dealer, custodian, depository &mdash; are separate entities, each with their own fees.
       </p>
       <p>
         Custodian fee structures vary. Common models include:
@@ -6200,7 +6200,7 @@ const blogContent: Record<string, React.ReactNode> = {
       </p>
       <ol>
         <li><strong>The custodian</strong> is a qualified non-bank trustee approved by the IRS. Most legitimate custodians publish their IRS approval letter.</li>
-        <li><strong>The depository</strong> is on the custodian&apos;s approved-depository list and is IRS-approved.</li>
+        <li><strong>The depository</strong> is on the custodian&apos;s approved-depository list and meets the qualified-depository requirements.</li>
         <li><strong>The dealer</strong> you plan to buy from has an established relationship with the custodian, or is willing to work with them.</li>
         <li><strong>The specific coins or bars</strong> you plan to buy are on the custodian&apos;s approved-products list. Verify this before you send funds, not after.</li>
         <li><strong>The fee structure</strong> for the custodian and depository is clear in writing.</li>
