@@ -595,7 +595,7 @@ const blogContent: Record<string, React.ReactNode> = {
       <p>Sell you standard IRA-eligible bullion (not numismatic coins) unless you specifically request otherwise.</p>
       <p>Explain the difference between bullion and numismatic coins and why bullion is typically more appropriate.</p>
       <p>Not pressure you to act immediately.</p>
-      <p>Provide the name of the IRS-approved custodian and depository they use.</p>
+      <p>Provide the name of the qualified custodian and custodian-approved depository they use.</p>
       <p>Be willing to let you think about it, compare prices, and call back.</p>
       <p>
         The SEC has published an investor alert specifically about self-directed IRAs at{" "}
@@ -2496,9 +2496,9 @@ const blogContent: Record<string, React.ReactNode> = {
       <h2>Frequently Asked Questions</h2>
       <h3>Is a gold IRA legitimate, or is the whole concept a scam?</h3>
       <p>
-        The concept is legitimate &mdash; a self-directed IRA can legally hold IRS-approved gold, silver, platinum, and palladium. The structure is recognized by the IRS, and multiple reputable companies offer compliant gold IRA services. The scams are not in the concept; they are in the sales tactics and pricing of specific dealers. Vet the provider carefully and the underlying account structure is sound.
+        The concept is legitimate &mdash; a self-directed IRA can legally hold IRA-eligible gold, silver, platinum, and palladium. The structure is recognized by the IRS, and multiple reputable companies offer compliant gold IRA services. The scams are not in the concept; they are in the sales tactics and pricing of specific dealers. Vet the provider carefully and the underlying account structure is sound.
       </p>
-      <h3>What types of gold are IRS-approved for an IRA?</h3>
+      <h3>What types of gold are IRA-eligible?</h3>
       <p>
         Gold held in an IRA must be at least 99.5% pure (with the American Gold Eagle being a specific statutory exception). Approved products include American Gold Eagles, American Gold Buffalos, Canadian Gold Maple Leafs, Austrian Gold Philharmonics, and gold bars from refiners on accredited lists (LBMA, COMEX, or equivalent). Numismatic, collectible, and most &ldquo;exclusive&rdquo; coins are not eligible &mdash; and any dealer pushing them into an IRA is either uninformed or operating outside IRS rules.
       </p>
@@ -3731,13 +3731,13 @@ const blogContent: Record<string, React.ReactNode> = {
         A gold IRA is a self-directed individual retirement account that holds physical precious metals rather than stocks, bonds, or mutual funds. The account structure follows the same IRS rules as a traditional IRA or Roth IRA: pre-tax contributions and tax-deferred growth for traditional, after-tax contributions and tax-free growth for Roth.
       </p>
       <p>
-        The critical difference from a standard IRA: you cannot hold the physical metals yourself. IRS regulations require that metals in a self-directed IRA be held by an IRS-approved custodian at an IRS-approved depository. You own the metals in the account, but you cannot take possession of them without triggering a taxable distribution and potential early withdrawal penalty.
+        The critical difference from a standard IRA: you cannot hold the physical metals yourself. IRS regulations require that metals in a self-directed IRA be held by a qualified custodian at a qualified depository. You own the metals in the account, but you cannot take possession of them without triggering a taxable distribution and potential early withdrawal penalty.
       </p>
       <p>
         The chain of providers involved in a gold IRA:
       </p>
       <ol>
-        <li><strong>IRA custodian</strong> &mdash; A trust company or bank approved by the IRS to hold self-directed IRAs. They administer the account, report to the IRS, and process transactions.</li>
+        <li><strong>IRA custodian</strong> &mdash; A qualified trustee under IRC &sect; 408(a)(2) &mdash; a bank or an IRS-approved non-bank trustee &mdash; that holds self-directed IRAs. They administer the account, report to the IRS, and process transactions.</li>
         <li><strong>Precious metals dealer</strong> &mdash; The company that sells you the gold or silver that goes into the account. Frequently the same company aggressively marketing gold IRAs.</li>
         <li><strong>Depository</strong> &mdash; A physical vault facility (Delaware Depository, Brinks, etc.) where your metals are stored. You pay storage fees to them, typically through the custodian.</li>
       </ol>
@@ -3796,7 +3796,7 @@ const blogContent: Record<string, React.ReactNode> = {
         <strong>Rollover bonus manipulation.</strong> Some companies offer &ldquo;free silver&rdquo; or cash bonuses for rolling over retirement funds. The bonus is funded by the markup on your first purchase. You receive silver worth $200; you paid a 10% markup on a $50,000 rollover, costing you $5,000 in inflated prices. You&apos;re not ahead.
       </p>
       <p>
-        <strong>Misleading IRS endorsement claims.</strong> Gold IRA companies sometimes imply IRS approval of their specific products or accounts. The IRS approves the self-directed IRA structure; it does not endorse specific companies, dealers, or products. Claims suggesting otherwise are misleading.
+        <strong>Misleading IRS endorsement claims.</strong> Gold IRA companies sometimes imply IRS approval of their specific products or accounts. Federal law (IRC &sect; 408(m)) permits the self-directed IRA structure; the IRS does not endorse specific companies, dealers, or products. Claims suggesting otherwise are misleading.
       </p>
 
       <h2>Legitimate Use Cases for Gold IRAs</h2>
@@ -4879,7 +4879,7 @@ const blogContent: Record<string, React.ReactNode> = {
       </p>
       <h2>How the markup works</h2>
       <p>
-        A gold IRA purchase involves buying physical gold (or other approved precious metals) through a dealer, which is then stored by a qualified custodian in an IRS-approved depository. The dealer&apos;s profit comes from the spread between the price it pays for the metal and the price it charges you. That spread &mdash; the markup, or premium over spot price &mdash; is where the &ldquo;free silver&rdquo; is funded.
+        A gold IRA purchase involves buying physical gold (or other approved precious metals) through a dealer, which is then stored by a qualified custodian in a qualified depository. The dealer&apos;s profit comes from the spread between the price it pays for the metal and the price it charges you. That spread &mdash; the markup, or premium over spot price &mdash; is where the &ldquo;free silver&rdquo; is funded.
       </p>
       <p>
         The CFTC and FINRA have jointly warned that spreads in precious metals transactions can range from 30% to over 300%. In a 2024 joint advisory, they specifically flagged that dealers often recover the cost of promotional offers through inflated pricing on the metals purchased inside the IRA.
@@ -5543,7 +5543,7 @@ const blogContent: Record<string, React.ReactNode> = {
       </p>
       <h3>Are graded coins IRA-eligible?</h3>
       <p>
-        Only under specific conditions. IRAs can hold IRS-approved bullion coins, and some graded bullion coins qualify (American Gold Eagles at any grade, for example). Pure numismatic or &ldquo;collectible&rdquo; coins are not IRA-eligible, regardless of grade. A dealer pushing &ldquo;graded coins&rdquo; into an IRA is a warning sign &mdash; see our{" "}
+        Only under specific conditions. IRAs can hold IRA-eligible bullion coins, and some graded bullion coins qualify (American Gold Eagles at any grade, for example). Pure numismatic or &ldquo;collectible&rdquo; coins are not IRA-eligible, regardless of grade. A dealer pushing &ldquo;graded coins&rdquo; into an IRA is a warning sign &mdash; see our{" "}
         <Link href="/blog/gold-ira-scams-red-flags-federal" className="text-gold font-semibold">
           gold IRA red flags guide
         </Link>{" "}

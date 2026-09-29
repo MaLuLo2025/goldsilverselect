@@ -267,7 +267,7 @@ export const blogPosts: BlogPost[] = [
     tag: "Don\u2019t Get Ripped Off",
     tagColor: "gold",
     excerpt:
-      "Legitimate gold IRAs are a real retirement option. The sales tactics around them are, disproportionately, how retirees get scammed. A federal enforcement-backed guide to the red flags \u2014 including the $50M Red Rock Secured SEC case, the McNulty home-storage ruling, and what actually constitutes IRS-approved precious metals.",
+      "Legitimate gold IRAs are a real retirement option. The sales tactics around them are, disproportionately, how retirees get scammed. A federal enforcement-backed guide to the red flags \u2014 including the $50M Red Rock Secured SEC case, the McNulty home-storage ruling, and what actually constitutes IRA-eligible precious metals.",
     date: "2026-04-20",
   },
   {

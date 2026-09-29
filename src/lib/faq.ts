@@ -722,7 +722,7 @@ export const faqCategories: FAQCategory[] = [
       },
       {
         question: "What are the warning signs of a predatory Gold IRA company?",
-        answer: "Red flags: urgent sales pressure around imminent currency collapse or hyperinflation; pushing numismatic or \u201Ccollector\u201D coins instead of standard bullion (these carry massive markups); refusing to provide complete written fee disclosures before account opening; unclear or slow buyback processes; \u201Cfree silver\u201D bonuses funded by inflated markup on your first purchase; claims of IRS \u201Cendorsement\u201D of specific products (the IRS approves the structure, not the company). Legitimate providers give you complete fee schedules in writing without pressure to act immediately.",
+        answer: "Red flags: urgent sales pressure around imminent currency collapse or hyperinflation; pushing numismatic or \u201Ccollector\u201D coins instead of standard bullion (these carry massive markups); refusing to provide complete written fee disclosures before account opening; unclear or slow buyback processes; \u201Cfree silver\u201D bonuses funded by inflated markup on your first purchase; claims of IRS \u201Cendorsement\u201D of specific products (federal law permits the structure; the IRS does not endorse companies). Legitimate providers give you complete fee schedules in writing without pressure to act immediately.",
         learnMoreLabel: "Gold IRA Fees and Scams: What the Industry Doesn\u2019t Want You to Calculate",
         learnMoreHref: "/blog/gold-ira-fees-scams",
         links: [
