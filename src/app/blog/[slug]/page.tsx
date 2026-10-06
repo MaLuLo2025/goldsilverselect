@@ -6490,6 +6490,274 @@ const blogContent: Record<string, React.ReactNode> = {
       </p>
     </>
   ),
+  "does-refiner-matter-gold-bars-valcambi-2026": (
+    <>
+      <p>
+        If you own a Valcambi bar, or one of its breakable CombiBars, you may have seen headlines this summer about a &ldquo;$159 billion&rdquo; accounting probe and wondered whether your gold is now worth less. It isn&apos;t, at least not because of anything a regulator has said so far. But the story raises a question every bar buyer should be able to answer: what does the name stamped on a bar actually tell you?
+      </p>
+      <p>
+        This article covers the news briefly. Most of it explains how refiner names, hallmarks, assay cards, and LBMA accreditation work, and what they do and don&apos;t protect you from.
+      </p>
+      <h2>The news, stated carefully</h2>
+      <p>
+        On June 3, 2026, India&apos;s securities regulator, the Securities and Exchange Board of India (SEBI), issued an interim, ex parte order against Rajesh Exports Ltd (REL), the Indian-listed company that bought Valcambi SA in 2015. &ldquo;Ex parte&rdquo; means the order was issued before the company was heard. In the order, SEBI alleges on a prima facie basis (a preliminary view, not a finding after a hearing) that REL misrepresented about &#8377;15.15 lakh crore of consolidated revenue over fiscal years 2021 through 2025. &#8377;15.15 lakh crore is &#8377;15.15 trillion. Reuters converted that to roughly $159 billion, which is about what you get at the June 2026 exchange rate of around 95 rupees to the dollar. Converted at the rates that applied during those fiscal years, when the rupee was stronger, the dollar figure would be higher. Treat any dollar number as an approximation of a rupee allegation.
+      </p>
+      <p>
+        According to press reports on the order, SEBI&apos;s concern is that REL attributed almost all of its consolidated revenue to overseas subsidiaries, chiefly Valcambi, while the subsidiaries&apos; own audited statements showed far smaller revenue. SEBI also restrained REL chairman Rajesh Mehta from dealing in REL securities until further orders and directed that a new forensic auditor complete an audit. Some outlets describe the restriction more broadly, as a bar from the securities market. These are allegations in an interim order. SEBI has not issued a final order.
+      </p>
+      <p>
+        REL denies the allegations. In statements to the Indian stock exchanges, the company said its reported revenues are correct and not overstated, that the order is interim with no conclusive adverse findings, and that the matter arose from a &ldquo;communication gap and confusion&rdquo; with the regulator. REL later said it would cooperate with the forensic audit and would not challenge the interim order.
+      </p>
+      <p>
+        <strong>What no regulator has alleged:</strong> No regulator has alleged that Valcambi&apos;s bars are deficient in weight or purity. Swiss public broadcaster RSI reported that the Indian regulator makes no accusation against Valcambi itself. The allegations concern how the Indian parent reported revenue.
+      </p>
+      <h3>The one development bar owners should know about</h3>
+      <p>
+        On June 16, 2026, the London Bullion Market Association (LBMA) <a href="https://www.lbma.org.uk/articles/valcambi-sa-incident-review-process-invoked" target="_blank" rel="noopener noreferrer">announced it had invoked its Incident Review Process</a> for Valcambi SA &ldquo;to review information arising out of current media reports.&rdquo; LBMA said Valcambi remains a Good Delivery refiner while the review proceeds, and trade press quoted LBMA as saying no findings had been made against Valcambi. Under LBMA&apos;s <a href="https://www.lbma.org.uk/review-process-case-studies" target="_blank" rel="noopener noreferrer">review process</a>, outcomes can range from no action, to a corrective action plan, to suspension or removal from the Good Delivery List. As of this writing (early October 2026), we found no announcement of a final SEBI order or a change in Valcambi&apos;s LBMA status. Statuses can change, so check the <a href="https://www.lbma.org.uk/good-delivery/gold-current-list" target="_blank" rel="noopener noreferrer">LBMA Good Delivery List</a> yourself rather than relying on any article, this one included.
+      </p>
+      <p>
+        Now for the part that applies to every bar you&apos;ll ever own.
+      </p>
+      <h2>What the stamp on a bar is telling you</h2>
+      <p>
+        A bar&apos;s markings are the refiner putting its name behind a specific claim. On a typical retail gold bar you&apos;ll find:
+      </p>
+      <ul>
+        <li><strong>Refiner&apos;s mark or logo.</strong> Who made the bar and is answerable for it.</li>
+        <li><strong>Weight.</strong> In grams, troy ounces, or both.</li>
+        <li><strong>Fineness.</strong> Usually &ldquo;999.9&rdquo; (99.99% pure) for modern retail gold.</li>
+        <li><strong>Serial number.</strong> Common on larger bars and on most minted bars sold in assay packaging.</li>
+        <li><strong>Assayer&apos;s mark.</strong> Many Swiss bars also carry an &ldquo;Essayeur Fondeur&rdquo; (assayer-melter) stamp, the refiner vouching that it assayed and cast the bar.</li>
+      </ul>
+      <p>
+        The <strong>assay card</strong> is the sealed card or certificate many small bars come in. It repeats the weight, fineness, and serial number and links the bar to the refiner&apos;s records. It is not a separate guarantee from a third party. It&apos;s the refiner restating its own claim in a format that&apos;s harder to swap or tamper with. Its practical value is at resale: a dealer who sees a recognized refiner&apos;s bar in an intact, matching assay card has less reason to test or discount it.
+      </p>
+      <p>
+        The takeaway: a refiner&apos;s mark is only as good as the refiner. That&apos;s why the refiner&apos;s reputation, and whether a market body tracks it, matters more than how nice the packaging looks.
+      </p>
+      <h2>LBMA Good Delivery: what accreditation does and doesn&apos;t mean</h2>
+      <p>
+        The LBMA runs the <a href="https://www.lbma.org.uk/good-delivery/about-good-delivery" target="_blank" rel="noopener noreferrer">Good Delivery system</a>, which sets the standards for large bars traded in the London wholesale market (gold bars of roughly 400 troy ounces, silver bars of roughly 1,000 ounces). To get on the list, a refiner has to meet minimum requirements that LBMA describes as including tangible net worth of at least &pound;15 million and annual production of at least 10 tonnes of gold or 50 tonnes of silver. It also has to show it can produce bars that meet the standard. LBMA says it runs an annual check that listed refiners still meet the minimums.
+      </p>
+      <p>
+        Listed refiners must also follow LBMA&apos;s Responsible Sourcing Programme. For gold, that means the <a href="https://www.lbma.org.uk/articles/lbma-launches-responsible-gold-guidance-version-9" target="_blank" rel="noopener noreferrer">Responsible Gold Guidance</a>. Version 9 took effect in 2022 and aligns refiners&apos; supply-chain due diligence with the OECD&apos;s guidance. It requires annual independent assurance and auditor rotation, and it largely eliminates cash transactions.
+      </p>
+      <p>
+        <strong>What accreditation tells you:</strong>
+      </p>
+      <ul>
+        <li>The refiner has passed financial, production, and technical-quality hurdles set by the wholesale market&apos;s standard-setter.</li>
+        <li>It is monitored on an ongoing basis and subject to a formal review process when concerns arise, as the Valcambi review shows.</li>
+      </ul>
+      <p>
+        <strong>What it does not tell you:</strong>
+      </p>
+      <ul>
+        <li><strong>It doesn&apos;t cover your 1-ounce bar.</strong> LBMA states that no refined products other than the large wholesale bars fall within the scope of the Good Delivery Lists. Your 10-gram or 1-ounce bar from a listed refiner isn&apos;t a &ldquo;Good Delivery bar.&rdquo; It&apos;s a retail product from a refiner that is on the list. That&apos;s still meaningful, but it&apos;s a different claim.</li>
+        <li><strong>It isn&apos;t a warranty from LBMA.</strong> LBMA sets standards and keeps a list. It doesn&apos;t guarantee any individual bar, and it doesn&apos;t stand behind the bar if you have a dispute with a seller.</li>
+        <li><strong>It says nothing about the corporate parent&apos;s accounting.</strong> Accreditation looks at the refiner&apos;s operations, sourcing, and bar quality. Securities-law questions about a parent company are a separate matter for securities regulators.</li>
+        <li><strong>It can&apos;t authenticate a fake.</strong> Counterfeiters copy famous refiners&apos; marks precisely because those marks are trusted. Accreditation tells you about the real refiner, not about the object in your hand.</li>
+      </ul>
+      <h2>Why recognized brands resell closer to spot</h2>
+      <p>
+        When you sell a bar, the dealer is pricing two things: the metal and the risk that it isn&apos;t what it claims to be. A bar from a widely recognized refiner, in its original assay card, with a matching serial number, is cheap for a dealer to verify and easy to resell to the next customer. So dealers tend to bid closer to spot for it.
+      </p>
+      <p>
+        A bar from an unfamiliar or &ldquo;generic&rdquo; refiner costs the dealer more to handle. They may need to run a density or ultrasonic test, use XRF, or in some cases send it out for a destructive fire assay before they&apos;ll pay full melt value. They may simply offer less to cover that cost and the slower resale. That doesn&apos;t mean generic bars are bad. Many are fine, and they often cost less to buy. But the lower premium you pay going in can come back as a wider spread going out. We cover how that spread works in <Link href="/blog/sell-back-spreads-what-dealers-actually-pay" className="text-gold font-semibold">what dealers actually pay when you sell back</Link> and in our guide to <Link href="/blog/dealer-buyback-programs" className="text-gold font-semibold">dealer buyback programs</Link>.
+      </p>
+      <p>
+        A refiner in the news is a different situation from an unknown refiner. A recognized brand caught up in corporate news may see some dealers become more cautious for a while. But the bar&apos;s physical metal content, the thing a test measures, doesn&apos;t change because of a dispute over a parent company&apos;s revenue reporting.
+      </p>
+      <h2>CombiBars, briefly</h2>
+      <p>
+        One of Valcambi&apos;s distinctive retail products is the CombiBar, a thin gold bar scored into a grid so it can be snapped into smaller pieces. The popular 50-gram version breaks into fifty 1-gram pieces. Retailer product descriptions say each segment carries its own Valcambi mark, its weight, and its &ldquo;999.9&rdquo; fineness, and the whole bar ships in a card with its serial number.
+      </p>
+      <p>
+        Two practical notes for CombiBar owners. First, once you break a piece off, it&apos;s out of its assay card. A loose 1-gram segment is still marked, but a buyer has less to go on than with a sealed card. Second, small pieces carry higher per-gram costs both ways: higher premiums when you buy and often lower bids per gram when you sell. If you&apos;re buying for divisibility, that&apos;s the trade-off. If you&apos;re buying for cost per ounce, larger bars usually do better.
+      </p>
+      <h2>What to do if your refiner&apos;s parent is in the news</h2>
+      <p>
+        Usually, nothing urgent. A sensible checklist:
+      </p>
+      <ol>
+        <li><strong>Don&apos;t sell in a panic.</strong> Selling into a headline is how you end up taking the widest spread of the year. If you want to know what your bar would fetch, get quotes from more than one dealer first.</li>
+        <li><strong>Keep the assay card intact and with the bar.</strong> Don&apos;t open it to &ldquo;check&rdquo; the bar. An opened card generally lowers resale value.</li>
+        <li><strong>Check the refiner&apos;s status on the <a href="https://www.lbma.org.uk/good-delivery/gold-current-list" target="_blank" rel="noopener noreferrer">LBMA Good Delivery List</a>.</strong> LBMA also posts incident-review notices on its site. If the status changes, that&apos;s the point to think harder, not before.</li>
+        <li><strong>Keep your purchase records.</strong> Invoice, dealer name, date, serial number. These help at resale, for any insurance claim, and for your tax basis.</li>
+        <li><strong>For future purchases, stick to recognized refiners and mints you can find on a public list,</strong> and buy from a seller who publishes a buyback policy.</li>
+        <li><strong>Store it properly.</strong> A bar&apos;s resale value also depends on condition. See <Link href="/blog/where-to-store-gold-home-bank-depository" className="text-gold font-semibold">where to store gold</Link> for the trade-offs.</li>
+      </ol>
+      <h2>Red flags that matter more than any headline</h2>
+      <p>
+        The real risk to most bar buyers isn&apos;t a famous refiner&apos;s corporate trouble. It&apos;s buying something that was never what it claimed. Watch for:
+      </p>
+      <ul>
+        <li><strong>A refiner you can&apos;t identify.</strong> If you can&apos;t find the maker on a public list or a reputable mint&apos;s site, assume a resale discount, or walk away.</li>
+        <li><strong>No assay card on a bar that&apos;s normally sold in one,</strong> or a card whose serial number doesn&apos;t match the bar.</li>
+        <li><strong>Price well below spot.</strong> No legitimate seller can sustain selling gold for less than the metal is worth. A &ldquo;deal&rdquo; below spot is the most reliable fraud signal there is.</li>
+        <li><strong>Pressure and payment quirks.</strong> Wire-only, gift cards, crypto-only, &ldquo;today only&rdquo; deadlines.</li>
+        <li><strong>Seller won&apos;t say who made it, or won&apos;t put it in writing.</strong></li>
+      </ul>
+      <p>
+        Our guide on <Link href="/blog/counterfeit-gold-bars-how-to-protect-yourself" className="text-gold font-semibold">counterfeit gold bars and how to protect yourself</Link> covers testing methods and specific fakes to watch for.
+      </p>
+      <h2>The bottom line</h2>
+      <p>
+        The refiner&apos;s name matters because it determines how easily your bar can be checked and resold. A recognized refiner, ideally one on the LBMA list, plus an intact assay card and your receipt, is what gets you a bid close to spot. The SEBI matter involves allegations, which REL denies, about how an Indian parent company reported revenue. No regulator has alleged that Valcambi&apos;s bars fall short, and as of this writing Valcambi remains on the Good Delivery List while LBMA reviews it. Keep your paperwork, check the list, and let the process run.
+      </p>
+      <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
+        Browse our{" "}
+        <Link href="/dealers" className="text-gold font-semibold">
+          dealer directory
+        </Link>{" "}
+        to compare pricing across dealers in your area.
+      </p>
+    </>
+  ),
+  "shipping-gold-silver-insurance-carriers-2026": (
+    <>
+      <p>
+        Most people who buy gold or silver online never think about the trip. The dealer packs it, a box shows up, done. The trip starts to matter when you&apos;re the one shipping. You might be selling back to a dealer across the country, sending coins for grading, or moving metal between homes. That&apos;s when you find out the three big carriers have very different rules for precious metals, and that the wrong label can turn a $20,000 package into a $15 claim.
+      </p>
+      <p>
+        Here&apos;s how it actually works, based on the carriers&apos; own published rules as of October 2026.
+      </p>
+      <h2>The short version</h2>
+      <ul>
+        <li><strong>USPS Registered Mail</strong> is the only one of the standard consumer options built for this. Postal insurance is included up to <strong>$50,000</strong>, and the item moves through a controlled, signed-for handling system.</li>
+        <li><strong>Ordinary USPS insurance</strong> (Priority Mail, Priority Mail Express, Ground Advantage) can be bought up to $5,000. But the USPS indemnity rules cap claims for <strong>bullion at $15</strong>, except for Registered Mail.</li>
+        <li><strong>UPS</strong> lists coins, and articles that are more than 50% gold or platinum by weight in raw form (bullion, bars, scrap), as items it <strong>does not accept</strong> under its standard U.S. terms.</li>
+        <li><strong>FedEx</strong> caps declared value at <strong>$1,000</strong> for packages containing precious metals (including gold and silver bullion) and collectible coins under its U.S. terms.</li>
+        <li>Dealers ship large amounts through <strong>commercial high-value programs</strong> with their own insurance. That&apos;s why a dealer will usually send you a prepaid insured label when you sell, rather than letting you pick a carrier.</li>
+      </ul>
+      <h2>USPS: Registered Mail and the $15 trap</h2>
+      <p>
+        The rules live in the USPS Domestic Mail Manual (DMM), which is the binding document. The USPS&apos;s consumer FAQ explains them in plainer language.
+      </p>
+      <h3>Registered Mail</h3>
+      <p>
+        USPS calls Registered Mail its <a href="https://faq.usps.com/articles/Knowledge/Registered-Mail-The-Basics" target="_blank" rel="noopener noreferrer">most secure service</a>: items are held in safes, cages, sealed containers, and locked equipment, and delivery requires a signature. Under <a href="https://pe.usps.com/text/dmm300/503.htm" target="_blank" rel="noopener noreferrer">DMM 503.2</a>, postal insurance is included in the Registered Mail fee for items valued up to <strong>$50,000</strong>. You can register something worth more, but the most you can recover is $50,000. Registered Mail can be added to Priority Mail, First-Class Mail, and USPS Ground Advantage. It isn&apos;t available with Priority Mail Express.
+      </p>
+      <p>
+        Points that trip people up:
+      </p>
+      <ul>
+        <li><strong>You must declare the full value.</strong> The DMM requires the mailer to declare the item&apos;s full value when registering it. Under-declaring to save on fees can limit what you recover.</li>
+        <li><strong>It&apos;s slow.</strong> Registered items are handled manually and logged at each step, and USPS says outright that Registered Mail isn&apos;t recommended when speed matters. Plan on extra days.</li>
+        <li><strong>Tracking is limited.</strong> People often assume Registered Mail has better tracking than Priority Mail. It doesn&apos;t. The USPS FAQ says Registered Mail generally can&apos;t be tracked through the mailstream the way other packages can. You&apos;ll see acceptance and delivery or attempted delivery. The internal receipt trail that documents custody exists, but USPS says it&apos;s accessed through the claims process.</li>
+        <li><strong>Packing and sealing rules apply.</strong> The DMM requires registered items to be packed adequately. Tape on registered articles must be the kind that visibly damages the wrapper if someone removes it and that absorbs postmark ink. Ordinary clear plastic packing tape generally doesn&apos;t qualify. Ask at the counter which tape they&apos;ll accept before you seal the box.</li>
+      </ul>
+      <h3>The $15 rule for everything else</h3>
+      <p>
+        This is the rule most likely to cost you money. Under the indemnity claims rules in <a href="https://pe.usps.com/text/dmm300/609.htm" target="_blank" rel="noopener noreferrer">DMM 609.4</a>, the maximum indemnity for negotiable items, currency, <strong>or bullion</strong> is <strong>$15</strong>, <strong>except for Registered Mail</strong>. The same $15 cap is spelled out for Priority Mail Express.
+      </p>
+      <p>
+        Priority Mail and Ground Advantage include $100 of insurance, Priority Mail Express includes $100, and extra insurance can be bought on each up to $5,000. But those insured limits don&apos;t override the bullion cap. If you send a tube of silver bars by insured Priority Mail and it disappears, the claims rules say your recovery for bullion is $15. That&apos;s the trap.
+      </p>
+      <p>
+        Collectible coins are handled a bit differently. The claims rules value stamps and coins of numismatic value at fair market value, as set by a recognized dealer or current trade publications. Whether a given bullion coin counts as &ldquo;bullion&rdquo; or as a numismatic coin for a claim isn&apos;t something you want to argue about after a loss. For anything of real value, use Registered Mail.
+      </p>
+      <h3>Filing a claim</h3>
+      <p>
+        Under DMM 609, you can file a claim for a Registered or insured item no sooner than 15 days and no later than 60 days after mailing. For Priority Mail Express, the window is 7 to 60 days. You&apos;ll need proof of value, such as a sales receipt, invoice, or other record showing what the item was and what it cost. Claims can also be denied for inadequate packaging. Keep your receipts and pack properly.
+      </p>
+      <h2>UPS: bullion and coins are on the &ldquo;not accepted&rdquo; list</h2>
+      <p>
+        UPS&apos;s <a href="https://assets.ups.com/adobe/assets/urn:aaid:aem:c6bf8a2f-018f-4aa0-838b-ffc1a75eb1d9/original/as/terms-carriage-us-en.pdf" target="_blank" rel="noopener noreferrer">2026 Tariff/Terms and Conditions of Service for the United States</a> (effective April 2026) lists &ldquo;articles of unusual value&rdquo; that UPS doesn&apos;t accept and shippers are prohibited from sending. That list includes:
+      </p>
+      <ul>
+        <li>Coins, cash, currency, and negotiable instruments.</li>
+        <li>Any article that contains more than 50% gold or platinum by weight, or a combination of the two, in raw form, including bullion, bars, or scrap.</li>
+        <li>Any package with an actual value above $50,000 (or $70,000 under UPS&apos;s Enhanced Maximum Declared Value provisions).</li>
+      </ul>
+      <p>
+        If a prohibited item is found in its system, the terms let UPS return it at the shipper&apos;s risk and expense, dispose of it, or charge an extra fee. The shipper also agrees to indemnify UPS. In practice, an individual who ships a gold bar through a UPS Store counter is shipping something the terms say UPS doesn&apos;t accept, and shouldn&apos;t expect a declared-value claim to be paid.
+      </p>
+      <p>
+        Silver bullion isn&apos;t named in that UPS list the way gold and platinum are. Coins are, whatever their metal. Don&apos;t read that as permission to ship silver bars with UPS on your own declared value without checking the current terms and any applicable claims exclusions first.
+      </p>
+      <h2>FedEx: a $1,000 ceiling</h2>
+      <p>
+        FedEx&apos;s U.S. terms take a different approach. Rather than an outright ban, the <a href="https://www.fedex.com/content/dam/fedex/us-united-states/services/SG_TermsCond_US_2021.pdf" target="_blank" rel="noopener noreferrer">FedEx Express U.S. terms</a> limit any shipment containing &ldquo;items of extraordinary value&rdquo; to a <strong>maximum declared value of $1,000</strong>. That category explicitly includes &ldquo;precious metals, including, but not limited to, gold and silver bullion,&rdquo; and &ldquo;collector&apos;s items such as coins.&rdquo; FedEx&apos;s high-value jewelry program page also notes that coins and gold bars are excluded from that program.
+      </p>
+      <p>
+        So you can hand FedEx a box of silver Eagles, but the most you could declare, and the most FedEx would be liable for, is $1,000. Also note that FedEx describes declared value as a limit on its liability, not insurance. The terms language we cite comes from FedEx&apos;s published U.S. Express terms. FedEx republishes its <a href="https://www.fedex.com/en-us/service-guide.html" target="_blank" rel="noopener noreferrer">Service Guide</a> every year, so check the current edition before you rely on any specific number.
+      </p>
+      <h2>How dealers actually ship: commercial insurance</h2>
+      <p>
+        If carriers restrict bullion this much, how do online dealers ship thousands of packages a week? Mostly through commercial arrangements individuals don&apos;t get: carrier contracts, specialty high-value shipping programs, and their own cargo or &ldquo;shipping&rdquo; insurance policies that cover the metal in transit regardless of the carrier&apos;s liability cap.
+      </p>
+      <p>
+        One example is UPS&apos;s subsidiary <a href="https://www.ups.com/us/en/ups-parcelpro" target="_blank" rel="noopener noreferrer">Parcel Pro</a>, an account-based insured shipping service for businesses that ship jewelry, watches, and precious metals, with coverage that UPS advertises up to $200,000 per shipment. Other dealers use private insurers or Registered Mail combined with their own policies. The details vary by dealer and usually aren&apos;t public.
+      </p>
+      <p>
+        That&apos;s why, <strong>when you sell to a dealer by mail, use their prepaid, insured label if they offer one.</strong> It means the dealer&apos;s policy, not your homeowner&apos;s policy or the carrier&apos;s $15 or $1,000 cap, is what stands behind the package. Before you ship, ask the dealer in writing:
+      </p>
+      <ul>
+        <li>Is the package insured from the moment I hand it off, and for how much?</li>
+        <li>What do you need from me if it&apos;s lost (photos, video, weight)?</li>
+        <li>When does it become your loss rather than mine?</li>
+      </ul>
+      <p>
+        Our guide to <Link href="/blog/dealer-buyback-programs" className="text-gold font-semibold">dealer buyback programs</Link> covers what else to ask before you sell.
+      </p>
+      <h2>Who bears the loss in transit?</h2>
+      <p>
+        The answer depends mostly on the contract.
+      </p>
+      <p>
+        The general background rule for sales of goods in most U.S. states is <a href="https://www.law.cornell.edu/ucc/2/2-509" target="_blank" rel="noopener noreferrer">UCC &sect; 2-509</a>. If a seller only has to hand goods to a carrier (a &ldquo;shipment&rdquo; contract), the risk of loss passes to the buyer when the goods are delivered to the carrier. If the seller has to deliver to a particular destination, risk passes when the goods are tendered there. That section also says the parties can agree otherwise, and dealers almost always do.
+      </p>
+      <p>
+        In practice:
+      </p>
+      <ul>
+        <li><strong>When you buy,</strong> many online dealers state in their terms that they insure the package until it&apos;s delivered. Read the shipping and risk-of-loss section of the dealer&apos;s terms before you order, and note whether the dealer requires a signature and what they require if a package is reported missing.</li>
+        <li><strong>When you sell,</strong> the dealer&apos;s terms decide when the metal becomes theirs. Some insure from pickup under their label. Some don&apos;t take responsibility until the package is received and opened. That difference is the whole ballgame if a box goes missing.</li>
+      </ul>
+      <p>
+        This is general information, not legal advice. If a large shipment is lost, the dealer&apos;s written terms and your documentation will decide the outcome, so get both before you ship.
+      </p>
+      <h2>Packing and documentation</h2>
+      <p>
+        The goal is to make the package unremarkable, and to be able to prove what was in it and what it weighed.
+      </p>
+      <ul>
+        <li><strong>Photograph and video the packing.</strong> Show each item, serial numbers where they exist, and the box being sealed, in one continuous clip if you can.</li>
+        <li><strong>Weigh the sealed box and record it.</strong> Make sure the acceptance receipt shows the weight. A box that&apos;s suddenly much lighter at delivery is strong evidence.</li>
+        <li><strong>Use plain, sturdy, snug packaging.</strong> No movement inside. Coin tubes rattle. Fill the space.</li>
+        <li><strong>Don&apos;t advertise the contents.</strong> No &ldquo;gold,&rdquo; &ldquo;silver,&rdquo; &ldquo;bullion,&rdquo; &ldquo;coins,&rdquo; or dealer names on the outside or in the return address. Use a plain address block.</li>
+        <li><strong>Don&apos;t use the carrier&apos;s free branded boxes for bullion</strong> if a plain box will do. You don&apos;t want it to stand out.</li>
+        <li><strong>Get a receipt at the counter.</strong> Don&apos;t drop high-value packages in a box or leave them for pickup at your door.</li>
+        <li><strong>Keep everything</strong> (receipts, photos, invoices) until the shipment is confirmed received and paid for.</li>
+      </ul>
+      <h2>International: usually don&apos;t</h2>
+      <p>
+        Shipping bullion across borders by mail is generally impractical. The USPS International Mail Manual&apos;s <a href="https://pe.usps.com/text/imm/immc1_013.htm" target="_blank" rel="noopener noreferrer">valuable articles rules (IMM 134)</a> treat coins, currency, and gold, silver, and platinum as valuable articles that many destination countries prohibit or restrict. They can&apos;t go by Priority Mail Express International. You&apos;d also have customs declarations, possible import duties or VAT, and destination-country rules to sort out. Check the destination&apos;s Individual Country Listing in the IMM first. For any meaningful amount, a dealer with international vaulting or a specialist secure-logistics firm is usually the realistic route.
+      </p>
+      <h2>A pre-shipping checklist</h2>
+      <ol>
+        <li><strong>Decide who&apos;s insuring it.</strong> Dealer label, Registered Mail, or a commercial policy. Not an ordinary insured Priority Mail label for bullion.</li>
+        <li><strong>Confirm the carrier accepts it.</strong> UPS&apos;s U.S. terms don&apos;t accept coins or gold bullion. FedEx&apos;s cap is $1,000 for precious metals and coins.</li>
+        <li><strong>If you use Registered Mail,</strong> declare full value, use acceptable tape, and allow extra transit days.</li>
+        <li><strong>Get the dealer&apos;s risk-of-loss terms in writing</strong> before you seal the box.</li>
+        <li><strong>Document everything.</strong> Photos, video, sealed weight, serial numbers, and the acceptance receipt.</li>
+        <li><strong>Package discreetly.</strong> No metal words, no dealer names on the outside.</li>
+        <li><strong>Hand it to a clerk,</strong> not a drop box.</li>
+        <li><strong>Know your claim window.</strong> USPS Registered and insured claims open at 15 days and close at 60.</li>
+      </ol>
+      <p>
+        If you&apos;d rather avoid shipping altogether, selling locally is the simplest fix. We compare the trade-offs in <Link href="/blog/online-vs-local-coin-dealer" className="text-gold font-semibold">online vs. local coin dealers</Link>. And if the metal is moving because you&apos;re rethinking storage, see <Link href="/blog/where-to-store-gold-home-bank-depository" className="text-gold font-semibold">where to store gold: home, bank, or depository</Link>.
+      </p>
+      <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
+        Browse our{" "}
+        <Link href="/dealers" className="text-gold font-semibold">
+          dealer directory
+        </Link>{" "}
+        to compare pricing across dealers in your area.
+      </p>
+    </>
+  ),
 };
 
 export default function BlogPostPage({

@@ -506,6 +506,26 @@ export const blogPosts: BlogPost[] = [
     date: "2026-09-28",
     dateModified: "2026-09-28",
   },
+  {
+    slug: "does-refiner-matter-gold-bars-valcambi-2026",
+    title:
+      "Does the Refiner on Your Gold Bar Matter? What the Valcambi Parent-Company Probe Means for Bar Owners",
+    tag: "Buyer’s Guide",
+    tagColor: "gold",
+    excerpt:
+      "India’s securities regulator has made allegations against the parent company of Swiss refiner Valcambi. Here is what that does and does not mean for the bar in your safe, and how refiner names, hallmarks, assay cards, and LBMA accreditation actually work.",
+    date: "2026-10-05",
+  },
+  {
+    slug: "shipping-gold-silver-insurance-carriers-2026",
+    title:
+      "Shipping Gold and Silver: Insurance, Carriers, and What Happens If a Package Disappears",
+    tag: "Buyer’s Guide",
+    tagColor: "gold",
+    excerpt:
+      "USPS, UPS, and FedEx treat bullion very differently, and a lost package can mean a $15 claim instead of full value if you pick the wrong service. Here are the actual carrier rules, who bears the loss in transit, and a checklist before you ship.",
+    date: "2026-10-05",
+  },
 ];
 
 const slugs = blogPosts.map((p) => p.slug);

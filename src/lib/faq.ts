@@ -48,12 +48,18 @@ export const faqCategories: FAQCategory[] = [
         answer: "Either can work well. Local coin shops offer hands-on inspection \u2014 especially important for numismatic coins \u2014 plus immediate possession with no shipping risk. Online dealers typically offer wider selection and posted premiums that are easy to compare across multiple sites. The channel matters less than the premium you\u2019re paying. A local dealer at 3% over spot is a better deal than an online dealer at 5% over spot, and vice versa. Compare at least three dealers regardless of channel.",
         learnMoreLabel: "Online vs. Local Coin Dealer \u2014 Does It Actually Matter?",
         learnMoreHref: "/blog/online-vs-local-coin-dealer",
+        links: [
+          { label: "Shipping Gold and Silver: Carrier Rules, Insurance, and Lost Packages", href: "/blog/shipping-gold-silver-insurance-carriers-2026" },
+        ],
       },
       {
         question: "What\u2019s the difference between gold bars and gold coins?",
         answer: "Gold bars \u2014 especially generic or private-mint bars \u2014 typically carry lower premiums than coins because they\u2019re cheaper to produce. Government-minted coins like Eagles, Maple Leafs, and Krugerrands carry higher premiums but are more universally recognized and generally easier to sell. There\u2019s also a size tradeoff: larger bars have lower per-ounce premiums, but they\u2019re less divisible. You can\u2019t sell half a 10 oz bar. Many buyers hold a mix of coins and bars to balance cost efficiency with flexibility.",
         learnMoreLabel: "Gold Coin Premiums Compared",
         learnMoreHref: "/blog/gold-coin-premiums-compared",
+        links: [
+          { label: "Does the Refiner on Your Gold Bar Matter? Hallmarks, Assay Cards, and LBMA Accreditation", href: "/blog/does-refiner-matter-gold-bars-valcambi-2026" },
+        ],
       },
       {
         question: "Is it better to buy gold or silver?",
@@ -173,6 +179,9 @@ export const faqCategories: FAQCategory[] = [
         answer: "No single test is definitive, so run multiple: (1) Magnet test \u2014 gold and silver are non-magnetic; a coin that sticks to a magnet is fake. (2) Weight and dimension check against published mint specifications \u2014 counterfeits rarely hit both simultaneously. (3) Ping test \u2014 real silver and gold ring with a long, clear tone; base metals produce a dull thud. (4) Sigma Metalytics or XRF analyzer \u2014 the most reliable electronic verification, available at many reputable coin shops. (5) For high-value coins, PCGS or NGC third-party grading is the definitive standard. Counterfeit Eagles, Maple Leafs, and Krugerrands do circulate \u2014 do not skip verification on private or secondary market purchases.",
         learnMoreLabel: "How to Authenticate Gold Coins and Bars",
         learnMoreHref: "/blog/how-to-authenticate-gold",
+        links: [
+          { label: "Does the Refiner on Your Gold Bar Matter? Hallmarks, Assay Cards, and LBMA Accreditation", href: "/blog/does-refiner-matter-gold-bars-valcambi-2026" },
+        ],
       },
       {
         question: "What are the differences between APMEX, JM Bullion, and SD Bullion?",
@@ -219,6 +228,9 @@ export const faqCategories: FAQCategory[] = [
         answer: "You have two main options. Sell to a local dealer for immediate cash \u2014 walk in, get a quote, walk out with payment. Or sell to an online dealer \u2014 ship your metals, receive payment after they verify the product. Local is faster and simpler. Online may offer slightly better prices on larger quantities because high-volume online buyers operate on thinner margins. In either case, check the spot price before you go, and get quotes from at least two or three buyers before committing.",
         learnMoreLabel: "What Should I Truly Pay for Gold and Silver?",
         learnMoreHref: "/blog/what-should-i-truly-pay-for-gold-and-silver",
+        links: [
+          { label: "Shipping Gold and Silver: Carrier Rules, Insurance, and Lost Packages", href: "/blog/shipping-gold-silver-insurance-carriers-2026" },
+        ],
       },
       {
         question: "What will a dealer pay me for my gold or silver?",
@@ -293,6 +305,9 @@ export const faqCategories: FAQCategory[] = [
         answer: "Online bullion dealers typically offer the best prices (95\u201397% of melt for large quantities) but require shipping and 5\u201310 days for payment. Local coin shops pay 2\u20135% less but offer immediate payment. Pawn shops should be last resort \u2014 expect 70\u201380% of melt value. The premium you pay for instant local liquidity versus online rates is 2\u20135%. For most sellers, online dealers deliver better value unless you need cash same-day.",
         learnMoreLabel: "What Dealers Actually Pay: Sell-Back Spreads Explained",
         learnMoreHref: "/blog/sell-back-spreads-what-dealers-actually-pay",
+        links: [
+          { label: "Shipping Gold and Silver: Carrier Rules, Insurance, and Lost Packages", href: "/blog/shipping-gold-silver-insurance-carriers-2026" },
+        ],
       },
       {
         question: "What products get the best sell-back rates?",
@@ -675,6 +690,9 @@ export const faqCategories: FAQCategory[] = [
         answer: "Yes — the most sophisticated gold bar counterfeits use a tungsten core plated with real gold. Tungsten’s density (19.25 g/cm³) is close enough to gold’s (19.32 g/cm³) that a tungsten-core bar passes a standard weight-and-dimension check, and the gold shell is real enough to pass a surface acid test or handheld XRF scan. The counterfeit is in the interior, not the surface. Reliable detection requires ultrasonic thickness testing (the industry standard, since sound travels at different speeds through gold and tungsten), a specific gravity (water displacement) test, or Sigma Metalytics electromagnetic conductivity testing. For significant purchases, also verify the bar’s serial number against the refiner’s registry.",
         learnMoreLabel: "Counterfeit Gold Bars: How They Work and How to Protect Yourself",
         learnMoreHref: "/blog/counterfeit-gold-bars-how-to-protect-yourself",
+        links: [
+          { label: "Does the Refiner on Your Gold Bar Matter? Hallmarks, Assay Cards, and LBMA Accreditation", href: "/blog/does-refiner-matter-gold-bars-valcambi-2026" },
+        ],
       },
       {
         question: "Are gold IRA companies legitimate?",
@@ -707,6 +725,9 @@ export const faqCategories: FAQCategory[] = [
         answer: "Yes, from established dealers with verifiable track records. The major online bullion dealers (APMEX, JM Bullion, SD Bullion, Kitco, Scottsdale Bullion & Coin) have processed millions of transactions. Use a credit card when possible for the buyer protection mechanism, confirm expected shipping timelines before purchase, and verify order tracking after payment. Be more cautious with smaller or unfamiliar online dealers \u2014 check their history and reviews before sending payment.",
         learnMoreLabel: "How to Spot a Precious Metals Dealer Scam Before You Lose Money",
         learnMoreHref: "/blog/precious-metals-dealer-scams",
+        links: [
+          { label: "Shipping Gold and Silver: Carrier Rules, Insurance, and Lost Packages", href: "/blog/shipping-gold-silver-insurance-carriers-2026" },
+        ],
       },
     ],
   },
