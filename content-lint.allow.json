@@ -1,0 +1,20 @@
+[
+  {
+    "file": "src/app/blog/[slug]/page.tsx",
+    "pattern": "irs-approved",
+    "contains": "must be held by an IRS-approved non-bank trustee",
+    "reason": "Legitimate exception per CLAUDE.md Statutory Terminology: IRS formally recognizes non-bank trustees under IRC 408(a)(2)."
+  },
+  {
+    "file": "src/app/blog/[slug]/page.tsx",
+    "pattern": "irs-approved",
+    "contains": "a bank or an IRS-approved non-bank trustee",
+    "reason": "Legitimate exception per CLAUDE.md Statutory Terminology: IRS formally recognizes non-bank trustees under IRC 408(a)(2)."
+  },
+  {
+    "file": "src/app/blog/[slug]/page.tsx",
+    "pattern": "irs-approved",
+    "contains": "claim that their custodian is IRS-approved",
+    "reason": "Quotes a third-party sales claim in order to tell readers to verify it; not our own assertion that the IRS approves custodians."
+  }
+]
