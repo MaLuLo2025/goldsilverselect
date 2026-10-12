@@ -1486,7 +1486,6 @@ export const dealers: Dealer[] = [
     website: "https://vaulted.com/",
     isVerified: false,
     bbbRating: "A+",
-    manualFeatured: true,
   },
   {
     slug: "jm-bullion",
