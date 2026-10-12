@@ -5894,6 +5894,344 @@ const blogContent: Record<string, React.ReactNode> = {
       </p>
     </>
   ),
+  "tokenized-gold-vs-physical-bullion-2026": (
+    <>
+      <p>
+        A gold token and a gold coin can both be described as &ldquo;one ounce of gold.&rdquo; That shared description hides almost every difference that matters to an owner: where the metal sits, whose name is on it, what you have to do to get it back, and who else can act on your holding without asking you.
+      </p>
+      <p>
+        This article walks through two widely traded gold-backed tokens, PAX Gold (PAXG) and Tether Gold (XAUt), using the issuers&apos; own published terms as of October 2026. It is an explanation of structure, not a recommendation to buy, sell, or hold anything.
+      </p>
+      <h2>What each token claims to represent</h2>
+      <p>
+        Both tokens make the same basic promise: one token corresponds to one fine troy ounce of gold held in a London Good Delivery bar. The differences start immediately after that sentence.
+      </p>
+      <p>
+        <strong>PAX Gold (PAXG)</strong> is issued by Paxos Trust Company, N.A. According to <a href="https://www.paxos.com/pax-gold" target="_blank" rel="noopener noreferrer">Paxos&apos;s PAXG product page</a>, each token is backed by one fine troy ounce of London Good Delivery gold stored in LBMA vaults in London, and a PAXG owner &ldquo;own[s] the underlying physical gold, held in custody by Paxos Trust Company.&rdquo; Paxos describes the backing as allocated: each bar has a serial number, refiner stamp, and recorded weight tied to the tokens, per its <a href="https://www.paxos.com/blog/how-gold-becomes-tokenized-paxg" target="_blank" rel="noopener noreferrer">January 2026 explainer on how PAXG is created</a>.
+      </p>
+      <p>
+        <strong>Tether Gold (XAUt)</strong> is issued by TG Commodities, S.A. de C.V., which Tether describes as a registered stablecoin issuer and digital asset service provider under El Salvador&apos;s Digital Asset Issuance Law. Tether&apos;s <a href="https://tether.io/news/tether-gold-accounts-for-more-than-half-the-entire-gold-backed-stablecoin-market-as-xaut-surpasses-4-billion-in-value/" target="_blank" rel="noopener noreferrer">January 2026 reserve announcement</a> states that each token is backed by one fine troy ounce of physical gold held in Swiss vaults meeting London Good Delivery standards. That announcement reported roughly 520,089 XAUt in circulation against about 520,089 fine troy ounces as of December 31, 2025. The vault operator is not named in that release.
+      </p>
+      <p>
+        Two practical points follow:
+      </p>
+      <ul>
+        <li><strong>London vs. Switzerland.</strong> The location of the metal determines where physical delivery happens, which law governs the vault, and how far the bar has to travel to reach you.</li>
+        <li><strong>Disclosure depth.</strong> Both issuers say the gold is allocated. As of October 2026, neither issuer&apos;s public product page names the vault operator. If that matters to you, ask before you buy.</li>
+      </ul>
+      <h2>Who regulates the issuer</h2>
+      <p>
+        Regulatory status is where the two tokens diverge most sharply.
+      </p>
+      <p>
+        <strong>Paxos is now a federally chartered national trust bank.</strong> For years, PAXG was described as issued by a New York Department of Financial Services (NYDFS) regulated trust company. That changed. On December 12, 2025, the Office of the Comptroller of the Currency approved Paxos&apos;s application to convert its NYDFS limited-purpose trust charter into a national trust charter, and Paxos says it completed the conversion the same day. Per <a href="https://www.paxos.com/newsroom/occ-approves-paxos-application-to-convert-to-occ-trust-paxos-to-complete-conversion-imminently-to-become-a-federally-regulated-blockchain-infrastructure-provider" target="_blank" rel="noopener noreferrer">Paxos&apos;s announcement</a>, &ldquo;all of Paxos Trust Company&apos;s US-based activity will be subject to OCC supervision.&rdquo; Older articles that still describe PAXG as NYDFS-regulated are out of date.
+      </p>
+      <p>
+        <strong>Tether Gold sits under El Salvador&apos;s framework,</strong> not a U.S. charter. Tether&apos;s materials point to sales and redemption terms published on its legal pages. U.S. readers should read those terms directly to see who may open an account with the issuer.
+      </p>
+      <p>
+        <strong>What about the GENIUS Act?</strong> The federal stablecoin law enacted in July 2025 (Public Law 119-27) regulates &ldquo;payment stablecoins.&rdquo; The statute&apos;s definition in <a href="https://www.govinfo.gov/content/pkg/COMPS-18221/pdf/COMPS-18221.pdf" target="_blank" rel="noopener noreferrer">section 2</a> covers a digital asset whose issuer is obligated to convert, redeem, or repurchase it &ldquo;for a fixed amount of monetary value,&rdquo; and it defines monetary value as a national currency or a deposit denominated in one. A gold token redeems for a quantity of gold whose dollar value floats. On the statute&apos;s plain text, gold-backed tokens do not appear to fit that definition. Regulators have not, as of October 2026, issued guidance specifically addressing gold tokens under the Act, so treat that reading as an informed one rather than a settled answer.
+      </p>
+      <h2>Redemption: the part most buyers never read</h2>
+      <p>
+        The token is a claim. Redemption is how the claim turns back into metal or money. Here is where the fine print lives.
+      </p>
+      <p>
+        <strong>PAXG redemption, per Paxos&apos;s own materials:</strong>
+      </p>
+      <ul>
+        <li>Holders can redeem for U.S. dollars at current gold prices through Paxos, or convert to unallocated gold.</li>
+        <li>Physical delivery of full London Good Delivery bars is available to customers holding <strong>430 troy ounces or more</strong>. Smaller amounts can be redeemed through gold retailers that partner with Paxos, per the <a href="https://www.paxos.com/blog/how-gold-becomes-tokenized-paxg" target="_blank" rel="noopener noreferrer">January 2026 explainer</a>.</li>
+        <li>Paxos&apos;s <a href="https://support.paxos.com/articles/2899561282-PAX-Gold-Fees" target="_blank" rel="noopener noreferrer">PAX Gold fee schedule</a>, as of October 2026, lists creation fees as waived through January 1, 2027, and redemption fees effective September 1, 2026 that start at 0.125% and rise in bands based on an account&apos;s rolling 30-day net redemptions. A separate 0.05% fee applies to in-kind conversion into allocated or unallocated gold.</li>
+        <li>Those creation and redemption fees apply to activity on the Paxos platform. Tokens bought or sold on an outside exchange carry that exchange&apos;s fees instead.</li>
+      </ul>
+      <p>
+        <strong>XAUt redemption, per Tether&apos;s own materials:</strong>
+      </p>
+      <ul>
+        <li>Tether states that it delivers bars &ldquo;to any address in Switzerland,&rdquo; per its <a href="https://tether.io/news/tether-gold-digital-gold-for-the-modern-era/" target="_blank" rel="noopener noreferrer">Tether Gold overview</a>.</li>
+        <li>Physical redemption is tied to full bars. Tether advises depositing about 430 XAUt to cover one bar, since a Good Delivery bar can weigh up to about 430 ounces.</li>
+        <li>As of October 2026, Tether&apos;s public product and news pages do not state a current redemption fee schedule. Get it in writing before you rely on redemption.</li>
+      </ul>
+      <p>
+        The common thread: <strong>for most retail holders, &ldquo;redeemable for physical gold&rdquo; is a theoretical right.</strong> A full Good Delivery bar is roughly 400 ounces. If you hold a few tokens, your realistic exit is selling the token for dollars, either to the issuer or on an exchange. That puts you closer to an ETF shareholder than to someone with a coin in a safe.
+      </p>
+      <h2>Attestations are not audits</h2>
+      <p>
+        Paxos&apos;s product page says PAXG&apos;s allocated gold is &ldquo;audited monthly.&rdquo; Its <a href="https://www.paxos.com/paxg-transparency" target="_blank" rel="noopener noreferrer">PAXG transparency page</a> describes the same thing as monthly attestation reports, prepared by KPMG LLP for reports posted on or after February 28, 2025, and by WithumSmith+Brown before that. Tether links an ISAE 3000 assurance report for its reserves.
+      </p>
+      <p>
+        These are not the same as a full audit of the issuer&apos;s financial statements. In general terms:
+      </p>
+      <ul>
+        <li>An <strong>attestation</strong> examines a specific statement, such as &ldquo;tokens outstanding equal ounces in the vault at month-end,&rdquo; at a point in time.</li>
+        <li>A <strong>financial-statement audit</strong> examines the issuer&apos;s entire balance sheet, including liabilities and other obligations that could matter if the issuer fails.</li>
+      </ul>
+      <p>
+        A clean monthly attestation is useful evidence that the bars existed on the measurement date. It tells you less about the issuer&apos;s overall solvency, its other businesses, or what happens on the other 29 days of the month. Read the report itself, note its date and scope, and do not let marketing shorthand stand in for it.
+      </p>
+      <h2>The risks that do not exist for a coin in your hand</h2>
+      <p>
+        Tokenized gold carries the metal&apos;s price risk plus several layers that physical bullion does not.
+      </p>
+      <p>
+        <strong>Issuer and custodian risk.</strong> Your claim runs through the issuer. If the issuer fails, the question becomes whether the gold is legally segregated for token holders and how long it takes to get it back. Paxos says its national trust bank structure requires separation of customer assets from company funds. That is a meaningful protection, but it is a legal process, not a guarantee of speed.
+      </p>
+      <p>
+        <strong>Freezing and blacklisting.</strong> Both tokens can be frozen by their issuers.
+      </p>
+      <ul>
+        <li>The <a href="https://github.com/paxosglobal/paxos-gold-contract" target="_blank" rel="noopener noreferrer">PAXG smart contract documentation</a> states that an &ldquo;asset protection role&rdquo; can freeze and unfreeze the PAXG balance of any address and can wipe the balance of a frozen address. The same documentation says Paxos will not freeze balances &ldquo;on its own accord.&rdquo; The same documentation says Paxos can pause all transfers in a critical security event.</li>
+        <li>An <a href="https://governance.aave.com/t/arfc-add-xaut-to-aave-v3-core-instance/22385/9" target="_blank" rel="noopener noreferrer">August 2025 technical review by BGD Labs</a>, written for the Aave lending protocol, reports that XAUt&apos;s owner (a Tether multisig) can blocklist addresses and burn funds from blocklisted addresses, and that the contract is upgradeable without a timelock.</li>
+      </ul>
+      <p>
+        That control is a compliance feature from the issuer&apos;s perspective. From an owner&apos;s perspective, it means a third party can act on your holding without your participation.
+      </p>
+      <p>
+        <strong>Smart-contract risk.</strong> Both contracts are upgradeable. Code that can be changed can, in principle, be changed in ways that affect holders. Upgradeability also lets issuers fix bugs. Either way, you are trusting the people who hold the keys.
+      </p>
+      <p>
+        <strong>Exchange and wallet risk.</strong> If you hold tokens on an exchange, you also carry that exchange&apos;s risk. The SEC&apos;s December 2025 <a href="https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/crypto-asset-custody-basics-retail-investors-investor-bulletin-0" target="_blank" rel="noopener noreferrer">investor bulletin on crypto asset custody</a> warns that if a third-party custodian &ldquo;is hacked, shuts down, or goes bankrupt, you may lose access to your crypto assets,&rdquo; and that some custodians lend out or commingle customer assets. If you self-custody, a lost private key generally means lost access, with no reset.
+      </p>
+      <h2>Taxes: what the IRS has said, and what it has not</h2>
+      <p>
+        The IRS treats digital assets as property, not currency. Per its <a href="https://www.irs.gov/filing/digital-assets" target="_blank" rel="noopener noreferrer">digital assets page</a>, gains and losses on assets held for investment are capital gains and losses. Brokers began reporting gross proceeds on Form 1099-DA for transactions on or after January 1, 2025, with basis reporting for certain transactions starting January 1, 2026.
+      </p>
+      <p>
+        The harder question is whether a gold-backed token is a <strong>collectible</strong>, which matters because long-term gains on collectibles can be taxed at up to 28% under <a href="https://www.law.cornell.edu/uscode/text/26/1" target="_blank" rel="noopener noreferrer">IRC &sect; 1(h)</a>, rather than the lower long-term rates for stocks.
+      </p>
+      <ul>
+        <li>The IRS has not issued guidance specifically on fungible gold-backed tokens as of October 2026.</li>
+        <li>In <a href="https://www.irs.gov/pub/irs-drop/n-23-27.pdf" target="_blank" rel="noopener noreferrer">Notice 2023-27</a>, addressing NFTs, the IRS said it intends to use a &ldquo;look-through&rdquo; analysis: if the token&apos;s associated asset is a collectible, the token is treated as one. Its example is that an NFT certifying ownership of a gem is a collectible, and metals fall under the same statutory category.</li>
+        <li>Whether the IRS would apply the same reasoning to a fungible token backed by allocated bullion is an open question. The NFT notice points in that direction, but it is not a ruling on gold tokens.</li>
+      </ul>
+      <p>
+        Physical bullion and physically backed metal ETFs raise their own collectibles questions, covered in <Link href="/blog/physical-silver-vs-etf" className="text-gold font-semibold">our physical silver vs. ETF comparison</Link> and <Link href="/blog/capital-gains-tax-gold-silver-2026" className="text-gold font-semibold">our 2026 capital gains guide</Link>. If you hold tokens, keep your own records of purchase dates, prices, and wallet transfers, and confirm treatment with a tax professional before you file.
+      </p>
+      <h2>How the three forms of &ldquo;owning gold&rdquo; compare</h2>
+      <p>
+        Here is the structural comparison, stated plainly.
+      </p>
+      <p>
+        <strong>Physical bullion you hold</strong>
+      </p>
+      <ul>
+        <li>You possess the metal. No issuer, smart contract, or exchange stands between you and the coin.</li>
+        <li>Counterparty risk is reduced, not zero: you still depend on the dealer you buy from, the market you sell into, and wherever you store it. See <Link href="/blog/where-to-store-gold-home-bank-depository" className="text-gold font-semibold">our storage guide</Link>.</li>
+        <li>Costs show up as the premium over spot when you buy, the spread when you sell, and storage and insurance.</li>
+        <li>Nobody can freeze a coin in your safe. Theft, loss, and authenticity are your problems.</li>
+      </ul>
+      <p>
+        <strong>Physically backed gold ETF shares</strong>
+      </p>
+      <ul>
+        <li>You own shares of a trust, held through a brokerage account. Retail shareholders generally cannot redeem shares for metal.</li>
+        <li>You get exchange liquidity during market hours and an annual expense ratio.</li>
+        <li>Your protections come from securities law and your broker&apos;s custody arrangements.</li>
+      </ul>
+      <p>
+        <strong>Gold tokens (PAXG, XAUt)</strong>
+      </p>
+      <ul>
+        <li>You hold a claim on allocated gold, recorded on a blockchain, issued by a specific company under a specific regulator.</li>
+        <li>You can transfer tokens around the clock and in fractions.</li>
+        <li>Physical redemption exists but, in practice, begins at a full bar.</li>
+        <li>The issuer can freeze, wipe, or burn balances under defined conditions, and the contracts can be upgraded.</li>
+        <li>Exchange and wallet risk stack on top of issuer risk.</li>
+      </ul>
+      <p>
+        For a broader look at how gold compares with crypto-native assets, see <Link href="/blog/gold-vs-bitcoin-2026" className="text-gold font-semibold">our gold vs. bitcoin comparison</Link>. That article addresses bitcoin itself, not gold tokens, which sit in between the two worlds.
+      </p>
+      <h2>Questions to answer before you buy any gold token</h2>
+      <ul>
+        <li><strong>Who is the issuer, and who regulates it today?</strong> Check the issuer&apos;s current pages. PAXG&apos;s regulator changed in December 2025.</li>
+        <li><strong>What does the latest attestation actually cover?</strong> Note the preparer, the date, and the scope.</li>
+        <li><strong>Can you, specifically, redeem with the issuer?</strong> Look for account eligibility, minimums, fees, and delivery location.</li>
+        <li><strong>Where will you hold the token?</strong> On an exchange, you add that exchange&apos;s risk. In your own wallet, you take on key management.</li>
+        <li><strong>What happens if the issuer freezes your address?</strong> Read the terms on asset protection and dispute handling.</li>
+        <li><strong>How will you track tax basis?</strong> Exchanges may report proceeds on Form 1099-DA. Your own records still have to support your basis.</li>
+      </ul>
+      <p>
+        None of these questions has a single right answer. They decide whether the &ldquo;one ounce&rdquo; in the marketing is the same &ldquo;one ounce&rdquo; you think you are buying.
+      </p>
+      <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
+        Browse our{" "}
+        <Link href="/dealers" className="text-gold font-semibold">
+          dealer directory
+        </Link>{" "}
+        to compare pricing across dealers in your area.
+      </p>
+    </>
+  ),
+  "gifting-gold-silver-gift-tax-basis": (
+    <>
+      <p>
+        Handing someone a tube of silver Eagles or a one-ounce gold bar takes about five seconds. The tax consequences can run for decades, and most of them land on the person receiving the gift, not the person giving it.
+      </p>
+      <p>
+        The good news is that, for most families, a gift of metal will never produce a dollar of gift tax. The part that actually costs people money is the recipient&apos;s <strong>cost basis</strong>: the number they will need years later to figure their gain when they sell. That number comes from you, the giver, and if you do not write it down, it may be gone for good.
+      </p>
+      <p>
+        This is general information about federal tax rules as of October 2026, not tax or legal advice. Confirm your own situation with a tax professional before you act.
+      </p>
+      <h2>Two different taxes, two different people</h2>
+      <p>
+        Gifting metal touches two separate parts of the tax code, and it helps to keep them apart.
+      </p>
+      <ul>
+        <li><strong>Gift tax</strong> is the donor&apos;s concern. Per the <a href="https://www.irs.gov/businesses/small-businesses-self-employed/frequently-asked-questions-on-gift-taxes" target="_blank" rel="noopener noreferrer">IRS gift tax FAQ</a>, &ldquo;the donor is generally responsible for paying the gift tax.&rdquo;</li>
+        <li><strong>Capital gains tax</strong> is the recipient&apos;s concern. It applies when the recipient eventually sells, and it is calculated using the basis they received from you.</li>
+      </ul>
+      <p>
+        A gift that triggers no gift tax at all can still carry a large built-in gain to the recipient.
+      </p>
+      <h2>The 2026 numbers</h2>
+      <p>
+        Under the IRS&apos;s <a href="https://www.irs.gov/businesses/small-businesses-self-employed/whats-new-estate-and-gift-tax" target="_blank" rel="noopener noreferrer">What&apos;s New page for estate and gift tax</a>, last updated in July 2026:
+      </p>
+      <ul>
+        <li><strong>Annual exclusion: $19,000 per recipient for 2026</strong>, unchanged from 2025. You can give up to that amount to any number of different people in a calendar year without using any of your lifetime exemption.</li>
+        <li><strong>Basic exclusion amount: $15,000,000 for 2026.</strong> This is the lifetime amount that can pass free of gift and estate tax combined. The increase came from Public Law 119-21, signed July 4, 2025. The IRS calls it the Working Families Tax Cuts Bill. Most press coverage calls it the One Big Beautiful Bill Act.</li>
+      </ul>
+      <p>
+        Going over the annual exclusion for one person does not mean you owe tax. The excess counts against your lifetime amount, and you report it. Actual gift tax is owed only once lifetime taxable gifts exceed the basic exclusion amount.
+      </p>
+      <h2>When you have to file Form 709</h2>
+      <p>
+        The gift tax return is <a href="https://www.irs.gov/instructions/i709" target="_blank" rel="noopener noreferrer">Form 709</a>. Based on the current instructions, you generally have to file if any of these apply:
+      </p>
+      <ul>
+        <li>You gave more than the annual exclusion amount to any one person other than your spouse during the year.</li>
+        <li>You gave a gift of a <strong>future interest</strong> (something the recipient cannot use or enjoy right away, such as many trust gifts), in any amount.</li>
+        <li>You and your spouse want to <strong>split gifts</strong> (see below), in any amount.</li>
+      </ul>
+      <p>
+        The return is generally due April 15 of the year after the gift. An extension of your income tax return also extends Form 709, but it does not extend the time to pay any gift tax owed. Spouses cannot file a joint gift tax return; each files separately.
+      </p>
+      <p>
+        Here is a typical scenario: a parent gives an adult child a 1-ounce gold coin and some silver rounds worth a combined amount below $19,000 in 2026, and no other gifts to that child. That gift is fully covered by the annual exclusion, and no Form 709 is needed for it. Raise the value above $19,000 and the parent files a 709, even though no tax is due.
+      </p>
+      <h2>Gift-splitting between spouses</h2>
+      <p>
+        Married couples can elect to treat a gift made by one spouse as made half by each. That effectively doubles the annual exclusion for that recipient, to $38,000 in 2026. Per the Form 709 instructions, the requirements include:
+      </p>
+      <ul>
+        <li>Both spouses consent, and the consenting spouse&apos;s signed Notice of Consent goes on the donor&apos;s return.</li>
+        <li>You were married to each other when the gift was made. If divorced or widowed later in the year, neither of you remarried during the rest of that year.</li>
+        <li>Neither spouse was a nonresident who was not a U.S. citizen at the time of the gift.</li>
+      </ul>
+      <p>
+        <strong>Splitting requires filing Form 709, regardless of the amount.</strong> A couple who hands a child $30,000 of bullion and assumes &ldquo;we each get $19,000&rdquo; has the right idea, but it only works if the election is made on a return.
+      </p>
+      <p>
+        The IRS FAQ also notes that when spouses jointly own the property being given, each spouse is treated as giving their share, which can produce the same $38,000 result.
+      </p>
+      <h2>Carryover basis: you hand over your cost, too</h2>
+      <p>
+        This is the rule that matters most for metals.
+      </p>
+      <p>
+        Under <a href="https://www.law.cornell.edu/uscode/text/26/1015" target="_blank" rel="noopener noreferrer">IRC &sect; 1015(a)</a>, the recipient&apos;s basis in gifted property is generally &ldquo;the same as it would be in the hands of the donor.&rdquo; In plain terms: the recipient steps into your shoes. If you bought gold years ago at a low price, the recipient inherits your low basis and the gain that comes with it.
+      </p>
+      <p>
+        <strong>Consider a hypothetical.</strong> A grandparent bought 10 ounces of gold for a total cost of $4,000 decades ago and gives the coins to a grandchild when they are worth $40,000. The grandchild&apos;s basis for figuring gain is $4,000. If the grandchild later sells for $45,000, the taxable gain is $41,000, not $5,000.
+      </p>
+      <h3>The dual-basis rule when metal is worth less than you paid</h3>
+      <p>
+        Metals prices fall as well as rise. If the fair market value on the date of the gift is <strong>lower</strong> than your adjusted basis, the recipient ends up with two bases. Per <a href="https://www.irs.gov/publications/p551" target="_blank" rel="noopener noreferrer">IRS Publication 551</a>:
+      </p>
+      <ul>
+        <li><strong>For figuring a gain,</strong> the recipient uses your adjusted basis.</li>
+        <li><strong>For figuring a loss,</strong> the recipient uses the fair market value on the date of the gift.</li>
+        <li><strong>If the recipient sells for a price between those two numbers,</strong> there is neither a gain nor a loss.</li>
+      </ul>
+      <p>
+        The practical effect: you cannot hand a built-in loss to someone else. Consider silver bought for $10,000 and given when it is worth $7,000. If the recipient sells for $6,000, the reportable loss is $1,000 (measured from $7,000). If they sell for $8,000, there is no gain or loss at all. If they sell for $11,000, the gain is $1,000 (measured from $10,000).
+      </p>
+      <p>
+        This is why the date-of-gift value matters even when no Form 709 is required. Without it, the recipient cannot apply the loss rule.
+      </p>
+      <h3>Gift tax paid can add to basis</h3>
+      <p>
+        If gift tax is actually paid, Publication 551 lets the recipient add to basis the part of the tax attributable to the property&apos;s net increase in value. At 2026 exemption levels, this rarely applies.
+      </p>
+      <h2>Holding period: the clock usually transfers too</h2>
+      <p>
+        Long-term treatment requires holding an asset for more than one year. When the recipient&apos;s basis is figured by reference to the donor&apos;s basis, <a href="https://www.law.cornell.edu/uscode/text/26/1223" target="_blank" rel="noopener noreferrer">IRC &sect; 1223(2)</a> lets the recipient count the donor&apos;s holding period as well. If you held the coins for ten years, the recipient generally starts with ten years.
+      </p>
+      <p>
+        There is one wrinkle. When the dual-basis rule applies and the recipient&apos;s loss is measured from the date-of-gift value rather than your basis, the holding-period result can be different. That is a narrow case, but it is one to raise with a tax professional if you are gifting metal that has dropped in value.
+      </p>
+      <h2>The collectibles rate does not go away</h2>
+      <p>
+        Long-term gains on bullion are not taxed like long-term gains on stock. Under <a href="https://www.law.cornell.edu/uscode/text/26/1" target="_blank" rel="noopener noreferrer">IRC &sect; 1(h)</a>, gains on <strong>collectibles</strong> held more than one year are taxed at a maximum 28% rate. The definition of collectibles comes from <a href="https://www.law.cornell.edu/uscode/text/26/408" target="_blank" rel="noopener noreferrer">IRC &sect; 408(m)</a>, which includes &ldquo;any metal or gem,&rdquo; and &sect; 1(h) applies that definition without the IRA bullion exception. In other words, coins and bars that are IRA-eligible are still collectibles for capital gains rate purposes, a point the IRS restated in <a href="https://www.irs.gov/pub/irs-drop/n-23-27.pdf" target="_blank" rel="noopener noreferrer">Notice 2023-27</a>. The IRS&apos;s <a href="https://www.irs.gov/taxtopics/tc409" target="_blank" rel="noopener noreferrer">Topic 409</a> states the 28% maximum for collectibles.
+      </p>
+      <p>
+        A gift does not change the character of the asset. The recipient who sells gifted bullion after the combined holding period passes one year is generally looking at the collectibles rate on the gain, with the actual rate depending on their own income. For how the rate interacts with your bracket, see <Link href="/blog/capital-gains-tax-gold-silver-2026" className="text-gold font-semibold">our 2026 capital gains guide</Link>.
+      </p>
+      <h2>Valuing the gift: what &ldquo;fair market value&rdquo; means for metal</h2>
+      <p>
+        Both the Form 709 (when one is required) and the dual-basis rule depend on the value on the date of the gift. The gift tax regulation, <a href="https://www.law.cornell.edu/cfr/text/26/25.2512-1" target="_blank" rel="noopener noreferrer">Treas. Reg. &sect; 25.2512-1</a>, defines value as the price at which property would change hands between a willing buyer and a willing seller, neither under compulsion and both with reasonable knowledge of the relevant facts. Value is not what a forced sale would produce.
+      </p>
+      <p>
+        The same regulation says that for items generally obtained by the public in the retail market, value is the price at which the item or a comparable item would be sold at retail. How that sentence applies to bullion, which trades with a visible gap between what dealers pay and what they charge, is not spelled out in the regulation. Ask your tax professional which reference point to use, and use it consistently.
+      </p>
+      <p>
+        What you can control is documentation. For each gift, record:
+      </p>
+      <ul>
+        <li><strong>The date of the gift</strong> and the exact items (type, weight, purity, year and mint mark for coins, serial numbers for bars).</li>
+        <li><strong>A spot price reference</strong> for that date from a published source, saved as a screenshot or printout.</li>
+        <li><strong>A dated dealer quote</strong> for the specific items, both the buy price and the sell price if you can get them. These show the range a willing buyer and seller would face.</li>
+        <li><strong>An appraisal for numismatic or graded coins.</strong> Their value is driven by rarity and grade, not just metal content. The Form 709 instructions treat a qualified appraisal, or a detailed description of how value was determined, as part of adequate disclosure when a return is filed.</li>
+      </ul>
+      <h2>Gifts to minors</h2>
+      <p>
+        Metal given to a child usually ends up held for the child by an adult. Under a state&apos;s Uniform Transfers to Minors Act (UTMA) or Uniform Gifts to Minors Act (UGMA), a custodian manages the property until the child reaches the age set by state law, at which point it becomes theirs outright. Revenue Ruling 59-357 has long been cited for the position that transfers to a custodian under these acts can qualify for the annual exclusion even though the child does not have immediate use of the property.
+      </p>
+      <p>
+        Three general cautions:
+      </p>
+      <ul>
+        <li><strong>The gift is irrevocable.</strong> Custodial property belongs to the child.</li>
+        <li><strong>Physical metal in a custodial account raises practical questions</strong> about where it is stored and who controls access. See <Link href="/blog/where-to-store-gold-home-bank-depository" className="text-gold font-semibold">our storage guide</Link>.</li>
+        <li><strong>State rules differ</strong> on the age of transfer and what custodians may hold. Check your state&apos;s statute or ask a local attorney.</li>
+      </ul>
+      <h2>Gift now, or leave it at death?</h2>
+      <p>
+        This is where gifting and inheriting part ways. Property passed at death generally gets a basis equal to fair market value at the date of death, which can erase decades of built-in gain. A lifetime gift carries over the donor&apos;s basis instead. For metal with a large unrealized gain, that difference can be significant. We cover the inheritance side in <Link href="/blog/inheriting-gold-silver-tax-basis" className="text-gold font-semibold">our guide to inheriting gold and silver</Link>.
+      </p>
+      <p>
+        That does not make one path right. People give during life for reasons a tax calculation does not capture. The point is to choose knowing the basis consequence, not to discover it at sale.
+      </p>
+      <h2>When the recipient sells</h2>
+      <p>
+        When the recipient sells, whether the dealer issues a Form 1099-B depends on the specific item and quantity under the broker reporting rules, not on whether the metal was a gift. We cover those rules, including the IRS&apos;s recent correction to its coin example, in <Link href="/blog/1099-b-reporting-precious-metals-2026-irs-correction" className="text-gold font-semibold">our 1099-B reporting article</Link>. Either way, the recipient reports the sale and needs a basis to report. If the recipient cannot document basis, they may face a dispute over what it was, and in the worst case could end up treating far more of the proceeds as gain than they should.
+      </p>
+      <h2>A documentation checklist</h2>
+      <p>
+        Put this in an envelope with the metal, or in a shared file the recipient can find:
+      </p>
+      <ul>
+        <li>A signed, dated gift letter stating what you gave and that it is a gift.</li>
+        <li>Your original purchase invoices or receipts showing date, items, and cost. If you no longer have them, write down what you remember, how you know it, and any bank or card records that support it.</li>
+        <li>Your date-of-gift valuation records: spot reference, dealer quote, and any appraisal.</li>
+        <li>A copy of Form 709 and the Notice of Consent, if you filed one or split the gift.</li>
+        <li>For custodial gifts, the account or custodial designation and your state&apos;s UTMA/UGMA reference.</li>
+        <li>Item descriptions detailed enough to match the metal to the paperwork: serial numbers for bars, and year, mint, and grade for coins.</li>
+      </ul>
+      <p>
+        The paperwork is what keeps the recipient from overpaying tax later. Before you give, confirm the details with a tax professional who can look at your full picture.
+      </p>
+      <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
+        Browse our{" "}
+        <Link href="/dealers" className="text-gold font-semibold">
+          dealer directory
+        </Link>{" "}
+        to compare pricing across dealers in your area.
+      </p>
+    </>
+  ),
 };
 
 export default function BlogPostPage({

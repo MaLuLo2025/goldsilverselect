@@ -463,6 +463,26 @@ export const blogPosts: BlogPost[] = [
       "USPS, UPS, and FedEx treat bullion very differently, and a lost package can mean a $15 claim instead of full value if you pick the wrong service. Here are the actual carrier rules, who bears the loss in transit, and a checklist before you ship.",
     date: "2026-10-05",
   },
+  {
+    slug: "tokenized-gold-vs-physical-bullion-2026",
+    title:
+      "Tokenized Gold vs. the Bar in Your Safe: What PAXG and Tether Gold Actually Give You",
+    tag: "Education",
+    tagColor: "forest",
+    excerpt:
+      "PAX Gold and Tether Gold each claim one fine troy ounce of vaulted gold per token. Here is what that claim means in practice: who holds the metal, who can redeem it, who can freeze it, and how it compares with a coin you hold or an ETF share.",
+    date: "2026-10-12",
+  },
+  {
+    slug: "gifting-gold-silver-gift-tax-basis",
+    title:
+      "Giving Gold or Silver as a Gift: Gift Tax, Cost Basis, and the Paperwork That Matters",
+    tag: "Education",
+    tagColor: "forest",
+    excerpt:
+      "A gift of coins or bars is simple to hand over and easy to get wrong on paper. Here is how the 2026 gift tax exclusion works, why the recipient inherits your cost basis, and what records to pass along with the metal.",
+    date: "2026-10-12",
+  },
 ];
 
 const slugs = blogPosts.map((p) => p.slug);

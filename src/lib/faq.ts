@@ -149,12 +149,21 @@ export const faqCategories: FAQCategory[] = [
         answer: "Physical silver means you own the actual metal \u2014 you can hold it, store it, sell it directly. A silver ETF means you own shares in a fund that tracks silver\u2019s price, but you don\u2019t own specific silver. The ETF is inside the financial system; physical silver isn\u2019t. ETFs offer better liquidity in normal markets and no storage hassle; physical offers direct ownership with no counterparty risk. For investors who want precious metals specifically because they\u2019re outside the banking system, an ETF doesn\u2019t serve that purpose.",
         learnMoreLabel: "Physical Silver vs. Silver ETFs: What You Actually Own",
         learnMoreHref: "/blog/physical-silver-vs-etf",
+        links: [
+          { label: "Tokenized Gold vs. the Bar in Your Safe: What PAXG and Tether Gold Actually Give You", href: "/blog/tokenized-gold-vs-physical-bullion-2026" },
+        ],
       },
       {
         question: "Can I get my money back if a silver ETF goes down in value?",
         answer: "No more than you can get money back on any investment that declines. An ETF tracks silver\u2019s price \u2014 if silver falls, your ETF shares fall proportionally. This is not a dealer or fund failure; it\u2019s normal price risk. The risk you\u2019re protecting against with ETF structure research is fund-level problems (custody, accounting) rather than silver price risk.",
         learnMoreLabel: "Physical Silver vs. Silver ETFs: What You Actually Own",
         learnMoreHref: "/blog/physical-silver-vs-etf",
+      },
+      {
+        question: "What is tokenized gold, and is it the same as owning physical gold?",
+        answer: "Gold tokens such as PAX Gold (PAXG) and Tether Gold (XAUt) each correspond to one fine troy ounce of vaulted gold, but a token is a claim issued by a company, not metal you hold. Physical delivery generally starts at a full Good Delivery bar (Paxos lists 430 troy ounces or more for PAXG), so most holders exit by selling the token. The issuers can freeze balances under defined conditions, and token holders carry issuer, smart-contract, and exchange or wallet risk on top of the price of gold. As of October 2026 the IRS has not issued guidance specifically on gold-backed tokens. This is general information, not tax or investment advice.",
+        learnMoreLabel: "Tokenized Gold vs. the Bar in Your Safe: What PAXG and Tether Gold Actually Give You",
+        learnMoreHref: "/blog/tokenized-gold-vs-physical-bullion-2026",
       },
       {
         question: "Is it safe to buy gold from Costco?",
@@ -278,6 +287,18 @@ export const faqCategories: FAQCategory[] = [
         answer: "Inherited precious metals receive a stepped-up basis under current federal law. Your cost basis becomes the fair market value on the date of the original owner\u2019s death \u2014 not the price they originally paid decades ago. This means heirs who sell soon after inheriting often owe little or no capital gains tax, even on metal held in the family for years. If you inherit gold or silver, get a written appraisal from a reputable dealer documenting the date-of-death value and keep it permanently \u2014 it establishes your basis for any future sale.",
         learnMoreLabel: "Capital Gains Tax on Gold and Silver",
         learnMoreHref: "/blog/capital-gains-tax-gold-silver-2026",
+        links: [
+          { label: "Giving Gold or Silver as a Gift: Gift Tax, Cost Basis, and the Paperwork That Matters", href: "/blog/gifting-gold-silver-gift-tax-basis" },
+        ],
+      },
+      {
+        question: "Do I owe tax when I give gold or silver as a gift?",
+        answer: "For most families, no gift tax is owed. For 2026 the annual gift tax exclusion is $19,000 per recipient and the lifetime basic exclusion amount is $15,000,000, and the donor, not the recipient, is generally responsible for any gift tax. Gifts above the annual exclusion to one person generally call for a Form 709 even when no tax is due. The bigger issue for metal is the recipient\u2019s cost basis: gifted property generally carries the donor\u2019s basis under IRC \u00A7 1015(a), so the recipient inherits any built-in gain, and a separate rule applies if the metal was worth less than the donor paid on the date of the gift. Keep the purchase records, the gift date, and date-of-gift valuation records with the metal. This is general information, not tax advice.",
+        learnMoreLabel: "Giving Gold or Silver as a Gift: Gift Tax, Cost Basis, and the Paperwork That Matters",
+        learnMoreHref: "/blog/gifting-gold-silver-gift-tax-basis",
+        links: [
+          { label: "Inheriting Gold and Silver: The Step-Up in Basis", href: "/blog/inheriting-gold-silver-tax-basis" },
+        ],
       },
       {
         question: "Where should I actually sell my gold jewelry to get the best price?",

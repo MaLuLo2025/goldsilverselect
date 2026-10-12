@@ -66,7 +66,7 @@ const slugs = new Set([...blogSrc.matchAll(/slug:\s*"([^"]+)"/g)].map((m) => m[1
 for (const file of ["src/lib/faq.ts", "src/app/blog/[slug]/page.tsx"]) {
   const lines = readFileSync(join(ROOT, file), "utf8").split("\n");
   lines.forEach((line, i) => {
-    for (const m of line.matchAll(/\/blog\/([a-z0-9][a-z0-9-]*)(?=["'#?/)\s])/g)) {
+    for (const m of line.matchAll(/(?<=["'(`])\/blog\/([a-z0-9][a-z0-9-]*)(?=["'#?/)\s`])/g)) {
       if (!slugs.has(m[1]) && !isAllowed(file, "dead-blog-link", line)) {
         hits++;
         console.error(`${file}:${i + 1} [dead-blog-link] /blog/${m[1]} is not a slug in src/lib/blog.ts`);
