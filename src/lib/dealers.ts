@@ -56,7 +56,7 @@ export const dealers: Dealer[] = [
     website: "https://360coingroup.com/",
     isVerified: false,
     bbbRating: "A+",
-    googleRating: 4.2,
+    googleRating: 4.5, googleReviewCount: 42,
   },
   {
     slug: "kriss-coins",
@@ -146,12 +146,12 @@ export const dealers: Dealer[] = [
     vertical: "local-coin-bullion",
     description:
       "Colorado\u2019s largest precious metals dealer. In business since 1976 with two locations in Denver and Greenwood Village. Buys and sells gold, silver, and platinum coins, bars, rare coins, paper money, and collectibles. BBB accredited since 1997.",
-    address: "548 South Broadway, Denver, CO 80209",
+    address: "538 S Broadway, Denver, CO 80209",
     city: "Denver",
     citySlug: "denver",
     state: "Colorado",
     stateSlug: "colorado",
-    phone: "(303) 778-0076",
+    phone: "(303) 777-4653",
     website: "https://rmcoin.com/",
     isVerified: false,
     bbbRating: "A+",
@@ -570,7 +570,7 @@ export const dealers: Dealer[] = [
     website: "https://stacksbowers.com/",
     isVerified: false,
     bbbRating: "A+",
-    googleRating: 4.4,
+    googleRating: 4.5, googleReviewCount: 99,
   },
   {
     slug: "delaware-valley-rare-coins",
@@ -1502,7 +1502,6 @@ export const dealers: Dealer[] = [
     website: "https://www.jmbullion.com/",
     isVerified: false,
     bbbRating: "A+",
-    googleRating: 4.7,
   },
   {
     slug: "apmex",
@@ -1534,7 +1533,6 @@ export const dealers: Dealer[] = [
     website: "https://www.sdbullion.com/",
     isVerified: false,
     bbbRating: "A+",
-    googleRating: 4.8,
   },
   {
     slug: "monument-metals",
@@ -1565,7 +1563,6 @@ export const dealers: Dealer[] = [
     website: "https://herobullion.com/",
     isVerified: false,
     bbbRating: "A+",
-    googleRating: 4.9,
   },
   {
     slug: "bgasc",
@@ -1581,7 +1578,6 @@ export const dealers: Dealer[] = [
     website: "https://bgasc.com/",
     isVerified: false,
     bbbRating: "A+",
-    googleRating: 4.8,
   },
   {
     slug: "money-metals-exchange",
@@ -1597,7 +1593,6 @@ export const dealers: Dealer[] = [
     website: "https://www.moneymetals.com/",
     isVerified: false,
     bbbRating: "A+",
-    googleRating: 4.8,
   },
   {
     slug: "bullion-exchanges",
@@ -1633,7 +1628,6 @@ export const dealers: Dealer[] = [
     website: "https://providentmetals.com/",
     isVerified: false,
     bbbRating: "A+",
-    googleRating: 4.5,
   },
   {
     slug: "scottsdale-mint",
@@ -1649,7 +1643,6 @@ export const dealers: Dealer[] = [
     website: "https://scottsdalemint.com/",
     isVerified: false,
     bbbRating: "A+",
-    googleRating: 4.6,
   },
   {
     slug: "silver-com",
@@ -1665,7 +1658,6 @@ export const dealers: Dealer[] = [
     website: "https://silver.com/",
     isVerified: false,
     bbbRating: "A+",
-    googleRating: 4.6,
   },
   {
     slug: "bullion-com",
@@ -1695,7 +1687,6 @@ export const dealers: Dealer[] = [
     website: "https://boldpreciousmetals.com/",
     isVerified: false,
     bbbRating: "A+",
-    googleRating: 4.8,
   },
   {
     slug: "liberty-coin",
@@ -1829,7 +1820,6 @@ export const dealers: Dealer[] = [
     website: "https://goldco.com/",
     isVerified: false,
     bbbRating: "A+",
-    googleRating: 4.8,
   },
   {
     slug: "augusta-precious-metals",
