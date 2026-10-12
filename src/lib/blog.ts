@@ -286,7 +286,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "precious-metals-dealer-scams",
     title: "How to Spot a Precious Metals Dealer Scam Before You Lose Money",
-    tag: "Don’t Get Ripped Off",
+    tag: "Don\u2019t Get Ripped Off",
     tagColor: "gold",
     excerpt:
       "The precious metals industry has legitimate dealers at every level — and a persistent predatory fringe pushing products at 50 to 100% above market value. Six specific red flags to check before you send a wire.",
@@ -304,7 +304,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "dealer-insolvency-metals",
     title: "What Happens to Your Metals When a Dealer Goes Out of Business",
-    tag: "Don’t Get Ripped Off",
+    tag: "Don\u2019t Get Ripped Off",
     tagColor: "gold",
     excerpt:
       "Northwest Territorial Mint’s 2016 bankruptcy left customers out millions. Bullion Direct closed in 2015 with unfilled orders. Whether you recover your metal depends almost entirely on how it was held before the failure.",

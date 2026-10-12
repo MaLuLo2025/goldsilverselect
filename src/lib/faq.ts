@@ -171,14 +171,14 @@ export const faqCategories: FAQCategory[] = [
       {
         question: "What\u2019s the difference between the American Gold Eagle and the Canadian Gold Maple Leaf?",
         answer: "Both are 1-ounce government-minted gold coins, widely recognized by dealers worldwide. The key differences: the Maple Leaf is .9999 fine (99.99% gold) while the Eagle is .9167 fine (22 karat) \u2014 the Eagle contains 1 troy ounce of gold but the coin weighs slightly more due to copper and silver alloy added for hardness. The Eagle has a specific statutory exemption making it IRA-eligible despite its lower fineness; the Maple Leaf is also IRA-eligible at .9999 purity. Eagles tend to be more liquid in the U.S. domestic market; Maple Leafs have broader international recognition.",
-        learnMoreLabel: "American Gold Eagle vs. Canadian Gold Maple Leaf",
-        learnMoreHref: "/blog/american-eagle-vs-maple-leaf",
+        learnMoreLabel: "Gold Coin Premiums: Eagles, Maples, Krugerrands, and Buffaloes Compared",
+        learnMoreHref: "/blog/gold-coin-premiums-compared",
       },
       {
         question: "How do I verify a gold coin or bar is authentic?",
         answer: "No single test is definitive, so run multiple: (1) Magnet test \u2014 gold and silver are non-magnetic; a coin that sticks to a magnet is fake. (2) Weight and dimension check against published mint specifications \u2014 counterfeits rarely hit both simultaneously. (3) Ping test \u2014 real silver and gold ring with a long, clear tone; base metals produce a dull thud. (4) Sigma Metalytics or XRF analyzer \u2014 the most reliable electronic verification, available at many reputable coin shops. (5) For high-value coins, PCGS or NGC third-party grading is the definitive standard. Counterfeit Eagles, Maple Leafs, and Krugerrands do circulate \u2014 do not skip verification on private or secondary market purchases.",
-        learnMoreLabel: "How to Authenticate Gold Coins and Bars",
-        learnMoreHref: "/blog/how-to-authenticate-gold",
+        learnMoreLabel: "How to Spot Counterfeit Gold and Silver Coins: 7 Tests You Can Do at Home",
+        learnMoreHref: "/blog/how-to-spot-counterfeit-gold-silver-coins",
         links: [
           { label: "Does the Refiner on Your Gold Bar Matter? Hallmarks, Assay Cards, and LBMA Accreditation", href: "/blog/does-refiner-matter-gold-bars-valcambi-2026" },
         ],
@@ -186,8 +186,6 @@ export const faqCategories: FAQCategory[] = [
       {
         question: "What are the differences between APMEX, JM Bullion, and SD Bullion?",
         answer: "All three are established, reputable online precious metals dealers with large catalogs of genuine products. APMEX has the widest selection including numismatic and collector items; their prices tend to run slightly above the other two on standard bullion but they have a strong track record. JM Bullion offers competitive pricing on common products with free shipping thresholds that are accessible for most buyers. SD Bullion typically posts the lowest premiums on commodity silver and gold but with a smaller product catalog. Shipping thresholds, payment method surcharges, and product availability vary \u2014 compare specific product prices on all three at the time of purchase rather than assuming one is always cheapest.",
-        learnMoreLabel: "APMEX vs. JM Bullion vs. SD Bullion Compared",
-        learnMoreHref: "/blog/apmex-vs-jm-bullion-vs-sd-bullion",
       },
       {
         question: "Is it legal to split a large cash purchase to avoid Form 8300?",

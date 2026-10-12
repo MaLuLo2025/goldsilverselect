@@ -85,8 +85,8 @@ const blogContent: Record<string, React.ReactNode> = {
       <h2>What the IRS Has Said Publicly</h2>
       <p>
         The IRS has published guidance making this position explicit. The agency&apos;s{" "}
-        <a href="https://www.irs.gov/retirement-plans/retirement-plans-faqs-regarding-iras-investments" target="_blank" rel="noopener noreferrer">
-          Retirement Plans FAQs Regarding IRAs Investments
+        <a href="https://www.irs.gov/retirement-plans/investments-in-collectibles-in-individually-directed-qualified-plan-accounts" target="_blank" rel="noopener noreferrer">
+          Investments in Collectibles in Individually Directed Qualified Plan Accounts
         </a>{" "}
         page states that IRA-eligible bullion must be held by a trustee. The IRS has separately warned in news releases and consumer guidance that &ldquo;home storage&rdquo; arrangements for IRA-owned bullion do not comply with the Code.
       </p>
@@ -164,7 +164,7 @@ const blogContent: Record<string, React.ReactNode> = {
           U.S. Mint
         </a>{" "}
         publishes exact specs for American Eagles. The{" "}
-        <a href="https://www.mint.ca/store/template/mintPage.jsp?cat=Bullion+coins&amp;parent=Bullion%2C+Refinery+%26+Mint+Services&amp;cmPage=BullionCoins" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.mint.ca/en-us/shopping/archives/2026/2025-gml-1-oz-9999-pure-gold-coin-bullion" target="_blank" rel="noopener noreferrer">
           Royal Canadian Mint
         </a>{" "}
         publishes the same for Maple Leafs. A 1 oz American Silver Eagle weighs exactly 31.103 grams, has a diameter of 40.6 millimeters, and a thickness of 2.98 millimeters. A 1 oz American Gold Eagle weighs 33.931 grams (because it&apos;s a 22-karat coin alloyed with copper and silver), has a diameter of 32.7 millimeters, and a thickness of 2.87 millimeters.
@@ -599,7 +599,7 @@ const blogContent: Record<string, React.ReactNode> = {
       <p>Be willing to let you think about it, compare prices, and call back.</p>
       <p>
         The SEC has published an investor alert specifically about self-directed IRAs at{" "}
-        <a href="https://www.sec.gov/investor/alerts/sdira.html" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/investor-14" target="_blank" rel="noopener noreferrer">
           sec.gov
         </a>{" "}
         — read it before opening any account.
@@ -832,8 +832,8 @@ const blogContent: Record<string, React.ReactNode> = {
 
       <h2>Authority Resources</h2>
       <p>
-        The FTC has published consumer guidance on selling gold at{" "}
-        <a href="https://consumer.ftc.gov/articles/bullion-and-bullion-coins" target="_blank" rel="noopener noreferrer">
+        The FTC has published consumer guidance on precious metals investment scams at{" "}
+        <a href="https://consumer.ftc.gov/articles/investment-scams" target="_blank" rel="noopener noreferrer">
           consumer.ftc.gov
         </a>{" "}
         — read it before selling anything.
@@ -1529,7 +1529,7 @@ const blogContent: Record<string, React.ReactNode> = {
       </p>
       <p>
         In the United States, the formal gold price remained fixed at $20.67 through World War I. But in 1933, in the depths of the Great Depression, President Roosevelt issued{" "}
-        <a href="https://www.archives.gov/milestone-documents/executive-order-6102" target="_blank" rel="noopener noreferrer">Executive Order 6102</a>, making it illegal for U.S. citizens to hold more than $100 in gold coin, bullion, or certificates. Citizens were required to surrender their gold to the Federal Reserve at $20.67 per ounce. Roosevelt then revalued gold to $35 per ounce &mdash; an overnight 69% devaluation of the dollar against gold.
+        <a href="https://www.presidency.ucsb.edu/documents/executive-order-6102-forbidding-the-hoarding-gold-coin-gold-bullion-and-gold-certificates" target="_blank" rel="noopener noreferrer">Executive Order 6102</a>, making it illegal for U.S. citizens to hold more than $100 in gold coin, bullion, or certificates. Citizens were required to surrender their gold to the Federal Reserve at $20.67 per ounce. Roosevelt then revalued gold to $35 per ounce &mdash; an overnight 69% devaluation of the dollar against gold.
       </p>
       <p>
         The lesson: when governments face financial crisis, they sometimes change the rules. The people who held gold had their property seized. The government that seized it immediately revalued it higher.
@@ -1541,7 +1541,7 @@ const blogContent: Record<string, React.ReactNode> = {
       </p>
       <p>
         The war&apos;s aftermath created the{" "}
-        <a href="https://www.imf.org/external/about/histend.htm" target="_blank" rel="noopener noreferrer">Bretton Woods system</a> in 1944, which pegged the U.S. dollar to gold at $35 per ounce and pegged all other major currencies to the dollar. The United States, holding roughly two-thirds of the world&apos;s monetary gold reserves, became the anchor of the global financial system.
+        <a href="https://www.federalreservehistory.org/essays/bretton-woods-created" target="_blank" rel="noopener noreferrer">Bretton Woods system</a> in 1944, which pegged the U.S. dollar to gold at $35 per ounce and pegged all other major currencies to the dollar. The United States, holding roughly two-thirds of the world&apos;s monetary gold reserves, became the anchor of the global financial system.
       </p>
       <p>
         This system worked as long as the U.S. maintained fiscal discipline. It did not survive the next major conflict.
@@ -2130,7 +2130,7 @@ const blogContent: Record<string, React.ReactNode> = {
       </p>
       <p>
         Central banks have reinforced this pattern. Since 2022, central banks globally have purchased over 1,000 tonnes of gold per year, according to the{" "}
-        <a href="https://www.gold.org/goldhub/data/gold-demand-trends/gold-demand-trends-full-year-2024" target="_blank" rel="noopener noreferrer">World Gold Council</a>. Their sustained buying provides a structural floor under gold prices. For more on this, see our article on{" "}
+        <a href="https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-full-year-2024" target="_blank" rel="noopener noreferrer">World Gold Council</a>. Their sustained buying provides a structural floor under gold prices. For more on this, see our article on{" "}
         <a href="/blog/central-bank-gold-buying-reshaping-the-market">central bank gold buying</a>.
       </p>
       <p>
@@ -2194,7 +2194,7 @@ const blogContent: Record<string, React.ReactNode> = {
       </div>
       <p>
         Historical gold price data is available through the{" "}
-        <a href="https://fred.stlouisfed.org/series/GOLDAMGBD228NLBM" target="_blank" rel="noopener noreferrer">Federal Reserve Economic Data (FRED)</a>{" "}
+        <a href="https://www.lbma.org.uk/prices-and-data/precious-metal-prices" target="_blank" rel="noopener noreferrer">London Bullion Market Association (LBMA)</a>{" "}
         database for those who want to examine long-term price behavior in detail.
       </p>
 
@@ -2426,7 +2426,7 @@ const blogContent: Record<string, React.ReactNode> = {
         Legitimate precious metals dealers rarely cold-call retirement savers. The pitch almost always starts with generalized economic panic &mdash; imminent dollar collapse, government confiscation of retirement accounts, hyperinflation &mdash; followed by gold as the only safe option and a limited-time price that expires if you don&apos;t move today.
       </p>
       <p>
-        The <a href="https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/precious_metals.html" target="_blank" rel="noopener noreferrer">Commodity Futures Trading Commission has specifically warned</a> about this pattern in its precious metals advisory, noting that fear-based selling tactics and artificial urgency are hallmarks of fraudulent operations. Reputable dealers don&apos;t work on countdown timers. If a salesperson refuses to send written information, discourages you from talking to family or a financial advisor, or pressures immediate action &mdash; that alone is enough to walk away.
+        The <a href="https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/fraudadv_preciousmetals.html" target="_blank" rel="noopener noreferrer">Commodity Futures Trading Commission has specifically warned</a> about this pattern in its precious metals advisory, noting that fear-based selling tactics and artificial urgency are hallmarks of fraudulent operations. Reputable dealers don&apos;t work on countdown timers. If a salesperson refuses to send written information, discourages you from talking to family or a financial advisor, or pressures immediate action &mdash; that alone is enough to walk away.
       </p>
       <h2>Red flag 2: &ldquo;Exclusive,&rdquo; &ldquo;premium,&rdquo; or numismatic coin pushes</h2>
       <p>
@@ -3950,7 +3950,7 @@ const blogContent: Record<string, React.ReactNode> = {
       <h2>If You Think You&apos;ve Been Scammed</h2>
       <p>
         Report to the FTC at{" "}
-        <a href="https://ftc.gov/complaint" target="_blank" rel="noopener noreferrer">ftc.gov/complaint</a>,
+        <a href="https://reportfraud.ftc.gov" target="_blank" rel="noopener noreferrer">reportfraud.ftc.gov</a>,
         the FBI&apos;s Internet Crime Complaint Center at{" "}
         <a href="https://ic3.gov" target="_blank" rel="noopener noreferrer">ic3.gov</a>,
         and your state attorney general&apos;s consumer protection division. Notify your financial institution immediately if funds have moved. Preserve all documentation. Recovery is difficult once wire transfers have cleared, but reports increase the probability of enforcement action against repeat offenders.
