@@ -2,6 +2,8 @@
 Logged during blog cycles; worked during the monthly audit.
 | Logged | Found by | Page/file | Issue | Type (mechanical/judgment) | Status |
 |---|---|---|---|---|---|
+| 2026-10-12 | Featured follow-up | dealers.ts: mcalvany-precious-metals | Owner supplied Google 4.6 (17 reviews, October 2026) from its Google Business listing, phone (800) 525-9556. manualFeatured removed; Featured now follows the BBB A+ and Google 4.5+ rule. | mechanical | Done 2026-10-12 |
+| 2026-10-12 | Featured follow-up | dealers.ts: vaulted | Google Maps listing exists (166 Turner Dr, Durango; (844) 288-8024; vaulted.com) but shows "No reviews", so it cannot meet the Google 4.5+ rule. manualFeatured: true left as is (it has no documented approval reason beyond the McAlvany note). Decide: keep the manual override, or remove it until reviews exist. | judgment | Open |
 | 2026-10-12 | Blog cycle 2026-10-12 | inheriting-gold-silver-tax-basis | Says the federal estate exemption is "currently over $13 million"; the 2026 figure is $15,000,000 (IRS What's New page). Also values bullion at "spot price x weight", which sits uneasily with the retail-market language in Treas. Reg. 25.2512-1 discussed in the new gifting post. | mechanical (figure); judgment (valuation wording) | Open |
 | 2026-10-12 | Blog cycle 2026-10-12 | gold-vs-bitcoin-2026 | Says physical gold has "zero counterparty risk" (also the "No counterparty risk" bullet). The new tokenized-gold post says reduced, not zero (still depends on dealer, market, storage). Align wording. | judgment | Open |
 | 2026-10-12 | Blog cycle 2026-10-12 | physical-silver-vs-etf | Same "zero"/"no" counterparty-risk framing as gold-vs-bitcoin-2026. | judgment | Open |

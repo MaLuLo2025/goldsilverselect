@@ -1454,8 +1454,7 @@ export const dealers: Dealer[] = [
   // ============================================================
   // ONLINE DEALERS — FEATURED (BBB A+ and Google 4.5+)
   // ============================================================
-  // McAlvany: Featured status manually approved pending Google rating verification.
-  // BBB A+, 50+ years in business, owner confirmed Google review info forthcoming.
+  // McAlvany: Featured on merit (BBB A+ and Google 4.6, 17 reviews, October 2026; owner-supplied from its Google Business listing).
   {
     slug: "mcalvany-precious-metals",
     name: "McAlvany Precious Metals",
@@ -1470,7 +1469,8 @@ export const dealers: Dealer[] = [
     website: "https://mcalvany.com/metals/",
     isVerified: false,
     bbbRating: "A+",
-    manualFeatured: true,
+    googleRating: 4.6,
+    googleReviewCount: 17,
   },
   {
     slug: "vaulted",
