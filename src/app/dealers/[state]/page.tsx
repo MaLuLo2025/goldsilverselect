@@ -48,7 +48,7 @@ export function generateMetadata({
   const description =
     dealerCount === 0 && isStateContentIndexable(params.state)
       ? `${state.name} sales tax on bullion, dealer licensing rules, common scams, and what to verify before you buy or sell precious metals.`
-      : `Find trusted precious metals dealers, coin shops, and bullion buyers in ${state.name}. Direct links to dealer websites — no middlemen.`;
+      : `Find precious metals dealers, coin shops, and bullion buyers in ${state.name}. Direct links to dealer websites — no middlemen.`;
   return {
     title: `Coin & Bullion Dealers in ${state.name}`,
     description,

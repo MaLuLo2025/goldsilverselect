@@ -25,14 +25,14 @@ export const faqCategories: FAQCategory[] = [
       {
         question: "What is the spot price of gold and silver?",
         answer: "The spot price is the current wholesale benchmark for raw metal on global commodity exchanges like COMEX and the London Bullion Market. It changes throughout the trading day based on futures contracts, currency movements, and global supply and demand. The spot price is your starting point for evaluating any purchase \u2014 but it\u2019s not the price you\u2019ll pay. Every dealer charges a premium above spot. Understanding that premium is the key to knowing whether you\u2019re getting a fair deal.",
-        learnMoreLabel: "Spot Price vs. What You Actually Pay at the Counter",
-        learnMoreHref: "/blog/spot-price-vs-what-you-actually-pay",
+        learnMoreLabel: "How Much Over Spot Should I Pay for Gold in 2026? (With Real Dollar Examples)",
+        learnMoreHref: "/blog/how-much-over-spot-should-i-pay-for-gold-2026",
       },
       {
         question: "What is a premium, and how much should I expect to pay?",
         answer: "The premium is the amount a dealer charges above the spot price. It covers manufacturing, refining, minting, shipping, insurance, and the dealer\u2019s margin. Fair premiums vary by product type. Generic bullion bars and rounds typically carry premiums of 3\u20136% over spot for gold. Government-minted coins like American Eagles run higher \u2014 roughly 5\u20138% in normal market conditions. Silver premiums run higher as a percentage than gold because the per-ounce price is lower and fixed costs make up a larger share. These ranges shift with market conditions, and knowing the typical range for what you\u2019re buying is the single best protection against overpaying.",
-        learnMoreLabel: "What Should I Truly Pay for Gold and Silver?",
-        learnMoreHref: "/blog/what-should-i-truly-pay-for-gold-and-silver",
+        learnMoreLabel: "How Much Over Spot Should I Pay for Gold in 2026? (With Real Dollar Examples)",
+        learnMoreHref: "/blog/how-much-over-spot-should-i-pay-for-gold-2026",
       },
       {
         question: "What\u2019s the difference between bullion and numismatic coins?",
@@ -68,21 +68,21 @@ export const faqCategories: FAQCategory[] = [
         answer: "They serve different purposes. Gold stores more value in less space and weight \u2014 an ounce of gold is worth roughly 90\u2013100 ounces of silver, making it far easier to store, transport, and liquidate in large amounts. Silver is more affordable per ounce, making it accessible for smaller budgets, but it requires significantly more storage space for equivalent value. Many buyers hold both. The gold-to-silver ratio \u2014 which tells you how many ounces of silver it takes to buy one ounce of gold at current prices \u2014 is one metric some buyers use to decide which metal is relatively cheaper at any given time. You can see the live ratio on our homepage ticker.",
         links: [
           { label: "Gold and Wars: 125 Years as a Geopolitical Risk Hedge", href: "/blog/gold-and-wars-geopolitical-risk-hedge" },
-          { label: "Central Bank Gold Buying: The Biggest Shift in 50 Years", href: "/blog/central-bank-gold-buying-reshaping-the-market" },
-          { label: "Why Silver Crossed $100: Industrial Demand Explained", href: "/blog/silver-industrial-demand-2026" },
+          { label: "Central Bank Gold Buying: What It Is, Who’s Doing It, and Why It Matters to You", href: "/blog/central-bank-gold-buying" },
+          { label: "Silver’s Industrial Demand: Why It Behaves Differently Than Gold", href: "/blog/silver-industrial-demand" },
         ],
       },
       {
         question: "How do I know if a coin dealer is legitimate?",
         answer: "Look for a verifiable physical address \u2014 not a P.O. box. Check their Better Business Bureau rating and Google reviews, paying attention to the actual content of the reviews, not just the star count. See how long they\u2019ve been in business. Transparent posted pricing is a good sign \u2014 if everything is \u201Ccall for a quote,\u201D that\u2019s a negotiation setup. Avoid dealers who cold-call you, use extreme urgency tactics, or try to steer you away from the product you asked about into higher-margin items.",
-        learnMoreLabel: "What Should I Truly Pay for Gold and Silver?",
-        learnMoreHref: "/blog/what-should-i-truly-pay-for-gold-and-silver",
+        learnMoreLabel: "How Much Over Spot Should I Pay for Gold in 2026? (With Real Dollar Examples)",
+        learnMoreHref: "/blog/how-much-over-spot-should-i-pay-for-gold-2026",
       },
       {
         question: "What should I buy first if I\u2019m just starting out?",
         answer: "Most experienced buyers suggest starting with widely recognized government-minted bullion \u2014 American Gold Eagles, Silver Eagles, or Canadian Maple Leafs. These carry moderate premiums, are universally recognized by dealers worldwide, and are easy to sell anywhere. They\u2019re a straightforward entry point while you learn how the market works. Avoid numismatic or collectible coins until you have a solid understanding of premiums, grading, and how the secondary market for rare coins operates.",
-        learnMoreLabel: "What Should I Truly Pay for Gold and Silver?",
-        learnMoreHref: "/blog/what-should-i-truly-pay-for-gold-and-silver",
+        learnMoreLabel: "How Much Over Spot Should I Pay for Gold in 2026? (With Real Dollar Examples)",
+        learnMoreHref: "/blog/how-much-over-spot-should-i-pay-for-gold-2026",
       },
       {
         question: "Should I buy silver bars or silver coins?",
@@ -120,8 +120,8 @@ export const faqCategories: FAQCategory[] = [
       {
         question: "Should I pay with credit card or bank transfer?",
         answer: "Most online dealers charge a 2\u20134% surcharge for credit card purchases versus wire transfer or ACH payment. On a $3,000 purchase, that\u2019s $60\u2013120 in additional cost. Bank transfers save money but take longer to process and don\u2019t offer the purchase protection that comes with a credit card. Some buyers accept the surcharge for the convenience and rewards points. There\u2019s no wrong answer, but you should factor the payment method into your total cost comparison.",
-        learnMoreLabel: "What Should I Truly Pay for Gold and Silver?",
-        learnMoreHref: "/blog/what-should-i-truly-pay-for-gold-and-silver",
+        learnMoreLabel: "How Much Over Spot Should I Pay for Gold in 2026? (With Real Dollar Examples)",
+        learnMoreHref: "/blog/how-much-over-spot-should-i-pay-for-gold-2026",
       },
       {
         question: "When should I pay numismatic premiums instead of buying bullion?",
@@ -165,8 +165,8 @@ export const faqCategories: FAQCategory[] = [
       {
         question: "What should I look for when buying gold or silver for the first time?",
         answer: "Start with these basics: (1) Know the current spot price before you talk to any seller. (2) Buy products with clear assay documentation \u2014 government-minted coins (American Gold Eagle, Maple Leaf, Silver Eagle) or bars from recognized refineries with assay cards. (3) Understand what premium you\u2019re paying above spot, as a percentage. (4) Buy from a dealer with a track record you can verify. (5) Keep your purchase receipts \u2014 you\u2019ll need cost documentation for taxes when you eventually sell.",
-        learnMoreLabel: "What Should I Truly Pay for Gold and Silver?",
-        learnMoreHref: "/blog/what-should-i-truly-pay-for-gold-and-silver",
+        learnMoreLabel: "How Much Over Spot Should I Pay for Gold in 2026? (With Real Dollar Examples)",
+        learnMoreHref: "/blog/how-much-over-spot-should-i-pay-for-gold-2026",
       },
       {
         question: "What\u2019s the difference between the American Gold Eagle and the Canadian Gold Maple Leaf?",
@@ -185,7 +185,7 @@ export const faqCategories: FAQCategory[] = [
       },
       {
         question: "What are the differences between APMEX, JM Bullion, and SD Bullion?",
-        answer: "All three are established, reputable online precious metals dealers with large catalogs of genuine products. APMEX has the widest selection including numismatic and collector items; their prices tend to run slightly above the other two on standard bullion but they have a strong track record. JM Bullion offers competitive pricing on common products with free shipping thresholds that are accessible for most buyers. SD Bullion typically posts the lowest premiums on commodity silver and gold but with a smaller product catalog. Shipping thresholds, payment method surcharges, and product availability vary \u2014 compare specific product prices on all three at the time of purchase rather than assuming one is always cheapest.",
+        answer: "APMEX, JM Bullion, and SD Bullion are online precious metals dealers that sell gold, silver, platinum, and palladium products and publish prices on their websites. Prices, shipping thresholds, payment-method surcharges, and product availability vary by product and change over time, so compare the final cart total for the specific item on each site at the time of purchase rather than assuming one dealer is always cheapest.",
       },
       {
         question: "Is it legal to split a large cash purchase to avoid Form 8300?",
@@ -193,7 +193,6 @@ export const faqCategories: FAQCategory[] = [
         learnMoreLabel: "Precious Metals Reporting: 1099-B, Form 8300, and the Felony Trap Called Structuring",
         learnMoreHref: "/blog/1099-b-precious-metals-reporting",
         links: [
-          { label: "Precious Metals Reporting: 1099-B, Form 8300, and the Felony Trap Called Structuring", href: "/blog/1099-b-precious-metals-reporting" },
           { label: "The IRS Just Corrected Its Confusing Coin Example: What Precious Metals Sellers Need to Know About 1099-B Reporting in 2026", href: "/blog/1099-b-reporting-precious-metals-2026-irs-correction" },
         ],
       },
@@ -224,8 +223,8 @@ export const faqCategories: FAQCategory[] = [
       {
         question: "How do I sell gold or silver I already own?",
         answer: "You have two main options. Sell to a local dealer for immediate cash \u2014 walk in, get a quote, walk out with payment. Or sell to an online dealer \u2014 ship your metals, receive payment after they verify the product. Local is faster and simpler. Online may offer slightly better prices on larger quantities because high-volume online buyers operate on thinner margins. In either case, check the spot price before you go, and get quotes from at least two or three buyers before committing.",
-        learnMoreLabel: "What Should I Truly Pay for Gold and Silver?",
-        learnMoreHref: "/blog/what-should-i-truly-pay-for-gold-and-silver",
+        learnMoreLabel: "How Much Over Spot Should I Pay for Gold in 2026? (With Real Dollar Examples)",
+        learnMoreHref: "/blog/how-much-over-spot-should-i-pay-for-gold-2026",
         links: [
           { label: "Shipping Gold and Silver: Carrier Rules, Insurance, and Lost Packages", href: "/blog/shipping-gold-silver-insurance-carriers-2026" },
         ],
@@ -236,7 +235,7 @@ export const faqCategories: FAQCategory[] = [
         learnMoreLabel: "What Dealers Actually Pay: Sell-Back Spreads Explained",
         learnMoreHref: "/blog/sell-back-spreads-what-dealers-actually-pay",
         links: [
-          { label: "What Should I Truly Pay for Gold and Silver?", href: "/blog/what-should-i-truly-pay-for-gold-and-silver" },
+          { label: "How Much Over Spot Should I Pay for Gold in 2026? (With Real Dollar Examples)", href: "/blog/how-much-over-spot-should-i-pay-for-gold-2026" },
         ],
       },
       {
@@ -250,8 +249,8 @@ export const faqCategories: FAQCategory[] = [
       },
       {
         question: "Should I sell my gold when the price goes up?",
-        learnMoreLabel: "What Should I Truly Pay for Gold and Silver?",
-        learnMoreHref: "/blog/what-should-i-truly-pay-for-gold-and-silver",
+        learnMoreLabel: "How Much Over Spot Should I Pay for Gold in 2026? (With Real Dollar Examples)",
+        learnMoreHref: "/blog/how-much-over-spot-should-i-pay-for-gold-2026",
         answer: "That\u2019s a personal financial decision that depends on your goals, and we can\u2019t advise on it. What we can tell you is that if you do decide to sell, the same principles apply as when buying: know the spot price, compare offers from at least two or three dealers, and understand that premiums and buyback spreads vary. Selling in a panic \u2014 whether driven by fear the price will drop or excitement that it\u2019s risen \u2014 is rarely optimal. A calm, informed seller who compares offers will almost always get a better result than one who accepts the first quote.",
       },
       {
@@ -319,7 +318,6 @@ export const faqCategories: FAQCategory[] = [
         learnMoreLabel: "Precious Metals Reporting: 1099-B, Form 8300, and the Felony Trap Called Structuring",
         learnMoreHref: "/blog/1099-b-precious-metals-reporting",
         links: [
-          { label: "Precious Metals Reporting: 1099-B, Form 8300, and the Felony Trap Called Structuring", href: "/blog/1099-b-precious-metals-reporting" },
           { label: "The IRS Just Corrected Its Confusing Coin Example: What Precious Metals Sellers Need to Know About 1099-B Reporting in 2026", href: "/blog/1099-b-reporting-precious-metals-2026-irs-correction" },
         ],
       },
@@ -350,8 +348,8 @@ export const faqCategories: FAQCategory[] = [
       {
         question: "Why does gold and silver cost more than the spot price?",
         answer: "The spot price is a wholesale benchmark for raw, unformed metal on commodity exchanges. Turning that raw metal into a finished coin or bar requires mining, refining, minting, quality assurance, packaging, shipping, insuring, and retailing. Every step in that supply chain adds cost. The premium above spot covers those production and distribution costs plus the dealer\u2019s operating margin. Premiums are a normal and unavoidable part of buying physical precious metals \u2014 the question isn\u2019t whether you\u2019ll pay one, but whether you\u2019re paying a fair one.",
-        learnMoreLabel: "Spot Price vs. What You Actually Pay",
-        learnMoreHref: "/blog/spot-price-vs-what-you-actually-pay",
+        learnMoreLabel: "How Much Over Spot Should I Pay for Gold in 2026? (With Real Dollar Examples)",
+        learnMoreHref: "/blog/how-much-over-spot-should-i-pay-for-gold-2026",
       },
       {
         question: "What is a fair premium for gold coins?",
@@ -361,7 +359,7 @@ export const faqCategories: FAQCategory[] = [
       },
       {
         question: "What is a fair premium for silver?",
-        answer: "Silver premiums run higher as a percentage than gold premiums. This is because the per-ounce price of silver is much lower, so fixed costs \u2014 minting, shipping, handling \u2014 represent a larger share of the total price. Generic silver rounds typically carry premiums of 8\u201315% over spot. American Silver Eagles can run 15\u201330% or more depending on market conditions and U.S. Mint supply constraints. Larger silver bars \u2014 10 oz, 100 oz \u2014 carry lower percentage premiums and are the most cost-effective way to accumulate silver by weight.",
+        answer: "Silver premiums run higher as a percentage than gold premiums. This is because the per-ounce price of silver is much lower, so fixed costs \u2014 minting, shipping, handling \u2014 represent a larger share of the total price. Government-minted silver coins carry the highest premiums: American Silver Eagles typically run 12\u201325% over spot, and Canadian Silver Maple Leafs run slightly lower. Premiums can spike when U.S. Mint supply is constrained. Larger silver bars carry lower percentage premiums, and 100 oz bars approach gold-like premiums of roughly 1.5\u20135%, which makes large bars the most cost-effective way to accumulate silver by weight.",
         learnMoreLabel: "Silver Premiums and How Bar Size Affects What You Pay",
         learnMoreHref: "/blog/silver-premiums-and-bar-size",
       },
@@ -377,8 +375,8 @@ export const faqCategories: FAQCategory[] = [
       {
         question: "What is the round-trip cost of buying and selling precious metals?",
         answer: "The round-trip cost is the total premium you pay when buying plus the discount you receive when selling. If you buy a gold coin at 5% over spot and sell it back at 2% below spot, your round-trip cost is roughly 7%. This is the true cost of ownership \u2014 not just the premium you paid going in. Product choice affects the round trip: government-minted coins like Eagles generally command better buyback prices than generic rounds, partially offsetting their higher purchase premium. Always ask about buyback pricing before you buy.",
-        learnMoreLabel: "Spot Price vs. What You Actually Pay",
-        learnMoreHref: "/blog/spot-price-vs-what-you-actually-pay",
+        learnMoreLabel: "How Much Over Spot Should I Pay for Gold in 2026? (With Real Dollar Examples)",
+        learnMoreHref: "/blog/how-much-over-spot-should-i-pay-for-gold-2026",
         links: [
           { label: "What Dealers Actually Pay: Sell-Back Spreads Explained", href: "/blog/sell-back-spreads-what-dealers-actually-pay" },
         ],
@@ -386,10 +384,10 @@ export const faqCategories: FAQCategory[] = [
       {
         question: "Why do premiums spike sometimes?",
         answer: "Premiums spike when physical demand outpaces the available supply of finished products. This typically happens during financial crises, geopolitical shocks, or sudden surges in retail buying. The spot price \u2014 which reflects futures contracts \u2014 may not move much, but the cost of an actual coin or bar can jump significantly because mints, refiners, and dealers simply can\u2019t produce and ship fast enough to meet demand. Premiums generally compress back to normal ranges once demand stabilizes, but that can take weeks or months.",
-        learnMoreLabel: "Spot Price vs. What You Actually Pay at the Counter",
-        learnMoreHref: "/blog/spot-price-vs-what-you-actually-pay",
+        learnMoreLabel: "How Much Over Spot Should I Pay for Gold in 2026? (With Real Dollar Examples)",
+        learnMoreHref: "/blog/how-much-over-spot-should-i-pay-for-gold-2026",
         links: [
-          { label: "Why Silver Crossed $100: Industrial Demand and the Supply Deficit", href: "/blog/silver-industrial-demand-2026" },
+          { label: "Silver’s Industrial Demand: Why It Behaves Differently Than Gold", href: "/blog/silver-industrial-demand" },
         ],
       },
       {
@@ -400,27 +398,27 @@ export const faqCategories: FAQCategory[] = [
       },
       {
         question: "What\u2019s a fair premium over spot for a 1-oz American Gold Eagle in 2026?",
-        learnMoreLabel: "How Much Over Spot Should I Pay for Gold?",
+        learnMoreLabel: "How Much Over Spot Should I Pay for Gold in 2026? (With Real Dollar Examples)",
         learnMoreHref: "/blog/how-much-over-spot-should-i-pay-for-gold-2026",
         answer: "In normal market conditions, 3\u20136% over the live spot price. At gold near $5,100 an ounce, that\u2019s roughly a $150\u2013$310 premium per coin. Premiums above 10% on standard Eagles generally reflect either a temporary supply disruption or a dealer pricing well above the market. For a full breakdown of fair premium ranges across gold and silver bullion, see our guide on how much over spot to pay for gold.",
       },
       {
         question: "How do I spot a padded spot price?",
-        learnMoreLabel: "How Much Over Spot Should I Pay for Gold?",
+        learnMoreLabel: "How Much Over Spot Should I Pay for Gold in 2026? (With Real Dollar Examples)",
         learnMoreHref: "/blog/how-much-over-spot-should-i-pay-for-gold-2026",
         answer: "Compare the spot price shown on a dealer\u2019s website to an independent source \u2014 Kitco, the LBMA reference price, or a major financial news site \u2014 at the same moment. A discrepancy of more than a few dollars per ounce means the dealer is pricing against an inflated reference, and any \u2018X% over spot\u2019 claim is misleading. Reputable dealers update their spot displays in near real-time from live market feeds.",
       },
       {
         question: "What is the spot price of gold?",
-        learnMoreLabel: "Spot Price vs. What You Pay",
-        learnMoreHref: "/blog/spot-price-vs-what-you-pay",
+        learnMoreLabel: "How Much Over Spot Should I Pay for Gold in 2026? (With Real Dollar Examples)",
+        learnMoreHref: "/blog/how-much-over-spot-should-i-pay-for-gold-2026",
         answer: "The spot price is the wholesale benchmark for institutional gold trading \u2014 what large dealers, refineries, and central banks pay each other for gold in 100-ounce or 1,000-ounce institutional bars. The LBMA Gold Price (set twice daily in London) and the COMEX gold futures contract together establish the reference point for nearly every other gold price worldwide. Retail buyers pay spot plus a premium covering minting, distribution, dealer overhead, and margin.",
       },
       {
         question: "Why does my dealer charge more than the spot price?",
-        learnMoreLabel: "Spot Price vs. What You Pay",
-        learnMoreHref: "/blog/spot-price-vs-what-you-pay",
-        answer: "The premium covers six things: mint cost (producing the coin), refining and fabrication, wholesale distribution markup, dealer overhead (rent, staff, security, insurance), inventory risk (the dealer absorbs spot price drops on inventory they hold), and dealer margin. For a 1-ounce gold coin in normal market conditions, the premium typically runs 3% to 8% over spot.",
+        learnMoreLabel: "How Much Over Spot Should I Pay for Gold in 2026? (With Real Dollar Examples)",
+        learnMoreHref: "/blog/how-much-over-spot-should-i-pay-for-gold-2026",
+        answer: "The premium covers six things: mint cost (producing the coin), refining and fabrication, wholesale distribution markup, dealer overhead (rent, staff, security, insurance), inventory risk (the dealer absorbs spot price drops on inventory they hold), and dealer margin. For a 1-ounce gold coin in normal market conditions, the premium for an American Gold Eagle typically runs 3% to 6% over spot, and other 1-ounce gold products run roughly 2% to 5%.",
       },
       {
         question: "What\u2019s a fair premium on a Gold American Eagle?",
@@ -439,7 +437,6 @@ export const faqCategories: FAQCategory[] = [
         learnMoreLabel: "Gold Coin Premiums Compared",
         learnMoreHref: "/blog/gold-coin-premiums-compared",
         links: [
-          { label: "Gold Coin Premiums Compared", href: "/blog/gold-coin-premiums-compared" },
           { label: "IRA-Eligible Silver: The Purity Rules, the Depositories, and What Actually Counts", href: "/blog/ira-eligible-silver-rules-depositories-2026" },
         ],
         answer: "No. IRS rules require gold in retirement accounts to meet .995 fineness. The Krugerrand\u2019s .9167 fineness falls below the threshold. The Gold American Eagle, despite being .9167 fineness, has a specific statutory exemption that no other .9167 coin receives. For IRA-eligible gold positions, look to Eagles, Maple Leafs, or .9999-fine bars from approved refiners.",
@@ -448,7 +445,7 @@ export const faqCategories: FAQCategory[] = [
         question: "Why are silver premiums so much higher than gold premiums in percentage terms?",
         learnMoreLabel: "Silver Premiums and Bar Size",
         learnMoreHref: "/blog/silver-premiums-and-bar-size",
-        answer: "Fixed fabrication costs (minting, packaging, distribution) are similar between gold and silver in absolute dollars \u2014 roughly $1\u20133 per ounce of metal. Spread across a $32 ounce of silver, those costs become a much larger percentage than when spread across a $2,650 ounce of gold. The percentage premium on silver looks alarming but is proportionate to gold premium in dollar-of-fabrication terms.",
+        answer: "Fixed fabrication costs (minting, packaging, distribution) are similar between gold and silver in absolute dollars \u2014 roughly $1\u20133 per ounce of metal. Spread across a $32 ounce of silver, those costs become a much larger percentage than when spread across a $3,200 ounce of gold. The percentage premium on silver looks alarming but is proportionate to gold premium in dollar-of-fabrication terms.",
       },
       {
         question: "Why does silver's price move more than gold's on the same news?",
@@ -456,19 +453,19 @@ export const faqCategories: FAQCategory[] = [
         learnMoreLabel: "Silver at $64: Why Silver\u2019s Volatility Is Different From Gold\u2019s",
         learnMoreHref: "/blog/silver-volatility-different-from-gold",
         links: [
-          { label: "Silver\u2019s Industrial Demand: Why It Behaves Differently Than Gold", href: "/blog/silver-industrial-demand" },
+          { label: "Silver’s Industrial Demand: Why It Behaves Differently Than Gold", href: "/blog/silver-industrial-demand" },
         ],
       },
       {
         question: "Are 100-ounce silver bars a good deal?",
         learnMoreLabel: "Silver Premiums and Bar Size",
         learnMoreHref: "/blog/silver-premiums-and-bar-size",
-        answer: "Per ounce of metal, yes \u2014 they typically carry the lowest premium of any common silver product (3\u20136% over spot). Tradeoffs: reduced divisibility (the bar must be sold whole), lower recognition in informal resale markets, and slightly higher counterfeit risk that responsible dealer selection mitigates. For long-hold positions where the bar will be held to maturity or sold all at once, 100-oz bars are usually the cost-efficient choice.",
+        answer: "Per ounce of metal, yes \u2014 they typically carry the lowest premium of any common silver product (roughly 1.5\u20135% over spot). Tradeoffs: reduced divisibility (the bar must be sold whole), lower recognition in informal resale markets, and slightly higher counterfeit risk that responsible dealer selection mitigates. For long-hold positions where the bar will be held to maturity or sold all at once, 100-oz bars are usually the cost-efficient choice.",
       },
       {
         question: "What\u2019s the difference between a dealer\u2019s bid and ask price?",
-        learnMoreLabel: "Spot Price vs. What You Pay",
-        learnMoreHref: "/blog/spot-price-vs-what-you-pay",
+        learnMoreLabel: "How Much Over Spot Should I Pay for Gold in 2026? (With Real Dollar Examples)",
+        learnMoreHref: "/blog/how-much-over-spot-should-i-pay-for-gold-2026",
         answer: "The ask is what the dealer charges you to buy. The bid is what the dealer pays you to sell. The spread between them is the dealer\u2019s full margin on a round-trip transaction. For a Gold Eagle, a representative spread might be $110 on a $2,800 buy price \u2014 about 4%. The bid-ask spread is the round-trip cost of holding the coin if you buy and sell at the same dealer with no spot price movement. Compare spreads, not just headline ask prices.",
       },
       {
@@ -491,8 +488,8 @@ export const faqCategories: FAQCategory[] = [
       },
       {
         question: "How do dealer premium quotes change during market volatility?",
-        learnMoreLabel: "Spot Price vs. What You Pay",
-        learnMoreHref: "/blog/spot-price-vs-what-you-pay",
+        learnMoreLabel: "How Much Over Spot Should I Pay for Gold in 2026? (With Real Dollar Examples)",
+        learnMoreHref: "/blog/how-much-over-spot-should-i-pay-for-gold-2026",
         answer: "Premiums tend to widen meaningfully during periods of rapid spot price movement or unusual retail demand. In March 2020, Gold Eagle premiums briefly exceeded 10% over spot. In late 2022, similar spikes occurred. During those periods, dealers raise premiums to manage inventory risk and demand surge. Buying during volatility means paying inflated premiums on top of inflated spot prices. Disciplined buyers wait for premiums to normalize.",
       },
       {
@@ -567,35 +564,32 @@ export const faqCategories: FAQCategory[] = [
         question: "Should I buy gold through an IRA?",
         answer: "Gold IRAs exist and are legal, but the industry around them is one of the most aggressively marketed and fee-heavy corners of the precious metals world. Setup fees, annual custodian fees, storage fees, and transaction fees can significantly erode returns over time. Many gold IRA companies spend heavily on advertising \u2014 celebrity endorsements, free gold promotions, fear-based marketing \u2014 and those costs are ultimately passed on to the customer through higher premiums and fees. If you\u2019re considering a gold IRA, research the full fee structure thoroughly and compare the total cost to simply buying physical gold yourself and storing it independently. Consult a fee-only financial advisor who doesn\u2019t earn a commission from the sale.",
         links: [
-          { label: "Gold IRA Scams \u2014 What You Need to Know", href: "/blog/gold-ira-scams" },
+          { label: "Gold IRA Scams: 7 Red Flags the SEC, CFTC, and FTC Have Already Warned You About", href: "/blog/gold-ira-scams-red-flags-federal" },
           { label: "The Home Storage Gold IRA Scam", href: "/blog/home-storage-gold-ira-scam" },
-          { label: "Gold IRA Scams: Red Flags from Federal Enforcement Actions", href: "/blog/gold-ira-scams-red-flags-federal" },
           { label: "Gold IRA Fees and Scams: What the Industry Doesn\u2019t Want You to Calculate", href: "/blog/gold-ira-fees-scams" },
           { label: "IRA-Eligible Silver: The Purity Rules, the Depositories, and What Actually Counts", href: "/blog/ira-eligible-silver-rules-depositories-2026" },
         ],
       },
       {
         question: "Is a gold IRA legitimate, or is the whole concept a scam?",
-        learnMoreLabel: "Gold IRA Scams: Red Flags from Federal Enforcement Actions",
+        learnMoreLabel: "Gold IRA Scams: 7 Red Flags the SEC, CFTC, and FTC Have Already Warned You About",
         learnMoreHref: "/blog/gold-ira-scams-red-flags-federal",
         answer: "The concept is legitimate. A self-directed IRA can legally hold IRA-eligible gold, silver, platinum, and palladium, and the structure is recognized by the IRS. What gets retirees in trouble is not the concept \u2014 it\u2019s the sales tactics and pricing of specific dealers, which the SEC, CFTC, and FTC have repeatedly pursued in enforcement actions.",
       },
       {
         question: "Can I store my gold IRA at home?",
-        learnMoreLabel: "Gold IRA Scams: Red Flags from Federal Enforcement Actions",
+        learnMoreLabel: "Gold IRA Scams: 7 Red Flags the SEC, CFTC, and FTC Have Already Warned You About",
         learnMoreHref: "/blog/gold-ira-scams-red-flags-federal",
         links: [
-          { label: "Gold IRA Scams: Red Flags from Federal Enforcement Actions", href: "/blog/gold-ira-scams-red-flags-federal" },
           { label: "IRA-Eligible Silver: The Purity Rules, the Depositories, and What Actually Counts", href: "/blog/ira-eligible-silver-rules-depositories-2026" },
         ],
         answer: "No. The IRS requires precious metals held in an IRA to be stored by an approved depository. The U.S. Tax Court confirmed this in McNulty v. Commissioner (2021), ruling that home storage constituted a taxable distribution \u2014 triggering income tax on the full value plus a 10% early withdrawal penalty for taxpayers under age 59\u00bd.",
       },
       {
         question: "What types of gold are IRA-eligible?",
-        learnMoreLabel: "Gold IRA Scams: Red Flags from Federal Enforcement Actions",
+        learnMoreLabel: "Gold IRA Scams: 7 Red Flags the SEC, CFTC, and FTC Have Already Warned You About",
         learnMoreHref: "/blog/gold-ira-scams-red-flags-federal",
         links: [
-          { label: "Gold IRA Scams: Red Flags from Federal Enforcement Actions", href: "/blog/gold-ira-scams-red-flags-federal" },
           { label: "IRA-Eligible Silver: The Purity Rules, the Depositories, and What Actually Counts", href: "/blog/ira-eligible-silver-rules-depositories-2026" },
         ],
         answer: "Gold held in an IRA must be at least 99.5% pure (with the American Gold Eagle as a statutory exception). IRA-eligible products include American Gold Eagles, American Gold Buffalos, Canadian Gold Maple Leafs, Austrian Gold Philharmonics, and gold bars from refiners on accredited lists.",
@@ -661,7 +655,7 @@ export const faqCategories: FAQCategory[] = [
         links: [
           { label: "FTC: Investment Scams", href: "https://consumer.ftc.gov/articles/investment-scams" },
           { label: "CFTC: Gold Is No Safe Investment", href: "https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/gold_is_no_safe_investment.htm" },
-          { label: "What Should I Truly Pay for Gold and Silver?", href: "/blog/what-should-i-truly-pay-for-gold-and-silver" },
+          { label: "How Much Over Spot Should I Pay for Gold in 2026? (With Real Dollar Examples)", href: "/blog/how-much-over-spot-should-i-pay-for-gold-2026" },
           { label: "The Home Storage Gold IRA Scam", href: "/blog/home-storage-gold-ira-scam" },
           { label: "How to Spot Counterfeit Gold and Silver Coins", href: "/blog/how-to-spot-counterfeit-gold-silver-coins" },
           { label: "Counterfeit Gold Bars: How They Work and How to Protect Yourself", href: "/blog/counterfeit-gold-bars-how-to-protect-yourself" },
@@ -695,8 +689,8 @@ export const faqCategories: FAQCategory[] = [
       {
         question: "Are gold IRA companies legitimate?",
         answer: "Some are. Many operate in a gray area where aggressive marketing and high fees border on predatory, even if they\u2019re technically legal. The gold IRA space has attracted companies that spend enormous sums on advertising \u2014 television commercials, celebrity spokespeople, \u201Cfree gold\u201D promotions \u2014 which should raise the question of where that marketing budget comes from. Watch for opaque or layered fee structures, pressure to roll over retirement accounts quickly, and claims about gold being \u201Cconfiscation-proof\u201D or \u201CIRA-approved\u201D that are either misleading or meaningless. Research independently, and consult a fee-only financial advisor. The CFTC warns that gold is not a guaranteed safe investment at cftc.gov/LearnAndProtect.",
-        learnMoreLabel: "Gold IRA Scams \u2014 What You Need to Know",
-        learnMoreHref: "/blog/gold-ira-scams",
+        learnMoreLabel: "Gold IRA Scams: 7 Red Flags the SEC, CFTC, and FTC Have Already Warned You About",
+        learnMoreHref: "/blog/gold-ira-scams-red-flags-federal",
       },
       {
         question: 'Is "cash for gold" a ripoff?',
@@ -745,7 +739,7 @@ export const faqCategories: FAQCategory[] = [
         learnMoreLabel: "Gold IRA Fees and Scams: What the Industry Doesn\u2019t Want You to Calculate",
         learnMoreHref: "/blog/gold-ira-fees-scams",
         links: [
-          { label: "Gold IRA Scams: Red Flags from Federal Enforcement Actions", href: "/blog/gold-ira-scams-red-flags-federal" },
+          { label: "Gold IRA Scams: 7 Red Flags the SEC, CFTC, and FTC Have Already Warned You About", href: "/blog/gold-ira-scams-red-flags-federal" },
           { label: "The \u201cFree Silver\u201d Trap: How Gold IRA Promotions Actually Work", href: "/blog/gold-ira-free-silver-trap" },
         ],
       },
@@ -776,20 +770,20 @@ export const faqCategories: FAQCategory[] = [
       {
         question: "Why do central banks buy gold?",
         answer: "Central banks hold gold as a reserve asset for several reasons: it has no counterparty risk (unlike bonds or foreign currency deposits, gold cannot default), it cannot be frozen by sanctions or seized by another government, it maintains purchasing power over long periods, and it provides diversification away from dollar-denominated reserves. Since 2022, central bank gold buying has surged to over 1,000 tonnes per year \u2014 roughly triple the decade prior\u2019s average \u2014 driven largely by the freezing of Russia\u2019s $300 billion in Western-held reserves, which demonstrated that dollar reserves can be weaponized.",
-        learnMoreLabel: "Central Bank Gold Buying: The Biggest Shift in 50 Years",
-        learnMoreHref: "/blog/central-bank-gold-buying-reshaping-the-market",
+        learnMoreLabel: "Central Bank Gold Buying: What It Is, Who’s Doing It, and Why It Matters to You",
+        learnMoreHref: "/blog/central-bank-gold-buying",
       },
       {
         question: "Which central banks are buying the most gold?",
         answer: "China has been the largest buyer, growing official reserves from roughly 1,054 tonnes in 2015 to over 2,260 tonnes by late 2025 (with actual holdings likely higher). Poland has added over 130 tonnes since 2018 and publicly targets 20% of reserves in gold. India added over 70 tonnes in 2024 alone. Turkey, Singapore, Czech Republic, Qatar, Iraq, and Uzbekistan have also been consistent buyers. The trend is concentrated among emerging market and non-aligned nations diversifying away from dollar reserves.",
-        learnMoreLabel: "Central Bank Gold Buying: The Biggest Shift in 50 Years",
-        learnMoreHref: "/blog/central-bank-gold-buying-reshaping-the-market",
+        learnMoreLabel: "Central Bank Gold Buying: What It Is, Who’s Doing It, and Why It Matters to You",
+        learnMoreHref: "/blog/central-bank-gold-buying",
       },
       {
         question: "How does central bank buying affect the gold price?",
         answer: "Central banks now absorb nearly a third of all newly mined gold each year. This gold goes into sovereign vaults and typically stays there for decades, effectively removing it from the market. This creates persistent upward pressure on prices by reducing available supply for all other buyers \u2014 retail investors, jewelers, ETFs, and institutions. Central banks also tend to buy on dips rather than chase momentum, which establishes a structural price floor. When the most conservative, longest-horizon financial institutions in the world are aggressively accumulating an asset, it also sends a signal to other market participants.",
-        learnMoreLabel: "Central Bank Gold Buying: The Biggest Shift in 50 Years",
-        learnMoreHref: "/blog/central-bank-gold-buying-reshaping-the-market",
+        learnMoreLabel: "Central Bank Gold Buying: What It Is, Who’s Doing It, and Why It Matters to You",
+        learnMoreHref: "/blog/central-bank-gold-buying",
       },
       {
         question: "Does gold go up during wars?",
@@ -800,8 +794,8 @@ export const faqCategories: FAQCategory[] = [
       {
         question: "What is de-dollarization and how does it affect gold?",
         answer: "De-dollarization refers to the gradual shift by nations away from holding U.S. dollars as their primary reserve currency. The dollar\u2019s share of global foreign exchange reserves has declined from roughly 72% in 2000 to approximately 58% by 2025, according to IMF data. As central banks diversify out of dollars, gold is the primary beneficiary because it is the only reserve asset that carries no counterparty risk and no political alignment. The trend has accelerated since 2022, when Western sanctions demonstrated that dollar reserves can be frozen. This structural shift is one of the key drivers of sustained gold demand at the sovereign level.",
-        learnMoreLabel: "Central Bank Gold Buying: The Biggest Shift in 50 Years",
-        learnMoreHref: "/blog/central-bank-gold-buying-reshaping-the-market",
+        learnMoreLabel: "Central Bank Gold Buying: What It Is, Who’s Doing It, and Why It Matters to You",
+        learnMoreHref: "/blog/central-bank-gold-buying",
       },
       {
         question: "How much of my portfolio should be in gold?",
@@ -814,9 +808,9 @@ export const faqCategories: FAQCategory[] = [
       },
       {
         question: "Why has silver\u2019s price risen so sharply in 2026?",
-        answer: "Silver crossed $100/oz in 2026 driven by structural industrial demand outpacing supply. Solar panel manufacturing now consumes over 230 million ounces annually (up from 140 million in 2020). AI data centers, electric vehicles, and 5G infrastructure are all growing sources of silver demand. Meanwhile, 72% of silver is mined as a byproduct of copper, zinc, lead, and gold \u2014 meaning silver supply cannot respond quickly to price increases. 2026 marks the sixth consecutive year where global demand has exceeded supply. The price reflects real scarcity, not speculation.",
-        learnMoreLabel: "Why Silver Crossed $100: Solar, AI, and the Supply Deficit",
-        learnMoreHref: "/blog/silver-industrial-demand-2026",
+        answer: "Silver crossed $100/oz in 2026 driven by structural industrial demand outpacing supply. Solar panel manufacturing now consumes over 230 million ounces annually (up from 140 million in 2020). AI data centers, electric vehicles, and 5G infrastructure are all growing sources of silver demand. Meanwhile, 72% of silver is mined as a byproduct of copper, zinc, lead, and gold \u2014 meaning silver supply cannot respond quickly to price increases. 2026 marks the sixth consecutive year where global demand has exceeded supply.",
+        learnMoreLabel: "Silver’s Industrial Demand: Why It Behaves Differently Than Gold",
+        learnMoreHref: "/blog/silver-industrial-demand",
         links: [
           { label: "Silver at $64: Why Silver\u2019s Volatility Is Different From Gold\u2019s", href: "/blog/silver-volatility-different-from-gold" },
         ],
@@ -842,8 +836,8 @@ export const faqCategories: FAQCategory[] = [
       {
         question: "Why is central bank gold buying important to individual investors?",
         answer: "Central bank purchases represent structural, price-insensitive demand that doesn\u2019t fluctuate with retail sentiment. When central banks are buying hundreds of tonnes per year, they\u2019re absorbing meaningful annual production at whatever price the market clears. This provides a demand floor that has historically supported prices. Central banks have been net buyers for 15 consecutive years. That\u2019s a significant shift from the 1990s and 2000s when central bank selling was a major gold market headwind.",
-        learnMoreLabel: "Central Bank Gold Buying: The Biggest Shift in 50 Years",
-        learnMoreHref: "/blog/central-bank-gold-buying-reshaping-the-market",
+        learnMoreLabel: "Central Bank Gold Buying: What It Is, Who’s Doing It, and Why It Matters to You",
+        learnMoreHref: "/blog/central-bank-gold-buying",
       },
     ],
   },

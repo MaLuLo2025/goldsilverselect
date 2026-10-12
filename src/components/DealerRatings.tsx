@@ -1,8 +1,14 @@
 import { Dealer } from "@/lib/types";
+import { googleRatingLabel } from "@/lib/ratings";
 
 export default function DealerRatings({ dealer }: { dealer: Dealer }) {
-  const { bbbRating, googleRating, trustpilotRating } = dealer;
-  if (!bbbRating && !googleRating && !trustpilotRating) return null;
+  const { bbbRating, trustpilotRating } = dealer;
+  // Google badge needs a confirmed review count; otherwise it is hidden
+  const googleLabel =
+    dealer.googleRating && dealer.googleReviewCount
+      ? googleRatingLabel(dealer.googleRating, dealer.googleReviewCount)
+      : null;
+  if (!bbbRating && !googleLabel && !trustpilotRating) return null;
 
   return (
     <div className="flex gap-3 flex-wrap mt-2">
@@ -26,13 +32,13 @@ export default function DealerRatings({ dealer }: { dealer: Dealer }) {
           {bbbRating}
         </span>
       )}
-      {googleRating && (
+      {googleLabel && (
         <span
           className="font-sans text-[11px] font-semibold inline-flex items-center gap-1"
           style={{ color: "#888" }}
         >
           <span style={{ color: "#C5A44E", fontSize: 11 }}>★</span>
-          {googleRating} Google
+          {googleLabel}
         </span>
       )}
       {trustpilotRating && (

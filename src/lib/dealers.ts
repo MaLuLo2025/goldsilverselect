@@ -19,7 +19,7 @@ export const dealers: Dealer[] = [
     website: "https://capitalcoinandbullion.com/",
     isVerified: false,
     bbbRating: "A+",
-    googleRating: 4.9,
+    googleRating: 4.6, googleReviewCount: 256,
   },
 
   // ============================================================
@@ -121,7 +121,7 @@ export const dealers: Dealer[] = [
     website: "https://lonestarcoins.com/",
     isVerified: false,
     bbbRating: "A+",
-    googleRating: 4.7,
+    googleRating: 4.7, googleReviewCount: 915,
   },
   {
     slug: "texas-gold-silver-buyers-sa",
@@ -155,7 +155,7 @@ export const dealers: Dealer[] = [
     website: "https://rmcoin.com/",
     isVerified: false,
     bbbRating: "A+",
-    googleRating: 3.8,
+    googleRating: 3.8, googleReviewCount: 313,
   },
   {
     slug: "colorado-precious-metals-exchange",
@@ -240,7 +240,7 @@ export const dealers: Dealer[] = [
     website: "https://stacksbowers.com/",
     isVerified: false,
     bbbRating: "A+",
-    googleRating: 4.4,
+    googleRating: 4.4, googleReviewCount: 299,
   },
   {
     slug: "bullion-trading-llc",
@@ -257,7 +257,7 @@ export const dealers: Dealer[] = [
     website: "https://bulliontradingllc.com/",
     isVerified: false,
     bbbRating: "A+",
-    googleRating: 4.7,
+    googleRating: 4.8, googleReviewCount: 253,
   },
   {
     slug: "brigandi-coin-company",
@@ -330,7 +330,7 @@ export const dealers: Dealer[] = [
     website: "https://golddealer.com/",
     isVerified: false,
     bbbRating: "A+",
-    googleRating: 4.1,
+    googleRating: 4.3, googleReviewCount: 94,
   },
   {
     slug: "alhambra-coin-center",
@@ -509,7 +509,7 @@ export const dealers: Dealer[] = [
     phone: "(301) 340-1640",
     website: "https://coinrealm.com/",
     isVerified: false,
-    googleRating: 4.3,
+    googleRating: 4, googleReviewCount: 33,
   },
   {
     slug: "frederick-coin-exchange",
@@ -806,7 +806,7 @@ export const dealers: Dealer[] = [
     website: "https://www.sbcgold.com/",
     isVerified: false,
     bbbRating: "A+",
-    googleRating: 4.8,
+    googleRating: 4.8, googleReviewCount: 367,
   },
 
   // ============================================================
@@ -1518,7 +1518,7 @@ export const dealers: Dealer[] = [
     website: "https://www.apmex.com/",
     isVerified: false,
     bbbRating: "A+",
-    googleRating: 4.7,
+    googleRating: 4.6, googleReviewCount: 1308,
   },
   {
     slug: "sd-bullion",
@@ -1550,7 +1550,7 @@ export const dealers: Dealer[] = [
     website: "https://monumentmetals.com/",
     isVerified: false,
     bbbRating: "A+",
-    googleRating: 4.9,
+    googleRating: 4.8, googleReviewCount: 420,
   },
   {
     slug: "hero-bullion",
@@ -1613,7 +1613,7 @@ export const dealers: Dealer[] = [
     website: "https://bullionexchanges.com/",
     isVerified: false,
     bbbRating: "A+",
-    googleRating: 4.7,
+    googleRating: 4.5, googleReviewCount: 924,
   },
 
   // ============================================================
@@ -1710,7 +1710,7 @@ export const dealers: Dealer[] = [
     stateSlug: "california",
     phone: "(800) 400-0824",
     isVerified: false,
-    googleRating: 3.9,
+    googleRating: 3.9, googleReviewCount: 78,
   },
 
   // ============================================================
@@ -1768,7 +1768,7 @@ export const dealers: Dealer[] = [
 
   // JEWELRY — MIAMI
   { slug: "jackie-abraham-jewelers", name: "Jackie Abraham Fine Jewelers", vertical: "jewelry", description: "Bay Harbor Islands, FL fine jeweler established in 1998, now in third generation. GIA certified gemologist on staff. Buys and sells antique, estate, and designer jewelry including Bulgari, Cartier, and Tiffany. No loans \u2014 purchase only.", city: "Bay Harbor Islands", citySlug: "bay-harbor-islands", state: "Florida", stateSlug: "florida", website: "https://jackieabraham.com/", address: "1027 Kane Concourse, Bay Harbor Islands, FL 33154", phone: "(305) 868-4336", isVerified: false },
-  { slug: "goldzenn", name: "GOLDZENN", vertical: "jewelry", description: "Miami gold and silver specialist. Buys gold and silver only \u2014 no diamonds or gemstones. Uses XRF technology for accurate testing. Also creates handcrafted jewelry. Offers nationwide mail-in service.", address: "1056 SW 67th Ave, Miami, FL 33144", city: "Miami", citySlug: "miami", state: "Florida", stateSlug: "florida", phone: "(321) 521-4651", website: "https://goldzenn.com/", isVerified: false, googleRating: 4.9 },
+  { slug: "goldzenn", name: "GOLDZENN", vertical: "jewelry", description: "Miami gold and silver specialist. Buys gold and silver only \u2014 no diamonds or gemstones. Uses XRF technology for accurate testing. Also creates handcrafted jewelry. Offers nationwide mail-in service.", address: "1056 SW 67th Ave, Miami, FL 33144", city: "Miami", citySlug: "miami", state: "Florida", stateSlug: "florida", phone: "(321) 521-4651", website: "https://goldzenn.com/", isVerified: false, googleRating: 4.9, googleReviewCount: 365 },
   { slug: "maurices-jewelers", name: "Maurice\u2019s Jewelers", vertical: "jewelry", description: "Pinecrest, FL jeweler with master gemologists on staff. Buys and sells fine jewelry. Trade-in toward new purchase yields 25% more than cash price.", city: "Pinecrest", citySlug: "pinecrest", state: "Florida", stateSlug: "florida", website: "https://mauricesjewelers.com/", phone: "(305) 666-0808", isVerified: false },
 
   // JEWELRY — ATLANTA
@@ -1845,7 +1845,7 @@ export const dealers: Dealer[] = [
     website: "https://augustapreciousmetals.com/",
     isVerified: false,
     bbbRating: "A+",
-    googleRating: 4.9,
+    googleRating: 4.9, googleReviewCount: 790,
   },
   {
     slug: "birch-gold-group",
@@ -1861,7 +1861,7 @@ export const dealers: Dealer[] = [
     website: "https://birchgold.com/",
     isVerified: false,
     bbbRating: "A+",
-    googleRating: 4.8,
+    googleRating: 4.8, googleReviewCount: 578,
   },
 ];
 

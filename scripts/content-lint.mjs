@@ -60,6 +60,21 @@ for (const file of FILES) {
   });
 }
 
+// Internal /blog/<slug> links in FAQ and article content must resolve to a slug in blog.ts
+const blogSrc = readFileSync(join(ROOT, "src/lib/blog.ts"), "utf8");
+const slugs = new Set([...blogSrc.matchAll(/slug:\s*"([^"]+)"/g)].map((m) => m[1]));
+for (const file of ["src/lib/faq.ts", "src/app/blog/[slug]/page.tsx"]) {
+  const lines = readFileSync(join(ROOT, file), "utf8").split("\n");
+  lines.forEach((line, i) => {
+    for (const m of line.matchAll(/\/blog\/([a-z0-9][a-z0-9-]*)(?=["'#?/)\s])/g)) {
+      if (!slugs.has(m[1]) && !isAllowed(file, "dead-blog-link", line)) {
+        hits++;
+        console.error(`${file}:${i + 1} [dead-blog-link] /blog/${m[1]} is not a slug in src/lib/blog.ts`);
+      }
+    }
+  });
+}
+
 if (hits) {
   console.error(`\ncontent-lint: ${hits} hit(s). Fix the content, or add a justified entry to content-lint.allow.json.`);
   process.exit(1);

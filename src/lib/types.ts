@@ -38,6 +38,8 @@ export interface Dealer {
   isVerified: boolean;
   bbbRating?: string;
   googleRating?: number;
+  /** Google review count at RATINGS_AS_OF. The Google badge is hidden unless this is set. */
+  googleReviewCount?: number;
   trustpilotRating?: number;
   /** Manually approved for Featured tier — overrides the BBB+Google requirement */
   manualFeatured?: boolean;

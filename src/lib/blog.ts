@@ -98,27 +98,6 @@ export const blogPosts: BlogPost[] = [
     date: "2026-04-06",
   },
   {
-    slug: "spot-price-vs-what-you-pay",
-    title:
-      "Spot Price vs. What You Pay: Why Every Coin Costs More Than the Ticker Says",
-    tag: "Premiums & Pricing",
-    tagColor: "forest",
-    excerpt:
-      "The spot price is what gold trades for on the futures exchange. What you pay at the counter is something else entirely. Here\u2019s why \u2014 and how to minimize the gap.",
-    date: "2026-03-23",
-    series: "Spot Price vs. What You Pay",
-  },
-  {
-    slug: "gold-ira-scams",
-    title:
-      "Gold IRA Scams: How to Spot Them Before You Lose Your Retirement",
-    tag: "Don\u2019t Get Ripped Off",
-    tagColor: "gold",
-    excerpt:
-      "High-pressure phone sales, misleading fee structures, and celebrity endorsements for garbage products. The gold IRA industry has more than its share of predators. Here\u2019s what to watch for before you sign anything.",
-    date: "2026-03-24",
-  },
-  {
     slug: "gold-silver-ratio-explained",
     title: "The Gold-to-Silver Ratio: What It Is and How Traders Use It",
     tag: "Education",
@@ -146,28 +125,6 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Not all one-ounce gold coins cost the same. The difference is the premium \u2014 and understanding why certain coins carry higher premiums can save you hundreds of dollars per ounce.",
     date: "2026-03-24",
-    series: "Spot Price vs. What You Pay",
-  },
-  {
-    slug: "what-should-i-truly-pay-for-gold-and-silver",
-    title:
-      "What Should I Truly Pay for Gold and Silver?",
-    tag: "Premiums & Pricing",
-    tagColor: "forest",
-    excerpt:
-      "A step-by-step framework for understanding premiums, picking the right dealer, and making sure you pay a fair price for gold and silver.",
-    date: "2026-03-24",
-    series: "Spot Price vs. What You Pay",
-  },
-  {
-    slug: "spot-price-vs-what-you-actually-pay",
-    title:
-      "Spot Price vs. What You Actually Pay at the Counter",
-    tag: "Premiums & Pricing",
-    tagColor: "forest",
-    excerpt:
-      "Gold is trading at $3,200 but the coin costs $3,360. Here\u2019s where the difference comes from and what\u2019s a reasonable premium.",
-    date: "2026-03-25",
     series: "Spot Price vs. What You Pay",
   },
   {
@@ -213,16 +170,6 @@ export const blogPosts: BlogPost[] = [
     date: "2026-03-31",
   },
   {
-    slug: "central-bank-gold-buying-reshaping-the-market",
-    title:
-      "Central Bank Gold Buying: The Biggest Shift in the Gold Market in 50 Years",
-    tag: "Education",
-    tagColor: "forest",
-    excerpt:
-      "Central banks bought over 1,000 tonnes of gold in 2022, 2023, and 2024 \u2014 triple the decade prior\u2019s average. Here\u2019s who\u2019s buying, why, and what it means for the price of gold.",
-    date: "2026-03-31",
-  },
-  {
     slug: "storing-gold-silver-safely",
     title:
       "How to Store Physical Gold and Silver: Home, Vault, or Safe Deposit Box?",
@@ -230,16 +177,6 @@ export const blogPosts: BlogPost[] = [
     tagColor: "forest",
     excerpt:
       "Physical metals have no automatic custodian. Home storage, bank safe deposit boxes, and private vaults each have real tradeoffs in cost, insurance, and access. Here\u2019s what each option actually looks like.",
-    date: "2026-04-13",
-  },
-  {
-    slug: "silver-industrial-demand-2026",
-    title:
-      "Why Silver Crossed $100: Solar Panels, AI, and the Sixth Year of Deficit",
-    tag: "Education",
-    tagColor: "forest",
-    excerpt:
-      "Silver\u2019s surge past $100/oz isn\u2019t speculative \u2014 it\u2019s structural. Solar panels, AI data centers, and EVs are consuming silver faster than mines can produce it. Here\u2019s what\u2019s driving the sixth consecutive year of deficit.",
     date: "2026-04-13",
   },
   {
@@ -325,7 +262,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "how-much-gold-silver-to-own",
     title: "How Much Gold and Silver Should You Own? An Honest Framework",
-    tag: "Investor Education",
+    tag: "Education",
     tagColor: "gold",
     excerpt:
       "Gold bug proponents say as much as possible. Mainstream advisors often say none. Neither is useful. Here’s an honest framework based on institutional research and your actual financial situation.",
@@ -370,7 +307,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "gold-ira-free-silver-trap",
     title: "The “Free Silver” Trap: How Gold IRA Promotions Actually Work",
-    tag: "Consumer Protection",
+    tag: "Investor Protection",
     tagColor: "gold",
     excerpt:
       "Gold IRA companies advertising free silver with your rollover aren’t giving you anything. Here’s where the cost is actually hidden.",
@@ -379,7 +316,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "gold-at-4500-buy-sell-hold",
     title: "Gold at $4,500: Should You Buy, Sell, or Hold?",
-    tag: "Market Analysis",
+    tag: "Market Dynamics",
     tagColor: "gold",
     excerpt:
       "Gold has rebounded to $4,500 after falling from January’s $5,598 peak. Here’s what’s driving the price, what the data says, and how to think about your position.",
@@ -388,7 +325,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "counterfeit-gold-bars-how-to-protect-yourself",
     title: "Counterfeit Gold Bars: How They Work and How to Protect Yourself",
-    tag: "Consumer Protection",
+    tag: "Investor Protection",
     tagColor: "gold",
     excerpt:
       "Counterfeit gold bars are more sophisticated than ever. Here’s how fakes are made, how to spot them, and what verification methods actually work.",
@@ -397,7 +334,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "silver-volatility-different-from-gold",
     title: "Silver at $64: Why Silver’s Volatility Is Different From Gold’s",
-    tag: "Market Analysis",
+    tag: "Market Dynamics",
     tagColor: "gold",
     excerpt:
       "Silver dropped nearly 4% in a single session in September 2026 while gold fell less than 3%. Here’s why silver is structurally more volatile and what that means for buyers.",

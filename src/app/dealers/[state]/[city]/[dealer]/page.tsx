@@ -9,6 +9,7 @@ import { states } from "@/lib/states";
 import { getCityBySlug } from "@/lib/cities";
 import { getDealerBySlug } from "@/lib/dealers";
 import DealerRatings from "@/components/DealerRatings";
+import { googleRatingLabel } from "@/lib/ratings";
 import AnalyticsLink from "@/components/AnalyticsLink";
 
 export function generateMetadata({
@@ -147,7 +148,7 @@ export default function DealerDetailPage({
         </div>
 
         {/* Ratings */}
-        {(dealer.bbbRating || dealer.googleRating || dealer.trustpilotRating) && (
+        {(dealer.bbbRating || (dealer.googleRating && dealer.googleReviewCount) || dealer.trustpilotRating) && (
           <div className="flex gap-4 flex-wrap mb-6">
             {dealer.bbbRating && (
               <span className="font-sans text-[13px] font-semibold inline-flex items-center gap-1.5">
@@ -166,10 +167,10 @@ export default function DealerDetailPage({
                 <span style={{ color: "#555" }}>{dealer.bbbRating}</span>
               </span>
             )}
-            {dealer.googleRating && (
+            {dealer.googleRating && dealer.googleReviewCount && (
               <span className="font-sans text-[13px] font-semibold inline-flex items-center gap-1" style={{ color: "#555" }}>
                 <span style={{ color: "#C5A44E", fontSize: 14 }}>★</span>
-                {dealer.googleRating} Google
+                {googleRatingLabel(dealer.googleRating, dealer.googleReviewCount)}
               </span>
             )}
             {dealer.trustpilotRating && (

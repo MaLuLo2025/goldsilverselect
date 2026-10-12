@@ -45,6 +45,37 @@ const nextConfig = {
         destination: '/blog/junk-silver-premiums-explained',
         permanent: true,
       },
+      // Consolidated 2026-10 (monthly content audit): near-duplicate posts 301 to the newest in each cluster
+      {
+        source: '/blog/gold-ira-scams',
+        destination: '/blog/gold-ira-scams-red-flags-federal',
+        permanent: true,
+      },
+      {
+        source: '/blog/spot-price-vs-what-you-pay',
+        destination: '/blog/how-much-over-spot-should-i-pay-for-gold-2026',
+        permanent: true,
+      },
+      {
+        source: '/blog/spot-price-vs-what-you-actually-pay',
+        destination: '/blog/how-much-over-spot-should-i-pay-for-gold-2026',
+        permanent: true,
+      },
+      {
+        source: '/blog/what-should-i-truly-pay-for-gold-and-silver',
+        destination: '/blog/how-much-over-spot-should-i-pay-for-gold-2026',
+        permanent: true,
+      },
+      {
+        source: '/blog/central-bank-gold-buying-reshaping-the-market',
+        destination: '/blog/central-bank-gold-buying',
+        permanent: true,
+      },
+      {
+        source: '/blog/silver-industrial-demand-2026',
+        destination: '/blog/silver-industrial-demand',
+        permanent: true,
+      },
       // silvergoldinsights.com: www → non-www canonical redirect
       {
         source: '/:path*',

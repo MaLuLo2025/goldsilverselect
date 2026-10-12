@@ -228,7 +228,7 @@ None. The snapshot URL is a public constant in `src/app/api/prices/route.ts`, an
 Each vertical landing page displays a warm, informative description box above the dealer listings. These explain why the curated selection is different from a generic directory. Tone: factual, direct, reassuring — never salesy.
 
 ### Local Coin & Bullion (/dealers)
-"Brick-and-mortar coin shops and bullion dealers you can walk into, inspect inventory, and transact in person. Every shop in our directory is an established, independent dealer — not a franchise, not a cash-for-gold kiosk. We verify addresses, check BBB profiles, and write every description ourselves. If you're buying your first gold coin or selling a collection, these are the local professionals worth talking to."
+"Brick-and-mortar coin shops and bullion dealers you can walk into, inspect inventory, and transact in person. Every shop in our directory is an established, independent dealer — not a franchise, not a cash-for-gold kiosk. We verify addresses, check BBB profiles, and write every description ourselves. If you're buying your first gold coin or selling a collection, these are the local dealers in our directory."
 
 ### Online Coin & Bullion (/online-dealers)
 "Reputable online dealers that post their premiums publicly, ship with insurance, and maintain buyback programs. We list only established operations with verifiable track records — no pop-up shops, no social media sellers, no dealers who hide their pricing behind a phone call. Compare premiums across multiple dealers before you buy. Every link goes directly to the dealer's own website."
