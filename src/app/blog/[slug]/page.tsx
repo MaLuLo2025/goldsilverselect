@@ -3336,7 +3336,11 @@ const blogContent: Record<string, React.ReactNode> = {
       <h2>Where Industrial Silver Goes</h2>
       <p>The industrial applications for silver are extensive, but several categories dominate:</p>
       <p>
-        <strong>Solar panels.</strong> Silver is the dominant conductor in photovoltaic cells. Each solar panel uses a meaningful amount of silver paste in its electrical contacts. The global expansion of solar energy capacity has created a sustained and growing demand source that didn&apos;t exist at scale two decades ago. Silver consumption from solar alone has grown substantially year over year as panel installation accelerates globally.
+        <strong>Solar panels.</strong> Silver is the dominant conductor in photovoltaic cells. Each solar panel uses a meaningful amount of silver paste in its electrical contacts. Solar became a major demand source over the past two decades, but the latest data shows it shrinking. The World Silver Survey 2026 (Metals Focus for the Silver Institute, April 2026) reports photovoltaic silver demand of 186.6 million ounces in 2025, down 6%, and forecasts 151.0 million ounces in 2026, down 19%, as manufacturers reduce silver per cell and substitute other metals. Our{" "}
+        <Link href="/blog/silver-demand-solar-ai-ev-2026" className="text-gold font-semibold">
+          breakdown of solar, AI, and EV silver demand
+        </Link>{" "}
+        covers the figures in detail.
       </p>
       <p>
         <strong>Electronics.</strong> Silver is used in electrical contacts, switches, conductors, and printed circuit boards. The high conductivity and corrosion resistance of silver make it technically superior in many applications where substitution would cost performance. Smartphones, tablets, laptops, server infrastructure &mdash; every device category that&apos;s expanding drives some silver demand.
@@ -3854,7 +3858,7 @@ const blogContent: Record<string, React.ReactNode> = {
         Total annual demand — industrial, investment, jewelry, silverware, photography — has been running above 1,200 million ounces in recent years. The gap between supply (production + recycling) and demand is the deficit.
       </p>
       <p>
-        In 2026, analysts project the deficit at approximately 46.3 million ounces — wider than the prior year despite some reduction in solar-related silver consumption (solar manufacturers have improved silver efficiency, reducing silver per panel by roughly 19% in 2026). But the overall demand base has grown, and the deficit expanded because mine supply also contracted.
+        As of the April 2026 World Silver Survey, the 2026 deficit is forecast at approximately 46.3 million ounces, up from 40.3 million ounces in 2025. Photovoltaic silver demand is forecast to fall about 19% in 2026 and total demand to ease about 2%, to roughly 1.11 billion ounces, yet the survey still projects a larger deficit than in 2025.
       </p>
 
       <h2>Where the Deficit Goes</h2>
@@ -6223,6 +6227,464 @@ const blogContent: Record<string, React.ReactNode> = {
       <p>
         The paperwork is what keeps the recipient from overpaying tax later. Before you give, confirm the details with a tax professional who can look at your full picture.
       </p>
+      <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
+        Browse our{" "}
+        <Link href="/dealers" className="text-gold font-semibold">
+          dealer directory
+        </Link>{" "}
+        to compare pricing across dealers in your area.
+      </p>
+    </>
+  ),
+  "silver-demand-solar-ai-ev-2026": (
+    <>
+      <p>
+        If you have shopped for silver in the last two years, you have heard the pitch. Solar panels need silver. AI data centers need silver. Electric vehicles need silver. Demand is exploding, supply can&apos;t keep up, so buy now.
+      </p>
+      <p>
+        Parts of that pitch are true. Parts are out of date. And one part runs directly against the most recent industry data. This article walks through what the 2026 numbers actually show, sector by sector, using the industry&apos;s own reference source. It is consumer education, not investment advice, and it makes no prediction about where the silver price is headed.
+      </p>
+      <h2>Where the numbers come from</h2>
+      <p>
+        The standard reference for silver supply and demand is the <strong>World Silver Survey</strong>, published each April by the {" "}
+        <a href="https://silverinstitute.org/" target="_blank" rel="noopener noreferrer">
+          Silver Institute
+        </a>{" "}
+         and prepared by Metals Focus, a London-based precious metals consultancy. The 2026 edition was released on April 15, 2026, and covers full-year 2025 data plus a forecast for 2026. You can download the full {" "}
+        <a href="https://silverinstitute.org/wp-content/uploads/2026/04/World-Silver-Survey-2026.pdf" target="_blank" rel="noopener noreferrer">
+          World Silver Survey 2026 PDF
+        </a>{" "}
+         free from the Institute&apos;s site, along with the {" "}
+        <a href="https://silverinstitute.org/elevated-lease-rates-regional-liquidity-tightness-and-robust-investor-interest-resulted-in-record-silver-prices-in-2025/" target="_blank" rel="noopener noreferrer">
+          launch press release
+        </a>
+        .
+      </p>
+      <p>
+        Two cautions before the numbers:
+      </p>
+      <ul>
+        <li><strong>Forecasts move.</strong> In its {" "}
+        <a href="https://silverinstitute.org/global-silver-investment-to-remain-strong-in-2026-against-the-backdrop-of-a-sixth-consecutive-annual-market-deficit/" target="_blank" rel="noopener noreferrer">
+          February 10, 2026 outlook
+        </a>
+        , the Silver Institute projected a 2026 market deficit of 67 million ounces (Moz). Two months later, the World Silver Survey put the 2026 deficit forecast at 46.3 Moz. Same organization, same research firm, a different number once more data came in. Anyone quoting a single forecast figure as settled fact is overselling it.</li>
+        <li><strong>Know whose report it is.</strong> The Silver Institute describes itself as &ldquo;the global voice for expanding public awareness of silver&apos;s essential role.&rdquo; It is an organization that promotes silver. The research is done by Metals Focus, an independent consultancy, and the survey is the standard public reference that press reports and dealer marketing draw on. That is a good reason to use it, and a good reason to read its forecasts as forecasts.</li>
+      </ul>
+      <h2>The big picture: industrial demand fell in 2025, and is forecast to fall again</h2>
+      <p>
+        Here is the headline that rarely makes it into a sales call. According to the World Silver Survey 2026:
+      </p>
+      <ul>
+        <li><strong>Total silver demand</strong> fell 2% in 2025 to about 1.13 billion ounces, the lowest since 2021. It is forecast to fall another 2% in 2026, to about 1.11 billion ounces.</li>
+        <li><strong>Industrial demand</strong> fell 3% in 2025 to 657.4 Moz. It is forecast to fall another 3% in 2026, to 639.6 Moz.</li>
+        <li><strong>The market stayed in deficit anyway.</strong> Demand exceeded supply for the fifth straight year in 2025, by 40.3 Moz, and the survey forecasts a sixth deficit in 2026 of 46.3 Moz.</li>
+      </ul>
+      <p>
+        Industrial use is still the largest single source of silver demand, at roughly 58% of the 2025 total. But &ldquo;industrial demand is surging&rdquo; is not what the 2025 data showed, and it is not what the 2026 forecast says.
+      </p>
+      <p>
+        Why did the market remain in deficit while industrial demand fell? Investment demand moved the other way. Global coin and bar demand rose 14% in 2025, to 217.7 Moz, and the survey expects it to rise about 18% more in 2026. For the supply side of the story, see {" "}
+        <Link href="/blog/silver-supply-deficit" className="text-gold font-semibold">
+          our explainer on the silver supply deficit
+        </Link>
+        .
+      </p>
+      <h2>Solar: the biggest single use, and the one shrinking fastest</h2>
+      <p>
+        Solar photovoltaic (PV) cells use silver paste to carry electricity off the cell. For a decade, PV was the growth engine of industrial silver. According to a {" "}
+        <a href="https://silverinstitute.org/silver-demand-forecast/" target="_blank" rel="noopener noreferrer">
+          December 2025 Silver Institute release
+        </a>{" "}
+         on a report it commissioned from Oxford Economics, PV accounted for 11% of silver industrial demand in 2014 and 29% in 2024.
+      </p>
+      <p>
+        Then the trend turned. The World Silver Survey 2026 reports:
+      </p>
+      <ul>
+        <li><strong>2024:</strong> PV silver demand of 197.5 Moz.</li>
+        <li><strong>2025:</strong> 186.6 Moz, down 6%.</li>
+        <li><strong>2026 forecast:</strong> 151.0 Moz, down 19%.</li>
+      </ul>
+      <p>
+        That 19% figure, which circulated widely after {" "}
+        <a href="https://pv-magazine-usa.com/2026/04/15/silver-demand-from-pv-industry-expected-to-drop-19-this-year/" target="_blank" rel="noopener noreferrer">
+          pv magazine reported it in April 2026
+        </a>
+        , matches the survey&apos;s own table: 186.6 Moz in 2025 falling to a forecast 151.0 Moz in 2026. It is a forecast, not a measured result, and it will be revised when the next data comes out.
+      </p>
+      <p>
+        A 35 Moz drop in one year is large. For scale, it is close to the 34.9 Moz of total physical investment demand the survey estimates for the entire United States in 2025.
+      </p>
+      <h3>Why solar silver demand can fall while solar keeps growing</h3>
+      <p>
+        This is the part that trips people up. Solar installations did not collapse. The survey notes that China alone added 275 gigawatts of solar capacity in January through November 2025, more than in all of 2024. So how does silver demand fall?
+      </p>
+      <p>
+        The answer is <strong>thrifting</strong>: using less silver per unit of output. When silver gets more expensive, manufacturers have every incentive to use less of it. The World Silver Survey attributes the 2025 decline to &ldquo;intense competition and increasing silver raw material costs&rdquo; pushing PV makers toward thrifting and substitution, and its 2026 outlook expects &ldquo;price-led thrifting and substitution&rdquo; to continue.
+      </p>
+      <p>
+        Thrifting takes several forms:
+      </p>
+      <ul>
+        <li><strong>Less silver in the paste.</strong> According to a {" "}
+        <a href="https://www.solarpowerworldonline.com/2026/03/solar-panels-are-trying-to-use-less-silver-is-that-wise/" target="_blank" rel="noopener noreferrer">
+          March 2026 Solar Power World report
+        </a>
+        , manufacturers are often increasing the share of copper in their pastes, and many of these changes stay compatible with existing screen-printing lines, so no new factory is needed.</li>
+        <li><strong>Silver-coated copper.</strong> The same report describes silver-coated copper pastes in use for rear-side contacts, with front-side applications in testing.</li>
+        <li><strong>Different metallization processes.</strong> In an April 2026 announcement, Germany&apos;s {" "}
+        <a href="https://www.ise.fraunhofer.de/en/press-media/news/2026/silver-consumption-in-topcon-solar-cells-reduced-by-factor-ten.html" target="_blank" rel="noopener noreferrer">
+          Fraunhofer Institute for Solar Energy Systems
+        </a>{" "}
+         reported cutting silver use in a common cell type (TOPCon) to about 1.1 milligrams per watt, against an industry average it put at 10 to 12 mg per watt. That work used a nickel and copper electroplating process on pilot equipment, not full production lines. A Fraunhofer researcher said the approach could be &ldquo;firmly established in the photovoltaic market within two to three years.&rdquo;</li>
+      </ul>
+      <p>
+        Lab and pilot results do not translate straight into factory output, and electroplating requires new equipment. But the direction is clear, and the survey&apos;s own forecast already reflects it. Solar can keep growing while each panel carries less silver.
+      </p>
+      <p>
+        There is also a feedback loop worth understanding. Higher silver prices are what speed up thrifting. A price rise driven partly by &ldquo;solar demand&rdquo; stories can, over time, reduce the very solar demand those stories rely on.
+      </p>
+      <h2>AI and data centers: real, but small and unquantified</h2>
+      <p>
+        AI is the newest part of the silver pitch, and the hardest to pin down with numbers.
+      </p>
+      <p>
+        What the sources actually say:
+      </p>
+      <ul>
+        <li>The World Silver Survey 2026 credits AI-driven data center growth with &ldquo;increasing silver use in servers and high-performance hardware,&rdquo; and says those gains were outweighed by losses in PV.</li>
+        <li>The Oxford Economics report released by the Silver Institute estimates that global IT power capacity grew from 0.93 gigawatts in 2000 to nearly 50 gigawatts in 2025. That measures data center growth, not silver tonnage.</li>
+        <li>As of October 2026, neither the World Silver Survey 2026 nor the Silver Institute&apos;s public releases put a specific silver volume on AI or data center demand.</li>
+      </ul>
+      <p>
+        Here is a useful way to keep AI in proportion. The survey reports PV as a subset of its &ldquo;electrical and electronics&rdquo; category. Subtracting PV from that category leaves everything else electronic: phones, appliances, cars&apos; electrical systems, power grids, servers, and more. On the survey&apos;s figures, that non-solar electronics slice was about 263 Moz in 2025 and is forecast at about 272 Moz in 2026, an increase of roughly 9 Moz. (Those are simple subtractions from the survey&apos;s table, not figures the survey itself publishes.)
+      </p>
+      <p>
+        AI servers are one contributor inside that slice, alongside every other electronic product. So even if all of the growth in non-solar electronics came from AI, which it does not, it would be about a quarter of the forecast 35 Moz decline in solar. When a seller tells you AI is &ldquo;driving&rdquo; silver demand, the honest answer is that it is helping at the margin.
+      </p>
+      <h2>Electric vehicles: steady, not explosive</h2>
+      <p>
+        EVs use more silver than gasoline cars because they carry more electronics, more electrical connections, and more power-handling components. The Oxford Economics report released by the {" "}
+        <a href="https://silverinstitute.org/silver-demand-forecast/" target="_blank" rel="noopener noreferrer">
+          Silver Institute
+        </a>{" "}
+         estimates:
+      </p>
+      <ul>
+        <li>EVs, especially battery-electric vehicles, use on average 67% to 79% more silver than internal combustion vehicles, about 25 to 50 grams per EV.</li>
+        <li>Global automotive silver demand is forecast to grow at a compound annual rate of 3.4% from 2025 through 2031.</li>
+        <li>EVs are expected to overtake gasoline vehicles as the main source of automotive silver demand by 2027, and account for 59% of the automotive market for silver by 2031.</li>
+      </ul>
+      <p>
+        A 3.4% annual growth rate is steady, real growth. It is not a boom. And it is a share shift within automotive demand: as EVs take share, some of that silver replaces what gasoline cars would have used anyway. The World Silver Survey 2026 describes &ldquo;strong automotive end-use&rdquo; and rising EV and charging infrastructure as supports for demand, and notes that brazing alloy demand, partly tied to automotive and aerospace, rose 1% in 2025. It does not publish a separate EV silver tonnage.
+      </p>
+      <h2>Putting the sectors side by side</h2>
+      <p>
+        Using the World Silver Survey 2026 figures and forecasts:
+      </p>
+      <ul>
+        <li><strong>Solar (PV):</strong> 186.6 Moz in 2025, forecast 151.0 Moz in 2026. The largest single application, and falling fastest because of thrifting.</li>
+        <li><strong>Electronics other than solar (derived):</strong> about 263 Moz in 2025, about 272 Moz forecast in 2026. Includes data centers and AI hardware, which the survey does not break out.</li>
+        <li><strong>Brazing alloys and solders:</strong> 50.5 Moz in 2025, forecast 51.0 Moz. Includes some automotive and aerospace use.</li>
+        <li><strong>Other industrial:</strong> 157.4 Moz in 2025, forecast 165.7 Moz.</li>
+        <li><strong>Coins and bars (investment, not industrial):</strong> 217.7 Moz in 2025, forecast to rise about 18% in 2026.</li>
+      </ul>
+      <p>
+        Notice what that list implies. Over 2025 and 2026, the change in silver demand is being driven less by factories and more by investors.
+      </p>
+      <p>
+        For background on why silver&apos;s industrial side makes it behave differently from gold in the first place, see {" "}
+        <Link href="/blog/silver-industrial-demand" className="text-gold font-semibold">
+          our guide to silver industrial demand
+        </Link>
+        .
+      </p>
+      <h2>What this means for someone buying physical silver</h2>
+      <p>
+        None of this tells you whether silver is a good purchase, and nothing here should be read as a forecast. It does give you better tools for evaluating what you are told.
+      </p>
+      <p>
+        <strong>What the numbers do support:</strong>
+      </p>
+      <ul>
+        <li>Silver has genuine, large industrial uses. That is not hype. Industrial demand was about 657 Moz in 2025.</li>
+        <li>The market has run a deficit for five straight years, and a sixth is forecast. That is the Silver Institute&apos;s position, published with its data.</li>
+        <li>Investment demand, including coins and bars, rose in 2025 and is forecast to rise again.</li>
+      </ul>
+      <p>
+        <strong>What the numbers do not support:</strong>
+      </p>
+      <ul>
+        <li><strong>&ldquo;Solar demand is exploding.&rdquo;</strong> The industry&apos;s own forecast is a 19% drop in 2026.</li>
+        <li><strong>&ldquo;AI will drive silver demand.&rdquo;</strong> As of October 2026, there is no published tonnage for AI silver use in the World Silver Survey. It is a supportive factor, not the main event.</li>
+        <li><strong>&ldquo;EVs will create a silver shortage.&rdquo;</strong> The commissioned forecast is about 3.4% annual growth in automotive demand. That is meaningful but gradual.</li>
+        <li><strong>&ldquo;Industrial demand guarantees prices go up.&rdquo;</strong> Industrial demand fell in 2025 and is forecast to fall again in 2026. Silver prices respond to many forces, including investment flows, the dollar, and interest rates. No demand statistic guarantees a price outcome.</li>
+      </ul>
+      <p>
+        <strong>How to use this when someone is selling to you:</strong>
+      </p>
+      <ul>
+        <li><strong>Ask for the source and the date.</strong> A legitimate statistic will trace to a named report and year. If a seller cites a demand figure, ask which edition of the World Silver Survey it came from.</li>
+        <li><strong>Watch for stale numbers.</strong> Some marketing still uses pre-2025 growth figures for solar. The current direction is down.</li>
+        <li><strong>Separate the story from the price.</strong> The industrial story is a reason some people choose to own silver. It is not a reason to pay a high premium, accept a poor buyback policy, or buy from a seller who pressures you on timing. Those are the costs you control, and they matter regardless of what solar panels do next year.</li>
+        <li><strong>Remember what physical metal is and is not.</strong> A coin or bar you hold has reduced counterparty risk compared with paper exposure, but not zero. You still depend on the dealer you buy from, the market you sell into, and where you store it.</li>
+      </ul>
+      <p>
+        The 2026 picture is more nuanced than the pitch. Silver demand is not collapsing, and it is not exploding. Solar is shrinking, electronics and autos are inching up, and investors are doing most of the heavy lifting. A buyer who knows that is harder to rush.
+      </p>
+      <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
+        Browse our{" "}
+        <Link href="/dealers" className="text-gold font-semibold">
+          dealer directory
+        </Link>{" "}
+        to compare pricing across dealers in your area.
+      </p>
+    </>
+  ),
+  "silver-eagle-premiums-2026": (
+    <>
+      <p>
+        Put a one-ounce American Silver Eagle next to a one-ounce generic silver round. Same weight of silver, near-identical purity. Yet the Eagle usually costs more, and buyers reasonably ask whether they are paying for metal or for a picture of an eagle.
+      </p>
+      <p>
+        The honest answer is: some of both, plus several layers of cost you can&apos;t see on the coin. This article walks through where the Eagle&apos;s price comes from, what changed in 2026, how Eagles compare with rounds, bars, and other government coins, and when the premium earns its keep. It is consumer education, not investment advice.
+      </p>
+      <h2>How a Silver Eagle&apos;s price is built</h2>
+      <p>
+        Every Silver Eagle you buy carries at least four layers of cost on top of the silver itself.
+      </p>
+      <p>
+        <strong>Layer 1: the silver.</strong> One troy ounce. The bullion Eagle is defined by federal statute. Under {" "}
+        <a href="https://www.law.cornell.edu/uscode/text/31/5112" target="_blank" rel="noopener noreferrer">
+          31 U.S.C. § 5112(e)
+        </a>
+        , the coin weighs 31.103 grams, contains .999 fine silver, measures 40.6 millimeters across, and carries a face value of one dollar.
+      </p>
+      <p>
+        <strong>Layer 2: the Mint&apos;s markup.</strong> The same statute, in subsection (f)(1), tells the Treasury to sell these coins at a price equal to the market value of the bullion at the time of sale plus the cost of minting, marketing, and distributing them. The Mint&apos;s own {" "}
+        <a href="https://www.usmint.gov/coin-programs/bullion-coins/" target="_blank" rel="noopener noreferrer">
+          bullion coin page
+        </a>{" "}
+         describes this as the prevailing market price &ldquo;plus a small premium.&rdquo;
+      </p>
+      <p>
+        <strong>Layer 3: the wholesaler.</strong> The Mint does not sell bullion coins to the public. Its bullion page says so directly: &ldquo;The United States Mint, like other world mints, does not sell its bullion coins directly to the public.&rdquo; Instead, it sells to a published list of firms called {" "}
+        <a href="https://www.usmint.gov/coins-precious-metal-coins/bullion-authorized-purchasers/" target="_blank" rel="noopener noreferrer">
+          Authorized Purchasers
+        </a>
+        . Per the Mint&apos;s {" "}
+        <a href="https://www.usmint.gov/coins-precious-metal-coins/bullion-consumer-awareness/" target="_blank" rel="noopener noreferrer">
+          bullion consumer awareness page
+        </a>
+        , those firms must &ldquo;maintain a two-way market&rdquo; for Mint bullion coins, meaning they both buy and sell them. The Mint&apos;s list notes that not all of them sell to consumers; some supply other dealers. Each step adds its own margin.
+      </p>
+      <p>
+        <strong>Layer 4: the retail dealer.</strong> The dealer you actually buy from adds a margin for its overhead, inventory risk, and profit. Dealer pages typically show:
+      </p>
+      <ul>
+        <li>A lower per-coin price at higher quantities.</li>
+        <li>A higher price for credit card or PayPal than for check or bank wire.</li>
+        <li>A price that moves with the silver spot price throughout the day.</li>
+      </ul>
+      <p>
+        Add those layers together and you get the number on the screen. The premium is that number minus the spot price of one ounce of silver. To compare offers, always convert to the premium, in dollars or as a percentage of spot, rather than comparing sticker prices taken at different times of day. Our guide to {" "}
+        <Link href="/blog/how-much-over-spot-should-i-pay-for-gold-2026" className="text-gold font-semibold">
+          how much over spot to pay
+        </Link>{" "}
+         walks through that math for gold, and the same method works for silver.
+      </p>
+      <h2>What the 2026 Mint &ldquo;price increase&rdquo; actually covered</h2>
+      <p>
+        You may have seen headlines in early 2026 about the US Mint raising silver coin prices. The source is a {" "}
+        <a href="https://www.govinfo.gov/content/pkg/FR-2026-02-06/pdf/2026-02405.pdf" target="_blank" rel="noopener noreferrer">
+          Federal Register notice published February 6, 2026
+        </a>{" "}
+         (91 Fed. Reg. 5556), titled &ldquo;Establish New and Updated Prices for United States Mint Numismatic Products,&rdquo; effective January 20, 2026.
+      </p>
+      <p>
+        Read the title closely: <strong>numismatic products.</strong> That notice set prices for the Mint&apos;s collector coins, which it sells directly to the public through its online catalog. For Silver Eagles, it listed:
+      </p>
+      <ul>
+        <li><strong>American Eagle 1 oz Silver Proof Coin:</strong> $173.00.</li>
+        <li><strong>American Eagle 1 oz Silver Uncirculated Coin:</strong> $169.00.</li>
+      </ul>
+      <p>
+        The notice does not price <strong>bullion</strong> Silver Eagles at all. Bullion Eagles are priced off the live silver market, through Authorized Purchasers, as described above.
+      </p>
+      <p>
+        That distinction matters to a buyer for two reasons:
+      </p>
+      <ul>
+        <li><strong>A proof or uncirculated Eagle contains the same one ounce of .999 silver as a bullion Eagle.</strong> The extra cost pays for special striking, finish, packaging, and collector appeal. If your goal is to own silver by the ounce, the collector premium is money that does not buy more metal.</li>
+        <li><strong>Mint prices on collector products can change during the year.</strong> If a seller quotes &ldquo;the Mint&apos;s price,&rdquo; check the Mint&apos;s current catalog yourself before relying on it.</li>
+      </ul>
+      <h2>What Mint sales data shows for 2026</h2>
+      <p>
+        The Mint publishes monthly bullion sales in a {" "}
+        <a href="https://www.usmint.gov/content/dam/usmint/data/tidy/bullion-american-eagle-silver.csv" target="_blank" rel="noopener noreferrer">
+          downloadable data file for American Eagle silver bullion coins
+        </a>
+        , linked from its {" "}
+        <a href="https://www.usmint.gov/data" target="_blank" rel="noopener noreferrer">
+          data page
+        </a>
+        . These figures are the Mint&apos;s sales to its Authorized Purchasers, not sales to retail buyers.
+      </p>
+      <p>
+        As of October 2026, the file shows one-ounce Silver Eagle bullion sales for 2026 of:
+      </p>
+      <ul>
+        <li>January: 4,816,500 coins.</li>
+        <li>February: 1,733,500.</li>
+        <li>March: 1,630,000.</li>
+        <li>April: 380,500.</li>
+        <li>May: 0.</li>
+        <li>June: 260,000.</li>
+        <li>July: 425,000.</li>
+        <li>August: 210,000.</li>
+        <li>September: 275,000.</li>
+      </ul>
+      <p>
+        That totals 9,730,500 coins for January through September 2026. For the same nine months, the file shows about 9.39 million in 2025 and about 20.1 million in 2024.
+      </p>
+      <p>
+        A few observations, and a caution about reading too much into them:
+      </p>
+      <ul>
+        <li><strong>The &ldquo;zero sales in May 2026&rdquo; claim is accurate as to the Mint&apos;s data.</strong> One price-tracking blog presented that figure as evidence that &ldquo;the retail buyer has left.&rdquo; The Mint&apos;s file does list zero for May. The file does not explain why. A month of zero sales to wholesalers can reflect wholesaler inventory, Mint production and allocation decisions, or demand. The data alone doesn&apos;t tell you which.</li>
+        <li><strong>2026 is running roughly level with 2025 and well below 2024</strong>, on the Mint&apos;s own numbers.</li>
+        <li><strong>The broader US picture was weak in 2025.</strong> The Silver Institute&apos;s {" "}
+        <a href="https://silverinstitute.org/wp-content/uploads/2026/04/World-Silver-Survey-2026.pdf" target="_blank" rel="noopener noreferrer">
+          World Silver Survey 2026
+        </a>
+        , prepared by Metals Focus, estimates that US physical silver investment fell about 46% in 2025, to 34.9 million ounces, even as global coin and bar demand rose.</li>
+      </ul>
+      <p>
+        What this means for you: soft wholesale demand does not automatically translate into a low retail premium. Each layer of the chain sets its own margin. The only way to know what Eagles cost today is to check several dealers&apos; current prices and do the premium math yourself.
+      </p>
+      <h2>Eagles vs. generic rounds and bars</h2>
+      <p>
+        <strong>Generic rounds and bars</strong> are made by private mints and refiners, not governments. They usually carry lower premiums than sovereign coins because there&apos;s no government mint markup, no legal tender status, and often lower production costs. Larger bars generally carry lower premiums per ounce than smaller pieces, a pattern covered in detail in {" "}
+        <Link href="/blog/silver-premiums-and-bar-size" className="text-gold font-semibold">
+          our guide to silver premiums and bar size
+        </Link>
+        .
+      </p>
+      <p>
+        What you give up with generics:
+      </p>
+      <ul>
+        <li><strong>Recognition.</strong> Dealers across the country know exactly what a Silver Eagle is. A round from a smaller private mint may get a closer look, or a lower bid.</li>
+        <li><strong>Specification by law.</strong> An Eagle&apos;s weight, purity, and dimensions are set by federal statute. A generic round&apos;s specifications depend on the maker. Established refiners typically stamp weight and purity, but you are relying on the refiner&apos;s name.</li>
+        <li><strong>Easy authentication.</strong> The Mint&apos;s consumer page suggests checking whether a coin meets its published weight and diameter specifications. That check is straightforward for an Eagle because the specifications are public and fixed.</li>
+      </ul>
+      <p>
+        What you gain: more ounces for the same money, which matters if your goal is simply to hold silver by weight.
+      </p>
+      <h2>Eagles vs. other government coins</h2>
+      <p>
+        The Eagle is not the only sovereign silver coin, and the alternatives differ in ways worth knowing.
+      </p>
+      <p>
+        <strong>Canadian Silver Maple Leaf.</strong> Per the {" "}
+        <a href="https://www.mint.ca/en/shop/coins/2026/2026-sml-1-oz-9999-pure-silver-coin-bullion" target="_blank" rel="noopener noreferrer">
+          Royal Canadian Mint
+        </a>
+        , the one-ounce Maple Leaf is 99.99% pure silver, carries a $5 Canadian face value, and includes security features such as precision-machined radial lines, a micro-engraved maple leaf with the year, and a laser-engraved &ldquo;Bullion DNA&rdquo; mark used for authentication.
+      </p>
+      <p>
+        <strong>British Silver Britannia.</strong> Per the {" "}
+        <a href="https://www.royalmint.com/invest/bullion/bullion-coins/silver-coins/bb26s1c-britannia-2026-1oz-silver-bullion-coin/" target="_blank" rel="noopener noreferrer">
+          Royal Mint
+        </a>
+        , the one-ounce Britannia is .999 fine silver with a £2 denomination, and includes four security features, among them micro-text and a latent image that shifts between a padlock and a trident.
+      </p>
+      <p>
+        Premiums on Maples and Britannias move independently of Eagle premiums, so compare all three side by side on the same day, at the same quantity and payment method. The other trade-off is familiarity. US dealers know Maples and Britannias well, but the Eagle is the domestic coin, and some buyers simply prefer it.
+      </p>
+      <h2>Selling back: where the premium can come back to you</h2>
+      <p>
+        The premium you pay is only half the cost. The other half is the spread when you sell. A coin that costs more to buy may also fetch more when you sell, which narrows the real difference.
+      </p>
+      <p>
+        Many dealers post separate buy prices for each product. If a dealer bids more for Eagles than for generic rounds, part of the extra premium you paid comes back to you when you sell. If it bids about the same, the premium is mostly gone. Buy prices vary by dealer and by day, and they can change quickly when wholesale supply loosens or tightens. That is exactly why the round-trip cost matters more than either number alone:
+      </p>
+      <ul>
+        <li><strong>Round-trip cost</strong> = what you pay over spot when you buy + what the dealer deducts from spot when you sell.</li>
+        <li>Ask for both numbers before you buy. A dealer that sells Eagles at a modest premium but bids low on them is no bargain.</li>
+        <li>Get the buyback quote for the exact product. &ldquo;We buy Eagles at spot plus X&rdquo; and &ldquo;we buy generic rounds at spot minus Y&rdquo; are very different promises.</li>
+      </ul>
+      <p>
+        For a fuller walk-through, see {" "}
+        <Link href="/blog/sell-back-spreads-what-dealers-actually-pay" className="text-gold font-semibold">
+          our guide to sell-back spreads and what dealers actually pay
+        </Link>
+        .
+      </p>
+      <h2>IRA eligibility: where the Eagle has a clear statutory edge</h2>
+      <p>
+        If you plan to hold silver in a self-directed IRA, the rules come from {" "}
+        <a href="https://www.govinfo.gov/content/pkg/USCODE-2023-title26/html/USCODE-2023-title26-subtitleA-chap1-subchapD-partI-subpartA-sec408.htm" target="_blank" rel="noopener noreferrer">
+          26 U.S.C. § 408(m)
+        </a>
+        . In general, an IRA&apos;s purchase of a &ldquo;collectible,&rdquo; a term that includes metals and coins, is treated as a distribution. Section 408(m)(3) carves out exceptions:
+      </p>
+      <ul>
+        <li><strong>The Silver Eagle is named.</strong> The exception covers &ldquo;a silver coin described in section 5112(e) of title 31,&rdquo; which is the Eagle&apos;s statutory specification.</li>
+        <li><strong>Other silver qualifies as bullion only if it meets a fineness test.</strong> The bullion exception covers silver that meets the minimum fineness a regulated futures contract market requires for delivery, and only if the bullion is in the physical possession of a trustee. On COMEX, CME Group&apos;s {" "}
+        <a href="https://www.cmegroup.com/content/dam/cmegroup/rulebook/COMEX/1a/112.pdf" target="_blank" rel="noopener noreferrer">
+          silver futures rulebook
+        </a>{" "}
+         requires silver to &ldquo;assay to a minimum of 999 fineness.&rdquo;</li>
+      </ul>
+      <p>
+        On the face of the statute, a .9999 Maple Leaf or a .999 Britannia meets that fineness test, and so may many generic rounds and bars. In practice, your IRA custodian decides which specific products it will accept, and custodians keep their own approved lists. Don&apos;t buy for an IRA until the custodian confirms the exact product.
+      </p>
+      <p>
+        Two cautions:
+      </p>
+      <ul>
+        <li>Watch the vocabulary. The accurate terms are IRA-eligible products, held by a qualified custodian or trustee, in a qualified depository. A seller who describes a product or depository as having federal sign-off is overstating what the statute does.</li>
+        <li>Proof Eagles carry collector premiums. Before paying proof prices inside an IRA, confirm that your custodian accepts the specific proof product, and ask whether the extra cost serves your goal.</li>
+      </ul>
+      <p>
+        For storage rules, depository options, and the questions to ask a custodian, see {" "}
+        <Link href="/blog/ira-eligible-silver-rules-depositories-2026" className="text-gold font-semibold">
+          our 2026 guide to IRA-eligible silver
+        </Link>
+        .
+      </p>
+      <h2>When the Eagle premium is worth it, and when it isn&apos;t</h2>
+      <p>
+        <strong>The premium may earn its keep if:</strong>
+      </p>
+      <ul>
+        <li><strong>You want the most recognizable silver coin in the US market.</strong> If you expect to sell to a variety of buyers, including local shops and private parties, recognition reduces friction.</li>
+        <li><strong>You are buying for a self-directed IRA</strong> and want a product the statute names specifically, subject to your custodian&apos;s list.</li>
+        <li><strong>You are giving silver as a gift</strong> and value a coin the recipient will recognize.</li>
+        <li><strong>Your dealer&apos;s buyback on Eagles is strong enough</strong> that the round-trip cost is close to what you&apos;d pay with generics.</li>
+      </ul>
+      <p>
+        <strong>The premium is harder to justify if:</strong>
+      </p>
+      <ul>
+        <li><strong>Your goal is the most silver per dollar.</strong> Generic rounds and larger bars generally deliver more ounces for the money.</li>
+        <li><strong>You are paying a collector price for a bullion purpose.</strong> A proof or uncirculated Eagle holds the same ounce of silver as a bullion Eagle.</li>
+        <li><strong>The dealer won&apos;t tell you its buyback price</strong> for the coin it&apos;s selling you.</li>
+        <li><strong>You are being rushed.</strong> Scarcity talk (&ldquo;Eagles are drying up,&rdquo; &ldquo;the Mint stopped selling&rdquo;) is a sales pressure tactic until you have checked it. As shown above, Mint data needs context before it means anything.</li>
+      </ul>
+      <p>
+        A physical coin in your possession has reduced counterparty risk compared with paper exposure, but not zero. You still rely on the dealer who sells it to you, the market you&apos;ll sell into, and wherever you store it.
+      </p>
+      <h2>A short checklist before you buy Eagles</h2>
+      <ul>
+        <li><strong>Compute the premium</strong>, not just the price. Price minus spot, at the same moment.</li>
+        <li><strong>Compare at least three dealers</strong> on the same product, quantity, and payment method.</li>
+        <li><strong>Ask for the buyback price</strong> on the same coin, in writing if possible.</li>
+        <li><strong>Know which Eagle you are buying:</strong> bullion, proof, or uncirculated. Only one of those is priced off the bullion market.</li>
+        <li><strong>For an IRA</strong>, confirm the exact product with your custodian first.</li>
+      </ul>
       <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
         Browse our{" "}
         <Link href="/dealers" className="text-gold font-semibold">

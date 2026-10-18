@@ -70,6 +70,7 @@ export const faqCategories: FAQCategory[] = [
           { label: "Gold and Wars: 125 Years as a Geopolitical Risk Hedge", href: "/blog/gold-and-wars-geopolitical-risk-hedge" },
           { label: "Central Bank Gold Buying: What It Is, Who’s Doing It, and Why It Matters to You", href: "/blog/central-bank-gold-buying" },
           { label: "Silver’s Industrial Demand: Why It Behaves Differently Than Gold", href: "/blog/silver-industrial-demand" },
+          { label: "Solar, AI Data Centers, EVs: What the 2026 Numbers Say About Silver Demand", href: "/blog/silver-demand-solar-ai-ev-2026" },
         ],
       },
       {
@@ -89,6 +90,9 @@ export const faqCategories: FAQCategory[] = [
         answer: "It depends on your priorities. Silver coins from government mints (American Eagles, Canadian Maple Leafs) are universally recognized and easy to sell, but carry premiums of 12\u201325% over spot. Silver bars \u2014 especially 10 oz and 100 oz bars \u2014 carry much lower premiums per ounce (3\u20138% for 10 oz, 1.5\u20135% for 100 oz), giving you more silver for the same dollars. The tradeoff is liquidity and divisibility: you can sell one coin at a time, but you can\u2019t sell half a bar. Most experienced buyers hold a mix \u2014 coins for flexibility, bars for cost efficiency.",
         learnMoreLabel: "Silver Premiums and How Bar Size Affects What You Pay",
         learnMoreHref: "/blog/silver-premiums-and-bar-size",
+        links: [
+          { label: "Why Silver Eagles Cost So Much in 2026, and When They\u2019re Worth It", href: "/blog/silver-eagle-premiums-2026" },
+        ],
       },
       {
         question: "Why are silver premiums higher than gold premiums?",
@@ -383,6 +387,9 @@ export const faqCategories: FAQCategory[] = [
         answer: "Silver premiums run higher as a percentage than gold premiums. This is because the per-ounce price of silver is much lower, so fixed costs \u2014 minting, shipping, handling \u2014 represent a larger share of the total price. Government-minted silver coins carry the highest premiums: American Silver Eagles typically run 12\u201325% over spot, and Canadian Silver Maple Leafs run slightly lower. Premiums can spike when U.S. Mint supply is constrained. Larger silver bars carry lower percentage premiums, and 100 oz bars approach gold-like premiums of roughly 1.5\u20135%, which makes large bars the most cost-effective way to accumulate silver by weight.",
         learnMoreLabel: "Silver Premiums and How Bar Size Affects What You Pay",
         learnMoreHref: "/blog/silver-premiums-and-bar-size",
+        links: [
+          { label: "Why Silver Eagles Cost So Much in 2026, and When They\u2019re Worth It", href: "/blog/silver-eagle-premiums-2026" },
+        ],
       },
       {
         question: "How is junk silver priced differently from bullion?",
@@ -781,6 +788,9 @@ export const faqCategories: FAQCategory[] = [
         answer: "Yes, if it meets the purity standard. IRC Section 408(m) sets a minimum fineness of .999 for silver, which covers products such as American Silver Eagles and bars from approved refiners. Junk silver, sterling silver (.925), and most numismatic coins do not qualify. As with gold, IRA silver must be held by a depository rather than at home, and the specific coin or bar should appear on your custodian\u2019s approved-products list before you buy.",
         learnMoreLabel: "IRA-Eligible Silver: The Purity Rules, the Depositories, and What Actually Counts",
         learnMoreHref: "/blog/ira-eligible-silver-rules-depositories-2026",
+        links: [
+          { label: "Why Silver Eagles Cost So Much in 2026, and When They\u2019re Worth It", href: "/blog/silver-eagle-premiums-2026" },
+        ],
       },
     ],
   },
@@ -829,11 +839,12 @@ export const faqCategories: FAQCategory[] = [
       },
       {
         question: "Why has silver\u2019s price risen so sharply in 2026?",
-        answer: "Silver crossed $100/oz in 2026 driven by structural industrial demand outpacing supply. Solar panel manufacturing now consumes over 230 million ounces annually (up from 140 million in 2020). AI data centers, electric vehicles, and 5G infrastructure are all growing sources of silver demand. Meanwhile, 72% of silver is mined as a byproduct of copper, zinc, lead, and gold \u2014 meaning silver supply cannot respond quickly to price increases. 2026 marks the sixth consecutive year where global demand has exceeded supply.",
+        answer: "Silver crossed $100/oz in 2026 driven by structural industrial demand outpacing supply. Solar is a large industrial user, but the April 2026 World Silver Survey (Metals Focus for the Silver Institute) shows photovoltaic demand easing: 186.6 million ounces in 2025, with a forecast of 151.0 million in 2026. AI data centers, electric vehicles, and other electronics remain sources of silver demand. Meanwhile, 72% of silver is mined as a byproduct of copper, zinc, lead, and gold \u2014 meaning silver supply cannot respond quickly to price increases. The survey forecasts 2026 as the sixth consecutive annual market deficit, with demand exceeding supply.",
         learnMoreLabel: "Silver’s Industrial Demand: Why It Behaves Differently Than Gold",
         learnMoreHref: "/blog/silver-industrial-demand",
         links: [
           { label: "Silver at $64: Why Silver\u2019s Volatility Is Different From Gold\u2019s", href: "/blog/silver-volatility-different-from-gold" },
+          { label: "Solar, AI Data Centers, EVs: What the 2026 Numbers Say About Silver Demand", href: "/blog/silver-demand-solar-ai-ev-2026" },
         ],
       },
       {

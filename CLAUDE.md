@@ -328,10 +328,10 @@ When the site owner types **"full audit"** — run a complete vendor data standa
 This applies to ALL Select directory sites.
 
 ## Content operations (adopted 2026-10-06)
-- Weekly blog cycle scope is new articles only. Anything else found during
-  a cycle goes to docs/CONTENT-BACKLOG.md, not fixed, unless it is a live
-  factual or legal-risk error in published content (fix that same day, in
-  one prompt, and log it).
+- Known errors are fixed in the next deploy: if published content is factually
+  or legally wrong and we know it, fix it in the next deploy session (including
+  a weekly-cycle deploy) and log it. Gaps, improvements and judgment calls go to
+  docs/CONTENT-BACKLOG.md for the audit. (Revised 2026-10-17.)
 - Standing authority: during any deploy session, fix mechanical issues
   without asking: broken or moved links (same-site current URL first, then
   an equivalent authoritative source), renderer conversions, banned-phrase

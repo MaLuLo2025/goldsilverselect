@@ -248,7 +248,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-06-30",
   },
   { slug: "buying-gold-pawn-shop", title: "Buying Gold at a Pawn Shop: When It Makes Sense and When to Walk Away", tag: "Buyer’s Guide", tagColor: "gold", excerpt: "Pawn shops sell gold. Some of it is priced well. Most of it isn’t. Understanding the economics of how pawn shops acquire and price gold-bearing inventory is the filter you need.", date: "2026-06-30" },
-  { slug: "silver-industrial-demand", title: "Silver’s Industrial Demand: Why It Behaves Differently Than Gold", tag: "Market Dynamics", tagColor: "gold", excerpt: "Silver’s price behavior differs from gold’s in ways that matter for investors — primarily because of silver’s significant industrial role. Understanding what drives it clarifies why silver is more volatile.", date: "2026-06-30" },
+  { slug: "silver-industrial-demand", title: "Silver’s Industrial Demand: Why It Behaves Differently Than Gold", tag: "Market Dynamics", tagColor: "gold", excerpt: "Silver’s price behavior differs from gold’s in ways that matter for investors — primarily because of silver’s significant industrial role. Understanding what drives it clarifies why silver is more volatile.", date: "2026-06-30", dateModified: "2026-10-19" },
   { slug: "dealer-buyback-programs", title: "How Dealer Buyback Programs Work and How to Evaluate Them", tag: "Buyer’s Guide", tagColor: "gold", excerpt: "Where you sell your precious metals matters as much as where you buy them. Dealer buyback programs vary significantly in their terms, pricing, and reliability.", date: "2026-06-30" },
   {
     slug: "why-gold-surged-2025-2026",
@@ -294,6 +294,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "The silver market has been in a structural supply deficit for six consecutive years. The deficit is real. Whether it drives dramatically higher prices depends on several factors that aren’t guaranteed to align.",
     date: "2026-07-14",
+    dateModified: "2026-10-19",
   },
   {
     slug: "start-buying-precious-metals-500",
@@ -482,6 +483,26 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "A gift of coins or bars is simple to hand over and easy to get wrong on paper. Here is how the 2026 gift tax exclusion works, why the recipient inherits your cost basis, and what records to pass along with the metal.",
     date: "2026-10-12",
+  },
+  {
+    slug: "silver-demand-solar-ai-ev-2026",
+    title:
+      "Solar, AI Data Centers, EVs: What the 2026 Numbers Say About Silver Demand",
+    tag: "Market Dynamics",
+    tagColor: "gold",
+    excerpt:
+      "Silver sales pitches lean hard on solar panels, AI data centers, and electric vehicles. The 2026 World Silver Survey tells a more complicated story: solar demand is forecast to fall sharply, AI demand is real but unquantified, and total industrial demand is expected to shrink. Here is what the numbers say, and what they mean for someone buying coins and bars.",
+    date: "2026-10-19",
+  },
+  {
+    slug: "silver-eagle-premiums-2026",
+    title:
+      "Why Silver Eagles Cost So Much in 2026, and When They're Worth It",
+    tag: "Premiums & Pricing",
+    tagColor: "gold",
+    excerpt:
+      "An American Silver Eagle and a generic silver round can hold the same ounce of silver and still sell at very different prices. Here is how an Eagle's price is built, what the US Mint's 2026 pricing notice actually covered, what Mint sales data shows, and when the extra premium buys you something real.",
+    date: "2026-10-19",
   },
 ];
 
