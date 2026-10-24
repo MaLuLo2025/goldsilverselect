@@ -126,6 +126,9 @@ export const faqCategories: FAQCategory[] = [
         answer: "Most online dealers charge a 2\u20134% surcharge for credit card purchases versus wire transfer or ACH payment. On a $3,000 purchase, that\u2019s $60\u2013120 in additional cost. Bank transfers save money but take longer to process and don\u2019t offer the purchase protection that comes with a credit card. Some buyers accept the surcharge for the convenience and rewards points. There\u2019s no wrong answer, but you should factor the payment method into your total cost comparison.",
         learnMoreLabel: "How Much Over Spot Should I Pay for Gold in 2026? (With Real Dollar Examples)",
         learnMoreHref: "/blog/how-much-over-spot-should-i-pay-for-gold-2026",
+        links: [
+          { label: "Paid for Gold That Hasn't Shipped? How Prepaid Orders Fail and How to Protect Yourself", href: "/blog/prepaid-gold-orders-delivery-delays-dealer-bankruptcy" },
+        ],
       },
       {
         question: "When should I pay numismatic premiums instead of buying bullion?",
@@ -202,10 +205,11 @@ export const faqCategories: FAQCategory[] = [
       },
       {
         question: "Is it legal to split a large cash purchase to avoid Form 8300?",
-        answer: "No. This is called “structuring” and is a federal felony under 31 U.S.C. § 5324, punishable by up to 5 years in prison (10 if part of a pattern). The underlying purchase can be entirely legal — structuring is a separate crime tied to intent to evade the reporting requirement. A dealer who suggests splitting a transaction is asking you to commit a felony.",
-        learnMoreLabel: "Precious Metals Reporting: 1099-B, Form 8300, and the Felony Trap Called Structuring",
-        learnMoreHref: "/blog/1099-b-precious-metals-reporting",
+        answer: "No. Breaking up a purchase to keep a business from filing a required report is called \u201cstructuring.\u201d It is prohibited by statute (31 U.S.C. \u00a7 5324(b) covers transactions with nonfinancial businesses) and carries criminal penalties. The underlying purchase can be entirely legal; structuring is a separate offense tied to the purpose of evading the report. A dealer who suggests splitting a transaction to stay under the threshold is a red flag.",
+        learnMoreLabel: "Paying Cash for Gold Over $10,000? What Form 8300 Means, and Why Splitting Payments Is a Crime",
+        learnMoreHref: "/blog/paying-cash-for-gold-form-8300-structuring",
         links: [
+          { label: "Precious Metals Reporting: 1099-B, Form 8300, and the Felony Trap Called Structuring", href: "/blog/1099-b-precious-metals-reporting" },
           { label: "The IRS Just Corrected Its Confusing Coin Example: What Precious Metals Sellers Need to Know About 1099-B Reporting in 2026", href: "/blog/1099-b-reporting-precious-metals-2026-irs-correction" },
         ],
       },
@@ -652,6 +656,9 @@ export const faqCategories: FAQCategory[] = [
         answer: "If you took delivery (metal was shipped to you), dealer bankruptcy doesn\u2019t affect you \u2014 you have the metal. If your metal is in the dealer\u2019s storage program, the outcome depends on whether it\u2019s allocated (titled to you at an independent depository, likely recoverable) or unallocated (pooled metal, you\u2019re an unsecured creditor in the bankruptcy). Customers with unfilled orders are typically unsecured creditors and may recover only a portion of what\u2019s owed, or nothing, depending on the estate. This is why delivery or third-party depository storage is preferable to dealer-controlled storage for significant holdings.",
         learnMoreLabel: "What Happens to Your Metals When a Dealer Goes Out of Business",
         learnMoreHref: "/blog/dealer-insolvency-metals",
+        links: [
+          { label: "Paid for Gold That Hasn't Shipped? How Prepaid Orders Fail and How to Protect Yourself", href: "/blog/prepaid-gold-orders-delivery-delays-dealer-bankruptcy" },
+        ],
       },
       {
         question: "What is allocated storage and why does it matter?",
@@ -688,6 +695,8 @@ export const faqCategories: FAQCategory[] = [
           { label: "How to Spot Counterfeit Gold and Silver Coins", href: "/blog/how-to-spot-counterfeit-gold-silver-coins" },
           { label: "Counterfeit Gold Bars: How They Work and How to Protect Yourself", href: "/blog/counterfeit-gold-bars-how-to-protect-yourself" },
           { label: "The “Free Silver” Trap: How Gold IRA Promotions Actually Work", href: "/blog/gold-ira-free-silver-trap" },
+          { label: "No Real Agent Will Ask You to Buy Gold: How the Gold-Bar Courier Scam Works", href: "/blog/gold-bar-courier-scam-government-impersonators-2026" },
+          { label: "Paid for Gold That Hasn't Shipped? How Prepaid Orders Fail and How to Protect Yourself", href: "/blog/prepaid-gold-orders-delivery-delays-dealer-bankruptcy" },
         ],
       },
       {
@@ -739,6 +748,10 @@ export const faqCategories: FAQCategory[] = [
         answer: "The most common are: selling gold or silver at dramatically inflated premiums (50\u2013100% above fair market value) by obscuring the comparison to spot price; pushing \u201Cnumismatic\u201D or \u201Cexclusive\u201D coins with collector premium claims that aren\u2019t supported by the actual market; high-pressure urgency tactics claiming limited allocation or imminent price spikes; and wire-only payment requirements that eliminate dispute mechanisms. A legitimate dealer won\u2019t pressure you and can explain their pricing clearly in writing.",
         learnMoreLabel: "How to Spot a Precious Metals Dealer Scam Before You Lose Money",
         learnMoreHref: "/blog/precious-metals-dealer-scams",
+        links: [
+          { label: "No Real Agent Will Ask You to Buy Gold: How the Gold-Bar Courier Scam Works", href: "/blog/gold-bar-courier-scam-government-impersonators-2026" },
+          { label: "Paid for Gold That Hasn't Shipped? How Prepaid Orders Fail and How to Protect Yourself", href: "/blog/prepaid-gold-orders-delivery-delays-dealer-bankruptcy" },
+        ],
       },
       {
         question: "Is it safe to buy gold online?",

@@ -30,7 +30,6 @@ const columns = [
       { label: "Privacy Policy", href: "/privacy" },
       { label: "Terms of Service", href: "/terms" },
       { label: "Cookie Policy", href: "/cookies" },
-      { label: "Contact", href: "/contact" },
     ],
   },
 ];

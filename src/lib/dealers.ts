@@ -145,7 +145,7 @@ export const dealers: Dealer[] = [
     name: "Rocky Mountain Coin",
     vertical: "local-coin-bullion",
     description:
-      "Colorado\u2019s largest precious metals dealer. In business since 1976 with two locations in Denver and Greenwood Village. Buys and sells gold, silver, and platinum coins, bars, rare coins, paper money, and collectibles. BBB accredited since 1997.",
+      "Precious metals dealer in business since 1976, with two locations in Denver and Greenwood Village. Buys and sells gold, silver, and platinum coins, bars, rare coins, paper money, and collectibles. BBB accredited since 1997.",
     address: "538 S Broadway, Denver, CO 80209",
     city: "Denver",
     citySlug: "denver",
@@ -176,7 +176,7 @@ export const dealers: Dealer[] = [
     name: "Mile High Coin",
     vertical: "local-coin-bullion",
     description:
-      "Coin dealer serving Denver, Aurora, and surrounding areas. BBB A+ rated and accredited with no complaints or litigation. Buys and sells rare coins, numismatics, gold and silver bullion bars and rounds. Offers professional appraisals for collections, estates, and insurance purposes. One-on-one service in a professional office setting.",
+      "Coin dealer serving Denver, Aurora, and surrounding areas. BBB A+ rated and accredited. Buys and sells rare coins, numismatics, gold and silver bullion bars and rounds. Offers professional appraisals for collections, estates, and insurance purposes. One-on-one service in a professional office setting.",
     city: "Aurora",
     citySlug: "aurora",
     state: "Colorado",

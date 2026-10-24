@@ -246,6 +246,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Northwest Territorial Mint’s 2016 bankruptcy left customers out millions. Bullion Direct closed in 2015 with unfilled orders. Whether you recover your metal depends almost entirely on how it was held before the failure.",
     date: "2026-06-30",
+    dateModified: "2026-10-26",
   },
   { slug: "buying-gold-pawn-shop", title: "Buying Gold at a Pawn Shop: When It Makes Sense and When to Walk Away", tag: "Buyer’s Guide", tagColor: "gold", excerpt: "Pawn shops sell gold. Some of it is priced well. Most of it isn’t. Understanding the economics of how pawn shops acquire and price gold-bearing inventory is the filter you need.", date: "2026-06-30" },
   { slug: "silver-industrial-demand", title: "Silver’s Industrial Demand: Why It Behaves Differently Than Gold", tag: "Market Dynamics", tagColor: "gold", excerpt: "Silver’s price behavior differs from gold’s in ways that matter for investors — primarily because of silver’s significant industrial role. Understanding what drives it clarifies why silver is more volatile.", date: "2026-06-30", dateModified: "2026-10-19" },
@@ -359,7 +360,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Buying and selling precious metals is entirely legal — and mostly untriggered by any federal reporting. But two federal forms and one felony statute govern the transactions that do get reported, and confusing them is how ordinary buyers accidentally commit crimes.",
     date: "2026-09-14",
-    dateModified: "2026-09-28",
+    dateModified: "2026-10-26",
   },
   {
     slug: "should-i-buy-platinum-bullion-2026",
@@ -431,7 +432,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "On January 30, 2026, the IRS quietly corrected the 2025-2026 Form 1099-B instructions to remove a misleading example that had suggested individual coin sales might trigger broker reporting. The correction clarified what the rule actually says — and what dealers are and are not required to report when you sell. Here is what changed, what still triggers reporting, and how the separate Form 8300 cash-transaction rule fits.",
     date: "2026-09-28",
-    dateModified: "2026-09-28",
+    dateModified: "2026-10-26",
   },
   {
     slug: "constitutional-money-legal-tender-states-2026",
@@ -503,6 +504,36 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "An American Silver Eagle and a generic silver round can hold the same ounce of silver and still sell at very different prices. Here is how an Eagle's price is built, what the US Mint's 2026 pricing notice actually covered, what Mint sales data shows, and when the extra premium buys you something real.",
     date: "2026-10-19",
+  },
+  {
+    slug: "gold-bar-courier-scam-government-impersonators-2026",
+    title:
+      "No Real Agent Will Ask You to Buy Gold: How the Gold-Bar Courier Scam Works",
+    tag: "Don’t Get Ripped Off",
+    tagColor: "gold",
+    excerpt:
+      "In the gold-bar courier scam, the dealer is real and the gold is genuine. The 'federal agent' who sends a courier to collect it is not. Here is how the scheme unfolds, the red flags, what dealers and family members can do, and where to report it.",
+    date: "2026-10-26",
+  },
+  {
+    slug: "paying-cash-for-gold-form-8300-structuring",
+    title:
+      "Paying Cash for Gold Over $10,000? What Form 8300 Means, and Why Splitting Payments Is a Crime",
+    tag: "Education",
+    tagColor: "forest",
+    excerpt:
+      "When a dealer receives more than $10,000 in cash from you, federal law requires a Form 8300. Here is what counts as cash in a coin or bullion purchase, how related payments add up, what the dealer must tell you, and why breaking a purchase into smaller pieces to avoid the report is a federal crime.",
+    date: "2026-10-26",
+  },
+  {
+    slug: "prepaid-gold-orders-delivery-delays-dealer-bankruptcy",
+    title:
+      "Paid for Gold That Hasn't Shipped? How Prepaid Orders Fail and How to Protect Yourself",
+    tag: "Investor Protection",
+    tagColor: "gold",
+    excerpt:
+      "Between the day you pay and the day metal arrives, you don't own gold. You hold a promise. Here is how prepaid orders and buyback promises fail, what one 2026 bankruptcy filing shows about the mechanics, and the practical steps that protect you before you pay and after a dealer stops shipping.",
+    date: "2026-10-26",
   },
 ];
 

@@ -3176,13 +3176,13 @@ const blogContent: Record<string, React.ReactNode> = {
         <strong>Delivered (in your possession):</strong> You bought metal, it was shipped, you have it. Dealer failure is irrelevant. This is the cleanest position.
       </p>
       <p>
-        <strong>Allocated storage:</strong> Your specific metal &mdash; your specific serial-numbered bars or coins &mdash; is segregated and titled in your name at the storage facility. If the dealer fails, you have a direct ownership claim on specific, identifiable metal. A trustee in bankruptcy should return it to you as a secured creditor.
+        <strong>Allocated storage:</strong> Your specific metal &mdash; your specific serial-numbered bars or coins &mdash; is segregated and titled in your name at the storage facility. If the dealer fails, properly documented allocated metal is generally treated as your property, not the dealer&apos;s, rather than as part of the dealer&apos;s bankruptcy estate. Outcomes depend on the records, including how the metal is titled, segregated, and tracked.
       </p>
       <p>
         <strong>Unallocated storage:</strong> You have a general claim on a pool of metal. You don&apos;t own specific bars &mdash; you own a right to a certain quantity of metal held in a commingled account. If the dealer fails, you become an unsecured creditor of the estate, lining up with everyone else.
       </p>
       <p>
-        <strong>Segregated storage at a third-party depository:</strong> The best structure &mdash; your allocated metal is held not by the dealer but by a separate, independent depository (Brinks, Delaware Depository, IDS of Utah). Even if the dealer completely ceases to exist, your metal is at the depository in your name.
+        <strong>Segregated storage at a third-party depository:</strong> The best structure &mdash; your allocated metal is held not by the dealer but by a separate, independent depository (Brinks, Delaware Depository, IDS of Utah). If the dealer ceases to exist, the metal is generally still at the depository in your name, provided the depository&apos;s records support it.
       </p>
 
       <h2>The Unfilled Order Problem</h2>
@@ -3223,7 +3223,7 @@ const blogContent: Record<string, React.ReactNode> = {
 
       <h2>The Baseline Recommendation</h2>
       <p>
-        Physical metal in your possession has no counterparty risk. Physical metal at an independent, allocated third-party depository has minimal counterparty risk. Metal at a dealer-controlled facility or in an unallocated pool with a dealer has meaningful counterparty risk that most buyers don&apos;t evaluate before they need to. Know which of these categories your holdings fall into.
+        Physical metal in your possession has reduced counterparty risk, though not zero: you still depend on safe storage and on a market to sell into. Physical metal at an independent, allocated third-party depository has reduced counterparty risk, though it still depends on the depository and its records. Metal at a dealer-controlled facility or in an unallocated pool with a dealer has meaningful counterparty risk that most buyers don&apos;t evaluate before they need to. Know which of these categories your holdings fall into.
       </p>
       <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
         GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver, and we do not receive compensation from any dealer listed on this site. This article is for educational purposes only and does not constitute investment advice.
@@ -4342,43 +4342,22 @@ const blogContent: Record<string, React.ReactNode> = {
         This is where dealer marketing sometimes gets creative. &ldquo;No 1099 on this product&rdquo; is often technically true &mdash; for the specific reportable-product list &mdash; but it does not mean the sale is untaxed. All capital gains on the sale of precious metals are taxable regardless of whether a 1099 is filed. The 1099 is a reporting mechanism to the IRS, not the trigger for the tax obligation.
       </p>
 
-      <h2>What Triggers a Form 8300 When You Buy</h2>
+      <h2>Form 8300 and Structuring: The Short Version</h2>
       <p>
-        Form 8300 is a different animal. It&apos;s filed by dealers who <strong>receive</strong> cash payments over $10,000 in a single transaction, or in related transactions, from a single buyer. This is a federal anti-money-laundering requirement, not a precious-metals-specific rule &mdash; the same form applies to car dealers, jewelers, and other businesses receiving large cash payments.
-      </p>
-      <p>Important definitional points:</p>
-      <ul>
-        <li><strong>&ldquo;Cash&rdquo; for Form 8300 purposes includes cash equivalents</strong> &mdash; cashier&apos;s checks, money orders, bank drafts, and traveler&apos;s checks under $10,000 each. Personal checks and wire transfers are generally not treated as &ldquo;cash&rdquo; for this purpose.</li>
-        <li><strong>Related transactions are aggregated.</strong> Two $6,000 cash purchases in a 24-hour window at the same dealer trigger Form 8300 the same as one $12,000 purchase.</li>
-        <li><strong>The reporting is not optional</strong> for the dealer. A dealer receiving over $10,000 in cash and not filing Form 8300 is committing a federal violation.</li>
-      </ul>
-      <p>
-        Form 8300 filings are not tax returns. They don&apos;t affect your tax liability. They&apos;re an information report that the buyer received a large cash payment. Most buyers never know a form was filed unless they ask.
-      </p>
-
-      <h2>The Felony Trap: Structuring Under 31 U.S.C. &sect; 5324</h2>
-      <p>This is where the trouble usually starts.</p>
-      <p>
-        Someone learns about the $10,000 Form 8300 threshold. They decide they don&apos;t want their purchase reported &mdash; not because they&apos;re doing anything illegal, but because they simply prefer privacy. So they split a $15,000 cash purchase into two $7,500 purchases across two days, or across two dealers.
+        Form 8300 is the report a business files when it receives <strong>more than $10,000</strong> in cash in one transaction or in related transactions. It is an anti-money-laundering information report, not a tax return, and it does not create a tax obligation for the buyer. The dealer files it, not the customer. For this rule, &ldquo;cash&rdquo; means currency, plus cashier&apos;s checks, money orders, bank drafts, and traveler&apos;s checks that have a face amount of $10,000 or less and are received in designated reporting transactions. Personal checks and wire transfers are not cash for this purpose. The business must give the customer a written statement by January 31 of the following year, and may file voluntarily on a suspicious transaction of $10,000 or less.
       </p>
       <p>
-        That splitting is a federal felony called <strong>structuring</strong>, defined at 31 U.S.C. &sect; 5324. The statute makes it a crime to &ldquo;structure any transaction with one or more domestic financial institutions&rdquo; &mdash; or, as expanded by regulation, with businesses subject to the Form 8300 requirement &mdash; for the purpose of evading the reporting threshold. The penalties include up to five years in federal prison, or up to ten if committed as part of a pattern.
-      </p>
-      <p>The critical points to understand:</p>
-      <ul>
-        <li><strong>The underlying purchase can be entirely legal.</strong> Structuring is a separate crime tied to the intent to evade reporting, not to the source or purpose of the funds.</li>
-        <li><strong>The intent standard is subjective but provable.</strong> Prosecutors typically establish structuring intent through pattern evidence (repeated purchases just below the threshold), witness statements (&ldquo;I don&apos;t want this reported&rdquo;), or written communications discussing the threshold.</li>
-        <li><strong>Dealer complicity is separately prosecutable.</strong> A dealer who helps a customer structure &mdash; by splitting an obvious single transaction, for example &mdash; faces charges alongside the customer.</li>
-        <li><strong>This has been prosecuted against ordinary people</strong>, not just money launderers. Small business owners, retirees, and precious metals customers have all been charged.</li>
-      </ul>
-      <p>
-        The simple rule: if you&apos;re paying cash and the total is $10,000 or more, let the dealer file the Form 8300. It&apos;s an information report. It does not create a tax obligation. It does not put you on a criminal-suspect list. Attempting to avoid it is far worse than complying with it.
+        Splitting a purchase to keep a business from filing is called <strong>structuring</strong>. It is prohibited by statute, including{" "}
+        <a href="https://www.law.cornell.edu/uscode/text/31/5324" target="_blank" rel="noopener noreferrer">31 U.S.C. &sect; 5324</a>
+        , it carries criminal penalties, it can apply even when the money is legitimate, and it can reach anyone who helps. For the full rules, including how related payments add up, see our guide to{" "}
+        <Link href="/blog/paying-cash-for-gold-form-8300-structuring" className="text-gold font-semibold">Form 8300 and structuring</Link>
+        .
       </p>
 
       <h2>The Privacy That Actually Exists</h2>
       <p>Legitimate privacy in precious metals transactions is available, and much of it is built into the system.</p>
       <ul>
-        <li><strong>Cash purchases under $10,000</strong> are not reportable via Form 8300. The dealer keeps records, but no federal form is generated.</li>
+        <li><strong>Cash purchases of $10,000 or less</strong> generally do not require a Form 8300. The dealer keeps records, and may file voluntarily on a transaction it considers suspicious.</li>
         <li><strong>Purchases of non-reportable products</strong> at any dollar amount, paid by check, wire, or credit card, don&apos;t trigger 1099-B on the eventual sale.</li>
         <li><strong>Sales of amounts below the reportable thresholds</strong> are not 1099-reported, though the capital gains tax still applies.</li>
         <li><strong>Sales to non-dealer private parties</strong> are not 1099-reported (though again, the capital gains tax still applies).</li>
@@ -4390,8 +4369,8 @@ const blogContent: Record<string, React.ReactNode> = {
       <h2>What Legitimate Dealers Will Tell You</h2>
       <p>A dealer operating professionally will:</p>
       <ul>
-        <li>File Form 8300 on any cash payment over $10,000, without exception</li>
-        <li>File Form 1099-B on reportable sales, without exception</li>
+        <li>File Form 8300 when the cash rules require it</li>
+        <li>File Form 1099-B on reportable sales</li>
         <li>Refuse to structure transactions to avoid either report</li>
         <li>Answer straightforwardly when asked what triggers reporting on a specific product</li>
         <li>Not use &ldquo;no reporting&rdquo; as a marketing hook that implies &ldquo;no taxes&rdquo;</li>
@@ -4422,11 +4401,13 @@ const blogContent: Record<string, React.ReactNode> = {
       </p>
       <h3>What does Form 8300 do, and when is it filed?</h3>
       <p>
-        Form 8300 is filed by a dealer receiving more than $10,000 in cash (including cashier&apos;s checks, money orders, and other cash equivalents under $10,000 each) in a single transaction or in related transactions. It&apos;s a federal anti-money-laundering information report &mdash; not a tax return. Personal checks and wire transfers generally don&apos;t trigger Form 8300. The filing does not create any tax obligation for the buyer.
+        Form 8300 is filed by a business that receives more than $10,000 in cash in a single transaction or in related transactions. Cashier&apos;s checks, money orders, and similar instruments count as cash only at $10,000 or less and only in designated reporting transactions. It is an anti-money-laundering information report, not a tax return, and it does not create a tax obligation for the buyer. Personal checks and wire transfers are not cash for this purpose. See our{" "}
+        <Link href="/blog/paying-cash-for-gold-form-8300-structuring" className="text-gold font-semibold">Form 8300 guide</Link>
+        {" "}for the full rules.
       </p>
       <h3>Is it legal to break a large cash purchase into two smaller ones to avoid Form 8300?</h3>
       <p>
-        No. This is called <strong>structuring</strong> and is a federal felony under 31 U.S.C. &sect; 5324, punishable by up to 5 years in prison (10 if part of a pattern). The underlying purchase can be entirely legal &mdash; structuring is a separate crime tied to the intent to evade the reporting requirement. If a dealer suggests splitting a transaction to stay under the threshold, that dealer is asking you to commit a felony and may be committing one themselves.
+        No. Breaking up a purchase to keep a business from filing a required report is called <strong>structuring</strong>. It is prohibited by statute (31 U.S.C. &sect; 5324(b) covers transactions with nonfinancial businesses) and carries criminal penalties. The underlying purchase can be entirely legal; structuring is a separate offense tied to the purpose of evading the report. If a dealer suggests splitting a transaction to stay under the threshold, that is a warning sign.
       </p>
       <h3>If no 1099 is filed on my sale, do I still owe capital gains tax?</h3>
       <p>
@@ -5437,20 +5418,19 @@ const blogContent: Record<string, React.ReactNode> = {
       </p>
       <h2>Form 8300: the cash-transaction rule that is not the same thing</h2>
       <p>
-        A separate but frequently-conflated reporting rule is <strong><a href="https://www.irs.gov/businesses/small-businesses-self-employed/form-8300-and-reporting-cash-payments-of-over-10000" target="_blank" rel="noopener noreferrer">Form 8300</a></strong>, which precious metals dealers (like other businesses) must file when they receive cash payments of <strong>$10,000 or more</strong> in a single transaction or in related transactions. Form 8300 is filed with FinCEN and the IRS, and it applies regardless of what is being sold.
-      </p>
-      <p>
-        Form 8300 is an anti-money-laundering rule, not a tax reporting rule. It applies to the dealer receiving cash from a buyer of precious metals &mdash; not to a dealer buying metals from a customer. So the two reporting rules operate in opposite directions:
+        A separate but frequently conflated reporting rule is <strong><a href="https://www.irs.gov/businesses/small-businesses-self-employed/form-8300-and-reporting-cash-payments-of-over-10000" target="_blank" rel="noopener noreferrer">Form 8300</a></strong>, which a business files when it receives <strong>more than $10,000</strong> in cash in a single transaction or in related transactions. It is an anti-money-laundering report, not a tax reporting rule, and it applies to the dealer receiving cash from a buyer, not to a dealer buying metal from a customer. The two rules operate in opposite directions:
       </p>
       <ul>
         <li><strong>1099-B</strong> covers a customer selling reportable-quantity metals to a dealer. The dealer reports the sale proceeds.</li>
-        <li><strong>Form 8300</strong> covers a customer paying $10,000+ in cash to a dealer to buy metals. The dealer reports the cash receipt.</li>
+        <li><strong>Form 8300</strong> covers a customer paying more than $10,000 in cash to a dealer to buy metals. The dealer reports the cash receipt.</li>
       </ul>
       <p>
-        &ldquo;Cash&rdquo; for Form 8300 purposes includes physical currency, cashier&apos;s checks, money orders, bank drafts, and traveler&apos;s checks &mdash; but does not include personal checks, wire transfers, or credit card payments. This matters because a common misconception is that any $10,000 precious metals transaction triggers Form 8300. It does not. A $10,000 wire transfer for a gold purchase generates no Form 8300 filing.
+        &ldquo;Cash&rdquo; for this rule is currency, plus cashier&apos;s checks, money orders, bank drafts, and traveler&apos;s checks that have a face amount of $10,000 or less and are received in designated reporting transactions. Personal checks, wire transfers, and credit card payments are not cash for this purpose, so a $10,000 wire transfer for a gold purchase generates no Form 8300. The business must give the customer a written statement by January 31 of the following year, and may file voluntarily on a suspicious transaction of $10,000 or less.
       </p>
       <p>
-        Structuring cash transactions to stay under $10,000 (paying $9,500 today and $8,000 next week for related purchases) is a federal crime independent of any tax issue. Dealers who receive structured payments have their own reporting and legal obligations.
+        Splitting payments to keep a business from filing is called structuring. The ban is statutory (31 U.S.C. &sect; 5324), applies even when the money is legitimate, and is separate from any tax issue. For the full rules, see our guide to{" "}
+        <Link href="/blog/paying-cash-for-gold-form-8300-structuring" className="text-gold font-semibold">Form 8300 and structuring</Link>
+        .
       </p>
       <h2>The Form 1099-K and Form 1099-MISC updates that also affect 2026</h2>
       <p>
@@ -6692,6 +6672,266 @@ const blogContent: Record<string, React.ReactNode> = {
         </Link>{" "}
         to compare pricing across dealers in your area.
       </p>
+    </>
+  ),
+  "gold-bar-courier-scam-government-impersonators-2026": (
+    <>
+      <p>Most gold scams involve something fake: a counterfeit bar, a phony dealer, a storage account that doesn&apos;t exist. This one is different, and that is why it works.</p>
+      <p>In the gold-bar courier scam, the dealer is real. The coins and bars are real. The victim pays a fair price, takes delivery of genuine metal, and then hands it to a stranger who claims to be working for the government. The only fake thing in the whole transaction is the person on the phone.</p>
+      <p>Federal and state officials have been warning about this pattern for more than two years. On August 7, 2026, New York Attorney General Letitia James <a href="https://ag.ny.gov/press-release/2026/attorney-general-james-warns-new-yorkers-gold-bar-scam-targeting-seniors" target="_blank" rel="noopener noreferrer">issued a consumer alert</a> stating that the New York City Police Department has investigated more than 100 gold bar scam cases over the past two years, with total losses exceeding $100 million. The FBI&apos;s Internet Crime Complaint Center (IC3) <a href="https://www.ic3.gov/PSA/2024/PSA240129" target="_blank" rel="noopener noreferrer">warned in January 2024</a> that from May to December 2023 alone, it saw an uptick in courier pickups of cash and precious metals with aggregated losses of over $55 million, and that many of the victims were senior citizens.</p>
+      <h2>The one sentence to remember</h2>
+      <p>Before the details, here is the rule that defeats the entire scheme:</p>
+      <p><strong>No real government agent will ever ask you to buy gold, move your money to protect it, or hand cash or metal to a courier.</strong></p>
+      <p>This comes straight from the agencies. The Federal Trade Commission&apos;s July 17, 2025 alert is titled <a href="https://consumer.ftc.gov/consumer-alerts/2025/07/real-government-agents-arent-asking-you-buy-and-deliver-gold-bars" target="_blank" rel="noopener noreferrer">&quot;Real government agents aren&apos;t asking you to buy and deliver gold bars&quot;</a>, and it says that no one from the government will ask you to buy gold bars, move your money, or give cash to anyone. The FBI&apos;s public service announcement says the same thing: &quot;The US Government and legitimate businesses will never request you purchase gold or other precious metals.&quot;</p>
+      <p>If anyone claiming to be from the FTC, the FBI, the Treasury, or your bank&apos;s &quot;fraud department&quot; tells you to convert savings into gold, it is a scam, every time.</p>
+      <h2>How the scheme unfolds</h2>
+      <p>The details vary, but the official warnings describe a consistent arc.</p>
+      <p><strong>Step 1: The scare.</strong> According to the New York Attorney General, these scams usually start with a fake pop-up on the victim&apos;s computer, designed to resemble a legitimate cybersecurity warning, claiming the computer or financial accounts have been compromised or linked to criminal activity. The pop-up gives a phone number to call. The FTC alert describes other openers: an unexpected call, text, or email claiming a bank account was hacked, or that the person&apos;s name and Social Security number are tied to crimes.</p>
+      <p><strong>Step 2: Remote access and &quot;evidence.&quot;</strong> The scammer persuades the victim to allow remote access to the computer. The New York alert says scammers then create fake evidence of hacking activity on the victim&apos;s computer to make the threat feel real.</p>
+      <p><strong>Step 3: The handoff to a fake official.</strong> The victim is transferred to someone posing as a law enforcement officer or government investigator. The FBI notes that scammers sometimes use a multi-layered approach, posing in succession as a technology company, a financial institution, and a U.S. government official. Each new voice adds credibility.</p>
+      <p><strong>Step 4: The instruction to buy gold.</strong> The fake official says the victim&apos;s money is in danger and the only way to protect it is to withdraw savings and buy gold bars or coins. The New York alert specifies that victims are told to purchase from <em>legitimate</em> dealers. The FBI adds a variation: sometimes the scammers tell victims to wire funds to a metal dealer, who then ships the precious metals to the victim&apos;s home.</p>
+      <p><strong>Step 5: Secrecy.</strong> Victims are told to keep the matter confidential and not to discuss it with bank employees or family members, per the New York alert. This instruction does two jobs. It cuts the victim off from the people most likely to recognize the scam, and it makes the victim feel like part of a sensitive investigation.</p>
+      <p><strong>Step 6: The courier.</strong> Once the victim has the metal, a courier arrives to collect it, at the victim&apos;s home or at a public location. The FBI says scammers may have the victim authenticate the courier with a passcode, such as the serial number of a U.S. dollar bill. The victim is told the gold will be held in a protected account in their name. In the FBI&apos;s words: &quot;In reality, victims never hear back from the scammers and lose all their money.&quot;</p>
+      <p><strong>Step 7: Repeat.</strong> The first pickup &quot;went fine,&quot; so the victim may be walked through it again.</p>
+      <h2>What one reported case looked like</h2>
+      <p>A case reported in October 2026 shows how far this can go. According to <a href="https://hoodline.com/2026/10/boardman-woman-hands-over-1-8m-in-gold-coins-to-fake-ftc-agents/" target="_blank" rel="noopener noreferrer">an account published by Hoodline</a>, drawing on reporting by KFOR, a woman in Boardman, Ohio told police that she lost more than $1.8 million in gold coins. As reported, the scheme began in April 2026 with a pop-up that prompted her to call what she believed was Microsoft support. She was transferred to a man claiming to represent the Federal Trade Commission, who told her to convert her cash into gold to keep it safe. She was reportedly directed to pack coins in a box, meet an &quot;officer&quot; in a store parking lot, and use a code word, and she made multiple handoffs over the following months before a detective told her she had been the victim of a scam. The report says none of the gold had been recovered.</p>
+      <p>Those details come from press accounts of a police report, not a court record, and the investigation was described as ongoing. But every element matches the pattern the agencies describe.</p>
+      <h2>Why it&apos;s so hard to catch</h2>
+      <p>Gold packs a lot of value into a small box that can change hands in a parking lot. And because the victim buys real metal from a real business, nothing about the purchase itself looks fraudulent on paper. A dealer can get every part of the sale right and still be the unwitting first stop in a theft. The weak point is the story the buyer has been told.</p>
+      <p>Physical metal is no shield here, either. Gold in your possession reduces counterparty risk compared with paper assets, but it does nothing to protect you from a person you voluntarily hand it to.</p>
+      <h2>Red flags for the person being targeted</h2>
+      <p>If any of these happen to you, stop and hang up:</p>
+      <ul>
+        <li>A pop-up, text, or email tells you to call a number about a hacked computer or account.</li>
+        <li>Anyone asks for remote access to your computer.</li>
+        <li>A caller transfers you to a &quot;government agent&quot; or &quot;fraud investigator.&quot;</li>
+        <li>You&apos;re told your money is unsafe in your bank and must be moved or converted.</li>
+        <li>You&apos;re told to buy gold, silver, or any precious metal for &quot;safekeeping.&quot;</li>
+        <li>You&apos;re told not to tell your bank, your family, or the dealer why you&apos;re buying.</li>
+        <li>You&apos;re given a passcode, code word, or serial number to confirm a courier.</li>
+        <li>You&apos;re told to meet someone in a parking lot or to leave a package for pickup.</li>
+      </ul>
+      <p>The New York Attorney General&apos;s tips are blunt and worth following exactly:</p>
+      <ul>
+        <li>Do not call the number provided in a pop-up, text, or email.</li>
+        <li>Never give someone you don&apos;t know remote access to your computer.</li>
+        <li>Never move money out of your bank account at the urging of someone over the phone.</li>
+        <li>If someone claims there is a problem with your bank account, hang up and call the number printed on your bank statement.</li>
+      </ul>
+      <p>The alert also names the lever every one of these scams pulls: a false sense of urgency, combined with an oath of secrecy. The antidote is to slow down and tell someone you trust.</p>
+      <h2>What dealers and their counter staff can do</h2>
+      <p>Dealers sit at the one point in this scheme where an outsider sees the victim face to face, or at least hears their voice on an order call. Nothing in the official alerts imposes a new legal duty on dealers, but counter staff are often the last people who can interrupt the story before the gold leaves the building. Signs worth a second look:</p>
+      <ul>
+        <li>A first-time buyer making an unusually large purchase, often with cash or a cashier&apos;s check drawn the same day.</li>
+        <li>A buyer who seems frightened, rushed, or is on the phone with someone while ordering.</li>
+        <li>A buyer who says they are buying because of a problem with their bank or a government investigation.</li>
+        <li>A buyer who won&apos;t say why they&apos;re buying, or says they&apos;ve been told not to.</li>
+        <li>Questions about how quickly they can take the metal away, or requests to have it ready for someone else to collect.</li>
+        <li>Repeat visits in a short period, each &quot;to protect&quot; more savings.</li>
+      </ul>
+      <p>What staff can do in that moment:</p>
+      <ul>
+        <li><strong>Ask an open question.</strong> &quot;What are you planning to do with it?&quot; is ordinary conversation. A coached buyer may give a scripted answer, or hesitate.</li>
+        <li><strong>Say the sentence out loud.</strong> &quot;No government agency asks people to buy gold. If someone on the phone told you to, that&apos;s a scam.&quot; Hearing it from a neutral professional sometimes breaks the spell.</li>
+        <li><strong>Offer a pause.</strong> Suggest the buyer call their bank at the number on their statement, or a family member, before completing the purchase.</li>
+        <li><strong>Know where to send them.</strong> Keep the IC3 address and the DOJ Elder Justice Hotline number handy (see the reporting section).</li>
+      </ul>
+      <p>Because the FBI says scammers sometimes have dealers ship directly to the victim&apos;s home, phone and online sales staff should listen for the same signals.</p>
+      <h2>What family members can do</h2>
+      <p>Secrecy is the scam&apos;s engine, so the most effective defense is a conversation that happens before the phone call does.</p>
+      <ul>
+        <li><strong>Name the scam in advance.</strong> Tell older relatives, plainly, that no government agency will ever ask them to buy gold or hand anything to a courier. The FTC and FBI both say so.</li>
+        <li><strong>Agree on a check-in rule.</strong> &quot;Before you move more than a set amount of money for any reason, call me first.&quot; Pick a number that fits the family. The point is the habit, not the figure.</li>
+        <li><strong>Watch for sudden changes.</strong> Unexplained large withdrawals, new interest in buying gold, packages from a dealer, unusual secrecy about phone calls, or new remote-access software on a computer.</li>
+        <li><strong>Treat secrecy as the alarm.</strong> If a relative says they can&apos;t tell you what&apos;s going on because &quot;the investigators said not to,&quot; that is the clearest sign of all.</li>
+        <li><strong>Be the safe call.</strong> Someone who has already handed over metal may be embarrassed. Make it easy to tell you; the scammers are counting on shame.</li>
+      </ul>
+      <h2>If it&apos;s already happening</h2>
+      <p>If you, or someone you&apos;re helping, has already bought gold or handed some over:</p>
+      <ul>
+        <li><strong>Stop all contact with the &quot;agent.&quot;</strong> Don&apos;t hand over anything else, no matter what you&apos;re told about the earlier pickups.</li>
+        <li><strong>Call your bank</strong> at the number printed on your statement, and tell them what happened.</li>
+        <li><strong>Tell the dealer.</strong> If metal was purchased or shipped, the dealer&apos;s records of the order and payment will matter to investigators.</li>
+        <li><strong>Write everything down</strong> while it&apos;s fresh: names used, phone numbers, websites, dates and places of pickups, any code words, and descriptions of couriers and vehicles.</li>
+      </ul>
+      <h2>How to report it</h2>
+      <p>The FBI asks victims to report to IC3 &quot;as quickly as possible,&quot; and lists what to include. Report to:</p>
+      <ul>
+        <li><strong>Local police.</strong> The New York Attorney General encourages New York City residents to contact their local NYPD precinct. Wherever you live, a police report creates a record and may connect your case to others.</li>
+        <li><strong>FBI IC3</strong> at <a href="https://www.ic3.gov/" target="_blank" rel="noopener noreferrer">ic3.gov</a>. The FBI asks for the name of the person or company that contacted you; the methods of communication, including websites, emails, and phone numbers; any bank accounts you wired money to and the recipient names; and, if you were told to buy precious metals, the name and location of the metal dealer and the account you wired funds to.</li>
+        <li><strong>DOJ Elder Justice Hotline.</strong> Per the FBI, victims aged 60 or over who need help filing an IC3 complaint can call 1-833-FRAUD-11 (833-372-8311).</li>
+        <li><strong>The FTC</strong> at <a href="https://reportfraud.ftc.gov/" target="_blank" rel="noopener noreferrer">ReportFraud.ftc.gov</a>, as the FTC alert recommends.</li>
+        <li><strong>Your state attorney general.</strong> New Yorkers can file a complaint with the Office of the Attorney General online or by calling 1-800-771-7755, per the August 2026 alert. Other states&apos; attorneys general can be found through <a href="https://www.usa.gov/state-attorney-general" target="_blank" rel="noopener noreferrer">USA.gov</a>.</li>
+      </ul>
+      <p>Recovery is not guaranteed, but speed matters: a single report can help link cases.</p>
+      <h2>Buying gold the normal way</h2>
+      <p>None of this makes buying gold dangerous. A legitimate purchase starts with <em>your</em> decision, made on your own schedule, for your own reasons. Our guide to <Link href="/blog/how-to-start-buying-gold-silver-2026" className="text-gold font-semibold">how to start buying gold and silver</Link> covers the basics, our overview of <Link href="/blog/precious-metals-dealer-scams" className="text-gold font-semibold">common precious metals dealer scams</Link> covers frauds that do involve fake dealers and fake products, and <Link href="/blog/storing-gold-silver-safely" className="text-gold font-semibold">storing gold and silver safely</Link> covers where to keep metal once you own it.</p>
+      <p>And if anyone tells you the government needs you to buy gold, you now know exactly what&apos;s happening.</p>
+    </>
+  ),
+  "paying-cash-for-gold-form-8300-structuring": (
+    <>
+      <p>Buying gold or silver with cash is legal. Federal law doesn&apos;t cap how much cash you can spend on metal, and it doesn&apos;t treat a cash buyer as a suspect. What it does is require the business that takes a large cash payment to report it.</p>
+      <p>That report is Form 8300, often called &quot;the $10,000 rule.&quot; The real rule is more specific, and the details matter for coins and bullion: &quot;cash&quot; is broader in a metals purchase than in many others, separate payments can be added together, and trying to keep a purchase under the line is itself a federal crime.</p>
+      <p>This article explains the rule as written in the statute, the Treasury regulations, and the IRS&apos;s own <a href="https://www.irs.gov/businesses/small-businesses-self-employed/irs-form-8300-reference-guide" target="_blank" rel="noopener noreferrer">Form 8300 reference guide</a> (last updated July 27, 2026). It is general education, not tax or legal advice. It covers the buying side. For what dealers report when you <em>sell</em> metal, see our guides to <Link href="/blog/1099-b-precious-metals-reporting" className="text-gold font-semibold">Form 1099-B and precious metals reporting</Link> and the <Link href="/blog/1099-b-reporting-precious-metals-2026-irs-correction" className="text-gold font-semibold">2026 IRS correction to the 1099-B instructions</Link>.</p>
+      <h2>What Form 8300 is, and where the rule comes from</h2>
+      <p>Form 8300, &quot;Report of Cash Payments Over $10,000 Received in a Trade or Business,&quot; is a joint IRS and FinCEN form. It satisfies two parallel statutes:</p>
+      <ul>
+        <li><strong><a href="https://www.law.cornell.edu/uscode/text/26/6050I" target="_blank" rel="noopener noreferrer">26 U.S.C. § 6050I</a></strong>, in the Internal Revenue Code, requires any person engaged in a trade or business who receives more than $10,000 in cash in one transaction, or in two or more related transactions, to file a return.</li>
+        <li><strong><a href="https://www.law.cornell.edu/uscode/text/31/5331" target="_blank" rel="noopener noreferrer">31 U.S.C. § 5331</a></strong>, part of the Bank Secrecy Act, imposes a parallel report for nonfinancial trades or businesses that receive more than $10,000 in coins or currency.</li>
+      </ul>
+      <p>The detailed rules are in the Treasury regulation at <a href="https://www.ecfr.gov/current/title-26/section-1.6050I-1" target="_blank" rel="noopener noreferrer">26 C.F.R. § 1.6050I-1</a>. FinCEN&apos;s regulation at 31 C.F.R. § 1010.330 points to that same IRS regulation and the same form.</p>
+      <p>Three features of the threshold are worth getting exactly right:</p>
+      <ul>
+        <li><strong>&quot;More than $10,000.&quot;</strong> A payment of exactly $10,000 doesn&apos;t cross the line. One dollar more does.</li>
+        <li><strong>The dealer files, not you.</strong> The obligation falls on the business that receives the cash.</li>
+        <li><strong>It applies to a trade or business.</strong> The IRS guide gives the example of an individual who sells his own car for $11,000 in cash. He isn&apos;t in the business of selling cars, so he has no filing obligation. A private sale between two collectors works the same way. A coin shop or bullion dealer is in the business, so it does.</li>
+      </ul>
+      <p>The IRS describes the purpose plainly: the information &quot;assists law enforcement in its anti-money laundering efforts&quot; and gives authorities an audit trail. Form 8300 is an information report. It isn&apos;t a tax bill, and a dealer filing one isn&apos;t an accusation.</p>
+      <h2>What counts as &quot;cash&quot; when you buy coins or bullion</h2>
+      <p>This is where metals purchases differ from many everyday transactions.</p>
+      <p><strong>Currency always counts.</strong> Under the regulation, cash includes the coin and currency of the United States or of any other country.</p>
+      <p><strong>Certain monetary instruments also count.</strong> A cashier&apos;s check (including a treasurer&apos;s check or bank check), bank draft, traveler&apos;s check, or money order with a face amount of $10,000 or less is treated as cash if it is received in a <strong>designated reporting transaction</strong>, or in any transaction where the business knows the instrument is being used to try to avoid the report.</p>
+      <p><strong>A coin or bullion purchase is usually a designated reporting transaction.</strong> The regulation defines a designated reporting transaction as a <em>retail sale</em> of a consumer durable, a collectible, or a travel or entertainment activity. &quot;Collectible&quot; is defined by reference to the Internal Revenue Code&apos;s list in § 408(m)(2), which includes any metal, gem, stamp, or coin, and the regulation applies that list <strong>without</strong> the IRA bullion exception in § 408(m)(3). So for Form 8300 purposes, a bullion bar or coin is a collectible even if it would be IRA-eligible.</p>
+      <p>&quot;Retail sale&quot; has its own definition: a sale made in the course of a trade or business that principally consists of making sales to ultimate consumers. A typical coin shop or retail bullion dealer fits that description.</p>
+      <p>The regulation includes an example that could have been written for this site. A buyer purchases gold coins from a coin dealer for $13,200, paying $6,200 in currency and a $7,000 cashier&apos;s check. Because the sale is a designated reporting transaction, the cashier&apos;s check is treated as cash, the dealer has received more than $10,000 in cash, and the dealer must file.</p>
+      <p><strong>What generally doesn&apos;t count as cash:</strong></p>
+      <ul>
+        <li>A personal check drawn on the writer&apos;s own account.</li>
+        <li>A cashier&apos;s check, bank draft, traveler&apos;s check, or money order with a face amount of <strong>more than</strong> $10,000. (The bank that issued it has its own reporting rules if it was bought with currency. The IRS guide notes that a financial institution issuing such an instrument for more than $10,000 in currency files a Currency Transaction Report.)</li>
+        <li>A wire or other transfer of funds from a financial institution.</li>
+      </ul>
+      <p>The regulation also has narrow exceptions, such as an instrument that represents the proceeds of a bank loan, or one received under certain installment or down-payment plans the business uses in the ordinary course. The IRS guide lists them.</p>
+      <h2>When separate payments add up</h2>
+      <p>A purchase can&apos;t be made &quot;smaller&quot; by dividing it. The rules aggregate in three ways.</p>
+      <p><strong>Related transactions within 24 hours.</strong> Under the regulation, transactions between the same payer (or the payer&apos;s agent) and the same business within a 24-hour period are related. The IRS guide stresses that this means 24 hours, not a calendar day or a banking day.</p>
+      <p><strong>Related transactions over a longer period.</strong> Transactions more than 24 hours apart are still related if the business &quot;knows or has reason to know&quot; that each is one of a series of connected transactions. The regulation&apos;s own example involves a coin dealer: a customer buys $9,000 of gold coins for cash on three successive days. If the dealer knows or has reason to know the purchases are connected, they are related transactions totaling $27,000.</p>
+      <p><strong>One transaction is one transaction.</strong> The regulation says a transaction &quot;may not be divided into multiple transactions in order to avoid reporting.&quot; Its example is a person with a tacit agreement to buy $36,000 of gold bullion from a dealer. That&apos;s a single transaction, and recasting it as four $9,000 sales doesn&apos;t change the reporting.</p>
+      <p><strong>Installment payments and the 12-month count.</strong> If a single purchase is paid for in cash installments, the business adds the first payment and later payments received within one year of it. When the total exceeds $10,000, the business must file within 15 days of the payment that pushed it over. After filing, a new count begins. If more than $10,000 in additional cash payments arrives within a 12-month period, the business must file again.</p>
+      <h2>What the dealer must do, and what you&apos;ll receive</h2>
+      <p>When a dealer is required to file, the IRS guide and the regulation set out the following:</p>
+      <ul>
+        <li><strong>Collect your identifying information</strong>, including your taxpayer identification number (usually your Social Security number). If a buyer refuses, the IRS guide tells the business to note &quot;customer refused&quot; on the form and encourages businesses to document the attempt.</li>
+        <li><strong>File within 15 days</strong> after receiving the cash. If the 15th day falls on a weekend or holiday, the deadline moves to the next business day. Many businesses must file electronically through FinCEN&apos;s BSA E-Filing System.</li>
+        <li><strong>Give you a written statement</strong> by January 31 of the year after the year of the cash payment. The statement must include the business&apos;s name and address, a contact person and phone number, the total reportable cash received from you in the 12-month period, and a statement that the information is being furnished to the IRS. A dealer may use its invoice as the statement if the invoice includes all the required items.</li>
+        <li><strong>Keep records</strong> of each Form 8300, supporting documents, and the customer statement for at least five years.</li>
+      </ul>
+      <p>That January notice is a legal requirement, not a sign that anything is wrong.</p>
+      <h2>The &quot;suspicious transaction&quot; box</h2>
+      <p>Form 8300 has a box a business can check to flag a transaction as suspicious. The IRS guide describes a transaction as suspicious if it appears a person is trying to prevent the business from filing, trying to cause a false or incomplete filing, or if there is a sign of possible illegal activity.</p>
+      <p>Two consequences follow:</p>
+      <ul>
+        <li><strong>A business may file voluntarily below the threshold.</strong> The IRS guide says a business may file a Form 8300 for a transaction of $10,000 or less if it&apos;s suspicious. Staying at or under $10,000 doesn&apos;t guarantee that no form is filed.</li>
+        <li><strong>Suspicious filings are confidential.</strong> The written-statement requirement doesn&apos;t apply to voluntary filings, and the IRS guide states that under no circumstances should the parties be made aware of a Form 8300 marked suspicious.</li>
+      </ul>
+      <h2>Structuring: the crime is in the purpose</h2>
+      <p>&quot;Structuring&quot; means arranging cash transactions to keep a business (or a bank) from filing a required report. The IRS guide defines it as &quot;breaking up a large cash transaction into small cash transactions to disguise the true amount of cash involved in the transaction.&quot;</p>
+      <p>Two federal statutes prohibit it in the Form 8300 context:</p>
+      <ul>
+        <li><strong><a href="https://www.law.cornell.edu/uscode/text/31/5324" target="_blank" rel="noopener noreferrer">31 U.S.C. § 5324(b)</a></strong> says no person shall, for the purpose of evading the reporting requirements of § 5331, cause or attempt to cause a nonfinancial trade or business to fail to file a required report, cause or attempt to cause it to file a report with a material omission or misstatement, or &quot;structure or assist in structuring, or attempt to structure or assist in structuring, any transaction with 1 or more nonfinancial trades or businesses.&quot;</li>
+        <li><strong>26 U.S.C. § 6050I(f)</strong> contains a parallel prohibition for the tax-code version of the report, and provides that a violator is subject to the same civil and criminal sanctions that apply to a person who fails to file or files an incorrect return.</li>
+      </ul>
+      <p>A few points about how these statutes are written:</p>
+      <ul>
+        <li><strong>The offense is defined by purpose.</strong> The text turns on acting &quot;for the purpose of evading&quot; the reporting requirement. Nothing in it requires that the money itself come from a crime. Lawfully earned savings can be the subject of a structuring charge.</li>
+        <li><strong>It reaches more than one business.</strong> Section 5324(b)(3) covers transactions &quot;with 1 or more nonfinancial trades or businesses,&quot; so spreading purchases among several dealers is covered by the text.</li>
+        <li><strong>It reaches the helper.</strong> &quot;Assist in structuring&quot; applies to anyone who helps, which includes a dealer or salesperson who suggests or arranges the split.</li>
+        <li><strong>It applies to attempts.</strong> The statute covers attempts to structure, not only completed ones.</li>
+        <li><strong>The bank side has its own rule.</strong> Section 5324(a) separately prohibits structuring transactions with financial institutions to evade the Currency Transaction Report, which a bank files for a transaction in currency of more than $10,000 under <a href="https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1010/subpart-C/section-1010.311" target="_blank" rel="noopener noreferrer">31 C.F.R. § 1010.311</a>. Withdrawing cash from a bank in pieces to avoid that report is a separate structuring problem before the dealer is even involved.</li>
+      </ul>
+      <p><strong>Penalties.</strong> Under § 5324(d), a violation is punishable by a fine, imprisonment for not more than five years, or both. The maximum rises to ten years for a violation committed while violating another federal law, or as part of a pattern of any illegal activity involving more than $100,000 in a 12-month period. Civil penalties for the business&apos;s own failures to file, or to furnish the customer statement, are set by Internal Revenue Code §§ 6721 and 6722 and adjusted for inflation; the IRS guide lists them by year.</p>
+      <h2>What this means at the counter</h2>
+      <p>Without turning the law into a how-to, here&apos;s what the rules mean for an ordinary buyer:</p>
+      <ul>
+        <li><strong>If you pay more than $10,000 in cash, the dealer will file.</strong> That&apos;s the dealer following federal law. Expect to provide identification and a taxpayer ID, and expect a written notice by January 31.</li>
+        <li><strong>Don&apos;t ask a dealer to split a purchase, and don&apos;t agree if one offers.</strong> A dealer who suggests ringing up one purchase as two, spreading it across days, or sending you to a sister location is describing conduct the statute covers, for both of you.</li>
+        <li><strong>Don&apos;t misstate the facts.</strong> Causing a business to file a report with a material omission or misstatement is a separate prohibited act under § 5324(b)(2).</li>
+        <li><strong>Keep your own records.</strong> Your invoices and the January statement document your cost basis, which matters when you eventually sell. See our <Link href="/blog/capital-gains-tax-gold-silver-2026" className="text-gold font-semibold">capital gains tax guide for gold and silver</Link>.</li>
+      </ul>
+      <p>A Form 8300 filing is routine. The legal risk in this area comes almost entirely from trying to avoid one.</p>
+      <p>For questions about a specific transaction, talk with a tax professional or attorney. To find dealers by location, see <Link href="/dealers" className="text-gold font-semibold">our dealer directory</Link>.</p>
+    </>
+  ),
+  "prepaid-gold-orders-delivery-delays-dealer-bankruptcy": (
+    <>
+      <p>Almost every precious metals purchase involves a gap. You pay today; the metal ships in a few days, a few weeks, or longer. When you sell, the reverse happens: you ship your metal, and the money arrives later.</p>
+      <p>Most of the time the gap closes without incident. When it doesn&apos;t, the buyer learns an uncomfortable fact about what they owned during that window. As the head of the Better Business Bureau serving Los Angeles and Silicon Valley put it <a href="https://www.tmj4.com/news/local-news/wisconsin-family-fights-to-recover-55-000-after-precious-metals-company-files-for-bankruptcy" target="_blank" rel="noopener noreferrer">to TMJ4 News</a> in 2026: &quot;When you prepay for gold that hasn&apos;t been delivered, you don&apos;t own gold — you own a promise.&quot;</p>
+      <p>This article is about that promise: how prepaid orders and buyback commitments fail, what the law does and doesn&apos;t give you, and what to do before you pay and after a dealer stops delivering. It is consumer education, not legal or investment advice.</p>
+      <p>If your question is about metal a dealer is <em>storing</em> for you (allocated versus unallocated accounts, depositories, and what happens to stored metal in a failure), start with our companion guide, <Link href="/blog/dealer-insolvency-metals" className="text-gold font-semibold">what happens to your metals when a dealer goes out of business</Link>. This piece focuses on the timing gap itself.</p>
+      <h2>What you hold at each stage</h2>
+      <p>Your position changes as an order moves along:</p>
+      <ul>
+        <li><strong>You&apos;ve paid; the dealer hasn&apos;t shipped.</strong> You have a contract right to receive metal, or your money back. If the dealer fails before shipping, that right generally becomes a claim against the dealer, not ownership of any particular bar or coin.</li>
+        <li><strong>The metal has shipped.</strong> It is in transit to you. Shipping terms and insurance determine who bears the risk of loss. (See our guide to <Link href="/blog/shipping-gold-silver-insurance-carriers-2026" className="text-gold font-semibold">shipping gold and silver and carrier insurance</Link>.)</li>
+        <li><strong>The metal is in your hands.</strong> You own specific, identifiable metal. Counterparty risk is reduced, though not zero; you still depend on safe storage and on a market to sell into later.</li>
+        <li><strong>You&apos;ve sold back and shipped your metal, but haven&apos;t been paid.</strong> You&apos;ve given up the metal and hold a promise of payment. If the buyer fails, you&apos;re in the same position as an unpaid prepaid customer: a creditor.</li>
+      </ul>
+      <p>The two &quot;promise&quot; stages are the risky ones. A prepaid order and an unpaid buyback look different, but in a failure they can end up in the same place.</p>
+      <h2>How a prepaid-order model breaks down</h2>
+      <p>A dealer that holds inventory can ship from stock. A dealer that takes payment first and buys metal from wholesalers afterward is running a different business, one that depends on two things holding steady: the time between payment and purchase, and the price of metal during that time.</p>
+      <p>When orders surge faster than a dealer can fill them, a backlog forms. If metal prices rise during the backlog, the dealer may end up paying more to buy the metal than the customer paid for it. Each delayed order then loses money when it is finally filled, and new customer payments may be needed to fill older orders. Buyback promises add pressure from the other direction, because paying sellers requires cash at exactly the moment cash is short.</p>
+      <p>From the outside, none of it shows until delivery dates slip.</p>
+      <h2>One example: a 2026 Chapter 11 filing</h2>
+      <p>A bankruptcy filed in 2026 illustrates these mechanics in the debtor&apos;s own words. On July 2, 2026, Rosland Capital LLC, a Los Angeles-based seller of precious metals, filed a voluntary Chapter 11 petition in the U.S. Bankruptcy Court for the Central District of California (<a href="https://www.courtlistener.com/docket/73569719/rosland-capital-llc/" target="_blank" rel="noopener noreferrer">Case No. 2:26-bk-16650</a>). The facts below come from the sworn first-day declaration of the company&apos;s chief restructuring officer, filed the same day. They are the company&apos;s own account, made at the outset of the case, and the court has not ruled on them.</p>
+      <p>According to the filing:</p>
+      <ul>
+        <li><strong>The backlog.</strong> The declaration says customer orders surged as gold prices rose, the company &quot;was unable to keep up,&quot; and there was &quot;often a months-long gap&quot; between the date a customer paid and the date the company bought the product from third parties. During that interval, it says, the price of gold usually increased such that the company paid more for the product than the customer had paid.</li>
+        <li><strong>Prepaid orders.</strong> Customer payments for products not yet shipped were recorded as deferred revenue. As of the petition date, the declaration puts that balance at approximately $49 million.</li>
+        <li><strong>Buybacks.</strong> The company had a policy of buying back metal, and the declaration says it eventually could not timely pay customers who had delivered metal for repurchase. That &quot;Buy Back List&quot; is stated at approximately $11.8 million.</li>
+        <li><strong>Customers affected.</strong> The declaration states that approximately 484 customers are on the deferred revenue list and approximately 133 are on the buyback list.</li>
+        <li><strong>Sales commissions.</strong> The declaration says sales representatives were paid commissions upon receipt of customer funds, earned even if the customer later cancelled or the order went unfilled.</li>
+        <li><strong>Remaining assets.</strong> The declaration states the company no longer has any inventory of precious metals, coins, or bullion, and that its principal remaining asset is its customer information. In an August 19, 2026 motion, the company asked the court to approve a sale of those customer information assets and the appointment of a consumer privacy ombudsman.</li>
+        <li><strong>Investigations.</strong> The declaration reports that the New York Attorney General&apos;s office has begun an investigation concerning sales to New York customers through 2023 (which the declarant understood to be relatively inactive) and that the SEC is investigating the company in connection with its metal-backed IRA products. These are investigations reported in the filing. No finding of wrongdoing has been made, and the company has not been found liable for anything.</li>
+      </ul>
+      <p>The case is a liquidating Chapter 11, and an official committee of unsecured creditors was appointed in July 2026. As of the court&apos;s initial notice of the case, dated July 7, 2026, a deadline for filing proofs of claim had not been set; the notice said one would be sent later. Customers with questions about their own claims should check the court docket or the notices issued in the case, and consider talking with a bankruptcy attorney.</p>
+      <p>The point is not this one company. The pattern described in the filing, a backlog in a rising market plus unpaid buybacks, is a general risk of any pay-now, deliver-later arrangement.</p>
+      <h2>Before you pay: getting the promise in writing</h2>
+      <p>You can&apos;t audit a dealer&apos;s books. You can control the terms of your own order.</p>
+      <p><strong>Get a written delivery date.</strong> Ask for the expected ship date on the invoice or order confirmation, not just in a phone call. For orders placed by mail, online, or by phone, the FTC&apos;s <a href="https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-435" target="_blank" rel="noopener noreferrer">Mail, Internet, or Telephone Order Merchandise Rule</a> generally requires a seller to have a reasonable basis to expect it can ship within the time it states, or within 30 days if it states no time. If it can&apos;t ship on time, it must offer you the choice to consent to the delay or cancel for a prompt refund.</p>
+      <p><strong>Make the invoice specific.</strong> Exact product, quantity, price, total, payment method, and ship date. Vague descriptions (&quot;gold allocation,&quot; &quot;metals package&quot;) make it harder to prove what you were owed.</p>
+      <p><strong>Ask how the dealer fills orders.</strong> &quot;Is this in stock, or will you buy it after I pay?&quot; is a fair question. A long quoted lead time on a common product deserves a follow-up.</p>
+      <p><strong>Think about how you pay.</strong> Payment methods carry different rights:</p>
+      <ul>
+        <li><strong>Credit card.</strong> Under the Fair Credit Billing Act&apos;s rules in <a href="https://www.ecfr.gov/current/title-12/chapter-X/part-1026/subpart-B/section-1026.13" target="_blank" rel="noopener noreferrer">Regulation Z</a>, a billing error includes a charge for property &quot;not delivered to the consumer … as agreed.&quot; The written notice must reach the card issuer within 60 days after the issuer sent the first statement showing the charge. The CFPB&apos;s <a href="https://www.consumerfinance.gov/ask-cfpb/how-do-i-dispute-a-charge-on-my-credit-card-bill-en-61/" target="_blank" rel="noopener noreferrer">guide to disputing a charge</a> explains the steps. Note the timing: the 60-day clock runs from the statement, not from the promised delivery date, so a long shipping window can outlast it. Dealers often price card payments higher than wires or checks.</li>
+        <li><strong>Wire, check, or ACH.</strong> These don&apos;t come with the Fair Credit Billing Act&apos;s billing-error right. Once a wire is sent, getting it back generally depends on the recipient.</li>
+      </ul>
+      <p><strong>Don&apos;t prepay for storage you can&apos;t see.</strong> If the metal will be held for you rather than shipped, ask whether it is allocated and segregated in your name at an independent depository, whether the depository sends statements directly to you, and whether you can take delivery without going through the dealer. Our <Link href="/blog/dealer-insolvency-metals" className="text-gold font-semibold">insolvency guide</Link> and <Link href="/blog/where-to-store-gold-home-bank-depository" className="text-gold font-semibold">storage options guide</Link> cover those structures.</p>
+      <h2>Buyback promises are promises too</h2>
+      <p>A dealer&apos;s offer to buy your metal back is useful, but it&apos;s only as reliable as the dealer&apos;s cash position on the day you sell. Before shipping metal to any buyer:</p>
+      <ul>
+        <li><strong>Get the price locked in writing</strong>, along with when and how you&apos;ll be paid.</li>
+        <li><strong>Ask whether payment is made before or after the buyer receives your metal</strong>, and how long after.</li>
+        <li><strong>Compare bids.</strong> The dealer you bought from isn&apos;t your only buyer. See <Link href="/blog/dealer-buyback-programs" className="text-gold font-semibold">how dealer buyback programs work</Link> and <Link href="/blog/sell-back-spreads-what-dealers-actually-pay" className="text-gold font-semibold">what dealers actually pay on sell-back</Link>.</li>
+        <li><strong>Consider selling in person</strong> if you&apos;re worried about a buyer&apos;s ability to pay. A local sale closes the gap between handing over metal and receiving money.</li>
+      </ul>
+      <h2>Warning signs that an order is in trouble</h2>
+      <ul>
+        <li>Ship dates that move more than once, or &quot;processing&quot; that never ends.</li>
+        <li>Requests to switch your order to a different product, or to &quot;roll&quot; it into a new purchase.</li>
+        <li>Pressure to buy more before your existing order ships.</li>
+        <li>Calls and emails that go unanswered, or answers that change.</li>
+        <li>Buyback payments that are late or arrive in pieces.</li>
+      </ul>
+      <h2>If a dealer stops shipping (and hasn&apos;t filed bankruptcy)</h2>
+      <ul>
+        <li><strong>Put it in writing.</strong> Send a dated letter or email that identifies the order, the amount paid, and the promised ship date, and ask for delivery by a specific date or a full refund. Under the FTC rule, a seller that can&apos;t ship on time must offer you the choice to accept the delay or cancel. If you cancel before the order ships, or if the seller never offered that choice and missed its shipping time, the rule requires it to treat the order as cancelled and make a prompt refund.</li>
+        <li><strong>Dispute card charges promptly</strong>, within the Regulation Z window.</li>
+        <li><strong>Complain to your state attorney general</strong> (find yours through <a href="https://www.usa.gov/state-attorney-general" target="_blank" rel="noopener noreferrer">USA.gov</a>) and to the FTC at <a href="https://reportfraud.ftc.gov/" target="_blank" rel="noopener noreferrer">ReportFraud.ftc.gov</a>. If the purchase was tied to an IRA or marketed as an investment, your state securities regulator may also take complaints.</li>
+        <li><strong>Keep everything:</strong> invoices, confirmations, call notes, and every message about delays.</li>
+      </ul>
+      <h2>If the dealer files bankruptcy</h2>
+      <p>The rules change the moment a petition is filed.</p>
+      <ul>
+        <li><strong>The automatic stay.</strong> The court&apos;s official notice of a Chapter 11 case explains that filing imposes an automatic stay against most collection activity. Creditors generally can&apos;t sue, demand payment, or try to collect from the company outside the bankruptcy without court permission.</li>
+        <li><strong>Check whether you&apos;re listed.</strong> The company must file schedules of its creditors. According to the court&apos;s notice form, if your claim isn&apos;t scheduled, or is scheduled as disputed, contingent, or unliquidated, you must file a proof of claim or you might not be paid and might be unable to vote on a plan. You may file a proof of claim even if you are scheduled, and the federal courts&apos; <a href="https://www.uscourts.gov/court-programs/bankruptcy/bankruptcy-basics/chapter-11-bankruptcy-basics" target="_blank" rel="noopener noreferrer">Chapter 11 overview</a> notes that it&apos;s the creditor&apos;s responsibility to check that the claim is accurately listed.</li>
+        <li><strong>File a proof of claim before the deadline.</strong> The form is available from the <a href="https://www.uscourts.gov/forms-rules/forms/proof-claim-0" target="_blank" rel="noopener noreferrer">federal courts</a>. The deadline (the &quot;bar date&quot;) is set in the case, so watch the court notices and the case docket.</li>
+        <li><strong>Know about the consumer-deposit priority, and its limits.</strong> Under <a href="https://www.law.cornell.edu/uscode/text/11/507" target="_blank" rel="noopener noreferrer">11 U.S.C. § 507(a)(7)</a>, an individual&apos;s claim for money deposited toward property for personal, family, or household use that wasn&apos;t delivered receives priority up to an inflation-adjusted cap, which has been $3,800 for cases filed since April 1, 2025. Whether metal bought as an investment qualifies is a legal question to raise with a bankruptcy attorney.</li>
+        <li><strong>Follow the creditors&apos; committee.</strong> When an official committee of unsecured creditors is appointed, it represents unsecured creditors&apos; interests in the case, and its counsel is listed on the docket.</li>
+        <li><strong>Be skeptical of &quot;recovery&quot; offers.</strong> Anyone who contacts you promising to get your money back for an upfront fee deserves the same scrutiny you&apos;d now give a prepaid order.</li>
+      </ul>
+      <h2>The takeaway</h2>
+      <p>Prepaying for metal isn&apos;t wrong, and most orders arrive as promised. But the safest position in precious metals is the simplest one: the metal is in your hands, or held in your name where you can verify it, and the time you spend holding only a promise is as short as you can make it.</p>
+      <p>Get delivery dates and buyback terms in writing, pay in a way that preserves your rights, act as soon as dates start slipping, and if a dealer does fail, file your claim on time. To compare dealers by location, browse <Link href="/dealers" className="text-gold font-semibold">our dealer directory</Link>, and ask each one the same questions about lead times and buyback payment before you send money.</p>
     </>
   ),
 };
