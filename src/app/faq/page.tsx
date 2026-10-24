@@ -85,8 +85,8 @@ export default function FAQPage() {
             style={{ color: "#999", fontStyle: "italic" }}
           >
             GoldSilverSelect.com is an independent directory of local and online
-            precious metals dealers. We do not sell gold or silver, and we do not
-            receive compensation from any dealer listed on this site. Our goal is
+            precious metals dealers. We do not sell gold or silver. No dealer pays
+            for its listing, its placement, or Featured status. Our goal is
             to provide the information you need to make informed decisions.
           </p>
         </div>

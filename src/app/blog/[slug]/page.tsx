@@ -136,7 +136,7 @@ const blogContent: Record<string, React.ReactNode> = {
         If a salesperson is pitching you a home storage gold IRA, a checkbook LLC for IRA-owned bullion, or any structure that ends with you holding the coins yourself, walk away. Consult a fee-only financial advisor or a CPA with IRA experience before signing any rollover paperwork. The cost of a one-hour consultation is the cheapest insurance available against a six-figure tax mistake.
       </p>
       <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
-        GoldSilverSelect.com is an independent directory of local and online precious metals dealers and IRA providers. We do not sell gold or silver, we are not a tax advisor, and we do not receive compensation from any dealer or IRA company listed on this site. This article is for educational purposes only and does not constitute tax, legal, or investment advice. Consult a qualified tax professional before making decisions about your retirement accounts.
+        GoldSilverSelect.com is an independent directory of local and online precious metals dealers and IRA providers. We do not sell gold or silver, and we are not a tax advisor. No dealer pays for its listing, its placement, or Featured status. This article is for educational purposes only and does not constitute tax, legal, or investment advice. Consult a qualified tax professional before making decisions about your retirement accounts.
       </p>
     </>
   ),
@@ -235,7 +235,7 @@ const blogContent: Record<string, React.ReactNode> = {
         Counterfeit detection isn&apos;t about paranoia. It&apos;s about basic due diligence on a high-value purchase. The seven tests above take less than five minutes for any single coin, cost less than $30 in basic equipment, and protect you from the only category of loss that can&apos;t be undone &mdash; paying real money for something that isn&apos;t actually metal.
       </p>
       <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
-        GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver and we do not receive compensation from any dealer listed on this site. This article is for educational purposes only and does not constitute investment advice.
+        GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver. No dealer pays for its listing, its placement, or Featured status. This article is for educational purposes only and does not constitute investment advice.
       </p>
     </>
   ),
@@ -728,7 +728,7 @@ const blogContent: Record<string, React.ReactNode> = {
       <h2>The Bottom Line</h2>
       <p>Silver premiums are higher than gold premiums as a percentage — and that&apos;s built into the economics of the metal. The form you buy silver in is the primary lever for controlling your per-ounce cost. For maximum efficiency: buy the largest bar size you&apos;re comfortable with. For maximum liquidity: buy recognizable sovereign coins. For the best balance: mix both.</p>
       <p>The spot price tells you what silver is worth. The premium tells you what the market is charging for the privilege of owning it in physical form. Pay attention to both. For the full framework, see <Link href="/blog/how-much-over-spot-should-i-pay-for-gold-2026" className="text-gold font-semibold">What Should I Truly Pay for Gold and Silver?</Link></p>
-      <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver, and we do not receive compensation from any dealer listed on this site.</p>
+      <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver. No dealer pays for its listing, its placement, or Featured status.</p>
     </>
   ),
 
@@ -761,7 +761,7 @@ const blogContent: Record<string, React.ReactNode> = {
       <p>For more on how premiums work across different silver products, see <Link href="/blog/silver-premiums-and-bar-size" className="text-gold font-semibold">Silver Premiums and Bar Size</Link>. For the broader premium framework, see <Link href="/blog/how-much-over-spot-should-i-pay-for-gold-2026" className="text-gold font-semibold">Spot Price vs. What You Actually Pay</Link>. Compare silver prices across our <Link href="/online-dealers" className="text-gold font-semibold">online dealer directory</Link>.</p>
       <h2>The Bottom Line</h2>
       <p>Junk silver is one of the most practical ways to own physical silver — divisible, recognizable, impossible to counterfeit, and often available at premiums below newly minted bullion. Buy patiently during quiet markets, store securely, and understand what you own: real silver in a form that Americans have trusted for over a century.</p>
-      <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver, and we do not receive compensation from any dealer listed on this site.</p>
+      <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver. No dealer pays for its listing, its placement, or Featured status.</p>
     </>
   ),
 
@@ -916,7 +916,7 @@ const blogContent: Record<string, React.ReactNode> = {
         The informed buyer wins in either channel. The uninformed buyer overpays in both.
       </p>
       <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
-        GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver, and we do not receive compensation from any dealer listed on this site.
+        GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver. No dealer pays for its listing, its placement, or Featured status.
       </p>
     </>
   ),
@@ -1029,7 +1029,7 @@ const blogContent: Record<string, React.ReactNode> = {
         Gold does not pay dividends. It does not generate earnings. What it does is sit there, unchanged, while everything else around it shifts. For 125 years, that has been enough.
       </p>
       <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
-        GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver, and we do not receive compensation from any dealer listed on this site. This article is for educational purposes only and does not constitute investment advice.
+        GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver. No dealer pays for its listing, its placement, or Featured status. This article is for educational purposes only and does not constitute investment advice.
       </p>
     </>
   ),
@@ -1223,7 +1223,7 @@ const blogContent: Record<string, React.ReactNode> = {
         Storage is not a one-time decision. As your holdings grow or your circumstances change, revisit your approach. What works for $5,000 in silver may not work for $50,000 in gold.
       </p>
       <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
-        GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver, and we do not receive compensation from any dealer listed on this site. This article is for educational purposes only and does not constitute investment advice.
+        GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver. No dealer pays for its listing, its placement, or Featured status. This article is for educational purposes only and does not constitute investment advice.
       </p>
     </>
   ),
@@ -1411,7 +1411,7 @@ const blogContent: Record<string, React.ReactNode> = {
         The right question is not which asset is superior. It is which problem you are trying to solve &mdash; and whether the asset you choose has actually solved that problem before.
       </p>
       <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
-        GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver, and we do not receive compensation from any dealer listed on this site. This article is for educational purposes only and does not constitute investment advice.
+        GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver. No dealer pays for its listing, its placement, or Featured status. This article is for educational purposes only and does not constitute investment advice.
       </p>
     </>
   ),
@@ -1541,7 +1541,7 @@ const blogContent: Record<string, React.ReactNode> = {
         <em>Live spot prices update on our ticker at the top of every page. Compare dealer pricing in the dealer directory &mdash; featured listings publish their live pricing transparently.</em>
       </p>
       <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
-        GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver, and we do not receive compensation from any dealer listed on this site. This article is for educational purposes only and does not constitute investment advice.
+        GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver. No dealer pays for its listing, its placement, or Featured status. This article is for educational purposes only and does not constitute investment advice.
       </p>
     </>
   ),
@@ -1654,7 +1654,7 @@ const blogContent: Record<string, React.ReactNode> = {
         <em>Looking for a gold IRA dealer? Our directory lists dealers that offer IRA-eligible metals. Featured listings publish their fee schedules and premium structures transparently.</em>
       </p>
       <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
-        GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver, and we do not receive compensation from any dealer listed on this site. This article is for educational purposes only and does not constitute investment advice.
+        GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver. No dealer pays for its listing, its placement, or Featured status. This article is for educational purposes only and does not constitute investment advice.
       </p>
     </>
   ),
@@ -1775,7 +1775,7 @@ const blogContent: Record<string, React.ReactNode> = {
         <em>Looking to sell to a dealer? Our directory lists precious metals dealers with buyback programs, including their payout rates where published.</em>
       </p>
       <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
-        GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver, and we do not receive compensation from any dealer listed on this site. This article is for educational purposes only and does not constitute investment advice.
+        GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver. No dealer pays for its listing, its placement, or Featured status. This article is for educational purposes only and does not constitute investment advice.
       </p>
     </>
   ),
@@ -2077,7 +2077,7 @@ const blogContent: Record<string, React.ReactNode> = {
         The money you get when you sell isn&apos;t just what you paid minus the spread&mdash;it&apos;s what you paid, minus the spread, minus the mistakes you made by not understanding how sell-back markets work. Eliminate the mistakes, and you keep more of your money.
       </p>
       <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
-        GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver, and we do not receive compensation from any dealer listed on this site. This article is for educational purposes only and does not constitute investment advice.
+        GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver. No dealer pays for its listing, its placement, or Featured status. This article is for educational purposes only and does not constitute investment advice.
       </p>
     </>
   ),
@@ -2292,7 +2292,7 @@ const blogContent: Record<string, React.ReactNode> = {
         The silver content is objective and liquid. The numismatic premium is subjective and illiquid. Know which one you&apos;re buying before you hand over money.
       </p>
       <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
-        GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver, and we do not receive compensation from any dealer listed on this site. This article is for educational purposes only and does not constitute investment advice.
+        GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver. No dealer pays for its listing, its placement, or Featured status. This article is for educational purposes only and does not constitute investment advice.
       </p>
     </>
   ),
@@ -2554,7 +2554,7 @@ const blogContent: Record<string, React.ReactNode> = {
         Do the math, compare premiums, and buy from dealers who make the conversion transparent. Your goal is to acquire the most silver for the least money. Junk silver makes that easier than almost any other product in the precious metals market.
       </p>
       <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
-        GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver, and we do not receive compensation from any dealer listed on this site. This article is for educational purposes only and does not constitute investment advice.
+        GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver. No dealer pays for its listing, its placement, or Featured status. This article is for educational purposes only and does not constitute investment advice.
       </p>
     </>
   ),
@@ -2695,7 +2695,7 @@ const blogContent: Record<string, React.ReactNode> = {
         The ratio is a tool for context and patience, not prediction. Use it accordingly.
       </p>
       <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
-        GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver, and we do not receive compensation from any dealer listed on this site. This article is for educational purposes only and does not constitute investment advice.
+        GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver. No dealer pays for its listing, its placement, or Featured status. This article is for educational purposes only and does not constitute investment advice.
       </p>
     </>
   ),
@@ -2848,7 +2848,7 @@ const blogContent: Record<string, React.ReactNode> = {
         <em>This concludes the Spot Price vs What You Pay series. All eight articles are available in the blog archive.</em>
       </p>
       <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
-        GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver, and we do not receive compensation from any dealer listed on this site. This article is for educational purposes only and does not constitute investment advice.
+        GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver. No dealer pays for its listing, its placement, or Featured status. This article is for educational purposes only and does not constitute investment advice.
       </p>
     </>
   ),
@@ -3003,7 +3003,7 @@ const blogContent: Record<string, React.ReactNode> = {
         If they won&apos;t, find one who will.
       </p>
       <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
-        GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver, and we do not receive compensation from any dealer listed on this site. This article is for educational purposes only and does not constitute investment advice.
+        GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver. No dealer pays for its listing, its placement, or Featured status. This article is for educational purposes only and does not constitute investment advice.
       </p>
     </>
   ),
@@ -3092,7 +3092,7 @@ const blogContent: Record<string, React.ReactNode> = {
         and your state attorney general&apos;s consumer protection division. Notify your financial institution immediately if funds have moved. Preserve all documentation. Recovery is difficult once wire transfers have cleared, but reports increase the probability of enforcement action against repeat offenders.
       </p>
       <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
-        GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver, and we do not receive compensation from any dealer listed on this site. This article is for educational purposes only and does not constitute investment advice.
+        GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver. No dealer pays for its listing, its placement, or Featured status. This article is for educational purposes only and does not constitute investment advice.
       </p>
     </>
   ),
@@ -3157,7 +3157,7 @@ const blogContent: Record<string, React.ReactNode> = {
         Neither is inherently superior. They serve different needs. Physical silver is a tangible asset with no counterparty risk and some friction. An ETF is a financial instrument with counterparty exposure and high liquidity. If your reason for owning silver includes wanting metal you can physically hold, transport, or use independent of the financial system, the ETF doesn&apos;t serve that purpose regardless of how well it tracks the spot price. Many investors hold both.
       </p>
       <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
-        GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver, and we do not receive compensation from any dealer listed on this site. This article is for educational purposes only and does not constitute investment advice.
+        GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver. No dealer pays for its listing, its placement, or Featured status. This article is for educational purposes only and does not constitute investment advice.
       </p>
     </>
   ),
@@ -3226,7 +3226,7 @@ const blogContent: Record<string, React.ReactNode> = {
         Physical metal in your possession has reduced counterparty risk, though not zero: you still depend on safe storage and on a market to sell into. Physical metal at an independent, allocated third-party depository has reduced counterparty risk, though it still depends on the depository and its records. Metal at a dealer-controlled facility or in an unallocated pool with a dealer has meaningful counterparty risk that most buyers don&apos;t evaluate before they need to. Know which of these categories your holdings fall into.
       </p>
       <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
-        GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver, and we do not receive compensation from any dealer listed on this site. This article is for educational purposes only and does not constitute investment advice.
+        GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver. No dealer pays for its listing, its placement, or Featured status. This article is for educational purposes only and does not constitute investment advice.
       </p>
     </>
   ),
@@ -3308,7 +3308,7 @@ const blogContent: Record<string, React.ReactNode> = {
         <em>This article is for informational purposes. Precious metals pricing fluctuates. Always verify spot price independently before any purchase.</em>
       </p>
       <p>
-        GoldSilverSelect.com is an independent directory. We do not sell precious metals, provide investment advice, or receive compensation from dealers listed on this site.
+        GoldSilverSelect.com is an independent directory. We do not sell precious metals or provide investment advice. No dealer pays for its listing, its placement, or Featured status.
       </p>
     </>
   ),
@@ -3406,7 +3406,7 @@ const blogContent: Record<string, React.ReactNode> = {
         <em>This article is educational and does not constitute investment advice. Precious metals prices fluctuate and past performance does not predict future results.</em>
       </p>
       <p>
-        GoldSilverSelect.com is an independent directory. We do not sell precious metals, provide investment advice, or receive compensation from dealers listed on this site.
+        GoldSilverSelect.com is an independent directory. We do not sell precious metals or provide investment advice. No dealer pays for its listing, its placement, or Featured status.
       </p>
     </>
   ),
@@ -3505,7 +3505,7 @@ const blogContent: Record<string, React.ReactNode> = {
         <em>Precious metals pricing fluctuates. Verify all prices with dealers directly at time of transaction.</em>
       </p>
       <p>
-        GoldSilverSelect.com is an independent directory. We do not sell precious metals, provide investment advice, or receive compensation from dealers listed on this site.
+        GoldSilverSelect.com is an independent directory. We do not sell precious metals or provide investment advice. No dealer pays for its listing, its placement, or Featured status.
       </p>
     </>
   ),
@@ -3586,7 +3586,7 @@ const blogContent: Record<string, React.ReactNode> = {
         <em>This article is educational and does not constitute investment advice. Precious metals involve risk. Past performance does not predict future results.</em>
       </p>
       <p>
-        GoldSilverSelect.com is an independent directory. We do not sell precious metals, provide investment advice, or receive compensation from dealers listed on this site.
+        GoldSilverSelect.com is an independent directory. We do not sell precious metals or provide investment advice. No dealer pays for its listing, its placement, or Featured status.
       </p>
     </>
   ),
@@ -3679,7 +3679,7 @@ const blogContent: Record<string, React.ReactNode> = {
         <em>This article is educational and does not constitute investment or financial advice. Consult a qualified financial advisor for guidance on allocation decisions appropriate to your specific circumstances.</em>
       </p>
       <p>
-        GoldSilverSelect.com is an independent directory. We do not sell precious metals, provide investment advice, or receive compensation from dealers listed on this site.
+        GoldSilverSelect.com is an independent directory. We do not sell precious metals or provide investment advice. No dealer pays for its listing, its placement, or Featured status.
       </p>
     </>
   ),
@@ -3773,7 +3773,7 @@ const blogContent: Record<string, React.ReactNode> = {
         <em>This article is for educational purposes. Precious metals pricing fluctuates. Verify current pricing and terms with any retailer before purchase.</em>
       </p>
       <p>
-        GoldSilverSelect.com is an independent directory. We do not sell precious metals, provide investment advice, or receive compensation from dealers listed on this site.
+        GoldSilverSelect.com is an independent directory. We do not sell precious metals or provide investment advice. No dealer pays for its listing, its placement, or Featured status.
       </p>
     </>
   ),
