@@ -34,11 +34,12 @@ export function generateStaticParams() {
   return states.map((s) => ({ state: s.slug }));
 }
 
-export function generateMetadata({
-  params,
-}: {
-  params: { state: string };
-}): Metadata {
+export async function generateMetadata(
+  props: {
+    params: Promise<{ state: string }>;
+  }
+): Promise<Metadata> {
+  const params = await props.params;
   const state = states.find((s) => s.slug === params.state);
   if (!state) return {};
   const dealerCount = getDealersByState(params.state).filter(
@@ -59,13 +60,14 @@ export function generateMetadata({
   };
 }
 
-export default function StateDealersPage({
-  params,
-  searchParams,
-}: {
-  params: { state: string };
-  searchParams: { v?: string };
-}) {
+export default async function StateDealersPage(
+  props: {
+    params: Promise<{ state: string }>;
+    searchParams: Promise<{ v?: string }>;
+  }
+) {
+  const searchParams = await props.searchParams;
+  const params = await props.params;
   const state = states.find((s) => s.slug === params.state);
   if (!state) notFound();
 
