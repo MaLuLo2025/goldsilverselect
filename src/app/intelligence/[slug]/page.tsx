@@ -13,11 +13,12 @@ export function generateStaticParams() {
   return intelligenceItems.map((item) => ({ slug: item.slug }));
 }
 
-export function generateMetadata({
-  params,
-}: {
-  params: { slug: string };
-}): Metadata {
+export async function generateMetadata(
+  props: {
+    params: Promise<{ slug: string }>;
+  }
+): Promise<Metadata> {
+  const params = await props.params;
   const item = getIntelligenceBySlug(params.slug);
   if (!item) return {};
   return {
@@ -33,11 +34,12 @@ const tagColors: Record<string, { text: string; bg: string }> = {
   Specialist: { text: "#8B6914", bg: "rgba(139,105,20,0.08)" },
 };
 
-export default function IntelligenceDetailPage({
-  params,
-}: {
-  params: { slug: string };
-}) {
+export default async function IntelligenceDetailPage(
+  props: {
+    params: Promise<{ slug: string }>;
+  }
+) {
+  const params = await props.params;
   const item = getIntelligenceBySlug(params.slug);
   if (!item) notFound();
 

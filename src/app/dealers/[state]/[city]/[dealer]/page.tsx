@@ -12,11 +12,12 @@ import DealerRatings from "@/components/DealerRatings";
 import { googleRatingLabel } from "@/lib/ratings";
 import AnalyticsLink from "@/components/AnalyticsLink";
 
-export function generateMetadata({
-  params,
-}: {
-  params: { state: string; city: string; dealer: string };
-}): Metadata {
+export async function generateMetadata(
+  props: {
+    params: Promise<{ state: string; city: string; dealer: string }>;
+  }
+): Promise<Metadata> {
+  const params = await props.params;
   const dealer = getDealerBySlug(params.state, params.city, params.dealer);
   if (!dealer) return {};
   return {
@@ -34,11 +35,12 @@ const verticalLabels: Record<string, string> = {
   jewelry: "Jeweler",
 };
 
-export default function DealerDetailPage({
-  params,
-}: {
-  params: { state: string; city: string; dealer: string };
-}) {
+export default async function DealerDetailPage(
+  props: {
+    params: Promise<{ state: string; city: string; dealer: string }>;
+  }
+) {
+  const params = await props.params;
   const state = states.find((s) => s.slug === params.state);
   const city = getCityBySlug(params.state, params.city);
   const dealer = getDealerBySlug(params.state, params.city, params.dealer);

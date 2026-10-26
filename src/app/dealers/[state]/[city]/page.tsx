@@ -11,11 +11,12 @@ import { getDealersByCity, getOnlineDealers, getIRAProviders, getDealersByVertic
 import DealerList from "@/components/DealerList";
 import TrackedListingMount from "@/components/TrackedListingMount";
 
-export function generateMetadata({
-  params,
-}: {
-  params: { state: string; city: string };
-}): Metadata {
+export async function generateMetadata(
+  props: {
+    params: Promise<{ state: string; city: string }>;
+  }
+): Promise<Metadata> {
+  const params = await props.params;
   const state = states.find((s) => s.slug === params.state);
   const city = getCityBySlug(params.state, params.city);
   if (!state || !city) return {};
@@ -39,13 +40,14 @@ const verticalLabels: Record<string, string> = {
   jewelry: "Jewelry",
 };
 
-export default function CityDealersPage({
-  params,
-  searchParams,
-}: {
-  params: { state: string; city: string };
-  searchParams: { v?: string };
-}) {
+export default async function CityDealersPage(
+  props: {
+    params: Promise<{ state: string; city: string }>;
+    searchParams: Promise<{ v?: string }>;
+  }
+) {
+  const searchParams = await props.searchParams;
+  const params = await props.params;
   const state = states.find((s) => s.slug === params.state);
   if (!state) notFound();
   const city = getCityBySlug(params.state, params.city);
