@@ -22,6 +22,8 @@ const securityHeaders = [
 ];
 
 const nextConfig = {
+  // Next 14 runs src/instrumentation.ts only behind this flag (Node.js CVE-2026-111497 fetch guard).
+  experimental: { instrumentationHook: true },
   async headers() {
     return [
       {
