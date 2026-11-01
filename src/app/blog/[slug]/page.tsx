@@ -299,10 +299,11 @@ const blogContent: Record<string, React.ReactNode> = {
         <li>Sales of 1 kilogram or more of gold bars (or any aggregate equivalent)</li>
         <li>Sales of 1,000 troy ounces or more of silver bars or rounds</li>
         <li>Sales of 90% silver U.S. coins with a face value of $1,000 or more</li>
-        <li>Sales of 25 or more 1 oz platinum or palladium coins</li>
+        <li>Sales of platinum bars or rounds totaling 25 troy ounces or more, or palladium bars or rounds totaling 100 troy ounces or more</li>
       </ul>
       <p>
-        Notably absent from the reportable list are American Gold Eagles, American Silver Eagles, and American Buffalos in any quantity. This is a quirk of how the rules were originally written and has not changed. Selling 100 American Silver Eagles to a dealer typically does not trigger 1099-B reporting; selling 1,000 ounces of generic silver rounds typically does.
+        Notably absent from the reportable list are American Gold Eagles, American Silver Eagles, and American Buffalos in any quantity. This is a quirk of how the rules were originally written. For the current thresholds and the IRS's January 2026 correction to its instructions, see{" "}
+        <Link href="/blog/1099-b-reporting-precious-metals-2026-irs-correction" className="text-gold font-semibold">our 1099-B reporting article</Link>. Selling 100 American Silver Eagles to a dealer typically does not trigger 1099-B reporting; selling 1,000 ounces of generic silver rounds typically does.
       </p>
       <p>
         Important: the absence of 1099-B reporting does <em>not</em> mean the gain is tax-free. You are still legally required to report and pay tax on every taxable gain, regardless of whether the dealer files a 1099-B. The reporting rules govern what the dealer tells the IRS, not what you owe.
