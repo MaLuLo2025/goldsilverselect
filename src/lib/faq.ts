@@ -278,6 +278,27 @@ export const faqCategories: FAQCategory[] = [
         links: [
           { label: "Precious Metals Reporting: 1099-B, Form 8300, and the Felony Trap Called Structuring", href: "/blog/1099-b-precious-metals-reporting" },
           { label: "Constitutional Money: The States That Recognized Gold and Silver as Legal Tender by 2026", href: "/blog/constitutional-money-legal-tender-states-2026" },
+          { label: "Gold Fell Below $4,000. Can You Harvest a Bullion Loss Before Dec. 31?", href: "/blog/gold-silver-tax-loss-selling-2026-wash-sale" },
+        ],
+      },
+      {
+        question: "Can I deduct a loss if I sell gold or silver for less than I paid?",
+        answer: "Often, yes, if you held the metal as an investment. Under IRC \u00A7 165(c), individuals can deduct losses from transactions entered into for profit, but a loss on property held for personal use (such as jewelry you wore) is not deductible. A deductible loss is a capital loss: it offsets capital gains, then up to $3,000 of other income a year ($1,500 if married filing separately) under \u00A7 1211(b), and any excess carries forward to later years under \u00A7 1212(b). Bullion held more than a year is a collectible, so a long-term loss first reduces long-term collectibles gains taxed at up to 28% (\u00A7 1(h)(4)\u2013(5)). Keep your purchase invoices to prove the loss. This is general information, not tax advice.",
+        learnMoreLabel: "Gold Fell Below $4,000. Can You Harvest a Bullion Loss Before Dec. 31?",
+        learnMoreHref: "/blog/gold-silver-tax-loss-selling-2026-wash-sale",
+        links: [
+          { label: "Capital Gains Tax on Gold and Silver", href: "/blog/capital-gains-tax-gold-silver-2026" },
+          { label: "IRS Publication 544: Sales and Other Dispositions of Assets", href: "https://www.irs.gov/publications/p544" },
+        ],
+      },
+      {
+        question: "Does the wash-sale rule apply to physical gold and silver?",
+        answer: "By its terms, no. The wash-sale statute, 26 U.S.C. \u00A7 1091, disallows losses on \u201Cshares of stock or securities\u201D (and contracts or options on them) when substantially identical stock or securities are bought within 30 days before or after the sale. Physical coins and bars are not stock or securities, and as of November 2026 IRS Publication 550\u2019s wash-sale section does not mention physical precious metals; it says the rules do not apply to commodity futures. Two cautions: shares of metal ETFs trade like stock, and IRS guidance does not settle whether they are covered, so treat a quick repurchase of the same ETF as a possible wash sale; and a sale and instant buyback of identical metal from the same dealer can be questioned on substance. For exchange-traded sales, the trade date (not settlement) decides the tax year. This is general information, not tax advice.",
+        learnMoreLabel: "Gold Fell Below $4,000. Can You Harvest a Bullion Loss Before Dec. 31?",
+        learnMoreHref: "/blog/gold-silver-tax-loss-selling-2026-wash-sale",
+        links: [
+          { label: "IRS Publication 550: Investment Income and Expenses", href: "https://www.irs.gov/publications/p550" },
+          { label: "Physical Silver vs. ETF", href: "/blog/physical-silver-vs-etf" },
         ],
       },
       {
@@ -697,6 +718,25 @@ export const faqCategories: FAQCategory[] = [
           { label: "The “Free Silver” Trap: How Gold IRA Promotions Actually Work", href: "/blog/gold-ira-free-silver-trap" },
           { label: "No Real Agent Will Ask You to Buy Gold: How the Gold-Bar Courier Scam Works", href: "/blog/gold-bar-courier-scam-government-impersonators-2026" },
           { label: "Paid for Gold That Hasn't Shipped? How Prepaid Orders Fail and How to Protect Yourself", href: "/blog/prepaid-gold-orders-delivery-delays-dealer-bankruptcy" },
+          { label: "America 250 Coins: What the Mint Is Actually Selling, and How to Spot the Knockoffs", href: "/blog/america-250-semiquincentennial-coins-fakes-buyers-guide" },
+        ],
+      },
+      {
+        question: "What does \u201CCOPY\u201D stamped on a coin mean?",
+        answer: "It means the piece is a replica. Under the Hobby Protection Act (15 U.S.C. \u00A7 2101(b)), making, importing or selling an imitation coin or other numismatic item that is not plainly and permanently marked \u201Ccopy\u201D is an unfair or deceptive practice under the FTC Act. The FTC\u2019s rule at 16 C.F.R. \u00A7 304.6 requires the word \u201CCOPY\u201D in capital letters on the obverse or reverse (not only on the edge), at least 2 millimeters tall or one-sixth of the piece\u2019s diameter. A marked replica is legal to sell but is not a government coin and is worth only its metal content, if any. Restrikes issued by the U.S. or a foreign government are not imitations under the rule.",
+        learnMoreLabel: "America 250 Coins: What the Mint Is Actually Selling, and How to Spot the Knockoffs",
+        learnMoreHref: "/blog/america-250-semiquincentennial-coins-fakes-buyers-guide",
+        links: [
+          { label: "16 C.F.R. Part 304 (eCFR)", href: "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-B/part-304" },
+        ],
+      },
+      {
+        question: "Is the 2026 Trump coin made of gold?",
+        answer: "It depends which one. The 2026 Semiquincentennial Trump $1 coin is a gold-colored circulating dollar made of copper, zinc, manganese and nickel; the U.S. Mint notes that golden dollar coins \u201Care not actually gold.\u201D A separate Mint product, the Semiquincentennial President Donald J. Trump 24K Gold Proof Coin, contains one ounce of .9999 fine gold, carries a $250 denomination and the West Point \u201CW\u201D mint mark, and, according to the Mint\u2019s product page as of November 1, 2026, goes on sale November 19, 2026 at noon ET with a 75,000 mintage limit, a household limit of 4, and a price still listed as TBD. The Mint evaluates its numismatic gold prices every Wednesday against the weekly LBMA gold price average. Pieces described as \u201Clayered in 24K gold\u201D or \u201Cgold-plated\u201D are neither of these.",
+        learnMoreLabel: "America 250 Coins: What the Mint Is Actually Selling, and How to Spot the Knockoffs",
+        learnMoreHref: "/blog/america-250-semiquincentennial-coins-fakes-buyers-guide",
+        links: [
+          { label: "U.S. Mint: Trump $1 coin specifications", href: "https://www.usmint.gov/campaigns/donald-trump-coin" },
         ],
       },
       {
@@ -712,6 +752,7 @@ export const faqCategories: FAQCategory[] = [
         learnMoreHref: "/blog/how-to-spot-counterfeit-gold-silver-coins",
         links: [
           { label: "Counterfeit Gold Bars: How They Work and How to Protect Yourself", href: "/blog/counterfeit-gold-bars-how-to-protect-yourself" },
+          { label: "America 250 Coins: What the Mint Is Actually Selling, and How to Spot the Knockoffs", href: "/blog/america-250-semiquincentennial-coins-fakes-buyers-guide" },
         ],
       },
       {

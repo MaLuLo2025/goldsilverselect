@@ -10,7 +10,6 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Gold IRAs are legitimate but aggressively marketed. Learn the real fee structure, common scams like numismatic upselling and inflated markups, and how to evaluate providers before signing.",
     date: "2026-06-09",
-    dateModified: "2026-10-26"
   },
   {
     slug: "dca-vs-timing-precious-metals",
@@ -21,7 +20,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Market timing requires forecasting inflation, central bank policy, and sentiment simultaneously. Dollar-cost averaging eliminates the timing decision and produces comparable results for most buyers.",
     date: "2026-06-09",
-    dateModified: "2026-10-26",
+    dateModified: "2026-09-28",
     series: "Spot Price vs. What You Pay",
   },
   {
@@ -34,7 +33,6 @@ export const blogPosts: BlogPost[] = [
       "The ratio tells you which metal offers more per dollar relative to historical norms. Learn the 80/60 rule, how industrial demand shifts the ratio, and how ratio traders accumulate ounces over time.",
     date: "2026-06-09",
     series: "Spot Price vs. What You Pay",
-    dateModified: "2026-10-26"
   },
   {
     slug: "sell-back-spreads-what-dealers-actually-pay",
@@ -46,7 +44,6 @@ export const blogPosts: BlogPost[] = [
       "Reputable dealers pay 90\u201397% of melt value for generic bullion. Learn how quantities, product types, and dealer overhead affect your sell-back price and exit strategy.",
     date: "2026-05-26",
     series: "Spot Price vs. What You Pay",
-    dateModified: "2026-10-26"
   },
   {
     slug: "numismatic-premium-vs-bullion-value",
@@ -58,7 +55,6 @@ export const blogPosts: BlogPost[] = [
       "The same silver dollar can trade from $25 to $1,200+ depending on rarity and grade. Learn when numismatic premiums reflect real value and when they\u2019re dealer markups disguised as collectibility.",
     date: "2026-05-26",
     series: "Spot Price vs. What You Pay",
-    dateModified: "2026-10-26"
   },
   {
     slug: "junk-silver-pricing-face-value-premium",
@@ -70,7 +66,6 @@ export const blogPosts: BlogPost[] = [
       "$1 face value of pre-1965 silver coins contains 0.715 troy ounces of pure silver. Learn how to calculate fair prices, typical premiums, and when junk silver offers better value than modern bullion.",
     date: "2026-05-26",
     series: "Spot Price vs. What You Pay",
-    dateModified: "2026-10-26"
   },
   {
     slug: "home-storage-gold-ira-scam",
@@ -81,7 +76,6 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "\u201CSelf-storage\u201D and \u201Ccheckbook LLC\u201D gold IRA pitches sound like a clever way to keep your retirement metals at home. The IRS calls it a prohibited transaction \u2014 and the penalty can wipe out the entire account.",
     date: "2026-04-06",
-    dateModified: "2026-10-26"
   },
   {
     slug: "how-to-spot-counterfeit-gold-silver-coins",
@@ -92,7 +86,6 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Counterfeit American Eagles, Maple Leafs, and Krugerrands are circulating in larger numbers than most buyers realize. Here are seven simple tests you can run before you ever pay for a coin.",
     date: "2026-04-06",
-    dateModified: "2026-10-26"
   },
   {
     slug: "capital-gains-tax-gold-silver-2026",
@@ -103,6 +96,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Gold and silver are taxed as collectibles \u2014 with a top federal rate of 28%, separate 1099-B reporting rules, and a maze of state sales tax exemptions. Here\u2019s exactly how it works.",
     date: "2026-04-06",
+    dateModified: "2026-11-02",
   },
   {
     slug: "gold-silver-ratio-explained",
@@ -143,7 +137,6 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Should you buy gold and silver online or from a local coin shop? The answer is simpler than you think \u2014 here\u2019s what actually determines whether you get a fair deal.",
     date: "2026-03-24",
-    dateModified: "2026-10-26"
   },
   {
     slug: "silver-premiums-and-bar-size",
@@ -155,7 +148,6 @@ export const blogPosts: BlogPost[] = [
       "Silver premiums run higher than gold as a percentage and shift dramatically depending on what form you buy. Here\u2019s the math most buyers don\u2019t see.",
     date: "2026-03-25",
     series: "Spot Price vs. What You Pay",
-    dateModified: "2026-10-26"
   },
   {
     slug: "junk-silver-premiums-explained",
@@ -167,7 +159,6 @@ export const blogPosts: BlogPost[] = [
       "Pre-1965 U.S. coins contain 90% silver and are priced differently from bullion. Here\u2019s how constitutional silver works and when it\u2019s the smartest buy.",
     date: "2026-03-25",
     series: "Spot Price vs. What You Pay",
-    dateModified: "2026-10-26"
   },
   {
     slug: "gold-and-wars-geopolitical-risk-hedge",
@@ -178,7 +169,6 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Every major conflict since 1900 has moved the gold price. Here\u2019s what actually happened \u2014 from the gold standard era through two world wars, the Cold War, and the modern age of sanctions and central bank buying.",
     date: "2026-03-31",
-    dateModified: "2026-10-26"
   },
   {
     slug: "storing-gold-silver-safely",
@@ -189,7 +179,6 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Physical metals have no automatic custodian. Home storage, bank safe deposit boxes, and private vaults each have real tradeoffs in cost, insurance, and access. Here\u2019s what each option actually looks like.",
     date: "2026-04-13",
-    dateModified: "2026-10-26"
   },
   {
     slug: "gold-vs-bitcoin-2026",
@@ -200,7 +189,6 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Gold doubled. Bitcoin dropped 47% from its high. Both were supposed to be safe havens. The 2026 divergence is the data point worth examining \u2014 here\u2019s what the crisis performance data actually shows.",
     date: "2026-04-13",
-    dateModified: "2026-10-26"
   },
   {
     slug: "how-much-over-spot-should-i-pay-for-gold-2026",
@@ -210,7 +198,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Gold is near $5,100 an ounce \u2014 so what\u2019s a fair premium, what crosses into overpriced, and where do the worst rip-offs hide? Dollar-by-dollar ranges for standard bullion products, plus the \u201Cpadded spot price\u201D trick that makes unfair premiums look reasonable.",
     date: "2026-04-20",
-    dateModified: "2026-10-26",
+    dateModified: "2026-09-28",
     series: "Spot Price vs. What You Pay",
   },
   {
@@ -221,7 +209,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Legitimate gold IRAs are a real retirement option. The sales tactics around them are, disproportionately, how retirees get scammed. A federal enforcement-backed guide to the red flags \u2014 including the $50M Red Rock Secured SEC case, the McNulty home-storage ruling, and what actually constitutes IRA-eligible precious metals.",
     date: "2026-04-20",
-    dateModified: "2026-10-26",
+    dateModified: "2026-09-28",
   },
   {
     slug: "what-do-cash-for-gold-shops-actually-pay",
@@ -231,7 +219,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Cash-for-gold storefronts typically pay 40\u201360% of melt value. Local coin dealers pay 75\u201390%. Online bullion dealer buybacks pay 85\u201395%. A practical guide to calculating melt value, avoiding the sales tactics that expand the spread, and choosing the right channel.",
     date: "2026-04-20",
-    dateModified: "2026-10-26",
+    dateModified: "2026-09-28",
   },
   {
     slug: "precious-metals-dealer-scams",
@@ -241,7 +229,6 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "The precious metals industry has legitimate dealers at every level — and a persistent predatory fringe pushing products at 50 to 100% above market value. Six specific red flags to check before you send a wire.",
     date: "2026-06-30",
-    dateModified: "2026-10-26"
   },
   {
     slug: "physical-silver-vs-etf",
@@ -251,7 +238,6 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Silver ETFs and physical silver bars both track silver’s price. But the ownership structure, counterparty risk, tax treatment, and behavior under market stress are fundamentally different. The distinction that matters most when markets are stressed.",
     date: "2026-06-30",
-    dateModified: "2026-10-26"
   },
   {
     slug: "dealer-insolvency-metals",
@@ -263,9 +249,9 @@ export const blogPosts: BlogPost[] = [
     date: "2026-06-30",
     dateModified: "2026-10-26",
   },
-  { slug: "buying-gold-pawn-shop", title: "Buying Gold at a Pawn Shop: When It Makes Sense and When to Walk Away", tag: "Buyer’s Guide", tagColor: "gold", excerpt: "Pawn shops sell gold. Some of it is priced well. Most of it isn’t. Understanding the economics of how pawn shops acquire and price gold-bearing inventory is the filter you need.", date: "2026-06-30", dateModified: "2026-10-26" },
-  { slug: "silver-industrial-demand", title: "Silver’s Industrial Demand: Why It Behaves Differently Than Gold", tag: "Market Dynamics", tagColor: "gold", excerpt: "Silver’s price behavior differs from gold’s in ways that matter for investors — primarily because of silver’s significant industrial role. Understanding what drives it clarifies why silver is more volatile.", date: "2026-06-30", dateModified: "2026-10-26" },
-  { slug: "dealer-buyback-programs", title: "How Dealer Buyback Programs Work and How to Evaluate Them", tag: "Buyer’s Guide", tagColor: "gold", excerpt: "Where you sell your precious metals matters as much as where you buy them. Dealer buyback programs vary significantly in their terms, pricing, and reliability.", date: "2026-06-30", dateModified: "2026-10-26" },
+  { slug: "buying-gold-pawn-shop", title: "Buying Gold at a Pawn Shop: When It Makes Sense and When to Walk Away", tag: "Buyer’s Guide", tagColor: "gold", excerpt: "Pawn shops sell gold. Some of it is priced well. Most of it isn’t. Understanding the economics of how pawn shops acquire and price gold-bearing inventory is the filter you need.", date: "2026-06-30" },
+  { slug: "silver-industrial-demand", title: "Silver’s Industrial Demand: Why It Behaves Differently Than Gold", tag: "Market Dynamics", tagColor: "gold", excerpt: "Silver’s price behavior differs from gold’s in ways that matter for investors — primarily because of silver’s significant industrial role. Understanding what drives it clarifies why silver is more volatile.", date: "2026-06-30", dateModified: "2026-10-19" },
+  { slug: "dealer-buyback-programs", title: "How Dealer Buyback Programs Work and How to Evaluate Them", tag: "Buyer’s Guide", tagColor: "gold", excerpt: "Where you sell your precious metals matters as much as where you buy them. Dealer buyback programs vary significantly in their terms, pricing, and reliability.", date: "2026-06-30" },
   {
     slug: "why-gold-surged-2025-2026",
     title: "Why Gold Surged: What Drove the 2025–2026 Rally",
@@ -274,7 +260,6 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Gold reached $5,589/oz in January 2026 — roughly triple the price from five years earlier. Several concurrent forces drove this extraordinary run. Understanding them matters for evaluating current prices.",
     date: "2026-07-07",
-    dateModified: "2026-10-26"
   },
   {
     slug: "how-much-gold-silver-to-own",
@@ -284,7 +269,6 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Gold bug proponents say as much as possible. Mainstream advisors often say none. Neither is useful. Here’s an honest framework based on institutional research and your actual financial situation.",
     date: "2026-07-07",
-    dateModified: "2026-10-26"
   },
   {
     slug: "buying-gold-costco-retail",
@@ -294,7 +278,6 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Costco sells hundreds of millions in gold monthly. The products are legitimate. Whether the price is competitive depends on the day. Here’s how to evaluate a retail chain purchase against alternatives.",
     date: "2026-07-07",
-    dateModified: "2026-10-26"
   },
   {
     slug: "central-bank-gold-buying",
@@ -552,6 +535,26 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Between the day you pay and the day metal arrives, you don't own gold. You hold a promise. Here is how prepaid orders and buyback promises fail, what one 2026 bankruptcy filing shows about the mechanics, and the practical steps that protect you before you pay and after a dealer stops shipping.",
     date: "2026-10-26",
+  },
+  {
+    slug: "america-250-semiquincentennial-coins-fakes-buyers-guide",
+    title:
+      "America 250 Coins: What the Mint Is Actually Selling, and How to Spot the Knockoffs",
+    tag: "Don’t Get Ripped Off",
+    tagColor: "gold",
+    excerpt:
+      "The U.S. Mint's Semiquincentennial program includes a November silver dollar set and a one-ounce 24K gold proof, and lookalike tokens are already in circulation. Here are the Mint's published facts, the federal “COPY” marking rule for replicas, and seven checks that separate an official coin from a souvenir.",
+    date: "2026-11-02",
+  },
+  {
+    slug: "gold-silver-tax-loss-selling-2026-wash-sale",
+    title:
+      "Gold Fell Below ,000. Can You Harvest a Bullion Loss Before Dec. 31?",
+    tag: "Education",
+    tagColor: "forest",
+    excerpt:
+      "With gold well off its 2026 high, many owners hold metal worth less than they paid. Here is when a bullion loss is deductible, how the collectibles rules net it, why the wash-sale statute doesn't name physical metal (and where ETFs differ), and why dealer spreads can erase the benefit.",
+    date: "2026-11-02",
   },
 ];
 

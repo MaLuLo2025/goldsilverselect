@@ -313,7 +313,15 @@ const blogContent: Record<string, React.ReactNode> = {
         Sales tax on precious metals purchases is governed by state law and varies dramatically. Many states exempt investment-grade bullion entirely. Some exempt purchases over a certain dollar threshold (often $1,000 or $1,500). A few states tax all precious metal purchases at the full sales tax rate.
       </p>
       <p>
-        States that fully exempt investment-grade bullion (as of 2026) include Texas, Florida, Arizona, Washington, Oregon, Nevada, Wyoming, Alaska, Delaware, New Hampshire, Montana, and many others. States that historically tax precious metals at full rate include New Jersey, Vermont, Hawaii, Wisconsin, and several others. State legislatures change these rules frequently &mdash; a state that taxed bullion in 2020 may have exempted it by 2026 or vice versa.
+        States that fully exempt investment-grade bullion (as of 2026) include Texas, Florida, Arizona, Oregon, Nevada, Wyoming, Alaska, Delaware, New Hampshire, Montana, and many others. States that historically tax precious metals at full rate include New Jersey, Vermont, Hawaii, Wisconsin, and several others. State legislatures change these rules frequently &mdash; a state that taxed bullion in 2020 may have exempted it by 2026 or vice versa. Washington, for example, began taxing bullion sales on January 1, 2026, according to a{" "}
+        <a href="https://dor.wa.gov/forms-publications/publications-subject/special-notices/sales-precious-metal-bullion-and-monetized-bullion-now-subject-bo-tax-and-retail-sales-tax" target="_blank" rel="noopener noreferrer">
+          Washington Department of Revenue notice
+        </a>
+        . For the current state-by-state picture, see our{" "}
+        <Link href="/blog/sales-tax-precious-metals-by-state-2026" className="text-gold font-semibold">
+          2026 sales tax guide for precious metals
+        </Link>
+        .
       </p>
       <p>
         Online dealers must collect sales tax based on the buyer&apos;s state of delivery. This means buying online from an out-of-state dealer does not avoid sales tax in a state that taxes bullion &mdash; the dealer is required to collect and remit it. Always verify the sales tax treatment in your state before making large purchases. The Industry Council for Tangible Assets and individual state tax authority websites are the most reliable sources.
@@ -324,7 +332,11 @@ const blogContent: Record<string, React.ReactNode> = {
         If you sell precious metals for less than your cost basis, the loss is generally deductible against other capital gains. Collectible losses follow standard capital loss rules: net them against capital gains first, then deduct up to $3,000 of net losses against ordinary income per year, and carry forward any excess.
       </p>
       <p>
-        There is no special &ldquo;collectibles loss&rdquo; rate &mdash; losses are losses. The 28% rate only applies on the gains side.
+        There is no special &ldquo;collectibles loss&rdquo; rate &mdash; losses are losses. The 28% rate only applies on the gains side. The order of netting still matters: a long-term loss on bullion first reduces long-term collectibles gains. For year-end loss harvesting, the wash-sale question, and the round-trip cost of selling and rebuying, see{" "}
+        <Link href="/blog/gold-silver-tax-loss-selling-2026-wash-sale" className="text-gold font-semibold">
+          harvesting a bullion loss before December 31
+        </Link>
+        .
       </p>
 
       <h2>IRA Tax Treatment Is Different</h2>
@@ -6933,6 +6945,137 @@ const blogContent: Record<string, React.ReactNode> = {
       <h2>The takeaway</h2>
       <p>Prepaying for metal isn&apos;t wrong, and most orders arrive as promised. But the safest position in precious metals is the simplest one: the metal is in your hands, or held in your name where you can verify it, and the time you spend holding only a promise is as short as you can make it.</p>
       <p>Get delivery dates and buyback terms in writing, pay in a way that preserves your rights, act as soon as dates start slipping, and if a dealer does fail, file your claim on time. To compare dealers by location, browse <Link href="/dealers" className="text-gold font-semibold">our dealer directory</Link>, and ask each one the same questions about lead times and buyback payment before you send money.</p>
+    </>
+  ),
+  "america-250-semiquincentennial-coins-fakes-buyers-guide": (
+    <>
+      <p>The United States turns 250 in 2026, and the U.S. Mint is marking the Semiquincentennial with redesigned circulating coins, special editions of its collector coins, and two high-profile November releases. Wherever an official product draws attention, unofficial lookalikes follow: gold-colored tokens, &quot;tribute&quot; pieces, plated medals, and listings that borrow the Mint&apos;s product names.</p>
+      <p>This guide sets out what the Mint is actually selling, using the Mint&apos;s own product pages and Federal Register notices as of November 1, 2026, and then explains the federal marking rule for replicas and the checks that separate an official coin from a souvenir. It is consumer education, not investment advice. It makes no prediction about what any of these coins will be worth, and it describes coins bearing a political figure&apos;s portrait only as Mint products, with their published specifications.</p>
+      <h2>What the Mint has issued for America&apos;s 250th</h2>
+      <p>The program has two layers.</p>
+      <ul>
+        <li><strong>Circulating coins.</strong> Under the Circulating Collectible Coin Redesign Act of 2020 (Public Law 116-330), the 2026 dime, quarter (five designs) and half dollar carry one-year Semiquincentennial designs and the dual date &quot;1776 ~ 2026,&quot; according to the Mint&apos;s <a href="https://www.usmint.gov/content/usmint/us/en/news/press-releases/united-states-mint-semiquincentennial-circulating-coin-program-designs-unveiled.html" target="_blank" rel="noopener noreferrer">December 11, 2025 design announcement</a>. These are ordinary money. You can get them in change at face value.</li>
+        <li><strong>Collector and bullion editions.</strong> The Mint&apos;s <a href="https://www.usmint.gov/news/media-kit/semiq-resources" target="_blank" rel="noopener noreferrer">Semiquincentennial media kit</a> lists dual-dated 2026 versions of its regular collector lines, including American Eagle, American Buffalo, and Morgan and Peace dollar products, many with a Liberty Bell &quot;250&quot; privy mark. These are sold by the Mint at set prices and then trade on the secondary market.</li>
+      </ul>
+      <h2>The two November releases</h2>
+      <p><strong>Morgan and Peace Dollar 2026 Diamond Field Two-Coin Set.</strong> According to the Mint&apos;s product page (item 26XS), as of November 1, 2026:</p>
+      <ul>
+        <li>On sale November 12, 2026, at 12 noon Eastern, for $375.00.</li>
+        <li>Two .999 fine silver dollars, a Morgan and a Peace, struck at Philadelphia with the &quot;P&quot; mint mark, each bearing &quot;1776 ~ 2026&quot; and the Liberty Bell &quot;250&quot; privy mark.</li>
+        <li>Mintage limit and product limit: 262,500. Household order limit: none.</li>
+      </ul>
+      <p>The Mint can change limits, so check the product page on release day.</p>
+      <p><strong>The 24K gold proof coin bearing President Trump&apos;s portrait.</strong> The Mint&apos;s product page for the &quot;Semiquincentennial President Donald J. Trump 24K Gold Proof Coin&quot; (item 26SQG) states, as of November 1, 2026:</p>
+      <ul>
+        <li>On sale November 19, 2026, at 12 noon Eastern. Price: &quot;TBD.&quot;</li>
+        <li>One ounce of .9999 fine gold, proof finish, struck at West Point with the &quot;W&quot; mint mark.</li>
+        <li>Reverse inscriptions include &quot;1 OZ,&quot; &quot;.9999 FINE GOLD&quot; and &quot;250 DOLLARS.&quot; The obverse carries &quot;LIBERTY,&quot; &quot;IN GOD WE TRUST&quot; and &quot;1776 ~ 2026.&quot;</li>
+        <li>Mintage limit and product limit: 75,000. Household order limit: 4.</li>
+      </ul>
+      <p>Earlier coverage, including a September 15 <a href="https://www.worldnumismaticnews.com/2026/09/15/2026-trump-gold-coin-250-proof-november-5/" target="_blank" rel="noopener noreferrer">World Numismatic News report</a>, gave a November 5 on-sale date and a one-per-household limit. The Mint&apos;s own page, as of November 1, shows November 19 and four per household. If you plan to buy from the Mint, go by the product page, and recheck it shortly before the release.</p>
+      <p>Why the price isn&apos;t set yet: the Mint&apos;s <a href="https://www.govinfo.gov/content/pkg/FR-2026-08-12/html/2026-16409.htm" target="_blank" rel="noopener noreferrer">Federal Register pricing notice of August 12, 2026</a> lists this coin&apos;s price as &quot;TBD&quot; and explains that pricing for the Mint&apos;s numismatic gold products &quot;is evaluated every Wednesday and modified, as necessary,&quot; based on the LBMA gold price weekly average. The price on release day will reflect the gold market that week.</p>
+      <p><strong>The Trump $1 coin is not gold.</strong> A separate product, the 2026 Semiquincentennial President Donald J. Trump $1 coin, is a gold-colored circulating dollar. The Mint&apos;s <a href="https://www.usmint.gov/campaigns/donald-trump-coin" target="_blank" rel="noopener noreferrer">coin page</a> lists its composition as 6% zinc, 3.5% manganese, 2% nickel and the balance copper, at 8.10 grams, and notes that golden dollar coins &quot;are not actually gold.&quot; The Mint&apos;s August 12 notice priced 25-coin rolls at $61.00 and 100-coin bags at $154.50, and those went on sale September 2.</p>
+      <p>That gives three different things a seller could call a &quot;gold Trump coin&quot;: a one-ounce gold proof not yet released, a brass dollar with a gold color, and any number of private pieces. Most of the confusion in this market lives in that gap.</p>
+      <h2>The law on replicas: the Hobby Protection Act</h2>
+      <p>Federal law doesn&apos;t ban replica coins. It requires them to say what they are.</p>
+      <ul>
+        <li><strong>The marking rule.</strong> Under <a href="https://www.law.cornell.edu/uscode/text/15/2101" target="_blank" rel="noopener noreferrer">15 U.S.C. § 2101(b)</a>, manufacturing in or importing into the United States, or selling in commerce, any imitation numismatic item that is not &quot;plainly and permanently marked &apos;copy&apos;&quot; is unlawful and an unfair or deceptive practice under the Federal Trade Commission Act. The sale prong was added in 2014 by the Collectible Coin Protection Act, so the rule reaches sellers, not only makers and importers.</li>
+        <li><strong>How the mark must look.</strong> The FTC&apos;s rule at <a href="https://www.ecfr.gov/current/title-16/chapter-I/subchapter-B/part-304" target="_blank" rel="noopener noreferrer">16 C.F.R. § 304.6</a> requires the word &quot;COPY&quot; in capital English letters on the obverse or reverse, never only on the edge. On metal pieces it must be incused (pressed in) in sans-serif letters at least 2 millimeters tall, or one-sixth of the piece&apos;s diameter.</li>
+        <li><strong>What counts as an imitation.</strong> The rule defines an imitation numismatic item as one that purports to be an original numismatic item, or is a reproduction, copy or counterfeit of one. That includes a genuine coin altered to pass as a different one. Restrikes issued by the United States or a foreign government are not imitations.</li>
+        <li><strong>Helpers and lawsuits.</strong> The statute also reaches anyone who gives &quot;substantial assistance or support&quot; to a violator while knowing, or when they should have known, of the violation (§ 2101(d)). Under 15 U.S.C. § 2102, any interested person can sue a violator for an injunction and damages.</li>
+      </ul>
+      <p>Two practical points follow. A coin stamped &quot;COPY&quot; is a replica that is following the law. It isn&apos;t a fraud, but it isn&apos;t a Mint coin either, and it&apos;s worth only its metal content, if any. And a private medal with its own design that doesn&apos;t pose as a U.S. coin isn&apos;t an &quot;imitation&quot; in the statute&apos;s sense. Those are legal to sell. The problem starts when they&apos;re marketed as official, as legal tender, or as solid gold when they&apos;re plated.</p>
+      <p>The FTC has used this law against commemorative sellers before. In January 2013, it <a href="https://www.ftc.gov/node/46272" target="_blank" rel="noopener noreferrer">announced a settlement</a> with National Collector&apos;s Mint over 9/11 commemoratives it had called &quot;exclusively authorized.&quot; The FTC alleged the items were imitations not marked &quot;COPY&quot; and challenged the company&apos;s ordering and refund practices. The company agreed to pay $750,000, and the FTC noted that the settlement was not an admission that the law was violated.</p>
+      <h2>What consumer groups are seeing in 2026</h2>
+      <p>In late June 2026, ahead of July 4, the Better Business Bureau warned shoppers about America 250 merchandise scams. Speaking to <a href="https://www.waff.com/2026/06/26/bbb-warns-america-250-scams-targeting-holiday-shoppers/" target="_blank" rel="noopener noreferrer">WAFF in Huntsville</a>, BBB&apos;s Karen Reeves said, &quot;anyone can manufacture a commemorative token or coin. Unless it is produced or authorized by the U.S. Mint, it is not an official U.S. commemorative coin.&quot; She described the fakes as often lightweight souvenir tokens, poorly engraved, with incorrect dates or designs.</p>
+      <h2>How to tell an official coin from a souvenir</h2>
+      <p><strong>Match it to the Mint&apos;s product page.</strong> Every Mint product has a name, an item number, a mint mark, and published inscriptions. The 24K gold proof says &quot;250 DOLLARS,&quot; &quot;1 OZ&quot; and &quot;.9999 FINE GOLD&quot; and carries a &quot;W.&quot; The Diamond Field dollars carry &quot;P&quot; and the Liberty Bell &quot;250&quot; privy. A piece that is missing these, or that adds words the Mint&apos;s page doesn&apos;t show, isn&apos;t the Mint&apos;s product.</p>
+      <p><strong>Look for a denomination.</strong> U.S. coins state a face value. Tokens and medals usually don&apos;t, or they substitute words like &quot;commemorative&quot; or &quot;tribute.&quot;</p>
+      <p><strong>Look for &quot;COPY.&quot;</strong> If it&apos;s there, you&apos;re holding a replica. If a listing&apos;s photos never show the reverse, ask why.</p>
+      <p><strong>Read the metal description word by word.</strong> &quot;Layered in 24K gold,&quot; &quot;gold-clad,&quot; &quot;gold-plated,&quot; &quot;gold-finished&quot; and &quot;24K gold accents&quot; describe a coating, not a gold coin. The Mint&apos;s gold proof is one troy ounce of .9999 gold, and a seller of the real coin will say so in those terms.</p>
+      <p><strong>Run the price math.</strong> One ounce of gold can&apos;t sell for a fraction of the gold price. On October 30, 2026, gold closed at $3,984.94 an ounce on <a href="https://thegoldwindow.ai" target="_blank" rel="noopener noreferrer">The Gold Window</a>&apos;s daily spot series. A &quot;24K gold Trump coin&quot; offered for $29.99 is not an ounce of gold, whatever the ad says.</p>
+      <p><strong>Check the calendar.</strong> Until November 19, the Mint hasn&apos;t sold a single 24K gold proof. Anyone offering one before then is selling a presale: a promise to deliver a coin they don&apos;t yet have. Before you prepay, read our guide on <Link href="/blog/prepaid-gold-orders-delivery-delays-dealer-bankruptcy" className="text-gold font-semibold">how prepaid orders fail</Link>.</p>
+      <p><strong>Buy graded coins from sellers you can find again.</strong> On the secondary market, graded coins in holders from established grading services are common, and so are counterfeit holders. Our guides to <Link href="/blog/how-to-spot-counterfeit-gold-silver-coins" className="text-gold font-semibold">spotting counterfeit gold and silver coins</Link> and <Link href="/blog/counterfeit-gold-bars-how-to-protect-yourself" className="text-gold font-semibold">counterfeit gold bars</Link> cover weight, dimension, magnet and conductivity checks.</p>
+      <h2>Mint price, metal value, and resale</h2>
+      <p>A proof gold coin from the Mint is a numismatic product. Its price includes the gold, plus minting, packaging, and the Mint&apos;s margin. When you later sell, a dealer&apos;s offer is set by that day&apos;s market for the coin, and that may be above or below what you paid. The Mint&apos;s issue price doesn&apos;t set it. For how collector premiums work, and when they hold up, see <Link href="/blog/numismatic-premium-vs-bullion-value" className="text-gold font-semibold">numismatic premium vs. bullion value</Link>. If your goal is simply to own gold by the ounce, compare against standard bullion coins in <Link href="/blog/how-much-over-spot-should-i-pay-for-gold-2026" className="text-gold font-semibold">how much over spot to pay for gold</Link>.</p>
+      <p>The same logic applies to a brass dollar. Rolls of the circulating Trump $1 coin are sold at a premium over their $25 or $100 face value, and the coins contain no precious metal.</p>
+      <h2>If you bought a fake</h2>
+      <ul>
+        <li><strong>Contact the seller in writing</strong> and ask for a refund, citing the description you relied on.</li>
+        <li><strong>If you paid by card,</strong> ask your card issuer about a billing-error dispute promptly. The written notice generally must reach the issuer within 60 days after the statement showing the charge.</li>
+        <li><strong>Report it</strong> to the FTC at <a href="https://reportfraud.ftc.gov/" target="_blank" rel="noopener noreferrer">ReportFraud.ftc.gov</a> and to your state attorney general. Keep the listing screenshots, the packaging, and the piece itself.</li>
+      </ul>
+      <p>For more on dealer red flags, see <Link href="/blog/precious-metals-dealer-scams" className="text-gold font-semibold">how to spot a precious metals dealer scam</Link>. To compare dealers by location, browse <Link href="/dealers" className="text-gold font-semibold">our dealer directory</Link>, and ask any seller to name the Mint item number before you pay.</p>
+    </>
+  ),
+  "gold-silver-tax-loss-selling-2026-wash-sale": (
+    <>
+      <p>For the first time in a while, a lot of gold owners are holding metal worth less than they paid. On October 30, 2026, gold closed at $3,984.94 an ounce on <a href="https://thegoldwindow.ai" target="_blank" rel="noopener noreferrer">The Gold Window</a>&apos;s daily spot series. On that same series, the 2026 high was $5,405 on January 29, so the October 30 close sits roughly 26% below it. Anyone who bought this year is likely under water on paper, before counting the dealer premium they paid.</p>
+      <p>That raises a year-end question stock investors know well: can you sell at a loss before December 31, deduct it, and buy back in? This article walks through what the Internal Revenue Code and current IRS publications actually say about bullion losses, why the wash-sale rule is written in a way that doesn&apos;t name physical metal, where that answer gets less certain (ETFs especially), and why dealer spreads can eat much of the benefit.</p>
+      <p>It is general education, not tax advice. The rules below are from the statute and the 2025 editions of IRS Publications 550 and 544, the current editions as of November 2026. Run your own numbers with a tax professional before you sell.</p>
+      <h2>Step one: is your loss deductible at all?</h2>
+      <p>An individual can deduct only certain kinds of losses. Under <a href="https://www.law.cornell.edu/uscode/text/26/165" target="_blank" rel="noopener noreferrer">26 U.S.C. § 165(c)</a>, those are losses incurred in a trade or business, losses in a transaction entered into for profit, and casualty and theft losses within narrow limits. IRS <a href="https://www.irs.gov/publications/p544" target="_blank" rel="noopener noreferrer">Publication 544</a> puts the flip side plainly: a &quot;loss from the sale or exchange of property held for personal use is not deductible.&quot;</p>
+      <ul>
+        <li><strong>Bullion bought as an investment</strong> (coins and bars you hold for their metal value) is generally a transaction entered into for profit, so a loss on sale is a capital loss.</li>
+        <li><strong>Gold jewelry you wore, or a coin collection that was mainly a hobby,</strong> can look more like personal-use property. A gain on that property is still taxable, but a loss is not deductible. If your situation is mixed, raise it with your preparer before you count on the deduction.</li>
+      </ul>
+      <h2>Step two: how much of the loss you can use</h2>
+      <p>Capital losses first offset capital gains. Under <a href="https://www.law.cornell.edu/uscode/text/26/1211" target="_blank" rel="noopener noreferrer">26 U.S.C. § 1211(b)</a>, if your losses exceed your gains, you can deduct the excess against other income up to $3,000 a year ($1,500 if married filing separately).</p>
+      <p>Anything left over isn&apos;t lost. Under <a href="https://www.law.cornell.edu/uscode/text/26/1212" target="_blank" rel="noopener noreferrer">26 U.S.C. § 1212(b)</a>, an individual&apos;s net capital loss carries forward to the next year, keeping its short-term or long-term character, and keeps carrying forward until it&apos;s used. Publication 544&apos;s example: a couple with a $7,000 capital loss and no other capital transactions deducts $3,000 this year and carries the rest forward.</p>
+      <h2>The collectibles wrinkle: where a bullion loss lands</h2>
+      <p>Gold, silver, platinum and palladium are &quot;collectibles&quot; for capital-gains purposes. <a href="https://www.law.cornell.edu/uscode/text/26/1" target="_blank" rel="noopener noreferrer">26 U.S.C. § 1(h)(5)</a> defines collectibles gain and loss by reference to the collectibles list in § 408(m), applied without the IRA bullion exception in § 408(m)(3). Publication 550 describes it as gain or loss from selling &quot;metal (such as gold, silver, and platinum bullion)&quot; held more than one year. Long-term collectibles gain is taxed at a maximum 28% rate rather than the 0/15/20% rates that apply to most long-term gains.</p>
+      <p>How the loss side works matters for harvesting:</p>
+      <ul>
+        <li><strong>Long-term bullion losses</strong> (metal held more than a year) are collectibles losses. Under § 1(h)(4), the &quot;28-percent rate gain&quot; is collectibles gain minus collectibles loss, net short-term capital loss, and any long-term loss carried forward from earlier years. In plain terms, a long-term loss on gold first reduces your long-term collectibles gains.</li>
+        <li><strong>Short-term bullion losses</strong> (held one year or less) are ordinary short-term capital losses. Most metal bought in 2026 falls here. They offset short-term gains first, and a net short-term loss also reduces 28% rate gain.</li>
+        <li><strong>The 28% is a ceiling.</strong> Publication 550 notes that if your regular rate is lower than 28%, the 28% rate doesn&apos;t apply. The value of a loss depends on which gains it ends up offsetting and on your bracket.</li>
+      </ul>
+      <p>The calculation runs through the 28% Rate Gain Worksheet in the <a href="https://www.irs.gov/instructions/i1040sd" target="_blank" rel="noopener noreferrer">Schedule D instructions</a>. For the gain side of the same rules, see our <Link href="/blog/capital-gains-tax-gold-silver-2026" className="text-gold font-semibold">capital gains tax guide for gold and silver</Link>.</p>
+      <h2>The wash-sale rule and physical metal</h2>
+      <p>The wash-sale rule is what stops a stock investor from selling at a loss and buying the same shares straight back. Its text is narrow. <a href="https://www.law.cornell.edu/uscode/text/26/1091" target="_blank" rel="noopener noreferrer">26 U.S.C. § 1091(a)</a> disallows a loss &quot;from any sale or other disposition of shares of stock or securities&quot; if, within 30 days before or after the sale, the taxpayer acquires (or contracts or takes an option to acquire) &quot;substantially identical stock or securities.&quot; The statute extends &quot;stock or securities&quot; to contracts or options to buy or sell stock or securities. It doesn&apos;t mention commodities or precious metals.</p>
+      <p>A gold coin or a silver bar isn&apos;t a share of stock or a security. By its terms, then, § 1091 doesn&apos;t reach a sale of physical bullion.</p>
+      <p>IRS <a href="https://www.irs.gov/publications/p550" target="_blank" rel="noopener noreferrer">Publication 550</a> describes the rule the same way. Its wash-sale section speaks only of &quot;stock or securities&quot; and contracts or options on them, and it adds that the wash-sale rules &quot;do not apply to losses from sales or trades of commodity futures contracts and foreign currencies.&quot; As of November 2026, neither Publication 550 nor the Schedule D instructions mention physical precious metals in their wash-sale discussions.</p>
+      <p>What that does and doesn&apos;t mean:</p>
+      <ul>
+        <li><strong>It isn&apos;t an IRS ruling on bullion.</strong> It&apos;s the statute&apos;s wording, plus publications that don&apos;t extend it. Congress or Treasury could change the scope, and you should check the current rule in the year you file.</li>
+        <li><strong>A sale still has to be a real sale.</strong> Selling coins and buying identical coins back from the same dealer in the same moment, with no real change in your position, invites the question of whether anything happened at all. General tax principles about substance over form exist apart from § 1091. A tax professional can tell you how much separation, in time or in product, makes sense for your facts.</li>
+        <li><strong>The holding period restarts.</strong> Because no wash-sale adjustment applies, the replacement metal gets a new cost basis and a new holding period. Sell it within a year and any gain is short-term, taxed at ordinary rates.</li>
+        <li><strong>Lower basis, larger future gain.</strong> Harvesting a loss and rebuying lowers your basis by the same amount. Part of the benefit is timing: tax saved now can come back as a larger gain later.</li>
+      </ul>
+      <h2>ETFs, mining stocks and other paper gold</h2>
+      <p>This is where the answer gets less clean.</p>
+      <ul>
+        <li><strong>Physically backed metal ETFs.</strong> Many are organized as grantor trusts, and § 1(h)(5)(B) treats gain from selling an interest in a trust, to the extent it reflects appreciation in collectibles, as collectibles gain. Publication 550 says the same. But ETF shares are bought and sold on an exchange like stock, and as of November 2026 Publication 550 doesn&apos;t say whether trust shares backed by metal are &quot;stock or securities&quot; for § 1091. Without that answer, a conservative approach treats a sale and repurchase of the same ETF within 30 days as a possible wash sale. A swap into a different fund that holds the same metal raises the separate &quot;substantially identical&quot; question. Ask your preparer before relying on either. Our <Link href="/blog/physical-silver-vs-etf" className="text-gold font-semibold">physical silver vs. ETF guide</Link> covers the structural differences.</li>
+        <li><strong>Mining stocks</strong> are stock. The wash-sale rule applies to them in full.</li>
+        <li><strong>IRAs.</strong> Publication 550 lists buying substantially identical stock or securities in your IRA or Roth IRA within the 30-day window as a wash sale. Keep that in mind if you hold metal ETFs inside an IRA.</li>
+        <li><strong>Futures.</strong> Publication 550 says the wash-sale rules don&apos;t apply to commodity futures contracts. Futures have their own tax regime, outside the scope of this article.</li>
+      </ul>
+      <h2>Timing: what &quot;before December 31&quot; means</h2>
+      <p>For securities traded on an established market, including ETF shares, Publication 550 is specific: the trade date controls, not the settlement date. Its example is stock sold on December 31, 2025 that settled in January 2026. The gain or loss belongs on the 2025 return.</p>
+      <p>A sale of coins or bars to a dealer isn&apos;t an exchange trade, and IRS publications don&apos;t set out a separate trade-date rule for it. Many dealers quote a locked price by phone and pay only after your metal arrives and is checked. To keep the question from arising, finish the sale well before year-end: lock the price, deliver the metal, and get a dated confirmation and invoice that show the date, the products, and the price. Holiday shipping and dealer processing can take longer than usual in late December.</p>
+      <h2>Do the round-trip math first</h2>
+      <p>A tax loss is worth a fraction of its size. Selling and rebuying physical metal costs real money: you sell at the dealer&apos;s bid and buy back at its ask, and the gap between them is often several percent. See <Link href="/blog/sell-back-spreads-what-dealers-actually-pay" className="text-gold font-semibold">what dealers actually pay on sell-back</Link> and <Link href="/blog/how-much-over-spot-should-i-pay-for-gold-2026" className="text-gold font-semibold">how much over spot to pay</Link>.</p>
+      <p>Consider a hypothetical buyer, using round numbers rather than any dealer&apos;s actual quotes. She paid $5,200 for a one-ounce gold coin in early 2026. A dealer now bids $3,950 for it, giving her a $1,250 short-term capital loss. She has no other capital gains this year, so the loss offsets ordinary income within the $3,000 limit. In a 24% bracket, that saves about $300 in federal tax. If buying a replacement coin and the sale together cost her 4% of the metal&apos;s value, about $158, her net benefit is roughly $142. She has also lowered her basis, so more of any future rise in gold will be taxable. With a wider spread, a lower bracket, or a smaller loss, the trade can cost more than it saves.</p>
+      <p>Harvesting can make more sense when the loss is large, when it offsets gains you have already realized this year, or when you were planning to sell anyway. It makes less sense for a small loss in a low bracket.</p>
+      <h2>Reporting the sale</h2>
+      <ul>
+        <li><strong>Report every sale</strong> on Form 8949 and Schedule D, whether or not the dealer issues a Form 1099-B. Many bullion sales are not reportable by the dealer, but they are still reportable by you. See our explainer on the <Link href="/blog/1099-b-reporting-precious-metals-2026-irs-correction" className="text-gold font-semibold">2026 Form 1099-B instructions for precious metals</Link>.</li>
+        <li><strong>Prove your basis.</strong> A loss is only as good as your records. Keep the original invoice (price, premium, shipping) and the sale confirmation. Gifted or inherited metal has its own basis rules. See <Link href="/blog/gifting-gold-silver-gift-tax-basis" className="text-gold font-semibold">gifting gold and silver</Link> and <Link href="/blog/inheriting-gold-silver-tax-basis" className="text-gold font-semibold">inheriting gold and silver</Link>.</li>
+        <li><strong>Watch state tax.</strong> State income tax treatment of capital losses varies. Check your state&apos;s rules, too.</li>
+      </ul>
+      <h2>Year-end checklist</h2>
+      <ul>
+        <li>Confirm the metal was held as an investment, not for personal use.</li>
+        <li>Find your purchase invoices and work out the actual loss, including the premium you paid.</li>
+        <li>Note the holding period of each lot: one year or less, or more than one year.</li>
+        <li>Get two or three bids, and compare the tax value of the loss with the round-trip cost.</li>
+        <li>For ETFs, mining stocks, or anything in an IRA, plan around the 30-day window or get advice first.</li>
+        <li>Complete the sale, with dated paperwork, well before December 31.</li>
+      </ul>
+      <p>Whether to sell, hold or rebuy is a personal decision this article doesn&apos;t make for you. For the market side of that question, see <Link href="/blog/gold-at-4500-buy-sell-hold" className="text-gold font-semibold">our buy, sell or hold framework</Link>. To compare local buyers, browse <Link href="/dealers" className="text-gold font-semibold">our dealer directory</Link>.</p>
+      <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
+        GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We are not a tax advisor, and this article is for educational purposes only. Tax laws change and individual situations vary. Consult a qualified CPA or tax attorney before making decisions based on this information.
+      </p>
     </>
   ),
 };
