@@ -252,10 +252,10 @@ const blogContent: Record<string, React.ReactNode> = {
       <h2>The 28% Collectibles Rate</h2>
       <p>
         Under{" "}
-        <a href="https://www.law.cornell.edu/uscode/text/26/408" target="_blank" rel="noopener noreferrer">
-          IRC Section 408(m)
+        <a href="https://www.law.cornell.edu/uscode/text/26/1" target="_blank" rel="noopener noreferrer">
+          IRC &sect; 1(h)(4)&ndash;(5)
         </a>
-        , gold, silver, platinum, and palladium bullion are classified as collectibles for federal tax purposes. Long-term capital gains on collectibles are taxed at a maximum federal rate of <strong>28%</strong>, compared to 0%, 15%, or 20% for stocks and other capital assets depending on income.
+        , long-term gain from selling a collectible is taxed at a maximum federal rate of <strong>28%</strong>. That section borrows the definition of &ldquo;collectible&rdquo; in IRC &sect; 408(m), which covers any metal or coin, but expressly disregards &sect; 408(m)(3), the IRA exception for certain coins and bullion. So gold, silver, platinum, and palladium coins and bullion held outside an IRA are generally collectibles for this purpose, even products that are IRA-eligible. Compare 0%, 15%, or 20% for stocks and other capital assets, depending on income.
       </p>
       <p>
         The 28% rate is a maximum, not a flat rate. If your ordinary income tax rate would be lower than 28%, you pay your ordinary rate on the gain. Most taxpayers in the 22% or 24% bracket end up paying their bracket rate on collectibles gains. Taxpayers in the 32%, 35%, or 37% brackets cap out at 28%.
@@ -1283,7 +1283,7 @@ const blogContent: Record<string, React.ReactNode> = {
         <a href="/blog/central-bank-gold-buying">central bank gold buying</a>.
       </p>
       <p>
-        One more property worth noting: gold held physically has zero counterparty risk. A gold coin in your hand does not depend on a network, an exchange, a protocol, or a counterparty.
+        One more property worth noting: gold held physically has reduced counterparty risk, though not zero. A coin in your hand does not depend on a network, an exchange, or a protocol to exist, but you still depend on the dealer you bought from, the market you sell into, and where you store it.
       </p>
 
       <h2>Bitcoin&apos;s Crisis Track Record</h2>
@@ -1352,7 +1352,7 @@ const blogContent: Record<string, React.ReactNode> = {
         Counterparty risk is the risk that the other party in a financial arrangement fails, taking your assets with them.
       </p>
       <p>
-        <strong>Gold:</strong> Physical gold held in your possession has zero counterparty risk. No exchange, no custodian, no protocol. Gold in an allocated depository account carries minimal counterparty risk. Gold ETFs are subject to fund structure and custodian arrangements &mdash; low risk, but not zero.
+        <strong>Gold:</strong> Physical gold held in your possession has reduced counterparty risk, not zero: no exchange, custodian, or protocol stands between you and the metal, but you still rely on safe storage and on a market to sell into. Gold in an allocated depository account carries minimal counterparty risk. Gold ETFs are subject to fund structure and custodian arrangements &mdash; low risk, but not zero.
       </p>
       <p>
         <strong>Bitcoin:</strong> Held on a centralized exchange, bitcoin carries significant counterparty risk. The November 2022 collapse of FTX demonstrated this clearly &mdash; customers lost billions. Self-custody (hardware wallet, personal keys) eliminates counterparty risk but shifts technical risk to the holder. Lost private keys mean permanently lost bitcoin, with no recovery process. Estimates suggest roughly 20% of all bitcoin may be permanently inaccessible due to lost keys.
@@ -1374,7 +1374,7 @@ const blogContent: Record<string, React.ReactNode> = {
         <li>Crisis hedging &mdash; the data from 2008, 2020, 2022, and 2026 is consistent</li>
         <li>Central bank reserve asset &mdash; when the institutions that print money choose to hold an asset, that tells you something. Read more on{" "}
           <a href="/blog/central-bank-gold-buying">central bank gold buying</a>.</li>
-        <li>Zero-counterparty storage of value (physical)</li>
+        <li>Store of value with reduced counterparty risk (physical)</li>
       </ul>
       <p>
         <strong>Bitcoin is effective for:</strong>
@@ -3167,7 +3167,7 @@ const blogContent: Record<string, React.ReactNode> = {
 
       <h2>The Honest Bottom Line</h2>
       <p>
-        Neither is inherently superior. They serve different needs. Physical silver is a tangible asset with no counterparty risk and some friction. An ETF is a financial instrument with counterparty exposure and high liquidity. If your reason for owning silver includes wanting metal you can physically hold, transport, or use independent of the financial system, the ETF doesn&apos;t serve that purpose regardless of how well it tracks the spot price. Many investors hold both.
+        Neither is inherently superior. They serve different needs. Physical silver is a tangible asset with reduced counterparty risk (not zero: you still rely on storage and a market to sell into) and some friction. An ETF is a financial instrument with counterparty exposure and high liquidity. If your reason for owning silver includes wanting metal you can physically hold, transport, or use independent of the financial system, the ETF doesn&apos;t serve that purpose regardless of how well it tracks the spot price. Many investors hold both.
       </p>
       <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
         GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver. No dealer pays for its listing, its placement, or Featured status. This article is for educational purposes only and does not constitute investment advice.
@@ -4910,7 +4910,7 @@ const blogContent: Record<string, React.ReactNode> = {
       <h2>Determining Fair Market Value at Date of Death</h2>
       <p>The valuation matters because it establishes your future tax basis. Two components:</p>
       <p>
-        <strong>Physical metal value:</strong> for bullion, this is straightforward &mdash; spot price &times; weight on the date of death. Multiple published price sources exist (LBMA, COMEX, dealer aggregator services).
+        <strong>Physical metal value:</strong> the legal standard is fair market value on the date of death: the price a willing buyer and willing seller would agree on, measured in the market where the item is most commonly sold to the public (Treas. Reg. &sect; 20.2031-1(b)). For common bullion, the spot price on that date times the fine metal content is a widely used starting point, but no IRS guidance specifically settles whether bullion should be valued at spot, a dealer&apos;s bid, or a retail price. Record the price source and date, and for a sizable holding get a dated dealer quote or written appraisal.
       </p>
       <p>
         <strong>Numismatic value:</strong> for coins with collectible value above metal content, requires professional appraisal. For any significant collection, get an appraisal from a numismatist certified through the American Numismatic Association or a comparable body.
@@ -4949,7 +4949,7 @@ const blogContent: Record<string, React.ReactNode> = {
       <p>For each inherited item:</p>
       <ol>
         <li><strong>Description with identifying details</strong> &mdash; metal type, weight, coin/bar designation, mint mark, year, serial numbers where applicable</li>
-        <li><strong>Fair market value on date of death</strong> &mdash; with basis for the valuation (spot &times; weight, or appraisal report)</li>
+        <li><strong>Fair market value on date of death</strong> &mdash; with the basis for the valuation (dated price source and fine metal content, dealer quote, or appraisal report)</li>
         <li><strong>Chain of custody</strong> &mdash; how the item moved from estate to heir</li>
         <li><strong>Storage documentation</strong> &mdash; where held after inheritance, insurance records</li>
       </ol>
@@ -5005,7 +5005,7 @@ const blogContent: Record<string, React.ReactNode> = {
       </p>
       <h3>How do I document the fair market value of inherited coins?</h3>
       <p>
-        For standard bullion: spot price &times; weight on the date of death, with documentation of the price source. For numismatic coins with collectible value above metal content: professional appraisal from an ANA-certified numismatist. Keep the appraisal indefinitely &mdash; you&apos;ll need it to establish basis if you sell later.
+        For standard bullion: fair market value on the date of death (Treas. Reg. &sect; 20.2031-1(b)). A dated spot price times fine metal content is a common starting point; document the price source, and for larger holdings get a dated dealer quote or appraisal. For numismatic coins with collectible value above metal content: professional appraisal from an ANA-certified numismatist. Keep the appraisal indefinitely &mdash; you&apos;ll need it to establish basis if you sell later.
       </p>
       <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
         This article is general information only, not tax or legal advice. Estate and tax rules are complex and vary by state, estate structure, and specific asset holdings. Before making decisions about inherited precious metals, consult a qualified estate attorney and tax professional.

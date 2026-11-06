@@ -272,7 +272,7 @@ export const faqCategories: FAQCategory[] = [
       },
       {
         question: "Do I owe taxes when I sell gold or silver?",
-        answer: "Yes. The IRS classifies physical gold and silver bullion as collectibles under IRC Section 408(m). Long-term gains (metal held more than one year) are taxed at a maximum federal rate of 28% \u2014 higher than the 0/15/20% rates that apply to stocks. Short-term gains (held one year or less) are taxed at your ordinary income rate. Your gain is the sale price minus your cost basis, which includes what you originally paid the dealer plus any premium, sales tax, shipping, and insurance. Keep every purchase receipt \u2014 without documentation, the IRS can treat the entire sale proceeds as gain.",
+        answer: "Generally, yes. Under IRC \u00a7 1(h)(4)\u2013(5), long-term gain on a collectible is taxed at a maximum federal rate of 28%, and the definition of collectible (borrowed from \u00a7 408(m), without the \u00a7 408(m)(3) IRA exception) covers gold and silver coins and bullion. Long-term means held more than one year; the 28% figure is a cap, higher than the 0/15/20% rates that apply to stocks. Short-term gains (held one year or less) are taxed at your ordinary income rate. Your gain is the sale price minus your cost basis, which includes what you originally paid the dealer plus any premium, sales tax, shipping, and insurance. Keep every purchase receipt \u2014 without documentation, the IRS can treat the entire sale proceeds as gain.",
         learnMoreLabel: "Capital Gains Tax on Gold and Silver",
         learnMoreHref: "/blog/capital-gains-tax-gold-silver-2026",
         links: [

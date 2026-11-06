@@ -195,6 +195,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Gold doubled. Bitcoin dropped 47% from its high. Both were supposed to be safe havens. The 2026 divergence is the data point worth examining \u2014 here\u2019s what the crisis performance data actually shows.",
     date: "2026-04-13",
+    dateModified: "2026-11-06",
   },
   {
     slug: "how-much-over-spot-should-i-pay-for-gold-2026",
@@ -244,6 +245,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Silver ETFs and physical silver bars both track silver’s price. But the ownership structure, counterparty risk, tax treatment, and behavior under market stress are fundamentally different. The distinction that matters most when markets are stressed.",
     date: "2026-06-30",
+    dateModified: "2026-11-06",
   },
   {
     slug: "dealer-insolvency-metals",
