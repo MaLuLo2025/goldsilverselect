@@ -30,7 +30,7 @@ export const faqCategories: FAQCategory[] = [
       },
       {
         question: "What is a premium, and how much should I expect to pay?",
-        answer: "The premium is the amount a dealer charges above the spot price. It covers manufacturing, refining, minting, shipping, insurance, and the dealer\u2019s margin. Fair premiums vary by product type. Generic bullion bars and rounds typically carry premiums of 3\u20136% over spot for gold. Government-minted coins like American Eagles run higher \u2014 roughly 5\u20138% in normal market conditions. Silver premiums run higher as a percentage than gold because the per-ounce price is lower and fixed costs make up a larger share. These ranges shift with market conditions, and knowing the typical range for what you\u2019re buying is the single best protection against overpaying.",
+        answer: "The premium is the amount a dealer charges above the spot price. It covers manufacturing, refining, minting, shipping, insurance, and the dealer\u2019s margin. Fair premiums vary by product type. Generic 1 oz gold bars and rounds typically carry premiums of about 2\u20134% over spot. Government-minted coins like American Gold Eagles run higher \u2014 roughly 3\u20136% in normal market conditions. Silver premiums run higher as a percentage than gold because the per-ounce price is lower and fixed costs make up a larger share. These ranges shift with market conditions, and knowing the typical range for what you\u2019re buying is the single best protection against overpaying.",
         learnMoreLabel: "How Much Over Spot Should I Pay for Gold in 2026? (With Real Dollar Examples)",
         learnMoreHref: "/blog/how-much-over-spot-should-i-pay-for-gold-2026",
       },
@@ -65,7 +65,7 @@ export const faqCategories: FAQCategory[] = [
         question: "Is it better to buy gold or silver?",
         learnMoreLabel: "The Gold-to-Silver Ratio: What It Is and How Traders Use It",
         learnMoreHref: "/blog/gold-silver-ratio-explained",
-        answer: "They serve different purposes. Gold stores more value in less space and weight \u2014 an ounce of gold is worth roughly 90\u2013100 ounces of silver, making it far easier to store, transport, and liquidate in large amounts. Silver is more affordable per ounce, making it accessible for smaller budgets, but it requires significantly more storage space for equivalent value. Many buyers hold both. The gold-to-silver ratio \u2014 which tells you how many ounces of silver it takes to buy one ounce of gold at current prices \u2014 is one metric some buyers use to decide which metal is relatively cheaper at any given time. You can see the live ratio on our homepage ticker.",
+        answer: "They serve different purposes. Gold stores more value in less space and weight \u2014 an ounce of gold has been worth roughly 65\u201385 ounces of silver in 2026, making it far easier to store, transport, and liquidate in large amounts. Silver is more affordable per ounce, making it accessible for smaller budgets, but it requires significantly more storage space for equivalent value. Many buyers hold both. The gold-to-silver ratio \u2014 which tells you how many ounces of silver it takes to buy one ounce of gold at current prices \u2014 is one metric some buyers use to decide which metal is relatively cheaper at any given time. You can see the live ratio on our homepage ticker.",
         links: [
           { label: "Gold and Wars: 125 Years as a Geopolitical Risk Hedge", href: "/blog/gold-and-wars-geopolitical-risk-hedge" },
           { label: "Central Bank Gold Buying: What It Is, Who’s Doing It, and Why It Matters to You", href: "/blog/central-bank-gold-buying" },
@@ -87,7 +87,7 @@ export const faqCategories: FAQCategory[] = [
       },
       {
         question: "Should I buy silver bars or silver coins?",
-        answer: "It depends on your priorities. Silver coins from government mints (American Eagles, Canadian Maple Leafs) are universally recognized and easy to sell, but carry premiums of 12\u201325% over spot. Silver bars \u2014 especially 10 oz and 100 oz bars \u2014 carry much lower premiums per ounce (3\u20138% for 10 oz, 1.5\u20135% for 100 oz), giving you more silver for the same dollars. The tradeoff is liquidity and divisibility: you can sell one coin at a time, but you can\u2019t sell half a bar. Most experienced buyers hold a mix \u2014 coins for flexibility, bars for cost efficiency.",
+        answer: "It depends on your priorities. Silver coins from government mints (American Eagles, Canadian Maple Leafs) are universally recognized and easy to sell, but carry premiums of 12\u201325% over spot. Silver bars \u2014 especially 10 oz and 100 oz bars \u2014 carry much lower premiums per ounce (roughly 5\u20139% for 10 oz, 1.5\u20135% for 100 oz), giving you more silver for the same dollars. The tradeoff is liquidity and divisibility: you can sell one coin at a time, but you can\u2019t sell half a bar. Most experienced buyers hold a mix \u2014 coins for flexibility, bars for cost efficiency.",
         learnMoreLabel: "Silver Premiums and How Bar Size Affects What You Pay",
         learnMoreHref: "/blog/silver-premiums-and-bar-size",
         links: [
@@ -322,7 +322,7 @@ export const faqCategories: FAQCategory[] = [
       },
       {
         question: "Do I owe tax when I give gold or silver as a gift?",
-        answer: "For most families, no gift tax is owed. For 2026 the annual gift tax exclusion is $19,000 per recipient and the lifetime basic exclusion amount is $15,000,000, and the donor, not the recipient, is generally responsible for any gift tax. Gifts above the annual exclusion to one person generally call for a Form 709 even when no tax is due. The bigger issue for metal is the recipient\u2019s cost basis: gifted property generally carries the donor\u2019s basis under IRC \u00A7 1015(a), so the recipient inherits any built-in gain, and a separate rule applies if the metal was worth less than the donor paid on the date of the gift. Keep the purchase records, the gift date, and date-of-gift valuation records with the metal. This is general information, not tax advice.",
+        answer: "For most families, no gift tax is owed. For 2026 the annual gift tax exclusion is $19,000 per recipient and the lifetime basic exclusion amount is $15,000,000. For 2027 the IRS has announced (Rev. Proc. 2026-35) an annual exclusion of $20,000 and a basic exclusion amount of $15,480,000. The donor, not the recipient, is generally responsible for any gift tax. Gifts above the annual exclusion to one person generally call for a Form 709 even when no tax is due. The bigger issue for metal is the recipient\u2019s cost basis: gifted property generally carries the donor\u2019s basis under IRC \u00A7 1015(a), so the recipient inherits any built-in gain, and a separate rule applies if the metal was worth less than the donor paid on the date of the gift. Keep the purchase records, the gift date, and date-of-gift valuation records with the metal. This is general information, not tax advice.",
         learnMoreLabel: "Giving Gold or Silver as a Gift: Gift Tax, Cost Basis, and the Paperwork That Matters",
         learnMoreHref: "/blog/gifting-gold-silver-gift-tax-basis",
         links: [
@@ -364,7 +364,7 @@ export const faqCategories: FAQCategory[] = [
       },
       {
         question: "Which precious metals sales trigger a 1099-B?",
-        answer: "Only specific products at specific quantities: 25+ ounces of Gold Krugerrands, Maple Leafs, or Mexican Onzas; $1,000+ face value of 90% silver US coins; 1 kilo or 1,000 ounce gold bars; 1,000 ounce silver bars; and specific platinum and palladium bar sizes. American Gold Eagles, American Silver Eagles, American Gold Buffalos, and most fractional coins are not on the reportable list at any quantity — though the capital gains tax on any sale still applies regardless.",
+        answer: "Only specific products at specific quantities, with a customer\u2019s sales over 24 hours added together: gold bars or rounds (.995+ fine) totaling 1 kilogram (32.15 oz) or more; silver bars or rounds (.999+ fine) totaling 1,000 troy ounces or more; platinum totaling 25 oz or more; and palladium totaling 100 oz or more. Industry practice has also treated 25 or more 1 oz Krugerrands, Maple Leafs, or Mexican Onzas and $1,000+ face value of 90% silver US coins as reportable, but the status of these coin thresholds is less clear after the IRS\u2019s January 30, 2026 correction. American Gold Eagles, American Silver Eagles, American Gold Buffalos, and most fractional coins are not on the reportable list at any quantity — though the capital gains tax on any sale still applies regardless.",
         learnMoreLabel: "Precious Metals Reporting: 1099-B, Form 8300, and the Felony Trap Called Structuring",
         learnMoreHref: "/blog/1099-b-precious-metals-reporting",
         links: [
@@ -385,7 +385,7 @@ export const faqCategories: FAQCategory[] = [
       },
       {
         question: "What changed in the 2026 Form 1099-B instructions for precious metals?",
-        answer: "On January 30, 2026, the IRS posted a correction to the 2025 and 2026 Form 1099-B instructions that removed an example suggesting individual coin sales might be reportable. The underlying rule was restated rather than changed: a sale is not reportable if no CFTC-approved regulated futures contract exists for that form of metal, or if the quantity sold is below the contract minimum. Sales by one customer within a 24-hour period are aggregated. Any gain is taxable whether or not a 1099-B is filed.",
+        answer: "On January 30, 2026, the IRS posted a correction to the 2025 and 2026 Form 1099-B instructions that stated that an example about \u201ca single gold coin\u201d is being removed. The example itself said a single-coin sale is not reportable; it remains printed in the 2026 instructions on irs.gov, with the removal stated only in the separate correction notice. The underlying rule was restated rather than changed: a sale is not reportable if no CFTC-approved regulated futures contract exists for that form of metal, or if the quantity sold is below the contract minimum. Sales by one customer within a 24-hour period are aggregated. The correction does not say which coins, if any, are covered by a CFTC-approved contract, so the status of the industry\u2019s coin thresholds remains unsettled. Any gain is taxable whether or not a 1099-B is filed.",
         learnMoreLabel: "The IRS Just Corrected Its Confusing Coin Example: What Precious Metals Sellers Need to Know About 1099-B Reporting in 2026",
         learnMoreHref: "/blog/1099-b-reporting-precious-metals-2026-irs-correction",
       },
@@ -525,7 +525,7 @@ export const faqCategories: FAQCategory[] = [
         question: "Should I buy junk silver?",
         learnMoreLabel: "Silver Premiums and Bar Size",
         learnMoreHref: "/blog/silver-premiums-and-bar-size",
-        answer: "Junk silver (pre-1965 U.S. dimes, quarters, half-dollars containing 90% silver) provides maximum divisibility \u2014 a roll of silver dimes lets you sell ten cents of silver at a time. Modern bullion provides higher purity (.999 vs .900) and cleaner authentication. For most buyers, modern bullion is the cost-efficient choice. Junk silver makes sense if divisibility into very small units has specific value to you.",
+        answer: "Junk silver (pre-1965 U.S. dimes, quarters, half-dollars containing 90% silver) provides maximum divisibility \u2014 a roll of silver dimes lets you sell ten cents of silver at a time. Modern bullion provides higher purity (.999 vs .900) and cleaner authentication. In calm markets junk silver often carries a lower premium per ounce than modern government bullion, which makes it one of the most cost-effective ways to buy silver by weight. Modern bullion is easier to sell and more widely recognized. Junk silver makes sense if low cost per ounce or divisibility into very small units matters to you.",
       },
       {
         question: "What is the gold-to-silver ratio and why does it matter?",
@@ -573,7 +573,7 @@ export const faqCategories: FAQCategory[] = [
         question: "How much is my gold jewelry worth?",
         learnMoreLabel: "Cash for Gold: Why Most Buyers Pay You Half",
         learnMoreHref: "/blog/cash-for-gold-ripoff",
-        answer: "Gold jewelry value for resale is based on its metal content \u2014 weight multiplied by purity \u2014 not what you paid at a jewelry store. Check the karat stamp on the piece: 10K is 41.7% pure gold, 14K is 58.3%, 18K is 75%, and 24K is 99.9% pure. Weigh the piece in grams, multiply by the purity percentage, then multiply by the current gold price per gram. That calculation gives you the melt value. Most buyers will offer 70\u201390% of melt value, with the discount covering their assay and refining costs.",
+        answer: "Gold jewelry value for resale is based on its metal content \u2014 weight multiplied by purity \u2014 not what you paid at a jewelry store. Check the karat stamp on the piece: 10K is 41.7% pure gold, 14K is 58.3%, 18K is 75%, and 24K is 99.9% pure. Weigh the piece in grams, multiply by the purity percentage, then multiply by the current gold price per gram. That calculation gives you the melt value. A fair buyer should pay roughly 70\u201390% of melt value, with the discount covering assay and refining costs; many cash-for-gold buyers offer far less, so compare quotes.",
       },
       {
         question: 'Should I sell gold jewelry to a "cash for gold" shop?',
@@ -695,7 +695,7 @@ export const faqCategories: FAQCategory[] = [
       },
       {
         question: "What are my options for storing physical gold and silver?",
-        answer: "There are four main options, each with distinct tradeoffs. Home safe: immediate access, no fees, but requires a quality fireproof anchored safe and discreet ownership \u2014 homeowner's insurance typically covers only $200\u2013500 in precious metals without a scheduled rider. Safe deposit box: bank-grade physical security, but no FDIC protection for contents, access limited to bank hours, and access can be restricted during legal or banking disruptions. Professional vaulting (domestic): third-party allocated storage at a specialized depository, typically $100\u2013200/year, insured, fully allocated to your account. Offshore storage: legal for U.S. citizens, requires FBAR/FATCA reporting if the account value exceeds $10,000, and adds jurisdiction diversification but reduces accessibility.",
+        answer: "There are four main options, each with distinct tradeoffs. Home safe: immediate access, no fees, but requires a quality fireproof anchored safe and discreet ownership \u2014 homeowner's insurance typically covers only $200\u2013500 in precious metals without a scheduled rider. Safe deposit box: bank-grade physical security, but no FDIC protection for contents, access limited to bank hours, and access can be restricted during legal or banking disruptions. Professional vaulting (domestic): third-party storage at a specialized depository, typically 0.5\u20131% of the metal\u2019s value per year for segregated storage (less for commingled), often with an annual minimum around $100\u2013150, with insurance usually included. Offshore storage: legal for U.S. citizens, requires FBAR/FATCA reporting if the account value exceeds $10,000, and adds jurisdiction diversification but reduces accessibility.",
         learnMoreLabel: "Where to Store Your Gold: Home, Bank, or Depository?",
         learnMoreHref: "/blog/where-to-store-gold-home-bank-depository",
       },
@@ -833,7 +833,7 @@ export const faqCategories: FAQCategory[] = [
       },
       {
         question: "What does physical gold in a Gold IRA actually cost?",
-        answer: "Three fee layers: (1) dealer markup above spot price on the product purchased\u2014often 10-40% above open-market prices in direct-to-consumer gold IRA channels; (2) annual custodian maintenance fees, typically $50-$300/year; (3) depository storage fees, typically 0.5-1% of account value annually. A $100,000 account can absorb $10,000-$40,000 in initial markup plus $1,250-$1,300/year in ongoing fees. Get a complete written fee schedule before committing to any provider, and compare the product price they quote against standard dealer premiums.",
+        answer: "Three fee layers: (1) dealer markup above spot price on the product purchased\u2014often 10-40% above open-market prices in direct-to-consumer gold IRA channels; (2) annual custodian maintenance fees, typically $50-$300/year; (3) depository storage fees, typically 0.5-1% of account value annually. A $100,000 account can absorb $10,000-$40,000 in initial markup plus roughly $550-$1,300/year in ongoing custodian and storage fees. Get a complete written fee schedule before committing to any provider, and compare the product price they quote against standard dealer premiums.",
         learnMoreLabel: "Gold IRA Fees and Scams: What the Industry Doesn\u2019t Want You to Calculate",
         learnMoreHref: "/blog/gold-ira-fees-scams",
       },
@@ -854,7 +854,7 @@ export const faqCategories: FAQCategory[] = [
     items: [
       {
         question: "Why do central banks buy gold?",
-        answer: "Central banks hold gold as a reserve asset for several reasons: it has no counterparty risk (unlike bonds or foreign currency deposits, gold cannot default), it cannot be frozen by sanctions or seized by another government, it maintains purchasing power over long periods, and it provides diversification away from dollar-denominated reserves. Since 2022, central bank gold buying has surged to over 1,000 tonnes per year \u2014 roughly triple the decade prior\u2019s average \u2014 driven largely by the freezing of Russia\u2019s $300 billion in Western-held reserves, which demonstrated that dollar reserves can be weaponized.",
+        answer: "Central banks hold gold as a reserve asset for several reasons: it has no counterparty risk (unlike bonds or foreign currency deposits, gold cannot default), it cannot be frozen by sanctions or seized by another government, it maintains purchasing power over long periods, and it provides diversification away from dollar-denominated reserves. Since 2022, central bank gold buying has run at historically elevated levels \u2014 over 1,000 tonnes in both 2022 and 2023, roughly double the historical average, and a net 863 tonnes in 2025 \u2014 driven largely by the freezing of Russia\u2019s $300 billion in Western-held reserves, which demonstrated that dollar reserves can be weaponized.",
         learnMoreLabel: "Central Bank Gold Buying: What It Is, Who’s Doing It, and Why It Matters to You",
         learnMoreHref: "/blog/central-bank-gold-buying",
       },
@@ -866,7 +866,7 @@ export const faqCategories: FAQCategory[] = [
       },
       {
         question: "How does central bank buying affect the gold price?",
-        answer: "Central banks now absorb nearly a third of all newly mined gold each year. This gold goes into sovereign vaults and typically stays there for decades, effectively removing it from the market. This creates persistent upward pressure on prices by reducing available supply for all other buyers \u2014 retail investors, jewelers, ETFs, and institutions. Central banks also tend to buy on dips rather than chase momentum, which establishes a structural price floor. When the most conservative, longest-horizon financial institutions in the world are aggressively accumulating an asset, it also sends a signal to other market participants.",
+        answer: "Central bank purchases have represented roughly 20\u201325% of annual global mine production in recent years. This gold goes into sovereign vaults and typically stays there for decades, effectively removing it from the market. This creates persistent upward pressure on prices by reducing available supply for all other buyers \u2014 retail investors, jewelers, ETFs, and institutions. Central banks also tend to buy on dips rather than chase momentum, which creates persistent demand, though it does not guarantee that prices will keep rising. When the most conservative, longest-horizon financial institutions in the world are aggressively accumulating an asset, it also sends a signal to other market participants.",
         learnMoreLabel: "Central Bank Gold Buying: What It Is, Who’s Doing It, and Why It Matters to You",
         learnMoreHref: "/blog/central-bank-gold-buying",
       },
@@ -893,7 +893,7 @@ export const faqCategories: FAQCategory[] = [
       },
       {
         question: "Why has silver\u2019s price risen so sharply in 2026?",
-        answer: "Silver crossed $100/oz in 2026 driven by structural industrial demand outpacing supply. Solar is a large industrial user, but the April 2026 World Silver Survey (Metals Focus for the Silver Institute) shows photovoltaic demand easing: 186.6 million ounces in 2025, with a forecast of 151.0 million in 2026. AI data centers, electric vehicles, and other electronics remain sources of silver demand. Meanwhile, 72% of silver is mined as a byproduct of copper, zinc, lead, and gold \u2014 meaning silver supply cannot respond quickly to price increases. The survey forecasts 2026 as the sixth consecutive annual market deficit, with demand exceeding supply.",
+        answer: "Silver\u2019s 2025\u20132026 surge came while the market stayed in a supply deficit even as industrial demand fell: the April 2026 World Silver Survey (Metals Focus for the Silver Institute) reports industrial demand down 3% in 2025 and forecast to fall another 3% in 2026, while global coin and bar investment demand rose 14% in 2025. Solar is a large industrial user, but the April 2026 World Silver Survey (Metals Focus for the Silver Institute) shows photovoltaic demand easing: 186.6 million ounces in 2025, with a forecast of 151.0 million in 2026. AI data centers, electric vehicles, and other electronics remain sources of silver demand. Meanwhile, about 70% of silver is mined as a byproduct of copper, zinc, lead, and gold \u2014 meaning silver supply cannot respond quickly to price increases. The survey forecasts 2026 as the sixth consecutive annual market deficit, with demand exceeding supply.",
         learnMoreLabel: "Silver’s Industrial Demand: Why It Behaves Differently Than Gold",
         learnMoreHref: "/blog/silver-industrial-demand",
         links: [
@@ -903,7 +903,7 @@ export const faqCategories: FAQCategory[] = [
       },
       {
         question: "Is bitcoin \u201Cdigital gold\u201D \u2014 does it work as a safe haven?",
-        answer: "The data so far does not support that label during crises. In every major stress event since bitcoin\u2019s creation \u2014 the 2020 COVID crash (down 35% in one day), the 2022 crypto crash (down 77%), and the 2026 market stress (down 47% from its all-time high) \u2014 bitcoin has fallen alongside equities, often more sharply. During those same periods, gold held value or rose. Bitcoin has performed as a risk-on asset correlated with tech stocks, not as a safe haven. This could change as the asset matures and its holder base shifts, but the current evidence points to bitcoin as a growth asset, not a crisis hedge. Both assets can have a place in a portfolio \u2014 they just solve different problems.",
+        answer: "The data so far does not support that label during crises. In every major stress event since bitcoin\u2019s creation \u2014 the 2020 COVID crash (down 35% in one day), the 2022 crypto crash (down 77%), and the 2026 market stress (down 47% from its all-time high) \u2014 bitcoin has fallen alongside equities, often more sharply. During those same periods, gold fell less and recovered faster (its drawdowns were about 12% in March 2020 and about 22% in 2022), and it rose during the 2026 stress. Bitcoin has performed as a risk-on asset correlated with tech stocks, not as a safe haven. This could change as the asset matures and its holder base shifts, but the current evidence points to bitcoin as a growth asset, not a crisis hedge. Both assets can have a place in a portfolio \u2014 they just solve different problems.",
         learnMoreLabel: "Gold vs. Bitcoin in 2026: Full Comparison",
         learnMoreHref: "/blog/gold-vs-bitcoin-2026",
       },

@@ -65,6 +65,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "$1 face value of pre-1965 silver coins contains 0.715 troy ounces of pure silver. Learn how to calculate fair prices, typical premiums, and when junk silver offers better value than modern bullion.",
     date: "2026-05-26",
+    dateModified: "2026-11-06",
     series: "Spot Price vs. What You Pay",
   },
   {
@@ -96,7 +97,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Gold and silver are taxed as collectibles \u2014 with a top federal rate of 28%, separate 1099-B reporting rules, and a maze of state sales tax exemptions. Here\u2019s exactly how it works.",
     date: "2026-04-06",
-    dateModified: "2026-11-02",
+    dateModified: "2026-11-06",
   },
   {
     slug: "gold-silver-ratio-explained",
@@ -116,6 +117,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "That \u201CWe Buy Gold\u201D sign in the strip mall? They\u2019re paying 30\u201350% of melt value. Here\u2019s how to know what your gold is actually worth before you walk in the door.",
     date: "2026-03-24",
+    dateModified: "2026-11-06",
   },
   {
     slug: "gold-coin-premiums-compared",
@@ -126,6 +128,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Not all one-ounce gold coins cost the same. The difference is the premium \u2014 and understanding why certain coins carry higher premiums can save you hundreds of dollars per ounce.",
     date: "2026-03-24",
+    dateModified: "2026-11-06",
     series: "Spot Price vs. What You Pay",
   },
   {
@@ -137,6 +140,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Should you buy gold and silver online or from a local coin shop? The answer is simpler than you think \u2014 here\u2019s what actually determines whether you get a fair deal.",
     date: "2026-03-24",
+    dateModified: "2026-11-06",
   },
   {
     slug: "silver-premiums-and-bar-size",
@@ -169,6 +173,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Every major conflict since 1900 has moved the gold price. Here\u2019s what actually happened \u2014 from the gold standard era through two world wars, the Cold War, and the modern age of sanctions and central bank buying.",
     date: "2026-03-31",
+    dateModified: "2026-11-06",
   },
   {
     slug: "storing-gold-silver-safely",
@@ -179,6 +184,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Physical metals have no automatic custodian. Home storage, bank safe deposit boxes, and private vaults each have real tradeoffs in cost, insurance, and access. Here\u2019s what each option actually looks like.",
     date: "2026-04-13",
+    dateModified: "2026-11-06",
   },
   {
     slug: "gold-vs-bitcoin-2026",
@@ -209,7 +215,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Legitimate gold IRAs are a real retirement option. The sales tactics around them are, disproportionately, how retirees get scammed. A federal enforcement-backed guide to the red flags \u2014 including the $50M Red Rock Secured SEC case, the McNulty home-storage ruling, and what actually constitutes IRA-eligible precious metals.",
     date: "2026-04-20",
-    dateModified: "2026-09-28",
+    dateModified: "2026-11-06",
   },
   {
     slug: "what-do-cash-for-gold-shops-actually-pay",
@@ -250,7 +256,7 @@ export const blogPosts: BlogPost[] = [
     dateModified: "2026-10-26",
   },
   { slug: "buying-gold-pawn-shop", title: "Buying Gold at a Pawn Shop: When It Makes Sense and When to Walk Away", tag: "Buyer’s Guide", tagColor: "gold", excerpt: "Pawn shops sell gold. Some of it is priced well. Most of it isn’t. Understanding the economics of how pawn shops acquire and price gold-bearing inventory is the filter you need.", date: "2026-06-30" },
-  { slug: "silver-industrial-demand", title: "Silver’s Industrial Demand: Why It Behaves Differently Than Gold", tag: "Market Dynamics", tagColor: "gold", excerpt: "Silver’s price behavior differs from gold’s in ways that matter for investors — primarily because of silver’s significant industrial role. Understanding what drives it clarifies why silver is more volatile.", date: "2026-06-30", dateModified: "2026-10-19" },
+  { slug: "silver-industrial-demand", title: "Silver’s Industrial Demand: Why It Behaves Differently Than Gold", tag: "Market Dynamics", tagColor: "gold", excerpt: "Silver’s price behavior differs from gold’s in ways that matter for investors — primarily because of silver’s significant industrial role. Understanding what drives it clarifies why silver is more volatile.", date: "2026-06-30", dateModified: "2026-11-06" },
   { slug: "dealer-buyback-programs", title: "How Dealer Buyback Programs Work and How to Evaluate Them", tag: "Buyer’s Guide", tagColor: "gold", excerpt: "Where you sell your precious metals matters as much as where you buy them. Dealer buyback programs vary significantly in their terms, pricing, and reliability.", date: "2026-06-30" },
   {
     slug: "why-gold-surged-2025-2026",
@@ -260,6 +266,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Gold reached $5,589/oz in January 2026 — roughly triple the price from five years earlier. Several concurrent forces drove this extraordinary run. Understanding them matters for evaluating current prices.",
     date: "2026-07-07",
+    dateModified: "2026-11-06",
   },
   {
     slug: "how-much-gold-silver-to-own",
@@ -269,6 +276,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Gold bug proponents say as much as possible. Mainstream advisors often say none. Neither is useful. Here’s an honest framework based on institutional research and your actual financial situation.",
     date: "2026-07-07",
+    dateModified: "2026-11-06",
   },
   {
     slug: "buying-gold-costco-retail",
@@ -342,6 +350,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Silver dropped nearly 4% in a single session in September 2026 while gold fell less than 3%. Here’s why silver is structurally more volatile and what that means for buyers.",
     date: "2026-09-08",
+    dateModified: "2026-11-06",
   },
   {
     slug: "where-to-store-gold-home-bank-depository",
@@ -361,7 +370,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Buying and selling precious metals is entirely legal — and mostly untriggered by any federal reporting. But two federal forms and one felony statute govern the transactions that do get reported, and confusing them is how ordinary buyers accidentally commit crimes.",
     date: "2026-09-14",
-    dateModified: "2026-10-26",
+    dateModified: "2026-11-06",
   },
   {
     slug: "should-i-buy-platinum-bullion-2026",
@@ -371,6 +380,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Why platinum trades below gold, why palladium is struggling, and where PGMs actually belong in a precious metals allocation. Plus the dealer diversification pitches to be careful of, and what to buy if you decide they make sense.",
     date: "2026-09-14",
+    dateModified: "2026-11-06",
   },
   {
     slug: "is-coin-grading-worth-it-pcgs-ngc",
@@ -390,7 +400,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Eight jurisdictions apply sales tax to precious metals in 2026 — including Maryland (added 2025), Washington (added 2026), and Virginia (added 2026). A state-by-state guide to sales tax on bullion, the use-tax obligation that follows cross-state purchases, and how online dealers handle it.",
     date: "2026-09-21",
-    dateModified: "2026-09-28",
+    dateModified: "2026-11-06",
   },
   {
     slug: "inheriting-gold-silver-tax-basis",
@@ -401,6 +411,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Inherited precious metals receive a step-up in basis to fair market value at the decedent's date of death — often eliminating decades of accumulated capital gains for tax purposes. A guide to what heirs owe, when, and what documentation matters.",
     date: "2026-09-21",
+    dateModified: "2026-11-06",
   },
   {
     slug: "how-to-start-buying-gold-silver-2026",
@@ -422,7 +433,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Not every silver coin qualifies for a self-directed IRA. IRC § 408(m) sets the purity floor at .999 for silver bullion, names a handful of coin exceptions, and requires storage with a qualified depository — never at home. Here is what actually counts, which depositories most custodians use in 2026, and the McNulty case that made home storage a bright-line prohibition.",
     date: "2026-09-28",
-    dateModified: "2026-09-28",
+    dateModified: "2026-11-06",
   },
   {
     slug: "1099-b-reporting-precious-metals-2026-irs-correction",
@@ -431,9 +442,9 @@ export const blogPosts: BlogPost[] = [
     tag: "Education",
     tagColor: "forest",
     excerpt:
-      "On January 30, 2026, the IRS quietly corrected the 2025-2026 Form 1099-B instructions to remove a misleading example that had suggested individual coin sales might trigger broker reporting. The correction clarified what the rule actually says — and what dealers are and are not required to report when you sell. Here is what changed, what still triggers reporting, and how the separate Form 8300 cash-transaction rule fits.",
+      "On January 30, 2026, the IRS posted a correction removing an example about a single gold coin from the 2025 and 2026 Form 1099-B instructions. The example itself said a single-coin sale is not reportable, and the underlying rule did not change. Here is what the correction did and did not settle, what still triggers reporting, and how the separate Form 8300 cash-transaction rule fits.",
     date: "2026-09-28",
-    dateModified: "2026-10-26",
+    dateModified: "2026-11-06",
   },
   {
     slug: "constitutional-money-legal-tender-states-2026",
@@ -455,6 +466,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "India’s securities regulator has made allegations against the parent company of Swiss refiner Valcambi. Here is what that does and does not mean for the bar in your safe, and how refiner names, hallmarks, assay cards, and LBMA accreditation actually work.",
     date: "2026-10-05",
+    dateModified: "2026-11-06",
   },
   {
     slug: "shipping-gold-silver-insurance-carriers-2026",
@@ -475,6 +487,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "PAX Gold and Tether Gold each claim one fine troy ounce of vaulted gold per token. Here is what that claim means in practice: who holds the metal, who can redeem it, who can freeze it, and how it compares with a coin you hold or an ETF share.",
     date: "2026-10-12",
+    dateModified: "2026-11-06",
   },
   {
     slug: "gifting-gold-silver-gift-tax-basis",
@@ -485,6 +498,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "A gift of coins or bars is simple to hand over and easy to get wrong on paper. Here is how the 2026 gift tax exclusion works, why the recipient inherits your cost basis, and what records to pass along with the metal.",
     date: "2026-10-12",
+    dateModified: "2026-11-06",
   },
   {
     slug: "silver-demand-solar-ai-ev-2026",
@@ -515,6 +529,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "In the gold-bar courier scam, the dealer is real and the gold is genuine. The 'federal agent' who sends a courier to collect it is not. Here is how the scheme unfolds, the red flags, what dealers and family members can do, and where to report it.",
     date: "2026-10-26",
+    dateModified: "2026-11-06",
   },
   {
     slug: "paying-cash-for-gold-form-8300-structuring",
@@ -535,6 +550,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Between the day you pay and the day metal arrives, you don't own gold. You hold a promise. Here is how prepaid orders and buyback promises fail, what one 2026 bankruptcy filing shows about the mechanics, and the practical steps that protect you before you pay and after a dealer stops shipping.",
     date: "2026-10-26",
+    dateModified: "2026-11-06",
   },
   {
     slug: "america-250-semiquincentennial-coins-fakes-buyers-guide",

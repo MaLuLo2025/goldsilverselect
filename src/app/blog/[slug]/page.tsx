@@ -295,10 +295,9 @@ const blogContent: Record<string, React.ReactNode> = {
         and historical industry practice tied to delivery quantities. The most commonly cited reportable transactions include:
       </p>
       <ul>
-        <li>Sales of 25 or more 1 oz gold Maple Leafs, Krugerrands, or Mexican Onzas</li>
-        <li>Sales of 1 kilogram or more of gold bars (or any aggregate equivalent)</li>
-        <li>Sales of 1,000 troy ounces or more of silver bars or rounds</li>
-        <li>Sales of 90% silver U.S. coins with a face value of $1,000 or more</li>
+        <li>Sales of gold bars or rounds (.995+ fine) totaling 1 kilogram (32.15 troy ounces) or more, with a customer&apos;s sales over 24 hours added together</li>
+        <li>Sales of silver bars or rounds (.999+ fine) totaling 1,000 troy ounces or more</li>
+        <li>In industry practice, sales of 25 or more 1 oz gold Maple Leafs, Krugerrands, or Mexican Onzas, and of 90% silver U.S. coins with a face value of $1,000 or more; the status of these coin thresholds is less clear after the IRS&apos;s January 2026 correction</li>
         <li>Sales of platinum bars or rounds totaling 25 troy ounces or more, or palladium bars or rounds totaling 100 troy ounces or more</li>
       </ul>
       <p>
@@ -314,7 +313,7 @@ const blogContent: Record<string, React.ReactNode> = {
         Sales tax on precious metals purchases is governed by state law and varies dramatically. Many states exempt investment-grade bullion entirely. Some exempt purchases over a certain dollar threshold (often $1,000 or $1,500). A few states tax all precious metal purchases at the full sales tax rate.
       </p>
       <p>
-        States that fully exempt investment-grade bullion (as of 2026) include Texas, Florida, Arizona, Oregon, Nevada, Wyoming, Alaska, Delaware, New Hampshire, Montana, and many others. States that historically tax precious metals at full rate include New Jersey, Vermont, Hawaii, Wisconsin, and several others. State legislatures change these rules frequently &mdash; a state that taxed bullion in 2020 may have exempted it by 2026 or vice versa. Washington, for example, began taxing bullion sales on January 1, 2026, according to a{" "}
+        States that fully exempt investment-grade bullion (as of 2026) include Texas, Florida, Arizona, Oregon, Nevada, Wyoming, Alaska, Delaware, New Hampshire, Montana, and many others. Several jurisdictions apply sales tax to bullion broadly, including Hawaii, Vermont, and the District of Columbia; for the current list and the states with partial rules, see our state-by-state sales tax guide. State legislatures change these rules frequently &mdash; a state that taxed bullion in 2020 may have exempted it by 2026 or vice versa. Washington, for example, began taxing bullion sales on January 1, 2026, according to a{" "}
         <a href="https://dor.wa.gov/forms-publications/publications-subject/special-notices/sales-precious-metal-bullion-and-monetized-bullion-now-subject-bo-tax-and-retail-sales-tax" target="_blank" rel="noopener noreferrer">
           Washington Department of Revenue notice
         </a>
@@ -551,7 +550,7 @@ const blogContent: Record<string, React.ReactNode> = {
         Several specific tactics to watch for:
       </p>
       <p>
-        <strong>Weighing in pennyweights without telling you.</strong> A pennyweight is about 1/20th of a troy ounce. If a buyer tells you &ldquo;your gold weighs 6&rdquo; without specifying the unit, and then offers you $180 per pennyweight, that sounds like a lot. But 6 pennyweights of 14K gold at $5,100 spot is worth about $287 at melt. If they&apos;re paying $180 for 6 pennyweights — that&apos;s $1,080 total, which is actually decent. But if they say &ldquo;6 grams&rdquo; and offer $180 total, you&apos;re being robbed.
+        <strong>Weighing in pennyweights without telling you.</strong> A pennyweight is 1/20th of a troy ounce (about 1.555 grams). If a buyer tells you &ldquo;your gold weighs 6&rdquo; without specifying the unit, ask which unit. At $5,100 spot, 6 pennyweights of 14K gold (about 9.33 grams) is worth about $892 at melt, so a fair offer of 70&ndash;90% of melt would be roughly $625&ndash;$800. Six grams of 14K gold is worth about $574 at melt. An offer of $180 total is about 20% of melt for 6 pennyweights and about 31% for 6 grams &mdash; either way, you&apos;re being robbed.
       </p>
       <p>
         <strong>Lowballing the karat.</strong> Some buyers will claim your 14K gold is actually 10K, reducing the purity they use in their calculation. A legitimate buyer will test your gold in front of you using an acid test, electronic tester, or XRF analyzer.
@@ -648,7 +647,7 @@ const blogContent: Record<string, React.ReactNode> = {
         <strong>Mint production costs.</strong> The U.S. Mint sells Gold Eagles and Buffaloes to a network of authorized purchasers at a fixed markup above spot. That markup is higher than what the Royal Canadian Mint or South African Mint charges. The authorized purchasers then add their own margin before selling to dealers, who add another margin before selling to you. Each layer adds cost.
       </p>
       <p>
-        <strong>Legal tender and IRA eligibility.</strong> All four coins are legal tender in their country of origin and are IRA-eligible under IRS rules. However, American-minted coins (Eagles and Buffaloes) are the most commonly held in U.S. precious metals IRAs, which creates additional demand and supports higher premiums.
+        <strong>Legal tender and IRA eligibility.</strong> All four coins are legal tender in their country of origin. The Eagle, Buffalo, and Maple Leaf are IRA-eligible; the Krugerrand, at .9167 fineness, is not. American-minted coins (Eagles and Buffaloes) are the most commonly held in U.S. precious metals IRAs, which creates additional demand and supports higher premiums.
       </p>
       <p>
         <strong>Liquidity and recognition.</strong> American Eagles are the most widely recognized and traded gold coin in the U.S. market. Dealers will buy them back at tighter spreads (the difference between their buy and sell price). This liquidity premium is real — when you sell, an Eagle is easier to sell at a fair price than a less common coin.
@@ -858,7 +857,7 @@ const blogContent: Record<string, React.ReactNode> = {
         <strong>Local purchases</strong> have their own hidden costs, though they&apos;re less obvious. The drive to and from the shop costs gas and time. If the closest reputable shop is 30 minutes away, you&apos;re spending an hour of your day plus fuel.
       </p>
       <p>
-        <strong>Tax treatment</strong> varies by state and can significantly affect the math. Some states exempt precious metals from sales tax entirely. Others exempt purchases above a certain dollar threshold. A few tax everything. If your state taxes bullion and your local dealer charges sales tax while an online dealer in another state doesn&apos;t have to collect it, the tax difference alone could outweigh any premium advantage the local shop offers.
+        <strong>Tax treatment</strong> varies by state and can significantly affect the math. Some states exempt precious metals from sales tax entirely. Others exempt purchases above a certain dollar threshold. A few tax everything. If your state taxes bullion, buying online from an out-of-state dealer generally doesn&apos;t avoid it: since the Supreme Court&apos;s 2018 decision in <em>South Dakota v. Wayfair</em>, states can require remote sellers above sales or transaction thresholds to collect sales tax on deliveries into the state. Compare after-tax prices from both, not just premiums.
       </p>
 
       <h2>When Channel Actually Does Matter</h2>
@@ -956,7 +955,7 @@ const blogContent: Record<string, React.ReactNode> = {
       </p>
       <p>
         In the United States, the formal gold price remained fixed at $20.67 through World War I. But in 1933, in the depths of the Great Depression, President Roosevelt issued{" "}
-        <a href="https://www.presidency.ucsb.edu/documents/executive-order-6102-forbidding-the-hoarding-gold-coin-gold-bullion-and-gold-certificates" target="_blank" rel="noopener noreferrer">Executive Order 6102</a>, making it illegal for U.S. citizens to hold more than $100 in gold coin, bullion, or certificates. Citizens were required to surrender their gold to the Federal Reserve at $20.67 per ounce. Roosevelt then revalued gold to $35 per ounce &mdash; an overnight 69% devaluation of the dollar against gold.
+        <a href="https://www.presidency.ucsb.edu/documents/executive-order-6102-forbidding-the-hoarding-gold-coin-gold-bullion-and-gold-certificates" target="_blank" rel="noopener noreferrer">Executive Order 6102</a>, making it illegal for U.S. citizens to hold more than $100 in gold coin, bullion, or certificates. Citizens were required to surrender their gold to the Federal Reserve at $20.67 per ounce. Roosevelt then revalued gold to $35 per ounce &mdash; a 69% increase in the official gold price, which cut the dollar&apos;s value in gold by about 41%.
       </p>
       <p>
         The lesson: when governments face financial crisis, they sometimes change the rules. The people who held gold had their property seized. The government that seized it immediately revalued it higher.
@@ -1015,7 +1014,7 @@ const blogContent: Record<string, React.ReactNode> = {
         <a href="https://www.gold.org/goldhub/research/gold-demand-trends" target="_blank" rel="noopener noreferrer">World Gold Council</a>, central banks purchased over 1,000 tonnes of gold in both 2022 and 2023, roughly double the historical average. China, Poland, India, Turkey, Singapore, and numerous smaller nations have been aggressive buyers.
       </p>
       <p>
-        Gold broke through $2,000 in 2023, $2,500 in 2024, and has continued climbing. As of early 2026, it trades above $3,000. The rally is not driven primarily by retail investors or jewelry demand &mdash; it is driven by sovereign nations diversifying away from dollar reserves and into the one asset that cannot be frozen, sanctioned, or debased by another government&apos;s monetary policy.
+        Gold broke through $2,000 in 2023 and $2,500 in 2024. As of November 6, 2026, it traded near $4,060 an ounce, per spot prices on <a href="https://thegoldwindow.ai" target="_blank" rel="noopener noreferrer">The Gold Window</a>. The rally is not driven primarily by retail investors or jewelry demand &mdash; it is driven by sovereign nations diversifying away from dollar reserves and into the one asset that cannot be frozen, sanctioned, or debased by another government&apos;s monetary policy.
       </p>
 
       <h2>The Pattern</h2>
@@ -1090,8 +1089,8 @@ const blogContent: Record<string, React.ReactNode> = {
         <li>A safe that is both fire-rated and TL-rated exists but costs substantially more. Many buyers purchase a fire safe assuming it protects against theft. It generally does not.</li>
       </ul>
       <p>
-        <strong>IRA implications:</strong> If your gold or silver is held in a self-directed IRA, storing it at home is a <strong>prohibited transaction</strong> under{" "}
-        <a href="https://www.law.cornell.edu/uscode/text/26/408" target="_blank" rel="noopener noreferrer">IRC Section 408(m)</a>. The IRS requires IRA metals to be held by a qualified trustee or custodian at an approved depository. For more on this, see our article on{" "}
+        <strong>IRA implications:</strong> If your gold or silver is held in a self-directed IRA, storing it at home risks being treated as a <strong>taxable distribution</strong> and can raise prohibited-transaction issues. Under{" "}
+        <a href="https://www.law.cornell.edu/uscode/text/26/408" target="_blank" rel="noopener noreferrer">IRC Section 408(m)</a>, IRA bullion must be in the physical possession of the IRA&apos;s trustee, and in <em>McNulty v. Commissioner</em>, 157 T.C. No. 10 (2021), the U.S. Tax Court held that an IRA owner&apos;s possession of IRA-purchased coins at home was a taxable distribution. In practice, IRA metals are held by a qualified trustee or custodian at a custodian-approved depository. For more on this, see our article on{" "}
         <a href="/blog/home-storage-gold-ira-scam">home storage gold IRA scams</a>.
       </p>
 
@@ -1638,7 +1637,7 @@ const blogContent: Record<string, React.ReactNode> = {
         <li><strong>Check for enforcement actions</strong> on the SEC and CFTC websites by searching the company name. Recent lawsuits or cease-and-desist orders are disqualifying.</li>
         <li><strong>Read the BBB and public complaint history</strong> &mdash; not just the star rating, but the actual complaints, particularly those involving pricing disputes or liquidation difficulties.</li>
         <li><strong>Demand a written, itemized fee schedule</strong> before any funds move. Setup, annual custodian, annual depository, and metal premium should each be separately disclosed.</li>
-        <li><strong>Insist on standard IRA-approved bullion</strong> &mdash; no &ldquo;exclusive&rdquo; coins, no &ldquo;premium&rdquo; products, no numismatic upsells inside the IRA.</li>
+        <li><strong>Insist on standard IRA-eligible bullion</strong> &mdash; no &ldquo;exclusive&rdquo; coins, no &ldquo;premium&rdquo; products, no numismatic upsells inside the IRA.</li>
       </ol>
       <p>
         Doing all five takes an hour. It is the single most valuable hour you can spend in the process.
@@ -1654,7 +1653,7 @@ const blogContent: Record<string, React.ReactNode> = {
       </p>
       <h3>Can I store my gold IRA at home?</h3>
       <p>
-        No. The IRS requires precious metals held in an IRA to be stored by an approved depository. The U.S. Tax Court confirmed this in McNulty v. Commissioner (2021), ruling that home storage constituted a taxable distribution. Anyone selling a &ldquo;home storage IRA,&rdquo; &ldquo;checkbook IRA,&rdquo; or similar structure for physical precious metals is selling a structure the IRS has rejected.
+        No. IRA-owned precious metals must be in the physical possession of the IRA&apos;s trustee or custodian, which in practice means a custodian-approved depository. The U.S. Tax Court confirmed this in McNulty v. Commissioner (2021), ruling that home storage constituted a taxable distribution. Anyone selling a &ldquo;home storage IRA,&rdquo; &ldquo;checkbook IRA,&rdquo; or similar structure for physical precious metals is selling a structure the IRS has rejected.
       </p>
       <h3>What are reasonable fees for a gold IRA?</h3>
       <p>
@@ -2447,7 +2446,7 @@ const blogContent: Record<string, React.ReactNode> = {
       </p>
       <ul>
         <li>$1 face value 90% silver = 0.715 troy oz</li>
-        <li>$1 face value 40% silver = 0.1479 troy oz</li>
+        <li>$1 face value 40% silver (two half dollars at 0.1479 troy oz each) = 0.2958 troy oz</li>
         <li>$1 face value 35% silver (war nickels) = 0.0563 troy oz per nickel &times; 20 nickels = 1.126 troy oz</li>
       </ul>
       <p>
@@ -3388,7 +3387,7 @@ const blogContent: Record<string, React.ReactNode> = {
         If silver&apos;s price rises, mine operators don&apos;t simply produce more silver. They&apos;re primarily chasing the base metal in the ore, and silver comes along for the ride. New primary silver mines can be developed, but the economics and timeline for mining development mean supply responses are slow.
       </p>
       <p>
-        The implication: demand growth &mdash; particularly from solar and EVs &mdash; can outpace supply in ways that gold&apos;s supply-demand dynamics don&apos;t as readily produce.
+        The implication: when demand rises, supply can&apos;t follow quickly, in ways that gold&apos;s supply-demand dynamics don&apos;t as readily produce. In 2025 that pressure came from investors, not industry: the <a href="https://silverinstitute.org/elevated-lease-rates-regional-liquidity-tightness-and-robust-investor-interest-resulted-in-record-silver-prices-in-2025/" target="_blank" rel="noopener noreferrer">World Silver Survey 2026</a> (Metals Focus for the Silver Institute, April 2026) reports that industrial demand fell 3% while coin and bar demand rose 14%, and the market stayed in deficit.
       </p>
 
       <h2>What This Means for Investors Considering Silver</h2>
@@ -3411,7 +3410,7 @@ const blogContent: Record<string, React.ReactNode> = {
         Beginning around 2021 and persisting into 2026, analysts from the Silver Institute and various investment banks have cited a supply deficit in silver &mdash; annual demand exceeding annual mine production. Deficits are met by drawing down above-ground inventories (primarily held in exchange-registered warehouses).
       </p>
       <p>
-        How long those inventories can bridge the gap, and at what price the market balances, is an active debate among silver analysts. What&apos;s established: the supply/demand fundamentals for silver include a structural demand growth story (solar, EVs) that gold doesn&apos;t have in the same way.
+        How long those inventories can bridge the gap, and at what price the market balances, is an active debate among silver analysts. What&apos;s established: the World Silver Survey 2026 reports that industrial demand fell 3% in 2025 and forecasts another 3% decline in 2026, so the recent deficits have rested on rising investment demand (coin and bar demand rose 14% in 2025), not on growth in solar or EV use.
       </p>
       <p>
         Whether this translates into price appreciation depends on many variables including global growth rates, policy, and investor sentiment &mdash; but it&apos;s a material consideration that doesn&apos;t exist for gold.
@@ -3564,7 +3563,7 @@ const blogContent: Record<string, React.ReactNode> = {
 
       <h2>Retail Demand Surge: The New Buyer Wave</h2>
       <p>
-        Something new happened in 2025 that hadn&apos;t characterized prior gold rallies: retail buyers entered the market through non-traditional channels at scale. Costco began selling gold coins and bars, creating a retail distribution channel for an asset that had previously required going to a coin dealer or online bullion site.
+        This rally also drew retail buyers through non-traditional channels at scale. Costco began selling gold bars in 2023, according to CNBC (see our <Link href="/blog/buying-gold-costco-retail" className="text-gold font-semibold">guide to buying gold at Costco</Link>), creating a retail distribution channel for an asset that had previously required going to a coin dealer or online bullion site.
       </p>
       <p>
         A January 2026 survey found that 38.6% of Americans aged 35&ndash;64 had bought gold or silver in the prior 12 months &mdash; and more than 90% of buyers planned to purchase more. This retail wave added a demand source that institutional analysts hadn&apos;t fully modeled.
@@ -3664,7 +3663,7 @@ const blogContent: Record<string, React.ReactNode> = {
         <strong>Gold is more stable.</strong> Lower volatility, higher liquidity, more universally recognized, lower percentage premiums on common products. Gold functions better as pure portfolio insurance.
       </p>
       <p>
-        <strong>Silver has industrial demand.</strong> Silver surged 145% in 2025 &mdash; outpacing gold &mdash; precisely because industrial demand (solar panels, EVs, electronics) adds a growth component that gold doesn&apos;t have. Silver also has much higher volatility, which means higher potential return and higher potential loss.
+        <strong>Silver has industrial demand.</strong> About 58% of 2025 silver demand was industrial (electronics, solar panels, EVs), which ties silver to the economic cycle in a way gold isn&apos;t. That is not a guaranteed growth engine: silver surged 145% in 2025 &mdash; outpacing gold &mdash; even though industrial demand fell 3% that year, while coin and bar investment demand rose 14%, according to the <a href="https://silverinstitute.org/elevated-lease-rates-regional-liquidity-tightness-and-robust-investor-interest-resulted-in-record-silver-prices-in-2025/" target="_blank" rel="noopener noreferrer">World Silver Survey 2026</a> (Metals Focus for the Silver Institute, April 2026). Silver also has much higher volatility, which means higher potential return and higher potential loss.
       </p>
       <p>Common approaches:</p>
       <ul>
@@ -4227,7 +4226,7 @@ const blogContent: Record<string, React.ReactNode> = {
       </p>
       <h2>What the current market looks like</h2>
       <p>
-        Despite the early September decline, silver is still up more than 60% year-over-year. The correction from August&apos;s highs reflects the same rate-expectation repricing that has affected all non-yielding assets. The fundamentals haven&apos;t changed: the Silver Institute has documented a structural supply deficit for several consecutive years, driven by rising industrial demand (particularly from the solar energy sector) against constrained mine supply.
+        Despite the early September decline, silver is still up more than 60% year-over-year. The correction from August&apos;s highs reflects the same rate-expectation repricing that has affected all non-yielding assets. The fundamentals haven&apos;t changed: the Silver Institute has documented a structural supply deficit for several consecutive years. According to its <a href="https://silverinstitute.org/elevated-lease-rates-regional-liquidity-tightness-and-robust-investor-interest-resulted-in-record-silver-prices-in-2025/" target="_blank" rel="noopener noreferrer">World Silver Survey 2026</a> (April 2026), the deficit persisted in 2025 even though industrial demand fell 3%, with solar demand weakening, because coin and bar investment demand rose 14%.
       </p>
       <p>
         The question for investors isn&apos;t whether silver is volatile &mdash; it is, structurally and permanently. The question is whether the structural supply deficit and growing industrial demand provide a floor beneath the volatility that justifies a position, given your time horizon and risk tolerance.
@@ -4337,12 +4336,16 @@ const blogContent: Record<string, React.ReactNode> = {
         <strong>Reportable sales include:</strong>
       </p>
       <ul>
-        <li>Gold coins: 1-ounce Krugerrand, Maple Leaf, or Mexican Onza &mdash; 25 coins or more</li>
-        <li>Silver: 90% silver US coins (pre-1965 dimes, quarters, half dollars) &mdash; $1,000 face value or more per transaction</li>
-        <li>Gold bars: 1 kilo or 1,000 ounces or larger, minimum 0.995 fineness</li>
-        <li>Silver bars: 1,000 ounces or larger, minimum 0.999 fineness</li>
-        <li>Platinum and palladium bars in specific sizes</li>
+        <li>Gold bars and rounds: minimum .995 fineness, totaling 1 kilo (32.15 troy ounces) or more, with a customer&apos;s sales over 24 hours added together</li>
+        <li>Silver bars and rounds: minimum .999 fineness, totaling 1,000 troy ounces or more</li>
+        <li>Gold coins (industry practice): 1-ounce Krugerrand, Maple Leaf, or Mexican Onza &mdash; 25 coins or more</li>
+        <li>Silver coins (industry practice): 90% silver US coins (pre-1965 dimes, quarters, half dollars) &mdash; $1,000 face value or more</li>
+        <li>Platinum bars and rounds totaling 25 troy ounces or more, and palladium bars and rounds totaling 100 troy ounces or more (minimum .9995 fineness)</li>
       </ul>
+      <p>
+        The two coin thresholds reflect long-standing industry practice; their status is less clear after the IRS&apos;s January 2026 correction to its Form 1099-B instructions. See{" "}
+        <Link href="/blog/1099-b-reporting-precious-metals-2026-irs-correction" className="text-gold font-semibold">our article on the 2026 correction</Link>.
+      </p>
       <p>
         <strong>Not reportable (by product):</strong>
       </p>
@@ -4448,7 +4451,7 @@ const blogContent: Record<string, React.ReactNode> = {
 
       <h2>Why Platinum Trades Below Gold in 2026</h2>
       <p>
-        For most of modern financial history, platinum traded above gold &mdash; sometimes significantly. That relationship broke in 2015 and has not repaired. In 2026, platinum trades at roughly $1,100&ndash;$1,400 per ounce while gold sits near $5,100.
+        For most of modern financial history, platinum traded above gold &mdash; sometimes significantly. That relationship broke in 2015 and has not repaired; platinum has traded below gold ever since. As of November 6, 2026, platinum traded near $1,530 an ounce and gold near $4,060, per spot prices on <a href="https://thegoldwindow.ai" target="_blank" rel="noopener noreferrer">The Gold Window</a>.
       </p>
       <p>
         The primary driver is auto industry demand. Platinum is a critical catalyst in diesel engine emissions systems. Palladium is a critical catalyst in gasoline engine emissions systems. When emissions regulations tightened in the 2000s, palladium demand surged; palladium peaked above $3,000/oz in 2022. When the diesel emissions scandal reshaped global vehicle markets, platinum demand collapsed and has been recovering slowly.
@@ -4457,13 +4460,13 @@ const blogContent: Record<string, React.ReactNode> = {
         The next chapter of the story is hydrogen. Platinum is a critical catalyst in polymer electrolyte membrane (PEM) fuel cells used in hydrogen-powered vehicles and industrial applications. Whether the hydrogen economy scales to material size is the primary upside case for platinum demand in the next decade. If it does &mdash; the industrial pull-through could be significant. If it doesn&apos;t, platinum prices reflect a shrinking traditional demand base against roughly stable investment demand.
       </p>
       <p>
-        Palladium&apos;s story is the opposite. Gasoline vehicles are being displaced by electric vehicles at a rate that&apos;s projected to reduce annual palladium demand meaningfully over the next 5&ndash;10 years. The 2022 palladium spike was a supply-shock story (Russian production disruption) layered on demand that was already peaking. In 2026, palladium trades in the $1,400&ndash;$1,800 range, well off those highs, with a demand curve that&apos;s more likely to trend down than up over the medium term.
+        Palladium&apos;s story is the opposite. Gasoline vehicles are being displaced by electric vehicles at a rate that&apos;s projected to reduce annual palladium demand meaningfully over the next 5&ndash;10 years. The 2022 palladium spike was a supply-shock story (Russian production disruption) layered on demand that was already peaking. As of November 6, 2026, palladium traded near $1,020 an ounce on the same spot data, well below its 2022 high, with a demand curve that&apos;s more likely to trend down than up over the medium term.
       </p>
 
       <h2>Where PGMs Actually Fit in a Precious Metals Strategy</h2>
       <p>Three honest reasons to hold platinum group metals as part of a precious metals allocation:</p>
       <p>
-        <strong>1. Ratio play against gold and silver.</strong> Historically, the platinum-to-gold ratio has averaged around 1:1 (platinum slightly above gold), and it&apos;s now at roughly 4:1 (gold four times platinum). Some investors treat that as a mean-reversion setup. This is a genuine trade, not a monetary-metal hold &mdash; and the reversion has been anticipated for a decade without much cooperation from the actual market.
+        <strong>1. Ratio play against gold and silver.</strong> Historically, the platinum-to-gold ratio has averaged around 1:1 (platinum slightly above gold), and as of November 6, 2026 it stood at roughly 2.7:1 (gold about 2.7 times platinum). Some investors treat that as a mean-reversion setup. This is a genuine trade, not a monetary-metal hold &mdash; and the reversion has been anticipated for a decade without much cooperation from the actual market.
       </p>
       <p>
         <strong>2. Industrial-demand exposure.</strong> If you want a metals position that isn&apos;t primarily a monetary hedge, platinum offers exposure to industrial cycles gold and silver don&apos;t provide. This is more like commodities investing than stacking, and it should be sized like a commodities investment.
@@ -4722,7 +4725,7 @@ const blogContent: Record<string, React.ReactNode> = {
         <li><strong>Washington</strong> &mdash; sales tax applies as of January 2026.</li>
       </ul>
       <p>
-        Kentucky, Wisconsin, Mississippi, and New Jersey apply narrower or category-specific treatment rather than a blanket tax; check the state&apos;s rules for the specific product before buying. In the fully taxing jurisdictions, a $10,000 bullion purchase adds several hundred dollars in sales tax depending on the state and local rate (for example, roughly $600 at 6%).
+        Kentucky and Mississippi apply narrower or category-specific treatment rather than a blanket tax; New Jersey exempts investment bullion but taxes coins worth less than $1,000 each (since January 1, 2025), and Wisconsin exempts precious metal bullion, including coins, but not jewelry or other items that merely contain precious metal (since March 23, 2024); check the state&apos;s rules for the specific product before buying. In the fully taxing jurisdictions, a $10,000 bullion purchase adds several hundred dollars in sales tax depending on the state and local rate (for example, roughly $600 at 6%).
       </p>
 
       <h2>Recent Legislative Changes (2025-2026)</h2>
@@ -4740,7 +4743,7 @@ const blogContent: Record<string, React.ReactNode> = {
       <h2>States With Dollar-Threshold Exemptions</h2>
       <p>Some states exempt precious metals purchases above a specific dollar threshold &mdash; below the threshold, tax applies; above it, exempt.</p>
       <ul>
-        <li><strong>Texas</strong> &mdash; exempts precious metals transactions above $1,000 in single purchases.</li>
+        <li><strong>Texas</strong> &mdash; exempts sales of gold, silver, and numismatic coins and of gold, silver, and platinum bullion, with no dollar threshold (Tex. Tax Code &sect; 151.336). Jewelry is not covered. The statute does not name palladium; confirm treatment with the Comptroller before buying palladium products.</li>
         <li><strong>Illinois</strong> &mdash; similar threshold structure, with per-transaction exemption above certain amounts.</li>
         <li><strong>Massachusetts</strong> &mdash; has threshold-based exemptions for bullion at specified quantities.</li>
       </ul>
@@ -4832,7 +4835,7 @@ const blogContent: Record<string, React.ReactNode> = {
       <h2>Frequently Asked Questions</h2>
       <h3>Which states charge sales tax on precious metals in 2026?</h3>
       <p>
-        Eight jurisdictions apply sales tax broadly as of September 2026: DC, Hawaii, Maine, Maryland, New Mexico, Vermont, Virginia, and Washington. Maryland (July 2025), Washington (January 2026), and Virginia (July 2026) were previously exempt. Kentucky, Wisconsin, Mississippi, and New Jersey apply narrower or category-specific treatment, and several other states apply sales tax below specific dollar thresholds or on numismatic-classified products even where bullion is exempt. State rules change with legislative sessions &mdash; verify current law with the state Department of Revenue before any significant purchase.
+        Eight jurisdictions apply sales tax broadly as of September 2026: DC, Hawaii, Maine, Maryland, New Mexico, Vermont, Virginia, and Washington. Maryland (July 2025), Washington (January 2026), and Virginia (July 2026) were previously exempt. Kentucky and Mississippi apply narrower or category-specific treatment; New Jersey exempts investment bullion but taxes coins worth less than $1,000 each (since January 1, 2025), and Wisconsin exempts precious metal bullion, including coins, but not jewelry or other items that merely contain precious metal (since March 23, 2024). Several other states apply sales tax below specific dollar thresholds or on numismatic-classified products even where bullion is exempt. State rules change with legislative sessions &mdash; verify current law with the state Department of Revenue before any significant purchase.
       </p>
       <h3>If I buy gold in Delaware and take it home to Maryland, do I owe tax?</h3>
       <p>
@@ -4919,7 +4922,7 @@ const blogContent: Record<string, React.ReactNode> = {
       <h2>Estate Tax vs. Income Tax &mdash; Different Questions</h2>
       <p>Two separate tax questions to distinguish:</p>
       <p>
-        <strong>Estate tax</strong> is owed by the estate (before distribution to heirs) if the decedent&apos;s total estate exceeds the federal exemption threshold. The 2026 exemption is high &mdash; currently over $13 million per individual &mdash; so most small estates owe no federal estate tax. Some states impose separate state estate or inheritance tax at lower thresholds.
+        <strong>Estate tax</strong> is owed by the estate (before distribution to heirs) if the decedent&apos;s total estate exceeds the federal exemption threshold. The federal basic exclusion amount for deaths in 2026 is $15 million per individual (per the IRS, under Public Law 119-21), so most estates owe no federal estate tax. Some states impose separate state estate or inheritance tax at lower thresholds.
       </p>
       <p>
         <strong>Income tax on the heir</strong> applies only when the heir sells inherited assets. Because of the step-up in basis, the tax owed is often minimal &mdash; only appreciation above the stepped-up basis is taxable, and only when the metal is sold.
@@ -4994,7 +4997,7 @@ const blogContent: Record<string, React.ReactNode> = {
       </p>
       <h3>Do I need to file an estate tax return if I inherit precious metals?</h3>
       <p>
-        The estate &mdash; not the heir &mdash; files the estate tax return, and only if the total estate exceeds the federal exemption threshold (currently over $13 million). Most small estates owe no federal estate tax. Some states impose separate estate or inheritance tax at lower thresholds &mdash; check the specific state&apos;s rules. Heirs don&apos;t file federal income tax on the inheritance itself.
+        The estate &mdash; not the heir &mdash; files the estate tax return, and only if the total estate exceeds the federal basic exclusion amount ($15 million for deaths in 2026, per the IRS). Most small estates owe no federal estate tax. Some states impose separate estate or inheritance tax at lower thresholds &mdash; check the specific state&apos;s rules. Heirs don&apos;t file federal income tax on the inheritance itself.
       </p>
       <h3>What about precious metals in an inherited IRA?</h3>
       <p>
@@ -5308,7 +5311,7 @@ const blogContent: Record<string, React.ReactNode> = {
       </p>
       <h2>The 2026 contribution and rollover picture</h2>
       <p>
-        For 2026, the standard IRA contribution limit is <strong>$7,500</strong>, plus a $1,000 catch-up contribution for account holders age 50 and over. <strong>Rollovers do not count toward the contribution limit</strong> &mdash; a rollover from a 401(k) or another IRA can move any amount into the self-directed precious metals IRA without affecting the annual cap.
+        For 2026, the standard IRA contribution limit is <strong>$7,500</strong>, plus a $1,100 catch-up contribution for account holders age 50 and over (up from $1,000 in 2025, per the <a href="https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500" target="_blank" rel="noopener noreferrer">IRS</a>). <strong>Rollovers do not count toward the contribution limit</strong> &mdash; a rollover from a 401(k) or another IRA can move any amount into the self-directed precious metals IRA without affecting the annual cap.
       </p>
       <p>
         The rollover path is how most substantial silver IRAs get funded. A one-time rollover from an existing retirement account (traditional IRA, 401(k) from a former employer, TSP, etc.) can move a meaningful position into the precious metals account without the multi-year accumulation the contribution limits would otherwise require. The rollover mechanics require attention &mdash; a trustee-to-trustee transfer avoids the 60-day distribution rule that catches account holders who take the distribution personally and try to redeposit it themselves.
@@ -5356,20 +5359,20 @@ const blogContent: Record<string, React.ReactNode> = {
   "1099-b-reporting-precious-metals-2026-irs-correction": (
     <>
       <p>
-        <em>This article reflects IRS reporting rules for precious metals dealer transactions as of publication in September 2026. Confirm any specific reporting question with a tax professional and with the current IRS Form 1099-B instructions before relying on this information. Nothing in this article is tax advice for your specific situation.</em>
+        <em>This article reflects IRS reporting rules for precious metals dealer transactions as of publication in September 2026, updated November 6, 2026 to correct our description of the withdrawn coin example. Confirm any specific reporting question with a tax professional and with the current IRS Form 1099-B instructions before relying on this information. Nothing in this article is tax advice for your specific situation.</em>
       </p>
       <p>
-        The rules for what a precious metals dealer has to report to the IRS when a customer sells them bullion have generated more confusion than almost any other corner of the industry. In late 2025 the IRS made the confusion worse by including a misleading example in the 2025-2026 Form 1099-B instructions that seemed to suggest even individual coin sales might trigger reporting. On January 30, 2026, after sustained pressure from the <a href="https://www.ncbassoc.org" target="_blank" rel="noopener noreferrer">National Coin &amp; Bullion Association</a>, the IRS <strong>corrected the instructions</strong> and removed the offending example.
+        The rules for what a precious metals dealer has to report to the IRS when a customer sells them bullion have generated more confusion than almost any other corner of the industry. One focus of that confusion was an example in the Form 1099-B instructions about &ldquo;a single gold coin.&rdquo; On January 30, 2026, the IRS posted a <strong>correction</strong> stating that the example is being removed from the 2025 and 2026 instructions. The <a href="https://www.ncbassoc.org" target="_blank" rel="noopener noreferrer">National Coin &amp; Bullion Association</a> (NCBA) credits its own advocacy for the change.
       </p>
       <p>
-        The correction did not change the underlying rule. It clarified what the rule actually says. This piece walks through what dealers are required to report on Form 1099-B in 2026, what the misleading example said and why it was withdrawn, how the separate Form 8300 cash-reporting rule fits, and what a seller should actually expect.
+        The correction did not change the underlying rule; the IRS restated the rule without the example. This piece walks through what dealers are required to report on Form 1099-B in 2026, what the withdrawn example actually said, what the correction does not settle, how the separate Form 8300 cash-reporting rule fits, and what a seller should actually expect.
       </p>
       <h2>What the rule actually says</h2>
       <p>
         Form 1099-B is the IRS form dealers file to report proceeds paid to a non-corporate seller of certain items &mdash; including specific precious metals transactions. It is a broker-reporting form; it exists so the IRS can match dealer-reported proceeds to seller-reported gains on Form 8949 and Schedule D.
       </p>
       <p>
-        The corrected 2026 instructions now state that a sale of a precious metal is not reportable on 1099-B if the CFTC has not approved trading by regulated futures contract for that metal in that form, <strong>or</strong> if the quantity sold is less than the minimum required to satisfy a CFTC-approved regulated futures contract. Sales of precious metals for a single customer during a 24-hour period must be aggregated and treated as a single sale to determine if the exception applies.
+        As restated in the IRS&apos;s correction to the 2025 and 2026 instructions, a sale of a precious metal is not reportable on 1099-B if the CFTC has not approved trading by regulated futures contract for that metal in that form, <strong>or</strong> if the quantity sold is less than the minimum required to satisfy a CFTC-approved regulated futures contract. Sales of precious metals for a single customer during a 24-hour period must be aggregated and treated as a single sale to determine if the exception applies.
       </p>
       <p>
         Translated: a dealer has to file a 1099-B for your sale only if:
@@ -5416,19 +5419,19 @@ const blogContent: Record<string, React.ReactNode> = {
       </p>
       <h2>The January 30, 2026 correction and what it actually changed</h2>
       <p>
-        In late 2025, the IRS published draft 2025-2026 instructions for Form 1099-B that included an example under &ldquo;Sales of precious metals&rdquo; on page 5 referencing &ldquo;a single gold coin.&rdquo; The example implied that even small, individual coin sales might trigger 1099-B reporting under certain readings &mdash; despite the IRS&apos;s own 2024 clarification that such transactions are not reportable when quantities fall below the CFTC-approved regulated futures contract minimums.
+        The example was not new. It appears under &ldquo;Sales of precious metals&rdquo; in the IRS&apos;s Form 1099-B instructions at least as far back as the 2020 edition, and on page 5 of the 2025 and 2026 editions. It reads: &ldquo;For example, a broker selling a single gold coin does not need to file Form 1099-B even if the coin is of such form and quality that it could be delivered to satisfy a CFTC-approved RFC if all CFTC-approved contracts for gold coins currently call for delivery of at least 25 coins.&rdquo; In other words, the example said a single-coin sale is <strong>not</strong> reportable. Its premise, that CFTC-approved contracts for gold coins call for delivery of at least 25 coins, matches the 25-coin threshold that industry practice has applied to Maple Leafs, Krugerrands, and Onzas.
       </p>
       <p>
-        The example generated significant confusion in the dealer and collector community. Dealers were unsure whether to over-report to be safe or continue under prior practice. Sellers of small quantities worried that even routine sales would trigger unexpected 1099-Bs.
+        NCBA has described the example as implying that small, individual coin sales might be reportable. The example&apos;s own text says the opposite. The IRS correction notice does not say why the example was removed.
       </p>
       <p>
-        The National Coin &amp; Bullion Association engaged with the IRS over the course of 2025 to seek clarification. On <strong>January 30, 2026</strong>, the IRS posted a formal <a href="https://www.irs.gov/forms-pubs/correction-to-the-2025-and-2026-instructions-for-form-1099-b-page-5-under-sales-of-precious-metals" target="_blank" rel="noopener noreferrer">Correction to the 2025 and 2026 Instructions for Form 1099-B</a>. The correction removed the misleading &ldquo;single gold coin&rdquo; example and restated the rule in its current form: precious metals sales are not reportable if there is no CFTC-approved regulated futures contract for that metal form, or if the quantity is less than the contract minimum.
+        On <strong>January 30, 2026</strong>, the IRS posted a <a href="https://www.irs.gov/forms-pubs/correction-to-the-2025-and-2026-instructions-for-form-1099-b-page-5-under-sales-of-precious-metals" target="_blank" rel="noopener noreferrer">Correction to the 2025 and 2026 Instructions for Form 1099-B</a>. It states that &ldquo;the example under Sales of precious metals on page 5 is being removed&rdquo; and restates the rule without it: precious metals sales are not reportable if there is no CFTC-approved regulated futures contract for that metal form, or if the quantity is less than the contract minimum, with one customer&apos;s sales over a 24-hour period added together. As of November 6, 2026, the <a href="https://www.irs.gov/instructions/i1099b" target="_blank" rel="noopener noreferrer">2026 instructions on irs.gov</a>, in both the web and PDF versions, still print the example. The removal appears only in the separate correction notice, so read the two together.
       </p>
       <p>
-        The correction is important for two reasons. First, it removed a source of dealer overreporting that would have generated unnecessary 1099-Bs for small coin sellers. Second, it reaffirmed the underlying rule that had been settled but was becoming muddled by the draft instructions.
+        What the correction does not settle: it does not say which coins, if any, are currently deliverable on a CFTC-approved regulated futures contract, or in what quantity. That question decides whether the 25-coin and $1,000-face-value thresholds used in industry practice still apply, and as of November 6, 2026 it is unsettled in published IRS guidance. NCBA <a href="https://www.greysheet.com/news/story/ncba-gains-irs-clarification-on-reporting-requirements-for-precious-metals-dealers" target="_blank" rel="noopener noreferrer">reported in March 2024</a> that, through informal exchanges with the IRS Office of Chief Counsel, it was told that precious-metal coins and $1,000 face-value bags of 90% silver no longer fall within the scope of reportable items. The IRS has not published that position, and the correction notice does not mention it.
       </p>
       <p>
-        For a seller in 2026, the practical takeaway: if you sold individual gold or silver coins in modest quantities in 2025 or early 2026 and your dealer did not issue a 1099-B, that is likely correct under the current rule. If a dealer over-issued 1099-Bs during the confusion, sellers may want to check with a tax professional about how to reconcile on their return.
+        For a seller in 2026, the practical takeaway: if you sold individual gold or silver coins in modest quantities in 2025 or 2026 and your dealer did not issue a 1099-B, that is consistent with the rule as the IRS restated it. If you received a 1099-B you believe was not required, check with a tax professional about how to reconcile it on your return. Either way, you report any gain yourself.
       </p>
       <h2>Form 8300: the cash-transaction rule that is not the same thing</h2>
       <p>
@@ -5637,7 +5640,7 @@ const blogContent: Record<string, React.ReactNode> = {
         On June 3, 2026, India&apos;s securities regulator, the Securities and Exchange Board of India (SEBI), issued an interim, ex parte order against Rajesh Exports Ltd (REL), the Indian-listed company that bought Valcambi SA in 2015. &ldquo;Ex parte&rdquo; means the order was issued before the company was heard. In the order, SEBI alleges on a prima facie basis (a preliminary view, not a finding after a hearing) that REL misrepresented about &#8377;15.15 lakh crore of consolidated revenue over fiscal years 2021 through 2025. &#8377;15.15 lakh crore is &#8377;15.15 trillion. Reuters converted that to roughly $159 billion, which is about what you get at the June 2026 exchange rate of around 95 rupees to the dollar. Converted at the rates that applied during those fiscal years, when the rupee was stronger, the dollar figure would be higher. Treat any dollar number as an approximation of a rupee allegation.
       </p>
       <p>
-        According to press reports on the order, SEBI&apos;s concern is that REL attributed almost all of its consolidated revenue to overseas subsidiaries, chiefly Valcambi, while the subsidiaries&apos; own audited statements showed far smaller revenue. SEBI also restrained REL chairman Rajesh Mehta from dealing in REL securities until further orders and directed that a new forensic auditor complete an audit. Some outlets describe the restriction more broadly, as a bar from the securities market. These are allegations in an interim order. SEBI has not issued a final order.
+        According to press reports on the order, SEBI&apos;s concern is that REL attributed almost all of its consolidated revenue to overseas subsidiaries, chiefly Valcambi, while the subsidiaries&apos; own audited statements showed far smaller revenue. SEBI also restrained REL chairman Rajesh Mehta from dealing in REL securities until further orders and directed that a new forensic auditor complete an audit. Some outlets describe the restriction more broadly, as a bar from the securities market. These are allegations in an interim order. On October 14, 2026, SEBI issued a <a href="https://www.sebi.gov.in/enforcement/orders/oct-2026/confirmatory-order-in-the-matter-of-rajesh-exports-limited_105261.html" target="_blank" rel="noopener noreferrer">confirmatory order</a> that kept the interim directions in place, including the restraint on Mr. Mehta, and directed the new forensic auditor and the investigation to proceed expeditiously. The order states that nothing in it &ldquo;shall be construed as a final determination of the allegations or as a final finding of violation.&rdquo; As of November 6, 2026, SEBI has not issued a final order.
       </p>
       <p>
         REL denies the allegations. In statements to the Indian stock exchanges, the company said its reported revenues are correct and not overstated, that the order is interim with no conclusive adverse findings, and that the matter arose from a &ldquo;communication gap and confusion&rdquo; with the regulator. REL later said it would cooperate with the forensic audit and would not challenge the interim order.
@@ -5647,7 +5650,7 @@ const blogContent: Record<string, React.ReactNode> = {
       </p>
       <h3>The one development bar owners should know about</h3>
       <p>
-        On June 16, 2026, the London Bullion Market Association (LBMA) <a href="https://www.lbma.org.uk/articles/valcambi-sa-incident-review-process-invoked" target="_blank" rel="noopener noreferrer">announced it had invoked its Incident Review Process</a> for Valcambi SA &ldquo;to review information arising out of current media reports.&rdquo; LBMA said Valcambi remains a Good Delivery refiner while the review proceeds, and trade press quoted LBMA as saying no findings had been made against Valcambi. Under LBMA&apos;s <a href="https://www.lbma.org.uk/review-process-case-studies" target="_blank" rel="noopener noreferrer">review process</a>, outcomes can range from no action, to a corrective action plan, to suspension or removal from the Good Delivery List. As of this writing (early October 2026), we found no announcement of a final SEBI order or a change in Valcambi&apos;s LBMA status. Statuses can change, so check the <a href="https://www.lbma.org.uk/good-delivery/gold-current-list" target="_blank" rel="noopener noreferrer">LBMA Good Delivery List</a> yourself rather than relying on any article, this one included.
+        On June 16, 2026, the London Bullion Market Association (LBMA) <a href="https://www.lbma.org.uk/articles/valcambi-sa-incident-review-process-invoked" target="_blank" rel="noopener noreferrer">announced it had invoked its Incident Review Process</a> for Valcambi SA &ldquo;to review information arising out of current media reports.&rdquo; LBMA said Valcambi remains a Good Delivery refiner while the review proceeds, and trade press quoted LBMA as saying no findings had been made against Valcambi. Under LBMA&apos;s <a href="https://www.lbma.org.uk/review-process-case-studies" target="_blank" rel="noopener noreferrer">review process</a>, outcomes can range from no action, to a corrective action plan, to suspension or removal from the Good Delivery List. As of November 6, 2026, LBMA&apos;s incident review notice still says Valcambi remains a Good Delivery refiner, Valcambi SA is on LBMA&apos;s current gold and silver Good Delivery lists, and SEBI has not issued a final order. Statuses can change, so check the <a href="https://www.lbma.org.uk/good-delivery/gold-current-list" target="_blank" rel="noopener noreferrer">LBMA Good Delivery List</a> yourself rather than relying on any article, this one included.
       </p>
       <p>
         Now for the part that applies to every bar you&apos;ll ever own.
@@ -5898,14 +5901,14 @@ const blogContent: Record<string, React.ReactNode> = {
         A gold token and a gold coin can both be described as &ldquo;one ounce of gold.&rdquo; That shared description hides almost every difference that matters to an owner: where the metal sits, whose name is on it, what you have to do to get it back, and who else can act on your holding without asking you.
       </p>
       <p>
-        This article walks through two widely traded gold-backed tokens, PAX Gold (PAXG) and Tether Gold (XAUt), using the issuers&apos; own published terms as of October 2026. It is an explanation of structure, not a recommendation to buy, sell, or hold anything.
+        This article walks through two widely traded gold-backed tokens, PAX Gold (PAXG) and Tether Gold (XAUt), using the issuers&apos; own published terms as of October 2026 (Tether Gold&apos;s terms rechecked November 6, 2026). It is an explanation of structure, not a recommendation to buy, sell, or hold anything.
       </p>
       <h2>What each token claims to represent</h2>
       <p>
         Both tokens make the same basic promise: one token corresponds to one fine troy ounce of gold held in a London Good Delivery bar. The differences start immediately after that sentence.
       </p>
       <p>
-        <strong>PAX Gold (PAXG)</strong> is issued by Paxos Trust Company, N.A. According to <a href="https://www.paxos.com/pax-gold" target="_blank" rel="noopener noreferrer">Paxos&apos;s PAXG product page</a>, each token is backed by one fine troy ounce of London Good Delivery gold stored in LBMA vaults in London, and a PAXG owner &ldquo;own[s] the underlying physical gold, held in custody by Paxos Trust Company.&rdquo; Paxos describes the backing as allocated: each bar has a serial number, refiner stamp, and recorded weight tied to the tokens, per its <a href="https://www.paxos.com/blog/how-gold-becomes-tokenized-paxg" target="_blank" rel="noopener noreferrer">January 2026 explainer on how PAXG is created</a>.
+        <strong>PAX Gold (PAXG)</strong> is issued by Paxos Trust Company, N.A. As of November 6, 2026, <a href="https://www.paxos.com/assets/paxg" target="_blank" rel="noopener noreferrer">Paxos&apos;s PAXG product page</a> says that &ldquo;every PAXG token is backed by one fine troy ounce of London Good Delivery gold held in custody by Paxos Trust Company, N.A.&rdquo; Paxos&apos;s <a href="https://support.paxos.com/articles/5590384005-pax-gold-paxg-overview" target="_blank" rel="noopener noreferrer">PAXG support overview</a> says each token is allocated to specific London Good Delivery bars and that holders &ldquo;may own either full bars or fractional, pro rata interests in bars depending on their balance.&rdquo; Paxos describes the backing as allocated: each bar has a serial number, refiner stamp, and recorded weight tied to the tokens, per its <a href="https://www.paxos.com/blog/how-gold-becomes-tokenized-paxg" target="_blank" rel="noopener noreferrer">January 2026 explainer on how PAXG is created</a>.
       </p>
       <p>
         <strong>Tether Gold (XAUt)</strong> is issued by TG Commodities, S.A. de C.V., which Tether describes as a registered stablecoin issuer and digital asset service provider under El Salvador&apos;s Digital Asset Issuance Law. Tether&apos;s <a href="https://tether.io/news/tether-gold-accounts-for-more-than-half-the-entire-gold-backed-stablecoin-market-as-xaut-surpasses-4-billion-in-value/" target="_blank" rel="noopener noreferrer">January 2026 reserve announcement</a> states that each token is backed by one fine troy ounce of physical gold held in Swiss vaults meeting London Good Delivery standards. That announcement reported roughly 520,089 XAUt in circulation against about 520,089 fine troy ounces as of December 31, 2025. The vault operator is not named in that release.
@@ -5925,7 +5928,7 @@ const blogContent: Record<string, React.ReactNode> = {
         <strong>Paxos is now a federally chartered national trust bank.</strong> For years, PAXG was described as issued by a New York Department of Financial Services (NYDFS) regulated trust company. That changed. On December 12, 2025, the Office of the Comptroller of the Currency approved Paxos&apos;s application to convert its NYDFS limited-purpose trust charter into a national trust charter, and Paxos says it completed the conversion the same day. Per <a href="https://www.paxos.com/newsroom/occ-approves-paxos-application-to-convert-to-occ-trust-paxos-to-complete-conversion-imminently-to-become-a-federally-regulated-blockchain-infrastructure-provider" target="_blank" rel="noopener noreferrer">Paxos&apos;s announcement</a>, &ldquo;all of Paxos Trust Company&apos;s US-based activity will be subject to OCC supervision.&rdquo; Older articles that still describe PAXG as NYDFS-regulated are out of date.
       </p>
       <p>
-        <strong>Tether Gold sits under El Salvador&apos;s framework,</strong> not a U.S. charter. Tether&apos;s materials point to sales and redemption terms published on its legal pages. U.S. readers should read those terms directly to see who may open an account with the issuer.
+        <strong>Tether Gold sits under El Salvador&apos;s framework,</strong> not a U.S. charter. Its Terms of Sale and Service (last updated September 9, 2025) prohibit U.S. persons, other than eligible contract participants Tether accepts, from holding a Gold Token Wallet or using its purchase and redemption services. For a U.S. holder, the practical exit is selling XAUt on a third-party platform, not redeeming with the issuer.
       </p>
       <p>
         <strong>What about the GENIUS Act?</strong> The federal stablecoin law enacted in July 2025 (Public Law 119-27) regulates &ldquo;payment stablecoins.&rdquo; The statute&apos;s definition in <a href="https://www.govinfo.gov/content/pkg/COMPS-18221/pdf/COMPS-18221.pdf" target="_blank" rel="noopener noreferrer">section 2</a> covers a digital asset whose issuer is obligated to convert, redeem, or repurchase it &ldquo;for a fixed amount of monetary value,&rdquo; and it defines monetary value as a national currency or a deposit denominated in one. A gold token redeems for a quantity of gold whose dollar value floats. On the statute&apos;s plain text, gold-backed tokens do not appear to fit that definition. Regulators have not, as of October 2026, issued guidance specifically addressing gold tokens under the Act, so treat that reading as an informed one rather than a settled answer.
@@ -5940,23 +5943,23 @@ const blogContent: Record<string, React.ReactNode> = {
       <ul>
         <li>Holders can redeem for U.S. dollars at current gold prices through Paxos, or convert to unallocated gold.</li>
         <li>Physical delivery of full London Good Delivery bars is available to customers holding <strong>430 troy ounces or more</strong>. Smaller amounts can be redeemed through gold retailers that partner with Paxos, per the <a href="https://www.paxos.com/blog/how-gold-becomes-tokenized-paxg" target="_blank" rel="noopener noreferrer">January 2026 explainer</a>.</li>
-        <li>Paxos&apos;s <a href="https://support.paxos.com/articles/2899561282-PAX-Gold-Fees" target="_blank" rel="noopener noreferrer">PAX Gold fee schedule</a>, as of October 2026, lists creation fees as waived through January 1, 2027, and redemption fees effective September 1, 2026 that start at 0.125% and rise in bands based on an account&apos;s rolling 30-day net redemptions. A separate 0.05% fee applies to in-kind conversion into allocated or unallocated gold.</li>
+        <li>Paxos&apos;s <a href="https://support.paxos.com/articles/5590384005-pax-gold-paxg-overview" target="_blank" rel="noopener noreferrer">PAXG overview and fee schedule</a>, as of November 6, 2026, lists creation fees as waived through January 1, 2027, and redemption fees effective September 1, 2026 that start at 0.125% and rise in bands based on an account&apos;s rolling 30-day net redemptions. A separate 0.05% fee applies to in-kind conversion into allocated or unallocated gold.</li>
         <li>Those creation and redemption fees apply to activity on the Paxos platform. Tokens bought or sold on an outside exchange carry that exchange&apos;s fees instead.</li>
       </ul>
       <p>
         <strong>XAUt redemption, per Tether&apos;s own materials:</strong>
       </p>
       <ul>
-        <li>Tether states that it delivers bars &ldquo;to any address in Switzerland,&rdquo; per its <a href="https://tether.io/news/tether-gold-digital-gold-for-the-modern-era/" target="_blank" rel="noopener noreferrer">Tether Gold overview</a>.</li>
-        <li>Physical redemption is tied to full bars. Tether advises depositing about 430 XAUt to cover one bar, since a Good Delivery bar can weigh up to about 430 ounces.</li>
-        <li>As of October 2026, Tether&apos;s public product and news pages do not state a current redemption fee schedule. Get it in writing before you rely on redemption.</li>
+        <li>Only verified customers can buy from or redeem with Tether Gold. Its <a href="https://gold.tether.to/legal/feeschedule" target="_blank" rel="noopener noreferrer">fee schedule</a> (last updated January 27, 2025) lists a 150 USD₮ verification fee, a 50-token minimum purchase, and a 0.25% fee on purchases and on redemptions, plus applicable delivery or brokerage fees on redemption.</li>
+        <li>Redemption runs in increments of 430 tokens, adjusted to the actual weight of the London Good Delivery bar delivered, per Tether Gold&apos;s <a href="https://gold.tether.to/legal/termsofservice" target="_blank" rel="noopener noreferrer">Terms of Sale and Service</a>.</li>
+        <li>A redeeming holder can take delivery of the bar at a location in Switzerland, for a delivery fee, or have Tether Gold arrange a sale in the Swiss market. The terms allow redemptions to take several business days and to be delayed.</li>
       </ul>
       <p>
         The common thread: <strong>for most retail holders, &ldquo;redeemable for physical gold&rdquo; is a theoretical right.</strong> A full Good Delivery bar is roughly 400 ounces. If you hold a few tokens, your realistic exit is selling the token for dollars, either to the issuer or on an exchange. That puts you closer to an ETF shareholder than to someone with a coin in a safe.
       </p>
       <h2>Attestations are not audits</h2>
       <p>
-        Paxos&apos;s product page says PAXG&apos;s allocated gold is &ldquo;audited monthly.&rdquo; Its <a href="https://www.paxos.com/paxg-transparency" target="_blank" rel="noopener noreferrer">PAXG transparency page</a> describes the same thing as monthly attestation reports, prepared by KPMG LLP for reports posted on or after February 28, 2025, and by WithumSmith+Brown before that. Tether links an ISAE 3000 assurance report for its reserves.
+        Paxos says it &ldquo;publishes monthly attestation reports for PAXG.&rdquo; Its <a href="https://www.paxos.com/transparency/paxg" target="_blank" rel="noopener noreferrer">PAXG transparency page</a> says those reports are prepared by KPMG LLP for reports posted on or after February 28, 2025, and by WithumSmith+Brown before that. Tether links an ISAE 3000 assurance report for its reserves.
       </p>
       <p>
         These are not the same as a full audit of the issuer&apos;s financial statements. In general terms:
@@ -6033,7 +6036,7 @@ const blogContent: Record<string, React.ReactNode> = {
       <ul>
         <li>You hold a claim on allocated gold, recorded on a blockchain, issued by a specific company under a specific regulator.</li>
         <li>You can transfer tokens around the clock and in fractions.</li>
-        <li>Physical redemption exists but, in practice, begins at a full bar.</li>
+        <li>Physical redemption exists but, in practice, begins at a full bar. XAUt redemption is closed to most U.S. persons.</li>
         <li>The issuer can freeze, wipe, or burn balances under defined conditions, and the contracts can be upgraded.</li>
         <li>Exchange and wallet risk stack on top of issuer risk.</li>
       </ul>
@@ -6085,12 +6088,15 @@ const blogContent: Record<string, React.ReactNode> = {
       </p>
       <h2>The 2026 numbers</h2>
       <p>
-        Under the IRS&apos;s <a href="https://www.irs.gov/businesses/small-businesses-self-employed/whats-new-estate-and-gift-tax" target="_blank" rel="noopener noreferrer">What&apos;s New page for estate and gift tax</a>, last updated in July 2026:
+        Under the IRS&apos;s <a href="https://www.irs.gov/businesses/small-businesses-self-employed/whats-new-estate-and-gift-tax" target="_blank" rel="noopener noreferrer">What&apos;s New page for estate and gift tax</a> (checked November 6, 2026):
       </p>
       <ul>
         <li><strong>Annual exclusion: $19,000 per recipient for 2026</strong>, unchanged from 2025. You can give up to that amount to any number of different people in a calendar year without using any of your lifetime exemption.</li>
         <li><strong>Basic exclusion amount: $15,000,000 for 2026.</strong> This is the lifetime amount that can pass free of gift and estate tax combined. The increase came from Public Law 119-21, signed July 4, 2025. The IRS calls it the Working Families Tax Cuts Bill. Most press coverage calls it the One Big Beautiful Bill Act.</li>
       </ul>
+      <p>
+        <strong>For 2027:</strong> on November 5, 2026, the IRS <a href="https://www.irs.gov/newsroom/irs-releases-tax-inflation-adjustments-for-tax-year-2027-taxpayers-continue-to-benefit-from-the-working-families-tax-cuts" target="_blank" rel="noopener noreferrer">announced</a> (IR-2026-133, Revenue Procedure 2026-35) that the annual exclusion rises to $20,000 per recipient for gifts made in calendar year 2027, and the basic exclusion amount to $15,480,000 for 2027. The 2026 figures above still apply to gifts made through December 31, 2026.
+      </p>
       <p>
         Going over the annual exclusion for one person does not mean you owe tax. The excess counts against your lifetime amount, and you report it. Actual gift tax is owed only once lifetime taxable gifts exceed the basic exclusion amount.
       </p>
@@ -6111,7 +6117,7 @@ const blogContent: Record<string, React.ReactNode> = {
       </p>
       <h2>Gift-splitting between spouses</h2>
       <p>
-        Married couples can elect to treat a gift made by one spouse as made half by each. That effectively doubles the annual exclusion for that recipient, to $38,000 in 2026. Per the Form 709 instructions, the requirements include:
+        Married couples can elect to treat a gift made by one spouse as made half by each. That effectively doubles the annual exclusion for that recipient, to $38,000 in 2026 (and $40,000 for 2027 gifts, based on the $20,000 annual exclusion the IRS announced for 2027). Per the Form 709 instructions, the requirements include:
       </p>
       <ul>
         <li>Both spouses consent, and the consenting spouse&apos;s signed Notice of Consent goes on the donor&apos;s return.</li>
@@ -6692,7 +6698,7 @@ const blogContent: Record<string, React.ReactNode> = {
     <>
       <p>Most gold scams involve something fake: a counterfeit bar, a phony dealer, a storage account that doesn&apos;t exist. This one is different, and that is why it works.</p>
       <p>In the gold-bar courier scam, the dealer is real. The coins and bars are real. The victim pays a fair price, takes delivery of genuine metal, and then hands it to a stranger who claims to be working for the government. The only fake thing in the whole transaction is the person on the phone.</p>
-      <p>Federal and state officials have been warning about this pattern for more than two years. On August 7, 2026, New York Attorney General Letitia James <a href="https://ag.ny.gov/press-release/2026/attorney-general-james-warns-new-yorkers-gold-bar-scam-targeting-seniors" target="_blank" rel="noopener noreferrer">issued a consumer alert</a> stating that the New York City Police Department has investigated more than 100 gold bar scam cases over the past two years, with total losses exceeding $100 million. The FBI&apos;s Internet Crime Complaint Center (IC3) <a href="https://www.ic3.gov/PSA/2024/PSA240129" target="_blank" rel="noopener noreferrer">warned in January 2024</a> that from May to December 2023 alone, it saw an uptick in courier pickups of cash and precious metals with aggregated losses of over $55 million, and that many of the victims were senior citizens.</p>
+      <p>Federal and state officials have been warning about this pattern for more than two years. On August 7, 2026, New York Attorney General Letitia James <a href="https://ag.ny.gov/press-release/2026/attorney-general-james-warns-new-yorkers-gold-bar-scam-targeting-seniors" target="_blank" rel="noopener noreferrer">issued a consumer alert</a> stating that the New York City Police Department has investigated more than 100 gold bar scam cases over the past two years, with total losses exceeding $100 million. The FBI&apos;s Internet Crime Complaint Center (IC3) <a href="https://www.ic3.gov/PSA/2024/PSA240129" target="_blank" rel="noopener noreferrer">warned in January 2024</a> that from May to December 2023 alone, it saw an uptick in courier pickups of cash and precious metals with aggregated losses of over $55 million, and that many of the victims were senior citizens. In its <a href="https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf" target="_blank" rel="noopener noreferrer">2025 Internet Crime Report</a>, the IC3 counted approximately 725 complaints of gold courier scams, with reported losses of $311.8 million. In a <a href="https://www.ic3.gov/PSA/2026/PSA260917" target="_blank" rel="noopener noreferrer">September 17, 2026 alert</a> on government impersonation, the FBI repeated that &ldquo;law enforcement and government officials will never request payment via prepaid cards, cryptocurrency, or courier.&rdquo;</p>
       <h2>The one sentence to remember</h2>
       <p>Before the details, here is the rule that defeats the entire scheme:</p>
       <p><strong>No real government agent will ever ask you to buy gold, move your money to protect it, or hand cash or metal to a courier.</strong></p>
@@ -6897,7 +6903,7 @@ const blogContent: Record<string, React.ReactNode> = {
         <li><strong>Remaining assets.</strong> The declaration states the company no longer has any inventory of precious metals, coins, or bullion, and that its principal remaining asset is its customer information. In an August 19, 2026 motion, the company asked the court to approve a sale of those customer information assets and the appointment of a consumer privacy ombudsman.</li>
         <li><strong>Investigations.</strong> The declaration reports that the New York Attorney General&apos;s office has begun an investigation concerning sales to New York customers through 2023 (which the declarant understood to be relatively inactive) and that the SEC is investigating the company in connection with its metal-backed IRA products. These are investigations reported in the filing. No finding of wrongdoing has been made, and the company has not been found liable for anything.</li>
       </ul>
-      <p>The case is a liquidating Chapter 11, and an official committee of unsecured creditors was appointed in July 2026. As of the court&apos;s initial notice of the case, dated July 7, 2026, a deadline for filing proofs of claim had not been set; the notice said one would be sent later. Customers with questions about their own claims should check the court docket or the notices issued in the case, and consider talking with a bankruptcy attorney.</p>
+      <p>The case is a liquidating Chapter 11, and an official committee of unsecured creditors was appointed in July 2026. On October 28, 2026, the company filed a Chapter 11 plan of liquidation and a disclosure statement describing it, and the court set a December 16, 2026 hearing on approval of the disclosure statement. That hearing concerns whether the disclosure statement can be sent to creditors for a vote; the plan itself has not been confirmed. The court&apos;s initial notice of the case, dated July 7, 2026, said a deadline for filing proofs of claim had not been set and would be sent later. As of November 6, 2026, we did not find an order on the docket setting that deadline. Customers with questions about their own claims should check the court docket or the notices issued in the case, and consider talking with a bankruptcy attorney.</p>
       <p>The point is not this one company. The pattern described in the filing, a backlog in a rising market plus unpaid buybacks, is a general risk of any pay-now, deliver-later arrangement.</p>
       <h2>Before you pay: getting the promise in writing</h2>
       <p>You can&apos;t audit a dealer&apos;s books. You can control the terms of your own order.</p>
