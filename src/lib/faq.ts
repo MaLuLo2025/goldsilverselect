@@ -210,7 +210,7 @@ export const faqCategories: FAQCategory[] = [
         learnMoreHref: "/blog/paying-cash-for-gold-form-8300-structuring",
         links: [
           { label: "Precious Metals Reporting: 1099-B, Form 8300, and the Felony Trap Called Structuring", href: "/blog/1099-b-precious-metals-reporting" },
-          { label: "The IRS Just Corrected Its Confusing Coin Example: What Precious Metals Sellers Need to Know About 1099-B Reporting in 2026", href: "/blog/1099-b-reporting-precious-metals-2026-irs-correction" },
+          { label: "The IRS Withdrew Its Confusing Coin Example: What Precious Metals Sellers Need to Know About 1099-B Reporting in 2026", href: "/blog/1099-b-reporting-precious-metals-2026-irs-correction" },
         ],
       },
       {
@@ -308,7 +308,7 @@ export const faqCategories: FAQCategory[] = [
         learnMoreHref: "/blog/capital-gains-tax-gold-silver-2026",
         links: [
           { label: "Precious Metals Reporting: 1099-B, Form 8300, and the Felony Trap Called Structuring", href: "/blog/1099-b-precious-metals-reporting" },
-          { label: "The IRS Just Corrected Its Confusing Coin Example: What Precious Metals Sellers Need to Know About 1099-B Reporting in 2026", href: "/blog/1099-b-reporting-precious-metals-2026-irs-correction" },
+          { label: "The IRS Withdrew Its Confusing Coin Example: What Precious Metals Sellers Need to Know About 1099-B Reporting in 2026", href: "/blog/1099-b-reporting-precious-metals-2026-irs-correction" },
         ],
       },
       {
@@ -368,7 +368,7 @@ export const faqCategories: FAQCategory[] = [
         learnMoreLabel: "Precious Metals Reporting: 1099-B, Form 8300, and the Felony Trap Called Structuring",
         learnMoreHref: "/blog/1099-b-precious-metals-reporting",
         links: [
-          { label: "The IRS Just Corrected Its Confusing Coin Example: What Precious Metals Sellers Need to Know About 1099-B Reporting in 2026", href: "/blog/1099-b-reporting-precious-metals-2026-irs-correction" },
+          { label: "The IRS Withdrew Its Confusing Coin Example: What Precious Metals Sellers Need to Know About 1099-B Reporting in 2026", href: "/blog/1099-b-reporting-precious-metals-2026-irs-correction" },
         ],
       },
       {
@@ -386,7 +386,7 @@ export const faqCategories: FAQCategory[] = [
       {
         question: "What changed in the 2026 Form 1099-B instructions for precious metals?",
         answer: "On January 30, 2026, the IRS posted a correction to the 2025 and 2026 Form 1099-B instructions that stated that an example about \u201ca single gold coin\u201d is being removed. The example itself said a single-coin sale is not reportable; it remains printed in the 2026 instructions on irs.gov, with the removal stated only in the separate correction notice. The underlying rule was restated rather than changed: a sale is not reportable if no CFTC-approved regulated futures contract exists for that form of metal, or if the quantity sold is below the contract minimum. Sales by one customer within a 24-hour period are aggregated. The correction does not say which coins, if any, are covered by a CFTC-approved contract, so the status of the industry\u2019s coin thresholds remains unsettled. Any gain is taxable whether or not a 1099-B is filed.",
-        learnMoreLabel: "The IRS Just Corrected Its Confusing Coin Example: What Precious Metals Sellers Need to Know About 1099-B Reporting in 2026",
+        learnMoreLabel: "The IRS Withdrew Its Confusing Coin Example: What Precious Metals Sellers Need to Know About 1099-B Reporting in 2026",
         learnMoreHref: "/blog/1099-b-reporting-precious-metals-2026-irs-correction",
       },
     ],
@@ -893,7 +893,7 @@ export const faqCategories: FAQCategory[] = [
       },
       {
         question: "Why has silver\u2019s price risen so sharply in 2026?",
-        answer: "Silver\u2019s 2025\u20132026 surge came while the market stayed in a supply deficit even as industrial demand fell: the April 2026 World Silver Survey (Metals Focus for the Silver Institute) reports industrial demand down 3% in 2025 and forecast to fall another 3% in 2026, while global coin and bar investment demand rose 14% in 2025. Solar is a large industrial user, but the April 2026 World Silver Survey (Metals Focus for the Silver Institute) shows photovoltaic demand easing: 186.6 million ounces in 2025, with a forecast of 151.0 million in 2026. AI data centers, electric vehicles, and other electronics remain sources of silver demand. Meanwhile, about 70% of silver is mined as a byproduct of copper, zinc, lead, and gold \u2014 meaning silver supply cannot respond quickly to price increases. The survey forecasts 2026 as the sixth consecutive annual market deficit, with demand exceeding supply.",
+        answer: "Silver crossed $100 an ounce for the first time in January 2026 and reached an all-time high above $121 on January 29, 2026, before falling back sharply (it traded in the mid-$70s in early April), according to the Silver Institute\u2019s April 15, 2026 World Silver Survey release. The surge came while the market stayed in a supply deficit even as industrial demand fell: the April 2026 World Silver Survey (Metals Focus for the Silver Institute) reports industrial demand down 3% in 2025 and forecast to fall another 3% in 2026, while global coin and bar investment demand rose 14% in 2025. Solar is a large industrial user, but the April 2026 World Silver Survey (Metals Focus for the Silver Institute) shows photovoltaic demand easing: 186.6 million ounces in 2025, with a forecast of 151.0 million in 2026. AI data centers, electric vehicles, and other electronics remain sources of silver demand. Meanwhile, about 70% of silver is mined as a byproduct of copper, zinc, lead, and gold \u2014 meaning silver supply cannot respond quickly to price increases. The survey forecasts 2026 as the sixth consecutive annual market deficit, with demand exceeding supply.",
         learnMoreLabel: "Silver’s Industrial Demand: Why It Behaves Differently Than Gold",
         learnMoreHref: "/blog/silver-industrial-demand",
         links: [

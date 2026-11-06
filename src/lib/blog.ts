@@ -440,7 +440,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "1099-b-reporting-precious-metals-2026-irs-correction",
     title:
-      "The IRS Just Corrected Its Confusing Coin Example: What Precious Metals Sellers Need to Know About 1099-B Reporting in 2026",
+      "The IRS Withdrew Its Confusing Coin Example: What Precious Metals Sellers Need to Know About 1099-B Reporting in 2026",
     tag: "Education",
     tagColor: "forest",
     excerpt:

@@ -751,6 +751,22 @@ export const dealers: Dealer[] = [
     bbbRating: "A+",
     googleRating: 4.8, googleReviewCount: 366,
   },
+  {
+    slug: "first-national-bullion-scottsdale",
+    name: "First National Bullion (Scottsdale)",
+    vertical: "local-coin-bullion",
+    description:
+      "Scottsdale retail store of First National Bullion, a precious metals firm with stores in Arizona and California. Buys and sells gold, silver, platinum, and palladium bullion and coins. Located on North Scottsdale Road.",
+    address: "10223 N Scottsdale Rd, Ste A, Scottsdale, AZ 85253",
+    city: "Scottsdale",
+    citySlug: "scottsdale",
+    state: "Arizona",
+    stateSlug: "arizona",
+    phone: "(480) 546-5089",
+    website: "https://firstnationalbullion.com/scottsdale/",
+    isVerified: false,
+    googleRating: 4.9, googleReviewCount: 101,
+  },
 
   // ============================================================
   // BOSTON — LOCAL DEALERS
@@ -1361,21 +1377,6 @@ export const dealers: Dealer[] = [
     isVerified: false,
     googleRating: 4.5, googleReviewCount: 59,
   },
-  {
-    slug: "metallix-refining",
-    name: "Metallix Refining",
-    vertical: "recycling",
-    description:
-      "Precious metals recycling company founded in 1968, headquartered in Shrewsbury, NJ. Operates a 150,000 square-foot refinery on 20 acres in Greenville, NC. Purchases, recycles, and refines materials containing gold, silver, platinum, palladium, and rhodium.",
-    city: "Shrewsbury",
-    citySlug: "shrewsbury",
-    state: "New Jersey",
-    stateSlug: "new-jersey",
-    phone: "(800) 327-7938",
-    website: "https://metallix.com/",
-    isVerified: false,
-  },
-
   // ============================================================
   // ONLINE DEALERS — FEATURED (BBB A+ and Google 4.5+)
   // ============================================================
@@ -1557,21 +1558,6 @@ export const dealers: Dealer[] = [
     website: "https://providentmetals.com/",
     isVerified: false,
     bbbRating: "A+",
-  },
-  {
-    slug: "scottsdale-mint",
-    name: "Scottsdale Mint",
-    vertical: "online-coin-bullion",
-    description:
-      "US private mint based in Arizona and Wyoming that designs, manufactures, and sells its own gold and silver bullion products. Known for distinctive stackable bar designs and collector-oriented rounds. Also produces bullion for governments and banks. Free shipping on orders over $199.",
-    city: "Scottsdale",
-    citySlug: "scottsdale",
-    state: "Arizona",
-    stateSlug: "arizona",
-    phone: "(888) 745-2279",
-    website: "https://scottsdalemint.com/",
-    isVerified: false,
-    bbbRating: "D-",
   },
   {
     slug: "silver-com",
@@ -1759,8 +1745,8 @@ export const dealers: Dealer[] = [
     googleRating: 4.9, googleReviewCount: 165,
   },
   { slug: "goldzenn", name: "GOLDZENN", vertical: "jewelry", description: "Miami gold and silver specialist. Buys gold and silver only \u2014 no diamonds or gemstones. Uses XRF technology for accurate testing. Also creates handcrafted jewelry. Offers nationwide mail-in service.", address: "1056 SW 67th Ave, Miami, FL 33144", city: "Miami", citySlug: "miami", state: "Florida", stateSlug: "florida", phone: "(321) 521-4651", website: "https://goldzenn.com/", isVerified: false, googleRating: 4.9, googleReviewCount: 364 },
-  { slug: "maurices-jewelers", name: "Maurice\u2019s Jewelers", vertical: "jewelry", description: "Pinecrest, FL jeweler with master gemologists on staff. Buys and sells fine jewelry. Trade-in toward new purchase yields 25% more than cash price.", address: "11865 S Dixie Hwy, Miami, FL 33156",
-    city: "Pinecrest", citySlug: "pinecrest", state: "Florida", stateSlug: "florida", website: "https://mauricesjewelers.com/", phone: "(305) 253-5740", isVerified: false,
+  { slug: "maurices-jewelers", name: "Maurice\u2019s Jewelers", vertical: "jewelry", description: "Miami-area jeweler in Pinecrest with master gemologists on staff. Buys and sells fine jewelry. Trade-in toward new purchase yields 25% more than cash price.", address: "11865 S Dixie Hwy, Miami, FL 33156",
+    city: "Miami", citySlug: "miami", state: "Florida", stateSlug: "florida", website: "https://mauricesjewelers.com/", phone: "(305) 253-5740", isVerified: false,
     googleRating: 4.9, googleReviewCount: 946,
   },
 
@@ -1796,8 +1782,8 @@ export const dealers: Dealer[] = [
     isVerified: false,
     googleRating: 4.9, googleReviewCount: 448,
   },
-  { slug: "tc-gold-silver-jewelry", name: "Twin Cities Gold and Silver Exchange", vertical: "jewelry", description: "Minneapolis precious metals dealer with over 40 years in business. ANA member since 1976. Buys and sells estate jewelry, gold, silver, rare coins, and precious metals. Also in coin vertical.", address: "4813 Excelsior Blvd, St Louis Park, MN 55416",
-    city: "Minneapolis", citySlug: "minneapolis", state: "Minnesota", stateSlug: "minnesota", phone: "(952) 926-5175", website: "https://tcgoldsilver.com/", isVerified: false,
+  { slug: "tc-gold-silver-jewelry", name: "Twin Cities Gold and Silver Exchange", vertical: "jewelry", description: "Twin Cities precious metals dealer in St. Louis Park with over 40 years in business. ANA member since 1976. Buys and sells estate jewelry, gold, silver, rare coins, and precious metals.", address: "4813 Excelsior Blvd, St Louis Park, MN 55416",
+    city: "St. Louis Park", citySlug: "st-louis-park", state: "Minnesota", stateSlug: "minnesota", phone: "(952) 926-5175", website: "https://tcgoldsilver.com/", isVerified: false,
     googleRating: 4.4, googleReviewCount: 95,
   },
 
