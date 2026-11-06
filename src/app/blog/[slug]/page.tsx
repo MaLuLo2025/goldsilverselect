@@ -5435,7 +5435,7 @@ const blogContent: Record<string, React.ReactNode> = {
       </p>
       <h2>Form 8300: the cash-transaction rule that is not the same thing</h2>
       <p>
-        A separate but frequently conflated reporting rule is <strong><a href="https://www.irs.gov/businesses/small-businesses-self-employed/form-8300-and-reporting-cash-payments-of-over-10000" target="_blank" rel="noopener noreferrer">Form 8300</a></strong>, which a business files when it receives <strong>more than $10,000</strong> in cash in a single transaction or in related transactions. It is an anti-money-laundering report, not a tax reporting rule, and it applies to the dealer receiving cash from a buyer, not to a dealer buying metal from a customer. The two rules operate in opposite directions:
+        A separate but frequently conflated reporting rule is <strong><a href="https://www.irs.gov/businesses/small-businesses-self-employed/form-8300-and-reporting-cash-payments-of-over-10000" target="_blank" rel="noopener noreferrer">Form 8300</a></strong>, which a business files when it receives <strong>more than $10,000</strong> in cash in a single transaction or in related transactions. It is filed under both the tax code (26 U.S.C. § 6050I) and the Bank Secrecy Act (31 U.S.C. § 5331), and it is separate from Form 1099-B. It applies to the dealer receiving cash from a buyer, not to a dealer buying metal from a customer. The two rules operate in opposite directions:
       </p>
       <ul>
         <li><strong>1099-B</strong> covers a customer selling reportable-quantity metals to a dealer. The dealer reports the sale proceeds.</li>
