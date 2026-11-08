@@ -613,98 +613,88 @@ const blogContent: Record<string, React.ReactNode> = {
   "gold-coin-premiums-compared": (
     <>
       <p>
-        Every one-ounce gold coin contains one troy ounce of gold. But the price you pay varies significantly depending on which coin you buy. An American Gold Eagle might cost $200 more per ounce than a South African Krugerrand, even though both contain the same amount of gold.
+        Every one-ounce bullion gold coin contains one troy ounce of gold. The price you pay for that ounce still varies by coin, by year, by dealer, and by month. This article compares the four best-known one-ounce coins, explains why their premiums differ, and shows how to judge a quote using each coin&apos;s own recent range instead of a fixed number that goes stale.
       </p>
-      <p>
-        The difference is the premium — the amount you pay above the spot price of gold. This article breaks down the premiums on the four most popular one-ounce gold coins and explains when the extra cost is worth it and when it isn&apos;t.
-      </p>
-
-      <h2>The Four Major One-Ounce Gold Coins</h2>
+      <h2>The four major one-ounce gold coins</h2>
       <p>
         <strong>American Gold Eagle.</strong> Minted by the{" "}
         <a href="https://www.usmint.gov/" target="_blank" rel="noopener noreferrer">
           U.S. Mint
         </a>
-        . Contains one troy ounce of gold alloyed with small amounts of silver and copper for durability, making the coin slightly heavier than one troy ounce total (1.0909 oz total weight). The gold content is exactly one troy ounce. Typically carries the highest premium of the four major coins — often 5–8% over spot.
+        . One troy ounce of gold in a 22-karat alloy with silver and copper for durability, so the coin weighs a little more than an ounce (1.0909 oz total). The most widely traded gold coin in the U.S. market.
       </p>
       <p>
         <strong>Canadian Gold Maple Leaf.</strong> Minted by the{" "}
         <a href="https://www.mint.ca/" target="_blank" rel="noopener noreferrer">
           Royal Canadian Mint
         </a>
-        . Contains one troy ounce of .9999 fine gold (99.99% purity — the purest of the four). Premium is typically 3–6% over spot. The Maple Leaf&apos;s micro-engraved security features make it one of the hardest coins to counterfeit.
+        . One troy ounce of .9999 fine gold, with micro-engraved security features that make it harder to counterfeit.
       </p>
       <p>
-        <strong>South African Krugerrand.</strong> Minted by the South African Mint. The original modern bullion coin, introduced in 1967. Contains one troy ounce of gold alloyed with copper, giving it a distinctive orange hue. Total weight is 1.0909 oz. Premium is typically 3–5% over spot — usually the lowest of the four.
+        <strong>South African Krugerrand.</strong> The original modern bullion coin, introduced in 1967. One troy ounce of gold alloyed with copper (1.0909 oz total), which gives it an orange tone.
       </p>
       <p>
-        <strong>American Gold Buffalo.</strong> Minted by the U.S. Mint. Contains one troy ounce of .9999 fine gold (same purity as the Maple Leaf). Introduced in 2006 as the first .9999 fine gold coin produced by the U.S. Mint. Premium is typically 5–8% over spot, similar to the Eagle.
+        <strong>American Gold Buffalo.</strong> Minted by the U.S. Mint since 2006 as its first .9999 fine gold coin. One troy ounce of .9999 gold.
       </p>
-
-      <h2>Why Premiums Differ</h2>
-      <p>Several factors drive the spread in premiums:</p>
+      <h2>What the recent record shows</h2>
       <p>
-        <strong>Mint production costs.</strong> The U.S. Mint sells Gold Eagles and Buffaloes to a network of authorized purchasers at a fixed markup above spot. That markup is higher than what the Royal Canadian Mint or South African Mint charges. The authorized purchasers then add their own margin before selling to dealers, who add another margin before selling to you. Each layer adds cost.
+        <a href="https://findbullionprices.com/premium-history/" target="_blank" rel="noopener noreferrer">FindBullionPrices</a>, a price-comparison site, records the lowest price among the dealers it tracks each day as a percentage over spot. Its monthly averages, read November 7, 2026:
       </p>
+      <ul>
+        <li><strong>Gold Eagle, random year:</strong> 0.56% to 3.75%, June 2025 through early November 2026.</li>
+        <li><strong>Gold Maple Leaf, 2026:</strong> 1.95% to 2.39%, December 2025 through November 2026.</li>
+        <li><strong>Gold Buffalo, 2026:</strong> 4.19% to 5.27%, December 2025 through November 2026.</li>
+        <li><strong>Krugerrand:</strong> the site doesn&apos;t publish a history for it, so we don&apos;t give one.</li>
+      </ul>
       <p>
-        <strong>Legal tender and IRA eligibility.</strong> All four coins are legal tender in their country of origin. The Eagle, Buffalo, and Maple Leaf are IRA-eligible; the Krugerrand, at .9167 fineness, is not. American-minted coins (Eagles and Buffaloes) are the most commonly held in U.S. precious metals IRAs, which creates additional demand and supports higher premiums.
-      </p>
-      <p>
-        <strong>Liquidity and recognition.</strong> American Eagles are the most widely recognized and traded gold coin in the U.S. market. Dealers will buy them back at tighter spreads (the difference between their buy and sell price). This liquidity premium is real — when you sell, an Eagle is easier to sell at a fair price than a less common coin.
-      </p>
-      <p>
-        <strong>Purity.</strong> The Maple Leaf and Buffalo are .9999 fine; the Eagle and Krugerrand are .9167 fine (22 karat). Both contain one troy ounce of actual gold — the difference is that the Eagle and Krugerrand have additional base metal to make the coin harder and more scratch-resistant. Some buyers prefer .9999 purity for its simplicity; others prefer 22K for its durability. This is a preference, not an investment difference.
+        These are the cheapest tracked prices, not what most buyers pay. They don&apos;t include card surcharges, shipping, or tax. They also compare unlike products: the Eagle figure is for previously owned coins of any year, which come back from the public, while the Maple Leaf and Buffalo figures are for new 2026 coins. A new-year Eagle generally costs more than a random-year one. Use the ranges to see how far apart the coins have been and how much each one moves, not as a price list.
       </p>
       <p>
-        <strong>Supply constraints.</strong> When the U.S. Mint rations Silver Eagle production (which happens periodically), premiums on available coins spike. The same can happen with Gold Eagles during periods of extreme demand. The Krugerrand and Maple Leaf are generally more consistently available.
+        Two patterns stand out. The Buffalo carried the highest premium of the three in every month of 2026, and its premium was highest in early 2026, when demand was strongest. The random-year Eagle moved the most, from about half a percent to nearly 4%, because its supply depends on how much the public is selling back.
       </p>
-
-      <h2>When the Premium Is Worth It</h2>
+      <h2>Why premiums differ</h2>
       <p>
-        <strong>You&apos;re buying for an IRA.</strong> If you&apos;re holding coins inside a precious metals IRA, the liquidity premium on American Eagles matters because you&apos;ll eventually need to sell or take a distribution. The tighter buyback spread on Eagles can save you money on the exit.
-      </p>
-      <p>
-        <strong>You&apos;re buying for maximum resale ease in the U.S.</strong> If you&apos;re buying physical gold that you&apos;ll eventually sell at a local coin shop or to an online dealer, Eagles command the tightest bid-ask spreads in the American market. The extra 1–2% in premium is offset by the better price you&apos;ll get when you sell.
+        <strong>The mint&apos;s own charge.</strong> The U.S. Mint sells bullion Gold Eagles to Authorized Purchasers at the LBMA PM gold price plus 3% for the 1-ounce coin, per its <a href="https://www.usmint.gov/coins-precious-metal-coins/becoming-an-authorized-bullion-purchaser/" target="_blank" rel="noopener noreferrer">Authorized Purchaser page</a> (read November 7, 2026). Wholesalers and dealers add their margins on top, so that 3% is roughly the floor for a new Eagle. Other mints set their own charges, and we haven&apos;t verified them, so we don&apos;t compare them here.
       </p>
       <p>
-        <strong>You value the security features.</strong> The Canadian Maple Leaf&apos;s micro-engraved laser mark (a small maple leaf visible under magnification, with the last two digits of the year) is the most advanced anti-counterfeiting feature on any bullion coin.
-      </p>
-
-      <h2>When the Premium Is Not Worth It</h2>
-      <p>
-        <strong>You&apos;re buying purely for metal content.</strong> If you&apos;re accumulating gold by the ounce and don&apos;t care about the design on the coin, a Krugerrand gives you one troy ounce of gold at the lowest premium of the four. Over 10 ounces, that 2–3% premium difference represents $1,000 or more in savings at current gold prices.
+        <strong>New versus previously owned.</strong> Random-year coins come from buybacks. When many owners sell, those premiums can fall below a new coin&apos;s mint charge. When few sell, they rise.
       </p>
       <p>
-        <strong>You&apos;re buying in quantity.</strong> The premium difference compounds on larger purchases. If you&apos;re buying 10–50 ounces, the savings from choosing lower-premium coins are significant. Consider mixing — Eagles for the core position (liquidity), Krugerrands or Maples for additional accumulation (lower cost).
+        <strong>IRA demand.</strong> The Eagle, Buffalo, and Maple Leaf are IRA-eligible. The Krugerrand, at .9167 fineness and not an American Eagle, is not. Demand from IRA buyers supports the eligible coins.
       </p>
       <p>
-        <strong>You&apos;re buying gold bars instead.</strong> One-ounce gold bars from LBMA-approved refiners (PAMP Suisse, Valcambi, Perth Mint, Royal Canadian Mint) typically carry premiums of 2–4% over spot — lower than any of the coins. The tradeoff is that bars are slightly less liquid than sovereign coins and may not be recognized as quickly by less experienced buyers.
-      </p>
-
-      <h2>The Buyback Spread Matters More Than the Premium</h2>
-      <p>
-        This is the part most dealers don&apos;t emphasize. The premium you pay to buy is only half the equation. The other half is what you get when you sell.
+        <strong>Recognition when you sell.</strong> Eagles are the most familiar gold coin to U.S. dealers. Recognition matters when you sell, but whether it earns you a better buyback price on any given day depends on the dealer. Ask.
       </p>
       <p>
-        If you pay 7% over spot for an Eagle and the dealer buys it back at 2% over spot, your round-trip cost is 5%. If you pay 4% over spot for a Krugerrand and the dealer buys it back at 1% below spot, your round-trip cost is also 5%. The initial premium didn&apos;t matter — the spread did.
+        <strong>Purity is a preference, not a value difference.</strong> The Maple Leaf and Buffalo are .9999 fine; the Eagle and Krugerrand are 22 karat. All four contain one troy ounce of gold.
       </p>
       <p>
-        Before buying any coin, ask the dealer what their buyback price is for that specific product. The tighter the spread between their sell price and buy price, the better the deal for you.
+        <strong>Supply.</strong> When a mint rations a coin, its premium rises at every dealer at once.
       </p>
-
-      <h2>The Bottom Line</h2>
+      <h2>How to read a quote</h2>
+      <ul>
+        <li><strong>Compare against the coin&apos;s own range.</strong> A Buffalo at 4.5% is in line with its 2026 record. An Eagle at 4.5% is above anything the tracked low prices showed for random-year Eagles in that period.</li>
+        <li><strong>Low end of the range:</strong> you&apos;re paying less than usual over metal value, often when the public is selling and buyback bids are softer.</li>
+        <li><strong>High end or above:</strong> you&apos;re paying more than usual for the same ounce. In demand surges, dealer buyback prices often rise too, which some owners treat as a better time to sell than to buy.</li>
+        <li><strong>Far above the range with no market event:</strong> check two or three other dealers the same day before paying it.</li>
+      </ul>
       <p>
-        All four coins contain one troy ounce of gold. The premiums reflect minting costs, market recognition, and supply-demand dynamics — not any difference in the underlying metal. The &ldquo;best&rdquo; coin depends on your priorities: maximum liquidity (Eagle), lowest cost per ounce (Krugerrand), highest purity (Maple Leaf or Buffalo), or American origin with .9999 purity (Buffalo).
+        This is a way to understand what you&apos;re paying, not a forecast or a recommendation.
       </p>
+      <h2>The buyback spread matters as much as the premium</h2>
       <p>
-        For most buyers accumulating gold over time, a mix of coins and bars — prioritizing the lowest total cost including the buyback spread — is the most efficient approach.
+        The premium you pay is half the equation. The other half is what a dealer will pay when you sell. If you pay 4% over spot and the dealer later buys at spot, your round trip costs 4% plus any change in spot. If you pay 2% and the dealer buys at 2% below spot, it also costs 4%. Before buying, ask each dealer for its current buy price on the same coin. See <Link href="/blog/sell-back-spreads-what-dealers-actually-pay" className="text-gold font-semibold">what dealers actually pay on sell-back</Link>.
+      </p>
+      <h2>The bottom line</h2>
+      <p>
+        All four coins hold one ounce of gold. Their premiums reflect mint charges, supply from buybacks, IRA eligibility, and demand, and they move. For any coin, the best check is the same: its recent range, plus same-day quotes from more than one dealer, plus the buyback price. Our <Link href="/blog/how-much-over-spot-should-i-pay-for-gold-2026" className="text-gold font-semibold">premium guide</Link> walks through dollar examples.
       </p>
       <p>
         Our{" "}
         <Link href="/online-dealers" className="text-gold font-semibold">
           online dealer directory
         </Link>{" "}
-        links directly to dealer websites where you can compare pricing on all four coins. Check three dealers before buying. The price difference on the same coin from different dealers can be $30–$80 per ounce.
+        links directly to dealer websites where you can compare prices on all four coins.
       </p>
     </>
   ),
@@ -1432,126 +1422,121 @@ const blogContent: Record<string, React.ReactNode> = {
   "how-much-over-spot-should-i-pay-for-gold-2026": (
     <>
       <p>
-        Gold is trading near $5,100 an ounce. Silver is in the low-$60 range. A 1-ounce American Gold Eagle costs somewhere between $5,300 and $6,500 at retail depending on where you shop. That spread &mdash; the premium over spot &mdash; is where precious metals dealers make their margin, and it&apos;s also where retail buyers get quietly overcharged.
+        There is no single fair premium for gold, and any article that gives you one fixed number will be wrong within months. Premiums move with mint supply, with how much metal the public is selling back, and with demand surges. On November 6, 2026, gold closed near $4,047 an ounce on <a href="https://thegoldwindow.ai" target="_blank" rel="noopener noreferrer">The Gold Window</a>&apos;s spot series. The cheapest tracked dealer price for a 1-ounce American Gold Eagle that week was a little under 3% over spot. Two months earlier, it averaged about half a percent.
       </p>
       <p>
-        This article is the first in our <strong>Spot Price vs What You Pay</strong> series. The goal is simple: show you what a fair premium looks like in 2026, what crosses the line into overpriced, and where the truly predatory premiums hide. With real dollar numbers, not percentages alone.
+        So the useful question isn&apos;t &ldquo;what is a fair premium?&rdquo; It&apos;s &ldquo;how does today&apos;s premium on this product compare with its own recent range, and with what other dealers are charging today?&rdquo; This article, the first in our <strong>Spot Price vs What You Pay</strong> series, shows how to answer that, with real dollar examples.
       </p>
-      <h2>What the &ldquo;premium over spot&rdquo; actually covers</h2>
+      <h2>What the &ldquo;premium over spot&rdquo; covers</h2>
       <p>
-        Spot price is the wholesale trading price for an ounce of raw, unrefined metal on commodities exchanges &mdash; currently around $5,100 for gold and the low-$60s for silver. It is not the price of anything you can hold in your hand.
+        Spot is the trading price for an ounce of gold in large wholesale quantities. It is not the price of anything you can hold in your hand. By the time metal becomes a coin or bar you can buy, it has been refined, minted, packaged, shipped, insured, distributed, and priced by a dealer. The premium covers those costs plus each seller&apos;s margin.
       </p>
+      <h2>Where premiums start: the mint&apos;s own price</h2>
       <p>
-        By the time metal becomes a coin or bar you can buy, it has been refined, minted, packaged, shipped, insured, distributed, and priced by a dealer. Each step costs something. The premium over spot covers those costs plus the dealer&apos;s margin. A fair premium reflects the real cost of producing and selling that specific product. A rip-off premium is everything on top of that.
+        For U.S. Mint bullion coins, the floor is published. The Mint doesn&apos;t sell bullion Eagles to the public. It sells them to a network of Authorized Purchasers, and its <a href="https://www.usmint.gov/coins-precious-metal-coins/becoming-an-authorized-bullion-purchaser/" target="_blank" rel="noopener noreferrer">Authorized Purchaser page</a> (read November 7, 2026) lists the charges:
       </p>
-      <h2>Fair premium ranges for standard bullion products in 2026</h2>
-      <p>
-        These are typical ranges in normal market conditions. Wide market disruption (2020-style demand spikes) can push premiums higher temporarily &mdash; but outside of those conditions, here&apos;s where the numbers should land:
-      </p>
-      <p><strong>Gold coins (1 oz)</strong></p>
       <ul>
-        <li>American Gold Eagle: 3&ndash;6% over spot (~$150&ndash;$310 premium at $5,100 gold)</li>
-        <li>Canadian Gold Maple Leaf: 3&ndash;5%</li>
-        <li>Austrian Gold Philharmonic: 3&ndash;5%</li>
-        <li>South African Krugerrand: 2&ndash;4%</li>
-        <li>Generic rounds (Sunshine, PAMP, etc.): 2&ndash;4%</li>
-      </ul>
-      <p><strong>Gold bars</strong></p>
-      <ul>
-        <li>1 oz gold bars (PAMP, Valcambi, Credit Suisse): 2&ndash;4%</li>
-        <li>10 oz gold bars: 1&ndash;3%</li>
-        <li>1 kilo gold bars: 1&ndash;2%</li>
-      </ul>
-      <p><strong>Silver coins (1 oz)</strong></p>
-      <ul>
-        <li>American Silver Eagle: 15&ndash;25% over spot (~$9&ndash;$15 premium at $60 silver)</li>
-        <li>Canadian Silver Maple Leaf: 10&ndash;18%</li>
-        <li>Generic silver rounds: 7&ndash;12%</li>
-      </ul>
-      <p><strong>Silver bars</strong></p>
-      <ul>
-        <li>1 oz bars: 8&ndash;15%</li>
-        <li>10 oz bars: 5&ndash;10%</li>
-        <li>100 oz bars: 3&ndash;7%</li>
+        <li><strong>American Gold Eagles:</strong> the LBMA PM gold price plus 3% for the 1-ounce coin, 5% for the 1/2 ounce, 7% for the 1/4 ounce, and 9% for the 1/10 ounce, with a 1,000-ounce minimum order.</li>
+        <li><strong>American Silver Eagles:</strong> the LBMA silver price plus $3.05 per coin.</li>
+        <li><strong>Platinum and palladium Eagles:</strong> the LBMA PM platinum price plus $65 per coin; the LBMA PM palladium price plus 6.25%.</li>
       </ul>
       <p>
-        Silver premiums run percentage-wise higher than gold because the fabrication cost per ounce is almost identical, but that cost is spread across a much lower underlying metal value. A $2 minting cost on a $5,100 gold coin is trivial; the same $2 on a $60 silver coin is meaningful.
+        The Mint says it may change that structure &ldquo;based on prevailing metal acquisition costs.&rdquo; Wholesalers and retail dealers add their own margins on top. That is why a <em>new</em> Gold Eagle rarely sells for much less than about 3% over spot at retail. Previously owned (&ldquo;random year&rdquo;) Eagles come back to dealers from the public, so their premiums can fall below the Mint&apos;s charge when a lot of people are selling.
       </p>
-      <h2>What counts as a rip-off premium</h2>
+      <h2>What the recent record shows</h2>
       <p>
-        Premiums well outside the ranges above are a warning sign, not proof of fraud. Sometimes there&apos;s a legitimate reason. Often there isn&apos;t.
+        <a href="https://findbullionprices.com/premium-history/gold-coins/Random-Year-1-oz-American-Gold-Eagle/" target="_blank" rel="noopener noreferrer">FindBullionPrices</a>, a price-comparison site, records the lowest price among the dealers it tracks each day and expresses it as a percentage over spot. Its monthly averages, read November 7, 2026:
       </p>
-      <p><strong>Red flag premium thresholds:</strong></p>
       <ul>
-        <li>Gold bullion coins priced at 10%+ over spot</li>
-        <li>Gold bars priced at 6%+ over spot</li>
-        <li>Silver bullion coins priced at 35%+ over spot</li>
-        <li>Any &ldquo;exclusive&rdquo; or &ldquo;premium&rdquo; bullion priced at 40%+ over spot</li>
+        <li><strong>1 oz American Gold Eagle, random year:</strong> monthly averages from 0.56% (September 2026) to 3.75% (October 2025), June 2025 through early November 2026. The November 2026 running average was 2.86%.</li>
+        <li><strong>1 oz Canadian Gold Maple Leaf, 2026:</strong> monthly averages between 1.95% and 2.39%, December 2025 through November 2026.</li>
+        <li><strong>1 oz American Gold Buffalo, 2026:</strong> monthly averages between 4.19% and 5.27% over the same months, highest in early 2026.</li>
+        <li><strong>1 oz gold bar, secondary market:</strong> monthly averages between 0.54% and 1.53%, June 2025 through November 2026.</li>
       </ul>
       <p>
-        When you see premiums above these levels, ask what the dealer is charging for specifically. Legitimate reasons exist: a limited-mintage proof coin, a graded numismatic piece, or a temporary supply disruption in a specific product. But when a dealer applies a 40%+ markup to standard bullion &mdash; a coin that every other dealer is selling at 5% over spot &mdash; that is not a fair transaction. It is the dealer counting on the buyer not knowing what spot is.
+        Read those numbers carefully. They are the single cheapest dealer that site tracks, on its daily snapshot, not what a typical buyer pays. They leave out credit card surcharges, shipping, sales tax, and minimum order sizes. Many buyers pay more than these figures, and a local shop with overhead will usually charge more than the cheapest online price. The range is still useful as a yardstick: it tells you where the market has actually been for a specific product, not where an article says it should be.
       </p>
       <p>
-        In 2023, the SEC sued a precious metals dealer for marking up gold and silver by up to 130% over cost while telling investors they were paying a 1&ndash;5% markup, cheating clients out of approximately $50 million. That case was extreme but not unique &mdash; similar enforcement actions surface every year in the precious metals retirement account space.
+        Silver moves much more. The same site&apos;s monthly averages for the 2026 Silver Maple Leaf ran from 2.47% to 12.89% between January and November 2026. Our <Link href="/blog/silver-eagle-premiums-2026" className="text-gold font-semibold">Silver Eagle premiums</Link> article covers silver separately.
       </p>
+      <h2>Reading today&apos;s premium against the range</h2>
+      <p>
+        Experienced buyers watch premiums the way they watch spot. Once you know a product&apos;s recent range, today&apos;s premium tells you something:
+      </p>
+      <ul>
+        <li><strong>Near the low end of the range:</strong> you&apos;re paying less than usual over the metal&apos;s value. Low premiums on previously owned coins often come when the public is selling heavily, which also tends to mean dealers are bidding less to buy them back.</li>
+        <li><strong>Near the high end, or above it:</strong> you&apos;re paying more than usual for the same ounce. High premiums usually come with demand surges or mint allocations. In those periods, dealers&apos; buyback prices often rise too, which is why some owners treat a premium spike as a better time to sell than to buy.</li>
+        <li><strong>Far above the range, on an ordinary product, with no market event to explain it:</strong> that is a dealer problem, not a market problem. Check the same product at other dealers the same day.</li>
+      </ul>
+      <p>
+        None of this predicts where gold or premiums will go next. Premiums can stay high or low for months. It&apos;s a way to know what you&apos;re paying for, not a trading signal, and this article isn&apos;t investment advice.
+      </p>
+      <h2>A real dollar example</h2>
+      <p>
+        At $4,047 gold, the cheapest tracked random-year Gold Eagle at 2.9% over spot costs about $4,164 before shipping and payment fees, a premium of about $117. In September 2026, when the monthly average was 0.56%, the same premium at the same gold price would have been about $23. A dealer quoting 8% today would be charging about $324 over spot, nearly three times the cheapest tracked price, for the same coin. Before paying that, you&apos;d want a reason.
+      </p>
+      <h2>Why premiums move</h2>
+      <ul>
+        <li><strong>Mint supply and allocation.</strong> When a mint rations a product, premiums on what&apos;s available rise.</li>
+        <li><strong>Buyback supply.</strong> Heavy selling by the public pushes premiums on previously owned coins and bars down first.</li>
+        <li><strong>Demand shocks.</strong> FindBullionPrices notes that in the March 2020 disruption, retail Gold Eagle premiums &ldquo;roughly doubled within weeks&rdquo; as mints closed while demand surged.</li>
+        <li><strong>Product and size.</strong> Smaller coins carry higher percentage premiums because fabrication costs are spread over less metal; the Mint&apos;s own charge for a 1/10 ounce Eagle is three times its 1-ounce charge. Current-year coins usually cost more than random-year coins.</li>
+        <li><strong>How you pay.</strong> Most dealers price card and PayPal orders higher than wire or check.</li>
+      </ul>
       <h2>The padded spot price trick</h2>
       <p>
-        The most effective way to hide a big premium is to lie about the spot price itself.
+        The easiest way to hide a large premium is to inflate the spot price itself. A dealer shows &ldquo;spot&rdquo; at, say, $4,200 when the real price is $4,047, then quotes its coin at &ldquo;3% over spot.&rdquo; That sounds normal, but it&apos;s 3% over a number that was already marked up about $150. The real premium is closer to 7%.
       </p>
       <p>
-        A dealer displays &ldquo;spot&rdquo; on their website at, say, $5,250 when the actual LBMA or COMEX spot is $5,100. They then quote their product at &ldquo;3% over spot&rdquo; &mdash; which sounds reasonable, but is actually selling against a spot price that was marked up $150 before the premium was added. The total markup is closer to 6% than 3%.
+        <strong>How to protect yourself:</strong> check the live spot price on an independent source at the same moment you look at the dealer&apos;s quote. The two should match within a few dollars. If they don&apos;t, the &ldquo;X% over spot&rdquo; claim means nothing.
+      </p>
+      <h2>When a high premium is a warning sign</h2>
+      <p>
+        The worst markups don&apos;t sit a point or two above the range. They are multiples of it. In May 2023, the SEC <a href="https://www.sec.gov/news/press-release/2023-93" target="_blank" rel="noopener noreferrer">charged Red Rock Secured</a>, a California precious metals company, alleging it told retirement savers they would pay &ldquo;only a 1 to 5 percent markup&rdquo; while charging &ldquo;as much as 130 percent in markups.&rdquo; The SEC alleged the defendants received more than $50 million from investors and kept more than $30 million.
       </p>
       <p>
-        <strong>How to protect yourself:</strong> always verify the live spot price on an independent source &mdash; Kitco, the LBMA, or a major financial news site &mdash; before evaluating a dealer&apos;s pricing. The spot price you see at the dealer must match the independent source within a few dollars. If it doesn&apos;t, the &ldquo;3% over spot&rdquo; claim is meaningless.
+        Watch for: standard 1-ounce bullion quoted far outside its recent range with no market event to explain it; a dealer that won&apos;t give a price in writing; and &ldquo;exclusive&rdquo; or &ldquo;special&rdquo; coins pushed in place of the standard product you asked for. Our <Link href="/blog/precious-metals-dealer-scams" className="text-gold font-semibold">dealer red flags</Link> article covers the sales tactics.
       </p>
+      <h2>When a higher premium has a reason</h2>
+      <ul>
+        <li><strong>Fractional coins</strong>: higher fabrication cost per ounce, starting at the mint.</li>
+        <li><strong>Proof and collector coins</strong>: priced on a different schedule entirely. See <Link href="/blog/us-mint-gold-coin-prices-weekly-pricing-grid" className="text-gold font-semibold">why the Mint&apos;s gold coin prices change every Wednesday</Link>.</li>
+        <li><strong>Graded and numismatic coins</strong>: valued for rarity, not metal. See <Link href="/blog/numismatic-premium-vs-bullion-value" className="text-gold font-semibold">numismatic premium vs. bullion value</Link>.</li>
+        <li><strong>Supply disruptions</strong>: real, but they show up at every dealer at once. If only one dealer&apos;s price is high, it isn&apos;t the market.</li>
+      </ul>
       <h2>The full cost of buying physical metal</h2>
-      <p>
-        Premium over spot is the biggest line item, but it&apos;s not the only one. The true all-in cost to your door also includes:
-      </p>
       <ul>
-        <li><strong>Sales tax</strong>, if your state charges it on bullion (many states do not, but some do on specific products)</li>
-        <li><strong>Shipping and insurance</strong>, typically $10&ndash;$50 for standard-value orders, higher for five-figure purchases</li>
-        <li><strong>Payment method surcharges</strong>: most dealers discount 2&ndash;4% for bank wire or check over credit card</li>
+        <li><strong>Sales tax</strong>, if your state charges it on the product. See our <Link href="/blog/sales-tax-precious-metals-by-state-2026" className="text-gold font-semibold">state sales tax guide</Link>.</li>
+        <li><strong>Shipping and insurance</strong>, which dealers price differently; some waive it above an order size.</li>
+        <li><strong>Payment method</strong>: card and PayPal prices are usually higher than wire or check prices.</li>
+        <li><strong>The exit</strong>: what the dealer will pay to buy the same product back. See <Link href="/blog/sell-back-spreads-what-dealers-actually-pay" className="text-gold font-semibold">what dealers actually pay on sell-back</Link>.</li>
       </ul>
       <p>
-        When comparing dealers, always compare the final shopping cart total, not the advertised premium. A dealer quoting 3% over spot with a 4% credit card surcharge is not cheaper than a dealer quoting 5% over spot with no surcharge.
-      </p>
-      <h2>When higher premiums are actually justified</h2>
-      <p>
-        Not every high premium is a red flag. These situations genuinely cost more to produce and distribute:
-      </p>
-      <ul>
-        <li><strong>Small-denomination products</strong> (1/10 oz gold coins, fractional silver rounds) &mdash; the fixed fabrication cost is spread over less metal</li>
-        <li><strong>Limited-mintage or proof coins</strong> &mdash; higher production costs, often with added collectible value</li>
-        <li><strong>Numismatic and graded coins</strong> &mdash; valued for rarity, not metal content alone</li>
-        <li><strong>Supply-disrupted products</strong> &mdash; during acute demand spikes, even standard bullion can temporarily command 15&ndash;25% premiums</li>
-      </ul>
-      <p>
-        The rule: a premium outside the fair range needs a specific, plausible explanation. If the product is standard 1-ounce bullion from a major mint and the dealer can&apos;t justify a premium above the ranges in this article, you are overpaying.
+        Compare the final cart total at two or three dealers, for the same product, on the same day. That comparison beats any published range.
       </p>
       <h2>Frequently Asked Questions</h2>
-      <h3>What&apos;s a fair premium over spot for a 1-oz American Gold Eagle in 2026?</h3>
+      <h3>What&apos;s a fair premium on a 1-oz American Gold Eagle right now?</h3>
       <p>
-        In normal market conditions, 3&ndash;6% over the live spot price. At gold near $5,100 an ounce, that&apos;s roughly a $150&ndash;$310 premium per coin. Premiums above 10% on standard Eagles generally reflect either a supply disruption or a dealer pricing well above the market.
+        It changes. The Mint charges its wholesale buyers 3% over the LBMA gold price for a new 1-ounce Eagle, and dealers add their margins. For previously owned Eagles, the lowest tracked dealer price averaged between about 0.6% and 3.8% over spot by month from mid-2025 to November 2026. Compare today&apos;s quote with that range and with two or three other dealers the same day.
+      </p>
+      <h3>Are low premiums a good time to buy?</h3>
+      <p>
+        A premium near the bottom of a product&apos;s recent range means you&apos;re paying less than usual over the metal&apos;s value. It doesn&apos;t tell you where gold is headed, and low premiums on previously owned coins often come with lower buyback bids. Whether to buy is your decision.
       </p>
       <h3>How do I spot a padded spot price?</h3>
       <p>
-        Compare the spot price shown on the dealer&apos;s site to an independent source &mdash; Kitco, the LBMA reference price, or a major financial news site &mdash; at the same moment. A discrepancy of more than a few dollars per ounce means the dealer is pricing against an inflated reference, and the &ldquo;X% over spot&rdquo; claim is misleading. The honest dealers update their spot displays every few seconds from live market feeds.
+        Compare the dealer&apos;s displayed spot with an independent source at the same moment. A gap of more than a few dollars an ounce means the &ldquo;X% over spot&rdquo; figure is calculated from an inflated base.
       </p>
-      <h3>Why are silver coin premiums so much higher than gold coin premiums?</h3>
+      <h3>Why are silver premiums so much higher, in percentage terms?</h3>
       <p>
-        Silver has a much lower underlying metal value per ounce than gold, but the cost to mint a coin is similar for both. That fixed fabrication cost represents a much larger percentage of silver&apos;s price than gold&apos;s. A 20% premium on a $60 silver coin is $12. A 20% premium on a $5,100 gold coin would be $1,020 &mdash; which is why gold premiums don&apos;t run that high outside of supply disruptions.
+        Making and distributing a 1-ounce coin costs roughly the same whether it&apos;s gold or silver, so the same dollar cost is a much bigger share of a silver coin&apos;s value. The Mint&apos;s own charge shows it: $3.05 per Silver Eagle against a roughly $50 ounce of silver is about 6%, before any dealer margin.
       </p>
-      <h3>Should I buy gold coins or gold bars for the lowest premium?</h3>
+      <h3>Coins or bars for the lowest premium?</h3>
       <p>
-        Bars. Gold bars in 1 oz and larger sizes typically carry lower premiums than coins of the same weight &mdash; 1&ndash;3% for 10 oz bars versus 3&ndash;6% for 1 oz coins. The tradeoff is liquidity: coins are more widely recognized and generally easier to resell to any dealer, while larger bars may need to be sold through dealers who specifically handle them.
-      </p>
-      <h3>Is it ever worth paying a 30%+ premium on standard bullion?</h3>
-      <p>
-        Almost never on standard 1-ounce bullion from a major mint. The only situations that might justify an elevated premium on standard bullion are acute supply disruptions (the March 2020 demand spike is the textbook example) or small-denomination products under 1/10 oz. On standard 1-ounce bullion in normal market conditions, 30%+ premiums are a signal to walk away and buy the same product elsewhere.
+        On the tracked data, 1-ounce secondary-market gold bars averaged lower premiums than random-year Gold Eagles in most months. Coins are more widely recognized when you sell. Ask about the buyback price for both before you decide.
       </p>
       <p>
-        <em>Live spot prices update on our ticker at the top of every page. Compare dealer pricing in the dealer directory &mdash; featured listings publish their live pricing transparently.</em>
+        <em>Live spot prices update on our ticker at the top of every page. Compare dealers in our <Link href="/online-dealers" className="text-gold font-semibold">online dealer directory</Link>.</em>
       </p>
       <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
         GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver. No dealer pays for its listing, its placement, or Featured status. This article is for educational purposes only and does not constitute investment advice.
@@ -7082,6 +7067,107 @@ const blogContent: Record<string, React.ReactNode> = {
       <p>Whether to sell, hold or rebuy is a personal decision this article doesn&apos;t make for you. For the market side of that question, see <Link href="/blog/gold-at-4500-buy-sell-hold" className="text-gold font-semibold">our buy, sell or hold framework</Link>. To compare local buyers, browse <Link href="/dealers" className="text-gold font-semibold">our dealer directory</Link>.</p>
       <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
         GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We are not a tax advisor, and this article is for educational purposes only. Tax laws change and individual situations vary. Consult a qualified CPA or tax attorney before making decisions based on this information.
+      </p>
+    </>
+  ),
+  "gold-ira-rmd-in-kind-distribution-2026": (
+    <>
+      <p>If you hold gold or silver in a traditional IRA and you&apos;re 73 or older, you have a required minimum distribution (RMD) to take for 2026, and the deadline for most owners is December 31. With a stock IRA, that&apos;s a few clicks. With metal sitting in a depository, it takes more planning: you either have the custodian sell some metal and send you cash, or you take coins and bars out &ldquo;in kind.&rdquo; Both work. They are taxed the same way going out, but they lead to different results afterward.</p>
+      <p>This is general education based on IRS Publication 590-B (the 2025 edition, current as of November 2026) and the 2026 instructions for Forms 1099-R and 5498. It isn&apos;t tax advice. Check your numbers with your custodian and a tax professional.</p>
+      <h2>The basic rules</h2>
+      <ul>
+        <li><strong>Who:</strong> owners of traditional IRAs, including self-directed precious metals IRAs. Under <a href="https://www.irs.gov/publications/p590b" target="_blank" rel="noopener noreferrer">Publication 590-B</a>, if you reached 72 after December 31, 2022, your required beginning date is April 1 of the year after you turn 73. Original owners of Roth IRAs don&apos;t take RMDs. Inherited IRAs have their own rules, which this article doesn&apos;t cover.</li>
+        <li><strong>When:</strong> your first RMD can wait until April 1 of the following year. Every later RMD is due by December 31. If you delay the first one, you take two in the same year.</li>
+        <li><strong>How much:</strong> the IRA&apos;s balance on December 31 of last year, divided by the factor for your age in the IRS table that applies to you. For most owners that&apos;s the Uniform Lifetime Table in Appendix B of Publication 590-B: 26.5 at age 73, 24.6 at 75, 20.2 at 80. Your custodian must either report the RMD amount to you or offer to calculate it.</li>
+        <li><strong>If you miss it:</strong> the IRS FAQ on RMDs says the shortfall may be subject to a 25% excise tax, reduced to 10% if you correct it in time, reported on Form 5329 (<a href="https://www.irs.gov/retirement-plans/retirement-plan-and-ira-required-minimum-distributions-faqs" target="_blank" rel="noopener noreferrer">IRS RMD FAQs</a>).</li>
+      </ul>
+      <h2>You may not have to touch the metal at all</h2>
+      <p>This is the rule most metal IRA owners overlook. Publication 590-B says that if you own more than one traditional IRA, you figure a separate RMD for each, &ldquo;However, you can total these minimum amounts and take the total from any one or more of the IRAs.&rdquo;</p>
+      <p>So if you also have a traditional IRA at a brokerage holding cash or funds, you can take the precious metals IRA&apos;s RMD from that account and leave the metal where it is. The metal IRA&apos;s balance still counts in the total. This aggregation rule applies among your traditional IRAs; workplace plans such as 401(k)s are figured and taken separately.</p>
+      <h2>What &ldquo;balance&rdquo; means for metal</h2>
+      <p>The RMD is based on the account&apos;s fair market value on December 31. The 2026 Form 5498 instructions tell custodians to report that value and caution that they are &ldquo;responsible for ensuring that all IRA assets (including those not traded on established markets or not having a readily determinable market value) are valued annually at their FMV.&rdquo;</p>
+      <p>What the instructions don&apos;t say is which price a custodian should use for coins and bars: spot, a dealer&apos;s bid, or something else. Practices vary, and we haven&apos;t found IRS guidance that settles it. The difference matters. A custodian that values at spot will usually show a higher balance, and a higher RMD, than one that values at what a dealer would actually pay. Ask your custodian how it values your holdings, and compare that with what a dealer would pay today.</p>
+      <h2>Option 1: sell metal inside the IRA</h2>
+      <p>The custodian, usually through a dealer it works with, sells enough metal to cover the RMD and sends you cash. The cash is taxable as ordinary income, like any traditional IRA distribution.</p>
+      <ul>
+        <li><strong>You sell at the dealer&apos;s bid.</strong> The price you get is what the custodian&apos;s dealer pays, not spot. Ask for the bid before you approve the sale. See <Link href="/blog/sell-back-spreads-what-dealers-actually-pay" className="text-gold font-semibold">what dealers actually pay on sell-back</Link>.</li>
+        <li><strong>Leave time.</strong> Liquidation, settlement, and payment take days. Custodians often set their own year-end cutoffs for distribution requests that are earlier than December 31. Check yours now.</li>
+        <li><strong>Withholding.</strong> IRA distributions are generally subject to federal income tax withholding unless you choose otherwise; ask your custodian how it applies.</li>
+      </ul>
+      <h2>Option 2: take the metal in kind</h2>
+      <p>The custodian ships coins or bars from the depository to you. That counts as a distribution of property, and the 2026 Form 1099-R instructions tell payers to report the fair market value of property distributed. You owe ordinary income tax on that value, the same as if it were cash.</p>
+      <ul>
+        <li><strong>The distribution is valued on the distribution date,</strong> not December 31. Ask what price the custodian will use and get it in writing with the shipment.</li>
+        <li><strong>Your basis in the metal is generally that fair market value,</strong> because you paid income tax on it, and your holding period generally starts when you receive it. Keep the 1099-R and the custodian&apos;s valuation. If you later sell after holding more than a year, the gain is collectibles gain, taxed at up to 28%. See our <Link href="/blog/capital-gains-tax-gold-silver-2026" className="text-gold font-semibold">capital gains guide for gold and silver</Link>.</li>
+        <li><strong>The tax still needs cash.</strong> Taking coins doesn&apos;t produce money to pay the income tax on them. Withholding on a property distribution has to come from somewhere; ask your custodian whether it needs cash in the account or from you to cover it.</li>
+        <li><strong>You can&apos;t put them back.</strong> Publication 590-B says required minimum distributions aren&apos;t eligible for rollover. Once the RMD metal is out, it stays out.</li>
+        <li><strong>Shipping and fees.</strong> Custodians and depositories charge for in-kind distributions and insured shipping. Get the fee schedule first. Our <Link href="/blog/gold-ira-fees-scams" className="text-gold font-semibold">gold IRA fees</Link> article covers the usual charges.</li>
+      </ul>
+      <h2>A worked example</h2>
+      <p>Consider a hypothetical 75-year-old with one traditional IRA holding only gold coins. The custodian valued the account at $120,000 on December 31, 2025. Her 2026 RMD is $120,000 &divide; 24.6, about $4,878.</p>
+      <ul>
+        <li><strong>If she sells:</strong> the custodian sells enough coins to raise about $4,878 at the dealer&apos;s bid. Because the bid is below the value the custodian used, that may take a little more metal than the arithmetic suggests. She reports $4,878 of ordinary income.</li>
+        <li><strong>If she takes one coin:</strong> with gold near $4,047, a one-ounce coin valued around that level on the distribution date doesn&apos;t cover the full RMD. She takes one coin and a cash distribution for the rest, or two coins and distributes more than the minimum. Either way she reports the coin&apos;s value plus any cash as ordinary income, and the coin&apos;s basis is the value reported.</li>
+        <li><strong>If she has another traditional IRA:</strong> she can take the full $4,878 from that account and leave the coins alone.</li>
+      </ul>
+      <h2>Sell or take the coins?</h2>
+      <p>There&apos;s no general right answer. Selling inside the IRA is simpler and gives you cash for the tax, but you pay the dealer&apos;s spread. Taking coins avoids selling at the bid and keeps the metal, but you need cash for the tax, you pay shipping and fees, and you take on storage at home. If you want to keep the same ounces either way, another option is to take cash from the IRA and buy metal outside it; that means paying a retail premium and a dealer spread, so compare the all-in cost of each route before choosing.</p>
+      <p>Some owners 70&frac12; or older use a qualified charitable distribution, sent directly from the IRA to a charity, to cover part of the RMD. With metal, that usually means selling first, since few charities take coins directly. Ask your tax professional whether it fits.</p>
+      <h2>Year-end checklist</h2>
+      <ul>
+        <li>Confirm your RMD amount and how the custodian valued your metal on December 31, 2025.</li>
+        <li>Check whether another traditional IRA can cover the RMD instead.</li>
+        <li>Find the custodian&apos;s year-end cutoff for distribution requests.</li>
+        <li>If selling, get the bid. If taking metal, get the valuation method, fee schedule, and shipping timeline.</li>
+        <li>Plan cash for withholding and for the income tax.</li>
+        <li>Keep the 1099-R and valuation records with your metal&apos;s purchase records.</li>
+      </ul>
+      <p>For what an IRA may hold in the first place, see <Link href="/blog/ira-eligible-silver-rules-depositories-2026" className="text-gold font-semibold">IRA-eligible silver and depository rules</Link>. For why a &ldquo;home storage&rdquo; IRA is risky, see <Link href="/blog/home-storage-gold-ira-scam" className="text-gold font-semibold">the home storage gold IRA problem</Link>.</p>
+      <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
+        GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver or administer IRAs. This article is for educational purposes only and does not constitute tax, legal, or investment advice.
+      </p>
+    </>
+  ),
+  "us-mint-gold-coin-prices-weekly-pricing-grid": (
+    <>
+      <p>If you buy a proof Gold Eagle or a commemorative gold coin directly from the U.S. Mint, you may notice the price changes from one week to the next, in round steps, while the bullion version of the same coin moves every minute with spot. That&apos;s because the Mint prices its collector gold on a published table called the pricing grid, and it resets those prices on Wednesdays. Knowing how the grid works tells you what you&apos;re paying for, and when.</p>
+      <h2>Two different price systems</h2>
+      <p><strong>Bullion coins.</strong> The Mint doesn&apos;t sell bullion American Eagles to the public. It sells them to its Authorized Purchasers at a published markup over the LBMA price: for the 1-ounce Gold Eagle, the LBMA PM gold price plus 3%, according to the Mint&apos;s <a href="https://www.usmint.gov/coins-precious-metal-coins/becoming-an-authorized-bullion-purchaser/" target="_blank" rel="noopener noreferrer">Authorized Purchaser page</a> (read November 7, 2026). Dealers add their own margins. Those prices change daily with the metal.</p>
+      <p><strong>Numismatic coins.</strong> Proof coins, burnished and uncirculated collector versions, commemoratives, and sets are sold by the Mint directly to collectors. Their prices come from the grid. In an August 2026 notice, the Mint said pricing &ldquo;can vary weekly dependent upon the London Bullion Market Association (LBMA) gold price weekly average,&rdquo; and that pricing for its numismatic gold, palladium, and platinum products &ldquo;is evaluated every Wednesday and modified, as necessary&rdquo; (<a href="https://www.federalregister.gov/documents/2026/08/12/2026-16409/establish-prices-for-2026-united-states-mint-numismatic-products" target="_blank" rel="noopener noreferrer">Federal Register, Aug. 12, 2026</a>).</p>
+      <h2>How the grid works</h2>
+      <p>The grid is a table. Down the left side are bands of the average gold price per ounce, in $50 steps: $2,000.00 to $2,049.99, $2,050.00 to $2,099.99, and so on. Across the top are the Mint&apos;s gold products. Each cell is the retail price of that product when the weekly average gold price falls in that band. The figures below come from the 2026 grid file the Mint linked from its product pages, last revised in late October 2026.</p>
+      <p>Each Wednesday, the Mint checks which band the weekly average fell into and sets prices from that row. If gold stays inside the same $50 band, the price doesn&apos;t change. If the average crosses into another band, every gold product reprices at once.</p>
+      <h2>What it costs right now</h2>
+      <p>Gold closed near $4,047 an ounce on November 6, 2026, on <a href="https://thegoldwindow.ai" target="_blank" rel="noopener noreferrer">The Gold Window</a>&apos;s spot series. In the grid&apos;s $4,000.00 to $4,049.99 band, the Mint&apos;s prices include:</p>
+      <ul>
+        <li>2026 American Eagle 1 oz Gold Proof: $4,900</li>
+        <li>American Eagle 1 oz Gold Uncirculated: $4,870</li>
+        <li>American Buffalo 1 oz 24K Gold Proof: $4,940</li>
+        <li>American Eagle 1/10 oz Gold Proof: $565</li>
+        <li>American Eagle 4-Coin Gold Proof Set (1.85 oz of gold): $9,190</li>
+      </ul>
+      <p>The Mint&apos;s product page for the 2026 1-ounce proof Eagle showed $4,900 when we checked on November 7, 2026, matching that band.</p>
+      <p>Compare a new bullion Gold Eagle: the Mint charges its wholesale buyers the gold price plus 3%, about $4,168 at $4,047 gold, before dealer margins. The proof costs roughly $730 more than that wholesale bullion price for the same ounce of gold, in a different finish and presentation case, with a limited mintage.</p>
+      <h2>A fixed dollar premium, not a fixed percentage</h2>
+      <p>Read across the grid and a pattern appears. For the 1-ounce proof Eagle, the price is $900 above the bottom of each gold band: $2,900 in the $2,000 band, $4,900 in the $4,000 band, $5,900 in the $5,000 band. The dollar premium stays the same while the percentage shrinks as gold rises:</p>
+      <ul>
+        <li>At a $2,000 average, $900 is 45% over the gold price.</li>
+        <li>At $4,000, it&apos;s about 22.5%.</li>
+        <li>At $5,000, it&apos;s 18%.</li>
+      </ul>
+      <p>So the percentage premium on a Mint proof isn&apos;t a sign of a good or bad deal on its own. It depends mostly on where gold is.</p>
+      <h2>What this means if you&apos;re buying</h2>
+      <ul>
+        <li><strong>Prices can change before your order does.</strong> A Mint gold product can reprice on a Wednesday. If gold is near the edge of a band, the price you see Tuesday may not be the price on Thursday.</li>
+        <li><strong>Mint collector prices aren&apos;t bullion prices.</strong> The grid premium pays for proof finishing, packaging, certificates, and limited mintages. Whether that&apos;s worth it is a collector&apos;s judgment.</li>
+        <li><strong>The resale market sets its own price.</strong> Once a coin sells out at the Mint, dealers price it on supply and demand. A proof can resell above or below what the Mint charged, and dealers&apos; buy prices for modern proofs vary. Ask for a buy price before you assume you&apos;ll get the issue price back. See <Link href="/blog/numismatic-premium-vs-bullion-value" className="text-gold font-semibold">numismatic premium vs. bullion value</Link>.</li>
+        <li><strong>Buying for metal?</strong> A bullion coin or bar puts more gold in your hands per dollar. See <Link href="/blog/how-much-over-spot-should-i-pay-for-gold-2026" className="text-gold font-semibold">how much over spot to pay for gold</Link>.</li>
+      </ul>
+      <p>The same grid governs the Mint&apos;s 2026 semiquincentennial gold products. Our <Link href="/blog/america-250-semiquincentennial-coins-fakes-buyers-guide" className="text-gold font-semibold">America 250 coins guide</Link> explains which pieces contain gold and which are gold-colored.</p>
+      <h2>Where to check</h2>
+      <p>The Mint links the current grid from its product pages and press releases as the &ldquo;Pricing of Numismatic Gold, Commemorative Gold, and Platinum and Palladium Products&rdquo; table. The Mint&apos;s Federal Register notices announce new products and price changes. The grid can be revised, so check the version posted on the day you buy.</p>
+      <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
+        GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver. This article is for educational purposes only and does not constitute investment advice.
       </p>
     </>
   ),

@@ -30,7 +30,7 @@ export const faqCategories: FAQCategory[] = [
       },
       {
         question: "What is a premium, and how much should I expect to pay?",
-        answer: "The premium is the amount a dealer charges above the spot price. It covers manufacturing, refining, minting, shipping, insurance, and the dealer\u2019s margin. Fair premiums vary by product type. Generic 1 oz gold bars and rounds typically carry premiums of about 2\u20134% over spot. Government-minted coins like American Gold Eagles run higher \u2014 roughly 3\u20136% in normal market conditions. Silver premiums run higher as a percentage than gold because the per-ounce price is lower and fixed costs make up a larger share. These ranges shift with market conditions, and knowing the typical range for what you\u2019re buying is the single best protection against overpaying.",
+        answer: "The premium is the amount a dealer charges above the spot price. It covers manufacturing, refining, minting, shipping, insurance, and the dealer\u2019s margin. Premiums aren\u2019t fixed; they move with mint supply, how much metal the public is selling back, and demand. They start at the mint: the U.S. Mint charges its wholesale buyers the LBMA gold price plus 3% for a 1-ounce Gold Eagle and the LBMA silver price plus $3.05 per Silver Eagle, and dealers add their margins. The best protection against overpaying is to compare a quote with that product\u2019s own recent range and with two or three other dealers the same day. Silver premiums run higher as a percentage because fixed costs are a bigger share of a lower metal value.",
         learnMoreLabel: "How Much Over Spot Should I Pay for Gold in 2026? (With Real Dollar Examples)",
         learnMoreHref: "/blog/how-much-over-spot-should-i-pay-for-gold-2026",
       },
@@ -54,7 +54,7 @@ export const faqCategories: FAQCategory[] = [
       },
       {
         question: "What\u2019s the difference between gold bars and gold coins?",
-        answer: "Gold bars \u2014 especially generic or private-mint bars \u2014 typically carry lower premiums than coins because they\u2019re cheaper to produce. Government-minted coins like Eagles, Maple Leafs, and Krugerrands carry higher premiums but are more universally recognized and generally easier to sell. There\u2019s also a size tradeoff: larger bars have lower per-ounce premiums, but they\u2019re less divisible. You can\u2019t sell half a 10 oz bar. Many buyers hold a mix of coins and bars to balance cost efficiency with flexibility.",
+        answer: "Gold bars \u2014 especially generic or private-mint bars \u2014 usually carry lower premiums than coins of the same weight because they\u2019re cheaper to produce; on one price-comparison site\u2019s tracking of the lowest dealer prices, 1-ounce secondary-market bars averaged a lower premium than random-year Gold Eagles in most months from mid-2025 to November 2026. Government-minted coins like Eagles, Maple Leafs, and Krugerrands carry higher premiums but are more universally recognized and generally easier to sell. There\u2019s also a size tradeoff: larger bars have lower per-ounce premiums, but they\u2019re less divisible. You can\u2019t sell half a 10 oz bar. Many buyers hold a mix of coins and bars to balance cost efficiency with flexibility.",
         learnMoreLabel: "Gold Coin Premiums Compared",
         learnMoreHref: "/blog/gold-coin-premiums-compared",
         links: [
@@ -87,7 +87,7 @@ export const faqCategories: FAQCategory[] = [
       },
       {
         question: "Should I buy silver bars or silver coins?",
-        answer: "It depends on your priorities. Silver coins from government mints (American Eagles, Canadian Maple Leafs) are universally recognized and easy to sell, but carry premiums of 12\u201325% over spot. Silver bars \u2014 especially 10 oz and 100 oz bars \u2014 carry much lower premiums per ounce (roughly 5\u20139% for 10 oz, 1.5\u20135% for 100 oz), giving you more silver for the same dollars. The tradeoff is liquidity and divisibility: you can sell one coin at a time, but you can\u2019t sell half a bar. Most experienced buyers hold a mix \u2014 coins for flexibility, bars for cost efficiency.",
+        answer: "It depends on your priorities. Silver coins from government mints (American Eagles, Canadian Maple Leafs) are universally recognized and easy to sell, but carry higher premiums, starting with the U.S. Mint\u2019s own charge of $3.05 per Silver Eagle to its wholesale buyers. Larger silver bars spread fixed costs over more ounces, so their premiums per ounce are usually much lower, giving you more silver for the same dollars. Silver premiums move more than gold\u2019s, so compare quotes on the same day rather than relying on a published range. The tradeoff is liquidity and divisibility: you can sell one coin at a time, but you can\u2019t sell half a bar. Most experienced buyers hold a mix \u2014 coins for flexibility, bars for cost efficiency.",
         learnMoreLabel: "Silver Premiums and How Bar Size Affects What You Pay",
         learnMoreHref: "/blog/silver-premiums-and-bar-size",
         links: [
@@ -96,7 +96,7 @@ export const faqCategories: FAQCategory[] = [
       },
       {
         question: "Why are silver premiums higher than gold premiums?",
-        answer: "It costs roughly the same amount to mint, package, ship, and sell a 1 oz silver coin as a 1 oz gold coin. But the gold coin is worth ~$3,200 and the silver coin is worth ~$32. Those fixed handling costs represent 3\u20135% of the gold coin\u2019s value but 15\u201325% of the silver coin\u2019s value. This is arithmetic, not dealer greed. The most effective way to reduce the percentage premium on silver is to buy larger formats \u2014 10 oz bars, 100 oz bars, or monster boxes \u2014 where the fixed cost is spread across more ounces.",
+        answer: "It costs roughly the same amount to mint, package, ship, and sell a 1 oz silver coin as a 1 oz gold coin. But an ounce of gold is worth roughly 80 times an ounce of silver, so the same dollar cost is a far bigger share of the silver coin\u2019s value. The U.S. Mint\u2019s own wholesale charges show it: 3% over the gold price for a 1-ounce Gold Eagle, but $3.05 per Silver Eagle, which was about 6% of a roughly $51 ounce of silver in November 2026, before any dealer margin. This is arithmetic, not dealer greed. The most effective way to reduce the percentage premium on silver is to buy larger formats \u2014 10 oz bars, 100 oz bars, or monster boxes \u2014 where the fixed cost is spread across more ounces.",
         learnMoreLabel: "Silver Premiums and How Bar Size Affects What You Pay",
         learnMoreHref: "/blog/silver-premiums-and-bar-size",
       },
@@ -402,14 +402,23 @@ export const faqCategories: FAQCategory[] = [
         learnMoreHref: "/blog/how-much-over-spot-should-i-pay-for-gold-2026",
       },
       {
+        question: "Why do U.S. Mint proof gold coin prices change every week?",
+        answer: "The Mint prices its numismatic gold, platinum, and palladium products (proofs, collector versions, commemoratives) from a published pricing grid. In an August 2026 Federal Register notice, it said prices can vary weekly with the LBMA gold price weekly average and are evaluated every Wednesday. The grid sets prices in $50 bands of the average gold price; if the average moves into a new band, every gold product reprices. Bullion Eagles are priced differently: the Mint sells them to Authorized Purchasers at the LBMA price plus a set markup (3% for a 1-ounce Gold Eagle), and dealers add their margins.",
+        learnMoreLabel: "Why the U.S. Mint\u2019s Gold Coin Prices Change Every Wednesday",
+        learnMoreHref: "/blog/us-mint-gold-coin-prices-weekly-pricing-grid",
+        links: [
+          { label: "Federal Register: Establish Prices for 2026 United States Mint Numismatic Products", href: "https://www.federalregister.gov/documents/2026/08/12/2026-16409/establish-prices-for-2026-united-states-mint-numismatic-products" },
+        ],
+      },
+      {
         question: "What is a fair premium for gold coins?",
-        answer: "It depends on the product. Generic gold rounds from private mints typically carry premiums of 3\u20136% over spot. American Gold Eagles usually run 5\u20138% in normal market conditions. Canadian Maple Leafs tend to fall in the 4\u20137% range. Specialty, proof, or limited-mintage coins carry premiums that vary widely based on collector demand and available supply. These ranges are not fixed \u2014 they shift with market conditions. Premiums tend to rise during periods of high public demand and compress during quieter markets.",
+        answer: "It depends on the coin and the month. Premiums move with supply and demand, so compare a quote with that coin\u2019s own recent range rather than a fixed number. On one price-comparison site\u2019s tracking of the lowest dealer prices, monthly averages ran about 0.6% to 3.8% over spot for random-year Gold Eagles (mid-2025 to November 2026), about 2.0% to 2.4% for 2026 Maple Leafs, and about 4.2% to 5.3% for 2026 Buffaloes. Those are the cheapest tracked prices, before card fees and shipping; most buyers pay somewhat more. Proof and limited-mintage coins are priced on a different basis.",
         learnMoreLabel: "Gold Coin Premiums Compared",
         learnMoreHref: "/blog/gold-coin-premiums-compared",
       },
       {
         question: "What is a fair premium for silver?",
-        answer: "Silver premiums run higher as a percentage than gold premiums. This is because the per-ounce price of silver is much lower, so fixed costs \u2014 minting, shipping, handling \u2014 represent a larger share of the total price. Government-minted silver coins carry the highest premiums: American Silver Eagles typically run 12\u201325% over spot, and Canadian Silver Maple Leafs run slightly lower. Premiums can spike when U.S. Mint supply is constrained. Larger silver bars carry lower percentage premiums, and 100 oz bars approach gold-like premiums of roughly 1.5\u20135%, which makes large bars the most cost-effective way to accumulate silver by weight.",
+        answer: "Silver premiums run higher as a percentage than gold premiums. This is because the per-ounce price of silver is much lower, so fixed costs \u2014 minting, shipping, handling \u2014 represent a larger share of the total price. Government-minted silver coins carry the highest premiums; the U.S. Mint alone charges its wholesale buyers $3.05 per Silver Eagle before any dealer margin. Silver premiums also move a lot: one price-comparison site\u2019s lowest tracked price for the 2026 Silver Maple Leaf averaged anywhere from about 2.5% to 12.9% over spot by month in 2026. Larger bars carry lower percentage premiums, which makes them the cheapest way to buy silver by weight. Compare same-day quotes rather than relying on a fixed range.",
         learnMoreLabel: "Silver Premiums and How Bar Size Affects What You Pay",
         learnMoreHref: "/blog/silver-premiums-and-bar-size",
         links: [
@@ -453,7 +462,7 @@ export const faqCategories: FAQCategory[] = [
         question: "What\u2019s a fair premium over spot for a 1-oz American Gold Eagle in 2026?",
         learnMoreLabel: "How Much Over Spot Should I Pay for Gold in 2026? (With Real Dollar Examples)",
         learnMoreHref: "/blog/how-much-over-spot-should-i-pay-for-gold-2026",
-        answer: "In normal market conditions, 3\u20136% over the live spot price. At gold near $5,100 an ounce, that\u2019s roughly a $150\u2013$310 premium per coin. Premiums above 10% on standard Eagles generally reflect either a temporary supply disruption or a dealer pricing well above the market. For a full breakdown of fair premium ranges across gold and silver bullion, see our guide on how much over spot to pay for gold.",
+        answer: "It changes, so there isn\u2019t one fair number. The U.S. Mint charges its wholesale buyers 3% over the LBMA gold price for a new 1-ounce Eagle, and dealers add their margins. For previously owned (random-year) Eagles, the lowest tracked dealer price averaged between about 0.6% and 3.8% over spot by month from mid-2025 to November 2026. Compare a quote with that range and with two or three other dealers the same day; a price far above both, with no market event to explain it, is the dealer, not the market.",
       },
       {
         question: "How do I spot a padded spot price?",
@@ -465,19 +474,19 @@ export const faqCategories: FAQCategory[] = [
         question: "What is the spot price of gold?",
         learnMoreLabel: "How Much Over Spot Should I Pay for Gold in 2026? (With Real Dollar Examples)",
         learnMoreHref: "/blog/how-much-over-spot-should-i-pay-for-gold-2026",
-        answer: "The spot price is the wholesale benchmark for institutional gold trading \u2014 what large dealers, refineries, and central banks pay each other for gold in 100-ounce or 1,000-ounce institutional bars. The LBMA Gold Price (set twice daily in London) and the COMEX gold futures contract together establish the reference point for nearly every other gold price worldwide. Retail buyers pay spot plus a premium covering minting, distribution, dealer overhead, and margin.",
+        answer: "The spot price is the wholesale benchmark for institutional gold trading \u2014 what large dealers, refineries, and central banks pay each other for gold in large institutional bars, such as London Good Delivery bars of roughly 400 troy ounces. The LBMA Gold Price (set twice daily in London) and the COMEX gold futures contract together establish the reference point for nearly every other gold price worldwide. Retail buyers pay spot plus a premium covering minting, distribution, dealer overhead, and margin.",
       },
       {
         question: "Why does my dealer charge more than the spot price?",
         learnMoreLabel: "How Much Over Spot Should I Pay for Gold in 2026? (With Real Dollar Examples)",
         learnMoreHref: "/blog/how-much-over-spot-should-i-pay-for-gold-2026",
-        answer: "The premium covers six things: mint cost (producing the coin), refining and fabrication, wholesale distribution markup, dealer overhead (rent, staff, security, insurance), inventory risk (the dealer absorbs spot price drops on inventory they hold), and dealer margin. For a 1-ounce gold coin in normal market conditions, the premium for an American Gold Eagle typically runs 3% to 6% over spot, and other 1-ounce gold products run roughly 2% to 5%.",
+        answer: "The premium covers six things: mint cost (producing the coin), refining and fabrication, wholesale distribution markup, dealer overhead (rent, staff, security, insurance), inventory risk (the dealer absorbs spot price drops on inventory they hold), and dealer margin. How much it adds up to changes with supply and demand. It starts at the mint: the U.S. Mint charges its wholesale buyers 3% over the gold price for a new 1-ounce Gold Eagle, before any dealer margin.",
       },
       {
         question: "What\u2019s a fair premium on a Gold American Eagle?",
         learnMoreLabel: "Gold Coin Premiums Compared",
         learnMoreHref: "/blog/gold-coin-premiums-compared",
-        answer: "3% to 7% over spot is the typical range for a 1-ounce Gold American Eagle in normal 2026 market conditions. Premiums above 8% during normal market conditions are above market. Premiums below 3% are rare and warrant questions \u2014 sometimes a legitimate promotional offer, sometimes a sign of counterfeit risk on lesser-known dealer sites.",
+        answer: "There isn\u2019t a fixed one. Premiums move with mint supply, buyback volume, and demand. As a yardstick, the U.S. Mint charges its wholesale buyers 3% over the LBMA gold price for a new 1-ounce Eagle, and one price-comparison site\u2019s lowest tracked price for random-year Eagles averaged about 0.6% to 3.8% over spot by month from mid-2025 to November 2026. Most buyers pay somewhat more than the cheapest tracked price. A quote far above the recent range with no market event behind it deserves questions; a price well below spot from an unfamiliar site is a counterfeit warning sign.",
       },
       {
         question: "Are gold bars cheaper than gold coins?",
@@ -845,6 +854,21 @@ export const faqCategories: FAQCategory[] = [
         links: [
           { label: "Why Silver Eagles Cost So Much in 2026, and When They\u2019re Worth It", href: "/blog/silver-eagle-premiums-2026" },
         ],
+      },
+      {
+        question: "Do I have to take required minimum distributions from a gold IRA?",
+        answer: "Yes, if it\u2019s a traditional IRA. Owners who reached 72 after 2022 must begin RMDs by April 1 of the year after they turn 73, and each later RMD is due by December 31. The amount is the December 31 balance divided by your IRS life-expectancy factor, and the custodian must value the metal at fair market value each year. If you own more than one traditional IRA, you can total the RMDs and take them from any one or more of them, so a metal IRA\u2019s RMD can come from another traditional IRA. Original Roth IRA owners have no RMDs. This is general information, not tax advice.",
+        learnMoreLabel: "Gold IRA RMDs: Sell the Metal or Take the Coins Before Dec. 31?",
+        learnMoreHref: "/blog/gold-ira-rmd-in-kind-distribution-2026",
+        links: [
+          { label: "IRS Publication 590-B: Distributions from IRAs", href: "https://www.irs.gov/publications/p590b" },
+        ],
+      },
+      {
+        question: "Can I take my RMD in gold coins instead of cash?",
+        answer: "Generally, yes, if your custodian offers in-kind distributions. The custodian ships the metal and reports its fair market value on the distribution date on Form 1099-R, and you owe ordinary income tax on that value as if it were cash. Your basis in the coins is generally that value, and your holding period generally starts when you receive them. You still need cash for the tax, custodians charge for shipping and handling, and RMD amounts can\u2019t be rolled back into an IRA. How custodians value coins (spot or a dealer\u2019s bid) isn\u2019t set by IRS guidance, so ask.",
+        learnMoreLabel: "Gold IRA RMDs: Sell the Metal or Take the Coins Before Dec. 31?",
+        learnMoreHref: "/blog/gold-ira-rmd-in-kind-distribution-2026",
       },
     ],
   },

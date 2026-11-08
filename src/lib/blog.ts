@@ -126,9 +126,9 @@ export const blogPosts: BlogPost[] = [
     tag: "Premiums & Pricing",
     tagColor: "forest",
     excerpt:
-      "Not all one-ounce gold coins cost the same. The difference is the premium \u2014 and understanding why certain coins carry higher premiums can save you hundreds of dollars per ounce.",
+      "Every one-ounce gold coin holds the same gold, but premiums differ by coin and move by month. What the recent record shows for Eagles, Maples and Buffaloes, why they differ, and how to judge a quote against each coin\u2019s own range.",
     date: "2026-03-24",
-    dateModified: "2026-11-06",
+    dateModified: "2026-11-09",
     series: "Spot Price vs. What You Pay",
   },
   {
@@ -203,9 +203,9 @@ export const blogPosts: BlogPost[] = [
     tag: "Premiums & Pricing",
     tagColor: "forest",
     excerpt:
-      "Gold is near $5,100 an ounce \u2014 so what\u2019s a fair premium, what crosses into overpriced, and where do the worst rip-offs hide? Dollar-by-dollar ranges for standard bullion products, plus the \u201Cpadded spot price\u201D trick that makes unfair premiums look reasonable.",
+      "Premiums move, so a fixed \u201Cfair\u201D number goes stale. Where premiums start (the Mint\u2019s own charge), what the recent record shows for Eagles, Maples, Buffaloes and bars, how to read today\u2019s quote against that range, and the padded-spot trick.",
     date: "2026-04-20",
-    dateModified: "2026-09-28",
+    dateModified: "2026-11-09",
     series: "Spot Price vs. What You Pay",
   },
   {
@@ -567,12 +567,31 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "gold-silver-tax-loss-selling-2026-wash-sale",
     title:
-      "Gold Fell Below ,000. Can You Harvest a Bullion Loss Before Dec. 31?",
+      "Gold Fell Below $4,000. Can You Harvest a Bullion Loss Before Dec. 31?",
     tag: "Education",
     tagColor: "forest",
     excerpt:
       "With gold well off its 2026 high, many owners hold metal worth less than they paid. Here is when a bullion loss is deductible, how the collectibles rules net it, why the wash-sale statute doesn't name physical metal (and where ETFs differ), and why dealer spreads can erase the benefit.",
     date: "2026-11-02",
+  },
+  {
+    slug: "gold-ira-rmd-in-kind-distribution-2026",
+    title: "Gold IRA RMDs: Sell the Metal or Take the Coins Before Dec. 31?",
+    tag: "Education",
+    tagColor: "forest",
+    excerpt:
+      "If you hold metal in a traditional IRA and you\u2019re 73 or older, your 2026 RMD is due by Dec. 31. How the RMD is figured for metal, why you may be able to take it from another IRA, and the tax and practical differences between selling inside the IRA and taking coins in kind.",
+    date: "2026-11-09",
+  },
+  {
+    slug: "us-mint-gold-coin-prices-weekly-pricing-grid",
+    title: "Why the U.S. Mint\u2019s Gold Coin Prices Change Every Wednesday",
+    tag: "Premiums & Pricing",
+    tagColor: "forest",
+    excerpt:
+      "U.S. Mint proof and collector gold isn\u2019t priced like bullion. How the Mint\u2019s weekly pricing grid works, what a 1-ounce proof Eagle costs at today\u2019s gold price, and why its dollar premium stays fixed while the percentage shrinks.",
+    date: "2026-11-09",
+    series: "Spot Price vs. What You Pay",
   },
 ];
 
