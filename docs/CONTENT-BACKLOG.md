@@ -63,3 +63,4 @@ Logged during blog cycles; worked during the monthly audit.
 | 2026-10-06 | Content ops setup | Near-duplicate clusters (gold-ira pair, four spot-price posts) | Consolidated with redirects to the newest | judgment | Done 2026-10-11 |
 | 2026-10-06 | Content ops setup | src/lib/blog.ts tags | Tag pairs merged (Investor Education to Education, Consumer Protection to Investor Protection, Market Analysis to Market Dynamics) | judgment | Done 2026-10-11 |
 | 2026-10-06 | Content ops setup | src/lib/blog.ts | "Don't Get Ripped Off" tag stored two ways | mechanical | Done 2026-10-11 |
+| 2026-11-17 | Blog cycle | sell-back-spreads-what-dealers-actually-pay | Fixed percentages with no source and a stale $34 silver example; rewrite with dated, sourced ranges and the "premiums continually change" framing | judgment | Open |

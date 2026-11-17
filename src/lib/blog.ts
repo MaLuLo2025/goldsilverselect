@@ -521,6 +521,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "An American Silver Eagle and a generic silver round can hold the same ounce of silver and still sell at very different prices. Here is how an Eagle's price is built, what the US Mint's 2026 pricing notice actually covered, what Mint sales data shows, and when the extra premium buys you something real.",
     date: "2026-10-19",
+    dateModified: "2026-11-17",
   },
   {
     slug: "gold-bar-courier-scam-government-impersonators-2026",
@@ -592,6 +593,24 @@ export const blogPosts: BlogPost[] = [
       "U.S. Mint proof and collector gold isn\u2019t priced like bullion. How the Mint\u2019s weekly pricing grid works, what a 1-ounce proof Eagle costs at today\u2019s gold price, and why its dollar premium stays fixed while the percentage shrinks.",
     date: "2026-11-09",
     series: "Spot Price vs. What You Pay",
+  },
+  {
+    slug: "gold-ira-contribution-limit-2027",
+    title: "Gold IRA Contributions in 2027: The $7,500 Limit Didn\u2019t Change",
+    tag: "Education",
+    tagColor: "forest",
+    excerpt:
+      "The IRS left the 2027 IRA contribution limit at $7,500, with a $1,100 catch-up at 50. What that means for a gold or silver IRA: contributions must be cash, rollovers and transfers aren\u2019t capped, and why a trustee-to-trustee transfer is the safer way to fund one.",
+    date: "2026-11-17",
+  },
+  {
+    slug: "silver-critical-mineral-section-232-tariff-status",
+    title: "Silver Is a U.S. Critical Mineral. Does That Mean Tariffs on Silver Bullion?",
+    tag: "Market Dynamics",
+    tagColor: "gold",
+    excerpt:
+      "Silver joined the USGS critical minerals list in November 2025, and a Section 232 investigation followed. What the designation does, why the January 2026 proclamation imposed no tariff, what the reciprocal-tariff ruling changed, and what to watch if you buy silver.",
+    date: "2026-11-17",
   },
 ];
 

@@ -343,7 +343,7 @@ export const faqCategories: FAQCategory[] = [
       },
       {
         question: "What percentage of melt value should dealers pay when I sell silver?",
-        answer: "Reputable bullion dealers typically pay 90\u201397% of melt value for generic bullion products. Large quantities of recognizable bullion (100+ oz of Silver Eagles) fetch 96\u201397%. Medium quantities (10\u2013100 oz) get 92\u201395%. Small quantities (under 10 oz) or oddball products get 90\u201392%. If a dealer offers less than 90% of melt on generic bullion, they\u2019re either running high overhead, exploiting your urgency, or planning to resell at abnormally high premiums.",
+        answer: "There is no fixed percentage. A dealer\u2019s buy price (its bid) changes daily with the silver market, the product, the quantity, and how much of that product the dealer needs. Recognized government coins and standard bars usually draw the strongest bids; small lots, damaged pieces, and unusual items draw weaker ones. Get same-day bids from several dealers for the same product and quantity, convert each to a percentage of spot, and compare them. The warning sign is a bid well below what other dealers offer that day, not a bid below a rule-of-thumb percentage.",
         learnMoreLabel: "What Dealers Actually Pay: Sell-Back Spreads Explained",
         learnMoreHref: "/blog/sell-back-spreads-what-dealers-actually-pay",
       },
@@ -358,7 +358,7 @@ export const faqCategories: FAQCategory[] = [
       },
       {
         question: "What products get the best sell-back rates?",
-        answer: "Government bullion (Silver Eagles, Maples, Britannias) sells back at 95\u201397% of melt because they\u2019re universally recognized and easy to authenticate. Generic rounds and bars sell at 92\u201395%. Junk silver (90% coins) sells at 90\u201394% depending on quantity. Foreign government bullion varies 93\u201396% based on recognition. Numismatic coins are unpredictable (50\u201390% of recent retail depending on market). If you\u2019re buying silver to preserve wealth with potential need to sell, stick to products with the highest sell-back rates.",
+        answer: "Products a dealer can authenticate and resell quickly: government bullion coins such as Silver Eagles, Maple Leafs, and Britannias, and standard bars from recognized refiners. Generic rounds and 90% junk silver usually follow. Numismatic coins depend on the collector market and can sell well below what you paid. Bids for each product move on their own, so the order can change from month to month. Before you buy, ask the dealer what it is bidding today for the same product, so you know the round-trip cost.",
         learnMoreLabel: "What Dealers Actually Pay: Sell-Back Spreads Explained",
         learnMoreHref: "/blog/sell-back-spreads-what-dealers-actually-pay",
       },
@@ -820,7 +820,7 @@ export const faqCategories: FAQCategory[] = [
     items: [
       {
         question: "Is a Gold IRA a legitimate retirement strategy?",
-        answer: "Gold IRAs\u2014self-directed IRAs holding physical precious metals at a qualified depository\u2014are a legitimate account structure. The metals are real, the statutory framework under IRC \u00a7 408(m) is real, and the tax advantages mirror traditional or Roth IRAs. The concern isn\u2019t the structure; it\u2019s the cost structure most companies apply: dealer markups of 10-40% above market prices on product going into the account, plus annual custodian fees, plus depository storage fees of 0.5-1% annually, plus liquidation costs. These fees require significant price appreciation just to break even. Evaluate total cost\u2014not just the tax advantage pitch\u2014before opening an account.",
+        answer: "Gold IRAs\u2014self-directed IRAs holding physical precious metals at a qualified depository\u2014are a legitimate account structure. The metals are real, the statutory framework under IRC \u00a7 408(m) is real, and the tax advantages mirror traditional or Roth IRAs. The concern isn\u2019t the structure; it\u2019s the cost structure most companies apply: dealer markups on the metal going into the account that can run far above open-market premiums, plus annual custodian fees, plus depository storage fees, plus liquidation costs. These fees require significant price appreciation just to break even. Evaluate total cost\u2014not just the tax advantage pitch\u2014before opening an account.",
         learnMoreLabel: "Gold IRA Fees and Scams: What the Industry Doesn\u2019t Want You to Calculate",
         learnMoreHref: "/blog/gold-ira-fees-scams",
       },
@@ -842,7 +842,7 @@ export const faqCategories: FAQCategory[] = [
       },
       {
         question: "What does physical gold in a Gold IRA actually cost?",
-        answer: "Three fee layers: (1) dealer markup above spot price on the product purchased\u2014often 10-40% above open-market prices in direct-to-consumer gold IRA channels; (2) annual custodian maintenance fees, typically $50-$300/year; (3) depository storage fees, typically 0.5-1% of account value annually. A $100,000 account can absorb $10,000-$40,000 in initial markup plus roughly $550-$1,300/year in ongoing custodian and storage fees. Get a complete written fee schedule before committing to any provider, and compare the product price they quote against standard dealer premiums.",
+        answer: "Three fee layers: (1) the dealer\u2019s markup over spot on the metal bought for the account, which in direct-to-consumer gold IRA sales can be far above open-market premiums; (2) the custodian\u2019s fees, usually a setup fee plus an annual fee, flat or tiered by account value, set by each custodian\u2019s published schedule; (3) the depository\u2019s storage fee, flat or a percentage of value, with segregated storage usually costing more than commingled. Fees change and differ by provider, so get all three in writing and add them up for your account size. Then compare the product price you\u2019re quoted with same-day prices for the same coin or bar from ordinary bullion dealers.",
         learnMoreLabel: "Gold IRA Fees and Scams: What the Industry Doesn\u2019t Want You to Calculate",
         learnMoreHref: "/blog/gold-ira-fees-scams",
       },
@@ -869,6 +869,18 @@ export const faqCategories: FAQCategory[] = [
         answer: "Generally, yes, if your custodian offers in-kind distributions. The custodian ships the metal and reports its fair market value on the distribution date on Form 1099-R, and you owe ordinary income tax on that value as if it were cash. Your basis in the coins is generally that value, and your holding period generally starts when you receive them. You still need cash for the tax, custodians charge for shipping and handling, and RMD amounts can\u2019t be rolled back into an IRA. How custodians value coins (spot or a dealer\u2019s bid) isn\u2019t set by IRS guidance, so ask.",
         learnMoreLabel: "Gold IRA RMDs: Sell the Metal or Take the Coins Before Dec. 31?",
         learnMoreHref: "/blog/gold-ira-rmd-in-kind-distribution-2026",
+      },
+      {
+        question: "How much can I contribute to a gold IRA in 2027?",
+        answer: "The same as any IRA: $7,500 for 2027, plus a $1,100 catch-up if you\u2019re 50 or older, across all your IRAs combined. The IRS left both figures unchanged from 2026 in its November 12, 2026 announcement (IR-2026-136). Rollovers and trustee-to-trustee transfers from other retirement accounts don\u2019t count against the limit.",
+        learnMoreLabel: "Gold IRA Contributions in 2027: The $7,500 Limit Didn\u2019t Change",
+        learnMoreHref: "/blog/gold-ira-contribution-limit-2027",
+      },
+      {
+        question: "Can I put gold coins I already own into my IRA?",
+        answer: "No. Apart from rollovers, the tax code says an IRA can\u2019t accept a contribution unless it is in cash (26 U.S.C. § 408(a)(1)). You contribute dollars, and the IRA buys metal through its custodian. Selling your coins and having the IRA buy metal means paying a dealer spread on both sides.",
+        learnMoreLabel: "Gold IRA Contributions in 2027: The $7,500 Limit Didn\u2019t Change",
+        learnMoreHref: "/blog/gold-ira-contribution-limit-2027",
       },
     ],
   },
@@ -948,6 +960,12 @@ export const faqCategories: FAQCategory[] = [
         answer: "Central bank purchases represent structural, price-insensitive demand that doesn\u2019t fluctuate with retail sentiment. When central banks are buying hundreds of tonnes per year, they\u2019re absorbing meaningful annual production at whatever price the market clears. This provides a demand floor that has historically supported prices. Central banks have been net buyers for 15 consecutive years. That\u2019s a significant shift from the 1990s and 2000s when central bank selling was a major gold market headwind.",
         learnMoreLabel: "Central Bank Gold Buying: What It Is, Who’s Doing It, and Why It Matters to You",
         learnMoreHref: "/blog/central-bank-gold-buying",
+      },
+      {
+        question: "Is silver being tariffed now that it\u2019s a critical mineral?",
+        answer: "Not as of November 2026, as far as we have found. Silver joined the USGS critical minerals list in November 2025. A Section 232 investigation found imports of processed critical minerals threaten national security, but Proclamation 11001 (January 14, 2026) ordered negotiations rather than a tariff and left future remedies open, including minimum import prices. How any future measure would treat coins and bars isn\u2019t settled.",
+        learnMoreLabel: "Silver Is a U.S. Critical Mineral. Does That Mean Tariffs on Silver Bullion?",
+        learnMoreHref: "/blog/silver-critical-mineral-section-232-tariff-status",
       },
     ],
   },

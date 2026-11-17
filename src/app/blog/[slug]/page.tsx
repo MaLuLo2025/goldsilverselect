@@ -6548,6 +6548,28 @@ const blogContent: Record<string, React.ReactNode> = {
       <p>
         What this means for you: soft wholesale demand does not automatically translate into a low retail premium. Each layer of the chain sets its own margin. The only way to know what Eagles cost today is to check several dealers&apos; current prices and do the premium math yourself.
       </p>
+      <h2>How Eagle premiums have moved in 2026</h2>
+      <p>
+        There is no correct premium for a Silver Eagle. It changes with silver prices, Mint supply, and how much the public is buying. The useful question is where today&apos;s premium sits against its own recent history.
+      </p>
+      <p>
+        The floor is the Mint&apos;s charge to its Authorized Purchasers, which its <a href="https://www.usmint.gov/coins-precious-metal-coins/becoming-an-authorized-bullion-purchaser/" target="_blank" rel="noopener noreferrer">Authorized Purchaser page</a> lists as the LBMA silver price plus $3.05 per coin. Everything above that is wholesale and dealer margin.
+      </p>
+      <p>
+        For the retail price, the comparison site FindBullionPrices tracks the lowest listed dealer price for the 2026 Silver Eagle every day. Its <a href="https://findbullionprices.com/premium-history/silver-coins/2026-american-silver-eagle-1-oz-bu-coin/" target="_blank" rel="noopener noreferrer">premium history</a> (read November 17, 2026) shows these monthly averages of that lowest premium over spot:
+      </p>
+      <ul>
+        <li><strong>December 2025 to January 2026:</strong> about 9.6% to 9.8%.</li>
+        <li><strong>February 2026:</strong> 16.26%, the high month, with a single-day high of 19.16% on February 17.</li>
+        <li><strong>March to October 2026:</strong> between 6.87% (August) and 9.57% (March). The single-day low was 5.30% on April 24.</li>
+        <li><strong>November 2026 (through the 17th):</strong> 9.68%, about $4.90 over an average spot of $50.72.</li>
+      </ul>
+      <p>
+        Two cautions about those numbers. They track the cheapest listed dealer each day, so the price at a typical dealer is higher. And they are percentages: when silver falls, the same dollar premium becomes a larger percentage of spot.
+      </p>
+      <p>
+        Experienced buyers and traders read premiums this way. A premium well below its recent range has meant the product was cheap relative to its metal. A premium well above its range, like February 2026, has meant buyers were paying extra for immediate supply. At those times, selling into strong dealer bids can capture some of that premium, if bids have risen too. Neither is a forecast. The same site&apos;s <a href="https://findbullionprices.com/premium-history/silver-bars/1-oz-Silver-Bar-Random-Generic/" target="_blank" rel="noopener noreferrer">history for generic 1 oz silver bars</a> shows their lowest premium averaging 0.23% to 0.68% in September and October 2026 and 4.14% so far in November, so premiums on different products don&apos;t always move together.
+      </p>
       <h2>Eagles vs. generic rounds and bars</h2>
       <p>
         <strong>Generic rounds and bars</strong> are made by private mints and refiners, not governments. They usually carry lower premiums than sovereign coins because there&apos;s no government mint markup, no legal tender status, and often lower production costs. Larger bars generally carry lower premiums per ounce than smaller pieces, a pattern covered in detail in {" "}
@@ -7168,6 +7190,104 @@ const blogContent: Record<string, React.ReactNode> = {
       <p>The Mint links the current grid from its product pages and press releases as the &ldquo;Pricing of Numismatic Gold, Commemorative Gold, and Platinum and Palladium Products&rdquo; table. The Mint&apos;s Federal Register notices announce new products and price changes. The grid can be revised, so check the version posted on the day you buy.</p>
       <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
         GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver. This article is for educational purposes only and does not constitute investment advice.
+      </p>
+    </>
+  ),
+  "gold-ira-contribution-limit-2027": (
+    <>
+      <p>
+        On November 12, 2026, the IRS announced the 2027 retirement-account limits. For IRAs, nothing moved. Under <a href="https://www.irs.gov/newsroom/401k-limit-increases-to-25500-for-2027-ira-limit-remains-7500" target="_blank" rel="noopener noreferrer">IR-2026-136</a> and Notice 2026-66, the annual IRA contribution limit stays at <strong>$7,500</strong>, and the extra catch-up amount for people 50 and older stays at <strong>$1,100</strong>. The 401(k) employee limit rose to $25,500.
+      </p>
+      <p>
+        Those limits apply to a gold or silver IRA the same way they apply to any other IRA. A self-directed IRA that holds metal is still an IRA. What trips people up is how money gets into one, because most metal IRAs are funded by moving old retirement money, not by new contributions.
+      </p>
+      <h2>The 2027 numbers</h2>
+      <ul>
+        <li><strong>Contribution limit:</strong> $7,500 across all your traditional and Roth IRAs combined, not per account.</li>
+        <li><strong>Age 50 and over:</strong> $1,100 more, for $8,600 in total.</li>
+        <li><strong>Roth eligibility:</strong> the Roth contribution phases out between $158,000 and $173,000 of modified adjusted gross income for single filers and heads of household, and between $250,000 and $260,000 for married couples filing jointly.</li>
+        <li><strong>Deducting a traditional IRA contribution</strong> when you&apos;re covered by a workplace plan: the deduction phases out between $83,000 and $93,000 for single filers, and between $133,000 and $153,000 for married couples filing jointly when the contributing spouse is covered.</li>
+      </ul>
+      <p>
+        All four figures are in the IRS release. The limit for 2026 contributions was also $7,500, so a contribution for either year is capped at the same amount.
+      </p>
+      <h2>Contributions must be cash</h2>
+      <p>
+        You can&apos;t contribute coins or bars you already own. The tax code says it plainly: under <a href="https://www.law.cornell.edu/uscode/text/26/408" target="_blank" rel="noopener noreferrer">26 U.S.C. § 408(a)(1)</a>, apart from rollovers, &ldquo;no contribution will be accepted unless it is in cash.&rdquo; You contribute dollars, and the IRA then buys metal through the custodian. If someone offers to &ldquo;put your coins in an IRA,&rdquo; they mean you would sell your coins and the IRA would buy metal, which usually means paying the spread twice.
+      </p>
+      <p>
+        The metal the IRA buys must also meet the IRA rules on what it can hold and where it&apos;s stored. Our guide to <Link href="/blog/ira-eligible-silver-rules-depositories-2026" className="text-gold font-semibold">IRA-eligible silver and depositories</Link> covers fineness and storage.
+      </p>
+      <h2>Rollovers and transfers aren&apos;t capped by the $7,500</h2>
+      <p>
+        Most metal IRAs are funded by moving money from a 401(k) or another IRA. That money doesn&apos;t count against the contribution limit. There are two ways to move it, and the difference matters:
+      </p>
+      <ul>
+        <li><strong>Trustee-to-trustee transfer.</strong> The old custodian sends the money directly to the new one. The IRS says these transfers are not limited, because a direct transfer &ldquo;isn&apos;t a rollover.&rdquo;</li>
+        <li><strong>60-day rollover.</strong> You receive the money and deposit it in the new IRA within 60 days. Between IRAs, you get only one of these in any 12-month period, counting all your IRAs together, under the IRS&apos;s <a href="https://www.irs.gov/retirement-plans/ira-one-rollover-per-year-rule" target="_blank" rel="noopener noreferrer">one-rollover-per-year rule</a>. A second one can become a taxable distribution.</li>
+      </ul>
+      <p>
+        For moving money into a metal IRA, a direct transfer is the safer route. Ask the new custodian to request the funds from the old one.
+      </p>
+      <h2>Fees count against a small contribution</h2>
+      <p>
+        A $7,500 contribution doesn&apos;t go far against the costs of a metal IRA. There is usually a custodian setup fee, an annual custodian fee, and a storage fee, plus the dealer&apos;s markup on the metal the IRA buys. Those costs are the same whether the account holds $7,500 or $75,000, so they take a much bigger bite of a small account. Get every fee in writing and add them up for your account size before you open one. Our article on <Link href="/blog/gold-ira-fees-scams" className="text-gold font-semibold">gold IRA fees</Link> walks through them.
+      </p>
+      <h2>Timing</h2>
+      <ul>
+        <li><strong>2026 contributions</strong> can generally be made until the tax-filing deadline for 2026, April 15, 2027. A filing extension doesn&apos;t extend it.</li>
+        <li><strong>2027 contributions</strong> can start January 1, 2027.</li>
+        <li><strong>Over the limit?</strong> The IRS charges a 6% tax each year an excess contribution stays in the account, unless you withdraw it, with any earnings, by your return&apos;s due date, including extensions.</li>
+      </ul>
+      <p>
+        If you&apos;re 73 or older with a traditional IRA, the year-end question is usually a required distribution, not a contribution. See our article on <Link href="/blog/gold-ira-rmd-in-kind-distribution-2026" className="text-gold font-semibold">Gold IRA RMDs</Link>.
+      </p>
+      <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
+        GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver. This article is for educational purposes only and does not constitute investment or tax advice.
+      </p>
+    </>
+  ),
+  "silver-critical-mineral-section-232-tariff-status": (
+    <>
+      <p>
+        Silver is now officially a U.S. critical mineral. That label has produced a steady stream of headlines about tariffs, stockpiles, and supply squeezes. Here is what the designation actually does, what the government has and hasn&apos;t done about silver imports, and what it means for someone buying coins and bars.
+      </p>
+      <h2>What happened</h2>
+      <p>
+        In November 2025 the U.S. Geological Survey published its final <a href="https://www.usgs.gov/news/science-snippet/interior-department-releases-final-2025-list-critical-minerals" target="_blank" rel="noopener noreferrer">2025 List of Critical Minerals</a>, 60 minerals in all. The list added 10 new ones: boron, copper, lead, metallurgical coal, phosphate, potash, rhenium, silicon, silver, and uranium. Platinum and palladium were already on the list.
+      </p>
+      <p>
+        A critical minerals list is a planning document. It tells federal agencies which minerals to treat as vital to the economy and national security and vulnerable to supply disruption. It guides permitting, research, and federal investment. By itself, it doesn&apos;t tax, restrict, or stockpile anything.
+      </p>
+      <h2>The tariff question</h2>
+      <p>
+        The list matters for trade because of a separate investigation. In April 2025 the Commerce Department opened a Section 232 national-security investigation into imports of &ldquo;processed critical minerals and their derivative products.&rdquo; Section 232 lets the President adjust imports that threaten national security, including with tariffs. Silver&apos;s addition to the USGS list is why silver comes up in that conversation.
+      </p>
+      <p>
+        On January 14, 2026, the President issued <a href="https://www.federalregister.gov/documents/2026/01/20/2026-01045/adjusting-imports-of-processed-critical-minerals-and-their-derivative-products-into-the-united" target="_blank" rel="noopener noreferrer">Proclamation 11001</a>. It accepted Commerce&apos;s finding that imports of processed critical minerals threaten national security, but it did not impose a tariff. Instead it ordered Commerce and the U.S. Trade Representative to negotiate agreements with trading partners and report on progress within 180 days, by July 13, 2026. It kept other options open, saying the President &ldquo;may consider alternative remedies in the future, including minimum import prices for specific types of critical minerals.&rdquo;
+      </p>
+      <p>
+        As of this writing, we have not found a Section 232 tariff on silver bullion, or a published decision on how a future measure would treat coins and bars as opposed to industrial silver products. That is the honest state of things: the authority exists, the investigation is closed, and the remedy is open.
+      </p>
+      <h2>What about the other tariffs?</h2>
+      <p>
+        Bullion buyers lived through one tariff scare already. In August 2025, a customs ruling suggested some gold bars could fall under the country-by-country &ldquo;reciprocal&rdquo; tariffs. A September 5, 2025 executive order then added bullion and precious-metal items, including silver bullion and doré, to the list of goods exempt from those tariffs, according to the <a href="https://www.ipmi.org/news/president-trump-issues-updated-executive-order-precious-metals-tariffs" target="_blank" rel="noopener noreferrer">International Precious Metals Institute</a>. On February 20, 2026, the Supreme Court held in <em>Learning Resources, Inc. v. Trump</em> that the emergency-powers law behind the reciprocal tariffs doesn&apos;t authorize tariffs at all. Section 232 is a different law, and that ruling doesn&apos;t limit it.
+      </p>
+      <h2>What it means if you buy silver</h2>
+      <ul>
+        <li><strong>Prices.</strong> The designation didn&apos;t change how silver is priced. Spot is still set in global markets. But tariff headlines can move U.S. prices and premiums quickly, as they did for gold in August 2025, because dealers and wholesalers react to the risk before anything is decided.</li>
+        <li><strong>Premiums.</strong> If a tariff were ever placed on imported silver, the likeliest first effect for a retail buyer would be on premiums for imported coins and bars, and on the gap between U.S. and London prices. Watch premiums, not just spot. Our article on <Link href="/blog/silver-eagle-premiums-2026" className="text-gold font-semibold">Silver Eagle premiums</Link> shows how to read them against their history.</li>
+        <li><strong>Supply.</strong> The list reflects concern about supply chains, which our articles on <Link href="/blog/silver-supply-deficit" className="text-gold font-semibold">silver supply</Link> and <Link href="/blog/silver-demand-solar-ai-ev-2026" className="text-gold font-semibold">industrial demand</Link> cover. Critical status doesn&apos;t mean shortage, and it doesn&apos;t predict price.</li>
+        <li><strong>Sales pitches.</strong> Expect some sellers to use &ldquo;critical mineral&rdquo; and &ldquo;tariffs are coming&rdquo; as urgency. The designation is a year old and no silver tariff has followed. Urgency is a reason to compare prices more carefully, not less.</li>
+      </ul>
+      <h2>What to watch</h2>
+      <ul>
+        <li>Any new proclamation or Federal Register notice under Section 232 on processed critical minerals.</li>
+        <li>Agreements with major silver suppliers that come out of the negotiations.</li>
+        <li>The next USGS list update, which the law requires at least every three years.</li>
+      </ul>
+      <p style={{ color: "#999", fontSize: "13px", marginTop: "2em", fontStyle: "italic" }}>
+        GoldSilverSelect.com is an independent directory of local and online precious metals dealers. We do not sell gold or silver. This article reflects public sources as of November 17, 2026 and is for educational purposes only. It does not constitute investment advice.
       </p>
     </>
   ),
